@@ -1,0 +1,4 @@
+---
+name: pink
+layout: tag
+---

@@ -1,0 +1,4 @@
+---
+name: Spain
+layout: origin
+---

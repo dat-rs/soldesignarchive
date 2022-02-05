@@ -1,0 +1,4 @@
+---
+name: theatre
+layout: tag
+---

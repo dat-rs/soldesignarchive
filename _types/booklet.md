@@ -1,0 +1,4 @@
+---
+name: booklet
+layout: type
+---

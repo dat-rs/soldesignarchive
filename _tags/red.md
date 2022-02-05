@@ -1,0 +1,4 @@
+---
+name: red
+layout: tag
+---

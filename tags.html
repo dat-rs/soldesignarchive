@@ -1,0 +1,28 @@
+---
+layout: default
+title: rsda | tags
+---
+
+<div class="tags holder">
+    
+    <div class="container container-browse">
+    <div class="row">
+        
+        <div class="col-12">
+            
+            <h3 class="page-sub-title">Tags</h3>
+            
+        </div>
+        
+        <div class="col-12">
+        
+        {% for tag in site.tags %}
+
+            <h2 class="title index"><a class="browse-link index" href="{{ tag.url }}">{{ tag.name }}</a></h2>
+                  
+        {% endfor %}
+        </div>
+    </div>
+</div>
+    
+</div>

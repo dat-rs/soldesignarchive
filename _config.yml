@@ -1,0 +1,36 @@
+name: soldesignarchive
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+feed:
+  collections:
+    - artifacts
+pagination:
+  enabled: false
+  debug: false
+  per_page: 6
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+collections:
+  artifacts:
+    output: true
+    permalink: /artifacts/:path/
+  authors:
+    output: true
+    permalink: /authors/:path/
+  origins:
+    output: true
+    permalink: /origins/:path/
+  years:
+    output: true
+    permalink: /years/:path/
+  types:
+    output: true
+    permalink: /types/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
