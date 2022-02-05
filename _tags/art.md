@@ -1,0 +1,4 @@
+---
+name: art
+layout: tag
+---

@@ -1,0 +1,4 @@
+---
+name: tourism
+layout: tag
+---

@@ -1,0 +1,4 @@
+---
+name: illustration
+layout: type
+---

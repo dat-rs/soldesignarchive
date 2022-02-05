@@ -1,0 +1,28 @@
+---
+layout: default
+title: rsda | types
+---
+
+<div class="types holder">
+    
+    <div class="container container-browse">
+    <div class="row">
+        
+        <div class="col-12">
+            
+            <h3 class="page-sub-title">Types</h3>
+            
+        </div>
+        
+        <div class="col-12">
+        
+        {% for type in site.types %}
+
+            <h2 class="title index"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
+                  
+        {% endfor %}
+        </div>
+    </div>
+</div>
+    
+</div>

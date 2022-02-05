@@ -1,0 +1,53 @@
+  <div class="container-fluid container-footer">
+
+      <div class="row">
+
+          <div class="col-12 col-md-4">
+
+              <a class="footer-link" href="https://instagram.com/rsdesignarchive">Instagram</a><br>
+              <a class="footer-link" href="https://twitter.com/rsdesignarchive">twitter</a>
+
+          </div>
+
+          <div class="col-12 col-md-4">
+
+              <a class="footer-link" href="https://instagram.com/rsdesignarchive">F.A.Q.</a><br>
+              <a class="footer-link" href="https://twitter.com/rsdesignarchive">Colophon</a>
+
+
+          </div>
+
+          <div class="col-12 col-md-4">
+
+              <p class="footer-text">
+                  rsda is a design archive with a special focus on nineteenth century Portuguese graphic design and illustration. The archive currently contains <strong>{{ site.artifacts.size }}</strong> artifacts. Maintained by Ricardo Santos.
+              </p>
+
+              <p class="footer-text">
+
+                  All materials <strong>created</strong> by rsda are shared under a CC Attribution-Share Alike license. Artworks and other resources are shared for educational and research purposes.
+
+              </p>
+
+          </div>
+
+      </div>
+
+  </div>
+
+  <script>
+      var bool = true;
+
+      function changeBackground() {
+
+          (bool) ? document.getElementById("sub-header-0-id").style.background = "#f2f2f2": document.getElementById("sub-header-0-id").style.background = "#f2b34b";
+          bool = !bool;
+      }
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+  </html>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container container-post">
+    <div class="col-12">
+
+        <h2 class="title">
+            <a href="{{ post.url }}">{{ page.title }}</a>
+        </h2>
+
+        <p class="post-meta">
+
+            {{ page.author }} |
+            {{ page.date | date_to_string }}
+
+        </p>
+    </div>
+    <div class="col-12">
+
+        <img class="grid-img" src="{{ page.thumbnail_image_path }}" alt="">
+
+    </div>
+    <div class="col-12">
+
+        <div class="post">
+
+            {{ page.content }}
+
+        </div>
+
+    </div>
+</div>

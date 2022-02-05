@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="container container-post">
+    <div class="col-12">
+
+        <h2 class="title blog self">
+            <a href="{{ post.url }}">{{ page.title }}</a>
+        </h2>
+
+    </div>
+
+    <div class="col-12 col-lg-8">
+
+        <p class="post-lead">
+            {{ page.lead }}
+        </p>
+
+        <p class="post-meta">
+
+            {{ page.author }} |
+            {{ page.date | date_to_string }}
+
+        </p>
+
+    </div>
+
+    <div class="col-12 col-lg-10">
+
+        <img class="grid-img" src="{{ page.thumbnail_image_path }}" alt="">
+
+    </div>
+    <div class="col-12 col-lg-8">
+
+        <div class="post">
+
+            {{ page.content }}
+
+        </div>
+
+    </div>
+</div>

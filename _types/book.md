@@ -1,0 +1,4 @@
+---
+name: book
+layout: type
+---

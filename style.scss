@@ -1,0 +1,847 @@
+---
+---
+
+@charset "UTF-8";
+/* CSS Document */
+
+$artifact-color: #e16640;
+$author-color: #f2b34b;
+$type-color: #d8709c;
+$origin-color: #4f9dd3;
+$tag-color: #995488;
+$year-color: #93a64e;
+$off-white: #f7f1e9;
+$off-white-2: #FAF7E8;
+
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Mori Gothic'),
+       url('/fonts/MoriGothic-ExtraLight.woff2') format('woff2'); 
+
+}
+
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Mori Gothic'),
+       url('/fonts/MoriGothic-Light.woff2') format('woff2'); 
+
+}
+
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Mori Gothic'),
+       url('/fonts/MoriGothic-Normal.woff2') format('woff2'); 
+
+}
+
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mori Gothic'),
+       url('/fonts/MoriGothic-Regular.woff2') format('woff2'); 
+
+}
+
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Mori Gothic'),
+       url('/fonts/MoriGothic-Medium.woff2') format('woff2'); 
+
+}
+
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Mori Gothic'),
+       url('/fonts/MoriGothic-SemiBold.woff2') format('woff2'); 
+
+}
+
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Mori Gothic'),
+       url('/fonts/MoriGothic-Bold.woff2') format('woff2'); 
+
+}
+
+
+
+body {
+    font-family: maple-web, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    background-color: $off-white;
+    color: black;
+}
+
+body.artifacts {
+    background-color: $artifact-color;
+}
+
+body.authors {
+    background-color: $author-color;
+}
+
+body.origins {
+    background-color: $origin-color;
+}
+
+body.years {
+    background-color: $year-color;
+}
+
+body.types {
+    background-color: $type-color;
+}
+
+body.tags {
+    background-color: $tag-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+.container-header {
+    background-color: $off-white;
+    color: black;
+}
+
+.header-logo {
+    max-height: 50px;
+    filter: invert(0);
+    margin: 7px 0;
+}
+
+h1.rsda {
+    font-size: 0.1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+
+.footer-text {
+    color: #f2f2f2;
+    padding-bottom: 9px;
+    padding-left: 8px;
+}
+
+.menu-link-container {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.menu-link {
+    color: $artifact-color;
+    display: block;
+    line-height: 1;
+    transition: 0.3s;
+    animation: colors 6s infinite step-end;
+    width: 24px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-link:hover {
+    color: $off-white;
+    text-decoration: none;
+    transform: rotate(90deg);
+    transform-origin: center center;
+    animation: none;
+    animation-play-state: paused;
+}
+
+/* SUB HEADERS */
+
+#sub-header-0-id {
+    background: $artifact-color;
+    transition: 0.3s;
+    animation: smile-hue 10s infinite linear;
+}
+
+.collapse {
+    transition: 0.3s;
+}
+
+.sub-header-exp {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+
+.sub-header-exp-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.col-artifacts {
+    background-color: $artifact-color;
+}
+
+.sub-header-1, .col-authors {
+    background-color: $author-color;
+}
+
+.sub-header-2, .col-years {
+    background-color: $year-color;
+}
+
+.sub-header-3, .col-types {
+    background-color: $type-color;
+}
+
+.sub-header-4, .col-tags {
+    background-color: $tag-color;
+}
+
+.sub-header-5, .col-origins {
+    background-color: $origin-color;
+}
+
+.sub-header-link, .sub-header-link-0 {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-top: 12px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid;
+}
+
+.sub-header-link-exp {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: $off-white;
+    margin-left: 23px;
+    padding-top: 14px;
+    margin-bottom: 11px;
+    border-bottom: 1px solid;
+    line-height: 1;
+}
+
+.sub-header-link:hover, .sub-header-link-0, .sub-header-link-0:hover, .sub-header-link-exp:hover {
+    color: black;
+    text-decoration: none;
+
+}
+
+.sub-header-link {
+    color: $off-white;
+}
+
+/* CONTAINERS */
+
+.container-main {
+    margin-top: 15px;
+}
+
+.container-artifact-index {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.container-artifact-index-2 {
+    background-color: black;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.container-blog-index {
+    margin-top: 75px;
+    margin-bottom: 90px;
+}
+
+.container-footer {
+    background-color: black;
+    color: #dedede;
+    padding-top: 30px;
+    min-height: 150px;
+}
+
+.container-artifact, .container-artifact-index {
+    margin-top: 60px;
+}
+
+.container-browse {
+    padding-top: 60px;
+    min-height: 90vh;
+}
+
+.holder {
+
+}
+
+.authors.holder {
+    background-color: $author-color;
+}
+
+.artifacts.holder {
+    background-color: $artifact-color;
+}
+
+.origins.holder {
+    background-color: $origin-color;
+}
+
+.years.holder {
+    background-color: $year-color;
+}
+
+.tags.holder {
+    background-color: $tag-color;
+}
+
+.types.holder {
+    background-color: $type-color;
+}
+
+.grid-img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+.grid-img-2 {
+    max-width: 100%;
+    background-color: black;
+}
+
+.prev-next-img {
+    max-width: 100%;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+a {
+    color: black;
+}
+
+/* H2 TITLES & LINKS + THEMATIC VARIATIONS */
+
+h2.title {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1;
+    padding-top: 12px;
+    margin-right: 15px;
+    font-family: 'Mori Gothic';
+    font-weight: 500;
+}
+
+h2.title.index {
+    
+}
+
+h2.title.index:hover {
+    border-bottom: none;
+}
+
+h2.title.self {
+    font-size: 1.8rem;
+    line-height: 1.1;
+}
+
+/* deprecated */
+
+h2.title-2 {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 3px;
+    margin-right: 15px;
+}
+
+.browse-link.artifact {
+    border-bottom: 4px solid $artifact-color;
+}
+
+.browse-link.author {
+    border-bottom: 4px solid $author-color;
+}
+
+.browse-link.origin {
+    border-bottom: 4px solid $origin-color;
+}
+
+.browse-link.year {
+    border-bottom: 4px solid $year-color;
+}
+
+.browse-link.type {
+    border-bottom: 4px solid $type-color;
+}
+
+.browse-link.tag {
+    border-bottom: 4px solid $tag-color;
+}
+
+.browse-link.index {
+    border-bottom: 2.5px solid;
+    height: 100%;
+    display: inline-block;
+}
+
+.browse-link-2.index {
+    background-color: $off-white;
+    padding: 12px 18px 7px 18px;
+    height: 100%;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.browse-link-2.index:hover {
+    background-color: black;
+    color: $off-white;
+}
+
+.browse-link.index:hover {
+    border-bottom: 4px solid $off-white;
+}
+
+h2 .browse-link.index:hover {
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.browse-link:hover {
+    text-decoration: none;
+}
+
+.browse-link.author:hover {
+    color: #f2b34b;
+}
+
+.browse-link.origin:hover {
+    color: #d8709c;
+}
+
+.browse-link.year:hover {
+    color: #4f9dd3;
+}
+
+.browse-link.type:hover {
+    color: $type-color;
+}
+
+.browse-link.tag:hover {
+    color: #93a64e;
+}
+
+.browse-link.index:hover {
+    color: #f2f2f2;
+}
+
+.container-author .row.about, .container-artifact .row.about {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.artifact-img-container {
+    background-color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.artifact-img {
+    max-width: 100%;
+    max-height: 120vh;
+    padding: 10% 10%;
+}
+
+/* DEETS */
+
+.artifact-deets, .para-text, .caption, .header-text  {
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 1.3;
+}
+
+.deet-label, .prev-next-label, .page-title-label {
+    display: block;
+}
+
+.deet-label, .prev-next-label {
+    padding-top: 8.5px;
+}
+
+.deet-label {
+    font-weight: 500;
+}
+
+
+.deet-label.hanging {
+position: relative;
+padding-top: 10px;
+margin-top: 10px;
+}
+
+.hanging::before {
+background-color: #000;
+top: 0;
+content: '';
+height: 1px;
+left: 0;
+position: absolute;
+width: 40px;
+}
+
+.deet-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.deet-link.author:hover {
+    color: #f2b34b;
+    border-bottom: 1px solid #f2b34b;
+}
+
+.deet-link.origin:hover {
+    color: #d8709c;
+    border-bottom: 1px solid #d8709c;
+}
+
+.deet-link.year:hover {
+    color: #4f9dd3;
+    border-bottom: 1px solid #4f9dd3;
+}
+
+.deet-link.type:hover {
+    color: $type-color;
+    border-bottom: 1px solid $type-color;
+}
+
+.deet-link.tag {
+
+    margin-right: 5px;
+}
+
+.deet-link.tag:hover {
+    color: #93a64e;
+    border-bottom: 1px solid #93a64e;
+}
+
+.row.prev-next {
+    margin-top: 45px;
+}
+
+.prev-next-label, .page-title-label {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.prev-next-link.artifact:hover {
+    text-decoration: none;
+    color: $artifact-color;
+}
+
+
+.prev-next-link h2 {
+    display: inline;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid;
+}
+
+h3.page-sub-title, h3.nav-link-title {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-bottom: 8px;
+    border-bottom: 3px solid;
+}
+
+h3.nav-link-title a {
+    
+}
+
+h3.nav-link-title a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid;
+}
+
+.back-to {
+    margin-top: 5px;
+}
+
+.row.first {
+}
+
+.row.artifacts-section {
+    margin-top: 60px;
+}
+
+.about-text {
+    font-size: 16px;
+}
+
+.about-text a {
+    border-bottom: 1px solid;
+}
+
+.about-text a:hover {
+    text-decoration: none;
+    color: $artifact-color;
+    border-bottom: 1px solid $artifact-color;
+}
+
+.resource-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    border-bottom: 1px solid #f2b34b;
+    padding-bottom: 2px;
+}
+
+.resource-link:hover {
+    text-decoration: none;
+    color: #f2b34b;
+}
+
+.footer-link {
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: $off-white;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: $off-white;
+    border-bottom: 3px solid;
+}
+
+.read-post {
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.post {
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.post-excerpt p {
+    margin-bottom: 0;
+}
+
+.post-excerpt p:after {
+    content: '...';
+}
+
+.post-meta {
+    margin-top: 4px;
+    margin-bottom: 15px;
+    
+}
+
+.post h3 {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    margin-top: 60px;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.post h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    margin-top: 60px;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.col-authors-index {
+    background-color: $author-color;
+}
+
+.col-years-index {
+    background-color: $year-color;
+}
+
+.section-index-container {
+    padding: 15px;
+    margin: 15px;
+    min-height: 500px;
+}
+
+.col-types-index {
+    background-color: $type-color;
+}
+
+.col-origins-index {
+    background-color: $origin-color;
+}
+
+.col-tags-index {
+    background-color: $tag-color;
+}
+
+.container-post {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+figure.post-img {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+figure.post-img.artifact .artifact-holder {
+    background-color: black;
+    width: 960px;
+    text-align: center;
+    padding: 10px;
+}
+
+figure.post-img img {
+    max-height: 90vh;
+    border-right: 15px solid $artifact-color;
+}
+
+figure.post-img.artifact img {
+    max-height: 80vh;
+    border-right: none;
+}
+
+.post figcaption {
+    font-family: 'Mori Gothic', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+figure.post-img.artifact figcaption {
+    background-color: $off-white;
+    text-align: left;
+}
+
+@keyframes colors {
+  0%    { color: $artifact-color; }
+  20%   { color: $author-color;   }
+  40%   { color: $origin-color;   }
+  60%   { color: $year-color;     }
+  80%   { color: $type-color;     }
+  100%  { color:  $tag-color;     }
+}
+
+@keyframes smile-hue {
+	
+	0% {filter: hue-rotate(0deg); }
+	10% {filter: hue-rotate(36deg); }
+	20% {filter: hue-rotate(72deg); }
+	30% {filter: hue-rotate(108deg); }
+	40% {filter: hue-rotate(144deg); }
+	50% {filter: hue-rotate(180deg); }
+	60% {filter: hue-rotate(216deg); }
+	70% {filter: hue-rotate(252deg); }
+	80% {filter: hue-rotate(288deg); }
+	90% {filter: hue-rotate(324deg); }
+	100% {filter: hue-rotate(360deg);}
+	
+}
+
+
+@media (min-width: 576px) {
+    
+    .sub-header-link-exp.authors {
+        margin-left: 15px;
+    } 
+    
+    .sub-header-link-exp.years {
+        margin-left: 15px;
+    } 
+    
+    .sub-header-link-exp.tags {
+        margin-left: 15px;
+    } 
+    
+}
+
+@media (min-width: 768px) {
+    
+    .sub-header-link-exp.origins {
+        margin-left: 15px;
+    } 
+    
+    .sub-header-link-exp.types {
+        margin-left: 15px;
+    }
+    
+    .sub-header-link-exp.years {
+        margin-left: 23px;
+    }
+    
+    figure.post-img {
+    text-align: right;
+    }
+
+}
+
+@media (min-width: 992px) {
+    
+    .sub-header-link-exp.years {
+        margin-left: 15px;
+    } 
+    
+    figure.post-img.offset {
+        position: relative;
+        left: 50%;
+}    
+    
+}
+h2.title.blog.self {
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+h2.title.blog.self a:hover {
+    text-decoration: none;
+}
+
+.post-lead {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: $artifact-color;
+}

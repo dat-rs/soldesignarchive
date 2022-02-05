@@ -1,0 +1,168 @@
+---
+layout: default
+title: rsda
+---
+
+<div class="container-artifact-index-2">
+
+    <div class="row no-gutters" style="background-color: black;">
+
+        {% assign sampled_artifacts = site.artifacts | sample: 12  %}
+        {% for artifact in sampled_artifacts %}
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <a href="{{ artifact.url }}">
+
+                <img class="grid-img-2" src="{{ artifact.thumbnail_image_path }}" alt="{{ artifact.title }}">
+
+            </a>
+        </div>
+        {% endfor %}
+
+    </div>
+
+</div>
+
+<div class="container container-blog-index">
+
+    <div class="row">
+
+        <div class="col-12">
+
+            <h3 class="page-sub-title">Blog</h3>
+
+        </div>
+
+        {% assign sampled_posts = site.posts | sample: 12  %}
+        {% for post in sampled_posts %}
+
+        <div class="col-md-6 col-lg-4 row">
+
+            <div class="col-12">
+
+                <h2 class="title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h2>
+
+                <p class="post-meta">
+
+                    {{ post.author }} |
+                    {{ post.date | date_to_string }}
+
+                </p>
+
+            </div>
+
+            <div class="col-12 order-md-3">
+                <img class="grid-img" src="{{ post.thumbnail_image_path }}" alt="">
+            </div>
+
+            <div class="col-12 order-md-2">
+                <section class="post-excerpt">
+                    {{ post.lead }}
+                </section>
+
+                <a class="read-post" href="">Read post >></a>
+
+            </div>
+
+        </div>
+
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+<div class="container-sections-index">
+    <div class="row no-gutters">
+
+        <div class="col-12 col-md-6 col-authors-index">
+
+            <div class="section-index-container">
+
+                <h3 class="page-sub-title">Authors</h3>
+                <br>
+
+                {% for author in site.authors limit:24 %}
+
+                <h2 class="title index"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-years-index">
+
+            <div class="section-index-container">
+
+                <h3 class="page-sub-title">Years</h3>
+                <br>
+
+                {% for year in site.years limit:24 %}
+
+                <h2 class="title index"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-types-index">
+
+            <div class="section-index-container">
+
+                <h3 class="page-sub-title">Types</h3>
+                <br>
+
+                {% for type in site.types limit:24 %}
+
+                <h2 class="title index"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-origins-index">
+
+            <div class="section-index-container">
+
+                <h3 class="page-sub-title">Origins</h3>
+                <br>
+
+                {% for origin in site.origins limit:24 %}
+
+                <h2 class="title index"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+        
+        <div class="col-12 col-tags-index">
+
+            <div class="section-index-container">
+
+                <h3 class="page-sub-title">Tags</h3>
+                <br>
+
+                {% for tag in site.tags %}
+
+                <h2 class="title index"><a class="browse-link index" href="{{ tag.url }}">{{ tag.name }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</div>

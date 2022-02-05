@@ -1,0 +1,4 @@
+---
+name: brochure
+layout: type
+---
