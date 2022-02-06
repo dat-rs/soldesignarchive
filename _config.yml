@@ -25,6 +25,9 @@ collections:
   origins:
     output: true
     permalink: /origins/:path/
+  publishers:
+    output: true
+    permalink: /publishers/:path/
   years:
     output: true
     permalink: /years/:path/

@@ -10,6 +10,7 @@ $type-color: #d8709c;
 $origin-color: #4f9dd3;
 $tag-color: #995488;
 $year-color: #93a64e;
+$publisher-color: #2c364d;
 $off-white: #f7f1e9;
 $off-white-2: #FAF7E8;
 
@@ -18,7 +19,7 @@ $off-white-2: #FAF7E8;
   font-style: normal;
   font-weight: 100;
   src: local('Mori Gothic'),
-       url('/fonts/MoriGothic-ExtraLight.woff2') format('woff2'); 
+       url('/fonts/MoriGothic-ExtraLight.woff2') format('woff2');
 
 }
 
@@ -27,7 +28,7 @@ $off-white-2: #FAF7E8;
   font-style: normal;
   font-weight: 200;
   src: local('Mori Gothic'),
-       url('/fonts/MoriGothic-Light.woff2') format('woff2'); 
+       url('/fonts/MoriGothic-Light.woff2') format('woff2');
 
 }
 
@@ -36,7 +37,7 @@ $off-white-2: #FAF7E8;
   font-style: normal;
   font-weight: 300;
   src: local('Mori Gothic'),
-       url('/fonts/MoriGothic-Normal.woff2') format('woff2'); 
+       url('/fonts/MoriGothic-Normal.woff2') format('woff2');
 
 }
 
@@ -45,7 +46,7 @@ $off-white-2: #FAF7E8;
   font-style: normal;
   font-weight: 400;
   src: local('Mori Gothic'),
-       url('/fonts/MoriGothic-Regular.woff2') format('woff2'); 
+       url('/fonts/MoriGothic-Regular.woff2') format('woff2');
 
 }
 
@@ -54,7 +55,7 @@ $off-white-2: #FAF7E8;
   font-style: normal;
   font-weight: 500;
   src: local('Mori Gothic'),
-       url('/fonts/MoriGothic-Medium.woff2') format('woff2'); 
+       url('/fonts/MoriGothic-Medium.woff2') format('woff2');
 
 }
 
@@ -63,7 +64,7 @@ $off-white-2: #FAF7E8;
   font-style: normal;
   font-weight: 600;
   src: local('Mori Gothic'),
-       url('/fonts/MoriGothic-SemiBold.woff2') format('woff2'); 
+       url('/fonts/MoriGothic-SemiBold.woff2') format('woff2');
 
 }
 
@@ -72,7 +73,7 @@ $off-white-2: #FAF7E8;
   font-style: normal;
   font-weight: 700;
   src: local('Mori Gothic'),
-       url('/fonts/MoriGothic-Bold.woff2') format('woff2'); 
+       url('/fonts/MoriGothic-Bold.woff2') format('woff2');
 
 }
 
@@ -111,6 +112,10 @@ body.tags {
     background-color: $tag-color;
 }
 
+body.publishers {
+    background-color: $publisher-color;
+}
+
 img {
     max-width: 100%;
 }
@@ -132,7 +137,7 @@ h1.rsda {
     font-size: 0.1rem;
     margin-top: auto;
     margin-bottom: auto;
-} 
+}
 
 .footer-text {
     color: #f2f2f2;
@@ -215,6 +220,11 @@ h1.rsda {
 .sub-header-5, .col-origins {
     background-color: $origin-color;
 }
+
+.sub-header-5, .col-publishers {
+    background-color: $publisher-color;
+}
+
 
 .sub-header-link, .sub-header-link-0 {
     display: inline-block;
@@ -352,7 +362,7 @@ h2.title {
 }
 
 h2.title.index {
-    
+
 }
 
 h2.title.index:hover {
@@ -472,6 +482,7 @@ h2 .browse-link.index:hover {
     padding: 10% 10%;
 }
 
+
 /* DEETS */
 
 .artifact-deets, .para-text, .caption, .header-text  {
@@ -509,24 +520,28 @@ position: absolute;
 width: 40px;
 }
 
+.deet-link {
+    margin-right: 5px;
+}
+
 .deet-link:hover {
     text-decoration: none;
     color: black;
 }
 
 .deet-link.author:hover {
-    color: #f2b34b;
-    border-bottom: 1px solid #f2b34b;
+    color: $author-color;
+    border-bottom: 1px solid $author-color;
 }
 
 .deet-link.origin:hover {
-    color: #d8709c;
-    border-bottom: 1px solid #d8709c;
+    color: $origin-color;
+    border-bottom: 1px solid $origin-color;
 }
 
 .deet-link.year:hover {
-    color: #4f9dd3;
-    border-bottom: 1px solid #4f9dd3;
+    color: $year-color;
+    border-bottom: 1px solid $year-color;
 }
 
 .deet-link.type:hover {
@@ -534,9 +549,9 @@ width: 40px;
     border-bottom: 1px solid $type-color;
 }
 
-.deet-link.tag {
-
-    margin-right: 5px;
+.deet-link.publisher:hover {
+    color: $publisher-color;
+    border-bottom: 1px solid $publisher-color;
 }
 
 .deet-link.tag:hover {
@@ -583,7 +598,7 @@ h3.page-sub-title, h3.nav-link-title {
 }
 
 h3.nav-link-title a {
-    
+
 }
 
 h3.nav-link-title a:hover {
@@ -667,7 +682,7 @@ h3.nav-link-title a:hover {
 .post-meta {
     margin-top: 4px;
     margin-bottom: 15px;
-    
+
 }
 
 .post h3 {
@@ -763,7 +778,7 @@ figure.post-img.artifact figcaption {
 }
 
 @keyframes smile-hue {
-	
+
 	0% {filter: hue-rotate(0deg); }
 	10% {filter: hue-rotate(36deg); }
 	20% {filter: hue-rotate(72deg); }
@@ -775,40 +790,40 @@ figure.post-img.artifact figcaption {
 	80% {filter: hue-rotate(288deg); }
 	90% {filter: hue-rotate(324deg); }
 	100% {filter: hue-rotate(360deg);}
-	
+
 }
 
 
 @media (min-width: 576px) {
-    
+
     .sub-header-link-exp.authors {
         margin-left: 15px;
-    } 
-    
+    }
+
     .sub-header-link-exp.years {
         margin-left: 15px;
-    } 
-    
+    }
+
     .sub-header-link-exp.tags {
         margin-left: 15px;
-    } 
-    
+    }
+
 }
 
 @media (min-width: 768px) {
-    
+
     .sub-header-link-exp.origins {
         margin-left: 15px;
-    } 
-    
+    }
+
     .sub-header-link-exp.types {
         margin-left: 15px;
     }
-    
+
     .sub-header-link-exp.years {
         margin-left: 23px;
     }
-    
+
     figure.post-img {
     text-align: right;
     }
@@ -816,16 +831,16 @@ figure.post-img.artifact figcaption {
 }
 
 @media (min-width: 992px) {
-    
+
     .sub-header-link-exp.years {
         margin-left: 15px;
-    } 
-    
+    }
+
     figure.post-img.offset {
         position: relative;
         left: 50%;
-}    
-    
+}
+
 }
 h2.title.blog.self {
     font-size: 38px;

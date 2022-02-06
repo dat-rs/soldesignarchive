@@ -1,0 +1,28 @@
+---
+layout: default
+title: rsda | publishers
+---
+
+<div class="publishers holder">
+
+    <div class="container container-browse">
+    <div class="row">
+
+        <div class="col-12">
+
+            <h3 class="page-sub-title">Publishers</h3>
+
+        </div>
+
+        <div class="col-12">
+
+        {% for publisher in site.publishers %}
+
+            <h2 class="title index"><a class="browse-link index" href="{{ publisher.url }}">{{ publisher.name }}</a></h2>
+
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+</div>
