@@ -2,24 +2,24 @@
 layout: default
 title: rsda | authors
 ---
-    
-   <div class="container container-browse">
-   
-    <div class="row">
-        
+
+   <div class="container-fluid container-browse" style="background-color: black;">
+
+    <div class="row no-gutters">
+
         <div class="col-12">
-            
+
             <h3 class="page-sub-title">Artifacts</h3>
-            
+
         </div>
-        
+
             {% for artifact in site.artifacts %}
-             
-              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+
+              <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                   <a href="{{ artifact.url }}">
 
                       <img class="grid-img" src="{{ artifact.thumbnail_image_path }}" alt="{{ artifact.title }}">
-                  
+
                   </a>
               </div>
             {% endfor %}
