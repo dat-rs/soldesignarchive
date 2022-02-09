@@ -10,7 +10,9 @@ ref: sol-010-0012
 thumbnail_image_path: /images/sol-120-0001-museos-de-madrid-thumbnail.jpg
 image_path: /images/sol-120-0001-museos-de-madrid-1.jpg
 image2_path: /images/sol-120-0001-museos-de-madrid-2.jpg
+image2_caption: 'Map of downtown Madrid. Francisco Espinosa.'
 image3_path: /images/sol-120-0001-museos-de-madrid-3.jpg
+image3_caption: 'Illustrations by J. Ruiz Navarro.'
 layout: artifact_multi
 ---
 

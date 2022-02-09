@@ -3,15 +3,17 @@ layout: default
 ---
 
 
-<div class="container container-author">
+<div class="container container-cat">
 
     <div class="row">
 
-        <div class="col-12 col-md-9 order-md-1">
-            <span class="page-title-label">publisher</span>
-            <h2 class="title publisher self">{{ page.name }}</h2>
+      <div class="col-12">
 
-        </div>
+          <h3 class="cat-label publisher">Publisher/Client</h3>
+          <h2 class="title artifact self">{{ page.name }}</h2>
+
+
+      </div>
 
     </div>
 
@@ -19,7 +21,7 @@ layout: default
 
         <div class="col-12">
 
-            <h3 class="page-sub-title">Artifacts</h3>
+            <h3 class="section-title">Artifacts</h3>
 
         </div>
 
@@ -28,7 +30,7 @@ layout: default
 
         <div class="col-12 col-md-6 col-lg-4">
 
-                    <a class="prev-next-link artifact" href="{{ artifact.url }}">
+                    <a class="a-module prev-next" href="{{ artifact.url }}">
                         <h2 class="title artifact">{{ artifact.title }}</h2>
                         <img class="prev-next-img" src="{{ artifact.thumbnail_image_path }}" alt="">
                     </a>

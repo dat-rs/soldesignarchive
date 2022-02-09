@@ -24,15 +24,26 @@ layout: default
     {% endfor %}
 
 
-    <div class="container container-artifact">
+    <div class="container container-cat">
 
         <div class="row first">
 
                 <div class="col-12">
 
+                    <h3 class="cat-label artifact">Artifact</h3>
                     <h2 class="title artifact self">{{ page.title }}</h2>
 
+
                 </div>
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid cat">
+
+        <div class="row">
+
 
                 <div class="col-12 col-sm-10">
 
@@ -80,29 +91,36 @@ layout: default
                   </p>
 
                 </div>
-        </div>
+              </div>
 
 
 
         {% assign striped_content = page.content | strip_newlines %}
         {% if striped_content != "" %}
 
-        <div class="row about">
+      </div>
+
+      <div class="container cat">
+
+        <div class="row section a-about">
 
             <div class="col-12 col-lg-8">
 
-                  <h3 class="page-sub-title">About</h3>
+                  <h3 class="section-title">About</h3>
                   <section class="about-text">{{ content }}</section>
 
             </div>
 
         </div>
+      </div>
+
+      <div class="container-fluid cat">
 
         {% endif %}
 
 
 
-        <div class="row more-images">
+        <div class="row section more-images">
 
             <div class="col-12 col-sm-12">
 
@@ -112,6 +130,11 @@ layout: default
 
                     </div>
 
+                    {% if page.image2_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image2_caption }}</p>
+
+                    {% endif %}
             </div>
 
             {% if page.image3_path %}
@@ -123,6 +146,12 @@ layout: default
                         <img class="artifact-img" src="{{ page.image3_path }}" alt="{{ page.title }}">
 
                     </div>
+
+                    {% if page.image3_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image3_caption }}</p>
+
+                    {% endif %}
 
             </div>
 
@@ -138,6 +167,12 @@ layout: default
 
                     </div>
 
+                    {% if page.image4_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image4_caption }}</p>
+
+                    {% endif %}
+
             </div>
 
             {% endif %}
@@ -151,6 +186,12 @@ layout: default
                         <img class="artifact-img" src="{{ page.image5_path }}" alt="{{ page.title }}">
 
                     </div>
+
+                    {% if page.image5_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image5_caption }}</p>
+
+                    {% endif %}
 
             </div>
 
@@ -166,6 +207,12 @@ layout: default
 
                     </div>
 
+                    {% if page.image6_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image6_caption }}</p>
+
+                    {% endif %}
+
             </div>
 
             {% endif %}
@@ -179,6 +226,12 @@ layout: default
                         <img class="artifact-img" src="{{ page.image7_path }}" alt="{{ page.title }}">
 
                     </div>
+
+                    {% if page.image7_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image7_caption }}</p>
+
+                    {% endif %}
 
             </div>
 
@@ -194,6 +247,12 @@ layout: default
 
                     </div>
 
+                    {% if page.image8_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image8_caption }}</p>
+
+                    {% endif %}
+
             </div>
 
             {% endif %}
@@ -207,6 +266,12 @@ layout: default
                         <img class="artifact-img" src="{{ page.image9_path }}" alt="{{ page.title }}">
 
                     </div>
+
+                    {% if page.image9_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image9_caption }}</p>
+
+                    {% endif %}
 
             </div>
 
@@ -222,17 +287,27 @@ layout: default
 
                     </div>
 
+                    {% if page.image10_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image10_caption }}</p>
+
+                    {% endif %}
+
             </div>
 
             {% endif %}
 
         </div>
 
-        <div class="row prev-next">
+        </div>
+
+        <div class="container">
+
+        <div class="row section prev-next">
 
             <div class="col-12">
 
-                <h3 class="page-sub-title">More</h3>
+                <h3 class="section-title">More</h3>
 
             </div>
 
@@ -242,9 +317,12 @@ layout: default
 
                     <span class="prev-next-label">Previous Artifact</span>
 
-                    <a class="prev-next-link artifact" href="{{ prevurl | escape_once }}">
+                    <a class="a-module prev-next" href="{{ prevurl | escape_once }}">
                         <h2 class="title artifact">{{ page.previous.title }}</h2>
-                        <img class="prev-next-img" src="{{ page.previous.thumbnail_image_path }}" alt="">
+                        <div class="a-module-img-holder">
+                            <img class="prev-next-img" src="{{ page.previous.thumbnail_image_path }}" alt="">
+                        </div>
+
                     </a>
 
 
@@ -259,9 +337,11 @@ layout: default
 
                     <span class="prev-next-label">Next Artifact</span>
 
-                    <a class="prev-next-link artifact" href="{{ nexturl | escape_once }}">
+                    <a class="a-module prev-next" href="{{ nexturl | escape_once }}">
                         <h2 class="title artifact">{{ page.next.title }}</h2>
-                        <img class="prev-next-img" src="{{ page.next.thumbnail_image_path }}" alt="">
+                        <div class="a-module-img-holder">
+                            <img class="prev-next-img" src="{{ page.next.thumbnail_image_path }}" alt="">
+                        </div>
                     </a>
 
 

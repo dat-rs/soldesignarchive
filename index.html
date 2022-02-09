@@ -28,7 +28,7 @@ title: rsda
 
         <div class="col-12">
 
-            <h3 class="page-sub-title">Blog</h3>
+            <h3 class="section-title">Blog</h3>
 
         </div>
 
@@ -81,12 +81,12 @@ title: rsda
 
             <div class="section-index-container">
 
-                <h3 class="page-sub-title">Authors</h3>
+                <h3 class="section-title">Authors</h3>
                 <br>
 
                 {% for author in site.authors limit:24 %}
 
-                <h2 class="title index"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
 
                 {% endfor %}
 
@@ -98,12 +98,12 @@ title: rsda
 
             <div class="section-index-container">
 
-                <h3 class="page-sub-title">Years</h3>
+                <h3 class="section-title">Years</h3>
                 <br>
 
                 {% for year in site.years limit:24 %}
 
-                <h2 class="title index"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
 
                 {% endfor %}
 
@@ -115,12 +115,12 @@ title: rsda
 
             <div class="section-index-container">
 
-                <h3 class="page-sub-title">Types</h3>
+                <h3 class="section-title">Types</h3>
                 <br>
 
                 {% for type in site.types limit:24 %}
 
-                <h2 class="title index"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
 
                 {% endfor %}
 
@@ -132,12 +132,12 @@ title: rsda
 
             <div class="section-index-container">
 
-                <h3 class="page-sub-title">Origins</h3>
+                <h3 class="section-title">Origins</h3>
                 <br>
 
                 {% for origin in site.origins limit:24 %}
 
-                <h2 class="title index"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name }}</a></h2>
 
                 {% endfor %}
 
@@ -149,12 +149,12 @@ title: rsda
 
             <div class="section-index-container">
 
-                <h3 class="page-sub-title">Tags</h3>
+                <h3 class="section-title">Tags</h3>
                 <br>
 
                 {% for tag in site.tags %}
 
-                <h2 class="title index"><a class="browse-link index" href="{{ tag.url }}">{{ tag.name }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index" href="{{ tag.url }}">{{ tag.name }}</a></h2>
 
                 {% endfor %}
 
