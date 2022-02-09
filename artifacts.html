@@ -9,18 +9,18 @@ title: rsda | authors
 
         <div class="col-12">
 
-            <h3 class="page-sub-title">Artifacts</h3>
+            <h3 class="section-title">Artifacts</h3>
 
         </div>
 
             {% for artifact in site.artifacts %}
 
               <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-                  <a href="{{ artifact.url }}">
-
+                <a class="a-module grid" href="{{ artifact.url }}">
+                  <div class="a-module-img-holder">
                       <img class="grid-img" src="{{ artifact.thumbnail_image_path }}" alt="{{ artifact.title }}">
-
-                  </a>
+                  </div>
+                </a>
               </div>
             {% endfor %}
     </div>

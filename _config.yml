@@ -37,3 +37,6 @@ collections:
   tags:
     output: true
     permalink: /tags/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/

@@ -3,69 +3,79 @@ layout: default
 ---
 
 
-<div class="container container-author">
-    
+<div class="container container-cat">
+
     <div class="row">
-        
-        <div class="col-12 col-md-9 order-md-1">
-            <span class="page-title-label">Author</span>
-            <h2 class="title author">{{ page.name }}</h2>
-                    
-        </div>
-        
+
+      <div class="col-12">
+
+          <h3 class="cat-label author">Author</h3>
+          <h2 class="title artifact self">{{ page.name }}</h2>
+
+
+      </div>
+
     </div>
-    
-    <div class="row about">
-        
+
+    <div class="row section about">
+
         {% assign striped_content = page.content | strip_newlines %}
             {% if striped_content != "" %}
-        
+
             <div class="col-12 col-md-9 col-lg-8">
-                    
-            
-                  
-            <h3 class="page-sub-title">About</h3>
+
+
+
+            <h3 class="section-title">About</h3>
             <section class="about-text">{{ content }}</section>
-                  
+
             </div>
-            
-            {% if page.resource %}  
-        
-            <div class="col-12 col-md-3 col-lg-4">
-            
-                <h3 class="page-sub-title">Resources</h3>
-                
-                <a class="resource-link" href="{{ page.resource_path }}">1. {{ page.resource }}</a>
-            
-            </div> 
-            {% endif %} 
-        
+
         {% endif %}
-        
+
     </div>
-    
-    <div class="row artifacts-section">    
-       
+
+    <div class="row section author-artifacts">
+
         <div class="col-12">
-            
-            <h3 class="page-sub-title">Artifacts</h3>
-            
-        </div>       
-                             
+
+            <h3 class="section-title">Artifacts</h3>
+
+        </div>
+
                 {% assign filtered_artifacts = site.artifacts | where: 'author_name', page.name %}
                   {% for artifact in filtered_artifacts %}
-                  
+
         <div class="col-12 col-md-6 col-lg-4">
-                    <a class="prev-next-link artifact" href="{{ artifact.url }}">
-                        <h2 class="title artifact">{{ artifact.title }}</h2>
-                        <img class="prev-next-img" src="{{ artifact.thumbnail_image_path }}" alt="">
+                    <a class="a-module prev-next" href="{{ artifact.url }}">
+                        <h2 class="title">{{ artifact.title }}</h2>
+                        <div class="a-module-img-holder">
+                            <img class="prev-next-img" src="{{ artifact.thumbnail_image_path }}" alt="">
+                        </div>
+
                     </a>
         </div>
                   {% endfor %}
-            
+
     </div>
-        
-        
+
+    <div class="row section author-resources">
+
+      <div class="col-12">
+
+          <h3 class="section-title">Resources</h3>
+
+          {% for resource in page.resources %}
+          <p><a class="deet-link tag" href="/resources/{{ resource | escape_once }}">{{ resource }}</a></p>
+          {% endfor %}
+          <br>
+
+      </div>
+
     </div>
-    
+
+
+    </div>
+
+
 </div>

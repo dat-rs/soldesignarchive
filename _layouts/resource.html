@@ -9,7 +9,7 @@ layout: default
 
       <div class="col-12">
 
-          <h3 class="cat-label type">Type</h3>
+          <h3 class="cat-label resource">Resource</h3>
           <h2 class="title artifact self">{{ page.name }}</h2>
 
 
@@ -25,7 +25,7 @@ layout: default
 
         </div>
 
-                {% assign filtered_artifacts = site.artifacts | where: 'type', page.name %}
+                {% assign filtered_artifacts = site.artifacts | where: 'origin', page.name %}
                   {% for artifact in filtered_artifacts %}
 
         <div class="col-12 col-md-6 col-lg-4">
