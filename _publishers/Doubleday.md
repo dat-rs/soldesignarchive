@@ -1,0 +1,4 @@
+---
+name: 'Doubleday'
+layout: publisher
+---

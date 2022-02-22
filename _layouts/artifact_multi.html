@@ -49,7 +49,7 @@ layout: default
 
                     <div class="artifact-img-container">
 
-                        <img class="artifact-img" src="{{ page.image_path }}" alt="{{ page.title }}">
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
 
                     </div>
 
@@ -69,7 +69,7 @@ layout: default
                       <br>
 
                       <span class="deet-label hanging">Publisher/Client</span>
-                      <a class="deet-link publisher" href="/origins/{{ page.publisher | escape_once }}">{{ page.publisher }}</a>
+                      <a class="deet-link publisher" href="/publishers/{{ page.publisher | escape_once }}">{{ page.publisher }}</a>
                       <br>
 
                       <span class="deet-label hanging">Origin</span>
@@ -82,9 +82,10 @@ layout: default
                       {% endfor %}
                       <br>
 
-                      <span class="deet-label hanging">Type</span>
-                      <a class="deet-link type" href="/types/{{ page.type | escape_once }}">{{ page.type }}</a>
-                      <br>
+                      <span class="deet-label hanging">Type{% if page.types.size > 1 %}s{% endif %}</span>
+                      {% for type in page.types %}
+                      <a class="deet-link type" href="/types/{{ type | escape_once }}">{{ type }}</a>
+                      {% endfor %}
 
                       <span class="deet-label hanging">Reference</span>
                       {{ page.ref }}
@@ -118,238 +119,46 @@ layout: default
 
         {% endif %}
 
-
-
         <div class="row section more-images">
 
-            <div class="col-12 col-sm-12">
+          {% assign image_count = page.image_count %}
+          {% for image in (2..image_count) %}
 
-                    <div class="artifact-img-container">
+          <div class="col-12 col-sm-12">
 
-                        <img class="artifact-img" src="{{ page.image2_path }}" alt="{{ page.title }}">
+                  <div class="artifact-img-container">
 
-                    </div>
+                      <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg" alt="{{ page.title }}">
 
-                    {% if page.image2_caption %}
+                  </div>
 
-                      <p class="caption a-multi fake-container">↑ {{ page.image2_caption }}</p>
+                  {% assign fixed_image_count = image | minus: 1 %}
+                  {% if page.image_captions[fixed_image_count] %}
 
-                    {% endif %}
-            </div>
+                    <p class="caption a-multi fake-container">↑ {{ page.image_captions[fixed_image_count]}}</p>
 
-            {% if page.image3_path %}
+                  {% endif %}
+          </div>
 
-            <div class="col-12 col-sm-12">
+          {% endfor %}
 
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image3_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image3_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image3_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-            {% if page.image4_path %}
-
-            <div class="col-12 col-sm-12">
-
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image4_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image4_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image4_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-            {% if page.image5_path %}
-
-            <div class="col-12 col-sm-12">
-
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image5_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image5_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image5_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-            {% if page.image6_path %}
-
-            <div class="col-12 col-sm-12">
-
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image6_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image6_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image6_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-            {% if page.image7_path %}
-
-            <div class="col-12 col-sm-12">
-
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image7_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image7_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image7_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-            {% if page.image8_path %}
-
-            <div class="col-12 col-sm-12">
-
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image8_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image8_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image8_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-            {% if page.image9_path %}
-
-            <div class="col-12 col-sm-12">
-
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image9_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image9_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image9_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-            {% if page.image10_path %}
-
-            <div class="col-12 col-sm-12">
-
-                    <div class="artifact-img-container">
-
-                        <img class="artifact-img" src="{{ page.image10_path }}" alt="{{ page.title }}">
-
-                    </div>
-
-                    {% if page.image10_caption %}
-
-                      <p class="caption a-multi fake-container">↑ {{ page.image10_caption }}</p>
-
-                    {% endif %}
-
-            </div>
-
-            {% endif %}
-
-        </div>
-
+          </div>
         </div>
 
         <div class="container">
 
-        <div class="row section prev-next">
+          {% assign filtered_resources = site.resources | where: 'rel_artifacts', page.title %}
+          {% assign filtered_resources_size = filtered_resources | size %}
+          {% if filtered_resources_size > 0 %}
 
-            <div class="col-12">
+          <div class="row section artifact-resources">
 
-                <h3 class="section-title">More</h3>
+            {% include resources-module.html %}
+            
+          </div>
 
-            </div>
+          {% endif %}
 
-             {% if prevurl %}
-
-               <div class="col-12 col-md-6 col-lg-4">
-
-                    <span class="prev-next-label">Previous Artifact</span>
-
-                    <a class="a-module prev-next" href="{{ prevurl | escape_once }}">
-                        <h2 class="title artifact">{{ page.previous.title }}</h2>
-                        <div class="a-module-img-holder">
-                            <img class="prev-next-img" src="{{ page.previous.thumbnail_image_path }}" alt="">
-                        </div>
-
-                    </a>
-
-
-
-                </div>
-
-            {% endif %}
-
-            {% if nexturl %}
-
-               <div class="col-12 col-md-6 col-lg-4">
-
-                    <span class="prev-next-label">Next Artifact</span>
-
-                    <a class="a-module prev-next" href="{{ nexturl | escape_once }}">
-                        <h2 class="title artifact">{{ page.next.title }}</h2>
-                        <div class="a-module-img-holder">
-                            <img class="prev-next-img" src="{{ page.next.thumbnail_image_path }}" alt="">
-                        </div>
-                    </a>
-
-
-
-               </div>
-
-            {% endif %}
-
-        </div>
+          {% include prev-next.html %}
 
     </div>

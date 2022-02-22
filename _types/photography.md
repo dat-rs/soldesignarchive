@@ -1,0 +1,4 @@
+---
+name: photography
+layout: type
+---

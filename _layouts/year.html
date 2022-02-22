@@ -14,22 +14,19 @@ layout: default
       </div>
     </div>
 
-    <div class="row artifacts-section">
+    <div class="row section year-artifacts">
 
         <div class="col-12">
 
-            <h3 class="section-title">Artifacts</h3>
+            {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
+            <h3 class="section-title">Artifacts</h3> ({{ filtered_artifacts.size }})
 
         </div>
-                {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
+
                   {% for artifact in filtered_artifacts %}
 
-        <div class="col-12 col-md-6 col-lg-4">
-                    <a class="a-module prev-next" href="{{ artifact.url }}">
-                        <h2 class="title artifact">{{ artifact.title }}</h2>
-                        <img class="prev-next-img" src="{{ artifact.thumbnail_image_path }}" alt="">
-                    </a>
-        </div>
+                  {% include a-module.html %}
+
                   {% endfor %}
 
     </div>

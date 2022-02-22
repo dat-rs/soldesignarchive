@@ -1,0 +1,4 @@
+---
+name: typography
+layout: type
+---

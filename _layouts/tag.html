@@ -17,27 +17,50 @@ layout: default
 
     </div>
 
-    <div class="row artifacts-section">
+    <div class="row section about">
+
+        {% assign striped_content = page.content | strip_newlines %}
+            {% if striped_content != "" %}
+
+            <div class="col-12 col-md-9 col-lg-8">
+
+
+
+            <h3 class="section-title">About</h3>
+            <section class="about-text">{{ content }}</section>
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
+    <div class="row section tag-artifacts">
 
         <div class="col-12">
 
-            <h3 class="section-title">Artifacts</h3>
+            {% assign filtered_artifacts = site.artifacts | where: 'tags', page.name %}
+            <h3 class="section-title">Artifacts</h3> ({{ filtered_artifacts.size }})
 
         </div>
 
-                {% assign filtered_artifacts = site.artifacts | where: 'tags', page.name %}
                   {% for artifact in filtered_artifacts %}
 
-        <div class="col-12 col-md-6 col-lg-4">
+                  {% include a-module.html %}
 
-                    <a class="a-module prev-next" href="{{ artifact.url }}">
-                        <h2 class="title artifact">{{ artifact.title }}</h2>
-                        <img class="prev-next-img" src="{{ artifact.thumbnail_image_path }}" alt="">
-                    </a>
-        </div>
                   {% endfor %}
 
     </div>
+
+    {% assign filtered_resources = site.resources | where: 'rel_tags', page.name %}
+    {% assign filtered_resources_size = filtered_resources | size %}
+    {% if filtered_resources_size > 0 %}
+    <div class="row section tag-resources">
+
+      {% include resources-module.html %}
+
+    </div>
+    {% endif %}
 
 
     </div>

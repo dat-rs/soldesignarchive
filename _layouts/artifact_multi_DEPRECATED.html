@@ -1,0 +1,367 @@
+---
+layout: default
+---
+
+<!-- liquid code for previous/next artifact buttons -->
+
+    {% capture the_collection %}{{page.collection}}{% endcapture %}
+
+      {% if page.collection %}
+        {% assign  document = site[the_collection] %}
+      {% endif %}
+
+    {% for links in document  %}
+      {% if links.title == page.title %}
+        {% unless forloop.first %}
+          {% assign prevurl = prev.url %}
+        {% endunless %}
+        {% unless comics.last.url %}
+          {% assign next = document[forloop.index] %}
+          {% assign nexturl = next.url %}
+        {% endunless %}
+      {% endif %}
+      {% assign prev = links %}
+    {% endfor %}
+
+
+    <div class="container container-cat">
+
+        <div class="row first">
+
+                <div class="col-12">
+
+                    <h3 class="cat-label artifact">Artifact</h3>
+                    <h2 class="title artifact self">{{ page.title }}</h2>
+
+
+                </div>
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid cat">
+
+        <div class="row">
+
+
+                <div class="col-12 col-sm-10">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-2">
+
+                  <p class="artifact-deets">
+
+                      <span class="deet-label">Author{% if page.tags.size > 1 %}s{% endif %}</span>
+                      {% for author in page.author_name %}
+                      <a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a><br>
+                      {% endfor %}
+
+                      <span class="deet-label hanging">Year</span>
+                      <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">{{ page.year | remove_first: "y" }}</a>
+                      <br>
+
+                      <span class="deet-label hanging">Publisher/Client</span>
+                      <a class="deet-link publisher" href="/publishers/{{ page.publisher | escape_once }}">{{ page.publisher }}</a>
+                      <br>
+
+                      <span class="deet-label hanging">Origin</span>
+                      <a class="deet-link origin" href="/origins/{{ page.origin | escape_once }}">{{ page.origin }}</a>
+                      <br>
+
+                      <span class="deet-label hanging">Tagged</span>
+                      {% for tag in page.tags %}
+                      <a class="deet-link tag" href="/tags/{{ tag | escape_once }}">{{ tag }}</a>
+                      {% endfor %}
+                      <br>
+
+                      <span class="deet-label hanging">Type{% if page.types.size > 1 %}s{% endif %}</span>
+                      {% for type in page.types %}
+                      <a class="deet-link type" href="/types/{{ type | escape_once }}">{{ type }}</a>
+                      {% endfor %}
+
+                      <span class="deet-label hanging">Reference</span>
+                      {{ page.ref }}
+                  </p>
+
+                </div>
+              </div>
+
+
+
+        {% assign striped_content = page.content | strip_newlines %}
+        {% if striped_content != "" %}
+
+      </div>
+
+      <div class="container cat">
+
+        <div class="row section a-about">
+
+            <div class="col-12 col-lg-8">
+
+                  <h3 class="section-title">About</h3>
+                  <section class="about-text">{{ content }}</section>
+
+            </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid cat">
+
+        {% endif %}
+
+
+
+        <div class="row section more-images">
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}-2.jpg" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image2_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image2_caption }}</p>
+
+                    {% endif %}
+            </div>
+
+            {% if page.image3_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}-3.jpg" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image3_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image3_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+            {% if page.image4_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}-4.jpg" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image4_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image4_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+            {% if page.image5_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="{{ page.image5_path }}" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image5_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image5_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+            {% if page.image6_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="{{ page.image6_path }}" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image6_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image6_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+            {% if page.image7_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="{{ page.image7_path }}" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image7_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image7_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+            {% if page.image8_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="{{ page.image8_path }}" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image8_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image8_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+            {% if page.image9_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="{{ page.image9_path }}" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image9_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image9_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+            {% if page.image10_path %}
+
+            <div class="col-12 col-sm-12">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="{{ page.image10_path }}" alt="{{ page.title }}">
+
+                    </div>
+
+                    {% if page.image10_caption %}
+
+                      <p class="caption a-multi fake-container">↑ {{ page.image10_caption }}</p>
+
+                    {% endif %}
+
+            </div>
+
+            {% endif %}
+
+        </div>
+
+        </div>
+
+        <div class="container">
+
+          {% assign filtered_resources = site.resources | where: 'rel_artifacts', page.title %}
+          {% assign filtered_resources_size = filtered_resources | size %}
+          {% if filtered_resources_size > 0 %}
+          <div class="row section artifact-resources">
+
+            {% include resources-module.html %}
+
+          </div>
+          {% endif %}
+
+
+        <div class="row section prev-next">
+
+            <div class="col-12">
+
+                <h3 class="section-title">More</h3>
+
+            </div>
+
+             {% if prevurl %}
+
+               <div class="col-12 col-md-6 col-lg-4">
+
+                    <span class="prev-next-label">Previous Artifact</span>
+
+                    <a class="a-module prev-next" href="{{ prevurl | escape_once }}">
+                        <h2 class="title artifact">{{ page.previous.title }}</h2>
+                        <div class="a-module-img-holder">
+                            <img class="prev-next-img" src="{{ page.previous.thumbnail_image_path }}" alt="">
+                        </div>
+
+                    </a>
+
+
+
+                </div>
+
+            {% endif %}
+
+            {% if nexturl %}
+
+               <div class="col-12 col-md-6 col-lg-4">
+
+                    <span class="prev-next-label">Next Artifact</span>
+
+                    <a class="a-module prev-next" href="{{ nexturl | escape_once }}">
+                        <h2 class="title artifact">{{ page.next.title }}</h2>
+                        <div class="a-module-img-holder">
+                            <img class="prev-next-img" src="{{ page.next.thumbnail_image_path }}" alt="">
+                        </div>
+                    </a>
+
+
+
+               </div>
+
+            {% endif %}
+
+        </div>
+
+    </div>

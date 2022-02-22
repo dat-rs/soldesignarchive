@@ -4,25 +4,25 @@ title: rsda | years
 ---
 
 <div class="years holder">
-    
+
     <div class="container container-browse">
     <div class="row">
-        
+
         <div class="col-12">
-            
+
             <h3 class="section-title">Years</h3>
-            
+
         </div>
-        
+
         <div class="col-12">
-        
+
         {% for year in site.years %}
 
-            <h2 class="title allcat"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
-                  
+            <h2 class="title allcat"><a class="browse-link year" href="{{ year.url }}">{{ year.title }}</a></h2>
+
         {% endfor %}
         </div>
     </div>
 </div>
-    
+
 </div>
