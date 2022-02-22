@@ -24,23 +24,32 @@ layout: default
     {% endfor %}
 
 
-    <div class="container-fluid container-cat">
+    <div class="container container-cat">
 
         <div class="row first">
 
-          <div class="col-12">
+                <div class="col-12">
 
-              <h3 class="cat-label artifact">Artifact</h3>
-              <h2 class="title artifact self">{{ page.title }}</h2>
+                    <h3 class="cat-label artifact">Artifact</h3>
+                    <h2 class="title artifact self">{{ page.title }}</h2>
 
 
-          </div>
+                </div>
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid cat">
+
+        <div class="row">
+
 
                 <div class="col-12 col-sm-10">
 
                     <div class="artifact-img-container">
 
-                        <img class="artifact-img " src="{{ page.image_path }}" alt="{{ page.title }}">
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
 
                     </div>
 
@@ -48,9 +57,9 @@ layout: default
 
                 <div class="col-12 col-sm-2">
 
-                    <p class="artifact-deets">
+                  <p class="artifact-deets">
 
-                        <span class="deet-label">Author{% if page.tags.size > 1 %}s{% endif %}</span>
+                        <span class="deet-label">Author{% if page.authors.size > 1 %}s{% endif %}</span>
                         {% for author in page.author_name %}
                         <a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a><br>
                         {% endfor %}
@@ -73,9 +82,10 @@ layout: default
                         {% endfor %}
                         <br>
 
-                        <span class="deet-label hanging">Type</span>
-                        <a class="deet-link type" href="/types/{{ page.type | escape_once }}">{{ page.type }}</a>
-                        <br>
+                        <span class="deet-label hanging">Type{% if page.types.size > 1 %}s{% endif %}</span>
+                        {% for type in page.types %}
+                        <a class="deet-link type" href="/types/{{ type | escape_once }}">{{ type }}</a>
+                        {% endfor %}
 
                         <span class="deet-label hanging">Reference</span>
                         {{ page.ref }}
@@ -83,6 +93,10 @@ layout: default
 
                 </div>
         </div>
+
+      </div>
+
+      <div class="container">
 
         <div class="row about">
 
@@ -101,48 +115,17 @@ layout: default
 
         </div>
 
-        <div class="row prev-next">
 
-            <div class="col-12">
+        {% assign filtered_resources = site.resources | where: 'rel_artifacts', page.title %}
+        {% assign filtered_resources_size = filtered_resources | size %}
+        {% if filtered_resources_size > 0 %}
+        <div class="row section artifact-resources">
 
-                <h3 class="section-title">More</h3>
-
-            </div>
-
-             {% if prevurl %}
-
-               <div class="col-12 col-md-6 col-lg-4">
-
-                    <span class="prev-next-label">Previous Artifact</span>
-
-                    <a class="a-module prev-next" href="{{ prevurl | escape_once }}">
-                        <h2 class="title artifact">{{ page.previous.title }}</h2>
-                        <img class="prev-next-img" src="{{ page.previous.thumbnail_image_path }}" alt="">
-                    </a>
-
-
-
-                </div>
-
-            {% endif %}
-
-            {% if nexturl %}
-
-               <div class="col-12 col-md-6 col-lg-4">
-
-                    <span class="prev-next-label">Next Artifact</span>
-
-                    <a class="a-module prev-next" href="{{ nexturl | escape_once }}">
-                        <h2 class="title artifact">{{ page.next.title }}</h2>
-                        <img class="prev-next-img" src="{{ page.next.thumbnail_image_path }}" alt="">
-                    </a>
-
-
-
-               </div>
-
-            {% endif %}
+          {% include resources-module.html %}
 
         </div>
+        {% endif %}
 
-    </div>
+        {% include prev-next.html %}
+
+  </div>

@@ -1,0 +1,4 @@
+---
+name: Plato
+layout: tag
+---

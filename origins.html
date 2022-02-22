@@ -4,25 +4,25 @@ title: rsda | origins
 ---
 
 <div class="origins holder">
-    
+
     <div class="container container-browse">
     <div class="row">
-        
+
         <div class="col-12">
-            
+
             <h3 class="section-title">Origins</h3>
-            
+
         </div>
-        
+
         <div class="col-12">
-        
+
         {% for origin in site.origins %}
 
-            <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name }}</a></h2>
-                  
+            <h2 class="title allcat"><a class="browse-link origin" href="{{ origin.url }}">{{ origin.name }}</a></h2>
+
         {% endfor %}
         </div>
     </div>
 </div>
-    
+
 </div>

@@ -1,0 +1,12 @@
+---
+title: O Amor o Dinheiro e a Morte
+author_name: Paulo-Guilherme
+year: y1960
+origin: Portugal
+publisher: 'Editorial Técnica e Artística'
+types: [book cover, book, typography, illustration]
+tags: [fiction, theatre, "Olavo d’Eça Leal", reverse-contrast]
+ref: sol-010-0003
+layout: artifact
+---
+The author of the book, <a class="text-cat-link tag" href="/tags/Olavo%20d’Eça%20Leal/">Olavo d’Eça Leal</a>, is in fact the father of <a class="text-cat-link author" href="/authors/Paulo-Guilherme/">Paulo-Guilherme</a> (d’Eça Leal), who designed the cover.

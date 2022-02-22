@@ -1,14 +1,13 @@
 ---
 title: História dos Isótopos
 author_name: 'António Gedeão'
-year: y1953
+year: y1962
 origin: Portugal
 publisher: 'Atlântida'
-type: book cover
-tags: [non-fiction, illustration]
-ref: sol-010-0098
-thumbnail_image_path: /images/sol-010-0010-autopsia-estados-unidos-thumbnail.jpg
-image_path: /images/sol-010-0010-autopsia-estados-unidos.jpg
-layout: artifact
-date: 2020-04-06
+types: [book cover, book]
+tags: [non-fiction, science communication, physics, science]
+ref: sol-010-0042
+image_count: 2
+layout: artifact_multi
+date: 2022-02-13
 ---

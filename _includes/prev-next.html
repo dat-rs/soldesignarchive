@@ -1,0 +1,48 @@
+<div class="row section prev-next">
+
+    <div class="col-12">
+
+        <h3 class="section-title">More</h3>
+
+    </div>
+
+     {% if prevurl %}
+
+       <div class="col-12 col-md-6 col-lg-4">
+
+            <span class="prev-next-label">Previous Artifact</span>
+
+            <a class="a-module prev-next" href="{{ prevurl | escape_once }}">
+                <h2 class="title artifact">{{ page.previous.title }}</h2>
+                <div class="a-module-img-holder">
+                    <img class="prev-next-img" src="/images/{{ page.previous.ref }}-{{ page.previous.slug }}-thumbnail.jpg" alt="{{ page.previous.title }}">
+                </div>
+
+            </a>
+
+
+
+        </div>
+
+    {% endif %}
+
+    {% if nexturl %}
+
+       <div class="col-12 col-md-6 col-lg-4">
+
+            <span class="prev-next-label">Next Artifact</span>
+
+            <a class="a-module prev-next" href="{{ nexturl | escape_once }}">
+                <h2 class="title artifact">{{ page.next.title }}</h2>
+                <div class="a-module-img-holder">
+                    <img class="prev-next-img" src="/images/{{ page.next.ref }}-{{ page.next.slug }}-thumbnail.jpg" alt="{{ page.next.title }}">
+                </div>
+            </a>
+
+
+
+       </div>
+
+    {% endif %}
+
+</div>

@@ -4,11 +4,9 @@ author_name: 'B E Rockett'
 year: y1968
 origin: United Kingdom
 publisher: 'Penguin Books'
-type: book cover
+types: [book cover, book]
 tags: [non-fiction, economics, Penguin, 'Penguin Modern Economics', Univers]
-ref: sol-010-0140
-thumbnail_image_path: /images/sol-010-0104-managerial-economics-thumbnail.jpg
-image_path: /images/sol-010-0104-managerial-economics.jpg
+ref: sol-010-0104
 layout: artifact
 ---
 

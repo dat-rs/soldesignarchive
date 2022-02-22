@@ -9,6 +9,7 @@ layout: default
 
       <div class="col-12">
 
+          {% assign filtered_artifacts = site.artifacts | where: 'types', page.name %}
           <h3 class="cat-label type">Type</h3>
           <h2 class="title artifact self">{{ page.name }}</h2>
 
@@ -17,24 +18,18 @@ layout: default
 
     </div>
 
-    <div class="row artifacts-section">
+    <div class="row section type-artifacts">
 
         <div class="col-12">
 
-            <h3 class="section-title">Artifacts</h3>
+            <h3 class="section-title">Artifacts</h3> ({{ filtered_artifacts.size }})
 
         </div>
 
-                {% assign filtered_artifacts = site.artifacts | where: 'type', page.name %}
                   {% for artifact in filtered_artifacts %}
 
-        <div class="col-12 col-md-6 col-lg-4">
+                  {% include a-module.html %}
 
-                    <a class="a-module prev-next" href="{{ artifact.url }}">
-                        <h2 class="title artifact">{{ artifact.title }}</h2>
-                        <img class="prev-next-img" src="{{ artifact.thumbnail_image_path }}" alt="">
-                    </a>
-        </div>
                   {% endfor %}
 
     </div>

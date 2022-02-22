@@ -3,8 +3,12 @@ layout: default
 ---
 
 <div class="container container-post">
+
+  <div class="row section post-head">
+
     <div class="col-12">
 
+        <h3 class="cat-label post">Blog Post</h3>
         <h2 class="title blog self">
             <a href="{{ post.url }}">{{ page.title }}</a>
         </h2>
@@ -31,13 +35,20 @@ layout: default
         <img class="grid-img" src="{{ page.thumbnail_image_path }}" alt="">
 
     </div>
+
+  </div>
+
+  <div class="row section post-body">
+
     <div class="col-12 col-lg-8">
 
-        <div class="post">
-
-            {{ page.content }}
-
-        </div>
+        <section class="post-text">
+          {{ page.content }}
+        </section>
 
     </div>
+
+  </div>
+
+
 </div>
