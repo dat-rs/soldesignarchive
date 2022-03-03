@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Introducing the Sol Design Archive"
-thumbnail_image_path: /images/non-art/rsda-comp-2.jpg
+title:  "Portuguese Publishers Logos"
+thumbnail_image_path: /images/non-art/publishers-logos.jpg
 author: Ricardo Santos
-lead: "Reading got me into books. Books got me into design and illustration. A brief history of how this project came about."
+lead: "A review of mid-century Portuguese publishers, imprints and collections logos."
 excerpt_separator: <!--more-->
 ---
 
