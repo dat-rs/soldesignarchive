@@ -9,12 +9,11 @@ feed:
   collections:
     - artifacts
 pagination:
-  enabled: false
-  debug: false
-  per_page: 6
-  permalink: '/page/:num/'
+  enabled: true
+  debug: true
+  per_page: 18
+  permalink: '/:num'
   title: ':title - page :num'
-  limit: 0
 collections:
   artifacts:
     output: true

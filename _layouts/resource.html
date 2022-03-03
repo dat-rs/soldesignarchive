@@ -10,7 +10,7 @@ layout: default
       <div class="col-12">
 
           <h3 class="cat-label resource">Resource</h3>
-          <h2 class="title artifact self">{{ page.name }}</h2>
+          <h2 class="title resource self">{{ page.name }}</h2>
 
 
       </div>
@@ -22,7 +22,7 @@ layout: default
         <div class="col-12">
 
             {% assign filtered_artifacts = site.artifacts | where: 'origin', page.name %}
-            <h3 class="section-title">Artifacts</h3> ({{ filtered_artifacts.size }})
+            <h3 class="section-title">Artifacts</h3> <span class="artifact-count">({{ filtered_artifacts.size }})</span>
 
         </div>
 

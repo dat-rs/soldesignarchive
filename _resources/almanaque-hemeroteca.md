@@ -1,8 +1,8 @@
 ---
 name: 'Almanaque - Hemeroteca Municipal de Lisboa'
-resource_type: article
-lan: pt
-out_url: https://eyeondesign.aiga.org/design-history-101-farewell-paul-bacon-prolific-jazz-record-book-cover-designer/
+type: image
+lang: pt
+out_url: http://hemerotecadigital.cm-lisboa.pt/Periodicos/Almanaque/Almanaque.htm
 layout: resource
 rel_authors: ["Sebastião Rodrigues"]
 rel_tags: ["Almanaque"]

@@ -92,7 +92,7 @@ $off-white-2: #FAF7E8;
 body {
     font-family: maple-web, sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-font-smoothing: antialiased;
     background-color: $off-white;
     color: black;
@@ -105,6 +105,42 @@ img {
 a:hover {
     text-decoration: none;
     color: black;
+}
+
+.wip-card {
+  background-color: $off-white;
+  max-width: 70%;
+}
+
+.wip-badge {
+  font-family: 'Mori Gothic', sans-serif;
+  font-weight: 400;
+  padding: 7px 6px 5px 6px;
+  margin-left: -1px;
+}
+
+.wip-card .card-body {
+  padding: 10px;
+}
+
+.card-body p.para-text {
+  margin-bottom: 0;
+  max-width: 80%;
+}
+
+/* General Typography */
+
+.artifact-deets, .para-text, .header-text, .cat-label, .footer-text, .artifact-count, .resource-description {
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+
+.caption, .post-text figcaption, .post-meta, ol.footnotes {
+    font-family: 'Mori Gothic', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 
@@ -262,9 +298,10 @@ h1.site-title a:hover {
     margin-top: 60px;
 }
 
-.container-artifact-index {
+.container-artifact-hero-index {
     background-color: black;
     padding: 30px 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -273,7 +310,7 @@ h1.site-title a:hover {
     margin-bottom: 90px;
 }
 
-.container-cat, .container-artifact-index, .container-post {
+.container-cat, .container-post {
     margin-top: 60px;
 }
 
@@ -326,22 +363,6 @@ h1.site-title a:hover {
 
 a {
     color: black;
-}
-
-
-/* General Typography */
-
-.artifact-deets, .para-text, .header-text, .cat-label,  {
-    font-size: 14px;
-    letter-spacing: normal;
-    line-height: 1.5;
-}
-
-.caption, .post-text figcaption, .post-meta, ol.footnotes {
-    font-family: 'Mori Gothic', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.5;
 }
 
 
@@ -538,6 +559,10 @@ width: 40px;
     margin-right: 5px;
 }
 
+.circa {
+    margin-right: 0px;
+  }
+
 .deet-link.author {
     color: $author-color;
 }
@@ -568,35 +593,35 @@ width: 40px;
 
 /* deet-link-hovers */
 
-.deet-link:hover {
+a.deet-link:hover {
     text-decoration: none;
 }
 
-.deet-link.author:hover {
+a.deet-link.author:hover {
     border-bottom: 1px solid $author-color;
 }
 
-.deet-link.origin:hover {
+a.deet-link.origin:hover {
     border-bottom: 1px solid $origin-color;
 }
 
-.deet-link.year:hover {
+a.deet-link.year:hover {
     border-bottom: 1px solid $year-color;
 }
 
-.deet-link.type:hover {
+a.deet-link.type:hover {
     border-bottom: 1px solid $type-color;
 }
 
-.deet-link.publisher:hover {
+a.deet-link.publisher:hover {
     border-bottom: 1px solid $publisher-color;
 }
 
-.deet-link.tag:hover {
+a.deet-link.tag:hover {
     border-bottom: 1px solid $tag-color;
 }
 
-.deet-link.resource:hover {
+a.deet-link.resource:hover {
     border-bottom: 1px solid $resource-color;
 }
 
@@ -680,10 +705,6 @@ h3.nav-link-title a:hover {
   margin-top: 90px;
 }
 
-.about-text, .post-text {
-    font-size: 16px;
-}
-
 /* text-cat-links */
 
 a.text-cat-link, a.text-reg-link {
@@ -762,7 +783,7 @@ a.text-cat-link.resource {
     content: '...';
 }
 
-.post-lead {
+.post-lead.self {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.3;
@@ -771,10 +792,12 @@ a.text-cat-link.resource {
     color: $artifact-color;
 }
 
-.post-meta {
-    margin-top: 4px;
-    margin-bottom: 15px;
+.post-lead.preview {
+    margin-top: 15px;
+}
 
+.post-meta.preview {
+    margin-bottom: 0px;
 }
 
 .post-text h3 {
@@ -820,6 +843,9 @@ figure.post-img.artifact img {
     border-right: none;
 }
 
+.post-img.preview {
+    margin-top: 15px;
+}
 
 /* Image Captions */
 
