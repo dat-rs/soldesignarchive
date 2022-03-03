@@ -9,7 +9,7 @@ feed:
   collections:
     - artifacts
 pagination:
-  enabled: true
+  enabled: false
   debug: true
   per_page: 18
   permalink: '/:num'
