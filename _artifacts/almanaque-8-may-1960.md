@@ -7,6 +7,7 @@ publisher: 'Grupo de Publicações Periódicas'
 types: [magazine, graphic design, illustration, photography, typography]
 tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo Magalhães"]
 ref: sol-320-0003
+wip: true
 layout: artifact
 date: 2022-02-22
 ---

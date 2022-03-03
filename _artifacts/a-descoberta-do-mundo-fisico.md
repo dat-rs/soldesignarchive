@@ -6,13 +6,16 @@ origin: Portugal
 publisher: 'Sá da Costa'
 types: [booklet, 'graphic design', photography]
 tags: [non-fiction, science, 'Cadernos de Iniciação Científica', Helvetica]
-ref: sol-250-0000
+ref: sol-253-0000
 image_count: 7
 layout: artifact_multi
 date: 2020-04-07
 ---
 <p>
-Design by <a class="text-cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>, photographs by <a class="text-cat-link author" href="/authors/Fernando Costa/">Fernando Costa</a>.
+Design by <a class="text-cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>, photographs by <a class="text-cat-
+          {{ a-aut-1 }}Sebastião Rodrigues{{ a-aut-2 }}Sebastião Rodrigues{{ a-aut-3 }}
+
+link author" href="/authors/Fernando Costa/">Fernando Costa</a>.
 </p>
 <p>
 Originally published by <a class="text-cat-link publisher" href="/publishers/sa-da-costa/">Sá da Costa</a> between 1979 and 1985, <cite>Cadernos de Iniciação Científica</cite> was a science communication effort aimed at children 9-15. It was edited by scientist, poet, and towering figure of Portuguese twentieth-century science communication Rómulo de Carvalho, whose literary <i>nom de plume</i> <a class="text-cat-link author" href="/authors/António Gedeão/">António Gedeão</a> he also used to sign some of the covers he designed for his own science books - see artifacts <a class="text-cat-link artifact" href="/artifacts/historia-dos-isotopos/">História dos Isótopos</a> and <a class="text-cat-link artifact" href="/artifacts/historia-da-energia-nuclear/">História da Energia Nuclear</a>.

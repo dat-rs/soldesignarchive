@@ -1,6 +1,6 @@
 ---
 layout: default
-title: rsda
+title: sol
 ---
 
 <div class="container container-reg">
@@ -14,7 +14,7 @@ title: rsda
   </div>
 </div>
 
-<div class="container-artifact-index">
+<div class="container-artifact-hero-index">
 
     <div class="row no-gutters" style="background-color: black;">
 
@@ -33,57 +33,7 @@ title: rsda
 
 </div>
 
-<div class="container container-blog-index">
-
-    <div class="row">
-
-        <div class="col-12">
-
-            <h3 class="section-title">Blog</h3>
-
-        </div>
-
-        {% assign sampled_posts = site.posts | sample: 3  %}
-        {% for post in sampled_posts %}
-
-        <div class="col-md-6 col-lg-4 row">
-
-            <div class="col-12">
-
-                <h2 class="title">
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </h2>
-
-                <p class="post-meta">
-
-                    {{ post.author }} |
-                    {{ post.date | date_to_string }}
-
-                </p>
-
-            </div>
-
-            <div class="col-12 order-md-3">
-                <img class="grid-img" src="{{ post.thumbnail_image_path }}" alt="">
-            </div>
-
-            <div class="col-12 order-md-2">
-                <section class="post-excerpt">
-                    {{ post.lead }}
-                </section>
-
-                <a class="read-post" href="">Read post >></a>
-
-            </div>
-
-        </div>
-
-
-        {% endfor %}
-
-    </div>
-
-</div>
+{% include blog-section-2.html %}
 
 <div class="container-sections-index">
     <div class="row no-gutters">
@@ -98,40 +48,6 @@ title: rsda
                 {% for author in site.authors limit:24 %}
 
                 <h2 class="title allcat"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
-        <div class="col-12 col-md-6 col-years-index">
-
-            <div class="section-index-container">
-
-                <h3 class="section-title">Years</h3>
-                <br>
-
-                {% for year in site.years limit:24 %}
-
-                <h2 class="title allcat"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
-        <div class="col-12 col-md-6 col-types-index">
-
-            <div class="section-index-container">
-
-                <h3 class="section-title">Types</h3>
-                <br>
-
-                {% for type in site.types limit:24 %}
-
-                <h2 class="title allcat"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
 
                 {% endfor %}
 
@@ -156,6 +72,23 @@ title: rsda
 
         </div>
 
+        <div class="col-12 col-md-6 col-years-index">
+
+            <div class="section-index-container">
+
+                <h3 class="section-title">Years</h3>
+                <br>
+
+                {% for year in site.years limit:24 %}
+
+                <h2 class="title allcat"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
         <div class="col-12 col-md-6 col-origins-index">
 
             <div class="section-index-container">
@@ -166,6 +99,23 @@ title: rsda
                 {% for origin in site.origins limit:24 %}
 
                 <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md-6 col-types-index">
+
+            <div class="section-index-container">
+
+                <h3 class="section-title">Types</h3>
+                <br>
+
+                {% for type in site.types limit:24 %}
+
+                <h2 class="title allcat"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
 
                 {% endfor %}
 

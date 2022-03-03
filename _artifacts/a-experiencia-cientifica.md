@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Sá da Costa'
 types: [booklet, 'graphic design', photography]
 tags: [non-fiction, science, 'Cadernos de Iniciação Científica', Helvetica]
-ref: sol-250-0001
+ref: sol-253-0001
 image_count: 4
 layout: artifact_multi
 ---

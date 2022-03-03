@@ -65,7 +65,10 @@ layout: default
                       {% endfor %}
 
                       <span class="deet-label hanging">Year</span>
-                      <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">{{ page.year | remove_first: "y" }}</a>
+                      <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">
+                        {% if page.circa %}<span class="deet-link year circa">c.</span>{% endif %}
+                        {{ page.year | remove_first: "y" }}
+                      </a>
                       <br>
 
                       <span class="deet-label hanging">Publisher/Client</span>
@@ -90,6 +93,10 @@ layout: default
                       <span class="deet-label hanging">Reference</span>
                       {{ page.ref }}
                   </p>
+
+                  {% if page.wip %}
+                  <p class=""><span class="badge wip-badge badge-dark">Work in Progress</span></p>
+                  {% endif %}
 
                 </div>
               </div>
@@ -154,7 +161,7 @@ layout: default
           <div class="row section artifact-resources">
 
             {% include resources-module.html %}
-            
+
           </div>
 
           {% endif %}

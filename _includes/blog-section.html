@@ -1,0 +1,44 @@
+<div class="container container-blog-index">
+
+    <div class="row">
+
+        <div class="col-12">
+
+            <h3 class="section-title">Blog</h3>
+
+        </div>
+
+        {% assign sampled_posts = site.posts | sample: 2  %}
+        {% for post in sampled_posts %}
+
+        <div class="col-md-6 row">
+
+            <div class="col-12">
+
+                <h2 class="title blog"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+                <p class="post-meta">
+                    {{ post.author }} | {{ post.date | date_to_string }}
+                </p>
+
+            </div>
+
+            <div class="col-12">
+                <section class="post-lead preview">
+                    {{ post.lead }}
+                </section>
+
+            </div>
+
+            <div class="col-12">
+                <img class="post-img preview" src="{{ post.thumbnail_image_path }}" alt="{{ post.title }} image">
+            </div>
+
+        </div>
+
+
+        {% endfor %}
+
+    </div>
+
+</div>
