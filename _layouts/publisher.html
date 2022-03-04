@@ -17,6 +17,24 @@ layout: default
 
     </div>
 
+    <div class="row section about">
+
+        {% assign striped_content = page.content | strip_newlines %}
+            {% if striped_content != "" %}
+
+            <div class="col-12 col-md-9 col-lg-8">
+
+
+
+            <h3 class="section-title">About</h3>
+            <section class="about-text">{{ content }}</section>
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
     <div class="row section publisher-artifacts">
 
         <div class="col-12">
