@@ -6,7 +6,7 @@ origin: United States
 publisher: 'Vintage Books'
 types: [book cover, book, illustration, lettering]
 tags: [lettering]
-ref: sol-010-0145
+ref: sol-030-0080
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---

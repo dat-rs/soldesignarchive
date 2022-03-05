@@ -6,8 +6,8 @@ origin: Portugal
 publisher: 'Atlântida'
 types: [book cover, book]
 tags: [non-fiction, science communication, physics, science]
-ref: sol-010-0043
+ref: sol-030-0027
 image_count: 2
 layout: artifact_multi
-date: 2022-02-13
+date_added: 2022-02-13
 ---

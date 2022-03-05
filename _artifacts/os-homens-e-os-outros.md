@@ -6,5 +6,5 @@ origin: Portugal
 publisher: 'Publicações Europa América'
 types: [book cover, book]
 tags: [fiction, "Os Livros das Três Abelhas", red]
-ref: sol-010-0068
+ref: sol-030-0045
 ---

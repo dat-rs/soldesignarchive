@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Ulisseia'
 types: [book cover, book, illustration]
 tags: [non-fiction, illustration, blue]
-ref: sol-010-0098
+ref: sol-010-0046
 layout: artifact
-date: 2020-04-06
+date_added: 2020-04-06
 ---

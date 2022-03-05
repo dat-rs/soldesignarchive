@@ -6,6 +6,6 @@ origin: Portugal
 publisher: 'Arcádia'
 types: [book cover, book, illustration, typography]
 tags: [fiction, black, blue, red]
-ref: sol-010-0087
+ref: sol-010-0038
 layout: artifact
 ---

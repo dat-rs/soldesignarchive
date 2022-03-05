@@ -6,6 +6,6 @@ origin: Soviet Union
 publisher: 'Novosti Press Agency'
 types: [book cover, book]
 tags: [non-fiction, propaganda, government, lettering, blue, red]
-ref: sol-010-0095
+ref: sol-030-0054
 layout: artifact
 ---

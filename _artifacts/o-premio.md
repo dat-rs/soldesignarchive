@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Portugália'
 types: [book cover, book]
 tags: [fiction, illustration,]
-ref: sol-010-0151
+ref: sol-030-0013
 layout: artifact
-date: 2022-02-05
+date_added: 2022-02-05
 ---

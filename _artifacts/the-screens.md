@@ -6,7 +6,7 @@ origin: United States
 publisher: 'Grove Press'
 types: [book cover, book]
 tags: [theatre, photography, "multiple exposure"]
-ref: sol-010-0126
+ref: sol-030-0068
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---

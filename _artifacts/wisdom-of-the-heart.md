@@ -1,12 +1,12 @@
 ---
-title: Wisdom of the Heart
+title: The Wisdom of the Heart
 author_name: 'Chermayeff & Geismar'
 year: y1960
 origin: United States
 publisher: 'New Directions'
 types: [book cover, book]
 tags: [lettering]
-ref: sol-010-0125
+ref: sol-030-0063
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---

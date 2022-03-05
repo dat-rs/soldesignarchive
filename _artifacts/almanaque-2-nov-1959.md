@@ -9,6 +9,6 @@ tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo M
 ref: sol-320-0001
 wip: true
 layout: artifact
-date: 2022-02-22
+date_added: 2022-02-22
 ---
 <p>This is the second number of <a class="text-cat-link publisher" href="/tags/almanaque/">Almanaque</a>.</p>

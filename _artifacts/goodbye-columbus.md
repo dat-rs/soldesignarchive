@@ -6,6 +6,6 @@ origin: United States
 publisher: 'Bantam Books'
 types: [book cover, book, typography]
 tags: [illustration, "Philip Roth", "Benguiat Caslon"]
-ref: sol-010-0143
+ref: sol-030-0077
 layout: artifact
 ---

@@ -9,7 +9,7 @@ tags: [non-fiction, science, 'Cadernos de Iniciação Científica', Helvetica]
 ref: sol-253-0000
 image_count: 7
 layout: artifact_multi
-date: 2020-04-07
+date_added: 2020-04-07
 ---
 <p>
 Design by <a class="text-cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>, photographs by <a class="text-cat-

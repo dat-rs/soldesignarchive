@@ -8,5 +8,5 @@ types: [book cover, book]
 tags: [illustration, "slab serif"]
 ref: sol-010-0009
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---

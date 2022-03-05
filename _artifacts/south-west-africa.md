@@ -6,7 +6,7 @@ origin: United States
 publisher: 'Penguin Books'
 types: [book cover, book]
 tags: [Helvetica, "Penguin African Library"]
-ref: sol-010-0100
+ref: sol-010-0049
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---
