@@ -6,7 +6,7 @@ origin: United States
 publisher: 'Meridian Books'
 types: [book cover, book]
 tags: ["Plato", philosophy]
-ref: sol-010-0144
+ref: sol-030-0067
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---

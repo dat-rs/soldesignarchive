@@ -6,7 +6,7 @@ origin: United States
 publisher: 'Vintage Books'
 types: [book cover, book, illustration, typography]
 tags: ["Albert Camus", geometric, Clarendon]
-ref: sol-010-0128
+ref: sol-030-0064
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---

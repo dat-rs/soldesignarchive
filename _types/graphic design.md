@@ -1,4 +1,4 @@
 ---
-name: graphic design
+name: 'graphic design'
 layout: type
 ---

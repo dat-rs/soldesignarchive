@@ -6,6 +6,6 @@ origin: Portugal
 publisher: 'Publicações Europa-América'
 types: [book cover, book]
 tags: [fiction, short story, 'Rogério Fernandes', 'Os Livros das Três Abelhas']
-ref: sol-010-0001
+ref: sol-030-0009
 layout: artifact
 ---

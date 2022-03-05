@@ -6,6 +6,6 @@ origin: Portugal
 publisher: 'Livraria Morais Editora'
 types: [book cover, book, graphic design, typography, photography]
 tags: [non-fiction, history]
-ref: sol-010-0150
+ref: sol-030-0012
 layout: artifact
 ---

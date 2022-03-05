@@ -6,6 +6,6 @@ origin: United States
 publisher: 'Vintage Books'
 types: [book cover, book]
 tags: [illustration, "Albert Camus"]
-ref: sol-010-0140
+ref: sol-030-0065
 layout: artifact
 ---

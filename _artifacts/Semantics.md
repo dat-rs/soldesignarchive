@@ -6,6 +6,6 @@ origin: United Kingdom
 publisher: 'Penguin Books'
 types: [book cover, book]
 tags: [non-fiction, Penguin, Pelican, Helvetica]
-ref: sol-010-0096
+ref: sol-030-0055
 layout: artifact
 ---

@@ -1,0 +1,38 @@
+<div class="container container-blog-index">
+
+    <div class="row">
+
+        <div class="col-12">
+
+            <h3 class="section-title">Latest Artifacts added </h3>
+
+        </div>
+
+        {% assign sampled_artifacs = site.artifacts | sort: 'date_added' | sample: 30 %}
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Reference</th>
+              <th scope="col">Artifact</th>
+              <th scope="col">Date</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          {% for artifact in sampled_artifacts %}
+
+            <tr>
+              <th scope="col"><a href="{{ post.url }}">{{ artifact.ref }}</a></th>
+              <th scope="col"><a href="{{ post.url }}">{{ artifact.title }}</a></th>
+              <th scope="col"><a href="{{ post.url }}">{{ artifact.date_added }}</a></th>
+            </tr>
+
+        {% endfor %}
+
+        </tbody>
+      </table>
+
+    </div>
+
+</div>

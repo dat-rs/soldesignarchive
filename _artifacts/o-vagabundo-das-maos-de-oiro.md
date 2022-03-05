@@ -6,6 +6,6 @@ origin: Portugal
 publisher: 'Portugália Editora'
 types: [book cover, book]
 tags: [illustration, "Romeu Correia", theatre]
-ref: sol-010-0118
-date: 2022-02-17
+ref: sol-030-0058
+date_added: 2022-02-17
 ---

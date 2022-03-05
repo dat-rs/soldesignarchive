@@ -8,5 +8,5 @@ types: [book cover, book]
 tags: [illustration, "Henri Troyat"]
 ref: sol-010-0014
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---

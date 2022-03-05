@@ -6,6 +6,6 @@ origin: United States
 publisher: 'Vintage Books'
 types: [book cover, book, illustration]
 tags: [non-fiction, illustration, "Carl L Becker", geometric]
-ref: sol-010-0130
+ref: sol-030-0071
 layout: artifact
 ---

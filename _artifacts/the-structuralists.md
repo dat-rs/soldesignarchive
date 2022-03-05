@@ -6,7 +6,7 @@ origin: United States
 publisher: 'Doubleday'
 types: [book cover, book, typography, illustration, red, blue]
 tags: [Helvetica]
-ref: sol-010-0146
+ref: sol-030-0079
 layout: artifact
-date: 2022-02-22
+date_added: 2022-02-22
 ---

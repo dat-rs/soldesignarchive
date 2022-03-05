@@ -6,6 +6,6 @@ origin: Portugal
 publisher: 'Ulisseia'
 types: [book cover, book, typography]
 tags: [fiction, "Lawrence Durrell"]
-ref: sol-010-0147
+ref: sol-030-0078
 layout: artifact
 ---

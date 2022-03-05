@@ -6,7 +6,7 @@ origin: "Brazil"
 publisher: 'Escritório de Propaganda e Expansão Comercial do Brasil em Lisboa'
 types: [book cover, book, illustration, photography, graphic design]
 tags: [Brazil, non-fiction, tourism, commerce, government, illustration, propaganda]
-ref: sol-040-0007
+ref: sol-030-0007
 image_count: 8
 layout: artifact_multi
 ---

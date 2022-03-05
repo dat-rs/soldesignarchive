@@ -6,8 +6,8 @@ origin: United States
 publisher: 'Vintage Books'
 types: [book cover, book, graphic design]
 tags: ["Willa Cather", circles]
-ref: sol-010-0129
+ref: sol-030-0070
 image_count: 2
 layout: artifact_multi
-date: 2022-02-17
+date_added: 2022-02-17
 ---

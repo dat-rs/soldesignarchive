@@ -6,7 +6,7 @@ origin: United Kingdom
 publisher: 'Penguin Books'
 types: [book cover, book]
 tags: [non-fiction, economics, Penguin, 'Penguin Modern Economics', Univers]
-ref: sol-010-0104
+ref: sol-010-0055
 layout: artifact
 ---
 

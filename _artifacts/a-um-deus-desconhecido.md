@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Editorial Gleba'
 types: [book cover, book, illustration]
 tags: [illustration, "John Steinbeck", "Os Livros das Três Abelhas"]
-ref: sol-010-0049
+ref: sol-030-0032
 layout: artifact
-date: 2022-02-17
+date_added: 2022-02-17
 ---
