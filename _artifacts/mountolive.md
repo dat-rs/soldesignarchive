@@ -8,4 +8,5 @@ types: [book cover, book, typography]
 tags: [fiction, "Lawrence Durrell"]
 ref: sol-030-0047
 layout: artifact
+date_added: 2022-02-15
 ---

@@ -8,4 +8,5 @@ types: [book cover, book]
 tags: [fiction, "Os Livros das Três Abelhas", "Publicações Europa-América", brown, blue, illustration]
 ref: sol-030-0046
 layout: artifact
+date_added: 2020-01-01
 ---

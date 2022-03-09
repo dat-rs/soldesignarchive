@@ -8,4 +8,5 @@ types: [book cover, book]
 tags: [theatre, "Eugène Ionesco"]
 ref: sol-030-0066
 layout: artifact
+date_added: 2020-01-01
 ---

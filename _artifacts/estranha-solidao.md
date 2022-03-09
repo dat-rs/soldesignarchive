@@ -8,4 +8,5 @@ types: [book cover, book, illustration]
 tags: [Philippe Sollers, fiction, illustration, orange, purple]
 ref: sol-010-0012
 layout: artifact
+date_added: 2020-01-01
 ---

@@ -9,4 +9,5 @@ tags: [non-fiction, illustration, "H L Mencken", lettering, collage]
 ref: sol-030-0057
 image_count: 2
 layout: artifact_multi
+date_added: 2020-01-01
 ---

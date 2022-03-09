@@ -8,4 +8,5 @@ types: [book cover, book]
 tags: [non-fiction, culture, Penguin, Helvetica, illustration, red]
 ref: sol-010-0054
 layout: artifact
+date_added: 2020-01-01
 ---

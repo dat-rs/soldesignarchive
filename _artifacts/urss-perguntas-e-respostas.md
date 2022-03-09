@@ -8,4 +8,5 @@ types: [book cover, book]
 tags: [non-fiction, propaganda, government, lettering, blue, red]
 ref: sol-030-0054
 layout: artifact
+date_added: 2020-01-01
 ---
