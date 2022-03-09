@@ -4,16 +4,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate-v2
 feed:
   collections:
     - artifacts
-pagination:
-  enabled: false
-  debug: true
-  per_page: 18
-  permalink: '/:num'
-  title: ':title - page :num'
 collections:
   artifacts:
     output: true

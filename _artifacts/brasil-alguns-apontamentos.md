@@ -9,6 +9,7 @@ tags: [Brazil, non-fiction, tourism, commerce, government, illustration, propaga
 ref: sol-030-0007
 image_count: 8
 layout: artifact_multi
+date_added: 2020-01-01
 ---
 
 Published by the Brazilian government's «office of propaganda and commercial expansion in Lisbon», the book goes through the history, demographics, economy, and culture of the country.

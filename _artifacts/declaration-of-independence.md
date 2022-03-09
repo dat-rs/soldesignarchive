@@ -8,4 +8,5 @@ types: [book cover, book, illustration]
 tags: [non-fiction, illustration, "Carl L Becker", geometric]
 ref: sol-030-0071
 layout: artifact
+date_added: 2020-01-01
 ---

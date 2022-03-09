@@ -8,4 +8,5 @@ types: [book cover, book, graphic design, typography, photography]
 tags: [non-fiction, history]
 ref: sol-030-0012
 layout: artifact
+date_added: 2022-03-01
 ---

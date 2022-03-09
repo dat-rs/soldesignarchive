@@ -8,4 +8,5 @@ types: [book cover, book, typography, graphic design, photography]
 tags: [fiction, "Michel del Castillo"]
 ref: sol-030-0076
 layout: artifact
+date_added: 2022-02-15
 ---

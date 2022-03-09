@@ -10,6 +10,7 @@ ref: sol-121-0000
 image_count: 3
 image_captions: ["", "Map of downtown Madrid. Francisco Espinosa.", "Illustrations by J. Ruiz Navarro."]
 layout: artifact_multi
+date_added: 2020-01-01
 ---
 
 Design and illustrations by J. Ruiz Navarro. Map by Francisco Espinosa. Informational brochure for tourists about Madrid's museums.<br> Most likely published before 1962.
