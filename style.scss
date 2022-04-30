@@ -90,9 +90,9 @@ $off-white-2: #FAF7E8;
 /* General */
 
 body {
-    font-family: maple-web, sans-serif;
+    font-family: franklin-gothic-urw, sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     background-color: $off-white;
@@ -115,7 +115,8 @@ a:hover {
 
 .wip-badge {
   font-family: 'Mori Gothic', sans-serif;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 300;
   padding: 7px 6px 5px 6px;
   margin-left: -1px;
 }
@@ -131,23 +132,42 @@ a:hover {
 
 /* General Typography */
 
-.text, .about-text p {
+.text, .about-text p, .post-text p {
+  font-family: plantin, sans-serif;
+
   line-height: 1.5;
 }
 
-.artifact-deets, .para-text, .header-text, .cat-label, .footer-text, .artifact-count, .resource-description {
+.artifact-deets, .para-text, .header-text, .cat-label, , .artifact-count,  {
+    font-family: franklin-gothic-urw;
     font-size: 14px;
     letter-spacing: normal;
     line-height: 1.5;
 }
 
-.caption, .post-text figcaption, .post-meta, ol.footnotes {
+.caption, .post-text figcaption, .post-meta, ol.footnotes, .footer-text, .resource-description {
     font-family: 'Mori Gothic', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 1.5;
 }
 
+.about-text {
+  margin-bottom: 40px;
+}
+
+.more-info-text {
+  margin-top: 30px;
+  max-width: 70%;
+}
+
+/* Franklin Bug
+
+.a-module h2.title {
+  padding-left: 2px;
+}
+
+*/
 
 /* Header */
 
@@ -163,10 +183,10 @@ a:hover {
 }
 
 h1.site-title {
-    font-size: 2rem;
-    font-family: 'Mori Gothic';
+    font-size: 2.6rem;
+    font-family: franklin-gothic-urw-comp, sans-serif;
     font-weight: 600;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
@@ -181,11 +201,35 @@ h1.site-title a:hover {
 
 /* Footer */
 
+.footer-row {
+  margin-top: 15px;
+}
+
 .footer-text {
     color: #f2f2f2;
     padding-bottom: 9px;
-    padding-left: 8px;
 }
+
+.footer-link {
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: $off-white;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: $off-white;
+    border-bottom: 1px solid;
+}
+
+.footer-quote {
+  font-family: plantin;
+  font-size: 19px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
 
 .menu-link-container {
     font-size: 42px;
@@ -273,6 +317,7 @@ h1.site-title a:hover {
 }
 
 .sub-header-link {
+    font-family: maple-web;
     display: inline-block;
     font-size: 10px;
     font-weight: 600;
@@ -324,10 +369,13 @@ h1.site-title a:hover {
     min-height: 90vh;
 }
 
+.container.last-before-footer {
+  margin-bottom: 60px;
+}
+
 .container-footer {
     background-color: black;
     color: #dedede;
-    margin-top: 60px;
     padding-top: 10px;
     min-height: 150px;
 }
@@ -375,61 +423,68 @@ a {
 
 h2.title {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     line-height: 1.2;
     padding-top: 12px;
     margin-right: 15px;
-    font-family: 'Mori Gothic';
-    font-weight: 500;
+    font-family: franklin-gothic-urw-cond, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.2px;
 }
 
 h2.title.self {
-    font-size: 1.8rem;
-    line-height: 1.4;
+    font-family: franklin-gothic-urw-comp, sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.2;
     padding-top: 0;
     margin-bottom: 20px;
 }
+
 
 h2.title.allcat:hover {
     border-bottom: none;
 }
 
-h2.title.resource {
-    font-size: 1.4rem;
+h2.title.resource.inmodule {
     display: inline-block;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     margin-right: 0;
 }
 
 h2.title.blog.preview {
-    font-size: 20px;
+    font-size: 26px;
     line-height: 1.3;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 0;
     margin-right: 0;
 }
 
 .a-module h2.title {
-    font-size: 1.4rem;
-    line-height: 1;
+    font-family: franklin-gothic-urw-comp, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.2;
     display: inline-block;
-    font-weight: 500;
-    font-size: 18px;
-    width: 95%;
+    width: 98%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding-top: 4px;
 
 }
 
+.a-module.sm h2.title {
+    font-size: 22px;
+}
 
 /* Resources */
 
 i.bi-images.a-module-corner-icon {
   position: absolute;
-  bottom: 25px;
+  bottom: 30px;
   right: 20px;
   color: $off-white;
 }
@@ -443,7 +498,7 @@ i.bi-images.a-module-corner-icon {
 
 .resource-icon {
   font-size: 24px;
-  padding-top: 8px;
+  padding-top: 13px;
   padding-right: 14px;
 }
 
@@ -456,8 +511,15 @@ i.bi-images.a-module-corner-icon {
 
 .browse-link {
     border-bottom: 2.5px solid;
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
     height: 100%;
     display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .browse-link:hover {
@@ -467,12 +529,16 @@ i.bi-images.a-module-corner-icon {
 }
 
 
-/* Artifact Image */
+/* Artifact Image + Carousels */
 
 .artifact-img-container {
     background-color: black;
     text-align: center;
     margin-bottom: 30px;
+}
+
+.artifact-carousel-cell .artifact-img-container {
+    margin-bottom: 0px;
 }
 
 .artifact-img {
@@ -481,11 +547,71 @@ i.bi-images.a-module-corner-icon {
     padding: 8% 8%;
 }
 
+.artifact-img-flick {
+    max-width: 100%;
+    max-height: 700px;
+    padding: 6% 6%;
+}
+
 .caption.a-multi {
   margin-top: -20px;
   margin-bottom: 30px;
 }
 
+.artifact-carousel-cell {
+  width: 100%;
+  background-color: red;
+}
+
+/* Nav Carousel */
+
+.artifact-carousel-nav {
+  background-color: black;
+  padding-bottom: 20px;
+}
+
+.artifact-carousel-nav-cell {
+  width: 100px;
+  height: 80px;
+}
+
+.artifact-carousel-nav-cell.is-nav-selected {
+  background-color: $artifact-color;
+}
+
+.artifact-carousel-nav-cell .artifact-img-nav {
+  padding: 8px;
+}
+
+.artifact-carousel-nav-cell.is-nav-selected .artifact-img-nav {
+  opacity: 1;
+  transition: mix-blend-mode 0.3s ease;
+  filter: grayscale(100%);
+  mix-blend-mode: screen;
+}
+
+/* Flickity Buttons */
+
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+
+.flickity-button-icon {
+  fill: white;
+}
+
+.flickity-prev-next-button {
+  width: 50px;
+  height: 50px;
+}
+
+.flickity-button:hover {
+  fill: $artifact-color;
+  opacity: 1;
+  background: transparent;
+}
 
 /* Artifact Image Rotate */
 
@@ -549,16 +675,16 @@ i.bi-images.a-module-corner-icon {
 }
 
 .deet-label {
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.deet-label.hanging {
+.deet-label.hanging, .post-meta.self, .more-info-text {
 position: relative;
-padding-top: 10px;
+padding-top: 9px;
 margin-top: 10px;
 }
 
-.hanging::before {
+.hanging::before, .post-meta.self::before, .more-info-text::before {
 background-color: #000;
 top: 0;
 content: '';
@@ -648,7 +774,7 @@ a.deet-link.resource:hover {
 }
 
 .prev-next-label, .page-title-label {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
 }
 
@@ -660,7 +786,6 @@ a.deet-link.resource:hover {
 .a-module.prev-next:hover .a-module-img-holder .prev-next-img,
 .a-module.grid:hover .a-module-img-holder .grid-img,
 .a-module.grid:hover .a-module-img-holder .a-module-img {
-    color: $artifact-color;
     background-color: $artifact-color;
     opacity: 1;
     transition: mix-blend-mode 0.3s ease;
@@ -687,15 +812,33 @@ a.deet-link.resource:hover {
 
 h3.section-title, h3.nav-link-title {
     display: inline-block;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 800;
+    font-size: 13px;
     line-height: 1;
-    letter-spacing: 0px;
+    letter-spacing: 0.4px;
     text-transform: uppercase;
     padding-bottom: 0;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-left: -20px;
 }
 
+h3.section-title::before {
+  font-family: 'Mori Gothic';
+  font-weight: 900;
+  content: "☀";
+  font-size: 30px;
+  position: relative;
+  top: 4px;
+  right: 8px;
+}
+
+.section-index-container h3.section-title {
+  margin-left: 0;
+}
+
+.section-index-container h3.section-title::before {
+  content: none;
+}
 
 h3.nav-link-title a:hover {
     color: black;
@@ -724,7 +867,10 @@ h3.nav-link-title a:hover {
 /* text-cat-links */
 
 a.text-cat-link, a.text-reg-link {
+    font-family: maple-web;
     font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.2px;
 }
 
 a.text-cat-link:hover, a.text-reg-link:hover {
@@ -768,20 +914,6 @@ a.text-cat-link.resource {
     color: $resource-color;
 }
 
-.footer-link {
-    font-weight: 700;
-    font-size: 11px;
-    text-transform: uppercase;
-    color: $off-white;
-}
-
-.footer-link:hover {
-    text-decoration: none;
-    color: $off-white;
-    border-bottom: 3px solid;
-}
-
-
 /* Blog Posts */
 
 .read-post {
@@ -799,16 +931,22 @@ a.text-cat-link.resource {
     content: '...';
 }
 
+.post-lead {
+    font-family: maple-web;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
 .post-lead.self {
     font-size: 20px;
-    font-weight: 600;
-    line-height: 1.3;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    color: $artifact-color;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .post-lead.preview {
+    font-size: 16px;
+    line-height: 1.4;
     margin-top: 15px;
     margin-bottom: 0;
 }
@@ -817,10 +955,14 @@ a.text-cat-link.resource {
     margin-bottom: 0px;
 }
 
+.post-text h3, .post-text h4 {
+    font-family: maple-web;
+}
+
 .post-text h3 {
     font-size: 26px;
     font-weight: 500;
-    letter-spacing: -0.8px;
+    letter-spacing: -0.6px;
     margin-top: 60px;
     margin-bottom: 1rem;
     display: inline-block;
@@ -828,13 +970,15 @@ a.text-cat-link.resource {
 
 .post-text h4 {
     font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.2px;
+    font-weight: 600;
     margin-top: 60px;
     margin-bottom: 1rem;
     display: inline-block;
 }
 
+.card-footer.blog-post {
+  border-radius: 0;
+}
 
 /* Blog Posts - Images */
 
