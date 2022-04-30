@@ -1,0 +1,12 @@
+
+  <a class="a-module sm grid" href="{{ artifact.url }}">
+      <h2 class="title">{{ artifact.title }}</h2>
+      <div class="a-module-img-holder">
+        {% if artifact.layout == 'artifact_multi' %}
+          <i class="bi bi-images a-module-corner-icon"></i>
+        {% endif %}
+        <img class="a-module-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="">
+
+      </div>
+
+  </a>

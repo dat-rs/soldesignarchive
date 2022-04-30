@@ -8,6 +8,7 @@ types: [book cover, book, graphic design]
 tags: ["Willa Cather", circles]
 ref: sol-030-0070
 image_count: 2
-layout: artifact_multi
+layout: artifact_flick
 date_added: 2022-02-17
 ---
+A collection of five short stories by Willa Cather.
