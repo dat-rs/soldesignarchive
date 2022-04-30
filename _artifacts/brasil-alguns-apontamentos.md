@@ -1,5 +1,5 @@
 ---
-title: Brasil - alguns apontamentos
+title: Brasil — alguns apontamentos
 author_name: ['Manuel Motta Cardoso', 'Oskar']
 year: "y1961"
 origin: "Brazil"
@@ -8,7 +8,7 @@ types: [book cover, book, illustration, photography, graphic design]
 tags: [Brazil, non-fiction, tourism, commerce, government, illustration, propaganda]
 ref: sol-030-0007
 image_count: 8
-layout: artifact_multi
+layout: artifact_flick
 date_added: 2020-01-01
 ---
 
