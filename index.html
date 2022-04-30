@@ -33,7 +33,7 @@ title: sol
 
 </div>
 
-{% include blog-section-2.html %}
+{% include blog-section.html %}
 
 {% include latest-section.html %}
 
@@ -47,7 +47,7 @@ title: sol
                 <h3 class="section-title">Authors</h3>
                 <br>
 
-                {% for author in site.authors limit:24 %}
+                {% for author in site.authors %}
 
                 <h2 class="title allcat"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
 
@@ -64,7 +64,7 @@ title: sol
                 <h3 class="section-title">Publishers/Clients</h3>
                 <br>
 
-                {% for publisher in site.publishers limit:24 %}
+                {% for publisher in site.publishers %}
 
                 <h2 class="title allcat"><a class="browse-link index" href="{{ publisher.url }}">{{ publisher.name }}</a></h2>
 
@@ -81,7 +81,7 @@ title: sol
                 <h3 class="section-title">Years</h3>
                 <br>
 
-                {% for year in site.years limit:24 %}
+                {% for year in site.years %}
 
                 <h2 class="title allcat"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
 
@@ -98,7 +98,7 @@ title: sol
                 <h3 class="section-title">Origins</h3>
                 <br>
 
-                {% for origin in site.origins limit:24 %}
+                {% for origin in site.origins %}
 
                 <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name }}</a></h2>
 
@@ -115,7 +115,7 @@ title: sol
                 <h3 class="section-title">Types</h3>
                 <br>
 
-                {% for type in site.types limit:24 %}
+                {% for type in site.types %}
 
                 <h2 class="title allcat"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
 
