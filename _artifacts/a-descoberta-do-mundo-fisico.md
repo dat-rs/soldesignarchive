@@ -8,7 +8,7 @@ types: [booklet, 'graphic design', photography]
 tags: [non-fiction, science, 'Cadernos de Iniciação Científica', Helvetica]
 ref: sol-253-0000
 image_count: 7
-layout: artifact_flick
+layout: artifact
 date_added: 2020-04-07
 ---
 <p>

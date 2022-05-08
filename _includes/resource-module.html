@@ -1,6 +1,3 @@
-<div class="col-12">
-
-    <h3 class="section-title">Resources</h3><br>
 
     {% for resource in filtered_resources %}
 
@@ -23,6 +20,9 @@
       {% when 'download' %}
         {% assign i_class = 'bi-file-earmark-download' %}
 
+      {% when 'book' %}
+        {% assign i_class = 'bi-book' %}
+
       {% else %}
         {% assign i_class = 'bi bi-file-earmark-text' %}
     {% endcase %}
@@ -37,13 +37,10 @@
           <a class="deet-link resource" href="{{ resource.out_url }}">
             <h2 class="title resource inmodule">{{ resource.name }}</h2><br>
           </a>
-        <span class="resource-description">{{ resource }} [{{ resource.lang }}]</span>
+        <span class="resource-description">{{ resource.content }} [{{ resource.lang }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</span>
 
         </div>
 
       </div>
 
     {% endfor %}
-
-
-</div>

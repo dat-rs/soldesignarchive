@@ -1,4 +1,4 @@
 ---
-name: collage
+name: Kabel
 layout: tag
 ---

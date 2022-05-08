@@ -7,8 +7,9 @@ origin: Portugal
 publisher: 'A Voz do Dono'
 types: [record, record cover, illustration]
 tags: [music]
+iconography: [people, men, faces, leaves]
 ref: sol-601-0000
-wip: true
 layout: artifact
 date_added: 2022-02-23
 ---
+1, 2, 3, 4 moustaches.

@@ -1,0 +1,13 @@
+---
+title: 'José de Almada-Negreiros. Obras Completas 1 - Contos e Novelas'
+author_name: Alda Rosa
+year: y1971
+origin: Portugal
+publisher: 'Editorial Estampa'
+types: [book cover, book, illustration, typography]
+tags: ["José de Almada-Negreiros", Kabel]
+ref: sol-030-0037
+layout: artifact
+date_added: 2020-01-01
+---
+Volume 1 of the complete works of José de Almada-Negreiros, featuring short stories and novellas. Cover set in <a class="text-cat-link publisher" href="/tags/Kabel/">Kabel</a>.

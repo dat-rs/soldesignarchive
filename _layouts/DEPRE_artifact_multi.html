@@ -42,69 +42,20 @@ layout: default
 
       <div class="container-fluid cat">
 
-          <!-- Artifact Carousel -->
-          <div class="artifact-carousel" data-flickity='{ "contain": true, "wrapAround": true, "adaptiveHeight": true, "pageDots": false }'>
-
-            <div class="artifact-carousel-cell">
-              <div class="artifact-img-container">
-
-              <img class="artifact-img-flick" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
-              </div>
-            </div>
-
-          {% assign image_count = page.image_count %}
-          {% for image in (2..image_count) %}
-
-          <div class="artifact-carousel-cell">
-            <div class="artifact-img-container">
+        <div class="row">
 
 
-            <img class="artifact-img-flick" src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg" alt="{{ page.title }}">
-            </div>
-          </div>
+                <div class="col-12 col-sm-10">
 
-          {% assign fixed_image_count = image %}
-            {% if page.image_captions[fixed_image_count] %}
+                    <div class="artifact-img-container">
 
-            <p class="caption a-multi fake-container">↑ {{ page.image_captions[fixed_image_count]}}</p>
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
 
-            {% endif %}
+                    </div>
 
-          {% endfor %}
-          </div>
+                </div>
 
-
-          <!-- Nav Artifact Carousel -->
-          <div class="artifact-carousel-nav" data-flickity='{ "asNavFor": ".artifact-carousel", "contain": true, "pageDots": false, "prevNextButtons": false }'>
-            <div class="artifact-carousel-nav-cell">
-              <img class="artifact-img-nav" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
-            </div>
-
-          {% for image in (2..image_count) %}
-          <div class="artifact-carousel-nav-cell">
-            <img class="artifact-img-nav" src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg" alt="{{ page.title }}">
-          </div>
-          {% endfor %}
-          </div>
-
-        </div>
-
-      <div class="container cat">
-
-        <div class="row section about">
-
-
-          <div class="col-12 col-md-8">
-
-                <h3 class="section-title">About</h3>
-                <section class="about-text">{{ content }}</section>
-                <section class="more-info-text">{% include additional-info.html %}</section>
-
-          </div>
-
-                <div class="col-12 col-md-2 offset-md-2">
-
-                  <h3 class="section-title">Details</h3>
+                <div class="col-12 col-sm-2">
 
                   <p class="artifact-deets">
 
@@ -150,9 +101,58 @@ layout: default
                 </div>
               </div>
 
+
+
+        {% assign striped_content = page.content | strip_newlines %}
+        {% if striped_content != "" %}
+
       </div>
 
-        <div class="container last-before-footer">
+      <div class="container cat">
+
+        <div class="row section a-about">
+
+            <div class="col-12 col-lg-8">
+
+                  <h3 class="section-title">About</h3>
+                  <section class="about-text">{{ content }}</section>
+
+            </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid cat">
+
+        {% endif %}
+
+        <div class="row section more-images">
+
+          {% assign image_count = page.image_count %}
+          {% for image in (2..image_count) %}
+
+          <div class="col-12 col-sm-12">
+
+                  <div class="artifact-img-container">
+
+                      <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg" alt="{{ page.title }}">
+
+                  </div>
+
+                  {% assign fixed_image_count = image | minus: 1 %}
+                  {% if page.image_captions[fixed_image_count] %}
+
+                    <p class="caption a-multi fake-container">↑ {{ page.image_captions[fixed_image_count]}}</p>
+
+                  {% endif %}
+          </div>
+
+          {% endfor %}
+
+          </div>
+        </div>
+
+        <div class="container">
 
           {% assign filtered_resources = site.resources | where: 'rel_artifacts', page.title %}
           {% assign filtered_resources_size = filtered_resources | size %}
@@ -160,7 +160,7 @@ layout: default
 
           <div class="row section artifact-resources">
 
-            {% include resources-module.html %}
+            {% include resources-section.html %}
 
           </div>
 

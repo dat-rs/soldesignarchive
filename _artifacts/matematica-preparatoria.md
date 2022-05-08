@@ -8,7 +8,7 @@ types: [book cover, book]
 tags: [non-fiction, education, math, illustration, textbook, pink]
 ref: sol-030-0081
 image_count: 2
-layout: artifact_flick
+layout: artifact
 date_added: 2020-01-01
 ---
 A Middle School Mathematics textbook.

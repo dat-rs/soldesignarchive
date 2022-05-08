@@ -1,4 +1,4 @@
 ---
-name: typography
+name: John Cleland
 layout: tag
 ---
