@@ -7,7 +7,7 @@ publisher: 'Livraria Sá da Costa'
 types: [book cover, book, illustration, graphic design, typography]
 tags: [history]
 ref: sol-030-0021
-layout: artifact_flick
+layout: artifact
 image_count: 2
 wip: true
 date_added: 2022-03-04

@@ -8,7 +8,7 @@ types: [book cover, book, illustration, photography, graphic design]
 tags: [Brazil, non-fiction, tourism, commerce, government, illustration, propaganda]
 ref: sol-030-0007
 image_count: 8
-layout: artifact_flick
+layout: artifact
 date_added: 2020-01-01
 ---
 

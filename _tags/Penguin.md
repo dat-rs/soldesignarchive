@@ -1,4 +1,0 @@
----
-name: Penguin
-layout: tag
----

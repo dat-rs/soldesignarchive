@@ -8,7 +8,7 @@ types: [brochure, 'graphic design', illustration]
 tags: [tourism, 'Expo 58', 'gastronomy']
 ref: sol-121-0006
 image_count: 5
-layout: artifact_flick
+layout: artifact
 date_added: 2022-03-01
 ---
 

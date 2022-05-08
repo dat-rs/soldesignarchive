@@ -1,4 +1,0 @@
----
-name: collage
-layout: tag
----

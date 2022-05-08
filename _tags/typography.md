@@ -1,4 +1,0 @@
----
-name: typography
-layout: tag
----

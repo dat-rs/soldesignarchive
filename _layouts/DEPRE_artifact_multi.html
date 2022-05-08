@@ -1,0 +1,171 @@
+---
+layout: default
+---
+
+<!-- liquid code for previous/next artifact buttons -->
+
+    {% capture the_collection %}{{page.collection}}{% endcapture %}
+
+      {% if page.collection %}
+        {% assign  document = site[the_collection] %}
+      {% endif %}
+
+    {% for links in document  %}
+      {% if links.title == page.title %}
+        {% unless forloop.first %}
+          {% assign prevurl = prev.url %}
+        {% endunless %}
+        {% unless comics.last.url %}
+          {% assign next = document[forloop.index] %}
+          {% assign nexturl = next.url %}
+        {% endunless %}
+      {% endif %}
+      {% assign prev = links %}
+    {% endfor %}
+
+
+    <div class="container container-cat">
+
+        <div class="row first">
+
+                <div class="col-12">
+
+                    <h3 class="cat-label artifact">Artifact</h3>
+                    <h2 class="title artifact self">{{ page.title }}</h2>
+
+
+                </div>
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid cat">
+
+        <div class="row">
+
+
+                <div class="col-12 col-sm-10">
+
+                    <div class="artifact-img-container">
+
+                        <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-2">
+
+                  <p class="artifact-deets">
+
+                      <span class="deet-label">Author{% if page.tags.size > 1 %}s{% endif %}</span>
+                      {% for author in page.author_name %}
+                      <a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a><br>
+                      {% endfor %}
+
+                      <span class="deet-label hanging">Year</span>
+                      <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">
+                        {% if page.circa %}<span class="deet-link year circa">c.</span>{% endif %}
+                        {{ page.year | remove_first: "y" }}
+                      </a>
+                      <br>
+
+                      <span class="deet-label hanging">Publisher/Client</span>
+                      <a class="deet-link publisher" href="/publishers/{{ page.publisher | escape_once }}">{{ page.publisher }}</a>
+                      <br>
+
+                      <span class="deet-label hanging">Origin</span>
+                      <a class="deet-link origin" href="/origins/{{ page.origin | escape_once }}">{{ page.origin }}</a>
+                      <br>
+
+                      <span class="deet-label hanging">Tagged</span>
+                      {% for tag in page.tags %}
+                      <a class="deet-link tag" href="/tags/{{ tag | escape_once }}">{{ tag }}</a>
+                      {% endfor %}
+                      <br>
+
+                      <span class="deet-label hanging">Type{% if page.types.size > 1 %}s{% endif %}</span>
+                      {% for type in page.types %}
+                      <a class="deet-link type" href="/types/{{ type | escape_once }}">{{ type }}</a>
+                      {% endfor %}
+
+                      <span class="deet-label hanging">Reference</span>
+                      {{ page.ref }}
+                  </p>
+
+                  {% if page.wip %}
+                  <p class=""><span class="badge wip-badge badge-dark">Work in Progress</span></p>
+                  {% endif %}
+
+                </div>
+              </div>
+
+
+
+        {% assign striped_content = page.content | strip_newlines %}
+        {% if striped_content != "" %}
+
+      </div>
+
+      <div class="container cat">
+
+        <div class="row section a-about">
+
+            <div class="col-12 col-lg-8">
+
+                  <h3 class="section-title">About</h3>
+                  <section class="about-text">{{ content }}</section>
+
+            </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid cat">
+
+        {% endif %}
+
+        <div class="row section more-images">
+
+          {% assign image_count = page.image_count %}
+          {% for image in (2..image_count) %}
+
+          <div class="col-12 col-sm-12">
+
+                  <div class="artifact-img-container">
+
+                      <img class="artifact-img" src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg" alt="{{ page.title }}">
+
+                  </div>
+
+                  {% assign fixed_image_count = image | minus: 1 %}
+                  {% if page.image_captions[fixed_image_count] %}
+
+                    <p class="caption a-multi fake-container">↑ {{ page.image_captions[fixed_image_count]}}</p>
+
+                  {% endif %}
+          </div>
+
+          {% endfor %}
+
+          </div>
+        </div>
+
+        <div class="container">
+
+          {% assign filtered_resources = site.resources | where: 'rel_artifacts', page.title %}
+          {% assign filtered_resources_size = filtered_resources | size %}
+          {% if filtered_resources_size > 0 %}
+
+          <div class="row section artifact-resources">
+
+            {% include resources-section.html %}
+
+          </div>
+
+          {% endif %}
+
+          {% include prev-next.html %}
+
+    </div>

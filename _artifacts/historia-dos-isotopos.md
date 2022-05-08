@@ -8,7 +8,7 @@ types: [book cover, book]
 tags: [non-fiction, science communication, physics, science]
 ref: sol-030-0026
 image_count: 2
-layout: artifact_flick
+layout: artifact
 date_added: 2022-02-13
 ---
 A history of isotopes.

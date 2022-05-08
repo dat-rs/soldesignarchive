@@ -1,0 +1,52 @@
+<div class="col-12">
+
+    <h3 class="section-title">Resources</h3><br>
+
+    {% for resource in filtered_resources %}
+
+    {% case resource.type %}
+      {% when 'article' %}
+        {% assign i_class = 'bi-file-earmark-text' %}
+
+      {% when 'at-archive' %}
+        {% assign i_class = 'bi bi-archive' %}
+
+      {% when 'pdf' %}
+        {% assign i_class = 'bi-file-earmark-pdf' %}
+
+      {% when 'video' %}
+        {% assign i_class = 'bi-file-earmark-play' %}
+
+      {% when 'image' %}
+        {% assign i_class = 'bi-file-earmark-image' %}
+
+      {% when 'download' %}
+        {% assign i_class = 'bi-file-earmark-download' %}
+
+      {% when 'book' %}
+        {% assign i_class = 'bi-book' %}
+
+      {% else %}
+        {% assign i_class = 'bi bi-file-earmark-text' %}
+    {% endcase %}
+
+      <div class="resource-module">
+
+        <div class=" resource-icon">
+          <i class="bi {{ i_class }}"></i>
+        </div>
+
+        <div class="resource-info">
+          <a class="deet-link resource" href="{{ resource.out_url }}">
+            <h2 class="title resource inmodule">{{ resource.name }}</h2><br>
+          </a>
+        <span class="resource-description">{{ resource }} [{{ resource.lang }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</span>
+
+        </div>
+
+      </div>
+
+    {% endfor %}
+
+
+</div>
