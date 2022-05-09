@@ -18,8 +18,10 @@
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Origin</span>
-      <a class="deet-link origin" href="/origins/{{ page.origin | escape_once }}">{{ page.origin }}</a>
+      <span class="deet-label hanging">Origin{% if page.origin.size > 1 %}s{% endif %}</span>
+      {% for origin in page.origin %}
+      <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin }}</a>
+      {% endfor %}
       <br>
 
       <span class="deet-label hanging">Tags</span>
