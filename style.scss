@@ -563,7 +563,10 @@ i.bi-images.a-module-corner-icon {
 .artifact-img-container {
     background-color: black;
     text-align: center;
-    margin-bottom: 30px;
+}
+
+.artifact-img-container, .artifact-carousel-nav {
+    margin-bottom: 45px;
 }
 
 .artifact-carousel-cell .artifact-img-container {
@@ -601,7 +604,6 @@ i.bi-images.a-module-corner-icon {
 .artifact-carousel-nav {
   background-color: black;
   padding-bottom: 20px;
-  margin-bottom: 30px;
 }
 
 .artifact-carousel-nav-cell {
@@ -706,6 +708,10 @@ i.bi-images.a-module-corner-icon {
 
 .deet-label, .prev-next-label {
     padding-top: 8.5px;
+}
+
+.deet-label:first-of-type {
+  padding-top: 0px;
 }
 
 .deet-label {
