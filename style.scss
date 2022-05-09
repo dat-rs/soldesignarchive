@@ -139,7 +139,7 @@ a:hover {
   line-height: 1.5;
 }
 
-.artifact-deets, .para-text, .header-text, .cat-label, , .artifact-count,  {
+.artifact-deets, .para-text, .header-text, .cat-label, .artifact-count, .artifacts-table {
     font-family: franklin-gothic-urw;
     font-size: 14px;
     letter-spacing: normal;
@@ -274,7 +274,7 @@ h1.site-title a:hover {
 }
 
 
-/* Sub Header (Navigation) */
+/* Sub Header(s) (Navigation) */
 
 #sub-header-0-id {
     background: $artifact-color;
@@ -286,13 +286,20 @@ h1.site-title a:hover {
     transition: 0.3s;
 }
 
-.sub-header-exp {
+/* bleeding sub-header tabs
+
+.sub-header {
     padding-left: 0;
     padding-right: 0;
+}
+
+*/
+
+.sub-header {
     overflow-x: hidden;
 }
 
-.sub-header-exp-col {
+.sub-header-col, .artifacts-sub2-header-col {
     padding-left: 0;
     padding-right: 0;
     border-top-left-radius: 8px;
@@ -336,6 +343,14 @@ h1.site-title a:hover {
 }
 
 .sub-header-link {
+    display: inline-block;
+    margin-left: 23px;
+    padding-top: 14px;
+    margin-bottom: 11px;
+
+}
+
+.sub-header-link, .artifacts-nav-link {
     font-family: maple-web;
     display: inline-block;
     font-size: 10px;
@@ -356,6 +371,35 @@ h1.site-title a:hover {
 
 }
 
+.artifacts-sub2-header-col.black {
+  background-color: black;
+}
+
+.artifacts-sub2-header-col.white {
+  background-color: $off-white;
+}
+
+.artifacts-sub2-header-col.white a.artifacts-nav-link {
+  color: black;
+}
+
+.artifacts-sub2-header-col.white a.artifacts-nav-link:hover {
+  color: $artifact-color;
+}
+
+.artifacts-sub2-header-col.black a.artifacts-nav-link:hover {
+  color: $artifact-color;
+}
+
+.artifacts-nav {
+  background-color: $artifact-color;
+}
+
+.artifacts-nav .row {
+  height: 60px;
+  background-color: $artifact-color;
+
+}
 
 /* Containers */
 
@@ -496,6 +540,15 @@ h2.title.blog.preview {
 
 }
 
+h2.title-table {
+  font-family: franklin-gothic-urw-comp, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: normal;
+  padding-top: 0px;
+  margin-right: 0px;
+}
+
 .a-module.sm h2.title {
     font-size: 22px;
 }
@@ -553,6 +606,34 @@ i.bi-images.a-module-corner-icon {
     border-bottom: 2.5px solid $off-white;
 }
 
+/* ARTIFACTS */
+
+.artifacts-grid {
+  background-color: black;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+  padding-top: 6px;
+  padding-bottom: 1px;
+
+}
+
+.artifacts-table {
+  line-height: 16px;
+}
+
+a.title-table-link:hover h2.title-table {
+  font-weight: 600;
+}
+
+.artifact-list-deets {
+  font-weight: 400;
+}
 
 /* Artifact Image + Carousels */
 
@@ -604,6 +685,7 @@ i.bi-images.a-module-corner-icon {
 .artifact-carousel-nav {
   background-color: black;
   padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .artifact-carousel-nav-cell {
@@ -891,6 +973,10 @@ h3.section-title::before {
 .title.faq.sun {
   margin-bottom: 15px;
   margin-left: -20px;
+}
+
+.artifacts-nav-link.sun {
+  margin-left: 0px;
 }
 
 .section-index-container h3.section-title {
