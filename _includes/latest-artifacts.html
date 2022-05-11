@@ -1,0 +1,25 @@
+<div class="container latest-artifacts-container">
+
+    <div class="row">
+
+        <div class="col-12">
+
+            <h3 class="section-title">Latest Artifacts added</h3>
+
+        </div>
+
+        {% assign latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 12 %}
+
+
+
+          {% for artifact in latest_artifacts %}
+
+          <div class="col-12 col-md-6 col-lg-3">
+          {% include a-module-sm.html %}
+          </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>

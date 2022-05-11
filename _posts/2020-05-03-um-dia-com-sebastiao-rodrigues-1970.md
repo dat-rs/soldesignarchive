@@ -1,5 +1,5 @@
 ---
-layout: post_sidebar
+layout: post
 title:  "«Um Dia Com… Sebastião Rodrigues»"
 thumbnail_image_path: /images/non-art/um-dia-com-sebastiao-rodrigues.jpg
 author: Ricardo Santos
