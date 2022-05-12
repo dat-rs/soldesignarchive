@@ -178,6 +178,7 @@ p.about-sol {
   font-family: clarendon-urw, serif;
   font-weight: 400;
   font-size: 24px;
+  color: $off-white;
 }
 
 .about-row {
@@ -245,10 +246,10 @@ section.faq {
 }
 
 h1.site-title {
-    font-family: clarendon-urw, serif;
-    font-size: 46px;
+    font-family: trade-gothic-next-condensed, serif;
+    font-size: 36px;
     letter-spacing: normal;
-    font-weight: 400;
+    font-weight: 600;
     display: inline-block;
     margin-left: 15px;
     margin-bottom: 12px;
@@ -313,6 +314,16 @@ h1.site-title a:hover {
 	}
 }
 
+.author-title-col {
+  background-color: $pale-silver;
+  height: 200px;
+  --mask:
+  linear-gradient(#000 0 0) center/calc(100% - 25.50px) calc(100% - 25.50px) no-repeat,
+  radial-gradient(farthest-side,#000 98%,#0000) 0 0/30px 30px round;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
 /* Sub Header(s) (Navigation) */
 
 #sub-header-0-id {
@@ -336,15 +347,13 @@ h1.site-title a:hover {
 */
 
 .sub-header-col, .artifacts-sub2-header-col {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 
 .sub-header {
     overflow-x: hidden;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .sub-header-col, .artifacts-sub2-header-col {
@@ -536,7 +545,8 @@ h3.ticker-title {
   font-family: clarendon-urw, serif;
   font-size: 22px;
   line-height: 1.4;
-  margin-top: 15px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   text-align: center;
 }
 
@@ -587,7 +597,7 @@ h3.ticker-title {
 }
 
 .container-fluid.about {
-  background-color: $pale-silver;
+  background-color: $artifact-color;
   padding-top: 90px;
   padding-bottom: 90px;
   margin-bottom: 0px;
@@ -624,8 +634,12 @@ h3.ticker-title {
     margin-top: 60px;
 }
 
+.container-post {
+    margin-bottom: 60px;
+}
+
 .container-browse {
-    padding-top: 60px;
+    padding-top: 90px;
     padding-bottom: 90px;
     min-height: 90vh;
 }
@@ -638,7 +652,7 @@ h3.ticker-title {
     background-color: black;
     color: #dedede;
     padding-top: 10px;
-    min-height: 150px;
+    min-height: 500px;
 }
 
 /* Holders */
@@ -688,13 +702,12 @@ h2.title {
     line-height: 1.2;
     padding-top: 12px;
     margin-right: 15px;
-    font-family: clarendon-urw-extra-narrow, serif;
+    font-family: trade-gothic-next-compressed, sans-serif;
     font-weight: 600;
     letter-spacing: normal;
 }
 
 h2.title.self {
-    font-family: trade-gothic-next-compressed, sans-serif;
     font-size: 3.2rem;
     line-height: 1.2;
     letter-spacing: normal;
@@ -702,9 +715,24 @@ h2.title.self {
     margin-bottom: 20px;
 }
 
+h2.title.allcat {
+    font-family: tgn-soft-round-comp, sans-serif;
+    font-size: 44px;
+    line-height: 1.4;
+    margin-right: 20px;
+    padding-top: 0px;
+}
 
 h2.title.allcat:hover {
     border-bottom: none;
+}
+
+h2.title.allcat.tags {
+    font-family: tgn-soft-round-comp, sans-serif;
+    font-size: 30px;
+    line-height: 1.4;
+    margin-right: 20px;
+    padding-top: 0px;
 }
 
 h2.title.resource.inmodule {
@@ -726,7 +754,7 @@ h2.title.blog.self {
 }
 
 h2.title.blog.preview {
-    font-size: 26px;
+    font-size: 32px;
     line-height: 1.3;
     display: inline-block;
     padding-top: 0;
@@ -766,6 +794,95 @@ h2.title.faq {
   font-weight: 500;
 }
 
+/* H3 & Section Titles */
+
+h3.section-title, h3.nav-link-title {
+    font-family: maple-web, sans-serif;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+    margin-left: -20px;
+}
+
+h3.a-section-title {
+    font-family: clarendon-urw, serif;
+}
+
+/* >> Sun Titles */
+
+h3.section-title::before, .title.sun::before, h3.ticker-section.sun::before {
+  font-family: 'Mori Gothic';
+  font-weight: 900;
+  content: "☀";
+}
+
+h3.section-title::before {
+  font-size: 30px;
+  position: relative;
+  top: 4px;
+  right: 8px;
+}
+
+.title.faq.sun::before {
+  font-size: 30px;
+  position: relative;
+  top: 0px;
+  right: 8px;
+}
+
+h3.ticker-section.sun::before {
+  font-size: 30px;
+  position: relative;
+  top: 4px;
+  right: 8px;
+  line-height: 5px;
+}
+
+h3.ticker-section.sun.artifacts::before {
+  color: $artifact-color;
+}
+
+h3.ticker-section.sun.tags::before {
+  color: $tag-color;
+}
+
+h3.ticker-section.sun.blog::before {
+  color: $blog-color;
+}
+
+h3.ticker-section.sun.resources::before {
+  color: $resource-color;
+}
+
+.title.faq.sun {
+  margin-bottom: 15px;
+  margin-left: -20px;
+}
+
+.artifacts-nav-link.sun {
+  margin-left: 0px;
+}
+
+.section-index-container h3.section-title {
+  margin-left: 0;
+}
+
+.section-index-container h3.section-title::before {
+  content: none;
+}
+
+h3.nav-link-title a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid;
+}
+
+
 /* Resources */
 
 i.bi-images.a-module-corner-icon {
@@ -796,22 +913,23 @@ i.bi-images.a-module-corner-icon {
 /* Browse Links */
 
 .browse-link {
-    border-bottom: 2.5px solid;
+
     width: 100%;
     padding-left: 1px;
     padding-right: 1px;
     height: 100%;
-    display: inline-block;
+
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+
+
 }
 
 .browse-link:hover {
     color: $off-white;
     text-decoration: none;
-    border-bottom: 2.5px solid $off-white;
 }
 
 /* ARTIFACTS */
@@ -1144,88 +1262,6 @@ a.deet-link.resource:hover {
     background-color: black;
 }
 
-h3.section-title, h3.nav-link-title {
-    display: inline-block;
-    font-weight: 800;
-    font-size: 13px;
-    line-height: 1;
-    letter-spacing: 0.4px;
-    text-transform: uppercase;
-    padding-bottom: 0;
-    margin-bottom: 25px;
-    margin-left: -20px;
-}
-
-/* Sun Titles */
-
-h3.section-title::before, .title.sun::before, h3.ticker-section.sun::before {
-  font-family: 'Mori Gothic';
-  font-weight: 900;
-  content: "☀";
-}
-
-h3.section-title::before {
-  font-size: 30px;
-  position: relative;
-  top: 4px;
-  right: 8px;
-}
-
-.title.faq.sun::before {
-  font-size: 30px;
-  position: relative;
-  top: 0px;
-  right: 8px;
-}
-
-h3.ticker-section.sun::before {
-  font-size: 30px;
-  position: relative;
-  top: 4px;
-  right: 8px;
-  line-height: 5px;
-}
-
-h3.ticker-section.sun.artifacts::before {
-  color: $artifact-color;
-}
-
-h3.ticker-section.sun.tags::before {
-  color: $tag-color;
-}
-
-h3.ticker-section.sun.blog::before {
-  color: $blog-color;
-}
-
-h3.ticker-section.sun.resources::before {
-  color: $resource-color;
-}
-
-
-.title.faq.sun {
-  margin-bottom: 15px;
-  margin-left: -20px;
-}
-
-.artifacts-nav-link.sun {
-  margin-left: 0px;
-}
-
-.section-index-container h3.section-title {
-  margin-left: 0;
-}
-
-.section-index-container h3.section-title::before {
-  content: none;
-}
-
-h3.nav-link-title a:hover {
-    color: black;
-    text-decoration: none;
-    border-bottom: 3px solid;
-}
-
 .back-to {
     margin-top: 5px;
 }
@@ -1327,7 +1363,7 @@ a.text-cat-link.resource {
 
 .post-lead.preview {
 
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.4;
     margin-top: 15px;
     margin-bottom: 0;
@@ -1337,8 +1373,12 @@ a.text-cat-link.resource {
     margin-bottom: 0px;
 }
 
+.post-meta.self {
+  margin-top: 30px;
+}
+
 .post-text h3, .post-text h4 {
-    font-family: maple-web;
+    font-family: clarendon-urw;
 }
 
 .post-text h3 {
@@ -1346,7 +1386,7 @@ a.text-cat-link.resource {
     font-weight: 500;
     letter-spacing: -0.6px;
     margin-top: 60px;
-    margin-bottom: 1rem;
+    margin-bottom: 26px;
     display: inline-block;
 }
 
@@ -1454,7 +1494,7 @@ a.fn-link:hover {
 .section-index-container {
     padding: 15px;
     margin: 15px;
-    min-height: 500px;
+    min-height: 300px;
 }
 
 .col-authors-index {
