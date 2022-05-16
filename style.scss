@@ -177,8 +177,8 @@ a:hover {
 p.about-sol {
   font-family: clarendon-urw, serif;
   font-weight: 400;
-  font-size: 24px;
-  color: $off-white;
+  font-size: 22px;
+  color: black;
 }
 
 .about-row {
@@ -206,7 +206,7 @@ p.about-sol {
 }
 
 .about-text {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .more-info-text {
@@ -233,10 +233,24 @@ section.faq {
 /* Header */
 
 .container-header {
-    padding-top: 15px;
-    padding-bottom: 20px;
-    background-color: $off-white;
+    padding-bottom: 0px;
     color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.container-header, .container-fluid.sub-header {
+    background-color: $off-white;
+}
+
+.header-row {
+  margin-right: -15px;
+}
+
+.title-col {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header-logo {
@@ -247,9 +261,9 @@ section.faq {
 
 h1.site-title {
     font-family: trade-gothic-next-condensed, serif;
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: normal;
-    font-weight: 600;
+    font-weight: 800;
     display: inline-block;
     margin-left: 15px;
     margin-bottom: 12px;
@@ -347,18 +361,21 @@ h1.site-title a:hover {
 */
 
 .sub-header-col, .artifacts-sub2-header-col {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    height: 110px;
 }
 
 
 .sub-header {
-    overflow-x: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
+
 }
 
 .sub-header-col, .artifacts-sub2-header-col {
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
 }
 
 .artifacts-bottom-sub-header-bg {
@@ -402,10 +419,14 @@ h1.site-title a:hover {
 }
 
 .sub-header-link {
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
-    margin-left: 23px;
-    padding-top: 14px;
+    padding-top: 40%;
     margin-bottom: 11px;
+    transition: 0.2s;
 
 }
 
@@ -417,8 +438,6 @@ h1.site-title a:hover {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: $off-white;
-    margin-left: 23px;
-    padding-top: 16px;
     margin-bottom: 13px;
     border-bottom: 1px solid;
     line-height: 1;
@@ -470,7 +489,7 @@ h1.site-title a:hover {
 
 .ticker-wrapper {
   overflow: hidden;
-  background-color: $silver;
+  background-color: $pale-silver;
 }
 
 .ticker-move {
@@ -597,10 +616,11 @@ h3.ticker-title {
 }
 
 .container-fluid.about {
-  background-color: $artifact-color;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  margin-top: 110px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-bottom: 0px;
+  background-color: $silver;
 }
 
 .container-artifact-hero-index {
@@ -631,7 +651,8 @@ h3.ticker-title {
 }
 
 .container-cat, .container-post {
-    margin-top: 60px;
+    padding-top: 60px;
+    margin-top: 110px;
 }
 
 .container-post {
@@ -639,6 +660,7 @@ h3.ticker-title {
 }
 
 .container-browse {
+  margin-top: 110px;
     padding-top: 90px;
     padding-bottom: 90px;
     min-height: 90vh;
@@ -718,6 +740,7 @@ h2.title.self {
 h2.title.allcat {
     font-family: tgn-soft-round-comp, sans-serif;
     font-size: 44px;
+    font-weight: 800;
     line-height: 1.4;
     margin-right: 20px;
     padding-top: 0px;
@@ -750,7 +773,8 @@ h2.title.blog {
 }
 
 h2.title.blog.self {
-  font-size: 48px;
+  font-size: 60px;
+  margin-bottom: 30px;
 }
 
 h2.title.blog.preview {
@@ -764,7 +788,7 @@ h2.title.blog.preview {
 .a-module h2.title {
     font-family: tgn-soft-round-comp, sans-serif;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: normal;
     line-height: 1.2;
     display: inline-block;
@@ -923,13 +947,15 @@ i.bi-images.a-module-corner-icon {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
-
 }
 
 .browse-link:hover {
     color: $off-white;
     text-decoration: none;
+}
+
+.browse-link.type, .browse-link.tag {
+  text-transform: capitalize;
 }
 
 /* ARTIFACTS */
@@ -1234,7 +1260,7 @@ a.deet-link.resource:hover {
 .a-module.prev-next:hover .a-module-img-holder .prev-next-img,
 .a-module.grid:hover .a-module-img-holder .grid-img,
 .a-module.grid:hover .a-module-img-holder .a-module-img {
-    background-color: $artifact-color;
+
     opacity: 1;
     transition: mix-blend-mode 0.3s ease;
     filter: grayscale(100%);
@@ -1248,7 +1274,7 @@ a.deet-link.resource:hover {
   margin-bottom: 20px;
 }
 
-.a-module-img-holder:hover {
+.a-module.prev-next:hover .a-module-img-holder, .a-module.grid:hover .a-module-img-holder {
   background-color: $artifact-color;
 }
 
@@ -1373,9 +1399,7 @@ a.text-cat-link.resource {
     margin-bottom: 0px;
 }
 
-.post-meta.self {
-  margin-top: 30px;
-}
+
 
 .post-text h3, .post-text h4 {
     font-family: clarendon-urw;
@@ -1550,21 +1574,12 @@ a.fn-link:hover {
 
 @media (min-width: 576px) {
 
-    .sub-header-link.authors, .sub-header-link.publishers, .sub-header-link.types, .sub-header-link.resources {
-        margin-left: 15px;
-    }
+
 
 }
 
 @media (min-width: 768px) {
 
-    .sub-header-link.publishers {
-      margin-left: 23px;
-    }
-
-    .sub-header-link.years, .sub-header-link.origins {
-      margin-left: 15px;
-    }
 
     figure.post-img {
     text-align: right;
@@ -1574,13 +1589,7 @@ a.fn-link:hover {
 
 @media (min-width: 992px) {
 
-  .sub-header-link.artifacts, .sub-header-link.authors, .sub-header-link.origins, .sub-header-link.years, .sub-header-link.types, .sub-header-link.resources {
-      margin-left: 23px;
-  }
 
-.sub-header-link.artifacts {
-    margin-left: 30px;
-}
 
     figure.post-img.offset {
         position: relative;

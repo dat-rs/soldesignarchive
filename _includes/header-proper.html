@@ -1,8 +1,8 @@
     <div class="container-fluid container-header">
 
-        <div class="row">
+        <div class="row header-row">
 
-            <div class="col-12 d-flex align-items-center">
+            <div class="col-4 d-flex title-col align-items-center">
               <div class="sol-circle">
                 <svg viewBox="0 0 100 100">
                   <circle cx="50px" cy="50px" r="50px"/>
@@ -10,19 +10,9 @@
               </div>
               <h1 class="site-title"><a href="/">Sol Design Archive</a></h1>
 
-              <!--
-              <a href="/"><img src="/images/non-art/sol-logo-1.png" alt="" class="header-logo"></a>
-              -->
-
             </div>
 
-            <div class="col-6 col-lg-4 d-sm-none row align-items-around">
-
-                <div class="menu-link-container align-self-end">
-                    <a class="menu-link" data-toggle="collapse" href=".sub-headers-collapse">+</a>
-                </div>
-
-            </div>
+            {% include nav.html %}
 
         </div>
 
