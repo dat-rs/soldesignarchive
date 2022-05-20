@@ -650,7 +650,7 @@ h3.ticker-title {
   overflow-x: hidden;
 }
 
-.container-cat, .container-post {
+.container-cat,, .container-post-head {
     padding-top: 60px;
     margin-top: 110px;
 }
@@ -1504,6 +1504,10 @@ a.fn-up:hover {
   color: black;
   margin-left: 5px;
   text-decoration: none;
+}
+
+a.fn-link {
+    padding-bottom: 2px;
 }
 
 a.fn-link:hover {
