@@ -30,9 +30,9 @@ I started collecting them. I did more research. I combed through catalogues for 
 
 <figure class="post-img artifact">
 
-    <div class="artifact-holder">
-        <img src="/images/sol-010-0040-o-navio-dentro-da-cidade-thumbnail.jpg">
-    </div>
+<div class="artifact-holder">
+    <img src="/images/sol-030-0024-o-navio-dentro-da-cidade-thumbnail.jpg">
+</div>
 
     <figcaption>
         sol-010-0040. The first <em>Os Livros das Três Abelhas</em> book I came across and bought. Cover by Victor Palla.
