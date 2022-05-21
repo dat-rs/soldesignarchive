@@ -178,6 +178,7 @@ p.about-sol {
   font-family: clarendon-urw, serif;
   font-weight: 400;
   font-size: 22px;
+  line-height: 1.5;
   color: black;
 }
 
@@ -421,11 +422,6 @@ h1.site-title a:hover {
 .sub-header-link {
     width: auto;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    padding-top: 40%;
-    margin-bottom: 11px;
     transition: 0.2s;
 
 }
@@ -438,7 +434,6 @@ h1.site-title a:hover {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: $off-white;
-    margin-bottom: 13px;
     border-bottom: 1px solid;
     line-height: 1;
 }
@@ -494,8 +489,8 @@ h1.site-title a:hover {
 
 .ticker-move {
   display: flex;
-  width: 100%;
-  animation: tickermovement linear 25s infinite;
+
+  animation: tickermovement linear 12s infinite;
 }
 
 .ticker-move:hover {
@@ -1514,6 +1509,7 @@ a.fn-link:hover {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid;
+
 }
 
 
@@ -1576,9 +1572,13 @@ a.fn-link:hover {
 }
 
 
+/* Responsiveness and Breakpoints */
+
 @media (min-width: 576px) {
 
-
+  .ticker-move {
+    animation: tickermovement linear 14s infinite;
+  }
 
 }
 
@@ -1587,6 +1587,10 @@ a.fn-link:hover {
 
     figure.post-img {
     text-align: right;
+    }
+
+    .ticker-move {
+      animation: tickermovement linear 16s infinite;
     }
 
 }
@@ -1599,5 +1603,48 @@ a.fn-link:hover {
         position: relative;
         left: 50%;
 }
+
+  .ticker-move {
+    animation: tickermovement linear 18s infinite;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .ticker-move {
+    animation: tickermovement linear 20s infinite;
+  }
+
+
+}
+
+@media (min-width: 1400px) {
+
+  .ticker-move {
+    animation: tickermovement linear 22s infinite;
+  }
+
+
+
+}
+
+@media (min-width: 1700px) {
+
+  .ticker-move {
+    animation: tickermovement linear 26s infinite;
+  }
+
+
+
+}
+
+@media (min-width: 2000px) {
+
+  .ticker-move {
+    animation: tickermovement linear 29s infinite;
+  }
+
+
 
 }
