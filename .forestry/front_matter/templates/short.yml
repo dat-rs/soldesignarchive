@@ -31,3 +31,5 @@ fields:
   config:
     required: false
   label: Layout
+pages:
+- _shorts/the-peculiar-manicule.md
