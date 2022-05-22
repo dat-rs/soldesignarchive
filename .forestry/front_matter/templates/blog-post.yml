@@ -12,12 +12,11 @@ fields:
 - type: text
   name: author
   label: Author
+  default: Ricardo Santos
 - type: file
   name: thumbnail_image_path
   label: Image
 - type: text
   name: layout
   label: layout
-- type: text
-  name: excerpt_separator
-  label: excerpt_separator
+  default: post
