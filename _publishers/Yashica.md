@@ -1,0 +1,4 @@
+---
+name: 'Yashica'
+layout: publisher
+---

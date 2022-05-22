@@ -5,7 +5,7 @@ year: y1956
 origin: United States
 publisher: 'Vintage Books'
 types: [book cover, book, graphic design]
-tags: ["Willa Cather", circles]
+tags: ["Willa Cather", circles, pattern]
 ref: sol-030-0070
 image_count: 2
 layout: artifact
