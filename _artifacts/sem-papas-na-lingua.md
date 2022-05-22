@@ -5,7 +5,7 @@ year: y1959
 origin: Portugal
 publisher: 'Publicações Europa-América'
 types: [book cover, book, graphic design, typography, illustration]
-tags: ['Joyce Cary', 'Os Livros das Três Abelhas']
+tags: ['Beatriz Costa']
 iconography: [people, women]
 ref: sol-010-0018
 layout: artifact
