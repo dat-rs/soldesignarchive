@@ -3,18 +3,31 @@ layout: default
 title: sol
 ---
 
-<div class="container container-reg">
-  <div class="row section index-about">
-    <div class="col-12 col-lg-8">
 
-          <h3 class="section-title">About</h3>
-          <section class="about-text">{% include about-sol.md %}</section>
+    <div class="container-fluid about">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-12 col-lg-9"">
+                <h3 class="section-title">About</h3>
+                <section>{% include about-sol.md %}</section>
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
-  </div>
-</div>
+
+        {% include ticker.html %}
 
 <div class="container-artifact-hero-index">
+    <div class="fake-container">
+
+    </div>
+
 
     <div class="row no-gutters" style="background-color: black;">
 
@@ -33,12 +46,33 @@ title: sol
 
 </div>
 
+
+
+
+
 {% include blog-section.html %}
 
-{% include latest-section.html %}
+{% include latest-artifacts.html %}
 
 <div class="container-sections-index">
     <div class="row no-gutters">
+
+      <div class="col-12 col-types-index">
+
+          <div class="section-index-container">
+
+              <h3 class="section-title">Types</h3>
+              <br>
+
+              {% for type in site.types %}
+
+              <h2 class="title allcat"><a class="browse-link index type" href="{{ type.url }}">{{ type.name }}</a></h2>
+
+              {% endfor %}
+
+          </div>
+
+      </div>
 
         <div class="col-12 col-md-6 col-authors-index">
 
@@ -108,24 +142,7 @@ title: sol
 
         </div>
 
-        <div class="col-12 col-md-6 col-types-index">
-
-            <div class="section-index-container">
-
-                <h3 class="section-title">Types</h3>
-                <br>
-
-                {% for type in site.types %}
-
-                <h2 class="title allcat"><a class="browse-link index" href="{{ type.url }}">{{ type.name }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
-        <div class="col-12 col-md-6 col-tags-index">
+        <div class="col-12 col-tags-index">
 
             <div class="section-index-container">
 
@@ -134,7 +151,7 @@ title: sol
 
                 {% for tag in site.tags %}
 
-                <h2 class="title allcat"><a class="browse-link index" href="{{ tag.url }}">{{ tag.name }}</a></h2>
+                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.name }}</a></h2>
 
                 {% endfor %}
 
@@ -144,3 +161,5 @@ title: sol
 
     </div>
 </div>
+
+{% include latest-resources.html %}
