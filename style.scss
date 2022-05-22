@@ -168,10 +168,15 @@ a:hover {
 
 /* General Typography */
 
-.text, .about-text p, .post-text p {
+.text, .about-text p, .about-text blockquote, .post-text p {
   font-family: plantin, serif;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.about-text blockquote {
+  margin-left: 45px;
+  width: 90%;
 }
 
 p.about-sol {
@@ -489,7 +494,7 @@ h1.site-title a:hover {
 .ticker-move {
   display: flex;
 
-  animation: tickermovement linear 12s infinite;
+  animation: tickermovement linear 14s infinite;
 }
 
 .ticker-move:hover {
@@ -1576,7 +1581,7 @@ a.fn-link:hover {
 @media (min-width: 576px) {
 
   .ticker-move {
-    animation: tickermovement linear 14s infinite;
+    animation: tickermovement linear 16s infinite;
   }
 
 }
@@ -1589,7 +1594,7 @@ a.fn-link:hover {
     }
 
     .ticker-move {
-      animation: tickermovement linear 16s infinite;
+      animation: tickermovement linear 18s infinite;
     }
 
 }
@@ -1604,7 +1609,7 @@ a.fn-link:hover {
 }
 
   .ticker-move {
-    animation: tickermovement linear 18s infinite;
+    animation: tickermovement linear 20s infinite;
   }
 
 }
@@ -1612,7 +1617,7 @@ a.fn-link:hover {
 @media (min-width: 1200px) {
 
   .ticker-move {
-    animation: tickermovement linear 20s infinite;
+    animation: tickermovement linear 22s infinite;
   }
 
 
@@ -1621,7 +1626,7 @@ a.fn-link:hover {
 @media (min-width: 1400px) {
 
   .ticker-move {
-    animation: tickermovement linear 22s infinite;
+    animation: tickermovement linear 24s infinite;
   }
 
 
@@ -1631,7 +1636,7 @@ a.fn-link:hover {
 @media (min-width: 1700px) {
 
   .ticker-move {
-    animation: tickermovement linear 26s infinite;
+    animation: tickermovement linear 27s infinite;
   }
 
 
@@ -1641,7 +1646,7 @@ a.fn-link:hover {
 @media (min-width: 2000px) {
 
   .ticker-move {
-    animation: tickermovement linear 29s infinite;
+    animation: tickermovement linear 30s infinite;
   }
 
 

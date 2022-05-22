@@ -1,0 +1,4 @@
+---
+name: logo
+layout: type
+---

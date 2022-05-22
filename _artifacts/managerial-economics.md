@@ -5,7 +5,7 @@ year: y1968
 origin: United Kingdom
 publisher: 'Penguin Books'
 types: [book cover, book]
-tags: [non-fiction, economics, Penguin, 'Penguin Modern Economics', Univers]
+tags: [non-fiction, economics, Penguin, 'Penguin Modern Economics', Univers, pattern]
 ref: sol-010-0055
 layout: artifact
 date_added: 2020-01-01
