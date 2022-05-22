@@ -21,6 +21,7 @@ fields:
   config:
     required: false
   label: Author
+  default: Ricardo Santos
 - name: thumbnail_image_path
   type: file
   config:
@@ -31,5 +32,11 @@ fields:
   config:
     required: false
   label: Layout
+  default: short
+- name: feature_link
+  type: text
+  config:
+    required: false
+  label: Feature Link
 pages:
 - _shorts/the-peculiar-manicule.md
