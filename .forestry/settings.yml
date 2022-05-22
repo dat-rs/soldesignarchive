@@ -17,6 +17,15 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - blog-post
+- type: directory
+  path: _shorts
+  label: Shorts
+  create: all
+  match: "**/*"
+  templates:
+  - short
 - type: directory
   path: _publishers
   label: Publishers
