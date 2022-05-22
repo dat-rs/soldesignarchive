@@ -9,7 +9,7 @@
 
         <div class="col-12">
           <div class="card-deck">
-          {% assign sampled_posts = site.posts | sample: 2  %}
+          {% assign sampled_posts = site.posts  %}
           {% for post in sampled_posts %}
 
             <div class="card">
