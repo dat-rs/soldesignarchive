@@ -1,22 +1,23 @@
 ---
 label: Blog Post
 hide_body: false
+display_field: title
 fields:
-- type: text
-  name: layout
-  label: layout
 - type: text
   name: title
   label: title
+- type: textarea
+  name: lead
+  label: lead
+- type: text
+  name: author
+  label: author
 - type: file
   name: thumbnail_image_path
   label: thumbnail_image_path
 - type: text
-  name: author
-  label: author
-- type: textarea
-  name: lead
-  label: lead
+  name: layout
+  label: layout
 - type: text
   name: excerpt_separator
   label: excerpt_separator
