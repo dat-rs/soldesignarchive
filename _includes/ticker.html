@@ -3,12 +3,20 @@
     <div class="ticker-move">
       <div class="ticker-element">
         <h3 class="ticker-section sun blog">Blog</h3>
-        <h3 class="ticker-title">Um Dia com... Sebastião Rodrigues</h3>
+        {% assign ticker_latest_posts = site.posts | slice: 0, 1 %}
+
+          {% for post in ticker_latest_posts %}
+          <h3 class="ticker-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {% endfor %}
       </div>
       <div class="ticker-element">
         <h3 class="ticker-section sun artifacts">Just in</h3>
-        <h3 class="ticker-title">Erik Nitsche's History of Communication</h3>
-        <h3 class="ticker-title">A João Abel Manta cover for a memoir</h3>
+        {% assign ticker_latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 3 %}
+
+          {% for artifact in ticker_latest_artifacts %}
+          <h3 class="ticker-title"><a href="/artifacts/{{ artifact.slug }}">{{ artifact.title }}</a></h3>
+          {% endfor %}
+
       </div>
       <div class="ticker-element">
         <h3 class="ticker-section sun resources">Recently Linked</h3>
@@ -24,7 +32,11 @@
 
       <div class="ticker-element">
         <h3 class="ticker-section sun blog">Blog</h3>
-        <h3 class="ticker-title">Um Dia com... Sebastião Rodrigues</h3>
+        {% assign ticker_latest_posts = site.posts | slice: 0, 1 %}
+
+          {% for post in ticker_latest_posts %}
+          <h3 class="ticker-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {% endfor %}
       </div>
       <div class="ticker-element">
         <h3 class="ticker-section sun artifacts">Just in</h3>
