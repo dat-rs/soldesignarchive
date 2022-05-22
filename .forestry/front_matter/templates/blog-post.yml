@@ -1,0 +1,22 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: file
+  name: thumbnail_image_path
+  label: thumbnail_image_path
+- type: text
+  name: author
+  label: author
+- type: textarea
+  name: lead
+  label: lead
+- type: text
+  name: excerpt_separator
+  label: excerpt_separator
