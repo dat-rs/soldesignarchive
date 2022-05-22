@@ -1,0 +1,25 @@
+---
+label: Blog Post
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Blog Post Title
+- type: textarea
+  name: lead
+  label: Lead
+- type: text
+  name: author
+  label: Author
+- type: file
+  name: thumbnail_image_path
+  label: Image
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: excerpt_separator
+  label: excerpt_separator
+pages:
+- _posts/2022-05-22-the-peculiar-manicule.md
