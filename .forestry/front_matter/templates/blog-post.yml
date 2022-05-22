@@ -5,16 +5,16 @@ display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Blog Post Title
 - type: textarea
   name: lead
-  label: lead
+  label: Lead
 - type: text
   name: author
-  label: author
+  label: Author
 - type: file
   name: thumbnail_image_path
-  label: thumbnail_image_path
+  label: Image
 - type: text
   name: layout
   label: layout
