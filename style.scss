@@ -1469,6 +1469,18 @@ figure.post-img.artifact figcaption {
 }
 
 
+/* Shorts */
+
+.short-feature-link {
+  font-family: clarendon-urw;
+  font-weight: 500;
+  font-size: 32px;
+  display: inline-block;
+  color: $resource-color;
+  padding-top: 30px;
+  border-bottom: 3px solid;
+}
+
 /* Latest Table */
 
 table.lastest-artifacts thead tr th {
