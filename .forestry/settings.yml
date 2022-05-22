@@ -18,6 +18,11 @@ sections:
   label: Posts
   create: all
 - type: directory
+  path: _shorts
+  label: Shorts
+  create: all
+  match: "**/*"
+- type: directory
   path: _publishers
   label: Publishers
   create: all
