@@ -35,6 +35,9 @@ fields:
 - type: number
   name: image_count
   label: Image Count
+- name: wip
+  type: boolean
+  label: WIP
 - type: datetime
   name: date_added
   label: Date Added
