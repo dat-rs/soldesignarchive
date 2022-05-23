@@ -14,11 +14,13 @@ fields:
   name: year
   label: Year
   description: 'The year with a y preceding it. Ex: ''y1965'''
-- type: text
-  name: origin
+- name: origin
+  type: tag_list
+  default: []
   label: Origin
-- type: text
-  name: publisher
+- name: publisher
+  type: tag_list
+  default: []
   label: Publisher
 - type: list
   name: types
