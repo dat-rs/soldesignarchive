@@ -36,6 +36,9 @@ fields:
 - type: datetime
   name: date_added
   label: Date Added
+  config:
+    export_format: YYYY-MM-DD
+  default: now
 - type: text
   name: layout
   label: layout
