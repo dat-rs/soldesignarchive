@@ -9,6 +9,8 @@ sections:
   label: Artifacts
   create: all
   match: "**/*"
+  templates:
+  - artifact
 - type: directory
   path: _authors
   label: Authors
