@@ -32,11 +32,6 @@ fields:
   name: ref
   label: Reference
   description: sol-000-0000
-- name: slug
-  type: text
-  config:
-    required: false
-  label: Slug
 - type: number
   name: image_count
   label: Image Count
