@@ -5,11 +5,22 @@ fields:
 - type: text
   name: title
   label: Title
+- type: text
+  name: ref
+  label: Reference
+  description: sol-000-0000
+- type: list
+  name: types
+  label: Types
 - type: list
   name: author_name
   label: Authors
   config:
     use_select: false
+- name: publisher
+  type: tag_list
+  default: []
+  label: Publisher
 - type: text
   name: year
   label: Year
@@ -18,20 +29,9 @@ fields:
   type: tag_list
   default: []
   label: Origin
-- name: publisher
-  type: tag_list
-  default: []
-  label: Publisher
-- type: list
-  name: types
-  label: Types
 - type: list
   name: tags
   label: Tags
-- type: text
-  name: ref
-  label: Reference
-  description: sol-000-0000
 - type: number
   name: image_count
   label: Image Count
@@ -52,4 +52,5 @@ fields:
 pages:
 - _artifacts/a-ideia-da-liberdade-no-pensamento-portugues.md
 - _artifacts/a-nossa-amiga-electricidade.md
+- _artifacts/as-vozes-da-orquestra.md
 - _artifacts/origine-vita-studii-e-costumi-del-chiarissimo-dante-allighieri-poeta-fiorentino.md
