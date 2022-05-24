@@ -18,7 +18,8 @@ types:
 tags:
 - fac-simile
 ref: sol-030-0096
-image_count: 
+image_count:
 wip: true
 
 ---
+Fac-simile edition of the 1576 <em>editio princeps</em> of the work in Florence.
