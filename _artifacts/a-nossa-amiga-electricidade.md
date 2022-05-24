@@ -16,8 +16,8 @@ types:
 - book cover
 - book
 tags: []
-ref: ''
-slug: sol-030-0093-a-nossa-amiga-electricidade
+ref: sol-030-0093
+slug: a-nossa-amiga-electricidade
 image_count: 
 wip: false
 
