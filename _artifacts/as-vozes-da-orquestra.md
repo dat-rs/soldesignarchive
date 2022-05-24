@@ -6,7 +6,12 @@ layout: artifact
 title: As Vozes da Orquestra
 author_name: []
 year: ''
-types: []
+types:
+- typography
+- illustration
+- graphic design
+- book cover
+- book
 tags: []
 ref: sol-030-103
 image_count: 
