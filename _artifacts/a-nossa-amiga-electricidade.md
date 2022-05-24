@@ -20,6 +20,5 @@ ref: ''
 slug: sol-030-0093-a-nossa-amiga-electricidade
 image_count: 
 wip: false
-published: false
 
 ---
