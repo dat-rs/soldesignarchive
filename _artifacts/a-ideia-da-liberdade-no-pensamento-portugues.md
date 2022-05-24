@@ -16,7 +16,6 @@ types:
 - book
 tags: []
 ref: sol-030-0094
-slug: ''
 image_count: 2
 wip: false
 
