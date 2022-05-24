@@ -55,4 +55,5 @@ fields:
   default: artifact
   hidden: true
 pages:
+- _artifacts/a-ideia-da-liberdade-no-pensamento-portugues.md
 - _artifacts/a-nossa-amiga-electricidade.md
