@@ -54,3 +54,5 @@ fields:
   label: layout
   default: artifact
   hidden: true
+pages:
+- _artifacts/a-nossa-amiga-electricidade.md
