@@ -20,6 +20,5 @@ tags:
 ref: sol-030-0096
 image_count: 
 wip: true
-published: false
 
 ---
