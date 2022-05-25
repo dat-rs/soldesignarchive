@@ -17,6 +17,5 @@ tags:
 - Latin Wide
 image_count: 
 wip: false
-published: false
 
 ---
