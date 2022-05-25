@@ -1,6 +1,7 @@
 ---
 name: 'Os Livros das Três Abelhas'
 layout: tag
+type: collection
 ---
 Os Livros das Três Abelhas was a collection led by Cardoso Martins and Victor Palla that aimed to translate and publish the best of contemporary fiction in a pocket paperback format.
 
