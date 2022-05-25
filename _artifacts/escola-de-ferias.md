@@ -1,23 +1,26 @@
 ---
 publisher:
-- Estúdios Cor
+- Editorial Presença
 origin:
 - Portugal
 date_added: 2022-05-25
 layout: artifact
-title: Delirante Brasil?
-ref: sol-030-0102
+title: Escola de Férias
+ref: sol-030-0101
 types:
 - typography
+- illustration
 - graphic design
 - book cover
 - book
-author_name:
-- Manuel Correia
-year: y1965
+author_name: [João de Mascarenhas]
+year: y1961
 tags:
-- Brazil
-image_count: 
+- André Bay
+- black
+- brown
+- blue
+image_count: 2
 wip: false
 
 ---
