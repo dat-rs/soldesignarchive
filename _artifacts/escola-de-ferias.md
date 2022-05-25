@@ -5,8 +5,8 @@ origin:
 - Portugal
 date_added: 2022-05-25
 layout: artifact
-title: Escola de Férias
-ref: sol-030-0101
+title: Delirante Brasil?
+ref: sol-030-0102
 types:
 - typography
 - graphic design
