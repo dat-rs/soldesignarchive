@@ -1,4 +1,4 @@
 ---
 name: Henri Troyat
-layout: tag
+type: person
 ---
