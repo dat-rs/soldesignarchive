@@ -1,0 +1,22 @@
+---
+publisher:
+- Arcádia
+origin:
+- Portugal
+date_added: 2022-05-25
+layout: artifact
+title: Elói
+ref: sol-030-0095
+types:
+- book cover
+- book
+author_name:
+- Victor Palla
+year: y1959
+tags:
+- Latin Wide
+image_count: 
+wip: false
+published: false
+
+---
