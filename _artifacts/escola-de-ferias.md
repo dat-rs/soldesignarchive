@@ -17,7 +17,7 @@ author_name:
 year: y1965
 tags:
 - Brazil
-image_count: 2
+image_count: 
 wip: false
 
 ---
