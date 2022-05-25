@@ -21,6 +21,5 @@ tags:
 - Eurostile/Microgramma
 image_count: 
 wip: false
-published: false
 
 ---
