@@ -1,23 +1,22 @@
 ---
 publisher:
-- Publicações Europa-América
+- Estúdios Cor
 origin:
 - Portugal
 date_added: 2022-05-25
 layout: artifact
-title: A Náusea
-ref: sol-030-0100
+title: Escola de Férias
+ref: sol-030-0101
 types:
-- collage
-- illustration
-- lettering
+- typography
 - graphic design
 - book cover
 - book
 author_name:
-- Sebastião Rodrigues
-year: y1958
-tags: []
+- Manuel Correia
+year: y1965
+tags:
+- Brazil
 image_count: 
 wip: false
 
