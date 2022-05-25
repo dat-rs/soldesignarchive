@@ -1,4 +1,4 @@
 ---
-name: 'Ministério da Educação
+name: 'Ministério da Educação'
 layout: publisher
 ---
