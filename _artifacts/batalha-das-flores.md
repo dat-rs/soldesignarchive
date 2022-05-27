@@ -4,7 +4,7 @@ author_name: 'unknown author'
 year: y1898
 origin: Portugal
 publisher: 'Uma Comissão de Senhoras'
-types: [ticket, graphic design, typography, ephemera]
+types: [ticket, 'graphic-design', typography, ephemera]
 tags: ['typographic ornaments', stamps]
 ref: sol-511-0000
 layout: artifact

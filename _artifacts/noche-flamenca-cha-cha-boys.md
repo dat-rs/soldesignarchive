@@ -5,7 +5,7 @@ year: y1960
 circa: true
 origin: Portugal
 publisher: 'A Voz do Dono'
-types: [record, record cover, illustration]
+types: [record, 'record-cover', illustration]
 tags: [music]
 iconography: [people, men, faces, leaves]
 ref: sol-601-0000

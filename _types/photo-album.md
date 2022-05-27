@@ -1,4 +1,4 @@
 ---
-name: record cover
+name: photo-album
 layout: type
 ---

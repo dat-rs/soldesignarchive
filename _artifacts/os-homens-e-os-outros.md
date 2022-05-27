@@ -4,7 +4,7 @@ author_name: Victor Palla
 year: y1960
 origin: Portugal
 publisher: 'Publicações Europa América'
-types: [book cover, book, lettering]
+types: ['book-cover', book, lettering]
 tags: [fiction, "Os Livros das Três Abelhas", red]
 ref: sol-030-0045
 layout: artifact

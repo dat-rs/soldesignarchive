@@ -4,7 +4,7 @@ author_name: 'Sebastião Rodrigues'
 year: y1965
 origin: Portugal
 publisher: 'Fundação Calouste Gulbenkian'
-types: [book, book cover, catalogue, graphic design, typography, photography]
+types: [book, 'book-cover', catalogue, 'graphic-design', typography, photography]
 tags: [art]
 ref: sol-231-0013
 image_count: 2

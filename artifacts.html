@@ -5,11 +5,13 @@ title: rsda | authors
 
    <div class="container-fluid container-browse artifacts-grid">
 
-    <div class="row no-gutters">
+{% include artifacts-filters.html %}
+
+    <div class="row no-gutters artifacts-grid-row">
 
             {% for artifact in site.artifacts %}
 
-              <div class="col-12 col-md-6 col-lg-4 col-xl-2">
+              <div class="artifact-grid-col col-12 col-md-6 col-lg-4 col-xl-2 {{ artifact.types | join: " " }} {{ artifact.year }}">
                 <a class="a-module grid" href="{{ artifact.url }}">
                   <div class="a-module-img-holder">
                       <img class="grid-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="{{ artifact.title }}">
