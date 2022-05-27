@@ -4,7 +4,7 @@ author_name: 'unknown author'
 year: 'unknown'
 origin: Spain
 publisher: 'Reales Alcazares de Sevilla'
-types: [ticket, graphic design, typography, ephemera]
+types: [ticket, 'graphic-design', typography, ephemera]
 tags: ['typographic ornaments', stamps]
 ref: sol-511-0001
 layout: artifact

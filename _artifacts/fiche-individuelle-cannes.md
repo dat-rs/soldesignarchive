@@ -4,7 +4,7 @@ author_name: 'unknown author'
 year: y1974
 origin: France
 publisher: 'Mairie de Cannes'
-types: [ticket, graphic design, typography, ephemera]
+types: [ticket, 'graphic-design', typography, ephemera]
 tags: ['stamps']
 ref: sol-460-0000
 layout: artifact

@@ -4,7 +4,7 @@ author_name: ['unknown author']
 year: y1973
 origin: Portugal
 publisher: ['Alvorada', 'Chantecler']
-types: [record, record cover, graphic design, typography, photography]
+types: [record, 'record-cover', 'graphic-design', typography, photography]
 tags: [music, 'Churchward Marianna']
 iconography: [people, men, faces, leaves]
 ref: sol-601-0002

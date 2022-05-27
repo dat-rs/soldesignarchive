@@ -4,7 +4,7 @@ author_name: 'Júlio Santos'
 year: 'unknown'
 origin: Portugal
 publisher: 'Livraria Sá da Costa'
-types: [book cover, book, illustration, graphic design, typography]
+types: ['book-cover', book, illustration, 'graphic-design', typography]
 tags: [history]
 ref: sol-030-0021
 layout: artifact

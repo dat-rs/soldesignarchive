@@ -4,7 +4,7 @@ author_name: 'unknown author'
 year: 'unknown'
 origin: Portugal
 publisher: 'Caixa Económica de Lisboa'
-types: [bank book, ephemera, graphic design, typography]
+types: ['bank-book', ephemera, 'graphic-design', typography]
 tags: ['stamps']
 ref: sol-520-0000
 layout: artifact

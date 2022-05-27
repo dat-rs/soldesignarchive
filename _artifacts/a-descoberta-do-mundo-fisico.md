@@ -4,7 +4,7 @@ author_name: ['Sebastião Rodrigues', 'Fernando Costa']
 year: y1979
 origin: Portugal
 publisher: 'Sá da Costa'
-types: [booklet, 'graphic design', photography]
+types: [booklet, 'graphic-design', photography]
 tags: [non-fiction, science, 'Cadernos de Iniciação Científica', Helvetica]
 ref: sol-253-0000
 image_count: 7

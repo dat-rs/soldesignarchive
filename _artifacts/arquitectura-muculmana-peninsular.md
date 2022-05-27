@@ -4,7 +4,7 @@ author_name: 'Sebastião Rodrigues'
 year: y1962
 origin: Portugal
 publisher: 'Fundação Calouste Gulbenkian'
-types: [catalogue, booklet, graphic design, typography]
+types: [catalogue, booklet, 'graphic-design', typography]
 tags: [geometry, architecture, pattern]
 ref: sol-231-0011
 layout: artifact

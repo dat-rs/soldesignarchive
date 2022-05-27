@@ -4,7 +4,7 @@ author_name: Paulo-Guilherme
 year: y1960
 origin: Portugal
 publisher: 'Editorial Técnica e Artística'
-types: [book cover, book, typography, illustration]
+types: ['book-cover', book, typography, illustration]
 tags: [fiction, theatre, "Olavo d’Eça Leal", reverse-contrast]
 ref: sol-010-0003
 layout: artifact

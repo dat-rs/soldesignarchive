@@ -4,7 +4,7 @@ author_name: 'José António Flores'
 year: y1980
 origin: Portugal
 publisher: 'Fundação Calouste Gulbenkian'
-types: [programme, brochure, graphic design, typography, illustration]
+types: [programme, brochure, 'graphic-design', typography, illustration]
 tags: ['Jorge Amado', music]
 iconography: []
 ref: sol-110-0001
