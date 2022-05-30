@@ -2,7 +2,7 @@
 title: 'Managerial Economics'
 author_name: 'B E Rockett'
 year: y1968
-origin: United Kingdom
+origin: United-Kingdom
 publisher: 'Penguin Books'
 types: ['book-cover', book]
 tags: [non-fiction, economics, Penguin, 'Penguin Modern Economics', Univers, pattern]

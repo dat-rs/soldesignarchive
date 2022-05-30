@@ -2,7 +2,7 @@
 title: Caligula and 3 other Plays
 author_name: 'George Giusti'
 year: y1958
-origin: United States
+origin: United-States
 publisher: 'Vintage Books'
 types: ['book-cover', book, illustration, typography]
 tags: ["Albert Camus", geometric, Clarendon]

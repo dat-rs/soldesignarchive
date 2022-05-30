@@ -2,7 +2,7 @@
 title: The Screens
 author_name: 'Emil Cadoo'
 year: y1962
-origin: United States
+origin: United-States
 publisher: 'Grove Press'
 types: ['book-cover', book]
 tags: [theatre, photography, "multiple exposure", monochrome]
