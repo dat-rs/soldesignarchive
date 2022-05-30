@@ -3,18 +3,18 @@ layout: default
 title: rsda | authors
 ---
 
-   <div class="container-fluid container-browse artifacts-grid">
+   <div class="container-fluid container-artifacts">
 
 {% include artifacts-filters.html %}
 
-    <div class="row no-gutters artifacts-grid-row">
+    <div id="artifacts-grid-row" class="row no-gutters">
 
             {% for artifact in site.artifacts %}
 
-              <div class="artifact-grid-col col-12 col-md-6 col-lg-4 col-xl-2 {{ artifact.types | join: " " }} {{ artifact.year }}">
+              <div class="artifact-grid-col col-12 col-md-6 col-lg-2 col-xl-1 {{ artifact.types | join: " " }} {{ artifact.year }} {{ artifact.origin | join: " " }}">
                 <a class="a-module grid" href="{{ artifact.url }}">
-                  <div class="a-module-img-holder">
-                      <img class="grid-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="{{ artifact.title }}">
+                  <div class="a-module-img-holder mason">
+                      <img class="grid-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}.jpg" alt="{{ artifact.title }}">
                   </div>
                 </a>
               </div>

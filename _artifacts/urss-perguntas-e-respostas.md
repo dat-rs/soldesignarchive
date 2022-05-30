@@ -2,7 +2,7 @@
 title: 'URSS Perguntas e Respostas'
 author_name: unknown author
 year: y1960
-origin: Soviet Union
+origin: Soviet-Union
 publisher: 'Novosti Press Agency'
 types: ['book-cover', book, 'graphic-design', lettering, typography]
 tags: [propaganda, government, "Bauhaus Geomet"]

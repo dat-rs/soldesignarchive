@@ -1,27 +1,47 @@
 
-<div class="row no-gutters">
-  <div class="col-12">
+<div id="artifacts-filters" class="row no-gutters">
 
-  <div class="button-group filter-button-group">
-    <button data-filter="*">show all</button>
-    <button data-filter=".book">book</button>
-    <button data-filter=".record">record</button>
-    <button data-filter=".illustration">illustration</button>
-    <button data-filter=".lettering">lettering</button>
-    <button data-filter=".brochure">brochure</button>
+  <div class="col-4 filter-group" data-group="types">
+
+    <h3 class="filter-title"><span class="title-label">Filters ></span> Types</h3>
+
+    {% for type in site.types %}
+
+      <input type="checkbox" value=".{{ type.name }}" class="btn-check filter" id="filter-{{ type.name }}" autocomplete="off">
+      <label class="btn a-filter-label" for="filter-{{ type.name }}">{{ type.name | replace: "-", " " }}</label>
+
+    {% endfor %}
+
   </div>
 
-</div>
+  <div class="col-4 filter-group" data-group="years">
 
-<div class="col-12">
+    <h3 class="filter-title"><span class="title-label">Filters ></span> Years</h3>
 
-  <div class="button-group filter-button-group">
-    <button data-filter=".y1958">1958</button>
-    <button data-filter="*">show all</button>
-    <button data-filter=".y1962">1962</button>
-    <button data-filter=".y1965">1965</button>
-    <button data-filter=".y1968">1968</button>
+    {% for year in site.years %}
+
+      <input type="checkbox" value=".{{ year.name }}" class="btn-check filter" id="filter-{{ year.name }}" autocomplete="off">
+      <label class="btn a-filter-label" for="filter-{{ year.name }}">{{ year.name | remove_first: "y" }}</label>
+
+    {% endfor %}
+
+    <input type="checkbox" value=".y1953.y1952" class="btn-check filter" id="filter-nineteen-fifties" autocomplete="off">
+    <label class="btn a-filter-label decade" for="filter-nineteen-fifties">1950s</label>
+
+
   </div>
 
-</div>
+  <div class="col-4 filter-group" data-group="types">
+
+    <h3 class="filter-title"><span class="title-label">Filters ></span> Origins</h3>
+
+    {% for origin in site.origins %}
+
+    <input type="checkbox" value=".{{ origin.name }}" class="btn-check filter" id="filter-{{ origin.name }}" autocomplete="off">
+    <label class="btn a-filter-label" for="filter-{{ origin.name }}">{{ origin.name | replace: "-", " " }}</label>
+
+    {% endfor %}
+
+  </div>
+
 </div>
