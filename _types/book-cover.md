@@ -1,4 +1,4 @@
 ---
-name: bank book
+name: book-cover
 layout: type
 ---

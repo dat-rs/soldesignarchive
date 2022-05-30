@@ -4,7 +4,7 @@ author_name: 'unknown author'
 year: 'unknown'
 origin: Portugal
 publisher: 'Yashica'
-types: [envelope, graphic design, typography]
+types: [envelope, 'graphic-design', typography]
 tags: ['reverse-contrast']
 ref: sol-530-0002
 layout: artifact

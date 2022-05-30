@@ -4,7 +4,7 @@ author_name: 'Henrique Ruivo'
 year: y1974
 origin: Portugal
 publisher: 'Seara Nova'
-types: [book cover, book, illustration, graphic design]
+types: ['book-cover', book, illustration, 'graphic-design']
 tags: []
 ref: sol-030-0019
 layout: artifact

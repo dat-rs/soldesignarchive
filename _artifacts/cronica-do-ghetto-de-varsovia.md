@@ -4,7 +4,7 @@ author_name: 'Sebastião Rodrigues'
 year: y1964
 origin: Portugal
 publisher: 'Livraria Morais Editora'
-types: [book cover, book, graphic design, typography, photography]
+types: ['book-cover', book, 'graphic-design', typography, photography]
 tags: [non-fiction, history, duotone]
 ref: sol-030-0012
 layout: artifact

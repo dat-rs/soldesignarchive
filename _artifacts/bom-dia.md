@@ -4,7 +4,7 @@ author_name: ['João Abel']
 year: y1971
 origin: Portugal
 publisher: 'João Abel'
-types: [book, 'book cover', 'graphic design', typography, illustration]
+types: [book, 'book-cover', 'graphic-design', typography, illustration]
 tags: ["poetry", "João Abel"]
 ref: sol-030-0091
 layout: artifact

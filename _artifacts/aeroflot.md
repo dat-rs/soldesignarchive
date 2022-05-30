@@ -2,9 +2,9 @@
 title: 'Aeroflot'
 author_name: 'unknown author'
 year: y1976
-origin: Soviet Union
+origin: Soviet-Union
 publisher: 'Aeroflot'
-types: [ticket, graphic design, typography]
+types: [ticket, ephemera, 'graphic-design', typography]
 tags: ['']
 ref: sol-512-0000
 layout: artifact

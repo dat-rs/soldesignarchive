@@ -24,7 +24,14 @@ layout: default
     {% endfor %}
 
 
-    <div class="container container-cat">
+
+      {% if page.image_count %}
+        {% include artifact_flick.html %}
+        {% else %}
+        {% include artifact_single.html %}
+      {% endif %}
+
+      <div class="container last-before-footer">
 
         <div class="row">
 
@@ -37,16 +44,6 @@ layout: default
                 </div>
 
         </div>
-
-      </div>
-
-      {% if page.image_count %}
-        {% include artifact_flick.html %}
-        {% else %}
-        {% include artifact_single.html %}
-      {% endif %}
-
-      <div class="container last-before-footer">
 
         <div class="row about">
 

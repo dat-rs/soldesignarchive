@@ -4,7 +4,7 @@ author_name: ['Sebastião Rodrigues']
 year: y1961
 origin: Portugal
 publisher: 'Arcádia'
-types: [book, 'book cover', 'graphic design', typography, illustration]
+types: [book, 'book-cover', 'graphic-design', typography, illustration]
 tags: ["Federigo Tozzi"]
 ref: sol-010-0067
 layout: artifact

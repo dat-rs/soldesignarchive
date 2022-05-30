@@ -4,7 +4,7 @@ author_name: ['unknown author']
 year: 'unknown'
 origin: Portugal
 publisher: ['Discos Festival']
-types: [record, record cover, graphic design, typography, photography]
+types: [record, 'record-cover', 'graphic-design', typography, photography]
 tags: [music]
 iconography: []
 ref: sol-601-0003

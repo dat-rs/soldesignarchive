@@ -2,9 +2,9 @@
 title: 'Love and the Spanish'
 author_name: 'André François'
 year: y1964
-origin: United Kingdom
+origin: United-Kingdom
 publisher: 'Penguin Books'
-types: [book cover, book]
+types: ['book-cover', book]
 tags: [non-fiction, culture, Penguin, Helvetica, illustration, red]
 ref: sol-010-0054
 layout: artifact

@@ -1,4 +1,4 @@
 ---
-name: United States
+name: Soviet-Union
 layout: origin
 ---

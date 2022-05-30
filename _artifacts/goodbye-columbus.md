@@ -2,9 +2,9 @@
 title: "Goodbye Columbus"
 author_name: "Paul Bacon"
 year: y1969
-origin: United States
+origin: United-States
 publisher: 'Bantam Books'
-types: [book cover, book, typography]
+types: ['book-cover', book, typography]
 tags: [illustration, "Philip Roth", "Benguiat Caslon"]
 ref: sol-030-0077
 layout: artifact
