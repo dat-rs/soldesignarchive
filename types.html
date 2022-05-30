@@ -18,7 +18,7 @@ title: rsda | types
 
         {% for type in site.types %}
 
-            <h2 class="title allcat"><a class="browse-link type" href="{{ type.url }}">{{ type.name }}</a></h2>
+            <h2 class="title allcat"><a class="browse-link type" href="{{ type.url }}">{{ type.name | replace: "-", " " }}</a></h2>
 
         {% endfor %}
         </div>

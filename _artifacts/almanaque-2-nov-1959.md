@@ -4,7 +4,7 @@ author_name: ['Sebastião Rodrigues']
 year: y1959
 origin: Portugal
 publisher: 'Grupo de Publicações Periódicas'
-types: [magazine, graphic design, illustration, photography, typography]
+types: [magazine, 'graphic-design', illustration, photography, typography]
 tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo Magalhães"]
 ref: sol-320-0001
 wip: true

@@ -12,7 +12,7 @@ year: y1985
 types:
 - typography
 - illustration
-- book cover
+- book-cover
 - book
 tags: []
 ref: sol-030-0094

@@ -32,7 +32,8 @@
 
       <span class="deet-label hanging">Type{% if page.types.size > 1 %}s{% endif %}</span>
       {% for type in page.types %}
-      <a class="deet-link type" href="/types/{{ type | escape_once }}">{{ type }}</a>
+
+      <a class="deet-link type" href="/types/{{ type }}">{{ type | replace: "-", " " }}</a>
       {% endfor %}
 
       <span class="deet-label hanging">Reference</span>

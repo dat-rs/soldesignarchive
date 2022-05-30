@@ -4,7 +4,7 @@ author_name: 'Vítor Manaças'
 year: y1973
 origin: Portugal
 publisher: 'Fundação Calouste Gulbenkian'
-types: [catalogue, book, graphic design, typography]
+types: [catalogue, book, 'graphic-design', typography]
 tags: [Rodin, art]
 ref: sol-231-0012
 layout: artifact

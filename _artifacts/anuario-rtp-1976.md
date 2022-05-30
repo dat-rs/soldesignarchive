@@ -4,7 +4,7 @@ author_name: ['Helena Salgueiro', 'Moreira Rijo', 'Lino Pepe', 'Afonso da Silvei
 year: y1976
 origin: Portugal
 publisher: 'RTP'
-types: [book, 'book cover', 'graphic design', typography, illustration]
+types: [book, 'book-cover', 'graphic-design', typography, illustration]
 tags: ["Marvin"]
 ref: sol-241-0001
 layout: artifact
