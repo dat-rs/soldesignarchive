@@ -135,6 +135,13 @@
       var comboFilter = combo.join(', ');
       return comboFilter;
     }
+
+    // layout Isotope after each image loads
+$container.imagesLoaded().progress( function() {
+  $container.isotope('layout');
+});
+
+
   </script>
 
   </body>
