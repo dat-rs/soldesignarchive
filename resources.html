@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-cats
 title: rsda | all artifacts
 ---
 
@@ -17,9 +17,15 @@ title: rsda | all artifacts
 
             <div class="col-12">
 
+              <p><input type="text" class="quicksearch cats" placeholder="Search" /></p>
+
+            </div>
+
+            <div class="col-12" id="isotope-container">
+
                 {% for resource in site.resources %}
 
-                <h2 class="title allcat resources"><a class="browse-link resource" href="{{ resource.out_url }}">{{ resource.name }}</a></h2><br>
+                <h2 class="title allcat resources isotope-element"><a class="browse-link resource" href="{{ resource.out_url }}">{{ resource.name }}</a></h2><br>
 
                 {% endfor %}
             </div>
