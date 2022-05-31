@@ -126,7 +126,9 @@ img {
   max-width: 100%;
 }
 
-a:hover {
+
+
+a, a:hover {
   text-decoration: none;
   color: black;
 }
@@ -185,6 +187,7 @@ p.about-sol {
 }
 
 .artifact-count,
+.cat-count,
 .artifact-deets,
 .artifacts-table,
 .cat-label,
@@ -194,6 +197,13 @@ p.about-sol {
   font-size: 14px;
   letter-spacing: normal;
   line-height: 1.5;
+}
+
+.cat-count {
+  font-weight: 500;
+  font-size: 12px;
+  vertical-align: 120%;
+  margin-left: -4px;
 }
 
 .caption,
@@ -785,6 +795,12 @@ h2.title.allcat.tags {
   padding-top: 0;
 }
 
+h2.title.allcat.resources {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 h2.title.resource.inmodule {
   font-family: trade-gothic-next-condensed, sans-serif;
   display: inline-block;
@@ -1048,20 +1064,25 @@ i.bi-images.a-module-corner-icon {
 }
 
 .btn-check.filter:checked + .a-filter-label {
-  background-color: $off-white;
-  color: $artifact-color;
+  background-color: black;
+  color: $off-white;
+  border-color: black;
 }
 
 /* Search */
 
-input.quicksearch.artifacts {
-  font-family: clarendon-urw;
-  font-size: 28px;
+input.quicksearch.artifacts,
+input.quicksearch.cats {
   color: black;
   border: 0px;
   background-color: transparent;
   border-bottom: 1px solid $off-white;
   width: 100%;
+}
+
+input.quicksearch.artifacts {
+  font-family: clarendon-urw;
+  font-size: 28px;
   margin-top: 30px;
   padding-bottom: 4px;
   margin-bottom: 15px;
@@ -1069,6 +1090,19 @@ input.quicksearch.artifacts {
   &::placeholder {
     color: $off-white;
     opacity: 0.5;
+  }
+}
+
+input.quicksearch.cats {
+  font-family: tgn-soft-round-comp;
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 15px;
+  padding-bottom: 4px;
+  margin-bottom: 45px;
+
+  &::placeholder {
+    color: $off-white;
   }
 }
 
@@ -1461,6 +1495,7 @@ a.text-reg-link {
   font-weight: 500;
   font-size: 18px;
   letter-spacing: -0.2px;
+  text-decoration: none;
 }
 
 a.text-cat-link:hover,
@@ -1506,6 +1541,10 @@ a.text-cat-link.resource {
 }
 
 /* Blog Posts */
+
+.card {
+  margin-bottom: 30px;
+}
 
 .read-post {
   font-weight: 500;
@@ -1666,14 +1705,16 @@ a.fn-up:hover {
 }
 
 a.fn-link {
+  line-height: 2;
   padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 a.fn-link:hover {
   color: black;
   text-decoration: none;
-  border-bottom: 1px solid;
-
+  border-bottom: 1px solid $resource-color;
 }
 
 /* Cat Section @ Index */
