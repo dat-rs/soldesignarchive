@@ -1016,11 +1016,11 @@ i.bi-images.a-module-corner-icon {
   padding-top: 15px;
 }
 
-/* filters */
+/* Filters */
 
 #artifacts-filters {
   padding-top: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: $artifact-color;
 }
 
@@ -1050,6 +1050,35 @@ i.bi-images.a-module-corner-icon {
 .btn-check.filter:checked + .a-filter-label {
   background-color: $off-white;
   color: $artifact-color;
+}
+
+/* Search */
+
+input.quicksearch.artifacts {
+  font-family: clarendon-urw;
+  font-size: 28px;
+  color: black;
+  border: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid $off-white;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 4px;
+  margin-bottom: 15px;
+
+  &::placeholder {
+    color: $off-white;
+    opacity: 0.5;
+  }
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.ghost-info {
+  display: none;
+  opacity: 0;
 }
 
 table {
