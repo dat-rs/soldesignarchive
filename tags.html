@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-cats
 title: rsda | tags
 ---
 
@@ -16,9 +16,19 @@ title: rsda | tags
 
         <div class="col-12">
 
-        {% for tag in site.tags %}
+          <p><input type="text" class="quicksearch cats" placeholder="Search" /></p>
 
-            <h2 class="title allcat"><a class="browse-link tag" href="{{ tag.url }}">{{ tag.name }}</a></h2>
+        </div>
+
+        <div class="col-12" id="isotope-container">
+
+        {% for tag in site.tags %}
+        {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.name %}
+
+            <h2 class="title allcat isotope-element">
+              <a class="browse-link tag" href="{{ tag.url }}">{{ tag.name }}</a>
+              <span class="cat-count">{{ filtered_artifacts.size }}</span>
+            </h2>
 
         {% endfor %}
         </div>
