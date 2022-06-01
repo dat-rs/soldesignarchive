@@ -58,12 +58,52 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="/flickity.pkgd.min.js"></script>
+  <script src="/isotope.pkgd.min.js"></script>
   <script>
     $(".DISC-artifact-img").click(function() {
       $(this).toggleClass('rotated');
     });
   </script>
 
+  <script>
+    var $container = $('#isotope-container');
+
+    var qsRegex;
+
+    // init Isotope
+    $container.isotope({
+      // options
+      itemSelector: '.isotope-element',
+      layoutMode: 'fitRows',
+      filter: function() {
+        return qsRegex ? $(this).text().match( qsRegex ) : true;
+      }
+    });
+
+    // *SEARCH*
+
+    // use value of search field to filter
+    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+      $container.isotope();
+    }, 200 ) );
+
+    // debounce so filtering doesn't happen every millisecond
+    function debounce( fn, threshold ) {
+      var timeout;
+      threshold = threshold || 100;
+      return function debounced() {
+        clearTimeout( timeout );
+        var args = arguments;
+        var _this = this;
+        function delayed() {
+          fn.apply( _this, args );
+        }
+        timeout = setTimeout( delayed, threshold );
+      };
+    }
+
+  </script>
 
   </body>
 

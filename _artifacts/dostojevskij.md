@@ -2,7 +2,7 @@
 title: 'Dostojevskij - Janko Lavrin'
 author_name: 'Werner Rebhuhn'
 year: 'y1981'
-origin: Portugal
+origin: Germany
 publisher: 'Rowohlt Verlag'
 types: ['book-cover', book, 'graphic-design', typography]
 tags: [literature]
