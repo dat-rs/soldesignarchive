@@ -18,8 +18,8 @@ author_name:
 year: y1980
 tags:
 - sports
-- Eurostile/Microgramma
-image_count: 
+- "Eurostile + Microgramma"
+image_count:
 wip: false
 
 ---

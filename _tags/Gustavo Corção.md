@@ -1,5 +1,5 @@
 ---
-name: Gostavo Corção
+name: Gustavo Corção
 layout: tag
 type: person
 ---

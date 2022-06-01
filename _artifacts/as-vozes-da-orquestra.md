@@ -18,8 +18,8 @@ types:
 - book
 tags:
 - music
-ref: sol-030-103
-image_count: 
+ref: sol-030-0103
+image_count:
 wip: false
 
 ---
