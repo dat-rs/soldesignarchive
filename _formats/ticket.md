@@ -1,4 +1,4 @@
 ---
 name: ticket
-layout: type
+layout: format
 ---

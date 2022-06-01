@@ -30,11 +30,17 @@
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Type{% if page.types.size > 1 %}s{% endif %}</span>
-      {% for type in page.types %}
-
-      <a class="deet-link type" href="/types/{{ type }}">{{ type | replace: "-", " " }}</a>
+      <span class="deet-label hanging">Format{% if page.types.size > 1 %}s{% endif %}</span>
+      {% for format in page.formats %}
+      <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
       {% endfor %}
+      <br>
+
+      <span class="deet-label hanging">Discipline{% if page.types.size > 1 %}s{% endif %}</span>
+      {% for discipline in page.disciplines %}
+      <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
+      {% endfor %}
+      <br>
 
       <span class="deet-label hanging">Reference</span>
       {{ page.ref }}

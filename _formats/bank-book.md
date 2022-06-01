@@ -1,4 +1,4 @@
 ---
 name: bank-book
-layout: type
+layout: format
 ---

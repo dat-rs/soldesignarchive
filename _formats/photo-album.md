@@ -1,4 +1,4 @@
 ---
 name: photo-album
-layout: type
+layout: format
 ---

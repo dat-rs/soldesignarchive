@@ -1,4 +1,4 @@
 ---
 name: photography
-layout: type
+layout: discipline
 ---

@@ -1,4 +1,4 @@
 ---
 name: lettering
-layout: type
+layout: discipline
 ---

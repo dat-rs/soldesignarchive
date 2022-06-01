@@ -1,4 +1,4 @@
 ---
 name: typography
-layout: type
+layout: discipline
 ---

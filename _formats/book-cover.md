@@ -1,4 +1,4 @@
 ---
 name: book-cover
-layout: type
+layout: format
 ---

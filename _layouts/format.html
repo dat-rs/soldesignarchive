@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+
+<div class="container container-cat last-before-footer">
+
+    <div class="row">
+
+      <div class="col-12">
+
+          {% assign filtered_artifacts = site.artifacts | where: 'formats', page.name %}
+          <h3 class="cat-label type">Type</h3>
+          <h2 class="title type self">{{ page.name }}</h2>
+
+
+      </div>
+
+    </div>
+
+    <div class="row section format-artifacts">
+
+        <div class="col-12">
+
+            <h3 class="section-title">Artifacts</h3> <span class="artifact-count">({{ filtered_artifacts.size }})</span>
+
+        </div>
+
+                  {% for artifact in filtered_artifacts %}
+
+                  <div class="col-12 col-md-6 col-lg-4">
+                  {% include a-module.html %}
+                  </div>
+
+                  {% endfor %}
+
+    </div>
+
+
+    </div>
+
+</div>
