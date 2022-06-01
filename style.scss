@@ -9,7 +9,8 @@
 
 $artifact-color: #e16640;
 $author-color: #f2b34b;
-$type-color: #d8709c;
+$format-color: #d8709c;
+$discipline-color: #3dc18e;
 $origin-color: #4f9dd3;
 $tag-color: #995488;
 $year-color: #93a64e;
@@ -414,8 +415,8 @@ h1.site-title a:hover {
   background-color: $year-color;
 }
 
-.col-types {
-  background-color: $type-color;
+.col-formats {
+  background-color: $format-color;
 }
 
 .col-tags {
@@ -428,6 +429,10 @@ h1.site-title a:hover {
 
 .col-publishers {
   background-color: $publisher-color;
+}
+
+.col-disciplines {
+  background-color: $discipline-color;
 }
 
 .col-resources {
@@ -726,8 +731,12 @@ h3.ticker-title {
   background-color: $tag-color;
 }
 
-.types.holder {
-  background-color: $type-color;
+.formats.holder {
+  background-color: $format-color;
+}
+
+.disciplines.holder {
+  background-color: $discipline-color;
 }
 
 .publishers.holder {
@@ -1211,8 +1220,12 @@ a.title-table-link:hover h2.title-table {
   color: $year-color;
 }
 
-.cat-label.type {
-  color: $type-color;
+.cat-label.format {
+  color: $format-color;
+}
+
+.cat-label.discipline {
+  color: $discipline-color;
 }
 
 .cat-label.publisher {
@@ -1291,8 +1304,12 @@ a.title-table-link:hover h2.title-table {
   color: $year-color;
 }
 
-.deet-link.type {
-  color: $type-color;
+.deet-link.format {
+  color: $format-color;
+}
+
+.deet-link.discipline {
+  color: $discipline-color;
 }
 
 .deet-link.publisher {
@@ -1325,8 +1342,12 @@ a.deet-link.year:hover {
   border-bottom: 1px solid $year-color;
 }
 
-a.deet-link.type:hover {
-  border-bottom: 1px solid $type-color;
+a.deet-link.format:hover {
+  border-bottom: 1px solid $format-color;
+}
+
+a.deet-link.discipline:hover {
+  border-bottom: 1px solid $discipline-color;
 }
 
 a.deet-link.publisher:hover {
@@ -1459,8 +1480,12 @@ a.text-cat-link.year {
   color: $year-color;
 }
 
-a.text-cat-link.type {
-  color: $type-color;
+a.text-cat-link.format {
+  color: $format-color;
+}
+
+a.text-cat-link.discipline {
+  color: $discipline-color;
 }
 
 a.text-cat-link.author {
@@ -1662,8 +1687,12 @@ a.fn-link:hover {
   background-color: $year-color;
 }
 
-.col-types-index {
-  background-color: $type-color;
+.col-formats-index {
+  background-color: $format-color;
+}
+
+.col-disciplines-index {
+  background-color: $discipline-color;
 }
 
 .col-origins-index {
@@ -1704,52 +1733,6 @@ a.fn-link:hover {
   }
 }
 
-@keyframes smile-hue {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-
-  10% {
-    filter: hue-rotate(36deg);
-  }
-
-  20% {
-    filter: hue-rotate(72deg);
-  }
-
-  30% {
-    filter: hue-rotate(108deg);
-  }
-
-  40% {
-    filter: hue-rotate(144deg);
-  }
-
-  50% {
-    filter: hue-rotate(180deg);
-  }
-
-  60% {
-    filter: hue-rotate(216deg);
-  }
-
-  70% {
-    filter: hue-rotate(252deg);
-  }
-
-  80% {
-    filter: hue-rotate(288deg);
-  }
-
-  90% {
-    filter: hue-rotate(324deg);
-  }
-
-  100% {
-    filter: hue-rotate(360deg);
-  }
-
-}
 
 /* Responsiveness and Breakpoints */
 

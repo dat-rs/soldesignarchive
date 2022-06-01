@@ -9,7 +9,7 @@ layout: default
 
       <div class="col-12">
 
-          {% assign filtered_artifacts = site.artifacts | where: 'types', page.name %}
+          {% assign filtered_artifacts = site.artifacts | where: 'discipliness', page.name %}
           <h3 class="cat-label type">Type</h3>
           <h2 class="title type self">{{ page.name }}</h2>
 
@@ -18,7 +18,7 @@ layout: default
 
     </div>
 
-    <div class="row section type-artifacts">
+    <div class="row section discipline-artifacts">
 
         <div class="col-12">
 

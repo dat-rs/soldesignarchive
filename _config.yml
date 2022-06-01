@@ -23,9 +23,12 @@ collections:
   years:
     output: true
     permalink: /years/:path/
-  types:
+  formats:
     output: true
-    permalink: /types/:path/
+    permalink: /formats/:path/
+  disciplines:
+    output: true
+    permalink: /disciplines/:path/
   tags:
     output: true
     permalink: /tags/:path/

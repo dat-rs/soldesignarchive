@@ -1,4 +1,4 @@
 ---
 name: logo
-layout: type
+layout: discipline
 ---

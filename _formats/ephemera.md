@@ -1,4 +1,4 @@
 ---
 name: ephemera
-layout: type
+layout: format
 ---

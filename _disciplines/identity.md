@@ -1,4 +1,4 @@
 ---
 name: identity
-layout: type
+layout: discipline
 ---

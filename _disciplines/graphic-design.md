@@ -1,4 +1,4 @@
 ---
 name: 'graphic-design'
-layout: type
+layout: discipline
 ---

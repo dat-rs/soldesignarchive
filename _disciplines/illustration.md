@@ -1,4 +1,4 @@
 ---
 name: illustration
-layout: type
+layout: discipline
 ---

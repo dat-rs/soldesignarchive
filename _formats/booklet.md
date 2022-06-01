@@ -1,4 +1,4 @@
 ---
 name: booklet
-layout: type
+layout: format
 ---

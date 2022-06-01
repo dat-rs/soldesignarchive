@@ -1,4 +1,4 @@
 ---
 name: book
-layout: type
+layout: format
 ---

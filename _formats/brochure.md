@@ -1,4 +1,4 @@
 ---
 name: brochure
-layout: type
+layout: format
 ---

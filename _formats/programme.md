@@ -1,4 +1,4 @@
 ---
 name: programme
-layout: type
+layout: format
 ---

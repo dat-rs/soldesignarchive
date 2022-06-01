@@ -1,4 +1,4 @@
 ---
 name: envelope
-layout: type
+layout: format
 ---

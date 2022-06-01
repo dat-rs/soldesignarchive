@@ -1,4 +1,4 @@
 ---
 name: record
-layout: type
+layout: format
 ---

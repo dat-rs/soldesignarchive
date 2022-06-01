@@ -1,4 +1,4 @@
 ---
 name: magazine
-layout: type
+layout: format
 ---
