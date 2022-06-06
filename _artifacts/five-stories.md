@@ -4,7 +4,8 @@ author_name: 'Alvin Lustig'
 year: y1956
 origin: United-States
 publisher: 'Vintage Books'
-types: ['book-cover', book, 'graphic-design']
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: ["Willa Cather", circles, pattern]
 ref: sol-030-0070
 image_count: 2

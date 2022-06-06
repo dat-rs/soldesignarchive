@@ -4,7 +4,8 @@ author_name: 'Werner Rebhuhn'
 year: 'y1981'
 origin: Germany
 publisher: 'Rowohlt Verlag'
-types: ['book-cover', book, 'graphic-design', typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [literature]
 ref: sol-030-0017
 layout: artifact

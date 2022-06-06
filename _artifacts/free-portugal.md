@@ -4,7 +4,8 @@ author_name: 'Tóssan'
 year: y1976
 origin: Portugal
 publisher: 'Terra Livre'
-types: ['book-cover', book, 'graphic-design', typography, illustration]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: ['25 de Abril', government, monochrome]
 iconography: [locket]
 ref: sol-030-0008

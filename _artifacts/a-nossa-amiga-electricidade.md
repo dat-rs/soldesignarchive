@@ -9,16 +9,17 @@ title: A Nossa Amiga Electricidade
 author_name:
 - Calvet de Magalhães
 year: y1955
-types:
-- lettering
-- illustration
-- graphic design
+formats:
 - book cover
 - book
+disciplines:
+- lettering
+- illustration
+- graphic-design
 tags: []
 ref: sol-030-0093
 slug: a-nossa-amiga-electricidade
-image_count: 
+image_count:
 wip: false
 
 ---

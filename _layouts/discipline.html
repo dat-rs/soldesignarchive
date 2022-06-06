@@ -9,9 +9,9 @@ layout: default
 
       <div class="col-12">
 
-          {% assign filtered_artifacts = site.artifacts | where: 'discipliness', page.name %}
-          <h3 class="cat-label type">Type</h3>
-          <h2 class="title type self">{{ page.name }}</h2>
+          {% assign filtered_artifacts = site.artifacts | where: 'disciplines', page.name %}
+          <h3 class="cat-label type">Discipline</h3>
+          <h2 class="title discipline self capitalize">{{ page.name | replace: "-", " " }}</h2>
 
 
       </div>

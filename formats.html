@@ -17,8 +17,12 @@ title: rsda | types
         <div class="col-12">
 
         {% for format in site.formats %}
+        {% assign filtered_artifacts = site.artifacts | where: 'formats', format.name %}
 
-            <h2 class="title allcat"><a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a></h2>
+            <h2 class="title allcat capitalize">
+              <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
+              <span class="cat-count">{{ filtered_artifacts.size }}</span>
+            </h2>
 
         {% endfor %}
         </div>

@@ -4,7 +4,8 @@ author_name: 'Victor Palla'
 year: y1959
 origin: Portugal
 publisher: 'Atlântida'
-types: ['book-cover', book, illustration, 'graphic-design', lettering]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration, lettering]
 tags: [Vercors]
 ref: sol-010-0023
 layout: artifact

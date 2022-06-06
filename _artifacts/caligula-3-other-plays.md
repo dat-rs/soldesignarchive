@@ -4,7 +4,8 @@ author_name: 'George Giusti'
 year: y1958
 origin: United-States
 publisher: 'Vintage Books'
-types: ['book-cover', book, illustration, typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: ["Albert Camus", geometric, Clarendon]
 ref: sol-030-0064
 layout: artifact

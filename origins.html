@@ -19,8 +19,8 @@ title: rsda | origins
         {% for origin in site.origins %}
         {% assign filtered_artifacts = site.artifacts | where: 'origin', origin.name %}
 
-            <h2 class="title allcat">
-              <a class="browse-link origin" href="{{ origin.url }}">{{ origin.name }}</a>
+            <h2 class="title allcat capitalize">
+              <a class="browse-link origin" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a>
               <span class="cat-count">{{ filtered_artifacts.size }}</span>
             </h2>
 

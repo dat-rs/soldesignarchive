@@ -4,7 +4,8 @@ author_name: 'Sebastião Rodrigues'
 year: y1961
 origin: Portugal
 publisher: 'Ulisseia'
-types: ['book-cover', book, 'graphic-design', illustration, typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [Roger Vailland, Albertus]
 ref: sol-010-0029
 layout: artifact

@@ -4,7 +4,8 @@ author_name: 'Luís Osório'
 year: y1959
 origin: Portugal
 publisher: 'Publicações Europa-América'
-types: ['book-cover', book, 'graphic-design', typography, lettering, illustration]
+formats: [book-cover, book, 'graphic-design']
+disciplines: [graphic-design, typography, illustration, lettering]
 tags: ['Boris Pasternak', 'Os Livros das Três Abelhas']
 iconography: [women, men, rain]
 ref: sol-030-0042

@@ -10,16 +10,11 @@ title: As Vozes da Orquestra
 author_name:
 - José João
 year: y1965
-types:
-- typography
-- illustration
-- graphic design
+formats:
 - book cover
 - book
+disciplines: [graphic-design, typography, illustration]
 tags:
 - music
 ref: sol-030-0103
-image_count:
-wip: false
-
 ---

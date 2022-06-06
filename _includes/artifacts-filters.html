@@ -1,28 +1,35 @@
 
 <div id="artifacts-filters" class="row no-gutters">
 
-  <div class="col-12">
+  <div class="col filter-group" data-group="types">
 
-    <p><input type="text" class="quicksearch artifacts" placeholder="Search (Titles/Authors)" /></p>
+    <h3 class="filter-title">Formats</h3>
 
-  </div>
+    {% for format in site.formats %}
 
-  <div class="col-4 filter-group" data-group="types">
-
-    <h3 class="filter-title"><span class="title-label">Filters ></span> Types</h3>
-
-    {% for type in site.types %}
-
-      <input type="checkbox" value=".{{ type.name }}" class="btn-check filter" id="filter-{{ type.name }}" autocomplete="off">
-      <label class="btn a-filter-label" for="filter-{{ type.name }}">{{ type.name | replace: "-", " " }}</label>
+      <input type="checkbox" value=".{{ format.name }}" class="btn-check filter" id="filter-{{ format.name }}" autocomplete="off">
+      <label class="btn a-filter-label" for="filter-{{ format.name }}">{{ format.name | replace: "-", " " }}</label>
 
     {% endfor %}
 
   </div>
 
-  <div class="col-4 filter-group" data-group="years">
+  <div class="col filter-group" data-group="types">
 
-    <h3 class="filter-title"><span class="title-label">Filters ></span> Years</h3>
+    <h3 class="filter-title">Disciplines</h3>
+
+    {% for discipline in site.disciplines %}
+
+      <input type="checkbox" value=".{{ discipline.name }}" class="btn-check filter" id="filter-{{ discipline.name }}" autocomplete="off">
+      <label class="btn a-filter-label" for="filter-{{ discipline.name }}">{{ discipline.name | replace: "-", " " }}</label>
+
+    {% endfor %}
+
+  </div>
+
+  <div class="col filter-group" data-group="years">
+
+    <h3 class="filter-title">Years</h3>
 
     {% for year in site.years %}
 
@@ -31,15 +38,11 @@
 
     {% endfor %}
 
-    <input type="checkbox" value=".y1953.y1952" class="btn-check filter" id="filter-nineteen-fifties" autocomplete="off">
-    <label class="btn a-filter-label decade" for="filter-nineteen-fifties">1950s</label>
-
-
   </div>
 
-  <div class="col-4 filter-group" data-group="types">
+  <div class="col filter-group" data-group="types">
 
-    <h3 class="filter-title"><span class="title-label">Filters ></span> Origins</h3>
+    <h3 class="filter-title">Origins</h3>
 
     {% for origin in site.origins %}
 

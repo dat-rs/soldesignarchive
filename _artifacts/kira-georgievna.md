@@ -4,7 +4,8 @@ author_name: ['Sebastião Rodrigues']
 year: y1963
 origin: Portugal
 publisher: 'Arcádia'
-types: [book, 'book-cover', 'graphic-design', typography]
+formats: [book, book-cover]
+disciplines: [graphic-design, typography]
 tags: [vernacular]
 ref: sol-010-0039
 layout: artifact

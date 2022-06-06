@@ -4,7 +4,8 @@ author_name: 'Jack Reich'
 year: y1952
 origin: United-States
 publisher: 'Meridian Books'
-types: ['book-cover', book]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: ["Plato", philosophy]
 ref: sol-030-0067
 layout: artifact

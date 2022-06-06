@@ -4,7 +4,8 @@ author_name: 'unknown author'
 year: 'unknown'
 origin: Belgium
 publisher: 'Guy Verzwalm'
-types: ['photo-album', 'graphic-design', identity, logo]
+formats: ['photo-album']
+disciplines: [graphic-design, typography, identity, logo]
 tags: [embossing, pattern]
 ref: sol-160-0000
 layout: artifact

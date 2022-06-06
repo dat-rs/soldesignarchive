@@ -4,7 +4,8 @@ author_name: Figueiredo Sobral
 year: y1957
 origin: Portugal
 publisher: 'Publicações Europa-América'
-types: ['book-cover', book]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [fiction, "Os Livros das Três Abelhas", "Publicações Europa-América", brown, blue, illustration]
 ref: sol-030-0046
 layout: artifact

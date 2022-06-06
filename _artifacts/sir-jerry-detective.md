@@ -4,7 +4,8 @@ author_name: 'João da Câmara Leme'
 year: y1965
 origin: Portugal
 publisher: 'Portugália'
-types: ['book-cover', book, illustration, 'graphic-design']
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: ['Mad H Giraud']
 ref: sol-010-0015
 layout: artifact

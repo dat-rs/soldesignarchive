@@ -7,12 +7,13 @@ date_added: 2022-05-25
 layout: artifact
 title: A Mulher e o Desporto
 ref: sol-030-0099
-types:
-- illustration
-- typography
-- graphic design
+formats:
 - book cover
 - book
+disciplines:
+- illustration
+- typography
+- graphic-design
 author_name:
 - Carlos Figueira
 year: y1980

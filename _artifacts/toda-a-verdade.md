@@ -4,7 +4,8 @@ author_name: 'Paulo-Guilherme'
 year: 'y1966'
 origin: Portugal
 publisher: 'Livraria Clássica Editora'
-types: ['book-cover', book, illustration, 'graphic-design', typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [history]
 ref: sol-030-0016
 layout: artifact

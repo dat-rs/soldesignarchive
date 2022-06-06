@@ -4,7 +4,8 @@ author_name: ['Marcelo de Morais']
 year: y1955
 origin: Portugal
 publisher: 'SET'
-types: [book, 'book-cover', 'graphic-design', typography]
+formats: [book, book-cover]
+disciplines: [graphic-design, illustration, typography]
 tags: ["Gostavo Corção"]
 ref: sol-010-0063
 layout: artifact

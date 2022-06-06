@@ -4,7 +4,8 @@ author_name: 'Chermayeff & Geismar'
 year: y1960
 origin: United-States
 publisher: 'New Directions'
-types: ['book-cover', book, lettering]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration, lettering]
 tags: [monochrome]
 ref: sol-030-0063
 layout: artifact

@@ -4,7 +4,8 @@ author_name: Alda Rosa
 year: y1971
 origin: Portugal
 publisher: 'Editorial Estampa'
-types: ['book-cover', book, illustration, typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: ["José de Almada-Negreiros", Kabel]
 ref: sol-030-0037
 layout: artifact

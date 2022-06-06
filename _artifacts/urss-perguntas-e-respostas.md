@@ -4,7 +4,8 @@ author_name: unknown author
 year: y1960
 origin: Soviet-Union
 publisher: 'Novosti Press Agency'
-types: ['book-cover', book, 'graphic-design', lettering, typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, lettering]
 tags: [propaganda, government, "Bauhaus Geomet"]
 ref: sol-030-0054
 layout: artifact

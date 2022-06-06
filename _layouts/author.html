@@ -17,10 +17,12 @@ layout: default
 
     </div>
 
+    {% assign striped_content = page.content | strip_newlines %}
+        {% if striped_content != "" %}
+
     <div class="row section about">
 
-        {% assign striped_content = page.content | strip_newlines %}
-            {% if striped_content != "" %}
+
 
             <div class="col-12 col-md-9 col-lg-8">
 
@@ -30,10 +32,9 @@ layout: default
             <section class="about-text">{{ content }}</section>
 
             </div>
-
-        {% endif %}
-
     </div>
+
+      {% endif %}
 
     <div class="row section author-artifacts">
 
