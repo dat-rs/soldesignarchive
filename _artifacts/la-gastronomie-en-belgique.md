@@ -4,7 +4,8 @@ author_name: ['author unknown']
 year: y1958
 origin: Belgium
 publisher: 'Commissariat Général au Turisme'
-types: [brochure, 'graphic-design', illustration]
+formats: [brochure, graphic-design]
+disciplines: [graphic-design, typography, illustration]
 tags: [tourism, 'Expo 58', 'gastronomy']
 ref: sol-121-0006
 image_count: 5

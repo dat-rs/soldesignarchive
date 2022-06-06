@@ -17,8 +17,12 @@ title: rsda | types
         <div class="col-12">
 
         {% for discipline in site.disciplines %}
+        {% assign filtered_artifacts = site.artifacts | where: 'disciplines', discipline.name %}
 
-            <h2 class="title allcat"><a class="browse-link discipline" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a></h2>
+            <h2 class="title allcat capitalize">
+              <a class="browse-link discipline" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a>
+              <span class="cat-count">{{ filtered_artifacts.size }}</span>
+            </h2>
 
         {% endfor %}
         </div>

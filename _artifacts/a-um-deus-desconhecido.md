@@ -4,7 +4,8 @@ author_name: 'Sebastião Rodrigues'
 year: y1963
 origin: Portugal
 publisher: 'Editorial Gleba'
-types: ['book-cover', book, illustration]
+formats: [book-cover, book]
+disciplines: [graphic-design, illustration, typography]
 tags: [illustration, "John Steinbeck", "Os Livros das Três Abelhas"]
 ref: sol-030-0032
 layout: artifact

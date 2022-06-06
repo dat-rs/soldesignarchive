@@ -4,7 +4,8 @@ author_name: 'António Garcia'
 year: y1961
 origin: Portugal
 publisher: 'Ulisseia'
-types: ['book-cover', book, typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [fiction, "Lawrence Durrell"]
 ref: sol-030-0078
 layout: artifact

@@ -20,7 +20,7 @@
 
       <span class="deet-label hanging">Origin{% if page.origin.size > 1 %}s{% endif %}</span>
       {% for origin in page.origin %}
-      <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin }}</a>
+      <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin | replace: "-", " " }}</a>
       {% endfor %}
       <br>
 
@@ -30,13 +30,13 @@
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Format{% if page.types.size > 1 %}s{% endif %}</span>
+      <span class="deet-label hanging">Format{% if page.formats.size > 1 %}s{% endif %}</span>
       {% for format in page.formats %}
       <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Discipline{% if page.types.size > 1 %}s{% endif %}</span>
+      <span class="deet-label hanging">Discipline{% if page.disciplines.size > 1 %}s{% endif %}</span>
       {% for discipline in page.disciplines %}
       <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
       {% endfor %}
@@ -47,5 +47,5 @@
   </section>
 
   {% if page.wip %}
-  <p class=""><span class="badge wip-badge badge-dark">Work in Progress</span></p>
+  <p class=""><span class="badge wip-badge">Work in Progress</span></p>
   {% endif %}

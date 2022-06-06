@@ -1,0 +1,4 @@
+---
+name: sticker
+layout: format
+---

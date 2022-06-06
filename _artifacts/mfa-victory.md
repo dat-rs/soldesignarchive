@@ -1,0 +1,13 @@
+---
+title: MFA
+author_name: ['unknown author']
+year: y1974
+origin: Portugal
+publisher: 'Movimento das Forças Armadas'
+formats: [sticker]
+disciplines: ['graphic-design', identity, logo, typography]
+tags: ["25 de Abril"]
+ref: sol-430-0000
+layout: artifact
+date_added: 2022-06-02
+---

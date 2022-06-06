@@ -7,12 +7,10 @@ date_added: 2022-05-25
 layout: artifact
 title: Escola de Férias
 ref: sol-030-0101
-types:
-- typography
-- illustration
-- graphic design
+formats:
 - book cover
 - book
+disciplines: [graphic-design, typography, illustration]
 author_name: [João de Mascarenhas]
 year: y1961
 tags:

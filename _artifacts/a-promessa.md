@@ -4,7 +4,8 @@ author_name: ['Sebastião Rodrigues']
 year: y1962
 origin: Portugal
 publisher: 'Publicações Europa-América'
-types: [book, 'book-cover', 'graphic-design', typography]
+formats: [book, book-cover]
+disciplines: [graphic-design, illustration]
 tags: ["Os Livros das Três Abelhas"]
 ref: sol-010-0036
 layout: artifact

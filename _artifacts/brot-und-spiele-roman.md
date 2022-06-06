@@ -4,7 +4,8 @@ author_name: 'Celestino Piatti'
 year: y1964
 origin: Germany
 publisher: 'Deutscher Taschenbuch Verlag'
-types: ['book-cover', book, illustration, 'graphic-design']
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [fiction]
 ref: sol-030-0020
 layout: artifact

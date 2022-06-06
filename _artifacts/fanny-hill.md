@@ -4,7 +4,8 @@ author_name: 'unknown author'
 year: unknown
 origin: Portugal
 publisher: 'Arcádia'
-types: ['book-cover', book, illustration, 'graphic-design']
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [John Cleland]
 ref: sol-030-0002
 layout: artifact

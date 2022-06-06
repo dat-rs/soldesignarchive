@@ -4,8 +4,9 @@ author_name: ['J. Ruiz Navarro', 'Francisco Espinosa']
 year: unknown
 origin: "Spain"
 publisher: 'Dirección General de Turismo'
-types: [brochure]
-tags: [museum, Madrid, guide, map, tourism, illustration, red, yellow]
+formats: [brochure, map]
+disciplines: [graphic-design, typography, illustration]
+tags: [museum, Madrid, guide, tourism, illustration, red, yellow]
 ref: sol-121-0000
 image_count: 3
 image_captions: ["", "Map of downtown Madrid. Francisco Espinosa.", "Illustrations by J. Ruiz Navarro."]

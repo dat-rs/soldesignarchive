@@ -4,7 +4,8 @@ author_name: 'João da Câmara Leme'
 year: y1962
 origin: Portugal
 publisher: 'Portugália Editora'
-types: ['book-cover', book]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [illustration, "Romeu Correia", theatre]
 ref: sol-030-0058
 layout: artifact

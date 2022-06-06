@@ -4,7 +4,8 @@ author_name: 'Jeffrey Matthews'
 year: 'y1980'
 origin: United-Kingdom
 publisher: 'London 1980 International Stamp Exhibition'
-types: ['book-cover', book, catalogue, illustration, 'graphic-design', typography]
+formats: [book-cover, book, catalogue]
+disciplines: [graphic-design, typography, illustration]
 tags: [London]
 ref: sol-232-0000
 layout: artifact

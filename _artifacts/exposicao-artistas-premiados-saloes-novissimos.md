@@ -4,7 +4,8 @@ author_name: 'Sebastião Rodrigues'
 year: y1965
 origin: Portugal
 publisher: 'SPN-SNI-SEIT'
-types: [booklet, 'graphic-design']
+formats: [booklet]
+disciplines: [graphic-design, typography]
 tags: [non-fiction, art, green, blue, geometric]
 ref: sol-231-0006
 image_count: 9

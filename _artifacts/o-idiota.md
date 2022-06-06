@@ -4,7 +4,8 @@ author_name: 'João da Câmara Leme'
 year: y1963
 origin: Portugal
 publisher: 'Portugália'
-types: ['book-cover', book, 'graphic-design', lettering, typography]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration, lettering]
 tags: [Fyodor Dostoevsky]
 ref: sol-010-0062
 layout: artifact

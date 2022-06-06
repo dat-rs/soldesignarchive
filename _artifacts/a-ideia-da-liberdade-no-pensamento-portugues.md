@@ -9,11 +9,8 @@ title: A Ideia da Liberdade no Pensamento Português
 author_name:
 - Tóssan
 year: y1985
-types:
-- typography
-- illustration
-- book-cover
-- book
+formats: [book, book-cover]
+disciplines: [graphic-design, typography, illustration ]
 tags: []
 ref: sol-030-0094
 image_count: 2

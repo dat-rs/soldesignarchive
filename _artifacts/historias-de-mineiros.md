@@ -4,7 +4,8 @@ author_name: 'Victor Palla'
 year: y1960
 origin: Portugal
 publisher: 'Arcádia'
-types: ['book-cover', book, 'graphic-design', typography, illustration]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: ['Manuel do Nascimento']
 iconography: [crosses, structures, caves]
 ref: sol-030-0034

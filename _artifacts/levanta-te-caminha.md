@@ -4,7 +4,8 @@ author_name: 'Sebastião Rodrigues'
 year: y1962
 origin: Portugal
 publisher: 'Publicações Europa-América'
-types: ['book-cover', book, photography, typography, 'graphic-design']
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, photography]
 tags: [Hervé Bazin, monochrome]
 ref: sol-010-0025
 layout: artifact

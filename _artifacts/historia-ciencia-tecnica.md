@@ -4,7 +4,8 @@ author_name: unknown author
 year: y1963
 origin: Portugal
 publisher: ['Ulisseia', "Pelican Books"]
-types: ['book-cover', book, illustration, lettering]
+formats: [book-cover, book, illustration, lettering]
+disciplines: [graphic-design, typography, illustration, lettering]
 tags: [science, technology ]
 ref: sol-010-0021
 layout: artifact

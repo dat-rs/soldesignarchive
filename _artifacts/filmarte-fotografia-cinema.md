@@ -4,7 +4,8 @@ author_name: 'unknown author'
 year: 'unknown'
 origin: Portugal
 publisher: 'Filmarte'
-types: [envelope, 'graphic-design', typography, illustration]
+formats: [envelope]
+disciplines: [graphic-design, typography, illustration, identity, logo]
 tags: ['reverse-contrast']
 ref: sol-530-0000
 layout: artifact

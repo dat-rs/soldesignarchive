@@ -143,6 +143,7 @@ a, a:hover {
   font-family: 'Mori Gothic', sans-serif;
   font-size: 12px;
   font-weight: 300;
+  background-color: black;
   padding: 7px 6px 5px;
   margin-top: 15px;
   margin-left: -1px;
@@ -171,6 +172,10 @@ a, a:hover {
 .about-text blockquote {
   margin-left: 45px;
   width: 90%;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 p.about-sol {
@@ -333,7 +338,7 @@ h1.site-title a:hover {
   }
 
   87% {
-    fill: $type-color;
+    fill: $format-color;
   }
 
   100% {
@@ -643,7 +648,7 @@ h3.ticker-title {
   min-height: 80vh;
   margin-top: 80px;
   padding-top: 30px;
-  background-color: black;
+  background-color: $artifact-color;
 }
 
 .container-fluid.after-sub-header {
@@ -1039,31 +1044,37 @@ i.bi-images.a-module-corner-icon {
 
 #artifacts-grid-row {
   padding-top: 15px;
+  background-color: black;
+  min-height: 80vh;
 }
 
-/* Filters */
+/* Filters & Search */
 
-#artifacts-filters {
-  padding-top: 15px;
+#artifacts-filters, #artifacts-search {
+  padding: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
-  background-color: $artifact-color;
+  background-color: black;
+  border-top: none;
+  min-height: 180px;
 }
 
-.a-filter-label {
+.a-filter-label, .a-filter {
   font-size: 10px;
   color: $off-white;
   margin-bottom: 8px;
   border-radius: 25px;
-  border-color: $off-white;
   text-transform: uppercase;
   line-height: 1;
   padding: 5px;
   padding-left: 8px;
   padding-right: 8px;
+  border-style: none;
+  border: 1px solid $off-white;
 
   &:hover {
     background-color: $off-white;
-    color: $artifact-color;
+    color: black;
   }
 
 }
@@ -1073,32 +1084,28 @@ i.bi-images.a-module-corner-icon {
 }
 
 .btn-check.filter:checked + .a-filter-label {
-  background-color: black;
-  color: $off-white;
-  border-color: black;
+  background-color: $artifact-color;
+  color: black;
+  border-color: $artifact-color;
 }
 
 /* Search */
 
 input.quicksearch.artifacts,
 input.quicksearch.cats {
-  color: black;
+  color: $off-white;
   border: 0px;
   background-color: transparent;
-  border-bottom: 1px solid $off-white;
   width: 100%;
 }
 
 input.quicksearch.artifacts {
-  font-family: clarendon-urw;
-  font-size: 28px;
-  margin-top: 30px;
-  padding-bottom: 4px;
-  margin-bottom: 15px;
+  font-family: trade-gothic-next-condensed;
+  font-size: 42px;
+  border-bottom: 1px solid $off-white;
 
   &::placeholder {
     color: $off-white;
-    opacity: 0.5;
   }
 }
 
@@ -1109,6 +1116,7 @@ input.quicksearch.cats {
   margin-top: 15px;
   padding-bottom: 4px;
   margin-bottom: 45px;
+  border-bottom: 1px solid $off-white;
 
   &::placeholder {
     color: $off-white;
@@ -1124,28 +1132,39 @@ input:focus {
   opacity: 0;
 }
 
-table {
-  margin-bottom: 0;
+/* Filters & Search Nav */
+
+.filter-search-nav {
+  background-color: $artifact-color;
+  color: $off-white;
+  margin-top: 45px;
 }
 
-.table td,
-.table th {
-  vertical-align: middle;
-  padding-top: 6px;
-  padding-bottom: 1px;
+.filter-search-current, .filter-search-other {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
 
 }
 
-.artifacts-table {
-  line-height: 16px;
+.filter-search-title, .filter-search-title a {
+  font-size: 16px;
+  color: $artifact-color;
+  margin-bottom: 0px;
 }
 
-a.title-table-link:hover h2.title-table {
-  font-weight: 600;
+.filter-search-current {
+  border-bottom: none;
+  background-color: black;
 }
 
-.artifact-list-deets {
-  font-weight: 400;
+.filter-search-other {
+  border-bottom: none;
+  background-color: $off-white;
+}
+
+.second-col-fix {
+  margin-left: -1px;
 }
 
 /* ARTIFACT PAGE */
@@ -1796,7 +1815,7 @@ a.fn-link:hover {
   }
 
   80% {
-    color: $type-color;
+    color: $format-color;
   }
 
   100% {

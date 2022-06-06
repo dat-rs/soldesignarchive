@@ -4,7 +4,8 @@ author_name: 'Erik Nitsche'
 year: y1963
 origin: [Portugal, Switzerland]
 publisher: 'Livraria Morais Editora'
-types: [book, 'book-cover','graphic-design', typography, illustration, photography]
+formats: [book, book-cover]
+disciplines: [graphic-design, typography, illustration, photography]
 tags: [science, 'The New Illustrated Library of Science and Invention' ]
 ref: sol-030-0015
 wip: true

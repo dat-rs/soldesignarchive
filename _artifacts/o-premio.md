@@ -4,7 +4,8 @@ author_name: 'João da Câmara Leme'
 year: y1965
 origin: Portugal
 publisher: 'Portugália'
-types: ['book-cover', book]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [fiction, illustration,]
 ref: sol-030-0013
 layout: artifact

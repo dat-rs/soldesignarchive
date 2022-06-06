@@ -10,11 +10,10 @@ title: Origine, Vita, Studii, e Costumi del Chiarissimo Dante Allighieri, Poeta 
 author_name:
 - unknown author
 year: y1965
-types:
-- graphic design
-- typography
+formats:
 - book cover
 - book
+disciplines: [graphic-design, typography]
 tags:
 - fac-simile
 ref: sol-030-0096

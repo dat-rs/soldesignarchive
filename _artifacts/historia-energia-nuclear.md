@@ -4,7 +4,8 @@ author_name: 'António Gedeão'
 year: y1962
 origin: Portugal
 publisher: 'Atlântida'
-types: ['book-cover', book]
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, science communication, physics, science]
 ref: sol-030-0027
 image_count: 2

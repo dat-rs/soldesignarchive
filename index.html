@@ -59,20 +59,39 @@ title: sol
 <div class="container-sections-index">
     <div class="row no-gutters">
 
-      <div class="col-12 col-types-index">
+      <div class="col-12 col-disciplines-index">
 
           <div class="section-index-container">
 
-              <h3 class="section-title">Types</h3>
+              <h3 class="section-title">Disciplines</h3>
               <br>
 
-              {% for type in site.types %}
+              {% for discipline in site.disciplines %}
 
-              <h2 class="title allcat"><a class="browse-link index type" href="{{ type.url }}">{{ type.name }}</a></h2>
+              <h2 class="title allcat"><a class="browse-link index discipline" href="{{ discipline.url }}">{{ discipline.name }}</a></h2>
 
               {% endfor %}
 
           </div>
+
+
+      </div>
+
+      <div class="col-12 col-formats-index">
+
+          <div class="section-index-container">
+
+              <h3 class="section-title">Formats</h3>
+              <br>
+
+              {% for format in site.formats %}
+
+              <h2 class="title allcat"><a class="browse-link index format" href="{{ format.url }}">{{ format.name }}</a></h2>
+
+              {% endfor %}
+
+          </div>
+
 
       </div>
 
