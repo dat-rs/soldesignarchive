@@ -76,8 +76,6 @@
     var searchAndFilter = function() {
       var $this = $(this);
 
-      console.log(qsRegex);
-      console.log($this.text())
       var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
       var comboFilter = getComboFilter();
       var buttonResult = comboFilter ? $this.is( comboFilter ) : true;
@@ -131,7 +129,6 @@
     function getComboFilter() {
       var combo = [];
       for (var prop in filters) {
-        console.log({prop, filters})
         var group = filters[prop];
         if (!group.length) {
           // no filters in group, carry on
