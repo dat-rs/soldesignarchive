@@ -71,13 +71,41 @@
     var $container = $('#artifacts-grid-row');
 
     var $filterDisplay = $('#filter-display');
+    var qsRegex;
+    var buttonFilter;
+    var searchAndFilter = function() {
+      var $this = $(this);
 
-    $container.isotope();
+      var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+      var comboFilter = getComboFilter();
+      var buttonResult = comboFilter ? $this.is( comboFilter ) : true;
+
+      return searchResult && buttonResult;
+  }
+
+    $container.isotope({
+      // options
+      itemSelector: '.artifact-grid-col',
+      layoutMode: 'masonry',
+      filter: searchAndFilter
+    });
+
+    $('#artifacts-filters').on( 'click', 'button', function() {
+      buttonFilter = $( this ).attr('data-filter');
+      $grid.isotope();
+    });
+    // use value of search field to filter
+    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+      $container.isotope();
+    }, 200 ) );
     // do stuff when checkbox change
     $('#artifacts-filters').on( 'change', function( event ) {
       var checkbox = event.target;
       var $checkbox = $( checkbox );
+
       var group = $checkbox.parents('.filter-group').attr('data-group');
+
       // create array for filter group, if not there yet
       var filterGroup = filters[ group ];
       if ( !filterGroup ) {
@@ -93,9 +121,8 @@
         filterGroup.splice( index, 1 );
       }
 
-      var comboFilter = getComboFilter();
-      $container.isotope({ filter: comboFilter });
-      $filterDisplay.text( comboFilter );
+      $container.isotope({filter:searchAndFilter});
+      $filterDisplay.text( getComboFilter() );
     });
 
 
