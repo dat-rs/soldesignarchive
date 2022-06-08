@@ -31,9 +31,9 @@ title: sol
 
     <div class="row no-gutters" style="background-color: black;">
 
-        {% assign sampled_artifacts = site.artifacts | sample: 16  %}
+        {% assign sampled_artifacts = site.artifacts | sample: 12  %}
         {% for artifact in sampled_artifacts %}
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-6 col-md-4 col-lg-3">
             <a href="{{ artifact.url }}">
 
                 <img class="grid-img-2" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="{{ artifact.title }}">
