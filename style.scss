@@ -25,6 +25,11 @@ $gray: #ccc5c0;
 
 $sol-gradient: linear-gradient(-45deg, #c47900, #e16640, #f2b34b, #93a64e, #2eb5b0, #4f9dd3, #d8709c, #995488, #c47900);
 
+$header-height-sm: 190px;
+$header-height-md: 180px;
+$header-height-lg: 90px;
+$header-height-xl: 110px;
+
 /* Bootstrap Icons */
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
@@ -644,7 +649,6 @@ h3.ticker-title {
 
 .container-artifacts {
   min-height: 80vh;
-  margin-top: 80px;
   padding-top: 30px;
   background-color: $artifact-color;
 }
@@ -897,7 +901,7 @@ h3.filter-title {
   text-transform: uppercase;
   color: $off-white;
   font-size: 11px;
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 8px;
 }
 
@@ -1031,14 +1035,16 @@ i.bi-images.a-module-corner-icon {
 
 #artifacts-filters, #artifacts-search {
   padding: 15px;
-  padding-top: 30px;
-  padding-bottom: 15px;
   background-color: $artifact-color;
   border-top: none;
 }
 
+#artifacts-filters {
+  padding-bottom: 15px;
+}
+
 #artifacts-search {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .a-filter-label, .a-filter {
@@ -1813,8 +1819,6 @@ a.fn-link:hover {
 
 @media (min-width: 576px) {
 
-
-
   .container-header {
     position: fixed;
     top: 0;
@@ -1822,11 +1826,15 @@ a.fn-link:hover {
 
   .sub-header-col {
     display: block;
-    height: 50px;
+    height: 40px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat {
-    margin-top: 260px;
+  .sub-header-link {
+    line-height: 40px;
+  }
+
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+    margin-top: $header-height-sm;
   }
 
   .ticker-move {
@@ -1839,6 +1847,10 @@ a.fn-link:hover {
 
 @media (min-width: 768px) {
 
+  .sol-circle svg {
+      width: 60px;
+  }
+
   .sub-header-col {
     height: 90px;
   }
@@ -1847,8 +1859,8 @@ a.fn-link:hover {
     line-height: 90px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat {
-    margin-top: 200px;
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+    margin-top: $header-height-md;
   }
 
   figure.post-img {
@@ -1885,19 +1897,14 @@ a.fn-link:hover {
 
 @media (min-width: 992px) {
 
+  h1.site-title {
+    font-size: 22px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
 
-h1.site-title {
-  font-size: 22px;
-  margin-left: 8px;
-  margin-bottom: 8px;
-}
-
-.sol-circle svg {
-    width: 60px;
-}
-
-.container-fluid.about, .container-browse, .container-cat {
-  margin-top: 90px;
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+  margin-top: $header-height-lg;
 }
 
   figure.post-img.offset {
@@ -1933,8 +1940,8 @@ h1.site-title {
       width: 80px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat {
-    margin-top: 110px;
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+    margin-top: $header-height-xl;
   }
 
   .ticker-move {
