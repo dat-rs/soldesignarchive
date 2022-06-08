@@ -55,7 +55,7 @@
     }
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <script src="/flickity.pkgd.min.js"></script>
   <script src="/isotope.pkgd.min.js"></script>
   <script>
@@ -71,45 +71,59 @@
     var $container = $('#artifacts-grid-row');
 
     var $filterDisplay = $('#filter-display');
-
     var qsRegex;
+    var buttonFilter;
+    var searchAndFilter = function() {
+      var $this = $(this);
 
-    // init Isotope
+      var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+      var comboFilter = getComboFilter();
+      var buttonResult = comboFilter ? $this.is( comboFilter ) : true;
+
+      return searchResult && buttonResult;
+  }
+
     $container.isotope({
       // options
       itemSelector: '.artifact-grid-col',
       layoutMode: 'masonry',
-      filter: function() {
-        return qsRegex ? $(this).text().match( qsRegex ) : true;
-      }
+      filter: searchAndFilter
     });
+
+    $('#artifacts-filters').on( 'click', 'button', function() {
+      buttonFilter = $( this ).attr('data-filter');
+      $grid.isotope();
+    });
+    // use value of search field to filter
+    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+      $container.isotope();
+    }, 200 ) );
     // do stuff when checkbox change
-    $('#artifacts-filters').on('change', function(event) {
+    $('#artifacts-filters').on( 'change', function( event ) {
       var checkbox = event.target;
-      var $checkbox = $(checkbox);
+      var $checkbox = $( checkbox );
+
       var group = $checkbox.parents('.filter-group').attr('data-group');
+
       // create array for filter group, if not there yet
-      var filterGroup = filters[group];
-      if (!filterGroup) {
-        filterGroup = filters[group] = [];
+      var filterGroup = filters[ group ];
+      if ( !filterGroup ) {
+        filterGroup = filters[ group ] = [];
       }
       // add/remove filter
-      if (checkbox.checked) {
+      if ( checkbox.checked ) {
         // add filter
-        filterGroup.push(checkbox.value);
+        filterGroup.push( checkbox.value );
       } else {
         // remove filter
-        var index = filterGroup.indexOf(checkbox.value);
-        filterGroup.splice(index, 1);
+        var index = filterGroup.indexOf( checkbox.value );
+        filterGroup.splice( index, 1 );
       }
 
-      var comboFilter = getComboFilter();
-      $container.isotope({
-        filter: comboFilter
-      });
-      $filterDisplay.text(comboFilter);
+      $container.isotope({filter:searchAndFilter});
+      $filterDisplay.text( getComboFilter() );
     });
-
 
 
     function getComboFilter() {
@@ -140,16 +154,6 @@
       return comboFilter;
     }
 
-
-
-    // *SEARCH*
-
-    // use value of search field to filter
-    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
-      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
-      $container.isotope();
-    }, 200 ) );
-
     // debounce so filtering doesn't happen every millisecond
     function debounce( fn, threshold ) {
       var timeout;
@@ -164,8 +168,6 @@
         timeout = setTimeout( delayed, threshold );
       };
     }
-
-
 
     // layout Isotope after each image loads
 $container.imagesLoaded().progress( function() {

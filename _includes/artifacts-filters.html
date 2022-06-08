@@ -1,7 +1,7 @@
 
 <div id="artifacts-search" class="row no-gutters">
 
-  <div class="col-12 d-flex align-items-end">
+  <div class="col-12">
     <input type="text" class="quicksearch artifacts" placeholder="Search (Titles/Authors)" />
 
   </div>
@@ -12,7 +12,7 @@
 
   <div class="col filter-group" data-group="types">
 
-    <h3 class="filter-title">Formats</h3>
+    <h3 class="filter-title"><span class="title-label">Filters ></span> Formats</h3>
 
     {% for format in site.formats %}
 
@@ -25,7 +25,7 @@
 
   <div class="col filter-group" data-group="disciplines">
 
-    <h3 class="filter-title">Disciplines</h3>
+    <h3 class="filter-title"><span class="title-label">Filters ></span> Disciplines</h3>
 
     {% for discipline in site.disciplines %}
 
@@ -36,27 +36,27 @@
 
   </div>
 
-  <div class="col filter-group" data-group="years">
-
-    <h3 class="filter-title">Years</h3>
-
-    {% for year in site.years %}
-
-      <input type="checkbox" value=".{{ year.name }}" class="btn-check filter" id="filter-{{ year.name }}" autocomplete="off">
-      <label class="btn a-filter-label" for="filter-{{ year.name }}">{{ year.name | remove_first: "y" }}</label>
-
-    {% endfor %}
-
-  </div>
-
   <div class="col filter-group" data-group="origins">
 
-    <h3 class="filter-title">Origins</h3>
+    <h3 class="filter-title"><span class="title-label">Filters ></span> Origins</h3>
 
     {% for origin in site.origins %}
 
     <input type="checkbox" value=".{{ origin.name }}" class="btn-check filter" id="filter-{{ origin.name }}" autocomplete="off">
     <label class="btn a-filter-label" for="filter-{{ origin.name }}">{{ origin.name | replace: "-", " " }}</label>
+
+    {% endfor %}
+
+  </div>
+
+  <div class="col filter-group" data-group="years">
+
+    <h3 class="filter-title"><span class="title-label">Filters ></span> Years</h3>
+
+    {% for year in site.years %}
+
+      <input type="checkbox" value=".{{ year.name }}" class="btn-check filter" id="filter-{{ year.name }}" autocomplete="off">
+      <label class="btn a-filter-label" for="filter-{{ year.name }}">{{ year.name | remove_first: "y" }}</label>
 
     {% endfor %}
 

@@ -257,8 +257,6 @@ section.faq {
 .container-header {
   padding-bottom: 0;
   color: black;
-  position: fixed;
-  top: 0;
   z-index: 1;
 }
 
@@ -272,6 +270,7 @@ section.faq {
 }
 
 .title-col {
+  position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -390,10 +389,9 @@ h1.site-title a:hover {
 
 */
 
-.artifacts-sub2-header-col,
 .sub-header-col {
-  height: 110px;
   position: relative;
+  height: 50px;
 }
 
 .sub-header {
@@ -471,7 +469,7 @@ h1.site-title a:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: $off-white;
-  line-height: 110px;
+  line-height: 50px;
 }
 
 
@@ -657,7 +655,6 @@ h3.ticker-title {
 }
 
 .container-fluid.about {
-  margin-top: 110px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-bottom: 0;
@@ -695,7 +692,6 @@ h3.ticker-title {
 .container-cat,
 .container-post-head {
   padding-top: 60px;
-  margin-top: 110px;
 }
 
 .container-artifact {
@@ -708,8 +704,7 @@ h3.ticker-title {
 }
 
 .container-browse {
-  margin-top: 110px;
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
   min-height: 90vh;
 }
@@ -891,7 +886,6 @@ h3.nav-link-title,
 h3.section-title {
   padding-bottom: 0;
   margin-bottom: 25px;
-  margin-left: -20px;
 }
 
 h3.filter-title {
@@ -916,21 +910,6 @@ h3.a-section-title {
 }
 
 /* >> Sun Titles */
-
-.title.sun::before,
-h3.section-title::before,
-h3.ticker-section.sun::before {
-  font-family: 'Mori Gothic';
-  font-weight: 900;
-  content: "☀";
-}
-
-h3.section-title::before {
-  font-size: 30px;
-  position: relative;
-  top: 4px;
-  right: 8px;
-}
 
 .title.faq.sun::before {
   font-size: 30px;
@@ -1054,9 +1033,12 @@ i.bi-images.a-module-corner-icon {
   padding: 15px;
   padding-top: 30px;
   padding-bottom: 15px;
-  background-color: black;
+  background-color: $artifact-color;
   border-top: none;
-  min-height: 180px;
+}
+
+#artifacts-search {
+  padding-top: 60px;
 }
 
 .a-filter-label, .a-filter {
@@ -1074,7 +1056,7 @@ i.bi-images.a-module-corner-icon {
 
   &:hover {
     background-color: $off-white;
-    color: black;
+    color: $artifact-color;
   }
 
 }
@@ -1084,8 +1066,8 @@ i.bi-images.a-module-corner-icon {
 }
 
 .btn-check.filter:checked + .a-filter-label {
-  background-color: $artifact-color;
-  color: black;
+  background-color: black;
+  color: $off-white;
   border-color: $artifact-color;
 }
 
@@ -1826,14 +1808,49 @@ a.fn-link:hover {
 
 /* Responsiveness and Breakpoints */
 
+
+/* sm */
+
 @media (min-width: 576px) {
+
+
+
+  .container-header {
+    position: fixed;
+    top: 0;
+  }
+
+  .sub-header-col {
+    display: block;
+    height: 50px;
+  }
+
+  .container-fluid.about, .container-browse, .container-cat {
+    margin-top: 260px;
+  }
+
   .ticker-move {
     animation: tickermovement linear 16s infinite;
   }
 
 }
 
+/* md */
+
 @media (min-width: 768px) {
+
+  .sub-header-col {
+    height: 90px;
+  }
+
+  .sub-header-link {
+    line-height: 90px;
+  }
+
+  .container-fluid.about, .container-browse, .container-cat {
+    margin-top: 200px;
+  }
+
   figure.post-img {
     text-align: right;
   }
@@ -1842,9 +1859,47 @@ a.fn-link:hover {
     animation: tickermovement linear 18s infinite;
   }
 
+  .title.sun::before,
+  h3.section-title::before,
+  h3.ticker-section.sun::before {
+    font-family: 'Mori Gothic';
+    font-weight: 900;
+    content: "☀";
+  }
+
+  h3.section-title::before {
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    right: 8px;
+  }
+
+  h3.nav-link-title,
+  h3.section-title {
+    margin-left: -20px;
+  }
+
 }
 
+/* lg */
+
 @media (min-width: 992px) {
+
+
+h1.site-title {
+  font-size: 22px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.sol-circle svg {
+    width: 60px;
+}
+
+.container-fluid.about, .container-browse, .container-cat {
+  margin-top: 90px;
+}
+
   figure.post-img.offset {
     position: relative;
     left: 50%;
@@ -1856,12 +1911,39 @@ a.fn-link:hover {
 
 }
 
+/* xl */
+
 @media (min-width: 1200px) {
+
+  .sub-header-col {
+    height: 110px;
+  }
+
+  .sub-header-link {
+    line-height: 110px;
+  }
+
+  h1.site-title {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+  }
+
+  .sol-circle svg {
+      width: 80px;
+  }
+
+  .container-fluid.about, .container-browse, .container-cat {
+    margin-top: 110px;
+  }
+
   .ticker-move {
     animation: tickermovement linear 22s infinite;
   }
 
 }
+
+/* xxl */
 
 @media (min-width: 1400px) {
   .ticker-move {
