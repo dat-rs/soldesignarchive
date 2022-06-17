@@ -77,24 +77,6 @@ title: sol
 
       </div>
 
-      <div class="col-12 col-formats-index">
-
-          <div class="section-index-container">
-
-              <h3 class="section-title">Formats</h3>
-              <br>
-
-              {% for format in site.formats %}
-
-              <h2 class="title allcat"><a class="browse-link index format" href="{{ format.url }}">{{ format.name }}</a></h2>
-
-              {% endfor %}
-
-          </div>
-
-
-      </div>
-
         <div class="col-12 col-md-6 col-authors-index">
 
             <div class="section-index-container">
@@ -128,6 +110,23 @@ title: sol
             </div>
 
         </div>
+
+        <div class="col-12 col-formats-index">
+
+            <div class="section-index-container">
+
+                <h3 class="section-title">Formats</h3>
+                <br>
+
+                {% for format in site.formats %}
+
+                <h2 class="title allcat"><a class="browse-link index format" href="{{ format.url }}">{{ format.name }}</a></h2>
+
+                {% endfor %}
+
+            </div>
+        </div>
+
 
         <div class="col-12 col-md-6 col-years-index">
 
@@ -184,3 +183,5 @@ title: sol
 </div>
 
 {% include latest-resources.html %}
+
+{% include footer.html %}

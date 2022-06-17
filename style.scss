@@ -121,7 +121,7 @@ $header-height-xl: 110px;
 body {
   font-family: trade-gothic-next, sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   background-color: $off-white;
@@ -210,6 +210,16 @@ p.about-sol {
   line-height: 1.5;
 }
 
+.artifact-deets-col {
+  margin-top: 30px;
+}
+
+.artifact-count {
+  margin-left: 2px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .cat-count {
   font-weight: 500;
   font-size: 12px;
@@ -239,7 +249,6 @@ ol.footnotes {
 
 .more-info-text {
   margin-top: 30px;
-  max-width: 70%;
 }
 
 section.faq {
@@ -263,6 +272,7 @@ section.faq {
   padding-bottom: 0;
   color: black;
   z-index: 1;
+  overflow: hidden;
 }
 
 .container-fluid.sub-header,
@@ -276,8 +286,8 @@ section.faq {
 
 .title-col {
   position: relative;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .header-logo {
@@ -292,8 +302,8 @@ h1.site-title {
   letter-spacing: normal;
   font-weight: 800;
   display: inline-block;
-  margin-left: 15px;
-  margin-bottom: 12px;
+  margin-left: 8px;
+  margin-bottom: 4px;
 }
 
 h1.site-title a {
@@ -310,7 +320,7 @@ h1.site-title a:hover {
 }
 
 .sol-circle svg {
-  width: 80px;
+  width: 40px;
   fill: $artifact-color;
   animation: color-to-color 15s ease-in-out infinite;
 
@@ -585,6 +595,7 @@ h3.ticker-title {
 .footer-text {
   color: #f2f2f2;
   padding-bottom: 9px;
+  margin-top: 30px;
 }
 
 .footer-link {
@@ -600,11 +611,15 @@ h3.ticker-title {
   border-bottom: 1px solid;
 }
 
+.footer-quote-row {
+  background-color: $artifact-color;
+}
+
 .footer-quote {
   font-family: clarendon-urw, serif;
   font-size: 22px;
   line-height: 1.4;
-  margin-top: 90px;
+  margin-top: 100px;
   margin-bottom: 90px;
   text-align: center;
 }
@@ -700,7 +715,6 @@ h3.ticker-title {
 
 .container-artifact {
   padding-top: 15px;
-  margin-top: 110px;
 }
 
 .container-post {
@@ -721,7 +735,6 @@ h3.ticker-title {
   background-color: black;
   color: #dedede;
   padding-top: 10px;
-  min-height: 500px;
 }
 
 /* Holders */
@@ -780,7 +793,7 @@ h2.title {
 }
 
 h2.title.self {
-  font-size: 3.2rem;
+  font-size: 34px;
   line-height: 1.2;
   letter-spacing: normal;
   padding-top: 0;
@@ -802,7 +815,7 @@ h2.title.allcat:hover {
 
 h2.title.allcat.tags {
   font-family: tgn-soft-round-comp, sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 1.4;
   margin-right: 20px;
   padding-top: 0;
@@ -1029,6 +1042,7 @@ i.bi-images.a-module-corner-icon {
   padding-top: 15px;
   background-color: black;
   min-height: 80vh;
+  padding-bottom: 120px;
 }
 
 /* Filters & Search */
@@ -1089,7 +1103,7 @@ input.quicksearch.cats {
 
 input.quicksearch.artifacts {
   font-family: trade-gothic-next-condensed;
-  font-size: 42px;
+  font-size: 24px;
   border-bottom: 1px solid $off-white;
 
   &::placeholder {
@@ -1113,6 +1127,11 @@ input.quicksearch.cats {
 
 input:focus {
     outline: none !important;
+}
+
+input[type="text"] {
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 .ghost-info {
@@ -1158,7 +1177,7 @@ input:focus {
 /* ARTIFACT PAGE */
 
 .row.about {
-  padding-top: 45px;
+  margin-top: 45px;
 }
 
 /* Artifact Image + Carousels */
@@ -1216,8 +1235,8 @@ input:focus {
 }
 
 .artifact-carousel-nav-cell {
-  width: 100px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 
 .artifact-carousel-nav-cell.is-nav-selected {
@@ -1247,14 +1266,16 @@ input:focus {
   fill: white;
 }
 
+.flickity-button-icon:hover {
+  fill: $artifact-color;
+}
+
 .flickity-prev-next-button {
   width: 50px;
   height: 50px;
 }
 
 .flickity-button:hover {
-  fill: $artifact-color;
-  opacity: 1;
   background: transparent;
 }
 
@@ -1521,7 +1542,7 @@ a.text-cat-link,
 a.text-reg-link {
   font-family: maple-web;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: -0.2px;
   text-decoration: none;
 }
@@ -1833,12 +1854,40 @@ a.fn-link:hover {
     line-height: 40px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
     margin-top: $header-height-sm;
   }
 
   .ticker-move {
     animation: tickermovement linear 16s infinite;
+  }
+
+  .more-info-text {
+    max-width: 70%;
+  }
+
+  .artifact-carousel-nav-cell {
+    width: 75px;
+    height: 75px;
+  }
+
+  /* typography */
+
+  body {
+    font-size: 18px;
+  }
+
+  input.quicksearch.artifacts {
+    font-size: 32px;
+  }
+
+  h2.title.self {
+    font-size: 36px;
+  }
+
+  a.text-cat-link,
+  a.text-reg-link {
+    font-size: 18px;
   }
 
 }
@@ -1859,7 +1908,7 @@ a.fn-link:hover {
     line-height: 90px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
     margin-top: $header-height-md;
   }
 
@@ -1891,6 +1940,25 @@ a.fn-link:hover {
     margin-left: -20px;
   }
 
+  .footer-text {
+    margin-top: 0px;
+  }
+
+  .artifact-carousel-nav-cell {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* typography */
+
+  input.quicksearch.artifacts {
+    font-size: 36px;
+  }
+
+  h2.title.self {
+    font-size: 40px;
+  }
+
 }
 
 /* lg */
@@ -1903,9 +1971,13 @@ a.fn-link:hover {
     margin-bottom: 8px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
   margin-top: $header-height-lg;
 }
+
+  .artifact-deets-col {
+    margin-top: var(--bs-gutter-y);
+  }
 
   figure.post-img.offset {
     position: relative;
@@ -1914,6 +1986,16 @@ a.fn-link:hover {
 
   .ticker-move {
     animation: tickermovement linear 20s infinite;
+  }
+
+  /* typography */
+
+  input.quicksearch.artifacts {
+    font-size: 42px;
+  }
+
+  h2.title.self {
+    font-size: 44px;
   }
 
 }
@@ -1940,12 +2022,22 @@ a.fn-link:hover {
       width: 80px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat, .container-artifacts {
+  .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
     margin-top: $header-height-xl;
   }
 
   .ticker-move {
     animation: tickermovement linear 22s infinite;
+  }
+
+  /* typography */
+
+  input.quicksearch.artifacts {
+    font-size: 42px;
+  }
+
+  h2.title.self {
+    font-size: 48px;
   }
 
 }
