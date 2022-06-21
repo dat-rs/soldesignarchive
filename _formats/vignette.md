@@ -1,0 +1,4 @@
+---
+name: vignette
+layout: format
+---
