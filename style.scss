@@ -19,6 +19,7 @@ $resource-color: #c47900;
 $blog-color: #ff7225;
 $off-white: #f7f1e9;
 $off-white-2: #FAF7E8;
+$header-color: #ebe4dd;
 $silver: #d9c5b6;
 $pale-silver: #ebd5c5;
 $gray: #ccc5c0;
@@ -221,7 +222,7 @@ p.about-sol {
 }
 
 .cat-count {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 12px;
   vertical-align: 120%;
   margin-left: -4px;
@@ -275,8 +276,7 @@ section.faq {
   overflow: hidden;
 }
 
-.container-fluid.sub-header,
-.container-header {
+.container-fluid.sub-header {
   background-color: $off-white;
 }
 
@@ -802,7 +802,7 @@ h2.title.self {
 
 h2.title.allcat {
   font-family: tgn-soft-round-comp, sans-serif;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 800;
   line-height: 1.3;
   margin-right: 15px;
@@ -1772,6 +1772,10 @@ a.fn-link:hover {
 
 /* Cat Section @ Index */
 
+#latest-grid {
+  --bs-gutter-x: 0.75rem;
+}
+
 .section-index-container {
   padding: 15px;
   margin: 15px;
@@ -1910,6 +1914,10 @@ a.fn-link:hover {
 
   .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
     margin-top: $header-height-md;
+  }
+
+  h2.title.allcat {
+    font-size: 36px;
   }
 
   figure.post-img {
