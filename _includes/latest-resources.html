@@ -10,51 +10,51 @@
 
         {% assign filtered_resources = site.resources | sort: 'date_added' | reverse | slice: 0, 12 %}
 
-            {% for resource in filtered_resources %}
+        {% for resource in filtered_resources %}
 
-            {% case resource.type %}
-              {% when 'article' %}
-                {% assign i_class = 'bi-file-earmark-text' %}
+        {% case resource.type %}
+          {% when 'article' %}
+            {% assign i_class = 'bi-file-earmark-text' %}
 
-              {% when 'at-archive' %}
-                {% assign i_class = 'bi bi-archive' %}
+          {% when 'at-archive' %}
+            {% assign i_class = 'bi bi-archive' %}
 
-              {% when 'pdf' %}
-                {% assign i_class = 'bi-file-earmark-pdf' %}
+          {% when 'pdf' %}
+            {% assign i_class = 'bi-file-earmark-pdf' %}
 
-              {% when 'video' %}
-                {% assign i_class = 'bi-file-earmark-play' %}
+          {% when 'video' %}
+            {% assign i_class = 'bi-file-earmark-play' %}
 
-              {% when 'image' %}
-                {% assign i_class = 'bi-file-earmark-image' %}
+          {% when 'image' %}
+            {% assign i_class = 'bi-file-earmark-image' %}
 
-              {% when 'download' %}
-                {% assign i_class = 'bi-file-earmark-download' %}
+          {% when 'download' %}
+            {% assign i_class = 'bi-file-earmark-download' %}
 
-              {% when 'book' %}
-                {% assign i_class = 'bi-book' %}
+          {% when 'book' %}
+            {% assign i_class = 'bi-book' %}
 
-              {% else %}
-                {% assign i_class = 'bi bi-file-earmark-text' %}
-            {% endcase %}
-            <div class="col-12">
-              <div class="resource-module">
+          {% else %}
+            {% assign i_class = 'bi bi-file-earmark-text' %}
+        {% endcase %}
 
-                <div class=" resource-icon">
-                  <i class="bi {{ i_class }}"></i>
-                </div>
+          <div class="resource-module">
 
-                <div class="resource-info">
-                  <a class="deet-link resource" href="{{ resource.out_url }}">
-                    <h2 class="title resource inmodule">{{ resource.name }}</h2><br>
-                  </a>
-                <span class="resource-description">{{ resource.content }} [{{ resource.lang }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</span>
-
-                </div>
-
-              </div>
+            <div class=" resource-icon">
+              <i class="bi {{ i_class }}"></i>
             </div>
-            {% endfor %}
+
+            <div class="resource-info">
+              <a class="deet-link resource" href="{{ resource.out_url }}">
+                <h2 class="title resource inmodule">{{ resource.name }}</h2><br>
+              </a>
+            <section class="resource-description">{{ resource.content | remove: '<p>' | remove: '</p>' }} [{{ resource.lang | remove: '<p>' | remove: '</p>' }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</section>
+
+            </div>
+
+          </div>
+
+        {% endfor %}
 
 
     </div>

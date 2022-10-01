@@ -1,5 +1,5 @@
 ---
-name: Júlio <Santos></Santos>
+name: Júlio Santos
 image_path:
 layout: author
 ---
