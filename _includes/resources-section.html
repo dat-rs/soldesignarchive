@@ -1,6 +1,6 @@
 <div class="col-12">
 
-    <h3 class="section-title">Resources</h3><br>
+    <h3 class="section-title">Resources <span class="artifact-count">({{ filtered_resources.size }})</span></h3><br>
 
     {% for resource in filtered_resources %}
 
@@ -10,6 +10,10 @@
 
       {% when 'at-archive' %}
         {% assign i_class = 'bi bi-archive' %}
+
+        {% when 'presentation' %}
+          {% assign i_class = 'bi bi-file-easel' %}
+
 
       {% when 'pdf' %}
         {% assign i_class = 'bi-file-earmark-pdf' %}
