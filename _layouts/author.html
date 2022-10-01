@@ -41,7 +41,7 @@ layout: default
         <div class="col-12">
 
           {% assign filtered_artifacts = site.artifacts | where: 'author_name', page.name %}
-          <h3 class="section-title">Artifacts</h3> <span class="artifact-count">({{ filtered_artifacts.size }})</span>
+          <h3 class="section-title">Artifacts <span class="artifact-count">({{ filtered_artifacts.size }})</span></h3>
 
         </div>
 
