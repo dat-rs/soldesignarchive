@@ -1,5 +1,5 @@
 ---
-name: Alda Rosa
+name: Helena Salgueiro
 image_path:
 layout: author
 ---
