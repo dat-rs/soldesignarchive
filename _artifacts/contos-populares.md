@@ -1,13 +1,13 @@
 ---
-title: 'Peças de Teatro Radiofónico'
-author_name: ['Marcelo de Morais']
+title: 'Contos Populares'
+author_name: ['Leonor de Bettencourt']
 year: y1955
 origin: Portugal
 publisher: 'Ministério da Educação Nacional'
 formats: [book, book-cover]
-disciplines: [graphic-design, typography, illustration]
+disciplines: [graphic-design, illustration]
 tags: ["Colecção Educativa", "Estado Novo"]
-ref: sol-030-0133
+ref: sol-030-0122
 layout: artifact
-date_added: 2022-07-04
+date_added: 2022-09-29
 ---
