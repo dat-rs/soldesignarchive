@@ -5,7 +5,7 @@ year: y1955
 origin: Portugal
 publisher: 'Ministério da Educação Nacional'
 formats: [book, book-cover]
-disciplines: [graphic-design, typography, illustration]
+disciplines: [graphic-design, lettering, illustration]
 tags: ["Colecção Educativa"]
 ref: sol-030-0120
 layout: artifact
