@@ -282,6 +282,7 @@ section.faq {
 
 .header-row {
   margin-right: -15px;
+  background-color: $header-color;
 }
 
 .title-col {
@@ -1858,7 +1859,7 @@ a.fn-link:hover {
     line-height: 40px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
+  .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
     margin-top: $header-height-sm;
   }
 
@@ -1912,7 +1913,7 @@ a.fn-link:hover {
     line-height: 90px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
+  .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
     margin-top: $header-height-md;
   }
 
@@ -1979,7 +1980,7 @@ a.fn-link:hover {
     margin-bottom: 8px;
   }
 
-  .container-fluid.about, .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
+  .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
   margin-top: $header-height-lg;
 }
 
