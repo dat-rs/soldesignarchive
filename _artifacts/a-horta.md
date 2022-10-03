@@ -1,6 +1,6 @@
 ---
 title: 'A Horta'
-author_name: ['António Carlos Garcia']
+author_name: ['António Garcia']
 year: y1955
 origin: Portugal
 publisher: 'Ministério da Educação Nacional'
