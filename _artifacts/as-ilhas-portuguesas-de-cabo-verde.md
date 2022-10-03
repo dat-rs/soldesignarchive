@@ -11,3 +11,4 @@ ref: sol-030-0136
 layout: artifact
 date_added: 2022-07-04
 ---
+Cover design by <a class="text-cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>.
