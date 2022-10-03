@@ -1,0 +1,14 @@
+---
+title: 'Vamos jogar Voleibol'
+author_name: ['Sena da Silva']
+year: y1957
+origin: Portugal
+publisher: 'Ministério da Educação Nacional'
+formats: [book, book-cover]
+disciplines: [graphic-design, illustration, typography]
+tags: ["Colecção Educativa"]
+ref: sol-030-0158
+layout: artifact
+wip: true
+date_added: 2022-10-02
+---

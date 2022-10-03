@@ -1,0 +1,13 @@
+---
+title: 'O Pomar'
+author_name: ['Fernandes Silva', 'Abílio Matos e Silva']
+year: y1958
+origin: Portugal
+publisher: 'Ministério da Educação Nacional'
+formats: [book, book-cover]
+disciplines: [graphic-design, illustration, typography]
+tags: ["Colecção Educativa"]
+ref: sol-030-0165
+layout: artifact
+date_added: 2022-10-02
+---
