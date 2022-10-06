@@ -6,7 +6,7 @@ image_path:
 layout: author
 resources: ['sebastiao-rodrigues-fishink-blog-post']
 ---
-Sebastião Rodrigues (1929-1997) was a Portuguese graphic designer.
+Sebastião Rodrigues (1929–1997) was a Portuguese graphic designer.
 
 He was born in 1929 in Dafundo, Lisbon, Portugal.
 

@@ -1,5 +1,5 @@
 ---
-name: Paulo-Guilherme
+name: João Maria Mattoso
 image_path:
 layout: author
 ---
