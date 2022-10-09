@@ -10,7 +10,7 @@ Sebastião Rodrigues (1929–1997) was a Portuguese graphic designer.
 
 He was born in 1929 in Dafundo, Lisbon, Portugal.
 
-From a very young age, and through his father, who worked at the newspaper A Voz, he started doing odd small jobs for the advertising department.
+From a very young age he started doing small odd jobs for the advertising department of newspaper *A Voz*, where his father worked.
 
 In 1940-41, he studied at the Escola Industrial Marquês de Pombal, where he had as teachers the painter <a class="text-cat-link author" href="/authors/Calvet de Magalhães/">Calvet de Magalhães</a> and the architect Frederico George. Financial difficulties would force him to abandon his studies.
 
