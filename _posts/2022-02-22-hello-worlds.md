@@ -40,12 +40,12 @@ I started collecting them. I did more research. I combed through catalogues for 
 
 As I started learning and practising design, I realised I should somehow publish my humble but growing collection. XIX-century Portuguese graphic design and illustration are virtually unknown, and I bet the internet would love to see these. I could maybe help fellow designers, researchers, and students.
 
+My first attempt was a Tumblr. Then I started an Instagram account. Then I decided I needed an entire WordPress-hosted site to house the archive, so I learned PHP and began designing and building the site. That megalomaniac enterprise eventually became overwhelming and got pushed to the side. After that, I gave it another go with Webflow databases, but it got too complex to muster up the energy to launch.
+
 <figure class="post-img offset">
 <img src="/images/blog_posts/hello-world-rs-design-archive-tumblr.gif">
 <figcaption> An early version of the archive hosted on Tumblr. </figcaption>
 </figure>
-
-My first attempt was a Tumblr. Then I started an Instagram account. Then I decided I needed an entire WordPress-hosted site to house the archive, so I learned PHP and began designing and building the site. That megalomaniac enterprise eventually became overwhelming and got pushed to the side. After that, I gave it another go with Webflow databases, but it got too complex to muster up the energy to launch.
 
 And then I remembered Jekyll. I’d learnt about it when I transferred <a href="https://dat-rs.com">my site</a> to GitHub pages. After some research, I realised I could build a site with the organisation I wanted (the ability to browse by author, year, type, etc.) while keeping it simple and free. I've been researching, building, and designing the site on and off for the last three years, scanning artifacts, and researching information about them. And here we are.
 
