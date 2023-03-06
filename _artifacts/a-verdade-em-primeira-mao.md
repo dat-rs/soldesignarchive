@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Arcádia'
 formats: [book-cover, book]
 disciplines: ['graphic-design', typography, illustration]
-tags: ['Joyce Cary', 'Os Livros das Três Abelhas']
+tags: ['Joyce Cary']
 iconography: [sun, faces]
 ref: sol-030-0087
 layout: artifact
