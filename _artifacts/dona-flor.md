@@ -1,0 +1,14 @@
+---
+title: 'Dona Flor e Seus Dois Maridos'
+author_name: 'Estúdios PEA'
+year: y1966
+origin: Portugal
+publisher: 'Publicações Europa-América'
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration, lettering]
+tags: [fiction, 'Jorge Amado']
+iconography: [women, men, rain]
+ref: sol-030-0035
+layout: artifact
+date_added: 2023-03-08
+---

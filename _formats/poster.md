@@ -1,0 +1,4 @@
+---
+name: poster
+layout: format
+---
