@@ -1,0 +1,4 @@
+---
+name: flyer
+layout: format
+---
