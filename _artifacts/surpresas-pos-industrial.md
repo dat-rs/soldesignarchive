@@ -1,6 +1,6 @@
 ---
 title: As Surpresas da Era Pós-Industrial
-author_name: 'Paulo-Guilherme'
+author_name: 'Luís Felipe da Conceição'
 year: y1971
 origin: Portugal
 publisher: 'Luís Felipe da Conceição'
