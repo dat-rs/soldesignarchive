@@ -1,5 +1,3 @@
----
----
 <!doctype html>
 
 <html lang="en">
@@ -7,10 +5,10 @@
 
   {% include common-head-stuff.html %}
 
-  <title>Year: {{ page.name | remove_first: "y" }}</title>
+  <title>{{ page.name | replace: "-", " " | capitalize }}</title>
 
   <meta name="description" content="Sol Design Archive is an online archive of design with a special focus on nineteenth-century Portuguese graphic design and illustration but a voracious appetite for the full breadth of visual expression. The online archive currently contains{{ site.artifacts.size }} artifacts by {{ site.authors.size }} authors. Collected, maintained and designed by Ricardo Santos out of love for these shapes and colors.">
-  <meta property="og:title" content="{{ page.name | remove_first: "y" }}" />
+  <meta property="og:title" content="{{ page.name }}" />
   <meta property="og:description" content="Sol Design Archive is an online archive of design with a special focus on nineteenth-century Portuguese graphic design and illustration but a voracious appetite for the full breadth of visual expression. The online archive currently contains{{ site.artifacts.size }} artifacts by {{ site.authors.size }} authors. Collected, maintained and designed by Ricardo Santos out of love for these shapes and colors." />
   <meta property="og:image" content="/images/non-art/sol-branding-comp-1.jpg" />
 
@@ -19,40 +17,3 @@
 <body>
 
     {% include header-proper.html %}
-
-
-<div class="container container-cat last-before-footer">
-    <div class="row">
-
-      <div class="col-12">
-
-          <h3 class="cat-label year">Year</h3>
-          <h2 class="title year self">{{ page.title }}</h2>
-
-
-      </div>
-    </div>
-
-    <div class="row section year-artifacts">
-
-        <div class="col-12">
-
-            {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
-            <h3 class="section-title">Artifacts <span class="artifact-count">({{ filtered_artifacts.size }})</span></h3>
-
-        </div>
-
-                  {% for artifact in filtered_artifacts %}
-
-                  <div class="col-12 col-md-6 col-lg-4">
-                  {% include a-module.html %}
-                  </div>
-
-                  {% endfor %}
-
-    </div>
-
-</div>
-
-
-{% include footer.html %}
