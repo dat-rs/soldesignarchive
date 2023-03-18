@@ -12,4 +12,4 @@ layout: artifact
 image_count: 2
 date_added: 2023-03-15
 ---
-Back cover features a painting by <a class="text-cat-link author" href="/authors/Maluda/">Maluda</a>.
+Back cover features a painting by <a class="text cat-link author" href="/authors/Maluda/">Maluda</a>.
