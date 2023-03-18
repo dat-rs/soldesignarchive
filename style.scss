@@ -244,6 +244,10 @@ ol.footnotes {
   color: white;
 }
 
+.caption-artifact-link {
+  color: $artifact-color;
+}
+
 .about-text {
   margin-bottom: 30px;
 }
@@ -1549,12 +1553,21 @@ a.deet-link.resource:hover {
 /* text-cat-links */
 
 a.text-cat-link,
-a.text-reg-link {
+a.text-reg-link,
+a.caption-cat-link {
   font-family: maple-web;
   font-weight: 500;
-  font-size: 16px;
   letter-spacing: -0.2px;
   text-decoration: none;
+}
+
+a.text-cat-link,
+a.text-reg-link {
+  font-size: 16px;
+}
+
+a.caption-cat-link {
+  font-size: 14px;
 }
 
 a.text-cat-link:hover,
@@ -1563,7 +1576,8 @@ a.text-reg-link:hover {
   border-bottom: 1px solid;
 }
 
-a.text-cat-link.artifact {
+a.text-cat-link.artifact,
+a.caption-cat-link.artifact {
   color: $artifact-color;
 }
 
@@ -1685,7 +1699,8 @@ figure.post-img {
 
 figure.post-img.artifact .artifact-holder {
   background-color: black;
-  width: 960px;
+  width: 100%;
+  max-width: 100%;
   text-align: center;
   padding: 10px;
 }
@@ -1868,7 +1883,7 @@ a.fn-link:hover {
     line-height: 40px;
   }
 
-  .container-browse, .container-cat, .container-artifacts, .container-first-after-header {
+  .container-browse, .container-cat, .container-page, .container-artifacts, .container-first-after-header {
     margin-top: $header-height-sm;
   }
 
