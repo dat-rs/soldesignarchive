@@ -228,7 +228,6 @@ p.about-sol {
   margin-left: -4px;
 }
 
-.caption,
 .footer-text,
 .post-meta,
 .post-text figcaption,
@@ -244,9 +243,6 @@ ol.footnotes {
   color: white;
 }
 
-.caption-artifact-link {
-  color: $artifact-color;
-}
 
 .about-text {
   margin-bottom: 30px;
@@ -897,6 +893,7 @@ h2.title.faq {
   font-weight: 500;
 }
 
+
 /* H3 & Section Titles */
 
 h3.nav-link-title,
@@ -934,6 +931,25 @@ h3.filter-title {
 
 h3.a-section-title {
   font-family: clarendon-urw, serif;
+}
+
+a.cta {
+  color: $off-white;
+  background-color: $artifact-color;
+  font-family: 'Mori Gothic';
+  font-weight: 300 ;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-top: 11px;
+  padding-bottom: 7px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 30px;
+}
+
+a.cta:hover {
+  color: $off-white;
+  background-color: black;
 }
 
 /* >> Sun Titles */
@@ -1184,7 +1200,7 @@ input[type="text"] {
   margin-left: -1px;
 }
 
-/* ARTIFACT PAGE */
+/* ARTIFACT instance PAGE */
 
 .row.about {
   margin-top: 45px;
@@ -1550,70 +1566,69 @@ a.deet-link.resource:hover {
   margin-top: 90px;
 }
 
-/* text-cat-links */
+/* text and caption cat-links */
 
-a.text-cat-link,
-a.text-reg-link,
-a.caption-cat-link {
+a.text.cat-link,
+a.text.reg-link,
+a.caption.cat-link {
   font-family: maple-web;
   font-weight: 500;
   letter-spacing: -0.2px;
   text-decoration: none;
 }
 
-a.text-cat-link,
-a.text-reg-link {
-  font-size: 16px;
+a.text.cat-link,
+a.text.reg-link {
+  font-size: 18px;
 }
 
-a.caption-cat-link {
-  font-size: 14px;
+a.caption.cat-link {
+  font-size: 15px;
 }
 
-a.text-cat-link:hover,
-a.text-reg-link:hover {
+a.cat-link:hover,
+a.reg-link:hover {
   text-decoration: none;
   border-bottom: 1px solid;
 }
 
-a.text-cat-link.artifact,
-a.caption-cat-link.artifact {
+a.cat-link.artifact {
   color: $artifact-color;
 }
 
-a.text-cat-link.author {
+a.cat-link.author {
   color: $author-color;
 }
 
-a.text-cat-link.origin {
+a.cat-link.origin {
   color: $origin-color;
 }
 
-a.text-cat-link.publisher {
+a.cat-link.publisher {
   color: $publisher-color;
 }
 
-a.text-cat-link.year {
+a.cat-link.year {
   color: $year-color;
 }
 
-a.text-cat-link.format {
+a.cat-link.format {
   color: $format-color;
 }
 
-a.text-cat-link.discipline {
+a.cat-link.discipline {
   color: $discipline-color;
 }
 
-a.text-cat-link.author {
+a.cat-link.author {
   color: $author-color;
 }
 
-a.text-cat-link.tag {
+a.cat-link.tag {
   color: $tag-color;
 }
 
-a.text-cat-link.resource {
+a.cat-link.resource {
   color: $resource-color;
 }
 
@@ -1914,8 +1929,8 @@ a.fn-link:hover {
     font-size: 36px;
   }
 
-  a.text-cat-link,
-  a.text-reg-link {
+  a.text cat-link,
+  a.text reg-link {
     font-size: 18px;
   }
 

@@ -11,4 +11,4 @@ ref: sol-030-0130
 layout: artifact
 date_added: 2022-09-29
 ---
-Cover by <a class="text-cat-link author" href="/publishers/Marcelo de Morais/">Marcelo de Morais</a>.
+Cover by <a class="text cat-link author" href="/publishers/Marcelo de Morais/">Marcelo de Morais</a>.

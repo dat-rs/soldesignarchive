@@ -12,4 +12,4 @@ image_count: 9
 layout: artifact
 date_added: 2023-03-13
 ---
-Anthology of Portuguese humourous texts. Design by <a class="text-cat-link author" href="/authors/Sena da Silva/">Sena da Silva</a>, cartoons by <a class="text-cat-link author" href="/authors/Carlos Ferreiro/">Carlos Ferreiro</a>, <a class="text-cat-link author" href="/authors/Eduardo Batarda/">Eduardo Batarda</a>, <a class="text-cat-link author" href="/authors/João Machado/">João Machado</a>, and <a class="text-cat-link author" href="/authors/José Rodrigues/">José Rodrigues</a>.
+Anthology of Portuguese humourous texts. Design by <a class="text cat-link author" href="/authors/Sena da Silva/">Sena da Silva</a>, cartoons by <a class="text cat-link author" href="/authors/Carlos Ferreiro/">Carlos Ferreiro</a>, <a class="text cat-link author" href="/authors/Eduardo Batarda/">Eduardo Batarda</a>, <a class="text cat-link author" href="/authors/João Machado/">João Machado</a>, and <a class="text cat-link author" href="/authors/José Rodrigues/">José Rodrigues</a>.

@@ -11,4 +11,4 @@ ref: sol-030-0037
 layout: artifact
 date_added: 2020-01-01
 ---
-Volume 1 of the complete works of José de Almada-Negreiros, featuring short stories and novellas. Cover set in <a class="text-cat-link publisher" href="/tags/Kabel/">Kabel</a>.
+Volume 1 of the complete works of José de Almada-Negreiros, featuring short stories and novellas. Cover set in <a class="text cat-link publisher" href="/tags/Kabel/">Kabel</a>.

@@ -12,4 +12,4 @@ layout: artifact
 wip: true
 date_added: 2022-10-02
 ---
-Cover by <a class="text-cat-link author" href="/authors/Marcelo de Morais/">Marcelo de Morais</a>.
+Cover by <a class="text cat-link author" href="/authors/Marcelo de Morais/">Marcelo de Morais</a>.
