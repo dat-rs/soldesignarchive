@@ -1,0 +1,4 @@
+---
+name: almanac
+layout: format
+---

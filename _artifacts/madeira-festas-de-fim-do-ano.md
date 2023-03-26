@@ -11,6 +11,6 @@ ref: sol-410-0002
 layout: artifact
 date_added: 2022-06-21
 ---
-Poster stamp, or vignette, reproducing a poster commissioned by <a class="text-cat-link publisher" href="/publishers/SPN-SNI-SEIT/">SNI</a> to promote the end of year festivities in <a class="text-cat-link tag" href="/tags/Madeira/">Madeira</a>.
+Poster stamp, or vignette, reproducing a poster commissioned by <a class="text cat-link publisher" href="/publishers/SPN-SNI-SEIT/">SNI</a> to promote the end of year festivities in <a class="text cat-link tag" href="/tags/Madeira/">Madeira</a>.
 
-These stamps were distributed with the March 1959 issue of <a class="text-cat-link tag" href="/tags/Panorama/">Panorama</a> magazine.
+These stamps were distributed with the March 1959 issue of <a class="text cat-link tag" href="/tags/Panorama/">Panorama</a> magazine.

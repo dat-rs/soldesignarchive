@@ -12,4 +12,4 @@ wip: true
 layout: artifact
 date_added: 2022-02-22
 ---
-<p>This is the fifteenth number of <a class="text-cat-link publisher" href="/tags/almanaque/">Almanaque</a>.</p>
+<p>This is the fifteenth number of <a class="text cat-link publisher" href="/tags/almanaque/">Almanaque</a>.</p>

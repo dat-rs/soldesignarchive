@@ -1,0 +1,4 @@
+---
+name: 'Larousse'
+layout: publisher
+---

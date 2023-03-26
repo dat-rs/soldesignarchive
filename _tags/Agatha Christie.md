@@ -1,5 +1,5 @@
 ---
 name: Agatha Christie
 layout: tag
-type: subject
+type: person
 ---

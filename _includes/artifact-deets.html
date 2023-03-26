@@ -2,7 +2,7 @@
 
       <span class="deet-label">Author{% if page.authors.size > 1 %}s{% endif %}</span>
       {% for author in page.author_name %}
-      <a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a><br>
+      {% if page.signature-id %}<span class="signed">signed «</span>{% endif %}<a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a>{% if page.signature-id %}<span class="signed">»</span>{% endif %}<br>
       {% endfor %}
 
       <span class="deet-label hanging">Year</span>

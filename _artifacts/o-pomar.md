@@ -11,4 +11,4 @@ ref: sol-030-0165
 layout: artifact
 date_added: 2022-10-02
 ---
-Cover by <a class="text-cat-link author" href="/authors/Fernandes Silva/">Fernandes Silva</a>.
+Cover by <a class="text cat-link author" href="/authors/Fernandes Silva/">Fernandes Silva</a>.
