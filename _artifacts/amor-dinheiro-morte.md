@@ -11,4 +11,4 @@ ref: sol-010-0003
 layout: artifact
 date_added: 2020-02-15
 ---
-The author of the book, <a class="text-cat-link tag" href="/tags/Olavo%20d’Eça%20Leal/">Olavo d’Eça Leal</a>, is in fact the father of <a class="text-cat-link author" href="/authors/Paulo-Guilherme/">Paulo-Guilherme</a> (d’Eça Leal), who designed the cover.
+The author of the book, <a class="text cat-link tag" href="/tags/Olavo%20d’Eça%20Leal/">Olavo d’Eça Leal</a>, is in fact the father of <a class="text cat-link author" href="/authors/Paulo-Guilherme/">Paulo-Guilherme</a> (d’Eça Leal), who designed the cover.

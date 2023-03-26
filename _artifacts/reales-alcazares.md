@@ -6,7 +6,7 @@ origin: Spain
 publisher: 'Reales Alcazares de Sevilla'
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
-tags: ['typographic ornaments', stamps]
+tags: ['typographic ornaments', stamps, Seville]
 ref: sol-511-0001
 layout: artifact
 image_count: 2

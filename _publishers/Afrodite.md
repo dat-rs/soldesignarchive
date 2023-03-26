@@ -1,0 +1,4 @@
+---
+name: 'Afrodite'
+layout: publisher
+---

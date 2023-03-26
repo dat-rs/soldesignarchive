@@ -13,4 +13,4 @@ image_count: 2
 layout: artifact
 date_added: 2022-07-04
 ---
-<p>This is the eleventh number of <a class="text-cat-link publisher" href="/tags/almanaque/">Almanaque</a>.</p>
+<p>This is the eleventh number of <a class="text cat-link publisher" href="/tags/almanaque/">Almanaque</a>.</p>

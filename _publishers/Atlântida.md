@@ -1,4 +1,0 @@
----
-name: 'Atlântida'
-layout: publisher
----

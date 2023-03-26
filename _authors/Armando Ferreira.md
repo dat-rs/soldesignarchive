@@ -1,0 +1,5 @@
+---
+name: Armando Ferreira
+image_path:
+layout: author
+---

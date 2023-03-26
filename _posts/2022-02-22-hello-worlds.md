@@ -31,7 +31,7 @@ I started collecting them. I did more research. I combed through catalogues for 
     </div>
 
     <figcaption>
-        sol-030-0024. The first <em>Os Livros das Três Abelhas</em> book I came across and bought. Cover by Victor Palla.
+        sol-030-0024 | <a class="caption cat-link artifact" href="/artifacts/o-navio-dentro-da-cidade">O Navio dentro da Cidade</a>. The first <em>Os Livros das Três Abelhas</em> book I came across and bought. Cover by Victor Palla.
     </figcaption>
 
 </figure>

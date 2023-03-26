@@ -1,0 +1,4 @@
+---
+name: ad
+layout: format
+---
