@@ -953,9 +953,10 @@ h3.nav-link-title a:hover {
 /* Resources */
 
 i.bi-images.a-module-corner-icon {
+  display: block;
   position: absolute;
-  bottom: 30px;
-  right: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
   color: $bg-white;
 }
 
