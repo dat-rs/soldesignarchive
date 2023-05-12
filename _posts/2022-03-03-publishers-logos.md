@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Portuguese Publishers Logos
-thumbnail_image_path: "/images/non-art/rsda-book-marks-2.jpg"
+thumbnail_image: "rsda-book-marks-2.jpg"
 author: Ricardo Santos
 lead: A visual review of mid-century Portuguese publishers, imprints and collections
   logos.

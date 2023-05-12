@@ -1,14 +1,33 @@
 <div class="container-fluid ticker">
   <div class="row ticker-wrapper">
     <div class="ticker-move">
+
       <div class="ticker-element">
-        <h3 class="ticker-section sun blog">Blog</h3>
+        <h3 class="ticker-section sun tags">A Random Tag</h3>
+
+      {% assign min = 1 %}
+      {% assign max = site.tags.size %}
+      {% assign diff = max | minus: min %}
+      {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+      {% assign ticker_random_tags = site.tags | slice: randomNumber %}
+      {% assign ticker_random_tags_2 = ticker_random_tags | slice: 0, 3 %}
+
+          {% for tag in ticker_random_tags_2 %}
+          <h3 class="ticker-title"><a href="{{ tag.url }}">{{ tag.name }}</a></h3>
+          {% endfor %}
+
+      </div>
+
+      <div class="ticker-element">
+        <h3 class="ticker-section sun blog">Latest Blog Post</h3>
         {% assign ticker_latest_posts = site.posts | slice: 0, 1 %}
 
           {% for post in ticker_latest_posts %}
           <h3 class="ticker-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
           {% endfor %}
       </div>
+
+
       <div class="ticker-element">
         <h3 class="ticker-section sun artifacts">Just in</h3>
         {% assign ticker_latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 3 %}
@@ -24,32 +43,22 @@
         {% assign ticker_latest_resources = site.resources | sort: 'date_added' | reverse | slice: 0, 3 %}
 
           {% for resource in ticker_latest_resources %}
-          <h3 class="ticker-title"><a href="{{ resource.out_url }}">{{ resource.name }}</a></h3>
+          <h3 class="ticker-title"><a href="{{ resource.out_url }}">{{ resource.name }}{{ resource.date_added }}</a></h3>
           {% endfor %}
 
       </div>
+
       <div class="ticker-element">
-        <h3 class="ticker-section sun tags">Random Tags</h3>
+        <h3 class="ticker-section sun tags">A Random Tag</h3>
 
-        {% assign ticker_random_tags = site.tags | sort: 'date_added' | reverse | slice: 0, 3 %}
-
-          {% for tag in ticker_random_tags %}
+          {% for tag in ticker_random_tags_2 %}
           <h3 class="ticker-title"><a href="{{ tag.url }}">{{ tag.name }}</a></h3>
           {% endfor %}
 
       </div>
 
       <div class="ticker-element">
-        <h3 class="ticker-section sun blog">Blog</h3>
-        {% assign ticker_latest_posts = site.posts | slice: 0, 1 %}
-
-          {% for post in ticker_latest_posts %}
-          <h3 class="ticker-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          {% endfor %}
-      </div>
-
-      <div class="ticker-element">
-        <h3 class="ticker-section sun blog">Blog</h3>
+        <h3 class="ticker-section sun blog">Latest Blog Post</h3>
         {% assign ticker_latest_posts = site.posts | slice: 0, 1 %}
 
           {% for post in ticker_latest_posts %}

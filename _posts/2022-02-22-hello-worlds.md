@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing the Sol Design Archive
-thumbnail_image_path: "/images/non-art/sol-branding-comp-1.jpg"
+thumbnail_image: "sol-branding-comp-1.jpg"
 author: Ricardo Santos
 lead: Reading got me into books. Books got me into design and illustration. A brief
   history of how this project came about.
@@ -30,9 +30,7 @@ I started collecting them. I did more research. I combed through catalogues for 
         <img src="/images/sol-030-0024-o-navio-dentro-da-cidade-thumbnail.jpg">
     </div>
 
-    <figcaption>
-        sol-030-0024 | <a class="caption cat-link artifact" href="/artifacts/o-navio-dentro-da-cidade">O Navio dentro da Cidade</a>. The first <em>Os Livros das Três Abelhas</em> book I came across and bought. Cover by Victor Palla.
-    </figcaption>
+    <figcaption>sol-030-0024 | <a class="caption cat-link artifact" href="/artifacts/o-navio-dentro-da-cidade">O Navio dentro da Cidade</a>. The first <em>Os Livros das Três Abelhas</em> book I came across and bought. Cover by <a class="caption cat-link author" href="/authors/Victor Palla/">Victor Palla</a>.</figcaption>
 
 </figure>
 
@@ -57,4 +55,4 @@ I hope this site can be a resource for anyone interested in design, history, or 
 
 Likewise, I'd love it if anyone with information about an artifact would share it so we can incorporate it into the site. All contributions will be credited and greatly appreciated.
 
-And that's it. Have fun!
+And that's it. Have fun! <img src="/images/non-art/sol-circle-square.svg" class="sol-text-signature">

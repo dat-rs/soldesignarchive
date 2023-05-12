@@ -2,7 +2,8 @@
 title: The Peculiar Manicule
 lead: A mouth-watering archive of 1960s and 1970s graphic design.
 author: Ricardo Santos
-thumbnail_image_path: "/images/peculiar-manicule.jpg"
+thumbnail_image: "peculiar-manicule.jpg"
+thumbnail_image_caption: "Screenshot of The Peculiar Manicule."
 layout: short
 feature_link: https://www.peculiarmanicule.com
 
@@ -11,4 +12,4 @@ The Peculiar Manicule is an archive of graphic design collected and maintained b
 
 The archive is divided into five categories: Books, Ephemera, Typography, Playthings, and Hallmark Psychedelia. Please go check it out now!
 
-Discovered via Daniel Benneworth-Gray's _Meanwhile_ newsletter.
+Discovered via Daniel Benneworth-Gray's _Meanwhile_ newsletter. <img src="/images/non-art/sol-circle-square.svg" class="sol-text-signature">

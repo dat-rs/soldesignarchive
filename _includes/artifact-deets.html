@@ -6,10 +6,7 @@
       {% endfor %}
 
       <span class="deet-label hanging">Year</span>
-      <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">
-        {% if page.circa %}<span class="deet-link year circa">c.</span>{% endif %}
-        {{ page.year | remove_first: "y" }}
-      </a>
+      <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">{% if page.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.year | remove_first: "y" }}</a>
       <br>
 
       <span class="deet-label hanging">Publisher{% if page.publisher.size > 1 %}s{% endif %}/Client{% if page.publisher.size > 1 %}s{% endif %}</span>
