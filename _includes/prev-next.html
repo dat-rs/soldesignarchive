@@ -1,4 +1,6 @@
-<div class="row section prev-next">
+<section class="container-fluid prev-next">
+    <div class="container">
+<div class="row">
 
     <div class="col-12">
 
@@ -15,6 +17,9 @@
             <a class="a-module prev-next" href="{{ prevurl | escape_once }}">
                 <h2 class="title artifact">{{ page.previous.title }}</h2>
                 <div class="a-module-img-holder">
+                  {% if page.next.image_count %}
+                    <i class="bi bi-images a-module-corner-icon"></i>
+                  {% endif %}
                     <img class="prev-next-img" src="/images/{{ page.previous.ref }}-{{ page.previous.slug }}-thumbnail.jpg" alt="{{ page.previous.title }}">
                 </div>
 
@@ -35,6 +40,9 @@
             <a class="a-module prev-next" href="{{ nexturl | escape_once }}">
                 <h2 class="title artifact">{{ page.next.title }}</h2>
                 <div class="a-module-img-holder">
+                  {% if page.next.image_count %}
+                    <i class="bi bi-images a-module-corner-icon"></i>
+                  {% endif %}
                     <img class="prev-next-img" src="/images/{{ page.next.ref }}-{{ page.next.slug }}-thumbnail.jpg" alt="{{ page.next.title }}">
                 </div>
             </a>
@@ -46,3 +54,5 @@
     {% endif %}
 
 </div>
+</div>
+</section>

@@ -3,7 +3,7 @@
 
 {% include header.html %}
 
-<div class="container container-first-after-header container-post-head">
+<div class="container first-after-header post-head">
 
   <div class="row section post-head">
 
@@ -38,13 +38,13 @@
   <div class="row">
     <div class="col-12">
 
-        <img class="grid-img" src="{{ page.thumbnail_image_path }}" alt="">
+        <img class="grid-img" src="/images/blog_posts/{{ page.thumbnail_image }}" alt="">
 
     </div>
   </div>
 </div>
 
-<div class="container container-post">
+<div class="container post">
   <div class="row section post-body">
     <div class="col-12 col-lg-8">
 
@@ -52,11 +52,66 @@
           {{ page.content }}
         </section>
 
+        {% include share-sheet.html %}
+
     </div>
 
   </div>
 
 
 </div>
+
+<section class="container-fluid prev-next">
+    <div class="container">
+<div class="row">
+
+    <div class="col-12">
+
+        <h3 class="section-title">More</h3>
+
+    </div>
+
+     {% if page.previous %}
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <a href="{{ page.previous.url | escape_once }}"><img class="card-img-top" src="/images/blog_posts/{{ page.previous.thumbnail_image }}" alt="{{ page.previous.title }}"></a>
+            <div class="card-body">
+              <span class="prev-next-label">Previous Post</span>
+              <h2 class="title blog preview"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
+              <p class="post-lead preview">{{ page.previous.lead }}</p>
+
+            </div>
+            <div class="card-footer">
+              <p class="post-meta preview">{{ page.previous.author }} | {{ page.previous.date | date_to_string }}</p>
+            </div>
+          </div>
+        </div>
+
+    {% endif %}
+
+    {% if page.next %}
+
+    <div class="col-12 col-md-4">
+      <div class="card">
+        <a href="{{ page.next.url | escape_once }}"><img class="card-img-top" src="/images/blog_posts/{{ page.next.thumbnail_image }}" alt="{{ page.previous.title }}"></a>
+        <div class="card-body">
+          <span class="prev-next-label">Next Post</span>
+          <h2 class="title blog preview"><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
+          <p class="post-lead preview">{{ page.next.lead }}</p>
+
+        </div>
+        <div class="card-footer">
+          <p class="post-meta preview">{{ page.next.author }} | {{ page.next.date | date_to_string }}</p>
+        </div>
+      </div>
+    </div>
+
+    {% endif %}
+
+</div>
+</div>
+</section>
+
 
 {% include footer.html %}
