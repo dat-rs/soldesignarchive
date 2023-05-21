@@ -44,14 +44,6 @@ $header-height-xl: 110px;
   src: local('Mori Gothic'), url("/fonts/MoriGothic-Normal.woff2") format('woff2');
 }
 
-@font-face {
-  font-family: 'Untitled Serif';
-  font-style: normal;
-  font-weight: 700;
-  src: local('UntitledSerif'), url("/fonts/trial/TestUntitledSerif-Bold.otf") format('opentype');
-}
-
-
 /* General */
 
 body {
@@ -106,7 +98,7 @@ a, a:hover {
 .about-text p,
 .post-text p,
 .text {
-  font-family: turnip, serif;
+  font-family: "turnip", serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1.5;
@@ -424,7 +416,7 @@ h1.site-title a:hover {
 
 .artifacts-nav-link,
 .sub-header-link {
-  font-family: maple-web;
+  font-family: maple-web, sans-serif;
   display: inline-block;
   font-size: 10px;
   font-weight: 600;
@@ -512,7 +504,7 @@ h1.site-title a:hover {
 }
 
 h3.ticker-section {
-  font-family: maple-web;
+  font-family: maple-web, sans-serif;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -562,7 +554,7 @@ h3.ticker-title {
 }
 
 .footer-quote {
-  font-family: clarendon-urw, serif;
+  font-family: maple-web, sans-serif;
   font-size: 22px;
   line-height: 1.4;
   margin-top: 100px;
@@ -664,8 +656,9 @@ h3.ticker-title {
   padding-top: 15px;
 }
 
-.container-artifact-image {
+.container-artifact-img {
   background-color: black;
+  text-align: center;
 }
 
 .container.post {
@@ -679,7 +672,6 @@ h3.ticker-title {
 }
 
 .container-footer {
-  margin-top: 240px;
   background-color: $off-1;
   color: black;
   padding-top: 10px;
@@ -871,13 +863,13 @@ h3.filter-title {
 }
 
 h3.a-section-title {
-  font-family: clarendon-urw, serif;
+  font-family: maple-web, sans-serif;
 }
 
 a.cta {
   color: $bg-white;
   background-color: $artifact-color;
-  font-family: maple-web, sans;
+  font-family: maple-web, sans-serif;
   font-weight: 700 ;
   font-size: 12px;
   letter-spacing: -0.2px;
@@ -952,12 +944,19 @@ h3.nav-link-title a:hover {
 
 /* Resources */
 
+.author-resources {
+  padding-bottom: 75px;
+}
+
 i.bi-images.a-module-corner-icon {
   display: block;
   position: absolute;
-  margin-top: 8px;
+  top: 0;
+  left: 0;
   margin-left: 10px;
+  margin-top: 10px;
   color: $bg-white;
+  z-index: 1000;
 }
 
 .resource-module {
@@ -1460,6 +1459,7 @@ a.deet-link.resource:hover {
 .a-module-img-holder {
 
   display: block;
+  position: relative;
   width: 100%;
   margin-bottom: 20px;
 
@@ -1511,8 +1511,7 @@ a.deet-link.resource:hover {
 .container-fluid.prev-next {
   margin-top: 90px;
   padding-top: 30px;
-  padding-bottom: 60px;
-  margin-bottom: -240px;
+  padding-bottom: 75px;
   background-color: $off-2;
 }
 
@@ -1606,7 +1605,7 @@ a.cat-link.resource {
 }
 
 .post-lead {
-  font-family: 'clarendon-urw', sans;
+  font-family: maple-web, sans-serif;
   color: gray;
   font-size: 22px;
   line-height: 1.3;
