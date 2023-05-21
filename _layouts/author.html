@@ -41,11 +41,12 @@
         <div class="col-12">
 
           {% assign filtered_artifacts = site.artifacts | where: 'author_name', page.name %}
-          <h3 class="section-title">Artifacts <span class="artifact-count">({{ filtered_artifacts.size }})</span></h3>
+          {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
+          <h3 class="section-title">Artifacts <span class="artifact-count">({{ sorted_filtered_artifacts.size }})</span></h3>
 
         </div>
 
-        {% for artifact in filtered_artifacts %}
+        {% for artifact in sorted_filtered_artifacts %}
 
         <div class="col-12 col-md-6 col-lg-4">
         {% include a-module.html %}
