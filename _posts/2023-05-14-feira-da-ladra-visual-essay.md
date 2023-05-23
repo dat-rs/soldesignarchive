@@ -9,131 +9,183 @@ excerpt_separator: "<!--more-->"
 ---
 
 <div class="col-12 col-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-stairs.jpg">
-</figure>
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-stairs.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-stairs.jpg">
+</a>
 </div>
 
 <div class="col-12">
 </div>
 
 <div class="col-12 col-md-8 offset-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-zona.jpg">
-</figure>
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-zona.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-zona.jpg">
+</a>
+
+
 </div>
 
 <div class="col-12 col-md-8 offset-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-clothes.jpg">
-</figure>
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-clothes.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-clothes.jpg">
+</a>
 </div>
 
 <div class="col-12 col-md-8">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-m3.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-m3.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-m3.jpg">
+</a>
+
 </div>
+
 
 <div class="col-12 col-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-window.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-window.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-window.jpg">
+</a>
+
 </div>
 
-<div class="col-12 col-md-6">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-eye.jpg">
-</figure>
-</div>
 
 <div class="col-12 col-md-6">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-ne.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-eye.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-eye.jpg">
+</a>
 </div>
+
+
+<div class="col-12 col-md-6">
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-ne.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-ne.jpg">
+</a>
+
+</div>
+
 
 <div class="col-12">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-camera.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-camera.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-camera.jpg">
+</a>
+
 </div>
 
-<div class="col-12 col-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-muro-2.jpg">
-</figure>
-</div>
 
 <div class="col-12 col-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-dolls.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-muro-2.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-muro-2.jpg">
+</a>
+
 </div>
 
+
 <div class="col-12 col-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-shadow.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-dolls.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-dolls.jpg">
+</a>
+
 </div>
+
+
+<div class="col-12 col-md-4">
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-shadow.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-shadow.jpg">
+</a>
+
+</div>
+
 
 <div class="col-12 col-md-8">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-bourrasque.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-bourrasque.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-bourrasque.jpg">
+</a>
+
 </div>
 
+
 <div class="col-12 col-md-8 offset-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-gun.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-gun.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-gun.jpg">
+</a>
+
 </div>
 
 
 <div class="col-12 col-md-6">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-sunglasses.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-sunglasses.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-sunglasses.jpg">
+</a>
+
 </div>
+
 
 <div class="col-12 col-md-6">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-books.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-books.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-books.jpg">
+</a>
+
 </div>
 
+
 <div class="col-12 col-md-8 offset-md-4">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-proibido.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-proibido.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-proibido.jpg">
+</a>
+
 </div>
+
 
 <div class="col-12">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-overview.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-overview.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-overview.jpg">
+</a>
+
 </div>
 
+
 <div class="col-12 col-md-6">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-flowers.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-flowers.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-flowers.jpg">
+</a>
+
 </div>
+
 
 <div class="col-12 col-md-5">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-downhill.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-downhill.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-downhill.jpg">
+</a>
+
 </div>
+
 
 <div class="col-12 col-md-6 offset-md-6">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-couple.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-couple.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-couple.jpg">
+</a>
+
 </div>
 
+
 <div class="col-12 col-md-8">
-<figure class="">
-<img src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-glasses.jpg">
-</figure>
+
+<a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-glasses.jpg" data-fancybox="post-gallery" >
+<img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-glasses.jpg">
+</a>
 </div>

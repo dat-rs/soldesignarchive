@@ -27,12 +27,12 @@
 
 
       {% if page.image_count %}
-        {% include artifact-flick.html %}
+        {% include artifact-multi.html %}
         {% else %}
         {% include artifact-single.html %}
       {% endif %}
 
-      <div class="container">
+      <div class="container artifact-main">
 
         <div class="row">
 
@@ -84,5 +84,9 @@
   </div>
 
   {% include prev-next.html %}
-
-  {% include footer-artifact.html %}
+  {% include footer-proper.html %}
+  {% if page.image_count %}
+    {% include footer-artifact-multi.html %}
+    {% else %}
+    {% include footer-artifact-single.html %}
+  {% endif %}
