@@ -1,0 +1,46 @@
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+
+
+// Artifact Image Carousel
+    const mainContainer = document.getElementById("artifactCarousel");
+    const mainOptions = {
+      infinite: true,
+      Thumbs: {
+        type: 'classic',
+      },
+    };
+
+
+const mainCarousel = new Carousel(mainContainer, mainOptions, { Thumbs });
+
+Fancybox.bind('[data-fancybox="artifact-gallery"]', {
+  // Your custom options
+  Toolbar: {
+    display: {
+      left: ["infobar"],
+      middle: [
+        "zoomIn",
+        "zoomOut",
+        "toggle1to1",
+        "rotateCCW",
+        "rotateCW",
+      ],
+      right: ["fullscreen", "thumbs", "close"],
+    },
+  },
+  Thumbs : {
+            type: "classic"
+          }
+});
+
+  </script>
+  </body>
+
+  </html>
