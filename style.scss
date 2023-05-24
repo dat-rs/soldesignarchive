@@ -119,7 +119,7 @@ a, a:hover {
 p.about-sol {
   font-family: tgn-soft-round, serif;
   font-weight: 800;
-  font-size: 26px;
+  font-size: 21px;
   line-height: 1.5;
   color: black;
 }
@@ -160,7 +160,7 @@ p.about-sol {
 
 .cat-count {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.6rem;
   vertical-align: 120%;
   margin-left: -4px;
 }
@@ -746,10 +746,10 @@ h2.title.self {
 
 h2.title.allcat {
   font-family: tgn-soft-round-con, sans-serif;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 800;
-  line-height: 1.3;
-  margin-right: 15px;
+  line-height: 1.2;
+  margin-right: 8px;
   padding-top: 0;
 }
 
@@ -757,16 +757,8 @@ h2.title.allcat:hover {
   border-bottom: none;
 }
 
-h2.title.allcat.tags {
-  font-family: tgn-soft-round-comp, sans-serif;
-  font-size: 36px;
-  line-height: 1.4;
-  margin-right: 20px;
-  padding-top: 0;
-}
-
 h2.title.allcat.resources {
-  max-width: 100%;
+  max-width: 96%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -786,12 +778,12 @@ h2.title.blog {
 }
 
 h2.title.blog.self {
-  font-size: 60px;
+  font-size: 32px;
   margin-bottom: 30px;
 }
 
 h2.title.blog.preview {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.3;
   display: inline-block;
   padding-top: 0;
@@ -988,7 +980,7 @@ i.bi-images.a-module-corner-icon {
   padding-left: 1px;
   padding-right: 1px;
   height: 100%;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
   text-decoration: none;
@@ -1750,14 +1742,15 @@ figure.post-img.artifact figcaption {
 /* Shorts */
 
 .short-feature-link {
-  font-family: tgn-soft-round, sans;
-  font-weight: 800;
+  font-family: turnip, serif;
+  font-weight: 200;
   font-size: 32px;
+  font-style: italic;
   display: inline-block;
   color: $resource-color;
   padding-top: 36px;
-  padding-bottom: 7px;
-  border-bottom: 3px solid;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
 }
 
 /* Latest Table */
@@ -1933,6 +1926,10 @@ a.fn-link:hover {
     font-size: 18px;
   }
 
+  h2.title.blog.self {
+    font-size: 36px;
+  }
+
   input.quicksearch.artifacts {
     font-size: 24px;
   }
@@ -1945,6 +1942,10 @@ a.fn-link:hover {
   a.text reg-link {
     font-size: 18px;
   }
+
+  p.about-sol {
+    font-size: 24px;
+}
 
 }
 
@@ -2011,12 +2012,20 @@ a.fn-link:hover {
 
   /* typography */
 
+  h2.title.blog.self {
+    font-size: 40px;
+  }
+
   input.quicksearch.artifacts {
     font-size: 24px;
   }
 
   h2.title.self {
     font-size: 40px;
+  }
+
+  h2.title.blog.preview {
+    font-size: 30px;
   }
 
 }
@@ -2062,8 +2071,16 @@ a.fn-link:hover {
     font-size: 24px;
   }
 
-  h2.title.self {
+  h2.title.self, h2.title.blog.self {
     font-size: 44px;
+  }
+
+  p.about-sol {
+    font-size: 26px;
+}
+
+  h2.title.blog.preview {
+    font-size: 32px;
   }
 
 }
@@ -2104,7 +2121,7 @@ a.fn-link:hover {
     font-size: 24px;
   }
 
-  h2.title.self {
+  h2.title.self, h2.title.blog.self {
     font-size: 48px;
   }
 
