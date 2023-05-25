@@ -93,11 +93,12 @@ a, a:hover {
 
 /* General Typography */
 
-.about-text blockquote,
+.hero-about-text blockquote,
 .post-text blockquote,
-.about-text p,
+.hero-about-text p,
 .post-text p,
-.text {
+.text,
+section.abouts {
   font-family: "turnip", serif;
   font-weight: 300;
   font-style: normal;
@@ -105,7 +106,7 @@ a, a:hover {
   font-size: 18px;
 }
 
-.about-text blockquote,
+.hero-about-text blockquote,
 .post-text blockquote, {
   font-size: 0.8em;
   margin-left: 45px;
@@ -182,7 +183,7 @@ ol.footnotes {
 }
 
 
-.about-text {
+.hero-about-text {
   margin-bottom: 30px;
 }
 
@@ -190,11 +191,10 @@ ol.footnotes {
   margin-top: 30px;
 }
 
-section.faq {
-  font-family: trade-gothic-next, sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
-  margin-top: 15px;
+section.about {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 45px;
 }
 
 /* Franklin Bug
@@ -225,7 +225,7 @@ section.faq {
 
 .title-col {
   position: relative;
-  padding-top: 8px;
+  padding-top: 15px;
   padding-bottom: 8px;
 }
 
@@ -333,19 +333,9 @@ h1.site-title a:hover {
   transition: 0.3s;
 }
 
-/* bleeding sub-header tabs
-
-.sub-header {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
-*/
-
 .sub-header-col {
   position: relative;
-  height: 50px;
+  height: 40px;
 }
 
 .sub-header {
@@ -423,7 +413,7 @@ h1.site-title a:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: $bg-white;
-  line-height: 50px;
+  line-height: 41px;
 }
 
 
@@ -665,7 +655,8 @@ h3.ticker-title {
   margin-bottom: 0;
 }
 
-.container.post {
+.container.post,
+.container.page {
   margin-bottom: 60px;
 }
 
@@ -818,9 +809,13 @@ h2.title-table {
   margin-right: 0;
 }
 
-h2.title.faq {
-  font-size: 24px;
-  font-weight: 500;
+h2.title.about {
+  font-family: turnip, serif;
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  margin-bottom: 15px;
 }
 
 
@@ -1903,7 +1898,7 @@ a.fn-link:hover {
     line-height: 40px;
   }
 
-  .container-browse, .container-cat, .container-page, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
+  .container-browse, .container-cat, .container.page, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
     margin-top: $header-height-sm;
   }
 
@@ -1924,6 +1919,10 @@ a.fn-link:hover {
 
   body {
     font-size: 18px;
+  }
+
+  .title-col {
+    padding-top: 8px;
   }
 
   h2.title.blog.self {
