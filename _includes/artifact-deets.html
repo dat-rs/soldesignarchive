@@ -1,39 +1,39 @@
 <section class="artifact-deets">
 
-      <span class="deet-label">Author{% if page.authors.size > 1 %}s{% endif %}</span>
+      <span class="deet-label author">Author{% if page.authors.size > 1 %}s{% endif %}</span>
       {% for author in page.author_name %}
       {% if page.signature-id %}<span class="signed">signed «</span>{% endif %}<a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a>{% if page.signature-id %}<span class="signed">»</span>{% endif %}<br>
       {% endfor %}
 
-      <span class="deet-label hanging">Year</span>
+      <span class="deet-label year hanging">Year</span>
       <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">{% if page.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.year | remove_first: "y" }}</a>
       <br>
 
-      <span class="deet-label hanging">Publisher{% if page.publisher.size > 1 %}s{% endif %}/Client{% if page.publisher.size > 1 %}s{% endif %}</span>
+      <span class="deet-label publisher hanging">Publisher{% if page.publisher.size > 1 %}s{% endif %}/Client{% if page.publisher.size > 1 %}s{% endif %}</span>
       {% for publisher in page.publisher %}
       <a class="deet-link publisher" href="/publishers/{{ publisher | escape_once }}">{{ publisher }}</a>
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Origin{% if page.origin.size > 1 %}s{% endif %}</span>
+      <span class="deet-label origin hanging">Origin{% if page.origin.size > 1 %}s{% endif %}</span>
       {% for origin in page.origin %}
       <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin | replace: "-", " " }}</a>
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Tags</span>
+      <span class="deet-label tag hanging">Tags</span>
       {% for tag in page.tags %}
       <a class="deet-link tag" href="/tags/{{ tag | escape_once }}">{{ tag }}</a>
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Format{% if page.formats.size > 1 %}s{% endif %}</span>
+      <span class="deet-label format hanging">Format{% if page.formats.size > 1 %}s{% endif %}</span>
       {% for format in page.formats %}
       <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
       {% endfor %}
       <br>
 
-      <span class="deet-label hanging">Discipline{% if page.disciplines.size > 1 %}s{% endif %}</span>
+      <span class="deet-label discipline hanging">Discipline{% if page.disciplines.size > 1 %}s{% endif %}</span>
       {% for discipline in page.disciplines %}
       <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
       {% endfor %}
@@ -41,8 +41,12 @@
 
       <span class="deet-label hanging">Reference</span>
       {{ page.ref }}
+    
   </section>
 
   {% if page.wip %}
   <p class=""><span class="badge wip-badge">Work in Progress</span></p>
   {% endif %}
+
+
+ 

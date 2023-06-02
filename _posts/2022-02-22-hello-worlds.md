@@ -16,9 +16,9 @@ I would squat for endless minutes under the blazing sun while rummaging through 
 
 <figure class="post-img offset"> <img src="/images/blog_posts/feira-da-ladra.jpg"> <figcaption> Feira da Ladra. August 2018. </figcaption> </figure>
 
-I became familiar with the book cover work of some of the most significant mid-century Portuguese designers and illustrators during these times. The work of Sebastião Rodrigues, Paulo-Guilherme, Victor Palla, João da Câmara Leme, António Garcia, Tóssan, Bernardo Marques, etc., would pop up every week. I started checking who designed the covers, associating them with specific publishers, imprints and collections, and looking up information online. At that time, I was interested in books and publishing.
+I became familiar with the book cover work of some of the most significant mid-century Portuguese designers and illustrators during these time. The work of Sebastião Rodrigues, Paulo-Guilherme, Victor Palla, João da Câmara Leme, António Garcia, Tóssan, Bernardo Marques, etc., would pop up every week. I started checking who designed the covers, associating them with specific publishers, imprints and collections, and looking up information online.
 
-I had always loved to read since I was a child. Not just books, magazines or newspapers: to this day, I can get lost in a pamphlet about plumbing or a dry, technical paper about something particular about which I know nothing. When I went to college, I started reading more and more and learning about literature and the history of the book and publishing.
+At that time, I had grown interested in books and publishing, but I had always loved to read since I was a child. Not just books, magazines or newspapers: to this day, I can get lost in a pamphlet about plumbing or a dry, technical paper about something particular about which I know nothing. When I went to college, I started reading more and more and learning about literature and the history of the book and publishing.
 
 I also began to fall in love with the visual side of books. Those covers were exciting, graphic, witty, and expressive. They were fun. It seemed impossible to me that there was a time, not so long ago, when book covers could be like that. The bland, mainstream, lowest common denominator advertising logic had taken over the contemporary Portuguese book cover landscape. Almost everything was photographic, generic, gloss-finished, and, honestly, poorly designed. (A few exceptions burned bright — _Tinta-da-China_ and _Antígona_ are two independent publishers who have militantly placed great care and emphasis on design). But these Ladra covers showed me the possibilities and richness of visual expression.
 
@@ -36,7 +36,7 @@ I started collecting them. I did more research. I combed through catalogues for 
 
 <h3>A drawn-out launch</h3>
 
-As I started learning and practising design, I realised I should somehow publish my humble but growing collection. XIX-century Portuguese graphic design and illustration are virtually unknown, and I bet the internet would love to see these. I could maybe help fellow designers, researchers, and students.
+As I started learning and practising design, I realised I should somehow publish my humble but growing collection. XX-century Portuguese graphic design and illustration are virtually unknown, and I bet the internet would love to see these. I could maybe help fellow designers, researchers, and students.
 
 My first attempt was a Tumblr. Then I started an Instagram account. Then I decided I needed an entire WordPress-hosted site to house the archive, so I learned PHP and began designing and building the site. That megalomaniac enterprise eventually became overwhelming and got pushed to the side. After that, I gave it another go with Webflow databases, but it got too complex to muster up the energy to launch.
 
