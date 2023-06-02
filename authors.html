@@ -22,7 +22,7 @@ title: "Authors"
 
             </div>
 
-            <div class="col-12" id="isotope-container">
+            <div class="col-12 authors" id="isotope-container">
 
                 {% for author in site.authors %}
                 {% assign filtered_artifacts = site.artifacts | where: 'author_name', author.name %}

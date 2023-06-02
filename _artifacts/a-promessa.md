@@ -11,4 +11,3 @@ ref: sol-010-0036
 layout: artifact
 date_added: 2022-05-17
 ---
-Portuguese edition of <cite>To Kill a Mockingbird</cite>.

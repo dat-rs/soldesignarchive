@@ -44,15 +44,42 @@ $header-height-xl: 110px;
   src: local('Mori Gothic'), url("/fonts/MoriGothic-Normal.woff2") format('woff2');
 }
 
+@font-face {
+  font-family: 'Mori Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Mori Gothic'), url("/fonts/MoriGothic-Normal.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Tiempos-Text-Regular";
+  src: url("/fonts/tiempos-text-regular.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Tiempos-Text-RegularItalic";
+  src: url("/fonts/tiempos-text-regular-italic.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Tiempos-Text-Semibold";
+  src: url("/fonts/tiempos-text-semibold.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "Tiempos-Text-SemiboldItalic";
+  src: url("/fonts/tiempos-text-semibold-italic.woff2") format("opentype");
+}
+
 /* General */
 
 body {
-  font-family: trade-gothic-next, sans-serif;
+  font-family: "Tiempos-Text-Regular", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  background-color: $bg-white;
+  background-color: #ffffff;
   color: black;
 }
 
@@ -60,35 +87,9 @@ img {
   max-width: 100%;
 }
 
-
-
 a, a:hover {
   text-decoration: none;
   color: black;
-}
-
-.wip-card {
-  background-color: $bg-white;
-  max-width: 70%;
-}
-
-.wip-badge {
-  font-family: 'Mori Gothic', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  background-color: black;
-  padding: 7px 6px 5px;
-  margin-top: 15px;
-  margin-left: -1px;
-}
-
-.wip-card .card-body {
-  padding: 10px;
-}
-
-.card-body p.para-text {
-  margin-bottom: 0;
-  max-width: 80%;
 }
 
 /* General Typography */
@@ -99,11 +100,32 @@ a, a:hover {
 .post-text p,
 .text,
 section.abouts {
-  font-family: "turnip", serif;
+  font-family: "Tiempos-Text-Regular", serif;
+  letter-spacing: normal;
+  font-style: normal;
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "onum";
+  font-variant-ligatures: common-ligatures;
+}
+
+.post-text a,
+a.text.cat-link,
+a.text.reg-link,
+a.caption.cat-link {
+  font-family: "Tiempos-Text-Semibold", serif;
+  text-decoration: none;
+}
+
+.body-type-test-source {
+  font-family: source-serif-4, serif;
+  letter-spacing: normal;
   font-weight: 300;
   font-style: normal;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 17px;
+  font-feature-settings: "onum";
 }
 
 .hero-about-text blockquote,
@@ -137,20 +159,16 @@ p.about-sol {
 .artifacts-table,
 .cat-label,
 .header-text,
-.para-text {
-  font-family: trade-gothic-next, sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+.para-text,
+.footer-link,
+.page-title-label, 
+.prev-next-label {
+  font-family: "indivisible-variable", sans-serif;
+  font-variation-settings: "wght" 450;
+  font-size: 13px;
   letter-spacing: normal;
   line-height: 1.5;
-}
-
-.para-text {
-  font-weight: 400;
-}
-
-.artifact-deets-col {
-  margin-top: 30px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .artifact-count {
@@ -166,29 +184,14 @@ p.about-sol {
   margin-left: -4px;
 }
 
-.footer-text,
 .post-meta,
 .post-text figcaption,
-.caption,
-.resource-description,
-ol.footnotes {
-  font-family: trade-gothic-next, sans-serif;
-  font-size: 13px;
+.caption {
+  font-family: "indivisible-variable", sans-serif;
+  font-variation-settings: "wght" 450;
+  font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
-}
-
-.caption.a-multi {
-  color: white;
-}
-
-
-.hero-about-text {
-  margin-bottom: 30px;
-}
-
-.more-info-text {
-  margin-top: 30px;
 }
 
 section.about {
@@ -197,13 +200,51 @@ section.about {
   margin-top: 45px;
 }
 
-/* Franklin Bug
+/* Random Stuff (arrumar) */
 
-.a-module h2.title {
-  padding-left: 2px;
+.wip-card {
+  background-color: $bg-white;
+  max-width: 70%;
 }
 
-*/
+.wip-badge {
+  font-family: 'Mori Gothic', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  background-color: black;
+  padding: 7px 6px 5px;
+  margin-top: 15px;
+  margin-left: -1px;
+}
+
+.wip-card .card-body {
+  padding: 10px;
+}
+
+.card-body p.para-text {
+  margin-bottom: 0;
+  max-width: 80%;
+}
+
+.caption.a-multi {
+  color: white;
+}
+
+
+.hero-about-text {
+  margin-bottom: 60px;
+}
+
+.more-info-text {
+  margin-top: 30px;
+}
+
+.artifact-deets-col {
+  margin-top: 30px;
+}
+
+
+
 
 /* Header */
 
@@ -406,7 +447,7 @@ h1.site-title a:hover {
 
 .artifacts-nav-link,
 .sub-header-link {
-  font-family: maple-web, sans-serif;
+  font-family: "maple-web", sans-serif;
   display: inline-block;
   font-size: 10px;
   font-weight: 600;
@@ -494,7 +535,7 @@ h1.site-title a:hover {
 }
 
 h3.ticker-section {
-  font-family: maple-web, sans-serif;
+  font-family: "maple-web", sans-serif;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -505,8 +546,7 @@ h3.ticker-section {
 }
 
 h3.ticker-title {
-  font-family: turnip, serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   font-style: italic;
   text-decoration: underline;
@@ -522,34 +562,46 @@ h3.ticker-title {
 }
 
 .footer-text {
+  font-size: 13px;
+  line-height: 1.5;
   padding-bottom: 9px;
   margin-top: 30px;
 }
 
+.post-text strong,
+.faq-text strong,
+.footer-text strong {
+  font-family: "Tiempos-Text-Semibold";
+  font-weight: normal;
+}
+
 .footer-link {
-  font-weight: 700;
-  font-size: 11px;
-  text-transform: uppercase;
+  font-variation-settings: "wght" 800;  
+  font-size: 13px;
 }
 
 .footer-link:hover {
   text-decoration: none;
   border-bottom: 1px solid;
-  padding-bottom: 1px;
 }
 
 .footer-quote-row {
+  text-align: center;
   color: $bg-white;
   background-color: black;
 }
 
 .footer-quote {
-  font-family: maple-web, sans-serif;
+  font-family: "Tiempos-Text-Semibold";
   font-size: 22px;
   line-height: 1.4;
   margin-top: 100px;
+}
+
+.footer-quote-byline {
+  font-family: "Tiempos-Text-Regular";
+  font-size: 16px;
   margin-bottom: 90px;
-  text-align: center;
 }
 
 .footer-logos {
@@ -722,13 +774,13 @@ h2.title {
   line-height: 1.2;
   padding-top: 12px;
   margin-right: 15px;
-  font-family: trade-gothic-next-compressed, sans-serif;
-  font-weight: 600;
+  font-family: tgn-soft-round-con;
+  font-weight: 800;
   letter-spacing: normal;
 }
 
 h2.title.self {
-  font-size: 34px;
+  font-size: 30px;
   line-height: 1.2;
   letter-spacing: normal;
   padding-top: 0;
@@ -755,10 +807,10 @@ h2.title.allcat.resources {
 }
 
 h2.title.resource.inmodule {
-  font-family: trade-gothic-next-condensed, sans-serif;
+  font-family: tgn-soft-round-con, sans-serif;
   display: inline-block;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 18px;
   margin-right: 0;
 }
 
@@ -810,10 +862,8 @@ h2.title-table {
 }
 
 h2.title.about {
-  font-family: turnip, serif;
-  font-size: 30px;
-  font-weight: 200;
-  font-style: italic;
+  font-family: "Tiempos-Text-Semibold", serif;
+  font-size: 16px;
   letter-spacing: -0.5px;
   margin-bottom: 15px;
 }
@@ -878,6 +928,10 @@ a.cta:hover {
 }
 
 /* >> Sun Titles */
+
+.title.deets.sun {
+  margin-top: -14px;
+}
 
 .title.faq.sun::before {
   font-size: 30px;
@@ -958,13 +1012,18 @@ i.bi-images.a-module-corner-icon {
 }
 
 .resource-icon {
-  font-size: 24px;
-  padding-top: 13px;
-  padding-right: 14px;
+  display: inline;
+  font-size: 15px;
+  padding-top: 14px;
 }
 
 .resource-info {
   max-width: 80%;
+}
+
+.resource-description {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 /* Browse Links */
@@ -1287,6 +1346,7 @@ img.artifact-img {
 .cat-label {
   color: black;
   margin-bottom: 0;
+  font-variation-settings: "wght" 800;
 }
 
 .cat-label.artifact {
@@ -1335,15 +1395,16 @@ img.artifact-img {
 
 .deet-label,
 .prev-next-label {
-  padding-top: 8.5px;
+  padding-top: 10px;
 }
 
 .deet-label:first-of-type {
   padding-top: 0;
 }
 
-.deet-label {
-  font-weight: 800;
+.deet-label, .para-text strong {
+  font-variation-settings: "wght" 800;
+  font-weight: normal;
 }
 
 .deet-label.hanging,
@@ -1351,8 +1412,8 @@ img.artifact-img {
 .post-meta.self,
 .share-sheet {
   position: relative;
-  padding-top: 9px;
-  margin-top: 10px;
+  padding-top: 10px;
+  margin-top: 8px;
 }
 
 .hanging::before,
@@ -1383,35 +1444,35 @@ img.artifact-img {
   margin-left: -5px;
 }
 
-.deet-link.author {
+.deet-label.author {
   color: $author-color;
 }
 
-.deet-link.origin {
+.deet-label.origin {
   color: $origin-color;
 }
 
-.deet-link.year {
+.deet-label.year {
   color: $year-color;
 }
 
-.deet-link.format {
+.deet-label.format {
   color: $format-color;
 }
 
-.deet-link.discipline {
+.deet-label.discipline {
   color: $discipline-color;
 }
 
-.deet-link.publisher {
+.deet-label.publisher {
   color: $publisher-color;
 }
 
-.deet-link.tag {
+.deet-label.tag {
   color: $tag-color;
 }
 
-.deet-link.resource {
+.deet-label.resource {
   color: $resource-color;
 }
 
@@ -1541,76 +1602,125 @@ a.deet-link.resource:hover {
 
 /* text and caption cat-links */
 
-.post-text a,
-a.text.cat-link,
-a.text.reg-link,
 a.caption.cat-link {
-  font-family: maple-web, sans;
-  font-weight: 500;
-  letter-spacing: -0.2px;
-  text-decoration: none;
+  font-size: 13px;
+  border-bottom: 0;
 }
 
-a.text.cat-link,
-a.text.reg-link {
-  font-size: 18px;
-}
-
-a.caption.cat-link {
-  font-size: 15px;
+a.caption.cat-link:hover {
+  font-size: 13px;
 }
 
 .post-text a,
-a.cat-link:hover,
 a.reg-link:hover {
   text-decoration: none;
   border-bottom: 1px solid;
 }
 
-a.cat-link.artifact {
+/* */
+
+a.cat-link.artifact::after {
   color: $artifact-color;
 }
 
-a.cat-link.author {
+
+a.cat-link.author::after   {
   color: $author-color;
 }
 
-a.cat-link.origin {
+a.cat-link.origin::after {
   color: $origin-color;
 }
 
-a.cat-link.publisher {
+a.cat-link.publisher::after {
   color: $publisher-color;
 }
 
-a.cat-link.year {
+a.cat-link.year::after {
   color: $year-color;
 }
 
-a.cat-link.format {
+a.cat-link.format::after {
   color: $format-color;
 }
 
-a.cat-link.discipline {
+a.cat-link.discipline::after {
   color: $discipline-color;
 }
 
-a.cat-link.author {
+a.cat-link.author::after {
   color: $author-color;
 }
 
-a.cat-link.tag {
+a.cat-link.tag::after {
   color: $tag-color;
 }
 
-a.cat-link.resource {
+a.cat-link.resource::after {
   color: $resource-color;
 }
 
+a.cat-link.artifact:hover {
+  color: $artifact-color;
+}
+
+a.cat-links:hover {
+  border-bottom: none;
+}
+
+a.cat-link.author:hover   {
+  color: $author-color;
+}
+
+a.cat-link.origin:hover {
+  color: $origin-color;
+}
+
+a.cat-link.publisher:hover {
+  color: $publisher-color;
+}
+
+a.cat-link.year:hover {
+  color: $year-color;
+}
+
+a.cat-link.format:hover {
+  color: $format-color;
+}
+
+a.cat-link.discipline:hover {
+  color: $discipline-color;
+}
+
+a.cat-link.author:hover {
+  color: $author-color;
+}
+
+a.cat-link.tag:hover {
+  color: $tag-color;
+}
+
+a.cat-link.resource:hover {
+  color: $resource-color;
+}
+
+
+
 /* Blog Posts */
 
-.card {
+.card.blog {
   margin-bottom: 30px;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.card-body.blog {
+  min-height: 150px;
+}
+
+.card-img-top.blog {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .read-post {
@@ -1676,8 +1786,9 @@ a.cat-link.resource {
   display: inline-block;
 }
 
-.card-footer.blog-post {
+.card-footer.blog {
   border-radius: 0;
+  border-top: 0px;
 }
 
 /* Blog Posts - Images */
@@ -1732,20 +1843,22 @@ figure.post-img.artifact img {
 figure.post-img.artifact figcaption {
   background-color: $bg-white;
   text-align: left;
+  padding: 8px;
 }
 
 /* Shorts */
 
 .short-feature-link {
-  font-family: turnip, serif;
-  font-weight: 200;
+  font-family: "Tiempos-Text-SemiboldItalic", serif;
   font-size: 32px;
-  font-style: italic;
   display: inline-block;
-  color: $resource-color;
-  padding-top: 36px;
+  padding-top: 1rem;
   padding-bottom: 2px;
-  border-bottom: 1px solid;
+ 
+}
+
+.short-feature-link:hover {
+  color: $resource-color;
 }
 
 /* Latest Table */
@@ -1761,7 +1874,9 @@ table.lastest-artifacts tbody {
 /* Footnotes */
 
 ol.footnotes {
-  margin-top: 30px;
+  font-size: 12px;
+  margin-top: 1rem;
+  padding-left: 0;;
 }
 
 a.fn-down {
@@ -1907,7 +2022,7 @@ a.fn-link:hover {
   }
 
   .more-info-text {
-    max-width: 70%;
+    max-width: 350px;
   }
 
   .artifact-carousel-nav-cell {
@@ -1934,7 +2049,7 @@ a.fn-link:hover {
   }
 
   h2.title.self {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   a.text cat-link,
@@ -1972,6 +2087,16 @@ a.fn-link:hover {
     font-size: 36px;
   }
 
+  .section-index-container.formats {
+    columns: 3;
+  }
+
+  .section-title.index.formats {
+    column-span: all;
+  }
+
+
+
   figure.post-img {
     text-align: right;
   }
@@ -1981,14 +2106,34 @@ a.fn-link:hover {
   }
 
   .title.sun::before,
-  h3.section-title::before,
-  h3.ticker-section.sun::before {
+  h3.section-title.sun::before,
+  h3.deets.title.sun::before,
+  h3.ticker-section.sun::before,
+  a.cat-link::after {
     font-family: 'Mori Gothic';
     font-weight: 700;
     content: "☀";
   }
 
-  h3.section-title::before {
+  a.cat-link::after {
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: text-bottom;
+    padding-left: 2px;
+    display: inline-block;
+    
+  }
+
+  a.caption.cat-link::after {
+    font-size: 15px;
+    line-height: 1;
+    vertical-align: text-bottom;
+    padding-left: 2px;
+    display: inline-block;
+    
+  }
+
+  h3.section-title.sun::before {
     font-size: 30px;
     position: relative;
     top: 4px;
@@ -1996,7 +2141,7 @@ a.fn-link:hover {
   }
 
   h3.nav-link-title,
-  h3.section-title {
+  h3.section-title.sun {
     margin-left: -20px;
   }
 
@@ -2020,7 +2165,7 @@ a.fn-link:hover {
   }
 
   h2.title.self {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   h2.title.blog.preview {
@@ -2071,7 +2216,7 @@ a.fn-link:hover {
   }
 
   h2.title.self, h2.title.blog.self {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   p.about-sol {
@@ -2121,7 +2266,7 @@ a.fn-link:hover {
   }
 
   h2.title.self, h2.title.blog.self {
-    font-size: 48px;
+    font-size: 40px;
   }
 
 }
