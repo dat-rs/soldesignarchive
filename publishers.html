@@ -6,7 +6,7 @@ title: "Publishers"
 
 <div class="publishers holder">
 
-    <div class="container container-browse">
+    <div class="container container-allcats">
     <div class="row">
 
         <div class="col-12">
@@ -17,7 +17,7 @@ title: "Publishers"
 
         <div class="col-12">
 
-          <p><input type="text" class="quicksearch cats" placeholder="Search" /></p>
+          <input type="text" class="quicksearch cats" placeholder="Search" />
 
         </div>
 
@@ -26,7 +26,7 @@ title: "Publishers"
         {% for publisher in site.publishers %}
         {% assign filtered_artifacts = site.artifacts | where: 'publisher', publisher.name %}
 
-            <h2 class="title allcat isotope-element">
+            <h2 class="title allcat page publishers isotope-element">
               <a class="browse-link publisher" href="{{ publisher.url }}">{{ publisher.name }}</a>
               <span class="cat-count">{{ filtered_artifacts.size }}</span>
             </h2>

@@ -6,7 +6,7 @@ title: "Formats"
 
 <div class="formats holder">
 
-    <div class="container container-browse">
+    <div class="container container-allcats">
     <div class="row">
 
         <div class="col-12">
@@ -20,7 +20,7 @@ title: "Formats"
         {% for format in site.formats %}
         {% assign filtered_artifacts = site.artifacts | where: 'formats', format.name %}
 
-            <h2 class="title allcat capitalize">
+            <h2 class="title allcat page formats capitalize">
               <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
               <span class="cat-count">{{ filtered_artifacts.size }}</span>
             </h2>

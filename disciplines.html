@@ -6,7 +6,7 @@ title: "Disciplines"
 
 <div class="disciplines holder">
 
-    <div class="container container-browse">
+    <div class="container container-allcats">
     <div class="row">
 
         <div class="col-12">
@@ -20,7 +20,7 @@ title: "Disciplines"
         {% for discipline in site.disciplines %}
         {% assign filtered_artifacts = site.artifacts | where: 'disciplines', discipline.name %}
 
-            <h2 class="title allcat capitalize">
+            <h2 class="title allcat page disciplines capitalize">
               <a class="browse-link discipline" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a>
               <span class="cat-count">{{ filtered_artifacts.size }}</span>
             </h2>

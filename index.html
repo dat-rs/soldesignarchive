@@ -78,15 +78,15 @@ title: "Sol Design Archive"
 
       </div>
 
-        <div class="col-12 col-md-6 col-authors-index">
+        <div class="col-12 col-lg-6 col-authors-index">
 
-            <div class="section-index-container">
+            <div class="section-index-container authors">
 
-                <h3 class="section-title">Authors</h3>
+                <h3 class="section-title index authors">Authors</h3>
 
                 {% for author in site.authors %}
 
-                <h2 class="title allcat"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
+                <h2 class="title allcat index authors"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
 
                 {% endfor %}
 
@@ -94,15 +94,15 @@ title: "Sol Design Archive"
 
         </div>
 
-        <div class="col-12 col-md-6 col-publishers-index">
+        <div class="col-12 col-lg-6 col-publishers-index">
 
-            <div class="section-index-container">
+            <div class="section-index-container publishers">
 
-                <h3 class="section-title">Publishers/Clients</h3>
+                <h3 class="section-title index publishers">Publishers/Clients</h3>
 
                 {% for publisher in site.publishers %}
 
-                <h2 class="title allcat"><a class="browse-link index" href="{{ publisher.url }}">{{ publisher.name }}</a></h2>
+                <h2 class="title allcat index publishers"><a class="browse-link index" href="{{ publisher.url }}">{{ publisher.name }}</a></h2>
 
                 {% endfor %}
 
@@ -152,7 +152,7 @@ title: "Sol Design Archive"
 
                 {% for origin in site.origins %}
 
-                <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a></h2>
 
                 {% endfor %}
 
@@ -162,13 +162,13 @@ title: "Sol Design Archive"
 
         <div class="col-12 col-tags-index">
 
-            <div class="section-index-container">
+            <div class="section-index-container tags">
 
-                <h3 class="section-title">Tags</h3>
+                <h3 class="section-title index tags">Tags</h3>
 
                 {% for tag in site.tags %}
 
-                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.name }}</a></h2>
+                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.name | replace: "-", " " }}</a></h2>
 
                 {% endfor %}
 
