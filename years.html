@@ -6,7 +6,7 @@ title: "Years"
 
 <div class="years holder">
 
-    <div class="container container-browse">
+    <div class="container container-allcats">
     <div class="row">
 
         <div class="col-12">
@@ -20,7 +20,7 @@ title: "Years"
         {% for year in site.years %}
         {% assign filtered_artifacts = site.artifacts | where: 'year', year.name %}
 
-            <h2 class="title allcat">
+            <h2 class="title allcat page years">
               <a class="browse-link year" href="{{ year.url }}">{{ year.title }}</a>
               <span class="cat-count">{{ filtered_artifacts.size }}</span>
             </h2>
