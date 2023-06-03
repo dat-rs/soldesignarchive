@@ -1,5 +1,5 @@
 ---
-title: Women in Graphic Design/Portugal
+title: Women in Graphic Design/PT
 lead: "A website bringing visibility to the historically neglected work of Portuguese women designers."
 author: Ricardo Santos
 thumbnail_image: "wgd-pt.jpg"

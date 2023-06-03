@@ -12,16 +12,18 @@
 
             <div class="col-12 col-lg-4">
               <div class="card-deck">
-              <div class="card">
-                <a href="{{ post.url }}"><img class="card-img-top" src="/images/blog_posts/{{ short.thumbnail_image }}" alt="{{ short.title }}"></a>
-                <div class="card-body">
-                  <h2 class="title blog preview"><a class="stretched-link" href="{{ short.url }}">{{ short.title }}</a></h2>
+              <div class="card blog">
+                <a class="card-link blog" href="{{ post.url }}">
+                <img class="card-img-top" src="/images/blog_posts/{{ short.thumbnail_image }}" alt="{{ short.title }}">
+                <div class="card-body blog">
+                  <h2 class="title short preview">{{ short.title }}</h2>
                   <p class="post-lead preview">{{ short.lead }}</p>
 
                 </div>
-                <div class="card-footer">
+                <div class="card-footer blog">
                   <p class="post-meta preview">{{ short.author }} | {{ short.date | date_to_string }}</p>
                 </div>
+              </a>
             </div>
             </div>
           </div>
