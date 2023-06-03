@@ -118,7 +118,9 @@ title: "Sol Design Archive"
 
                 {% for format in site.formats %}
 
-                <h2 class="title allcat"><a class="browse-link index format" href="{{ format.url }}">{{ format.name }}</a></h2>
+                <h2 class="title allcat capitalize">
+                    <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
+                </h2>
 
                 {% endfor %}
 
