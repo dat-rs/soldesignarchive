@@ -15,5 +15,6 @@ From WGD/PT’s about page:
 <blockquote>
 
 «The invisibility of women in Design History is a clear reality due to the lack of studies on this theme. <br><br>
-Despite the efforts of many historians of Graphic Design, as well as much of the existing literature, the issue of the recognition of women in design and their own professionalization remains a matter of concern, causing a lack of consensus on the practice of the discipline, both in the academic community and the general public. The field of Graphic Design continues to struggle with issues of recognition, professionalization and inclusion of women in the discipline, as well as the lack of literature where women are protagonists in its History.»  The site is available both in Portuguese and English.
+Despite the efforts of many historians of Graphic Design, as well as much of the existing literature, the issue of the recognition of women in design and their own professionalization remains a matter of concern, causing a lack of consensus on the practice of the discipline, both in the academic community and the general public. The field of Graphic Design continues to struggle with issues of recognition, professionalization and inclusion of women in the discipline, as well as the lack of literature where women are protagonists in its History.»
 </blockquote>
+The site is available in both Portuguese and English.
