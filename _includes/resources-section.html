@@ -1,6 +1,6 @@
 <div class="col-12">
 
-    <h3 class="section-title">Resources <span class="artifact-count">({{ filtered_resources.size }})</span></h3><br>
+    <h3 class="section-title">Resources <span class="artifact-count">({{ filtered_resources.size }})</span></h3>
 
     {% for resource in filtered_resources %}
 
@@ -35,19 +35,16 @@
     {% endcase %}
 
       <div class="resource-module">
-
-        <div class=" resource-icon">
-          <i class="bi {{ i_class }}"></i>
-        </div>
-
         <div class="resource-info">
           <a class="deet-link resource" href="{{ resource.out_url }}">
-            <h2 class="title resource inmodule">{{ resource.name }}</h2><br>
+            <h2 class="title resource inmodule">{{ resource.name }}</h2>
           </a>
-        <span class="resource-description">{{ resource }} [{{ resource.lang }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</span>
-
+          <div class="resource-icon">
+            <i class="bi {{ i_class }}"></i>
+          </div>
+          <br>
+          <section class="resource-description">{{ resource.content | remove: '<p>' | remove: '</p>' }} [{{ resource.lang | remove: '<p>' | remove: '</p>' }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</section>
         </div>
-
       </div>
 
     {% endfor %}
