@@ -231,11 +231,6 @@ section.about {
   color: white;
 }
 
-
-.hero-about-text {
-  margin-bottom: 60px;
-}
-
 .more-info-text {
   margin-top: 30px;
 }
@@ -243,9 +238,6 @@ section.about {
 .artifact-deets-col {
   margin-top: 30px;
 }
-
-
-
 
 /* Header */
 
@@ -735,6 +727,10 @@ p.about-sol strong {
 .container.post-head,
 .container.blog {
   padding-top: 30px;
+}
+
+.container-cat {
+  padding-bottom: 30px;
 }
 
 .container-artifact,
@@ -1274,13 +1270,13 @@ input[type="text"] {
 img.artifact-img {
   max-width: 100%;
   max-height: 100vh;
-  padding: 8%;
+  padding: 4%;
 }
 
 .artifact-img-flick {
   max-width: 100%;
   max-height: 70vh;
-  padding: 6%;
+  padding: 4%;
 }
 
 .caption-flick-shell {
@@ -1392,9 +1388,6 @@ img.artifact-img {
   -webkit-transition: all 1s ease;
 }
 
-.artifact-img.rotated {
-  -webkit-transform: rotate(90deg);
-}
 
 /* cat-labels */
 
@@ -1487,8 +1480,26 @@ img.artifact-img {
 /* deet-links */
 
 .deet-link {
-  margin-right: 5px;
+  margin-right: 2px;
   text-decoration: none;
+}
+
+.deet-link::after {
+  content: ", "
+}
+
+.deet-link:hover::after {
+  border-bottom: 1px solid white;
+}
+
+.deet-link:last-of-type::after,
+.timeline-text .deet-link::after {
+  content: none;
+}
+
+.timeline-text .deet-link {
+  font-variation-settings: "wght" 550;
+  margin-right: 0px;
 }
 
 .circa {
@@ -1647,11 +1658,11 @@ a.deet-link.resource:hover {
 /* Rows & Sections */
 
 .row.section {
-  margin-top: 45px;
+  margin-top: 90px;
 }
 
-.row.first {
-  margin-top: 60px;
+.row.section.first {
+  margin-top: 45px;
 }
 
 .container-fluid.prev-next {
