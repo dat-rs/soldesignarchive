@@ -1,7 +1,7 @@
 ---
 title: Museos de Madrid
 author_name: ['J. Ruiz Navarro', 'Francisco Espinosa']
-year: unknown
+year: "unknown date"
 origin: "Spain"
 publisher: 'Dirección General de Turismo'
 formats: [brochure, map]

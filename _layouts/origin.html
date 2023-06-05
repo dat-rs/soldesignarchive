@@ -9,8 +9,10 @@
 
       <div class="col-12">
         {% assign filtered_artifacts = site.artifacts | where: 'origin', page.name %}
+        {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
         <h3 class="cat-label origin">Origin</h3>
-        <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}<span class="artifact-count">({{ filtered_artifacts.size }})</h2>
+        <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
+        <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts tagged origin: {{ page.name }}.</div>
 
       </div> 
 
@@ -24,10 +26,10 @@
 
     <div class="row artifacts-section">
 
-                  {% for artifact in filtered_artifacts %}
+                  {% for artifact in sorted_filtered_artifacts %}
 
                   <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                  {% include a-module-y.html %}
+                  {% include a-module-au-y.html %}
                   </div>
 
                   {% endfor %}

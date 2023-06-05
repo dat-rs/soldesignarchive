@@ -1,7 +1,7 @@
 ---
 title: Semantics
 author_name: Diagram
-year: unknown
+year: "unknown date"
 origin: United-Kingdom
 publisher: 'Penguin Books'
 formats: [book-cover, book]

@@ -155,6 +155,7 @@ p.about-sol {
 .artifact-count,
 .cat-count,
 .artifact-deets,
+.artifact-count-deet,
 .timeline,
 .artifacts-table,
 .cat-label,
@@ -177,6 +178,12 @@ h3.filter-title,
   margin-left: 2px;
   font-size: 12px;
   font-weight: 400;
+}
+
+
+
+h2 .artifact-count {
+  vertical-align: 120%;
 }
 
 .cat-count {
@@ -735,6 +742,10 @@ p.about-sol strong {
   padding-bottom: 45px;
 }
 
+.container-cat {
+  margin-bottom: 45px;
+}
+
 .container-fluid.cat-artifacts, 
 .container-fluid.cat-artifacts-title {
   background-color: $off-1;
@@ -746,7 +757,6 @@ p.about-sol strong {
 
 .container-fluid.cat-artifacts-title {
   padding-top: 45px;
-
   
 }
 
@@ -1133,6 +1143,10 @@ i.bi-images.a-module-corner-icon {
 .browse-link.tag,
 .browse-link.type {
   text-transform: capitalize;
+}
+
+.browse-link.year {
+  text-transform: lowercase;
 }
 
 /* ARTIFACTS */
@@ -1621,7 +1635,7 @@ a.deet-link.resource:hover {
 
 .a-module {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .row.prev-next {
@@ -1641,6 +1655,11 @@ a.deet-link.resource:hover {
 .a-module-content {
   padding-bottom: 4px;
   border-bottom: 1px solid gray;
+}
+
+.artifact-count-deet {
+  margin-top: 1rem;
+  margin-bottom: 15px;
 }
 
 .a-module-deets {

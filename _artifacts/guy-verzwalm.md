@@ -1,7 +1,7 @@
 ---
 title: 'Guy Verzwalm'
 author_name: 'unknown author'
-year: 'unknown'
+year: 'unknown date'
 origin: Belgium
 publisher: 'Guy Verzwalm'
 formats: ['photo-album']

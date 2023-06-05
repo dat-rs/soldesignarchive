@@ -25,33 +25,25 @@
     <div class="row">
 
       <div class="col-12">
-
-          <h3 class="cat-label year">Year</h3>
-          <h2 class="title year self">{{ page.title }}</h2>
-
-
+        {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
+        <h3 class="cat-label year">Year</h3>
+        <h2 class="title discipline self capitalize">{{ page.name | remove_first: 'y' }}</h2>
+        <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts tagged year: {{ page.name | remove_first: 'y' }}.</div>
       </div>
     </div>
 
-    <div class="row section year-artifacts">
+</div>
 
-        <div class="col-12">
+<div class="container-fluid">
+    <div class="row artifacts-section">
+      {% for artifact in filtered_artifacts %}
 
-            {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
-            <h3 class="section-title">Artifacts <span class="artifact-count">({{ filtered_artifacts.size }})</span></h3>
+      <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+      {% include a-module-au.html %}
+      </div>
 
-        </div>
-
-                  {% for artifact in filtered_artifacts %}
-
-                  <div class="col-12 col-md-6 col-lg-4">
-                  {% include a-module.html %}
-                  </div>
-
-                  {% endfor %}
-
+      {% endfor %}
     </div>
-
 </div>
 
 

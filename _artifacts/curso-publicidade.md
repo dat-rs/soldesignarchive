@@ -1,7 +1,7 @@
 ---
 title: 'Curso de Desenho e Pintura #27'
 author_name: ['unknown author']
-year: unknown
+year: "unknown date"
 origin: Portugal
 publisher: 'Centro de Ensino por Correspondência Álvaro Torrão'
 formats: [book, book-cover]

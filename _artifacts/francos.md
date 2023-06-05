@@ -1,7 +1,7 @@
 ---
 title: "325.000 Francos"
 author_name: ['Yzquierdo']
-year: unknown
+year: "unknown date"
 origin: Portugal
 publisher: 'Círculo de Leitores'
 formats: [book, book-cover]

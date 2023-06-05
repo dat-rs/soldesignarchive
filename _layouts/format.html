@@ -10,35 +10,29 @@
       <div class="col-12">
 
           {% assign filtered_artifacts = site.artifacts | where: 'formats', page.name %}
-          <h3 class="cat-label type">Format</h3>
-          <h2 class="title format self capitalize">{{ page.name | replace: "-", " " }}</h2>
-
-
+          {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
+          <h3 class="cat-label format">Format</h3>
+          <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
+          <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts tagged format: {{ page.name }}.</div>
       </div>
-
     </div>
+</div>
 
-    <div class="row section format-artifacts">
+<div class="container-fluid">
 
-        <div class="col-12">
+    <div class="row artifacts-section">
 
-            <h3 class="section-title">Artifacts <span class="artifact-count">({{ filtered_artifacts.size }})</span></h3>
+                  {% for artifact in sorted_filtered_artifacts %}
 
-        </div>
-
-                  {% for artifact in filtered_artifacts %}
-
-                  <div class="col-12 col-md-6 col-lg-4">
-                  {% include a-module.html %}
+                  <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                  {% include a-module-au-y.html %}
                   </div>
 
                   {% endfor %}
 
     </div>
 
-
-    </div>
-
 </div>
+
 
 {% include footer.html %}

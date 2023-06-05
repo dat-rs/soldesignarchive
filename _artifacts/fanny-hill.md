@@ -1,7 +1,7 @@
 ---
 title: 'Fanny Hill'
 author_name: 'unknown author'
-year: unknown
+year: "unknown date"
 origin: Portugal
 publisher: 'Arcádia'
 formats: [book-cover, book]

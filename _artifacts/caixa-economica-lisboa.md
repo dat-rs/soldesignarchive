@@ -1,7 +1,7 @@
 ---
 title: 'Caixa Económica de Lisboa 3837-0'
 author_name: 'unknown author'
-year: 'unknown'
+year: 'unknown date'
 origin: Portugal
 publisher: 'Caixa Económica de Lisboa'
 formats: ['bank-book', ephemera]
