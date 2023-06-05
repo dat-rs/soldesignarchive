@@ -3,7 +3,7 @@
 
 {% include header.html %}
 
-<div class="container container-cat">
+<div class="container container-author">
 
     <div class="row">
 
@@ -36,28 +36,32 @@
 
       {% endif %}
 
-    <div class="row section publisher-artifacts">
-
-        <div class="col-12">
-
-            {% assign filtered_artifacts = site.artifacts | where: 'publisher', page.name %}
-            <h3 class="section-title">Artifacts <span class="artifact-count">({{ filtered_artifacts.size }})</span></h3>
-
-        </div>
-
-                  {% for artifact in filtered_artifacts %}
-
-                  <div class="col-12 col-md-6 col-lg-4">
-                  {% include a-module.html %}
-                  </div>
-
-                  {% endfor %}
-
-    </div>
-
-
     </div>
 
 </div>
+
+<div class="container-fluid cat-artifacts-title">
+    <div class="container">
+      <div class="row author-artifacts">
+  
+        <div class="col-12">
+  
+          {% assign filtered_artifacts = site.artifacts | where: 'publisher', page.name %}
+          {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
+          <h3 class="section-title">Artifacts <span class="artifact-count">({{ sorted_filtered_artifacts.size }})</span></h3>
+  
+        </div>
+
+        {% for artifact in filtered_artifacts %}
+
+        <div class="col-12 col-md-6 col-lg-4">
+        {% include a-module.html %}
+        </div>
+
+        {% endfor %}
+  
+      </div>
+    </div>
+  </div>
 
 {% include footer.html %}

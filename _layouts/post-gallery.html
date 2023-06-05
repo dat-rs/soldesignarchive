@@ -57,52 +57,56 @@
 </div>
 
 <section class="container-fluid prev-next">
-    <div class="container">
+  <div class="container">
 <div class="row">
 
-    <div class="col-12">
+  <div class="col-12">
 
-        <h3 class="section-title">More</h3>
+      <h3 class="section-title">More</h3>
 
-    </div>
+  </div>
 
-     {% if page.previous %}
+   {% if page.previous %}
 
-        <div class="col-12 col-md-4">
-          <div class="card">
-            <a href="{{ page.previous.url | escape_once }}"><img class="card-img-top" src="/images/blog_posts/{{ page.previous.thumbnail_image }}" alt="{{ page.previous.title }}"></a>
-            <div class="card-body">
-              <span class="prev-next-label">Previous Post</span>
-              <h2 class="title blog preview"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
-              <p class="post-lead preview">{{ page.previous.lead }}</p>
-
-            </div>
-            <div class="card-footer">
-              <p class="post-meta preview">{{ page.previous.author }} | {{ page.previous.date | date_to_string }}</p>
-            </div>
+      <div class="col-12 col-md-4">
+        <div class="card-deck">
+          <div class="card blog">
+            <a class="card-link blog" href="{{ page.previous.url | escape_once }}">
+              <img class="card-img-top blog" src="/images/blog_posts/{{ page.previous.thumbnail_image }}" alt="{{ page.previous.title }}">
+              <div class="card-body blog">
+                <h2 class="title short preview">{{ page.previous.title }}</h2>
+                <p class="post-lead preview">{{ page.previous.lead }}</p>
+              </div>
+              <div class="card-footer blog">
+                <p class="post-meta preview">{{ page.previous.author }} | {{ page.previous.date | date_to_string }}</p>
+              </div>
+            </a>
           </div>
         </div>
+      </div>
 
-    {% endif %}
+  {% endif %}
 
-    {% if page.next %}
+  {% if page.next %}
 
-    <div class="col-12 col-md-4">
-      <div class="card">
-        <a href="{{ page.next.url | escape_once }}"><img class="card-img-top" src="/images/blog_posts/{{ page.next.thumbnail_image }}" alt="{{ page.previous.title }}"></a>
-        <div class="card-body">
-          <span class="prev-next-label">Next Post</span>
-          <h2 class="title blog preview"><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
-          <p class="post-lead preview">{{ page.next.lead }}</p>
-
-        </div>
-        <div class="card-footer">
-          <p class="post-meta preview">{{ page.next.author }} | {{ page.next.date | date_to_string }}</p>
-        </div>
+  <div class="col-12 col-md-4">
+    <div class="card-deck">
+      <div class="card blog">
+        <a class="card-link blog" href="{{ page.next.url | escape_once }}">
+          <img class="card-img-top blog" src="/images/blog_posts/{{ page.next.thumbnail_image }}" alt="{{ page.next.title }}">
+          <div class="card-body blog">
+            <h2 class="title short preview">{{ page.next.title }}</h2>
+            <p class="post-lead preview">{{ page.next.lead }}</p>
+          </div>
+          <div class="card-footer blog">
+            <p class="post-meta preview">{{ page.next.author }} | {{ page.next.date | date_to_string }}</p>
+          </div>
+        </a>
       </div>
     </div>
+  </div>
 
-    {% endif %}
+  {% endif %}
 
 </div>
 </div>
