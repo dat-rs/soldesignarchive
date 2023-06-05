@@ -725,12 +725,13 @@ p.about-sol strong {
 }
 
 .container-cat,
+.container-author,
 .container.post-head,
 .container.blog {
   padding-top: 30px;
 }
 
-.container-cat {
+.container-author {
   padding-bottom: 45px;
 }
 
@@ -778,6 +779,10 @@ p.about-sol strong {
   background-color: $bg-white;
   color: black;
   padding-top: 10px;
+}
+
+.cat-artifacts-section {
+  padding-top: 15px;
 }
 
 /* Holders */
@@ -1100,9 +1105,6 @@ i.bi-images.a-module-corner-icon {
   padding-top: 14px;
 }
 
-.resource-info {
-}
-
 .resource-description {
   font-size: 14px;
   line-height: 1.6;
@@ -1225,6 +1227,7 @@ input:focus {
 
 input[type="text"] {
     -webkit-appearance: none;
+    appearance: none;
     border-radius: 0;
 }
 
@@ -1412,6 +1415,7 @@ img.artifact-img {
 
 img.artifact-img {
   -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 
@@ -2182,7 +2186,7 @@ span.fn-title {
     line-height: 40px;
   }
 
-  .container-allcats, .container-cat, .container.page, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
+  .container-allcats, .container-cat, .container-author, .container.page, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
     margin-top: $header-height-sm;
   }
 
@@ -2249,7 +2253,7 @@ span.fn-title {
     line-height: 76px;
   }
 
-  .container-allcats, .container-cat, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
+  .container-allcats, .container-cat, .container-author, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
     margin-top: $header-height-md;
   }
 
@@ -2359,7 +2363,7 @@ span.fn-title {
     font-size: 32px;
   }
 
-  .container-allcats, .container-cat, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
+  .container-allcats, .container-cat, .container-author, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
   margin-top: $header-height-lg;
 }
 
@@ -2415,7 +2419,7 @@ span.fn-title {
       width: 80px;
   }
 
-  .container-allcats, .container-cat, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
+  .container-allcats, .container-cat, .container-author, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
     margin-top: $header-height-xl;
   }
 
