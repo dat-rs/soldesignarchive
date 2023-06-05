@@ -1,7 +1,7 @@
 ---
 title: "Esperanza"
 author_name: ['unknown author']
-year: 'unknown'
+year: 'unknown date'
 origin: Portugal
 publisher: ['Discos Festival']
 formats: [record, record-cover]

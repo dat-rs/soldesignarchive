@@ -1,7 +1,7 @@
 ---
 title: Mirandolina
 author_name: ['unknown author']
-year: unknown
+year: "unknown date"
 origin: Brazil
 publisher: 'Editora Brasiliense'
 formats: [book, book-cover]

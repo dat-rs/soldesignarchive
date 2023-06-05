@@ -1,7 +1,7 @@
 ---
 title: 'Reales Alcazares de Sevilla'
 author_name: 'unknown author'
-year: 'unknown'
+year: 'unknown date'
 origin: Spain
 publisher: 'Reales Alcazares de Sevilla'
 formats: [ticket, ephemera]

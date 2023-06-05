@@ -1,7 +1,7 @@
 ---
 title: 'Yashica. Das Primeiras Totalmente Electrónicas para Foto-Cine'
 author_name: 'unknown author'
-year: 'unknown'
+year: 'unknown date'
 origin: Portugal
 publisher: 'Yashica'
 formats: [envelope]

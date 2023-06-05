@@ -1,7 +1,7 @@
 ---
 title: O Vale da Ira
 author_name: ['Yzquierdo']
-year: unknown
+year: "unknown date"
 origin: Portugal
 publisher: 'Círculo de Leitores'
 formats: [book, book-cover]

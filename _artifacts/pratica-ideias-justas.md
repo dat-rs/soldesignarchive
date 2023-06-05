@@ -1,7 +1,7 @@
 ---
 title: 'Da Prática. De Onde Vêm as Ideias Justas'
 author_name: 'unknown author'
-year: unknown
+year: "unknown date"
 origin: Portugal
 publisher: 'Cadernos Vanguarda'
 formats: [book-cover, book]

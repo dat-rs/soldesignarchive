@@ -38,7 +38,6 @@
 
     </div>
 
-</div>
 
 <div class="container-fluid cat-artifacts-title">
     <div class="container">
@@ -51,17 +50,40 @@
           <h3 class="section-title">Artifacts <span class="artifact-count">({{ sorted_filtered_artifacts.size }})</span></h3>
   
         </div>
-
-        {% for artifact in filtered_artifacts %}
-
-        <div class="col-12 col-md-6 col-lg-4">
-        {% include a-module.html %}
-        </div>
-
-        {% endfor %}
   
       </div>
     </div>
   </div>
+
+<div class="container-fluid cat-artifacts">
+  <div class="row author-artifacts">
+
+  {% for artifact in sorted_filtered_artifacts %}
+
+    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+    {% include a-module-au-y.html %}
+    </div>
+
+  {% endfor %}
+
+  </div>
+</div>
+
+<div class="container">
+
+  {% assign filtered_resources = site.resources | where: 'rel_publishers', page.name %}
+  {% assign filtered_resources_size = filtered_resources | size %}
+  {% if filtered_resources_size > 0 %}
+  <div class="row section author-resources">
+
+    <div class="col-12 col-md-9 col-lg-8 col-xl-6">
+      {% include resources-section.html %}
+    </div>
+  
+  </div>
+  {% endif %}
+
+
+</div>
 
 {% include footer.html %}
