@@ -27,8 +27,7 @@ title: "Tags"
         {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.name %}
 
             <h2 class="title allcat page tags isotope-element">
-              <a class="browse-link tag" href="{{ tag.url }}">{{ tag.name }}</a>
-              <span class="cat-count">{{ filtered_artifacts.size }}</span>
+              <a class="browse-link tag" href="{{ tag.url }}">{{ tag.name }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a>
             </h2>
 
         {% endfor %}

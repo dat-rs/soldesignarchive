@@ -56,6 +56,16 @@
                   <section class="hero-about-text">{{ content }}</section>
                   <section class="more-info-text">{% include additional-info.html %}</section>
 
+                  {% assign filtered_resources = site.resources | where: 'rel_artifacts', page.title %}
+                  {% assign filtered_resources_size = filtered_resources | size %}
+                  {% if filtered_resources_size > 0 %}
+                  <div class="row section artifact-resources">
+          
+                    {% include resources-section.html %}
+          
+                  </div>
+                  {% endif %}
+
 
 
                 </div>
@@ -70,15 +80,7 @@
         </div>
 
 
-        {% assign filtered_resources = site.resources | where: 'rel_artifacts', page.title %}
-        {% assign filtered_resources_size = filtered_resources | size %}
-        {% if filtered_resources_size > 0 %}
-        <div class="row section artifact-resources">
 
-          {% include resources-section.html %}
-
-        </div>
-        {% endif %}
 
 
   </div>

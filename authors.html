@@ -28,8 +28,8 @@ title: "Authors"
                 {% assign filtered_artifacts = site.artifacts | where: 'author_name', author.name %}
 
                 <h2 class="title allcat page authors isotope-element">
-                  <a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a>
-                  <span class="cat-count">{{ filtered_artifacts.size }}</span>
+                  <a class="browse-link index" href="{{ author.url }}">{{ author.name }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a>
+                  
                 </h2>
 
                 {% endfor %}
