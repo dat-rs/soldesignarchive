@@ -17,7 +17,7 @@ $year-color: #93a64e;
 $publisher-color: #2eb5b0;
 $resource-color: #c47900;
 $blog-color: #ff7225;
-$bg-white: #f7f7f7;
+$bg-white: #f5f5f5;
 $off-1: #ebe4dd;
 $off-2: #f7f1e9;
 $off-3: #ebded3;
@@ -163,7 +163,8 @@ p.about-sol {
 .footer-link,
 .page-title-label, 
 .prev-next-label,
-h3.filter-title {
+h3.filter-title,
+.a-module-deets {
   font-family: "indivisible-variable", sans-serif;
   font-variation-settings: "wght" 450;
   font-size: 13px;
@@ -182,7 +183,7 @@ h3.filter-title {
   font-weight: 400;
   font-size: 0.6rem;
   vertical-align: 120%;
-  margin-left: -4px;
+  
 }
 
 .post-meta,
@@ -709,12 +710,12 @@ p.about-sol strong {
 
 .container-blog-index,
 .container-fluid.about,
-.latest-artifacts-container,
+.latest-artifacts-container-1,
 .latest-resources-container {
   padding-top: 60px;
 }
 
-.latest-artifacts-container,
+.latest-artifacts-container-2,
 .latest-resources-container {
   padding-bottom: 60px;
 }
@@ -730,7 +731,22 @@ p.about-sol strong {
 }
 
 .container-cat {
-  padding-bottom: 30px;
+  padding-bottom: 45px;
+}
+
+.container-fluid.cat-artifacts, 
+.container-fluid.cat-artifacts-title {
+  background-color: $off-1;
+}
+
+.container-fluid.cat-artifacts {
+  padding-bottom: 15px;
+} 
+
+.container-fluid.cat-artifacts-title {
+  padding-top: 45px;
+
+  
 }
 
 .container-artifact,
@@ -759,7 +775,7 @@ p.about-sol strong {
 }
 
 .container-footer {
-  background-color: $off-1;
+  background-color: $bg-white;
   color: black;
   padding-top: 10px;
 }
@@ -911,6 +927,16 @@ h2.title.short.preview {
 
 .a-module.sm h2.title {
   font-size: 24px;
+}
+
+.a-module.sm h2.title.au-y {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.a-module.sm h2.title.y {
+  font-size: 24px;
+  margin-bottom: 0.2rem;
 }
 
 h2.title-table {
@@ -1075,23 +1101,23 @@ i.bi-images.a-module-corner-icon {
 }
 
 .resource-info {
-  max-width: 80%;
 }
 
 .resource-description {
   font-size: 14px;
   line-height: 1.6;
+  max-width: 80%;
 }
 
 /* Browse Links */
 
 .browse-link {
 
-  width: 100%;
+  width: 99%;
   padding-left: 1px;
   padding-right: 1px;
   height: 100%;
-  white-space: normal;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   text-decoration: none;
@@ -1589,6 +1615,11 @@ a.deet-link.resource:hover {
 
 /* a-module & Previous/Next */
 
+.a-module {
+  display: block;
+  margin-bottom: 30px;
+}
+
 .row.prev-next {
   margin-top: 45px;
 }
@@ -1601,6 +1632,22 @@ a.deet-link.resource:hover {
 .a-module:hover {
   text-decoration: none;
   color: $artifact-color;
+}
+
+.a-module-content {
+  padding-bottom: 4px;
+  border-bottom: 1px solid gray;
+}
+
+.a-module-deets {
+  display: block;
+}
+
+.a-module-deets.author {
+  width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .a-module.grid:hover .a-module-img-holder .a-module-img,
@@ -1618,7 +1665,7 @@ a.deet-link.resource:hover {
   display: block;
   position: relative;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 
   &.mason {
     padding: 2px;
@@ -1669,7 +1716,7 @@ a.deet-link.resource:hover {
   margin-top: 90px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: $off-2;
+  background-color: $off-1;
 }
 
 /* text and caption cat-links */

@@ -1,0 +1,16 @@
+
+<a class="a-module sm grid" href="{{ artifact.url }}">
+    <div class="a-module-img-holder">
+      {% if artifact.image_count %}
+        <i class="bi bi-images a-module-corner-icon"></i>
+      {% endif %}
+      <img class="a-module-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="">
+    </div>
+    <div class="a-module-content">
+      <h2 class="title y">{{ artifact.title }}</h2>
+      <span class="a-module-deets year">{% if artifact.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ artifact.year | remove_first: "y" }}</span>
+    </div>
+
+    
+
+</a>
