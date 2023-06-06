@@ -2,8 +2,8 @@
 title: Women in Graphic Design/PT
 lead: "A website bringing visibility to the historically neglected work of Portuguese women designers."
 author: Ricardo Santos
-thumbnail_image: "wgd-pt.jpg"
-thumbnail_image_caption: "Screenshot of The Peculiar Manicule."
+image: "/images/blog_posts/wgd-pt.jpg"
+image_caption: "Screenshot of The Peculiar Manicule."
 layout: short
 feature_link: https://www.wgd-pt.com
 

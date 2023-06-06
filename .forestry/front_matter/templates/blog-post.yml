@@ -14,7 +14,7 @@ fields:
   label: Author
   default: Ricardo Santos
 - type: file
-  name: thumbnail_image
+  name: image
   label: Image
 - type: text
   name: layout

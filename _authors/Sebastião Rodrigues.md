@@ -6,6 +6,9 @@ image_path:
 layout: author
 resources: ['sebastiao-rodrigues-fishink-blog-post']
 timeline: timelines/sebastiao-rodrigues.html
+related_authors: ['João da Câmara Leme', "João Abel Manta"]
+related_publishers: ['Fundação Calouste Gulbenkian', 'SPN-SNI-SEIT', 'Ulisseia', 'Arcádia', 'Publicações Europa América', 'Editorial Técnica e Artística', 'Livraria Morais Editora']
+related_tags: ['Almanaque', 'Os Livros das Três Abelhas']
 ---
 Sebastião Rodrigues (1929–1997) was a Portuguese graphic designer.
 

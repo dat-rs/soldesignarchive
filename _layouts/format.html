@@ -1,9 +1,9 @@
 ---
 ---
 
-{% include header-odf.html %}
+{% include headers/header-odf.html %}
 
-<div class="container container-cat">
+<div class="container container-cat simple">
 
     <div class="row">
 
@@ -25,7 +25,7 @@
                   {% for artifact in sorted_filtered_artifacts %}
 
                   <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                  {% include a-module-au-y.html %}
+                  {% include a-modules/a-module-au-y.html %}
                   </div>
 
                   {% endfor %}
@@ -36,3 +36,4 @@
 
 
 {% include footer.html %}
+{% include the-end.html %}

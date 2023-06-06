@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Introducing the Sol Design Archive
-thumbnail_image: "sol-branding-comp-1.jpg"
+image: "/images/blog_posts/sol-branding-comp-1.jpg"
 author: Ricardo Santos
-lead: Reading got me into books. Books got me into design and illustration. A brief
-  history of how this project came about.
+lead: Reading got me into books. Books got me into design and illustration. A brief history of how this project came about.
 excerpt_separator: "<!--more-->"
 
 ---

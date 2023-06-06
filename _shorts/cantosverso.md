@@ -2,8 +2,8 @@
 title: Cantosverso
 lead: "Archive of works by portuguese typographer and editor Paulo de Cantos."
 author: Ricardo Santos
-thumbnail_image: "cantosverso.jpg"
-thumbnail_image_caption: "Screenshot of Cantosverso."
+image: "/images/blog_posts/cantosverso.jpg"
+image_caption: "Screenshot of Cantosverso."
 layout: short
 feature_link: https://cantosverso.org
 

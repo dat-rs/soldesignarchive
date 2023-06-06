@@ -22,7 +22,7 @@ fields:
     required: false
   label: Author
   default: Ricardo Santos
-- name: thumbnail_image
+- name: image
   type: file
   config:
     maxSize: 64

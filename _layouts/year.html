@@ -18,10 +18,10 @@
 
 <body>
 
-    {% include header-proper.html %}
+    {% include headers/header-proper.html %}
 
 
-<div class="container container-cat">
+<div class="container container-cat simple">
     <div class="row">
 
       <div class="col-12">
@@ -39,7 +39,7 @@
       {% for artifact in filtered_artifacts %}
 
       <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-      {% include a-module-au.html %}
+      {% include a-modules/a-module-au.html %}
       </div>
 
       {% endfor %}
@@ -48,3 +48,4 @@
 
 
 {% include footer.html %}
+{% include the-end.html %}
