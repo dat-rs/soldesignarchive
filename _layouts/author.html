@@ -1,55 +1,83 @@
 ---
 ---
 
-{% include header.html %}
+{% include headers/header.html %}
 
 <div class="container container-author">
 
-    <div class="row">
+  <div class="row">
 
-      <div class="col-12">
+    <div class="col-12">
 
-          <h3 class="cat-label author">Author</h3>
-          <h2 class="title author self">{{ page.name }}</h2>
+        <h3 class="cat-label author">Author</h3>
+        <h2 class="title author self">{{ page.name }}</h2>
 
+    </div>
+  </div>
 
-      </div>
+  <div class="row section about first">
+
+    <div class="col-12 col-md-9 col-lg-8 col-xl-6">
+
+      <h3 class="section-title">About</h3>
+      <section class="hero-about-text">{{ content }}</section>
 
     </div>
 
-    {% assign striped_content = page.content | strip_newlines %}
-        {% if striped_content != "" %}
+    {% if page.timeline %}
 
-    <div class="row section about first">
+    <div class="col-12 col-md-2 offset-md-1 offset-lg-2 offset-xl-4 timeline">
 
+      <h3 class="section-title">Timeline</h3>
+      {% include {{ page.timeline }} %} 
 
+    </div> 
 
-            <div class="col-12 col-md-9 col-lg-8 col-xl-6">
-
-
-
-            <h3 class="section-title">About</h3>
-            <section class="hero-about-text">{{ content }}</section>
-
-            </div>
-
-            {% if page.timeline %}
-
-            <div class="col-12 col-md-2 offset-md-1 offset-lg-2 offset-xl-4 timeline">
-
-              <h3 class="section-title">Timeline</h3>
-
-              {% include {{ page.timeline }} %} 
-
-            </div> 
-
-            {% endif %}
-
-    </div>
-
-      {% endif %}
+    {% endif %}
 
   </div>
+
+  <div class="row section related">
+
+    <div class="col-12">
+
+      <h3 class="section-title">Related</h3>
+
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-2">
+
+      {% if page.related_authors %}
+      <span class="related-label author">Authors</span>
+      {% for related_author in page.related_authors %}
+      <a href="/authors/{{ author | escape_once }}" class="related-link author">{{ related_author }}</a><br>
+      {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-2">
+
+      {% if page.related_publishers %}
+      <span class="related-label publisher">Publishers/Clients</span>
+      {% for related_publisher in page.related_publishers %}
+      <a href="/publishers/{{ publisher | escape_once }}" class="related-link author">{{ related_publisher }}</a><br>
+      {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-2">
+
+      {% if page.related_tags %}
+      <span class="related-label publisher">Tags</span>
+      {% for related_tag in page.related_tags %}
+      <a href="/tags/{{ tag | escape_once }}" class="related-link author">{{ related_tag }}</a><br>
+      {% endfor %}
+      {% endif %}
+    </div>
+
+  </div>
+
+</div>
 
 <div class="container-fluid cat-artifacts-title">
   <div class="container">
@@ -73,7 +101,7 @@
         {% for artifact in sorted_filtered_artifacts %}
 
         <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-        {% include a-module-y.html %}
+        {% include a-modules/a-module-y.html %}
         </div>
 
         {% endfor %}
@@ -99,4 +127,5 @@
   </div>
 
 {% include footer.html %}
+{% include the-end.html %}
 

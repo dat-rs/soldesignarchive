@@ -157,6 +157,7 @@ p.about-sol {
 .artifact-deets,
 .artifact-count-deet,
 .timeline,
+.related,
 .artifacts-table,
 .cat-label,
 .header-text,
@@ -205,7 +206,7 @@ h2 .artifact-count {
 section.about {
   font-size: 16px;
   line-height: 1.6;
-  margin-top: 45px;
+  margin-top: 2rem;
 }
 
 /* Random Stuff (arrumar) */
@@ -580,7 +581,6 @@ p.about-sol strong {
 .footer-link {
   font-variation-settings: "wght" 800;  
   font-size: 13px;
-  line-height: 1.2;
 }
 
 .footer-link:hover {
@@ -742,7 +742,7 @@ p.about-sol strong {
   padding-bottom: 45px;
 }
 
-.container-cat {
+.container-cat-rich {
   margin-bottom: 45px;
 }
 
@@ -1004,6 +1004,13 @@ h3.filter-title {
 
 h3.a-section-title {
   font-family: maple-web, sans-serif;
+}
+
+h3.title.about {
+  font-family: "Tiempos-Text-Semibold", serif;
+  font-size: 1rem;
+  letter-spacing: -0.2px;
+  margin-bottom: 0rem;
 }
 
 a.cta {
@@ -1523,20 +1530,24 @@ img.artifact-img {
 
 /* deet-links */
 
-.deet-link {
+.deet-link,
+.related-link {
   margin-right: 2px;
   text-decoration: none;
 }
 
-.deet-link::after {
+.deet-link::after,
+.related-link::after {
   content: ", "
 }
 
-.deet-link:hover::after {
+.deet-link:hover::after,
+.related-link:hover::after {
   border-bottom: 1px solid white;
 }
 
 .deet-link:last-of-type::after,
+.related-link:last-of-type::after,
 .timeline-text .deet-link::after {
   content: none;
 }
@@ -1554,7 +1565,8 @@ img.artifact-img {
   margin-left: -5px;
 }
 
-.deet-label.author {
+.deet-label.author,
+.related-label.author {
   color: $author-color;
 }
 
@@ -1574,11 +1586,13 @@ img.artifact-img {
   color: $discipline-color;
 }
 
-.deet-label.publisher {
+.deet-label.publisher,
+.related-label.publisher {
   color: $publisher-color;
 }
 
-.deet-label.tag {
+.deet-label.tag,
+.related-label.tag {
   color: $tag-color;
 }
 
@@ -1592,7 +1606,8 @@ a.deet-link:hover {
   text-decoration: none;
 }
 
-a.deet-link.author:hover {
+a.deet-link.author:hover,
+a.related-link.author:hover {
   border-bottom: 1px solid $author-color;
 }
 
@@ -1612,11 +1627,13 @@ a.deet-link.discipline:hover {
   border-bottom: 1px solid $discipline-color;
 }
 
-a.deet-link.publisher:hover {
+a.deet-link.publisher:hover,
+a.related-link.author:hover {
   border-bottom: 1px solid $publisher-color;
 }
 
-a.deet-link.tag:hover {
+a.deet-link.tag:hover,
+a.related-link.tag:hover {
   border-bottom: 1px solid $tag-color;
 }
 
@@ -1626,7 +1643,8 @@ a.deet-link.resource:hover {
 
 /* Timeline */
 
-.timeline-label {
+.timeline-label,
+.related-label {
   display: block;
   font-variation-settings: "wght" 800;  
 }

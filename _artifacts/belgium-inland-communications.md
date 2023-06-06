@@ -1,6 +1,6 @@
 ---
 title: "Belgium. Inland Communications"
-author_name: ['author unknown']
+author_name: ['unknown author']
 year: y1958
 origin: Belgium
 publisher: 'Commissariat Général au Turisme'

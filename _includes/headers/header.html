@@ -5,7 +5,7 @@
 
   {% include common-head-stuff.html %}
 
-  <title>{{ page.name | replace: "-", " " | capitalize }}</title>
+  <title>{{ page.name }}</title>
 
   <meta name="description" content="Sol Design Archive is an online archive of design with a special focus on nineteenth-century Portuguese graphic design and illustration but a voracious appetite for the full breadth of visual expression. The online archive currently contains{{ site.artifacts.size }} artifacts by {{ site.authors.size }} authors. Collected, maintained and designed by Ricardo Santos out of love for these shapes and colors.">
   <meta property="og:title" content="{{ page.name }}" />
@@ -16,4 +16,4 @@
 
 <body>
 
-    {% include header-proper.html %}
+    {% include headers/header-proper.html %}

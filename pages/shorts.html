@@ -1,8 +1,10 @@
 ---
-title: "Shorts"
+title: "Shorts - Sol Design Archive"
+description: "Short notes highlighting interesting stuff online related to graphic design history."
+image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include header-artifact.html %}
+{% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-image=page.image %}
 
    <div class="container blog first-after-header">
 
@@ -20,7 +22,7 @@ title: "Shorts"
             <div class="card-deck">
               <div class="card blog">
                 <a class="card-link blog" href="{{ short.url }}">
-                  <img class="card-img-top blog" src="/images/blog_posts/{{ short.thumbnail_image }}" alt="{{ short.title }}">
+                  <img class="card-img-top blog" src="{{ short.image }}" alt="{{ short.title }}">
                   <div class="card-body blog">
                     <h2 class="title short preview">{{ short.title }}</h2>
                     <p class="post-lead preview">{{ short.lead }}</p>
@@ -40,3 +42,4 @@ title: "Shorts"
 </div>
 
 {% include footer.html %}
+{% include the-end.html %}

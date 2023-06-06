@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include header.html %}
+{% include head-and-header.html page-meta-title=page.title page-meta-description=page.lead page-meta-image=page.image %}
 
 <div class="container first-after-header post-head">
 
@@ -37,7 +37,7 @@
   <div class="row">
     <div class="col-12">
 
-        <img class="grid-img" src="/images/blog_posts/{{ page.thumbnail_image }}" alt="">
+        <img class="grid-img" src="/images/blog_posts/{{ page.image }}" alt="">
 
     </div>
   </div>
@@ -46,7 +46,7 @@
   <div class="row">
     <div class="col-12">
 
-        <p class="caption blog-header">{{ page.thumbnail_image_caption }}</p>
+        <p class="caption blog-header">{{ page.image_caption }}</p>
 
     </div>
   </div>
@@ -87,7 +87,7 @@
           <div class="card-deck">
             <div class="card blog">
               <a class="card-link blog" href="{{ page.previous.url | escape_once }}">
-                <img class="card-img-top blog" src="/images/blog_posts/{{ page.previous.thumbnail_image }}" alt="{{ page.previous.title }}">
+                <img class="card-img-top blog" src="{{ page.previous.image }}" alt="{{ page.previous.title }}">
                 <div class="card-body blog">
                   <h2 class="title short preview">{{ page.previous.title }}</h2>
                   <p class="post-lead preview">{{ page.previous.lead }}</p>
@@ -108,7 +108,7 @@
       <div class="card-deck">
         <div class="card blog">
           <a class="card-link blog" href="{{ page.next.url | escape_once }}">
-            <img class="card-img-top blog" src="/images/blog_posts/{{ page.next.thumbnail_image }}" alt="{{ page.next.title }}">
+            <img class="card-img-top blog" src="{{ page.next.image }}" alt="{{ page.next.title }}">
             <div class="card-body blog">
               <h2 class="title short preview">{{ page.next.title }}</h2>
               <p class="post-lead preview">{{ page.next.lead }}</p>
@@ -128,3 +128,4 @@
 </section>
 
 {% include footer.html %}
+{% include the-end.html %}

@@ -1,7 +1,9 @@
 ---
+description: "An artifact in the Sol Design Archive."
+image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include header-artifact.html %}
+{% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-image=page.image %}
 
 <!-- liquid code for previous/next artifact buttons -->
 
@@ -86,9 +88,13 @@
   </div>
 
   {% include prev-next.html %}
-  {% include footer-proper.html %}
+
+  {% include footer.html %}
+
   {% if page.image_count %}
-    {% include footer-artifact-multi.html %}
+    {% include scripts/scripts-artifact-multi.html %}
     {% else %}
-    {% include footer-artifact-single.html %}
+    {% include scripts/scripts-artifact-single.html %}
   {% endif %}
+
+  {% include the-end.html %}

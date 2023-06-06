@@ -2,8 +2,8 @@
 title: The Peculiar Manicule
 lead: A mouth-watering archive of 1960s and 1970s graphic design.
 author: Ricardo Santos
-thumbnail_image: "peculiar-manicule.jpg"
-thumbnail_image_caption: "Screenshot of The Peculiar Manicule."
+image: "/images/blog_posts/peculiar-manicule.jpg"
+image_caption: "Screenshot of The Peculiar Manicule."
 layout: short
 feature_link: https://www.peculiarmanicule.com
 
