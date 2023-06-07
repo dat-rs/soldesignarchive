@@ -1,4 +1,3 @@
-
 <a class="a-module sm grid" href="{{ artifact.url }}">
     <div class="a-module-img-holder">
       {% if artifact.image_count %}
@@ -11,7 +10,4 @@
       <span class="a-module-deets author">{{ artifact.author_name | join: ', ' }}</span>
       <span class="a-module-deets year">{% if artifact.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ artifact.year | remove_first: "y" }}</span>
     </div>
-
-    
-
 </a>
