@@ -1,4 +1,4 @@
 ---
-name: 'Vintage Books'
+title: 'Vintage Books'
 layout: publisher
 ---

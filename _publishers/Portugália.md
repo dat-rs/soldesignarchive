@@ -1,4 +1,4 @@
 ---
-name: 'Portugália'
+title: 'Portugália'
 layout: publisher
 ---

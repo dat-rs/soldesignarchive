@@ -1,5 +1,5 @@
 ---
-name: William Faulkner
+title: William Faulkner
 layout: tag
 type: person
 ---

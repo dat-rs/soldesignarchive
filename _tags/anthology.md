@@ -1,5 +1,5 @@
 ---
-name: anthology
+title: anthology
 layout: tag
 type: subject
 ---

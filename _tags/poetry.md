@@ -1,5 +1,5 @@
 ---
-name: poetry
+title: poetry
 layout: tag
 type: subject
 ---

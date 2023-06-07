@@ -1,5 +1,5 @@
 ---
-name: literature
+title: literature
 layout: tag
 type: subject
 ---

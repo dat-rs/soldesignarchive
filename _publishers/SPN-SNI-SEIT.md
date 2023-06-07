@@ -1,4 +1,4 @@
 ---
-name: 'SPN-SNI-SEIT'
+title: 'SPN-SNI-SEIT'
 layout: publisher
 ---

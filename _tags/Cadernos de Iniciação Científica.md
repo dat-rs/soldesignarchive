@@ -1,5 +1,5 @@
 ---
-name: 'Cadernos de Iniciação Científica'
+title: 'Cadernos de Iniciação Científica'
 layout: tag
 type: collection
 ---

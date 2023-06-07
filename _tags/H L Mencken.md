@@ -1,5 +1,5 @@
 ---
-name: "H L Mencken"
+title: "H L Mencken"
 layout: tag
 type: person
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Zahar Editores'
+title: 'Zahar Editores'
 layout: publisher
 ---

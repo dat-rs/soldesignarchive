@@ -1,5 +1,5 @@
 ---
-name: Nazaré
+title: Nazaré
 layout: tag
 type: subject
 ---

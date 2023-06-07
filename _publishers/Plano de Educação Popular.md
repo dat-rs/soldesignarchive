@@ -1,4 +1,4 @@
 ---
-name: 'Plano de Educação Popular'
+title: 'Plano de Educação Popular'
 layout: publisher
 ---

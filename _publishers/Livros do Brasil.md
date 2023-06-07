@@ -1,4 +1,4 @@
 ---
-name: 'Livros do Brasil'
+title: 'Livros do Brasil'
 layout: publisher
 ---

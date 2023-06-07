@@ -1,5 +1,5 @@
 ---
-name: Michel del Castillo
+title: Michel del Castillo
 layout: tag
 type: person
 ---

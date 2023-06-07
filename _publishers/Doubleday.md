@@ -1,4 +1,4 @@
 ---
-name: 'Doubleday'
+title: 'Doubleday'
 layout: publisher
 ---

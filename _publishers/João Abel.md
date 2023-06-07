@@ -1,4 +1,4 @@
 ---
-name: 'João Abel'
+title: 'João Abel'
 layout: publisher
 ---

@@ -241,7 +241,17 @@ section.about {
 }
 
 .more-info-text {
+  background-color: $off-2;
+  padding: 15px;
   margin-top: 30px;
+}
+
+.more-info-text.alone {
+  margin-top: 0px;
+}
+
+.more-info-text p.para-text {
+  margin-bottom: 0px;
 }
 
 .artifact-deets-col {
@@ -738,7 +748,8 @@ p.about-sol strong {
   padding-top: 30px;
 }
 
-.container-author {
+.container-author,
+.container-cat.rich {
   padding-bottom: 45px;
 }
 
@@ -1125,7 +1136,6 @@ i.bi-images.a-module-corner-icon {
 .resource-description {
   font-size: 14px;
   line-height: 1.6;
-  max-width: 80%;
 }
 
 /* Browse Links */
@@ -1147,10 +1157,14 @@ i.bi-images.a-module-corner-icon {
   text-decoration: none;
 }
 
+/* 
+
 .browse-link.tag,
 .browse-link.type {
   text-transform: capitalize;
 }
+
+*/
 
 .browse-link.year {
   text-transform: lowercase;
@@ -1507,7 +1521,6 @@ img.artifact-img {
 }
 
 .deet-label.hanging,
-.more-info-text,
 .post-meta.self,
 .share-sheet {
   position: relative;
@@ -1516,7 +1529,6 @@ img.artifact-img {
 }
 
 .hanging::before,
-.more-info-text::before,
 .post-meta.self::before,
 .share-sheet::before {
   background-color: #000;
@@ -2232,7 +2244,7 @@ span.fn-title {
   }
 
   .more-info-text {
-    max-width: 350px;
+    max-width: 400px;
   }
 
   .artifact-carousel-nav-cell {

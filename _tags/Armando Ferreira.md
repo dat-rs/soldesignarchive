@@ -1,5 +1,5 @@
 ---
-name: Armando Ferreira
+title: Armando Ferreira
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-name: slab serif
+title: slab serif
 layout: tag
 type:
   - typography

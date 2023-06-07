@@ -1,5 +1,5 @@
 ---
-name: education
+title: education
 layout: tag
 type: subject
 ---

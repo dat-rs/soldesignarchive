@@ -1,5 +1,5 @@
 ---
-name: maoism
+title: maoism
 layout: tag
 type: subject
 ---

@@ -1,5 +1,5 @@
 ---
-name: "D H Lawrence"
+title: "D H Lawrence"
 layout: tag
 type: person
 ---

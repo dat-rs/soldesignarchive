@@ -1,5 +1,5 @@
 ---
-name: Marvin
+title: Marvin
 layout: tag
 type: font
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Estúdios Cor'
+title: 'Estúdios Cor'
 layout: publisher
 ---

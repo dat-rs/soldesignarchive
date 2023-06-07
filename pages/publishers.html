@@ -26,10 +26,10 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
         <div class="col-12" id="isotope-container">
 
         {% for publisher in site.publishers %}
-        {% assign filtered_artifacts = site.artifacts | where: 'publisher', publisher.name %}
+        {% assign filtered_artifacts = site.artifacts | where: 'publisher', publisher.title %}
 
             <h2 class="title allcat page publishers isotope-element">
-              <a class="browse-link publisher" href="{{ publisher.url }}">{{ publisher.name }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a>
+              <a class="browse-link publisher" href="{{ publisher.url }}">{{ publisher.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a>
               
             </h2>
 

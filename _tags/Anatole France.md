@@ -1,5 +1,5 @@
 ---
-name: Anatole France
+title: Anatole France
 layout: tag
 type: person
 ---

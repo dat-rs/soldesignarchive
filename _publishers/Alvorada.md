@@ -1,4 +1,4 @@
 ---
-name: 'Alvorada'
+title: 'Alvorada'
 layout: publisher
 ---

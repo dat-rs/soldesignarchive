@@ -1,5 +1,5 @@
 ---
-name: folk art
+title: folk art
 layout: tag
 type: subject
 ---

@@ -1,5 +1,5 @@
 ---
-name: Enrique Jardiel Poncela
+title: Enrique Jardiel Poncela
 layout: tag
 type: person
 ---

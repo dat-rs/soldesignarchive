@@ -1,5 +1,5 @@
 ---
-name: journalism
+title: journalism
 layout: tag
 type: subject
 ---

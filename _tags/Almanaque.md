@@ -1,5 +1,5 @@
 ---
-name: Almanaque
+title: Almanaque
 layout: tag
 type: collection
 ---

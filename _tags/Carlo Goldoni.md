@@ -1,5 +1,5 @@
 ---
-name: Carlo Goldoni
+title: Carlo Goldoni
 layout: tag
 type: person
 ---

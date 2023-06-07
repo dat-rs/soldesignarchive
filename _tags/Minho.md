@@ -1,5 +1,5 @@
 ---
-name: Minho
+title: Minho
 layout: tag
 type: subject
 ---

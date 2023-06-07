@@ -1,5 +1,5 @@
 ---
-name: art
+title: art
 layout: tag
 type: subject
 ---

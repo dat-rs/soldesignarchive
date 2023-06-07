@@ -1,4 +1,4 @@
 ---
-name: 'Prelo'
+title: 'Prelo'
 layout: publisher
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Imprensa Nacional-Casa da Moeda'
+title: 'Imprensa Nacional-Casa da Moeda'
 layout: publisher
 ---

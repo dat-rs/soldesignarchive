@@ -1,4 +1,4 @@
 ---
-name: 'Editorial O Século'
+title: 'Editorial O Século'
 layout: publisher
 ---

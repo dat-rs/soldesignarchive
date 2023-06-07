@@ -1,5 +1,5 @@
 ---
-name: João Pereira da Rosa
+title: João Pereira da Rosa
 layout: tag
 type: subject
 ---

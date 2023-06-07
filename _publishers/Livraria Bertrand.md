@@ -1,4 +1,4 @@
 ---
-name: 'Livraria Bertrand'
+title: 'Livraria Bertrand'
 layout: publisher
 ---

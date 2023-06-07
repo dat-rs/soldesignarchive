@@ -1,5 +1,5 @@
 ---
-name: Lu Xun
+title: Lu Xun
 layout: tag
 type: person
 ---

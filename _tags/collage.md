@@ -1,5 +1,5 @@
 ---
-name: collage
+title: collage
 layout: tag
 type: person
 ---

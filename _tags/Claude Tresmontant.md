@@ -1,5 +1,5 @@
 ---
-name: Claude Tresmontant
+title: Claude Tresmontant
 layout: tag
 type: subject
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Reales Alcazares de Sevilla'
+title: 'Reales Alcazares de Sevilla'
 layout: publisher
 ---

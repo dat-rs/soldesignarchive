@@ -1,5 +1,5 @@
 ---
-name: math
+title: math
 layout: tag
 type: subject
 ---

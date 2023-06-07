@@ -1,4 +1,4 @@
 ---
-name: 'Câmara Municipa de Sintra'
+title: 'Câmara Municipa de Sintra'
 layout: publisher
 ---

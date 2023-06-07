@@ -1,5 +1,5 @@
 ---
-name: Roger Vailland
+title: Roger Vailland
 layout: tag
 type: person
 ---

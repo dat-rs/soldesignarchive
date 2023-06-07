@@ -1,5 +1,5 @@
 ---
-name: José Mauro de Vasconcelos
+title: José Mauro de Vasconcelos
 layout: tag
 type: person
 ---

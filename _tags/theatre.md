@@ -1,5 +1,5 @@
 ---
-name: theatre
+title: theatre
 layout: tag
 type: subject
 ---

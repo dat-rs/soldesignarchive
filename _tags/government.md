@@ -1,5 +1,5 @@
 ---
-name: government
+title: government
 layout: tag
 type: subject
 ---

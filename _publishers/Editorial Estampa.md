@@ -1,4 +1,4 @@
 ---
-name: 'Editorial Estampa'
+title: 'Editorial Estampa'
 layout: publisher
 ---

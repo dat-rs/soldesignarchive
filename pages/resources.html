@@ -26,9 +26,9 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
             <div class="col-12" id="isotope-container">
 
-                {% for resource in site.resources %}
+                {% for resource in site.data.resources %}
 
-                <h2 class="title allcat page resources isotope-element"><a class="browse-link resource" href="{{ resource.out_url }}">{{ resource.name }}</a></h2><br>
+                <h2 class="title allcat page resources isotope-element"><a class="browse-link resource" href="{{ resource.out_url }}">{{ resource.title }}</a></h2><br>
 
                 {% endfor %}
             </div>

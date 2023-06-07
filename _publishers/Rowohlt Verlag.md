@@ -1,4 +1,4 @@
 ---
-name: 'Rowohlt Verlag'
+title: 'Rowohlt Verlag'
 layout: publisher
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Editora Brasiliense'
+title: 'Editora Brasiliense'
 layout: publisher
 ---

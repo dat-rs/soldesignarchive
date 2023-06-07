@@ -1,4 +1,4 @@
 ---
-name: 'Sá da Costa'
+title: 'Sá da Costa'
 layout: publisher
 ---

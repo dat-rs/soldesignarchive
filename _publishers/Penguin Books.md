@@ -1,4 +1,4 @@
 ---
-name: 'Penguin Books'
+title: 'Penguin Books'
 layout: publisher
 ---

@@ -1,5 +1,5 @@
 ---
-name: rooster of Barcelos
+title: rooster of Barcelos
 layout: tag
 type: subject
 ---

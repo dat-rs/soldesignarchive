@@ -1,5 +1,5 @@
 ---
-name: yellow
+title: yellow
 layout: tag
 type: color
 ---

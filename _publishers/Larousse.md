@@ -1,4 +1,4 @@
 ---
-name: 'Larousse'
+title: 'Larousse'
 layout: publisher
 ---

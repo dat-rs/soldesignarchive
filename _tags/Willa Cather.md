@@ -1,5 +1,5 @@
 ---
-name: Willa Cather
+title: Willa Cather
 layout: tag
 type: person
 ---

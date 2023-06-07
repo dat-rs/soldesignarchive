@@ -1,5 +1,5 @@
 ---
-name: Mário Braga
+title: Mário Braga
 layout: tag
 type: person
 ---

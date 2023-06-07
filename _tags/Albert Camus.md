@@ -1,5 +1,5 @@
 ---
-name: Albert Camus
+title: Albert Camus
 layout: tag
 type: person
 ---

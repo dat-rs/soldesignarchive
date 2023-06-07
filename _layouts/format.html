@@ -2,8 +2,7 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign corrected_page_name = page.name | replace: "-", " " %}
-{% assign capitalised_page_name = corrected_page_name | capitalize %}
+{% assign capitalised_page_name = page.name | capitalize %}
 {% capture description %}Browse artifacts tagged «{{ page.name | replace: "-", " " }}»  at the Sol Design Archive.{% endcapture %}
 
 {% include head-and-header.html page-meta-title=capitalised_page_name page-meta-description=description page-meta-image=layout.image %}
@@ -18,7 +17,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
           {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
           <h3 class="cat-label format">Format</h3>
           <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
-          <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts tagged format: {{ page.name }}.</div>
+          <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts in the archive tagged format: {{ page.name | replace: "-", " " }}.</div>
       </div>
     </div>
 </div>

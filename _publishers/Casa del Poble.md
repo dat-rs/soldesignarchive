@@ -1,4 +1,4 @@
 ---
-name: 'Casa del Poble'
+title: 'Casa del Poble'
 layout: publisher
 ---

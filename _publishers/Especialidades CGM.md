@@ -1,4 +1,4 @@
 ---
-name: 'Especialidades CGM'
+title: 'Especialidades CGM'
 layout: publisher
 ---

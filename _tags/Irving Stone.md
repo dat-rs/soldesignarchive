@@ -1,5 +1,5 @@
 ---
-name: Irving Stone
+title: Irving Stone
 layout: tag
 type: person
 ---

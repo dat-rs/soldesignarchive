@@ -1,5 +1,5 @@
 ---
-name: Expo 58
+title: Expo 58
 layout: tag
 type:
   - collection

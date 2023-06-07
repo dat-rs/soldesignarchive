@@ -1,5 +1,5 @@
 ---
-name: Albertus
+title: Albertus
 layout: tag
 type: font
 ---

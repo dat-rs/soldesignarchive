@@ -1,4 +1,4 @@
 ---
-name: 'Livraria Clássica Editora'
+title: 'Livraria Clássica Editora'
 layout: publisher
 ---

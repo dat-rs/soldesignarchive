@@ -1,5 +1,5 @@
 ---
-name: Estado Novo
+title: Estado Novo
 layout: tag
 type: subject
 ---

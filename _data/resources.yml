@@ -1,0 +1,144 @@
+- title: 'Alda Rosa - Women in Graphic Design/Portugal'
+  type: at-archive
+  lang: en
+  out_url: https://www.wgd-pt.com/designers/alda-rosa/
+  rel_authors: ["Alda Rosa"]
+  description: "Biography, timeline, and selection of work of Alda Rosa."
+
+- title: 'Almanaque - Hemeroteca Municipal de Lisboa'
+  type: image
+  lang: pt
+  out_url: http://hemerotecadigital.cm-lisboa.pt/Periodicos/Almanaque/Almanaque.htm
+  rel_authors: ["Sebastião Rodrigues"]
+  rel_tags: ["Almanaque"]
+  rel_artifacts: ['Almanaque #2 (November 1959)', 'Almanaque #4 (January 1960)', 'Almanaque #8 (May 1960)', 'Almanaque #9 (June 1960)', 'Almanaque #12 (September 1960)', 'Almanaque #14 (November 1960)', 'Almanaque #15 (December 1960/January 1961)', 'Almanaque #16 (February 1961)', 'Almanaque #18 (May 1961)']
+  description: "Complete 18 issues digitized and downloadable as searchable pdfs. Made available by <cite>Hemeroteca Municipal de Lisboa</cite>, a public library in Lisbon dedicated to periodicals."
+ 
+- title: 'Bauhaus Geomet - Fonts in Use'
+  type: at-archive
+  lang: en
+  out_url: https://fontsinuse.com/typefaces/45318/bauhaus-geometric
+  rel_tags: ["Bauhaus Geomet"]
+  description: "Bauhaus Geomet entry on Fonts in Use."
+
+- title: 'Elisabeth Ivanovsky: Une vie de dessins. Revue de la BNF'
+  type: article
+  lang: fr
+  out_url: https://www.cairn.info/revue-de-la-bibliotheque-nationale-de-france-2016-2-page-139.htm
+  rel_authors: ["Elizabeth Ivanovsky"]
+  description: "Article about Ivanovsky in the Revue de la BNF by Carine Picaud."
+
+- title: 'Fred Troller Archive - Instagram'
+  type: at-archive
+  lang: en
+  out_url: https://www.instagram.com/fredtroller/
+  rel_authors: ["Fred Troller"]
+  description: "An instagram account dedicated to the work of Fred Troller."
+
+- title: 'Fred Troller collection - Cary Graphic Arts Collection'
+  type: "at-archive"
+  lang: en
+  out_url: https://www.rit.edu/carycollection/fred-troller
+  rel_authors: ["Fred Troller"]
+  description: "Fred Troller at the Cary Graphic Arts Collection of the Rochester Institute of Technology."
+
+- title: 'Fred Troller Collection - Glaser Archives'
+  type: at-archive
+  lang: en
+  out_url: https://archives.sva.edu/about-collection/fred-troller-collection?autoscroll=0
+  rel_authors: ["Fred Troller"]
+  description: "Fred Troller Collection at the Milton Glaser Design Study Center and Archives of the School of Visual Arts."
+
+- title: 'Fred Troller Obituary - The New York Times'
+  type: article
+  lang: en
+  out_url: https://www.nytimes.com/2002/10/24/arts/fred-troller-71-champion-of-bold-graphic-style.html
+  rel_authors: ["Fred Troller"]
+  description: "Fred Troller obituary by Steven Heller in The New York Times."
+
+- title: 'João Abel Manta - Wikipedia'
+  type: article
+  lang: pt
+  out_url: https://pt.wikipedia.org/wiki/João_Abel_Manta
+  rel_authors: ["João Abel Manta"]
+  rel_tags:
+  rel_artifacts:
+  description: "João Abel Manta's entry on the Portuguese Wikipedia."
+
+- title: 'Núria Picas i Codina - Enciclopèdia.cat'
+  type: at-archive
+  lang: cat
+  out_url: https://www.enciclopedia.cat/gran-enciclopedia-catalana/nuria-picas-i-codina
+  rel_authors: ["Núria Picas"]
+  description: "Entry on Enciclopèdia.cat."
+
+- title: 'Farewell Paul Bacon, Prolific Jazz Record + Book Cover Designer - AIGA Eye on Design'
+  type: article
+  lang: en
+  out_url: https://eyeondesign.aiga.org/design-history-101-farewell-paul-bacon-prolific-jazz-record-book-cover-designer/
+  rel_authors: ["Paul Bacon"]
+  description: "Paul Bacon's obituary on <cite>Eye on Design</cite>. By Steven Brower."
+
+- title: 'Paul Bacon - Fonts in Use'
+  type: at-archive
+  lang: en
+  out_url: https://fontsinuse.com/designers/592/paul-bacon
+  rel_authors: ["Paul Bacon"]
+  description: "Paul Bacon's entry on the <cite>Fonts in Use</cite> archive."
+
+- title: "Paul Bacon's Philip Roth paperbacks - Fonts in Use"
+  type: article
+  lang: en
+  out_url: https://fontsinuse.com/uses/21948/philip-roth-paperbacks-bantam-books-1970-1978
+  rel_artifacts: ["Goodbye Columbus"]
+  rel_authors: ["Paul Bacon"]
+  rel_publishers: ["Bantam Books"]
+  rel_tags: ["Philip Roth", "Benguiat Caslon"]
+  description: "A post by Florian Hardwig on <cite>Fonts in Use</cite> about Paul Bacon's Philip Roth paperback covers."
+
+- title: 'Rodrigues Alves Online Exhibition - Museu de São Roque'
+  type: presentation
+  lang: en
+  out_url: https://sway.office.com/8aIiU8eBW8T0jjNH?ref=Link
+  rel_authors: ["João Rodrigues Alves"]
+  description: "Short online overview of the temporary exhibition held in 2003 at <i>Museu de São Roque</i> in Lisbon, based on the donated collection of Rodrigues Alves."
+
+- title: 'Sebastião Rodrigues - Calouste Gulbenkian Foundation | <i>History of the Art Exhibits</i>'
+  type: at-archive
+  lang: pt
+  out_url: https://gulbenkian.pt/historia-das-exposicoes/graphic-materials/?filter%5Bs%5D=Sebastião+Rodrigues&filter%5Blocation%5D%5B%5D=filtro5&filter%5Bdecades%5D%5B%5D=
+  rel_authors: ["Sebastião Rodrigues"]
+  rel_publishers: ["Calouste Gulbenkian Foundation"]
+  description: "Calouste Gulbenkian Foundation's <cite>History of the Art Exhibits</cite> digital collection features posters, catalogues and original artwork made by Sebastião Rodrigues for the Foundation."
+
+- title: 'Tesouros do Museu de Bagdade - História das Exposições de Arte Gulbenkian'
+  type: at-archive
+  lang: en
+  out_url: https://gulbenkian.pt/historia-das-exposicoes/exhibitions/117/
+  rel_authors: ["Sebastião Rodrigues"]
+  rel_artifacts: ['Tesouros do Museu de Bagdade']
+  description: "Page of the exhibition on Fundação Calouste Gulbenkian's History of the Arts Exhibitions site. It features information, photos, graphic materials and documentation related to the exhibition."
+
+- title: 'Tóssan'
+  type: book
+  lang: pt
+  out_url: https://abysmo.pt/produto/o-homem-que-queria-ser-tossan/
+  offline: offline
+  rel_authors: ["Tóssan"]
+  rel_tags: []
+  rel_artifacts: []
+  description: "A Comprehensive volume featuring the various facets of the work of Tóssan."
+
+- title: '<cite>Um Dia Com... Sebastião Rodrigues</cite> - RTP Arquivos'
+  type: video
+  lang: pt
+  out_url: https://arquivos.rtp.pt/conteudos/um-dia-com-sebastiao-rodrigues/
+  rel_authors: ["Sebastião Rodrigues"]
+  description: "A 1970 episode of the RTP program <cite>A Day with...</cite> featuring Sebastião Rodrigues."
+
+- title: 'Werner Rebhuhn - Deutsche Biographie'
+  type: at-archive
+  lang: de
+  out_url: https://www.deutsche-biographie.de/sfz104622.html#ndbcontent
+  rel_authors: ["Werner Rebhuhn"]
+  description: "Rebhuhn's biography at the German national biography."

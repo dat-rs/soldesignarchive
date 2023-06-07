@@ -1,4 +1,4 @@
 ---
-name: 'Editorial Presença'
+title: 'Editorial Presença'
 layout: publisher
 ---

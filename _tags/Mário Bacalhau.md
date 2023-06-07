@@ -1,5 +1,5 @@
 ---
-name: Mário Bacalhau
+title: Mário Bacalhau
 layout: tag
 type: person
 ---

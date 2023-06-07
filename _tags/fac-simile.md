@@ -1,5 +1,5 @@
 ---
-name: fac-simile
+title: fac-simile
 layout: tag
 type: design_descriptive
 ---

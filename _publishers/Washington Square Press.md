@@ -1,4 +1,4 @@
 ---
-name: 'Washington Square Press'
+title: 'Washington Square Press'
 layout: publisher
 ---
