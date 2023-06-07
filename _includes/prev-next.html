@@ -14,16 +14,19 @@
 
             <span class="prev-next-label">Previous Artifact</span>
 
-            <a class="a-module prev-next" href="{{ prevurl | escape_once }}">
-                <h2 class="title artifact">{{ page.previous.title }}</h2>
-                <div class="a-module-img-holder">
-                  {% if page.next.image_count %}
-                    <i class="bi bi-images a-module-corner-icon"></i>
-                  {% endif %}
-                    <img class="prev-next-img" src="/images/{{ page.previous.ref }}-{{ page.previous.slug }}-thumbnail.jpg" alt="{{ page.previous.title }}">
-                </div>
-
-            </a>
+          <a class="a-module sm grid" href="{{ prevurl | escape_once }}">
+              <div class="a-module-img-holder">
+                {% if page.previous.image_count %}
+                  <i class="bi bi-images a-module-corner-icon"></i>
+                {% endif %}
+                <img class="a-module-img" src="/images/{{ page.previous.ref }}-{{ page.previous.slug }}-thumbnail.jpg" alt="">
+              </div>
+              <div class="a-module-content">
+                <h2 class="title au-y">{{ page.previous.title }}</h2>
+                <span class="a-module-deets author">{{ page.previous.author_name | join: ', ' }}</span>
+                <span class="a-module-deets year">{% if page.previous.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.previous.year | remove_first: "y" }}</span>
+              </div>
+          </a>
 
 
 
@@ -37,15 +40,20 @@
 
             <span class="prev-next-label">Next Artifact</span>
 
-            <a class="a-module prev-next" href="{{ nexturl | escape_once }}">
-                <h2 class="title artifact">{{ page.next.title }}</h2>
-                <div class="a-module-img-holder">
-                  {% if page.next.image_count %}
-                    <i class="bi bi-images a-module-corner-icon"></i>
-                  {% endif %}
-                    <img class="prev-next-img" src="/images/{{ page.next.ref }}-{{ page.next.slug }}-thumbnail.jpg" alt="{{ page.next.title }}">
-                </div>
-            </a>
+            <a class="a-module sm grid" href="{{ nexturl | escape_once }}">
+              <div class="a-module-img-holder">
+                {% if page.next.image_count %}
+                  <i class="bi bi-images a-module-corner-icon"></i>
+                {% endif %}
+                <img class="a-module-img" src="/images/{{ page.next.ref }}-{{ page.next.slug }}-thumbnail.jpg" alt="">
+              </div>
+              <div class="a-module-content">
+                <h2 class="title au-y">{{ page.next.title }}</h2>
+                <span class="a-module-deets author">{{ page.next.author_name | join: ', ' }}</span>
+                <span class="a-module-deets year">{% if page.next.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.next.year | remove_first: "y" }}</span>
+              </div>
+          </a>
+
        </div>
 
     {% endif %}
