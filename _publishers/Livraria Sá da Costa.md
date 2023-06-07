@@ -1,4 +1,4 @@
 ---
-name: 'Livraria Sá da Costa'
+title: 'Livraria Sá da Costa'
 layout: publisher
 ---

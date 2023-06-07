@@ -1,5 +1,5 @@
 ---
-name: René Hardy
+title: René Hardy
 layout: tag
 type: person
 ---

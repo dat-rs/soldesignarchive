@@ -1,5 +1,5 @@
 ---
-name: Robert Louis Stevenson
+title: Robert Louis Stevenson
 layout: tag
 type: person
 ---

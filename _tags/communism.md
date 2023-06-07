@@ -1,5 +1,5 @@
 ---
-name: communism
+title: communism
 layout: tag
 type: subject
 ---

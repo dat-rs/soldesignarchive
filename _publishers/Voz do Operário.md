@@ -1,4 +1,4 @@
 ---
-name: 'Voz do Operário'
+title: 'Voz do Operário'
 layout: publisher
 ---

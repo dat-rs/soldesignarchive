@@ -1,4 +1,4 @@
 ---
-name: 'London 1980 International Stamp Exhibition'
+title: 'London 1980 International Stamp Exhibition'
 layout: publisher
 ---

@@ -1,5 +1,5 @@
 ---
-name: Latin Wide
+title: Latin Wide
 layout: tag
 type: font
 ---

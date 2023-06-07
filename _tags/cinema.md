@@ -1,5 +1,5 @@
 ---
-name: cinema
+title: cinema
 layout: tag
 type: subject
 ---

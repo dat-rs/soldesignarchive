@@ -1,5 +1,5 @@
 ---
-name: Thomas Mann
+title: Thomas Mann
 layout: tag
 type: person
 ---

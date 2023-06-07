@@ -1,6 +1,6 @@
 ---
 slug: non-fiction
-name: non-fiction
+title: non-fiction
 layout: tag
 type: subject
 ---

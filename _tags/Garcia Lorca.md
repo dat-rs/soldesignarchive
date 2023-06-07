@@ -1,5 +1,5 @@
 ---
-name: Garcia Lorca
+title: Garcia Lorca
 layout: tag
 type: person
 ---

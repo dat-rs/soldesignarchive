@@ -1,5 +1,5 @@
 ---
-name: Alan Paton
+title: Alan Paton
 layout: tag
 type: person
 ---

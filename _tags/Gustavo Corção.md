@@ -1,5 +1,5 @@
 ---
-name: Gustavo Corção
+title: Gustavo Corção
 layout: tag
 type: person
 ---

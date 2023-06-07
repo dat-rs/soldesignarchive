@@ -1,5 +1,5 @@
 ---
-name: almanac
+title: almanac
 layout: tag
 type: subject
 ---

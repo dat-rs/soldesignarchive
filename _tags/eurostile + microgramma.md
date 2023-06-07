@@ -1,5 +1,5 @@
 ---
-name: Eurostile + Microgramma
+title: Eurostile + Microgramma
 layout: tag
 type: font
 ---

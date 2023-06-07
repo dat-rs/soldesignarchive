@@ -1,5 +1,5 @@
 ---
-name: "arts & culture"
+title: "arts & culture"
 layout: tag
 type: subject
 ---

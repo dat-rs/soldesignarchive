@@ -1,5 +1,5 @@
 ---
-name: Helvetica
+title: Helvetica
 layout: tag
 type: font
 ---

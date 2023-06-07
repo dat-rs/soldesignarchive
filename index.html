@@ -98,7 +98,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
                 {% for publisher in site.publishers %}
 
-                <h2 class="title allcat index publishers"><a class="browse-link index" href="{{ publisher.url }}">{{ publisher.name }}</a></h2>
+                <h2 class="title allcat index publishers"><a class="browse-link index" href="{{ publisher.url }}">{{ publisher.title }}</a></h2>
 
                 {% endfor %}
 
@@ -164,7 +164,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
                 {% for tag in site.tags %}
 
-                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.name | replace: "-", " " }}</a></h2>
+                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.title | replace: "-", " " }}</a></h2>
 
                 {% endfor %}
 

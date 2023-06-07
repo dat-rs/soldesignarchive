@@ -1,5 +1,5 @@
 ---
-name: Marx
+title: Marx
 layout: tag
 type: person
 ---

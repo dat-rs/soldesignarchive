@@ -1,5 +1,5 @@
 ---
-name: Churchward Marianna
+title: Churchward Marianna
 layout: tag
 type: font
 ---

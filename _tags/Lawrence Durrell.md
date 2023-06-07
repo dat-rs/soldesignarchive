@@ -1,5 +1,5 @@
 ---
-name: Lawrence Durrell
+title: Lawrence Durrell
 layout: tag
 type: person
 ---

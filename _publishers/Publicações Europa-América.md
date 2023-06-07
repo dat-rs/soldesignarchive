@@ -1,4 +1,4 @@
 ---
-name: 'Publicações Europa-América'
+title: 'Publicações Europa-América'
 layout: publisher
 ---

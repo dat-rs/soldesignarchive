@@ -1,7 +1,10 @@
 ---
+image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include headers/header.html %}
+{% capture description %}Browse artifacts tagged «{{ page.title }}» at the Sol Design Archive.{% endcapture %}
+
+{% include head-and-header.html page-meta-title=page.title page-meta-description=description page-meta-image=layout.image %}
 
 <div class="container container-cat rich">
 
@@ -10,7 +13,7 @@
       <div class="col-12">
 
           <h3 class="cat-label tag">Tag</h3>
-          <h2 class="title tag self">{{ page.name }}</h2>
+          <h2 class="title tag self">{{ page.title }}</h2>
 
 
       </div>
@@ -44,7 +47,7 @@
     
           <div class="col-12">
     
-            {% assign filtered_artifacts = site.artifacts | where: 'tags', page.name %}
+            {% assign filtered_artifacts = site.artifacts | where: 'tags', page.title %}
             {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
             <h3 class="section-title">Artifacts <span class="artifact-count">({{ sorted_filtered_artifacts.size }})</span></h3>
     
@@ -70,7 +73,7 @@
 
       <div class="container">
 
-    {% assign filtered_resources = site.resources | where: 'rel_authors', page.name %}
+    {% assign filtered_resources = site.data.resources | where: 'rel_tags', page.title %}
     {% assign filtered_resources_size = filtered_resources | size %}
     {% if filtered_resources_size > 0 %}
     <div class="row section author-resources">

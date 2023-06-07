@@ -1,4 +1,4 @@
 ---
-name: 'Ulisseia'
+title: 'Ulisseia'
 layout: publisher
 ---

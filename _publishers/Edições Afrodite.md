@@ -1,4 +1,4 @@
 ---
-name: 'Edições Afrodite'
+title: 'Edições Afrodite'
 layout: publisher
 ---

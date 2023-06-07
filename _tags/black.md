@@ -1,5 +1,5 @@
 ---
-name: black
+title: black
 layout: tag
 type: color
 ---

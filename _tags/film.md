@@ -1,5 +1,5 @@
 ---
-name: film
+title: film
 layout: tag
 type: subject
 ---

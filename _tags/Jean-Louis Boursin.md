@@ -1,5 +1,5 @@
 ---
-name: Jean-Louis Boursin
+title: Jean-Louis Boursin
 layout: tag
 type: person
 ---

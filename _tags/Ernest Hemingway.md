@@ -1,5 +1,5 @@
 ---
-name: Ernest Hemingway
+title: Ernest Hemingway
 layout: tag
 type: person
 ---

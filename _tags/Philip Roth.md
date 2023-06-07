@@ -1,5 +1,5 @@
 ---
-name: Philip Roth
+title: Philip Roth
 layout: tag
 type: person
 ---

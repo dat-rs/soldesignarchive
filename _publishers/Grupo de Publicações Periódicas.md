@@ -1,4 +1,4 @@
 ---
-name: 'Grupo de Publicações Periódicas'
+title: 'Grupo de Publicações Periódicas'
 layout: publisher
 ---

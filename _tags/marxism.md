@@ -1,5 +1,5 @@
 ---
-name: marxism
+title: marxism
 layout: tag
 type: subject
 ---

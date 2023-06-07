@@ -1,4 +1,4 @@
 ---
-name: 'Yashica'
+title: 'Yashica'
 layout: publisher
 ---

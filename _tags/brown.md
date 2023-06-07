@@ -1,5 +1,5 @@
 ---
-name: brown
+title: brown
 layout: tag
 type: color
 ---

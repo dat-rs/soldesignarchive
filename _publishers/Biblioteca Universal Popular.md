@@ -1,4 +1,4 @@
 ---
-name: 'Biblioteca Universal Popular'
+title: 'Biblioteca Universal Popular'
 layout: publisher
 ---

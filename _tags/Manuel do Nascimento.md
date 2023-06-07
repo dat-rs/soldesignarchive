@@ -1,5 +1,5 @@
 ---
-name: Manuel do Nascimento
+title: Manuel do Nascimento
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-name: 'tight-not-touching'
+title: 'tight-not-touching'
 layout: tag
 type:
   - typography

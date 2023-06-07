@@ -1,5 +1,5 @@
 ---
-name: "Olavo d’Eça Leal"
+title: "Olavo d’Eça Leal"
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-name: Colecção Educativa
+title: Colecção Educativa
 layout: tag
 type: collection
 ---

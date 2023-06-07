@@ -1,4 +1,4 @@
 ---
-name: 'Editorial Técnica e Artística'
+title: 'Editorial Técnica e Artística'
 layout: publisher
 ---

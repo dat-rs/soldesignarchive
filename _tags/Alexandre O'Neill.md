@@ -1,5 +1,5 @@
 ---
-name: Alexandre O'Neill
+title: Alexandre O'Neill
 layout: tag
 type: person
 ---

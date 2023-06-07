@@ -25,7 +25,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
         {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
         <h3 class="cat-label origin">Origin</h3>
         <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
-        <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts tagged origin: {{ page.name }}.</div>
+        <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts in the archive from {{ page.name }}.</div>
 
       </div> 
 

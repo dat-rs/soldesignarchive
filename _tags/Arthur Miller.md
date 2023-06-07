@@ -1,5 +1,5 @@
 ---
-name: Arthur Miller
+title: Arthur Miller
 layout: tag
 type: person
 ---

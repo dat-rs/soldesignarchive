@@ -1,4 +1,4 @@
 ---
-name: 'Deutscher Taschenbuch Verlag'
+title: 'Deutscher Taschenbuch Verlag'
 layout: publisher
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Arcádia'
+title: 'Arcádia'
 layout: publisher
 ---

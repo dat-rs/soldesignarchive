@@ -1,5 +1,5 @@
 ---
-name: science communication
+title: science communication
 layout: tag
 type: subject
 ---

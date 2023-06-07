@@ -1,5 +1,5 @@
 ---
-name: Hervé Bazin
+title: Hervé Bazin
 layout: tag
 type: person
 ---

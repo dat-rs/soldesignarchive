@@ -1,5 +1,5 @@
 ---
-name: Beatriz Costa
+title: Beatriz Costa
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-name: 25 de Abril
+title: 25 de Abril
 layout: tag
 type: subject
 ---

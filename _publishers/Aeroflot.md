@@ -1,4 +1,4 @@
 ---
-name: 'Aeroflot'
+title: 'Aeroflot'
 layout: publisher
 ---

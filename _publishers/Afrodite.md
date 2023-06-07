@@ -1,4 +1,4 @@
 ---
-name: 'Afrodite'
+title: 'Afrodite'
 layout: publisher
 ---

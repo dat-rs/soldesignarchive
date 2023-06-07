@@ -1,5 +1,5 @@
 ---
-name: biography
+title: biography
 layout: tag
 type: subject
 ---

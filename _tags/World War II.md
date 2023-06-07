@@ -1,5 +1,5 @@
 ---
-name: "World War II"
+title: "World War II"
 layout: tag
 type: subject
 ---

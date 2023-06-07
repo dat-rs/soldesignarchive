@@ -1,4 +1,4 @@
 ---
-name: 'Cadernos Vanguarda'
+title: 'Cadernos Vanguarda'
 layout: publisher
 ---

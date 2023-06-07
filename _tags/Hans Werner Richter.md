@@ -1,5 +1,5 @@
 ---
-name: Hans Werner Richter
+title: Hans Werner Richter
 layout: tag
 type: subject
 ---

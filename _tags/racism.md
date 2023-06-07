@@ -1,5 +1,5 @@
 ---
-name: racism
+title: racism
 layout: tag
 type: subject
 ---

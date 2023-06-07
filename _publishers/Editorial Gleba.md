@@ -1,4 +1,4 @@
 ---
-name: 'Editorial Gleba'
+title: 'Editorial Gleba'
 layout: publisher
 ---

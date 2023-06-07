@@ -1,4 +1,4 @@
 ---
-name: 'Alfred A Knopf'
+title: 'Alfred A Knopf'
 layout: publisher
 ---

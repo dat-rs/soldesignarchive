@@ -1,5 +1,5 @@
 ---
-name: John Cleland
+title: John Cleland
 layout: tag
 type: person
 ---

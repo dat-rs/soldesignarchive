@@ -1,5 +1,5 @@
 ---
-name: socialism
+title: socialism
 layout: tag
 type: subject
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Editorial Alhambra'
+title: 'Editorial Alhambra'
 layout: publisher
 ---

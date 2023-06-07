@@ -1,5 +1,5 @@
 ---
-name: typographic ornaments
+title: typographic ornaments
 layout: tag
 type:
   - typography

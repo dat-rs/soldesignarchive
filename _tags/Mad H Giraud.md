@@ -1,5 +1,5 @@
 ---
-name: Mad H Giraud
+title: Mad H Giraud
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-name: opera
+title: opera
 layout: tag
 type: subject
 ---

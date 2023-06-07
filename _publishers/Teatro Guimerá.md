@@ -1,4 +1,4 @@
 ---
-name: 'Teatro Guimerá'
+title: 'Teatro Guimerá'
 layout: publisher
 ---

@@ -1,5 +1,5 @@
 ---
-name: reverse-contrast
+title: reverse-contrast
 layout: tag
 type:
   - typography

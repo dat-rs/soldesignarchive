@@ -1,4 +1,4 @@
 ---
-name: 'Caixa Económica de Lisboa'
+title: 'Caixa Económica de Lisboa'
 layout: publisher
 ---

@@ -1,4 +1,4 @@
 ---
-name: 'Grove Press'
+title: 'Grove Press'
 layout: publisher
 ---

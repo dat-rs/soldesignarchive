@@ -1,5 +1,5 @@
 ---
-name: Biblioteca dos Rapazes
+title: Biblioteca dos Rapazes
 layout: tag
 type: collection
 ---

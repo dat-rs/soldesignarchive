@@ -1,5 +1,5 @@
 ---
-name: Arthur Stanley Turberville
+title: Arthur Stanley Turberville
 layout: tag
 type: person
 ---

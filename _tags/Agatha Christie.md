@@ -1,5 +1,5 @@
 ---
-name: Agatha Christie
+title: Agatha Christie
 layout: tag
 type: person
 ---

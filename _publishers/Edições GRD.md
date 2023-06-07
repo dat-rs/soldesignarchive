@@ -1,4 +1,4 @@
 ---
-name: 'Edições GRD'
+title: 'Edições GRD'
 layout: publisher
 ---

@@ -1,5 +1,5 @@
 ---
-name: guide
+title: guide
 layout: tag
 type: subject
 ---

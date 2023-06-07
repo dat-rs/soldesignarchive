@@ -1,5 +1,5 @@
 ---
-name: Plato
+title: Plato
 layout: tag
 type: person
 ---

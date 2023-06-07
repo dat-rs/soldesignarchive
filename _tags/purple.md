@@ -1,5 +1,5 @@
 ---
-name: purple
+title: purple
 layout: tag
 type: color
 ---

@@ -1,5 +1,5 @@
 ---
-name: Santos Fernando
+title: Santos Fernando
 layout: tag
 type: person
 ---

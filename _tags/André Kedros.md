@@ -1,5 +1,5 @@
 ---
-name: André Kedros
+title: André Kedros
 layout: tag
 type: person
 ---

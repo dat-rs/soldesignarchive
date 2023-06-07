@@ -1,5 +1,5 @@
 ---
-name: Fyodor Dostoevsky
+title: Fyodor Dostoevsky
 layout: tag
 type: person
 ---

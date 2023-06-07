@@ -1,5 +1,5 @@
 ---
-name: André Bay
+title: André Bay
 layout: tag
 type: person
 ---

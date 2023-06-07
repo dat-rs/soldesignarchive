@@ -1,5 +1,5 @@
 ---
-name: tourism
+title: tourism
 layout: tag
 type: subject
 ---

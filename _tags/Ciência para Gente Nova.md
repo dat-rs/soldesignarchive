@@ -1,5 +1,5 @@
 ---
-name: 'Ciência para Gente Nova'
+title: 'Ciência para Gente Nova'
 layout: tag
 type: collection
 ---
