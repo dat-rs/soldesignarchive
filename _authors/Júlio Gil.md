@@ -1,5 +1,5 @@
 ---
-name: Júlio Gil
+name: "Júlio Gil"
 image_path:
 layout: author
 ---
