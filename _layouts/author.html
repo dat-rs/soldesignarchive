@@ -1,7 +1,10 @@
 ---
+image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include headers/header.html %}
+{% capture description %}{{ page.name }} at the Sol Design Archive.{% endcapture %}
+
+{% include head-and-header.html page-meta-title=page.name page-meta-description=description page-meta-image=layout.image %}
 
 <div class="container container-author">
 

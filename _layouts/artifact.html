@@ -1,9 +1,11 @@
 ---
-description: "An artifact in the Sol Design Archive."
-image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-image=page.image %}
+{% capture description %}{{ page.formats[0] | capitalize }} by {{ page.author_name | join: ', ' }}.{% endcapture %}
+
+{% capture image %}/images/{{ page.ref }}-{{ page.slug }}.jpg{% endcapture %}
+
+{% include head-and-header.html page-meta-title=page.title page-meta-description=description page-meta-image=image %}
 
 <!-- liquid code for previous/next artifact buttons -->
 
