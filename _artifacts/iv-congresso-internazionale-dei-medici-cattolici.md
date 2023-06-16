@@ -9,6 +9,8 @@ disciplines: ['graphic-design', typography, illustration]
 tags: [medicine, catholicism]
 ref: sol-112-0000
 layout: artifact
+status: complete
+published: true
 date_added: 2022-06-21
 ---
 Programme for the «IV International Congress of Catholic Physicians» held in Rome in 1949.

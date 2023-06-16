@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography]
 tags: ['typographic ornaments', stamps, Lisbon]
 ref: sol-511-0000
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-22
 ---
 Ticket for a 1898 fundraising parade in Lisbon’s Avenida da Liberdade. Batalhas das Flores (literally Flower Battles), a concept imported from the French Batailles des Fleurs, were parades where cars and carriages were decorated with flowers. As they passed each other, contestants threw each other flowers – hence the name. Tickets were sold, and the proceeds were used to finance social assistance endeavours.<sup>1</sup>

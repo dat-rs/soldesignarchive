@@ -14,7 +14,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% assign capitalised_page_name = corrected_page_name | capitalize %}
 {% capture description %}Browse artifacts tagged «{{ page.name | replace: "-", " " }}»  at the Sol Design Archive.{% endcapture %}
 
-{% include head-and-header.html page-meta-title=name_all_capitalised page-meta-description=description page-meta-image=layout.image %}
+{% include head-and-header.html page-meta-title=name_all_capitalised page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
 
 <div class="container container-cat simple">
 

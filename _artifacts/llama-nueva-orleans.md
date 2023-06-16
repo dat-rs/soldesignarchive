@@ -7,9 +7,11 @@ publisher: 'unknown publisher'
 formats: [ad]
 disciplines: ['graphic-design', typography, illustration]
 tags: [film]
-ref: sol-333-0005
+ref: sol-333-0001
 wip:
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-06
 ---
 Ad for exhibitions of the 1941 film *The Flame of New Orleans*.

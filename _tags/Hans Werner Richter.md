@@ -1,5 +1,5 @@
 ---
 title: Hans Werner Richter
 layout: tag
-type: subject
+type: person
 ---

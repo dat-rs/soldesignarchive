@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [illustration, "Philip Roth", "Benguiat Caslon"]
 ref: sol-030-0077
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-15
 ---

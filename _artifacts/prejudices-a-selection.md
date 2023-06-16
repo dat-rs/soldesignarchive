@@ -10,6 +10,8 @@ tags: [non-fiction, "H L Mencken"]
 ref: sol-030-0057
 image_count: 2
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---
 A vintage Vintage Paul Rand design. ;)

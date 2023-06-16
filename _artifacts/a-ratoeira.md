@@ -9,6 +9,8 @@ disciplines: ['graphic-design', typography, photography]
 tags: ['Agatha Christie', theatre]
 ref: sol-030-0115
 layout: artifact
+status: complete
+published: true
 date_added: 2022-06-21
 ---
 Portuguese edition of <i>The Mousetrap</i>.

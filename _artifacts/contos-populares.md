@@ -9,5 +9,7 @@ disciplines: [graphic-design, illustration]
 tags: ["Colecção Educativa", "Estado Novo"]
 ref: sol-030-0122
 layout: artifact
+status: complete
+published: true
 date_added: 2022-09-29
 ---

@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, science communication, physics, science, 'Ciência para Gente Nova']
 ref: sol-030-0028
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-08
 ---

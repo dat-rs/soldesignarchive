@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [Philippe Sollers, fiction, illustration, orange, purple]
 ref: sol-010-0012
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---

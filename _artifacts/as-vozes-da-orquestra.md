@@ -6,6 +6,8 @@ publisher:
 - Plano de Educação Popular
 date_added: 2022-05-24
 layout: artifact
+status: complete
+published: true
 title: As Vozes da Orquestra
 author_name:
 - José João

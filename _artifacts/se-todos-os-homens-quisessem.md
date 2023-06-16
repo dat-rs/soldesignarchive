@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [fiction, "Os Livros das Três Abelhas", "Publicações Europa-América", brown, blue, illustration]
 ref: sol-030-0046
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---

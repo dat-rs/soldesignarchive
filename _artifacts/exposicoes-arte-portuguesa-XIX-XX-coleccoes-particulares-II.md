@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [art]
 ref: sol-231-0007
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-18
 ---

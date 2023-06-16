@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: [Vercors]
 ref: sol-010-0023
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-07
 ---

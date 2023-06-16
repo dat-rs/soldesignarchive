@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, photography]
 tags: [art, 'folk art']
 ref: sol-030-0104
 layout: artifact
+status: complete
+published: true
 date_added: 2022-06-01
 ---

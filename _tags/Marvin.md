@@ -1,7 +1,7 @@
 ---
 title: Marvin
 layout: tag
-type: font
+type: typeface
 ---
 Marvin was designed by Michael Chave and originally published by Face Photosetting in 1969. Later distributed by Letraset and Mecanorma.<sup>1</sup>
 

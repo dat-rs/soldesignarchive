@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [non-fiction, agriculture, communism]
 ref: sol-030-0176
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-09
 ---

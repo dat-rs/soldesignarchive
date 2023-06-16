@@ -2,6 +2,7 @@
 name: Moreira Rijo
 image_path:
 layout: author
+published: true
 ---
 João Carlos Moreira Rijo worked in several capacities at <a class="text cat-link publisher" href="/publishers/RTP/">RTP</a>. He was head of the Staff Division in the aftermath of <a class="text cat-link tag" href="/tags/25 de Abril/">25 de Abril</a>.<sup>1</sup> He is known to have worked at some point in the graphics department.<sup>2</sup>
 

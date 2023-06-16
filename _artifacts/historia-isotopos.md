@@ -10,6 +10,8 @@ tags: [non-fiction, science communication, physics, science, 'Ciência para Gent
 ref: sol-030-0026
 image_count: 2
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-13
 ---
 A history of isotopes.

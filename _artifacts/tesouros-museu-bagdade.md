@@ -7,9 +7,11 @@ publisher: 'Fundação Calouste Gulbenkian'
 formats: [book, book-cover, catalogue]
 disciplines: [graphic-design, typography, photography]
 tags: [art]
-ref: sol-231-0013
+ref: sol-231-0000
 image_count: 2
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-22
 ---
 About the exhibition:

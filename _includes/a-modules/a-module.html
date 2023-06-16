@@ -5,7 +5,11 @@
         {% if artifact.image_count %}
           <i class="bi bi-images a-module-corner-icon"></i>
         {% endif %}
-        <img class="a-module-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="">
+        {% if artifact.published == false %}
+      <img class="a-module-img" src="/images/non-art/black-square.png" alt="">
+      {% else %}
+      <img class="a-module-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="">
+      {% endif %}
       </div>
 
   </a>

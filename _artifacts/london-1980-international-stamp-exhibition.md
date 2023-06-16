@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography, illustration]
 tags: [London]
 ref: sol-232-0000
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-16
 ---
 The cover designed by Jeffrey Matthews was also issued as a stamp<sup>1</sup> on the occasion of the exhibition.

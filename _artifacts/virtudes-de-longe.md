@@ -10,5 +10,7 @@ tags: ["Colecção Educativa", 'propaganda']
 ref: sol-030-0140
 image_count: 2
 layout: artifact
+status: complete
+published: true
 date_added: 2022-10-06
 ---

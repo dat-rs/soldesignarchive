@@ -2,6 +2,7 @@
 name: António Gedeão
 image_path:
 layout: author
+published: true
 ---
 Rómulo de Carvalho (1906–1997) was a Portuguese professor, writer, poet, science historian, essayist, and science communicator. António Gedeão is the pseudonym Carvalho used for non-scientific work<sup><a class="fn-down" id="fn1-a" href="#fn1-b">1</a></sup> and which he also used to sign the covers he designed for his own books.
 

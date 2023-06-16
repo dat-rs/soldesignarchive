@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography, illustration, identity, logo]
 tags: ['']
 ref: sol-530-0001
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-22
 ---
 Photo envelope from Filmarte, a photo lab in Lisbon.

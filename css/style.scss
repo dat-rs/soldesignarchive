@@ -166,7 +166,9 @@ p.about-sol {
 .page-title-label, 
 .prev-next-label,
 h3.filter-title,
-.a-module-deets {
+.a-module-deets,
+.faux-table.db,
+.faux-table-head-row {
   font-family: "indivisible-variable", sans-serif;
   font-variation-settings: "wght" 450;
   font-size: 13px;
@@ -263,7 +265,7 @@ section.about {
 .container-header {
   padding-bottom: 0;
   color: black;
-  z-index: 100;
+  z-index: 1000;
   overflow: hidden;
 }
 
@@ -727,14 +729,27 @@ p.about-sol strong {
 
 .container-blog-index,
 .container-fluid.about,
-.latest-artifacts-container-1,
 .latest-resources-container {
   padding-top: 60px;
+}
+
+.latest-artifacts-container-1 {
+  padding-top: 60px;
+  background-color: #000;
+}
+
+.latest-artifacts-container-outer {
+  background-color: #000;
 }
 
 .latest-artifacts-container-2,
 .latest-resources-container {
   padding-bottom: 60px;
+}
+
+.latest-artifacts-container-2.new {
+  background-color: #000;
+  color: white;
 }
 
 .container-sections-index {
@@ -1000,6 +1015,10 @@ h3.section-title {
   margin-bottom: 1rem;
 }
 
+.negative {
+  color: $bg-white;
+}
+
 h3.filter-title {
   font-variation-settings: "wght" 800;
   font-size: 12px;
@@ -1039,8 +1058,8 @@ a.cta {
 }
 
 a.cta:hover {
-  color: $bg-white;
-  background-color: black;
+  color: black;
+  background-color: $bg-white;
 }
 
 /* >> Sun Titles */
@@ -1117,7 +1136,7 @@ i.bi-images.a-module-corner-icon {
   margin-left: 10px;
   margin-top: 10px;
   color: $bg-white;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .resource-module {
@@ -1197,11 +1216,12 @@ i.bi-images.a-module-corner-icon {
   padding-bottom: 15px;
 }
 
-.a-filter-label, .a-filter {
+.a-filter-label, .a-filter, button.button {
   font-size: 10px;
   text-transform: uppercase;
   line-height: 1;
   color: $bg-white;
+  background-color: transparent;
   padding-top: 6px;
   padding-bottom: 3px;
   padding-left: 10px;
@@ -1223,7 +1243,7 @@ i.bi-images.a-module-corner-icon {
   text-transform: none;
 }
 
-.btn-check.filter:checked + .a-filter-label {
+.btn-check.filter:checked + .a-filter-label, button.button.is-checked {
   background-color: black;
   color: $bg-white;
   border-color: $artifact-color;
@@ -1494,8 +1514,19 @@ img.artifact-img {
   color: $tag-color;
 }
 
+.cat-label.tag span.subtag {
+  font-variation-settings: "wght" 500;
+}
+
+.cat-label.allcats-subtag {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+
 .cat-label.resource {
   color: $resource-color;
+  font-weight: normal;
 }
 
 /* Artifact Deets */
@@ -1685,6 +1716,10 @@ a.deet-link.resource:hover {
 .a-module-content {
   padding-bottom: 4px;
   border-bottom: 1px solid gray;
+}
+
+.a-module-content.new {
+  color: white;
 }
 
 .artifact-count-deet {
@@ -2151,6 +2186,7 @@ span.fn-title {
 
 #latest-grid {
   --bs-gutter-x: 0.75rem;
+  align-items: end;
 }
 
 .section-index-container {
@@ -2185,6 +2221,45 @@ span.fn-title {
 
 .col-tags-index {
   background-color: $tag-color;
+}
+
+
+/* DB */
+
+.faux-table.db,
+.faux-table-head-row {
+  font-size: 11px;
+  font-weight: normal;
+  animation: 0s;
+}
+
+.faux-table-head-row {
+  margin-top: 15px;
+}
+
+.faux-table-head-row,
+.tabold {
+  font-weight: normal;
+  font-variation-settings: "wght" 700;
+}
+
+.artifact-table-row,
+.faux-table-head-row {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 100%;
+}
+
+.artifact-table-row {
+  border-top: 1px solid gray;
+}
+
+.db-link {
+  color: gray;
+}
+
+img.db-img {
+  max-width: 30px;
 }
 
 @keyframes colors {
@@ -2294,6 +2369,10 @@ span.fn-title {
       width: 60px;
   }
 
+  .sol-circle.back-office svg {
+    width: 10px;
+}
+
   .sub-header-col {
     height: 76px;
   }
@@ -2399,6 +2478,12 @@ span.fn-title {
     margin-bottom: 6px;
   }
 
+  h1.site-title.back-office {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+
   h2.title.self, h2.title.blog.self {
     font-size: 40px;
   }
@@ -2416,12 +2501,24 @@ span.fn-title {
   margin-top: $header-height-lg;
 }
 
+.container-fluid.back-office {
+  margin-top: 45px;
+}
+
   .sub-header-col {
     height: 90px;
   }
 
+  .back-office .sub-header-col {
+    height: 45px;
+  }
+
   .sub-header-link {
     line-height: 90px;
+  }
+
+  .back-office .sub-header-col .sub-header-link {
+    line-height: 45px;
   }
 
   .artifact-deets-col {

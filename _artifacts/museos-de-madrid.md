@@ -11,6 +11,8 @@ ref: sol-121-0000
 image_count: 3
 image_captions: ["", "Map of downtown Madrid. Francisco Espinosa.", "Illustrations by J. Ruiz Navarro."]
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---
 

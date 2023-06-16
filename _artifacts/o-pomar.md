@@ -9,6 +9,8 @@ disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa"]
 ref: sol-030-0165
 layout: artifact
+status: complete
+published: true
 date_added: 2022-10-02
 ---
 Cover by <a class="text cat-link author" href="/authors/Fernandes Silva/">Fernandes Silva</a>.

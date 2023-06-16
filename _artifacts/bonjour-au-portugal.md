@@ -9,6 +9,8 @@ disciplines: ['graphic-design', typography, illustration]
 tags: [tourism, 'rooster of Barcelos']
 ref: sol-410-0000
 layout: artifact
+status: complete
+published: true
 date_added: 2022-06-21
 ---
 Poster stamp, or vignette, reproducing a poster designed by <a class="text cat-link author" href="/authors/Marcelino Vespeira/">Marcelino Vespeira</a> for <a class="text cat-link publisher" href="/publishers/SPN-SNI-SEIT/">SNI</a> promoting tourism in Portugal. This poster had several versions over the years in different languages and with different taglines.

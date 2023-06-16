@@ -2,6 +2,7 @@
 name: Edi Consolo
 image_path:
 layout: author
+published: true
 ---
 Edi Consolo (1908–2004) was an Italian illustrator who specialised in portraying Alpine views. Of Jewish origin, he was a member of the Italian *Resistenza* during World War II.<sup>1</sup>
 

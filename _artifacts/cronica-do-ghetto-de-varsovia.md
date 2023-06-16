@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, photography]
 tags: [non-fiction, history, duotone]
 ref: sol-030-0012
 layout: artifact
+status: complete
+published: true
 date_added: 2022-03-01
 ---

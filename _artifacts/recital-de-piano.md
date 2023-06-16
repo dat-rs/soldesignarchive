@@ -10,6 +10,8 @@ tags: ['Jorge Amado', music]
 iconography: []
 ref: sol-110-0001
 layout: artifact
+status: complete
+published: true
 image_count: 4
 date_added: 2022-05-16
 ---

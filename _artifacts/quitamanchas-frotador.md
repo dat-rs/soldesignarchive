@@ -7,9 +7,11 @@ publisher: 'Especialidades CGM'
 formats: [ad]
 disciplines: ['graphic-design', typography, illustration]
 tags: []
-ref: sol-333-0004
+ref: sol-333-0000
 wip:
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-06
 ---
 «With Frotador stain remover, the stains remove themselves».

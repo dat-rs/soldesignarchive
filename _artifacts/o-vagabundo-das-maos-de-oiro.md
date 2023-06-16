@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [illustration, "Romeu Correia", theatre]
 ref: sol-030-0058
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-17
 ---

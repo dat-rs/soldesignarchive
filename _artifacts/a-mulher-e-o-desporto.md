@@ -5,6 +5,8 @@ origin:
 - Portugal
 date_added: 2022-05-25
 layout: artifact
+status: complete
+published: true
 title: A Mulher e o Desporto
 ref: sol-030-0099
 formats:

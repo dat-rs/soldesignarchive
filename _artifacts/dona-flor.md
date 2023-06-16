@@ -10,5 +10,7 @@ tags: [fiction, 'Jorge Amado']
 iconography: [women, men, rain]
 ref: sol-030-0035
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-08
 ---

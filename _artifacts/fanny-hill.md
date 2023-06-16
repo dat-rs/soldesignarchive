@@ -6,8 +6,10 @@ origin: Portugal
 publisher: 'Arcádia'
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [John Cleland]
-ref: sol-030-0002
+tags: [John Cleland, black, pink, gold]
+ref: sol-030-0053
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-07
 ---

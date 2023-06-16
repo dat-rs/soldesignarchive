@@ -1,5 +1,5 @@
 ---
 title: Kabel
 layout: tag
-type: font
+type: typeface
 ---

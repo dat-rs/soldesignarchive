@@ -10,6 +10,8 @@ tags: ['Beatriz Costa']
 iconography: [people, women]
 ref: sol-010-0018
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-07
 ---
 Design by João Abel Manta. Photo by Eduardo Gageiro. Memoirs of Portuguese actress Beatriz Costa.

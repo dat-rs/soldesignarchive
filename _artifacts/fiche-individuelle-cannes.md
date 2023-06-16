@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography]
 tags: ['stamps']
 ref: sol-460-0000
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-22
 ---
 Identification form for a passenger of Portuguese cruise-ship <cite>Infante Dom Henrique</cite> docking in Cannes, France.

@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: [monochrome]
 ref: sol-030-0063
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-17
 ---
