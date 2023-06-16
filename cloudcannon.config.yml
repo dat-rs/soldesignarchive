@@ -1,0 +1,114 @@
+collections_config:
+  artifacts:
+    name: Artifacts
+    path: _artifacts
+    schemas:
+      default:
+        path: .cloudcannon/schemas/artifact.md
+        name: Artifact
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.ref:
+            label: Reference
+            comment: sol-000-0000
+          $.types:
+            type: array
+          $.author_name:
+            type: array
+            label: Authors
+          $.publisher:
+            type: multiselect
+            options:
+              values: []
+              allow_create: true
+              allow_empty: true
+          $.year:
+            comment: 'The year with a y preceding it. Ex: ''y1965'''
+          $.origin:
+            type: multiselect
+            options:
+              values: []
+              allow_create: true
+              allow_empty: true
+          $.tags:
+            type: array
+          $.image_count:
+            type: number
+          $.date_added:
+            instance_value: NOW
+            type: date
+          $.layout:
+            hidden: true
+  authors:
+    name: Authors
+    path: _authors
+  posts:
+    name: Posts
+    path: _posts
+    schemas:
+      default:
+        path: .cloudcannon/schemas/blog-post.md
+        name: Blog Post
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.title:
+            label: Blog Post Title
+        text_key: title
+  shorts:
+    name: Shorts
+    path: _shorts
+    schemas:
+      default:
+        path: .cloudcannon/schemas/short.md
+        name: Short
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+  publishers:
+    name: Publishers
+    path: _publishers
+  years:
+    name: Years
+    path: _years
+  origins:
+    name: Origins
+    path: _origins
+  types:
+    name: Types
+    path: _types
+  tags:
+    name: Tags
+    path: _tags
+  resources:
+    name: Resources
+    path: _resources
+  pages:
+    name: Pages
+    path: ''
+collection_groups:
+  - heading: Content
+    collections:
+      - artifacts
+      - authors
+      - posts
+      - shorts
+      - publishers
+      - years
+      - origins
+      - types
+      - tags
+      - resources
+      - pages
+paths:
+  static: ''
+  uploads: images
+_inputs:
+  template:
+    hidden: true
