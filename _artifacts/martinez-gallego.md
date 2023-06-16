@@ -10,6 +10,8 @@ tags: [art]
 ref: sol-130-0000
 wip:
 layout: artifact
+status: complete
+published: true
 image_count: 2
 date_added: 2023-03-06
 ---

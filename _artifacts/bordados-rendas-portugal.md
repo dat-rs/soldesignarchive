@@ -10,5 +10,7 @@ tags: ["Colecção Educativa"]
 ref: sol-030-0153
 wip: false
 layout: artifact
+status: complete
+published: true
 date_added: 2022-10-06
 ---

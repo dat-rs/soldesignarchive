@@ -9,5 +9,7 @@ disciplines: ['graphic-design', typography]
 tags: ['Francisco Ferreira', tight-not-touching]
 ref: sol-030-0114
 layout: artifact
+status: complete
+published: true
 date_added: 2022-06-21
 ---

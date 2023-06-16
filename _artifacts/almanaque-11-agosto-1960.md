@@ -8,9 +8,10 @@ formats: [magazine]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo Magalhães"]
 ref: sol-320-0012
-wip: true
 image_count: 2
 layout: artifact
+status: wip
+published: true
 date_added: 2022-07-04
 ---
 <p>This is the eleventh number of <a class="text cat-link publisher" href="/tags/almanaque/">Almanaque</a>.</p>

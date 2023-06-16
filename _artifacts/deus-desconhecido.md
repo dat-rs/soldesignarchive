@@ -10,5 +10,7 @@ tags: [fiction, "John Steinbeck", "Os Livros das Três Abelhas"]
 ref: sol-030-0032
 image_count: 2
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-17
 ---

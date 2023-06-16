@@ -10,6 +10,8 @@ tags: ['25 de Abril', government, monochrome]
 iconography: [locket]
 ref: sol-030-0008
 layout: artifact
+status: complete
+published: true
 image_count: 4
 date_added: 2022-05-07
 ---

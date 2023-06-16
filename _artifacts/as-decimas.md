@@ -9,5 +9,7 @@ disciplines: [graphic-design, illustration, lettering]
 tags: ["Colecção Educativa"]
 ref: sol-030-0164
 layout: artifact
+status: complete
+published: true
 date_added: 2022-10-02
 ---

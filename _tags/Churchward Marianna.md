@@ -1,7 +1,7 @@
 ---
 title: Churchward Marianna
 layout: tag
-type: font
+type: typeface
 ---
 Marianna is a typeface designed by Joseph Churchward in 1969.<sup>1</sup>
 

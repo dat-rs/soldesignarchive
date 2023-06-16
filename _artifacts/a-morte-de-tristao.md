@@ -9,5 +9,7 @@ disciplines: [graphic-design, photography, typography]
 tags: [fiction, "Michel del Castillo"]
 ref: sol-030-0076
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-15
 ---

@@ -1,16 +1,18 @@
-<div class="container latest-artifacts-container-1">
+<div class="container-fluid latest-artifacts-container-outer">
+  <div class="container latest-artifacts-container-1">
 
     <div class="row">
 
         <div class="col-12">
 
-            <h3 class="section-title">Latest Artifacts added</h3>
+            <h3 class="section-title negative">Latest Artifacts added</h3>
 
         </div>
     </div>
 </div>
+</div>
 
-<div class="container-fluid latest-artifacts-container-2">
+<div class="container-fluid latest-artifacts-container-2 new">
 
   <div id="latest-grid" class="row">
 
@@ -18,8 +20,8 @@
 
     {% for artifact in latest_artifacts %}
 
-    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-    {% include a-modules/a-module-au-y.html %}
+    <div class="col-6 col-md-4 col-lg-2 col-xl-1">
+    {% include a-modules/a-module-new.html %}
     </div>
 
   {% endfor %}

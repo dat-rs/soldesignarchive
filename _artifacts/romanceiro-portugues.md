@@ -9,6 +9,8 @@ disciplines: [graphic-design, illustration, lettering, "Estado Novo"]
 tags: ["Colecção Educativa"]
 ref: sol-030-0130
 layout: artifact
+status: complete
+published: true
 date_added: 2022-09-29
 ---
 Cover by <a class="text cat-link author" href="/publishers/Marcelo de Morais/">Marcelo de Morais</a>.

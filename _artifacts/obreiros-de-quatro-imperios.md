@@ -9,6 +9,7 @@ disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa"]
 ref: sol-030-0166
 layout: artifact
-wip: true
+published: true
+status: wip
 date_added: 2022-10-02
 ---

@@ -8,7 +8,8 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa"]
 ref: sol-030-0151
-wip: true
 layout: artifact
+status: wip
+published: true
 date_added: 2022-10-06
 ---

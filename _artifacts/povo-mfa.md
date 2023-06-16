@@ -9,5 +9,7 @@ disciplines: ['graphic-design', typography, illustration]
 tags: ["25 de Abril"]
 ref: sol-430-0002
 layout: artifact
+status: complete
+published: true
 date_added: 2022-06-02
 ---

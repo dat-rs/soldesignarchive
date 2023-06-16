@@ -10,5 +10,7 @@ tags: ['Gil Vicente', 'António José Saraiva', theatre]
 iconography: [devil, angels, boat]
 ref: sol-030-0033
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-07
 ---

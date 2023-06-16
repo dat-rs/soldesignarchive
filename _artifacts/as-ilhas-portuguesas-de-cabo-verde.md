@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["Colecção Educativa"]
 ref: sol-030-0136
 layout: artifact
+status: complete
+published: true
 date_added: 2022-07-04
 ---
 Cover design by <a class="text cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>.

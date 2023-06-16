@@ -9,5 +9,7 @@ disciplines: ['graphic-design', typography]
 tags: [non-fiction]
 ref: sol-030-0190
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-14
 ---

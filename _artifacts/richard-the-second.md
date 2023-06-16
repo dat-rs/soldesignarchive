@@ -7,7 +7,9 @@ publisher: 'Washington Square Press'
 formats: [book, book-cover]
 disciplines: ['graphic-design', typography, illustration]
 tags: ["William Shakespeare"]
-ref: sol-030-0106
+ref: sol-030-0061
 layout: artifact
+status: complete
+published: true
 date_added: 2022-06-02
 ---

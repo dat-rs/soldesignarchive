@@ -7,8 +7,10 @@ publisher: 'Seleções do Readers Digest'
 formats: [magazine]
 disciplines: ['graphic-design', typography, illustration]
 tags: []
-ref: sol-320-0012
+ref: sol-320-0000
 layout: artifact
+status: complete
+published: true
 image_count: 2
 date_added: 2023-03-15
 ---

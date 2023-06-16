@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [vernacular]
 ref: sol-010-0039
 layout: artifact
+status: complete
+published: true
 date_added: 2020-04-07
 ---

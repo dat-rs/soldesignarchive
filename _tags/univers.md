@@ -1,5 +1,5 @@
 ---
 title: Univers
 layout: tag
-type: font
+type: typeface
 ---

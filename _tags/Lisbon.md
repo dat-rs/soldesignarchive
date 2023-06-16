@@ -1,5 +1,5 @@
 ---
 title: Lisbon
 layout: tag
-type: person
+type: subject
 ---

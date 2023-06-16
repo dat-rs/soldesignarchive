@@ -19,7 +19,11 @@
                 {% if page.previous.image_count %}
                   <i class="bi bi-images a-module-corner-icon"></i>
                 {% endif %}
+                {% if page.previous.published == false %}
+                <img class="a-module-img" src="/images/non-art/black-square.png" alt="">
+                {% else %}
                 <img class="a-module-img" src="/images/{{ page.previous.ref }}-{{ page.previous.slug }}-thumbnail.jpg" alt="">
+                {% endif %}
               </div>
               <div class="a-module-content">
                 <h2 class="title au-y">{{ page.previous.title }}</h2>
@@ -45,7 +49,11 @@
                 {% if page.next.image_count %}
                   <i class="bi bi-images a-module-corner-icon"></i>
                 {% endif %}
+                {% if page.next.published == false %}
+                <img class="a-module-img" src="/images/non-art/black-square.png" alt="">
+                {% else %}
                 <img class="a-module-img" src="/images/{{ page.next.ref }}-{{ page.next.slug }}-thumbnail.jpg" alt="">
+                {% endif %}
               </div>
               <div class="a-module-content">
                 <h2 class="title au-y">{{ page.next.title }}</h2>

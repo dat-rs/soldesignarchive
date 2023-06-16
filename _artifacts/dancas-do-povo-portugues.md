@@ -9,7 +9,8 @@ disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa"]
 ref: sol-030-0167
 layout: artifact
-wip: true
+published: true
+status: wip
 date_added: 2022-10-02
 ---
 Cover by <a class="text cat-link author" href="/authors/Marcelo de Morais/">Marcelo de Morais</a>.

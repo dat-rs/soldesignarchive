@@ -1,0 +1,9 @@
+<a class="a-module sm grid" href="{{ artifact.url }}">
+    <div class="a-module-img-holder">
+      {% if artifact.published == false %}
+      <img class="a-module-img" src="/images/non-art/black-square.png" alt="">
+      {% else %}
+      <img class="a-module-img" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg" alt="">
+      {% endif %}
+    </div>
+</a>

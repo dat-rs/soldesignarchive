@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, culture, Penguin, Helvetica, illustration, red]
 ref: sol-010-0054
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---

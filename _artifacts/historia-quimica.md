@@ -8,8 +8,9 @@ formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: [science, 'The New Illustrated Library of Science and Invention' ]
 ref: sol-030-0174
-wip: true
 layout: artifact
+status: wip
+published: true
 date_added: 2023-03-09
 ---
 Portuguese edition of *A History of Chemistry*, a volume part of <a class="text cat-link tag" href="/tags/The New Illustrated Library of Science and Invention/">The New Illustrated Library of Science and Invention</a>, directed and designed by <a class="text cat-link author" href="/authors/Erik Nitsche/">Erik Nitsche</a>.

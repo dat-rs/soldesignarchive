@@ -8,7 +8,8 @@ formats: [book, book-cover]
 disciplines: ['graphic-design', typography, illustration]
 tags: ["Jean Paul Sartre", "Thomas Mann", "Panait Istrati", "D H Lawrence"]
 ref: sol-030-0092
-wip: true
 layout: artifact
+status: wip
+published: true
 date_added: 2022-05-25
 ---

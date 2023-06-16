@@ -2,6 +2,7 @@
 name: Elizabeth Ivanovsky
 image_path:
 layout: author
+published: true
 ---
 Elisabeth Ivanovsky (1910–2006) was Belgian-Russian illustrator and painter. She illustrated 346 children's books<sup>1</sup>
 

@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [theatre, "Eugène Ionesco"]
 ref: sol-030-0069
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-17
 ---

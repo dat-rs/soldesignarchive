@@ -10,6 +10,8 @@ tags: ["Willa Cather", circles, pattern]
 ref: sol-030-0070
 image_count: 2
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-17
 ---
 A collection of five short stories by Willa Cather.

@@ -10,5 +10,7 @@ tags: []
 iconography: [people, women, men]
 ref: sol-030-0228
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-10
 ---

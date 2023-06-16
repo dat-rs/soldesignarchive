@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, photography]
 tags: [theatre, "multiple exposure", monochrome]
 ref: sol-030-0068
 layout: artifact
+status: complete
+published: true
 date_added: 2022-02-17
 ---

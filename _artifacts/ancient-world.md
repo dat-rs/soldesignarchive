@@ -9,5 +9,7 @@ disciplines: ['graphic-design', typography, illustration]
 tags: [non-fiction, "Pelican Books"]
 ref: sol-030-0210
 layout: artifact
+status: complete
+published: true
 date_added: 2023-03-13
 ---

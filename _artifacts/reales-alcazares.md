@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography]
 tags: ['typographic ornaments', stamps, Seville]
 ref: sol-511-0001
 layout: artifact
+status: complete
+published: true
 image_count: 2
 date_added: 2022-05-22
 ---

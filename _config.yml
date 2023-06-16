@@ -33,6 +33,7 @@ collections:
   tags:
     output: true
     permalink: /tags/:path/
+    sort_by: type
   resources:
     output: true
     permalink: /resources/:path/

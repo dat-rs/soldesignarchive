@@ -9,5 +9,7 @@ disciplines: [graphic-design]
 tags: []
 ref: sol-030-0019
 layout: artifact
+status: complete
+published: true
 date_added: 2022-03-04
 ---

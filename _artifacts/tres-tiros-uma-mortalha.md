@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [fiction, short story, 'Rogério Fernandes', 'Os Livros das Três Abelhas']
 ref: sol-030-0009
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---

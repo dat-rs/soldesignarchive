@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography]
 tags: ['reverse-contrast']
 ref: sol-530-0002
 layout: artifact
+status: complete
+published: true
 date_added: 2022-05-22
 ---
 Photo envelope with publicity for Japanese photo equipment maker Yashica.

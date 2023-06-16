@@ -9,5 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["Manuel do Nascimento", fiction, black, blue, red]
 ref: sol-010-0038
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---

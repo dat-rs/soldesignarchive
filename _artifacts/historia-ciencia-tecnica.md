@@ -9,6 +9,8 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: [science, technology ]
 ref: sol-010-0021
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---
 The cover is very faithfull adaptation of the original Pelican Books cover.

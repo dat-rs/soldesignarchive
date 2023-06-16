@@ -10,5 +10,7 @@ tags: ["Colecção Educativa", "Estado Novo", theatre]
 ref: sol-030-0127
 image_count: 5
 layout: artifact
+status: complete
+published: true
 date_added: 2022-09-29
 ---

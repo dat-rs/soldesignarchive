@@ -5,6 +5,8 @@ origin:
 - Portugal
 date_added: 2022-05-25
 layout: artifact
+status: complete
+published: true
 title: Delirante Brasil?
 ref: sol-030-0102
 formats:

@@ -10,6 +10,8 @@ tags: [Brazil, non-fiction, tourism, commerce, government, illustration, propaga
 ref: sol-030-0007
 image_count: 8
 layout: artifact
+status: complete
+published: true
 date_added: 2020-01-01
 ---
 
