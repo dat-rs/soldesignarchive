@@ -2262,6 +2262,7 @@ span.fn-title {
   font-size: 11px;
   font-weight: normal;
   animation: 0s;
+  margin-bottom: 30px;
 }
 
 .faux-table-head-row {
@@ -2277,7 +2278,7 @@ span.fn-title {
 .artifact-table-row,
 .faux-table-head-row {
   padding-top: 4px;
-  padding-bottom: 4px;
+  padding-bottom: 0px;
   width: 100%;
 }
 
@@ -2291,6 +2292,12 @@ span.fn-title {
 
 img.db-img {
   max-width: 30px;
+}
+
+span.reference,
+.faux-table-col span.reference,
+.faux-table-col span.date {
+  font-variant-numeric: tabular-nums;
 }
 
 @keyframes colors {
