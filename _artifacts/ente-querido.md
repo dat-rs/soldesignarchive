@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0001
-title: ["O Ente Querido"]
+title: "O Ente Querido"
 author_name: ["Querubim Lapa, João Abel Manta"]
 publisher: ["Ulisseia"]
 year: "y1955"

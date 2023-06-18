@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0199
-title: ["Maridos e Amantes"]
+title: "Maridos e Amantes"
 author_name: ["A. Pedro"]
 publisher: ["Livros do Brasil"]
 year: "y1985"

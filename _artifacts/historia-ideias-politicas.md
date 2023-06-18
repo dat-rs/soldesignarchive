@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0003
-title: ["História das Ideias Políticas — Walter Theimer"]
+title: "História das Ideias Políticas — Walter Theimer"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Arcádia"]
 year: "y1970"

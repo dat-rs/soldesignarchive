@@ -1,6 +1,6 @@
 ---
 ref: sol-323-0000
-title: ["Boletim da Sociedade Nacional de Belas Artes 5"]
+title: "Boletim da Sociedade Nacional de Belas Artes 5"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

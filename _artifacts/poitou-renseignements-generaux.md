@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0031
-title: ["Poitou - Renseignements Généraux"]
+title: "Poitou - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

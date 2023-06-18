@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0020
-title: ["O Americano Tranquilo"]
+title: "O Americano Tranquilo"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]
 year: "y1954"

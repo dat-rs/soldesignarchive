@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0196
-title: ["Arte Ornamental dos Tecidos"]
+title: "Arte Ornamental dos Tecidos"
 author_name: ["unknown author"]
 publisher: ["Carlos Bastos"]
 year: "y1954"

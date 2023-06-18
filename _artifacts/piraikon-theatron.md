@@ -1,6 +1,6 @@
 ---
 ref: sol-110-0003
-title: ["Piraikon Theatron"]
+title: "Piraikon Theatron"
 author_name: ["unknown author"]
 publisher: ["Fundação Calouste Gulbenkian"]
 year: "y1963"

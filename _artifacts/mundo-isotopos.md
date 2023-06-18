@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0047
-title: ["O Mundo dos Isótopos"]
+title: "O Mundo dos Isótopos"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Editorial Técnica e Artística"]
 year: "y1962"

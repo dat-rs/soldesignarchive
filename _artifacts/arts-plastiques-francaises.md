@@ -1,6 +1,6 @@
 ---
 ref: sol-231-0001
-title: ["Arts Plastiques Françaises"]
+title: "Arts Plastiques Françaises"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Fundação Calouste Gulbenkian"]
 year: "y1964"

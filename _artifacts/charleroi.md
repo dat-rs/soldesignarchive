@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0010
-title: ["Charleroi"]
+title: "Charleroi"
 author_name: ["COETS Publicité"]
 publisher: ["Commissariat Général au Turisme"]
 year: y1958

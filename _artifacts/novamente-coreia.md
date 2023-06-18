@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0032
-title: ["Novamente a Coreia"]
+title: "Novamente a Coreia"
 author_name: ["unknown author"]
 publisher: ["Seara Nova"]
 year: "y1969"

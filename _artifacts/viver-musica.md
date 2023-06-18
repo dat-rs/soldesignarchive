@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0242
-title: ["Viver a Música"]
+title: "Viver a Música"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

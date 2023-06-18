@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0237
-title: ["08/15. A Caserna"]
+title: "08/15. A Caserna"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

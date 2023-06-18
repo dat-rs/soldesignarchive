@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0002
-title: ["Os Comediantes"]
+title: "Os Comediantes"
 author_name: ["Aguinaldo A. Maria"]
 publisher: ["unknown publisher"]
 year: "unknown date"

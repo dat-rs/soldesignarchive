@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0052
-title: ["O Covil"]
+title: "O Covil"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Editorial Inquérito"]
 year: "y1960"

@@ -1,6 +1,6 @@
 ---
 ref: sol-410-0004
-title: ["Bruxelas 1958 stamps"]
+title: "Bruxelas 1958 stamps"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]
 year: y1958

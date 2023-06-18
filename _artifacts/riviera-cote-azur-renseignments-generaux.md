@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0029
-title: ["Riviera Cote d’Azur - Renseignements Généraux"]
+title: "Riviera Cote d’Azur - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0084
-title: ["Monte Carlo"]
+title: "Monte Carlo"
 author_name: ["unknown author"]
 publisher: ["Editorial O Primeiro de Janeiro"]
 year: "y1948"

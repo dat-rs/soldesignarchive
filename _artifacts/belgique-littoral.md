@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0001
-title: ["Belgique. Le Littoral"]
+title: "Belgique. Le Littoral"
 author_name: ["Ange Rawoe"]
 publisher: ["unknown publisher"]
 year: y1958

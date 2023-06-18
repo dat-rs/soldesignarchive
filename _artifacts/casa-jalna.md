@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0043
-title: ["A Casa de Jalna"]
+title: "A Casa de Jalna"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]
 year: "y1954"

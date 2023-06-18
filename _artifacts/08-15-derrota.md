@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0239
-title: ["08/15. A Derrota"]
+title: "08/15. A Derrota"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

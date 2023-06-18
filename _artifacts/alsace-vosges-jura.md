@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0021
-title: ["Alsace Vosges - Jura"]
+title: "Alsace Vosges - Jura"
 author_name: ["Abel"]
 publisher: ["SNCF"]
 year: "unknown date"

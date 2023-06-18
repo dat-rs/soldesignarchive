@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0026
-title: ["Caetes"]
+title: "Caetes"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]
 year: "unknown date"

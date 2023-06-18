@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0006
-title: ["Belgium Custom Information"]
+title: "Belgium Custom Information"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: y1958

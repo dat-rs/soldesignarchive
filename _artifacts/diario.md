@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0027
-title: ["O Diário"]
+title: "O Diário"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Livraria Clássica Editora"]
 year: "y1968"

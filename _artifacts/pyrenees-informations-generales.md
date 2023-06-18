@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0026
-title: ["Pyrénées Informations Générales"]
+title: "Pyrénées Informations Générales"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0252
-title: ["Uma Noite em Lisboa"]
+title: "Uma Noite em Lisboa"
 author_name: ["unknown author"]
 publisher: ["Publicações Europa América"]
 year: "unknown date"

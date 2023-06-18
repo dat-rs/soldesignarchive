@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0241
-title: ["Antologia da Novíssima Poesia Catalã"]
+title: "Antologia da Novíssima Poesia Catalã"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

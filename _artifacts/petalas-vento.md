@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0235
-title: ["Pétalas ao Vento"]
+title: "Pétalas ao Vento"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

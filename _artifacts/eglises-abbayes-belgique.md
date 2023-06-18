@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0005
-title: ["Églises et Abbayes de Belgique"]
+title: "Églises et Abbayes de Belgique"
 author_name: ["Gilbert Zavels"]
 publisher: ["Commissariat Général au Turisme"]
 year: "y1958"

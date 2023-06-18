@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0244
-title: ["Fim de Semana em Zuydcoote"]
+title: "Fim de Semana em Zuydcoote"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

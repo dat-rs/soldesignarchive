@@ -1,6 +1,6 @@
 ---
 ref: sol-321-0037
-title: ["Zoom. Le magazine de l’Image 14"]
+title: "Zoom. Le magazine de l’Image 14"
 author_name: ["Pete Turner"]
 publisher: ["unknown publisher"]
 year: "y1972"

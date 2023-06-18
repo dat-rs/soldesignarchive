@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0049
-title: ["Os Silêncios do Coronel Bramble"]
+title: "Os Silêncios do Coronel Bramble"
 author_name: ["Lopes Alves"]
 publisher: ["unknown publisher"]
 year: "unknown date"

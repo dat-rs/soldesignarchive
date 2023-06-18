@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0044
-title: ["Spring Snow — Mishima"]
+title: "Spring Snow — Mishima"
 author_name: null
 publisher: ["Penguin Books"]
 year: "y1976"

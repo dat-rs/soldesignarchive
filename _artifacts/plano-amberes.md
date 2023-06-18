@@ -1,6 +1,6 @@
 ---
 ref: sol-211-0000
-title: ["Plano de Amberes"]
+title: "Plano de Amberes"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: y1958

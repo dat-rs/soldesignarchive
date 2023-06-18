@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0195
-title: ["Revolucionários e Querubins"]
+title: "Revolucionários e Querubins"
 author_name: ["Nuno Amorim"]
 publisher: ["Afrodite"]
 year: "y1977"

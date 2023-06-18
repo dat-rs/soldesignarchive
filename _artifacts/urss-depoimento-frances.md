@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0060
-title: ["URSS. Depoimento dum socialista francês"]
+title: "URSS. Depoimento dum socialista francês"
 author_name: ["unknown author"]
 publisher: ["Publicações Europa América"]
 year: "y1957"

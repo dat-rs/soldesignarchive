@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0005
-title: ["Promenade a travers le Vieux Gand"]
+title: "Promenade a travers le Vieux Gand"
 author_name: ["unknown author"]
 publisher: ["Service Communal du Tourisme (Bruges)"]
 year: y1958

@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0022
-title: ["The Cooking of Germany"]
+title: "The Cooking of Germany"
 author_name: ["unknown author"]
 publisher: ["Time-Life"]
 year: "y1974"

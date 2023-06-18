@@ -1,6 +1,6 @@
 ---
 ref: sol-231-0015
-title: ["Goya"]
+title: "Goya"
 author_name: ["Diego Lara"]
 publisher: ["Fundación Juan March"]
 year: "y1979"

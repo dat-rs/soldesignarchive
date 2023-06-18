@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0068
-title: ["Novelas do Decameron — Bocaccio"]
+title: "Novelas do Decameron — Bocaccio"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Verbo"]
 year: "y1971"

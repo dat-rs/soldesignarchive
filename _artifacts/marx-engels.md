@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0182
-title: ["Marx Engels"]
+title: "Marx Engels"
 author_name: ["Acácio Santos"]
 publisher: ["Seara Nova"]
 year: "unknown year"

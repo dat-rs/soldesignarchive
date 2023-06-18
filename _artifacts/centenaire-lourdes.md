@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0018
-title: ["Centenaire de Lourdes"]
+title: "Centenaire de Lourdes"
 author_name: ["unknown author"]
 publisher: ["SNCF"]
 year: "unknown date"

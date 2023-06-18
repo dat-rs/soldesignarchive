@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0066
-title: ["Fiesta"]
+title: "Fiesta"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]
 year: "y1958"

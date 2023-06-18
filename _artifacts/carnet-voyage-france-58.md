@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0010
-title: ["Carnet de Voyage en France 1958"]
+title: "Carnet de Voyage en France 1958"
 author_name: ["Robert Massin"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

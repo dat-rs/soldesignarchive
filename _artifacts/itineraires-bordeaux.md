@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0032
-title: ["Itinéraires autour de Bordeaux"]
+title: "Itinéraires autour de Bordeaux"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

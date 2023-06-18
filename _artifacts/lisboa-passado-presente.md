@@ -1,6 +1,6 @@
 ---
 ref: sol-054-0000
-title: ["Lisboa no Passado e no Presente"]
+title: "Lisboa no Passado e no Presente"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

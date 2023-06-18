@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0033
-title: ["Itinéraires autour de Bordeaux - Renseignements Généraux"]
+title: "Itinéraires autour de Bordeaux - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

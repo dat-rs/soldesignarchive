@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0050
-title: ["O Paraíso das Damas"]
+title: "O Paraíso das Damas"
 author_name: ["unknown author"]
 publisher: ["Guimarães & Companhia Editores"]
 year: "y1947"

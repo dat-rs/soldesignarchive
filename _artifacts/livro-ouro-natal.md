@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0198
-title: ["O Livro de Ouro do Natal"]
+title: "O Livro de Ouro do Natal"
 author_name: ["Gertraud Brylka-Thieme"]
 publisher: ["Verbo"]
 year: "y1978"

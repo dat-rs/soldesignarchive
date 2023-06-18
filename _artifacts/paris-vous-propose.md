@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0008
-title: ["Paris Vous Propose"]
+title: "Paris Vous Propose"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

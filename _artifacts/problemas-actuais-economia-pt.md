@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0234
-title: ["Problemas Actuais da Economia Portuguesa"]
+title: "Problemas Actuais da Economia Portuguesa"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

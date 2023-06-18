@@ -1,6 +1,6 @@
 ---
 ref: sol-324-0001
-title: ["Almanaque Diário de Notícias 1959"]
+title: "Almanaque Diário de Notícias 1959"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "y1959"

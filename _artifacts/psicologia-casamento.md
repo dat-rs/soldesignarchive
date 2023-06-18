@@ -1,6 +1,6 @@
 ---
 ref: sol-020-0000
-title: ["Psicologia do Casamento"]
+title: "Psicologia do Casamento"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Arcádia"]
 year: "y1970"

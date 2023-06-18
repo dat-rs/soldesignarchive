@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0089
-title: ["1968-1973. Cinco Anos de Governo"]
+title: "1968-1973. Cinco Anos de Governo"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["RTP"]
 year: "y1973"

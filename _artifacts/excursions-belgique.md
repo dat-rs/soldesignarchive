@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0004
-title: ["Excursions en Belgique"]
+title: "Excursions en Belgique"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]
 year: y1958

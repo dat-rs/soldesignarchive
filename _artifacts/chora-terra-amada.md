@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0005
-title: ["Chora, Terra Bem Amada"]
+title: "Chora, Terra Bem Amada"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Publicações Europa América"]
 year: "y1958"

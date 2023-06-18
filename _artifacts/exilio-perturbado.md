@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0001
-title: ["Exílio Perturbado"]
+title: "Exílio Perturbado"
 author_name: ["unknown author"]
 publisher: ["Bertrand"]
 year: "y1962"

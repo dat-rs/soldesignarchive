@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0238
-title: ["08/15. A Guerra"]
+title: "08/15. A Guerra"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

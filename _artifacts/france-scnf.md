@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0012
-title: ["France. SCNF"]
+title: "France. SCNF"
 author_name: ["Hervé Baille"]
 publisher: ["SNCF"]
 year: "unknown date"

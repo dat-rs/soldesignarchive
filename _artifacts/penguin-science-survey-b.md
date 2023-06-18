@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0059
-title: ["Penguin Science Survey B 1965"]
+title: "Penguin Science Survey B 1965"
 author_name: ["FHK Henrion"]
 publisher: ["Penguin Books"]
 year: "y1965"

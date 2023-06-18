@@ -1,6 +1,6 @@
 ---
 ref: sol-231-0014
-title: ["O Fibrocimento no Mundo"]
+title: "O Fibrocimento no Mundo"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

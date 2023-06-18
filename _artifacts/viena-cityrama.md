@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0046
-title: ["Viena Cityrama"]
+title: "Viena Cityrama"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

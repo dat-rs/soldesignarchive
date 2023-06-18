@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0034
-title: ["Alpes Cote d’Azur"]
+title: "Alpes Cote d’Azur"
 author_name: ["Jean Jacquelin"]
 publisher: ["SNCF"]
 year: "unknown date"

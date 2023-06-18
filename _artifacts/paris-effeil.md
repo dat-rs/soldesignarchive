@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0048
-title: ["Paris -Eiffel"]
+title: "Paris -Eiffel"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

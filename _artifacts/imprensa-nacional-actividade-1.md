@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0202
-title: ["Imprensa Nacional. Actividade de uma Casa Impressora. Vol. I. 1760-1800"]
+title: "Imprensa Nacional. Actividade de uma Casa Impressora. Vol. I. 1760-1800"
 author_name: ["unknown author"]
 publisher: ["Imprensa Nacional Casa da Moeda"]
 year: "y1975"

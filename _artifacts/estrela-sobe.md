@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0059
-title: ["A Estrela Sobe"]
+title: "A Estrela Sobe"
 author_name: ["unknown author"]
 publisher: ["Livros do Brasil"]
 year: "y1968"
