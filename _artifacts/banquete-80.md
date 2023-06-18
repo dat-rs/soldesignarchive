@@ -1,6 +1,6 @@
 ---
 ref: sol-321-0042
-title: ["Banquete 80"]
+title: "Banquete 80"
 author_name: ["CIESA - Norman, Craig & Kummel"]
 publisher: ["CIDLA"]
 year: "y1966"

@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0240
-title: ["Os Crimes do ABC"]
+title: "Os Crimes do ABC"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

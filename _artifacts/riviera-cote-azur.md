@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0028
-title: ["Riviera Cote d’Azur"]
+title: "Riviera Cote d’Azur"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

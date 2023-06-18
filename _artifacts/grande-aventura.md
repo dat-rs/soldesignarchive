@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0024
-title: ["A Grande Aventura"]
+title: "A Grande Aventura"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Estúdios Cor"]
 year: "y1959"

@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0246
-title: ["O Desenho na Escola"]
+title: "O Desenho na Escola"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

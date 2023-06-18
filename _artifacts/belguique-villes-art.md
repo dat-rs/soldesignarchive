@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0002
-title: ["Belgique. Villes d’Art"]
+title: "Belgique. Villes d’Art"
 author_name: ["Lucien De Roeck"]
 publisher: ["unknown publisher"]
 year: y1958

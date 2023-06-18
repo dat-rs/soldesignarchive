@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0003
-title: ["Chateaux de Belgique"]
+title: "Chateaux de Belgique"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]
 year: "y1958"

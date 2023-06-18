@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0052
-title: ["Kung Fu — Azen Kacot"]
+title: "Kung Fu — Azen Kacot"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "y1976"

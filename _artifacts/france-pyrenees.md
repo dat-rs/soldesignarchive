@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0027
-title: ["France Pyrénées"]
+title: "France Pyrénées"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

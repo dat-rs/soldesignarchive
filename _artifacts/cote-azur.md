@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0040
-title: ["Côte d’Azur"]
+title: "Côte d’Azur"
 author_name: ["unknown author"]
 publisher: ["SNCF"]
 year: "unknown date"

@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0048
-title: ["Na Outra Margem, Entre as Árvores"]
+title: "Na Outra Margem, Entre as Árvores"
 author_name: ["Infante do Carmo"]
 publisher: ["Livros do Brasil"]
 year: "unknown date"

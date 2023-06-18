@@ -1,6 +1,6 @@
 ---
 ref: sol-324-0000
-title: ["Novos e Velhos Caminhos de Lisboa"]
+title: "Novos e Velhos Caminhos de Lisboa"
 author_name: ["unknown author"]
 publisher: ["J. Drummond Ludovice"]
 year: "unknown date"

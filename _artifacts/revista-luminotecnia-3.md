@@ -1,6 +1,6 @@
 ---
 ref: sol-322-0002
-title: ["Revista Internacional de Luminotecnia 3"]
+title: "Revista Internacional de Luminotecnia 3"
 author_name: ["Nan Platvoet"]
 publisher: ["Stichting Prometheus"]
 year: "y1961"

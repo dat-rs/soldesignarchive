@@ -1,6 +1,6 @@
 ---
 ref: sol-160-0001
-title: ["Calendário para 1975"]
+title: "Calendário para 1975"
 author_name: ["Victor Palla, Comité José Dias Coelho, José Dias Coelho, Ivone Balette, José Farinha, Cipriano Dourado, António Domingues, Maria Barreira"]
 publisher: ["Edições Avante!"]
 year: "y1974"

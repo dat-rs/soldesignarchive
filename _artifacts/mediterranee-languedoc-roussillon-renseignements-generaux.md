@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0043
-title: ["Méditerranée Languedoc Roussillon - Renseignements Généraux"]
+title: "Méditerranée Languedoc Roussillon - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

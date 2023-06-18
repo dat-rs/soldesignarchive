@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0245
-title: ["Eu e Ele…"]
+title: "Eu e Ele…"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0000
-title: ["Belgique. Ardennes"]
+title: "Belgique. Ardennes"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: y1958

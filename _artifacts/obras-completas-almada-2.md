@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0038
-title: ["Obras Completas Almada 2. Romance"]
+title: "Obras Completas Almada 2. Romance"
 author_name: ["Alda Rosa"]
 publisher: ["Editorial Estampa"]
 year: "y1971"

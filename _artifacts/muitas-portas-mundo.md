@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0037
-title: ["Há Muitas Portas no Mundo"]
+title: "Há Muitas Portas no Mundo"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]
 year: "y1960"

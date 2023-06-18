@@ -1,6 +1,6 @@
 ---
 ref: sol-321-0040
-title: ["L’Architecture d’Aujourd’hui IV 5 "]
+title: "L’Architecture d’Aujourd’hui IV 5 "
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "y1934"

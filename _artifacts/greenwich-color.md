@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0014
-title: ["Greenwich in Colour"]
+title: "Greenwich in Colour"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

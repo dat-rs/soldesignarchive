@@ -1,6 +1,6 @@
 ---
 ref: sol-323-0001
-title: ["Boletim da Sociedade Nacional de Belas Artes 11"]
+title: "Boletim da Sociedade Nacional de Belas Artes 11"
 author_name: ["Figueiredo Sobral"]
 publisher: ["unknown publisher"]
 year: "y1963"

@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0069
-title: ["Santa Miséria"]
+title: "Santa Miséria"
 author_name: ["unknown author"]
 publisher: ["Editorial Inquérito"]
 year: "y1940"

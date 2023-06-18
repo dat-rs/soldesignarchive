@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0082
-title: ["Contos Exemplares"]
+title: "Contos Exemplares"
 author_name: ["João da Câmara Leme"]
 publisher: ["unknown publisher"]
 year: "unknown date"

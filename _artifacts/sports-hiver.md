@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0011
-title: ["Sports d’Hiver"]
+title: "Sports d’Hiver"
 author_name: ["M. et J. Constantin"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

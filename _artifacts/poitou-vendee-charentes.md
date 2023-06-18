@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0030
-title: ["Poitou Vendée Charentes"]
+title: "Poitou Vendée Charentes"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

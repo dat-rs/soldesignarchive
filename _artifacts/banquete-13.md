@@ -1,6 +1,6 @@
 ---
 ref: sol-321-0041
-title: ["Banquete 13"]
+title: "Banquete 13"
 author_name: ["CIESA - Norman, Craig & Kummel"]
 publisher: ["CIDLA"]
 year: "y1966"

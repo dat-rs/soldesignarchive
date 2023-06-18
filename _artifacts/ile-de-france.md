@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0035
-title: ["Ile de France"]
+title: "Ile de France"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"

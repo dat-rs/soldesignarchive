@@ -1,6 +1,6 @@
 ---
-ref: 512-0002
-title: ["Bilhete CP Lisboa Rio do Mouro"]
+ref: sol-512-0002
+title: "Bilhete CP Lisboa Rio do Mouro"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

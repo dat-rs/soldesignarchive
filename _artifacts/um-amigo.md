@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0200
-title: ["Um Amigo"]
+title: "Um Amigo"
 author_name: ["Dick Stenberg"]
 publisher: ["Editorial Presença"]
 year: "y1973"

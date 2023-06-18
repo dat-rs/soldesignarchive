@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0250
-title: ["Greece"]
+title: "Greece"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

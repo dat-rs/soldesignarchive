@@ -1,6 +1,6 @@
 ---
 ref: sol-231-0009
-title: ["Roteiro da Exposição Henriquina"]
+title: "Roteiro da Exposição Henriquina"
 author_name: ["unknown author"]
 publisher: ["Comissão Executiva do V Centenário da Morte do Infante D. Henrique"]
 year: "y1960"

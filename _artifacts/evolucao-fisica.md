@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0061
-title: ["A Evolução da Física"]
+title: "A Evolução da Física"
 author_name: ["A. Pedro"]
 publisher: ["unknown publisher"]
 year: "unknown date"

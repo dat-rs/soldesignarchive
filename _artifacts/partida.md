@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0203
-title: ["Partida"]
+title: "Partida"
 author_name: ["Rui Azevedo"]
 publisher: ["unknown publisher"]
 year: "y1980"

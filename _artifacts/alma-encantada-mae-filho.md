@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0243
-title: ["Alma Encantada. Mãe e Filho"]
+title: "Alma Encantada. Mãe e Filho"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

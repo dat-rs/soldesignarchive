@@ -1,6 +1,6 @@
 ---
 ref: sol-231-0005
-title: ["Exposição de Arte do Oriente Islâmico"]
+title: "Exposição de Arte do Oriente Islâmico"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Fundação Calouste Gulbenkian"]
 year: "y1963"

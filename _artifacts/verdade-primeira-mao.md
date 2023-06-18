@@ -13,6 +13,6 @@ layout: artifact
 status: complete
 published: false
 int_published: false
-date_added: 2023-06-16 2022-05-07
+date_added: 2023-06-16
 batch:
 ---

@@ -28,3 +28,4 @@ Carlos Fiolhais, professor of Physics at the University of Coimbra and one of th
 <ol class="footnotes">
 <li><a class="fn-link" href="https://eg.uc.pt/bitstream/10316/41244/1/livros_que_romulo_de_carvalho_nos_deixou.PDF">Carlos Fiolhais. <cite>Os livros que António Gedeão nos deixou</cite> (2008) [pt]</a></li>
 </ol>
+

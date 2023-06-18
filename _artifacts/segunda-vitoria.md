@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0098
-title: ["A Segunda Vitória"]
+title: "A Segunda Vitória"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Livraria Clássica Editora"]
 year: "y1962"

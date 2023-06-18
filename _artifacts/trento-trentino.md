@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0017
-title: ["Trento e il Trentino"]
+title: "Trento e il Trentino"
 author_name: ["unknown author"]
 publisher: ["ENIT"]
 year: "y1939"

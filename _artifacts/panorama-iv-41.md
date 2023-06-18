@@ -13,5 +13,5 @@ status: wip
 published: false
 int_published: false
 image_count:
-date_added: 2023-06-16 2023-06-15
+date_added: 2023-06-16
 ---

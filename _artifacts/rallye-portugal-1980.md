@@ -1,6 +1,6 @@
 ---
 ref: sol-430-0003
-title: ["Rallye de Portugal 1980"]
+title: "Rallye de Portugal 1980"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "y1980"

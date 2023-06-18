@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0019
-title: ["Que faz correr Sammy?"]
+title: "Que faz correr Sammy?"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]
 year: "y1957"

@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0249
-title: ["Lisboa. Cidade de Turismo"]
+title: "Lisboa. Cidade de Turismo"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

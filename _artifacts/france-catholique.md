@@ -1,6 +1,6 @@
 ---
 ref: sol-251-0009
-title: ["La France Catholique"]
+title: "La France Catholique"
 author_name: ["unknown author"]
 publisher: ["SNCF"]
 year: "unknown date"

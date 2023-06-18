@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0011
-title: ["O Pregador"]
+title: "O Pregador"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Portugália Editora"]
 year: "y1965"

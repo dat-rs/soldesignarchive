@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0042
-title: ["Matar-se a Si Próprio"]
+title: "Matar-se a Si Próprio"
 author_name: ["Estúdios P.E.A."]
 publisher: ["Publicações Europa América"]
 year: "y1966"

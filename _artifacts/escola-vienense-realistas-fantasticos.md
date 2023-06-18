@@ -1,6 +1,6 @@
 ---
 ref: sol-231-0013
-title: ["Escola Vienense dos Realistas Fantásticos"]
+title: "Escola Vienense dos Realistas Fantásticos"
 author_name: ["Fernando Libório"]
 publisher: ["Fundação Calouste Gulbenkian"]
 year: "y1982"

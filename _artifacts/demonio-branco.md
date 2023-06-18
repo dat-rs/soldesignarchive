@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0249
-title: ["O Demónio Branco"]
+title: "O Demónio Branco"
 author_name: ["Victor Palla"]
 publisher: ["Arcádia"]
 year: "y1958"

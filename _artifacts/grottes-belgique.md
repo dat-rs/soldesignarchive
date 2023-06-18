@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0002
-title: ["Grottes de Belgique"]
+title: "Grottes de Belgique"
 author_name: ["Gilbert Zavels"]
 publisher: ["Commissariat Général au Turisme"]
 year: "y1958"

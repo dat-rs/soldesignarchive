@@ -1,6 +1,6 @@
 ---
 ref: sol-030-0236
-title: ["Direcção Proíbida"]
+title: "Direcção Proíbida"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

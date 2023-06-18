@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0047
-title: ["Tirol Austria"]
+title: "Tirol Austria"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"

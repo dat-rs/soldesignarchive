@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0040
-title: ["Corpo Vivo"]
+title: "Corpo Vivo"
 author_name: ["Estúdios P.E.A."]
 publisher: ["Publicações Europa América"]
 year: "y1966"

@@ -1,6 +1,6 @@
 ---
 ref: sol-010-0048
-title: ["Jenny"]
+title: "Jenny"
 author_name: ["Guilherme de Casquilho"]
 publisher: ["Bertrand"]
 year: "unknown date"
