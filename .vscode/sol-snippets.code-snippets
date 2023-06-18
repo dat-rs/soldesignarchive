@@ -16,7 +16,7 @@
 	// 	"description": "Log output to console"
 	// }
 
-	"Print to console": {
+	"artifact md": {
 		"prefix": "art",
 		"body": [
 			"---",
@@ -37,5 +37,38 @@
 			"---"
 		],
 		"description": "artifact front matter template"
+	},
+
+	"rich body artifact": {
+		"prefix": "rbart",
+		"body": [
+			"<a class=\"text cat-link artifact\" href=\"/authors/${1:slug}/\">${2:Title}</a>"
+		],
+		"description": "rich artifact link"
+	},
+
+	"rich body author": {
+		"prefix": "rba",
+		"body": [
+			"<a class=\"text cat-link author\" href=\"/authors/${1:Author}/\">${1:Author}</a>"
+		],
+		"description": "rich author link"
+	},
+
+	"rich body publisher": {
+		"prefix": "rbp",
+		"body": [
+			"<a class=\"text cat-link publisher\" href=\"/publishers/${1:Publisher}/\">${1:Publisher}</a>"
+		],
+		"description": "rich publisher link"
+	},
+
+	"rich body tag": {
+		"prefix": "rbt",
+		"body": [
+			"<a class=\"text cat-link tag\" href=\"/tags/${1:Tag}/\">${1:Tag}</a>"
+		],
+		"description": "rich tag link"
 	}
 }
+

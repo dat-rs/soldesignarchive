@@ -1,0 +1,20 @@
+<div class="container-fluid back-office-sub-header back-office">
+
+  <div class="row header-row back-office">
+
+    {%- assign artifacts_published = site.artifacts | where: 'published', 'true' -%}
+    {%- assign artifacts_wip = site.artifacts | where: 'status', 'wip' -%}
+
+    <div class="col-4 sub-header-col baoff">{{ site.artifacts.size }} total, {{ artifacts_published.size }} published, {{ artifacts_wip.size }} wip</div>
+
+    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd">
+      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db.html">Main DB</a>
+    </div>
+
+    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff even">
+      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db-refs.html">Refs</a>
+    </div>
+
+  </div>
+
+</div>
