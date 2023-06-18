@@ -1,7 +1,5 @@
 ---
 title: reverse-contrast
 layout: tag
-type:
-  - typography
-  - design_descriptive
+type: design_descriptive
 ---

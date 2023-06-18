@@ -1,18 +1,17 @@
 ---
-ref: sol-030-0098
-title: "A Segunda Vitória"
-author_name: ["Paulo-Guilherme"]
-publisher: ["Livraria Clássica Editora"]
-year: "y1962"
-origin: ["Portugal"]
-formats: ["book, book-cover"]
-disciplines: ["graphic-design"]
-tags:
+ref: sol-030-0255
+title: A Segunda Vitória
+author_name: [Paulo-Guilherme]
+publisher: [Livraria Clássica Editora]
+year: y1968
+origin: Portugal
+formats: [book, book-cover]
+disciplines: [graphic-design, illustration, typography]
+tags: [Morris West]
 layout: artifact
-status: ["scan"]
-published: false
-int_published: false
-image_count:
-date_added: 2023-06-16
-batch:
+status: complete
+published: true
+image_count: 
+date_added: 2023-06-18
+batch: /feira-do-livro-23
 ---

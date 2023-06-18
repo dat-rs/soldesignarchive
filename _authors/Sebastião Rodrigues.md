@@ -1,11 +1,8 @@
 ---
 name: 'Sebastião Rodrigues'
-resource: Fishink blog post
-resource_path: https://fishinkblog.com/2013/03/22/sebastiao-rodrigues-mid-century-portuguese-graphic-designer/
 image_path:
 layout: author
 published: true
-resources: ['sebastiao-rodrigues-fishink-blog-post']
 timeline: timelines/sebastiao-rodrigues.html
 related_authors: ['João da Câmara Leme', "João Abel Manta"]
 related_publishers: ['Fundação Calouste Gulbenkian', 'SPN-SNI-SEIT', 'Ulisseia', 'Arcádia', 'Publicações Europa América', 'Editorial Técnica e Artística', 'Livraria Morais Editora']
