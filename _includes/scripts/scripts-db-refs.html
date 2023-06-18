@@ -29,11 +29,14 @@ jQuery( function() {
       filter: searchAndFilter,
       layoutMode: 'vertical',
       getSortData: {
-        title: '.title',
         reference: '.reference',
         status: '.status',
         date: '.date'
-    }
+    },
+    sortAscending: {
+      reference: true,
+      date: false
+      }
     });
 
 
