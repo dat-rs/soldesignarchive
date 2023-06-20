@@ -58,18 +58,22 @@ $('.button-group').each( function( i, buttonGroup ) {
   });
 });
 
-
-
-
     $('#artifacts-filters').on( 'click', 'button', function() {
       buttonFilter = $( this ).attr('data-filter');
 
     });
     // use value of search field to filter
-    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
-      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
-      $container.isotope();
-    }, 200 ) );
+    var $quicksearch = $('.quicksearch').keyup(({originalEvent})=> {
+      if(originalEvent.code!=="Enter") {
+        return;
+      }
+      console.log({originalEvent})
+
+        qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+        $container.isotope();
+
+
+    } )
     // do stuff when checkbox change
     $('#artifacts-filters').on( 'change', function( event ) {
       var checkbox = event.target;

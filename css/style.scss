@@ -169,7 +169,9 @@ h3.filter-title,
 .a-module-deets,
 .faux-table.db,
 .faux-table-head-row,
-.sub-header-col.baoff {
+.sub-header-col.baoff,
+.back-office,
+.dewey {
   font-family: "indivisible-variable", sans-serif;
   font-variation-settings: "wght" 450;
   font-size: 13px;
@@ -1262,7 +1264,7 @@ i.bi-images.a-module-corner-icon {
 .btn-check.filter:checked + .a-filter-label, button.button.is-checked {
   background-color: black;
   color: $bg-white;
-  border-color: $artifact-color;
+  border-color: $bg-white;
 }
 
 /* Search */
@@ -2255,7 +2257,11 @@ span.fn-title {
 }
 
 
-/* DB */
+/* BACK OFFICE */
+
+.faux-table.db {
+  min-height: 80vh;
+}
 
 .faux-table.db,
 .faux-table-head-row {
@@ -2270,9 +2276,36 @@ span.fn-title {
 }
 
 .faux-table-head-row,
-.tabold {
+.tabold,
+.artifact-table-row.level-one,
+.artifact-table-row.level-two {
   font-weight: normal;
   font-variation-settings: "wght" 700;
+}
+
+.artifact-table-row.level-two {
+  color: gray;
+}
+
+.artifact-table-row.level-one {
+  border-top-color: rgb(98, 98, 98);
+}
+
+.artifact-table-row.level-two {
+  border-top-color: #cacaca;
+}
+
+.artifact-table-row.level-three {
+  padding-left: 23px;
+  border-top-color: #cacaca;
+}
+
+.artifact-table-row.level-three .col-10.faux-table-head-col {
+  margin-left: -32px;
+}
+
+.level-three::before {
+  content: "↳";
 }
 
 .artifact-table-row,
@@ -2294,11 +2327,46 @@ img.db-img {
   max-width: 30px;
 }
 
+.artifact-table-row,
 span.reference,
 .faux-table-col span.reference,
-.faux-table-col span.date {
+.faux-table-col span.date,
+.dewey,
+.ref {
   font-variant-numeric: tabular-nums;
 }
+
+.sol-decimal-system {
+  background-color: $off-4;
+  padding-top: 15px;
+}
+
+.dewey {
+  tab-size: 4;
+}
+
+.highest-refs {
+  text-align: right;
+}
+
+button.left {
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  margin-right: -5px;
+}
+
+button.middle {
+  border-radius: 0%;
+  margin-left: 0px;
+  margin-right: -5px;
+}
+
+button.right {
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+
+
 
 @keyframes colors {
   0% {
@@ -2372,7 +2440,7 @@ span.reference,
   }
 
   .title-col {
-    padding-top: 8px;
+    padding-top: 5px;
   }
 
   h2.title.blog.self {
