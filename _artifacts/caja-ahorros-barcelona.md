@@ -7,7 +7,7 @@ publisher: "Caja de Ahorros Provincial de la Diputacion de Barcelona"
 formats: [calendar, card]
 disciplines: [graphic-design, typography, illustration]
 tags: [Helvetica]
-ref: sol-153-0000
+ref: sol-160-0002
 image_count: 2
 layout: artifact
 status: complete

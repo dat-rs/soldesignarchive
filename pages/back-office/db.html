@@ -1,5 +1,6 @@
 ---
-title: "Artifacts - Sol Design Archive"
+title: "DB - Sol Design Archive"
+back-office: true
 published: false
 ---
 
@@ -21,10 +22,10 @@ page-meta-description=page.description page-meta-image=page.image %}
 
       <h3 class="filter-title"><span class="title-label">Sort by</span></h3>
 
-      <button class="button is-checked" data-sort-value="original-order">original (ref)</button>
-      <button class="button" data-sort-value="title">Title</button>
-      <button class="button" data-sort-value="year">Year</button>
-      <button class="button" data-sort-value="date">Date updated ↓</button>
+      <button class="button is-checked left" data-sort-value="original-order">ref asc. &UpArrow; </button>
+      <button class="button middle" data-sort-value="title">Title</button>
+      <button class="button middle" data-sort-value="year">Year</button>
+      <button class="button right" data-sort-value="date">Date updated desc. ↓</button>
 
     </div>
 
@@ -75,7 +76,7 @@ page-meta-description=page.description page-meta-image=page.image %}
       <div class="col-3 faux-table-col">
         <span class="title tabold">{{ artifact.title }}</span> <br>
         <a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts' }}</a> <br>
-        <span class="reference">{{ artifact.ref | remove_first: 'sol-' }}</span>
+        <span class="reference">{{ artifact.ref }}</span>
       </div>
 
       <div class="col-1 faux-table-col">{{ artifact.author_name | join: ", " }}</div>

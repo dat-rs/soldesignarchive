@@ -34,7 +34,7 @@ jQuery( function() {
         date: '.date'
     },
     sortAscending: {
-      reference: true,
+      reference: false,
       date: false
       }
     });
@@ -63,10 +63,17 @@ $('.button-group').each( function( i, buttonGroup ) {
 
     });
     // use value of search field to filter
-    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
-      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
-      $container.isotope();
-    }, 200 ) );
+    var $quicksearch = $('.quicksearch').keyup(({originalEvent})=> {
+      if(originalEvent.code!=="Enter") {
+        return;
+      }
+      console.log({originalEvent})
+
+        qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+        $container.isotope();
+
+
+    } )
     // do stuff when checkbox change
     $('#artifacts-filters').on( 'change', function( event ) {
       var checkbox = event.target;

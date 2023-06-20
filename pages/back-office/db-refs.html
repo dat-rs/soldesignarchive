@@ -1,5 +1,6 @@
 ---
 title: "Refs - Sol Design Archive"
+back-office: true
 published: false
 ---
 
@@ -20,9 +21,9 @@ published: false
 
       <h3 class="filter-title"><span class="title-label">Sort by</span></h3>
 
-      <button class="button is-checked" data-sort-value="original-order">original (ref)</button>
-      <button class="button" data-sort-value="date">Date updated ↓</button>
-      <button class="button" data-sort-value="status">Status</button>
+      <button class="button is-checked left" data-sort-value="original-order">ref desc. ↓</button>
+      <button class="button middle" data-sort-value="date">Date updated desc. ↓</button>
+      <button class="button right" data-sort-value="status">Status</button>
 
     </div>
 
@@ -55,11 +56,12 @@ published: false
 
     <div class="faux-table db" id="artifact-table">
           
-        {% for artifact in site.artifacts %}
+      {% assign artifacts_by_ref = site.artifacts | sort: 'ref' | reverse %}
+      {% for artifact in artifacts_by_ref %}
         <div class="row artifact-table-row">
         
           <div class="col-1 faux-table-col">
-            <span class="reference">{{ artifact.ref | remove_first: 'sol-' }}</span>
+            <span class="reference">{{ artifact.ref }}</span>
           </div>
 
           <div class="col-3 faux-table-col">
