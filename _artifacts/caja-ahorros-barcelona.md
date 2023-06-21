@@ -4,7 +4,7 @@ author_name: "unknown author"
 year: y1972
 origin: [Spain, Catalonia]
 publisher: "Caja de Ahorros Provincial de la Diputacion de Barcelona"
-formats: [calendar, card]
+formats: [calendar]
 disciplines: [graphic-design, typography, illustration]
 tags: [Helvetica]
 ref: sol-160-0002

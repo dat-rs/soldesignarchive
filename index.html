@@ -6,36 +6,15 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
 
-<div class="container-fluid container-artifact-hero-index first-after-header">
-<div class="fake-container">
-
-</div>
-
-
-<div class="row no-gutters" style="background-color: black;">
-
-{% assign sampled_artifacts = site.artifacts | sample: 12  %}
-{% for artifact in sampled_artifacts %}
-<div class="col-6 col-md-4 col-lg-3">
-    <a href="{{ artifact.url }}">
-
-        <img class="grid-img-2" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="{{ artifact.title }}">
-
-    </a>
-</div>
-{% endfor %}
-
-</div>
-
-</div>
-
 {% include ticker.html %}
+
+{% include rainbow.html %}
 
     <div class="container-fluid about">
 
       <div class="container">
 
-        <div class="row">
+        <div class="row justify-content-center">
 
           <div class="col-12 col-lg-9"">
                 <h3 class="section-title">About</h3>

@@ -26,8 +26,10 @@ $gray: #ccc5c0;
 
 $sol-gradient: linear-gradient(-45deg, #c47900, #e16640, #f2b34b, #93a64e, #2eb5b0, #4f9dd3, #d8709c, #995488, #c47900);
 
-$header-height-sm: 148px;
-$header-height-md: 152px;
+
+/* ATENÇÃO: artifact img vh calc values are hard coded, update if changed  */
+$header-height-sm: 160px;
+$header-height-md: 80px;
 $header-height-lg: 90px;
 $header-height-xl: 110px;
 
@@ -96,6 +98,7 @@ a, a:hover {
 /* General Typography */
 
 .post-text blockquote,
+.hero-about-text,
 .hero-about-text p,
 .post-text p,
 .text,
@@ -108,6 +111,11 @@ section.abouts {
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "onum";
   font-variant-ligatures: common-ligatures;
+}
+
+.hero-about-text blockquote {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .post-text a,
@@ -143,7 +151,6 @@ p.about-sol {
   font-family: "Tiempos-Text-Regular", serif;
   font-size: 20px;
   line-height: 1.5;
-  color: black;
 }
 
 .about-row {
@@ -282,9 +289,8 @@ section.about {
 }
 
 .title-col {
+  height: 40px;
   position: relative;
-  padding-top: 15px;
-  padding-bottom: 8px;
 }
 
 .header-logo {
@@ -295,12 +301,12 @@ section.about {
 
 h1.site-title {
   font-family: trade-gothic-next-compressed, serif;
-  font-size: 40px;
+  font-size: 22px;
   letter-spacing: normal;
   font-weight: 700;
   display: inline-block;
   margin-left: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 1px;
 }
 
 h1.site-title a {
@@ -317,7 +323,7 @@ h1.site-title a:hover {
 }
 
 .sol-circle svg {
-  width: 40px;
+  width: 25px;
   fill: $artifact-color;
   animation: color-to-color 15s ease-in-out infinite;
 
@@ -731,7 +737,8 @@ p.about-sol strong {
 .container-fluid.about {
   padding-bottom: 60px;
   margin-bottom: 0;
-  background-color: $off-3;
+  color: $off-3;
+  background-color: #000;
 }
 
 .container-artifact-hero-index {
@@ -752,12 +759,7 @@ p.about-sol strong {
 }
 
 .latest-artifacts-container-1 {
-  padding-top: 60px;
-  background-color: #000;
-}
-
-.latest-artifacts-container-outer {
-  background-color: #000;
+  padding-top: 45px;
 }
 
 .latest-artifacts-container-2,
@@ -768,6 +770,7 @@ p.about-sol strong {
 .latest-artifacts-container-2.new {
   background-color: #000;
   color: white;
+  padding-top: 30px;
 }
 
 .container-sections-index {
@@ -1034,7 +1037,7 @@ h3.section-title {
 }
 
 .negative {
-  color: $bg-white;
+  color: $off-1;
 }
 
 h3.filter-title {
@@ -1214,7 +1217,7 @@ i.bi-images.a-module-corner-icon {
 }
 
 #artifacts-grid-row {
-  padding-top: 15px;
+  padding-top: 8px;
   background-color: black;
   min-height: 80vh;
   padding-bottom: 120px;
@@ -1384,16 +1387,18 @@ input[type="text"] {
   margin-top: 30px;
 }
 
-img.artifact-img {
+img.artifact-img,
+.artifact-img-flick {
   max-width: 100%;
-  max-height: 100vh;
-  padding: 4%;
+  padding: 30px;
+}
+
+img.artifact-img {
+  max-height: calc(100vh - 160px);
 }
 
 .artifact-img-flick {
-  max-width: 100%;
-  max-height: 70vh;
-  padding: 4%;
+  max-height: calc(100vh - 250px);
 }
 
 .caption-flick-shell {
@@ -1799,7 +1804,7 @@ a.deet-link.resource:hover {
 .artifact-grid-col {
   padding-left: 8px;
   padding-right: 8px;
-  padding-bottom: 8px;
+  margin-bottom: -8px;
 }
 
 .a-module.grid:hover .a-module-img-holder,
@@ -2215,12 +2220,28 @@ span.fn-title {
   padding-bottom: 2px;
 }
 
-/* Cat Section @ Index */
+/* Rainbow section @ Index */
 
-#latest-grid {
+#latest-grid, .row.rainbow {
   --bs-gutter-x: 0.75rem;
   align-items: end;
 }
+
+.container-fluid.rainbow {
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 70px;
+  margin-bottom: -10px;
+}
+
+.row.rainbow-2 {
+  --bs-gutter-x: 0.75rem;
+  align-items: start;
+  margin-top: -11px;
+}
+
+/* Cat Section @ Index */
 
 .section-index-container {
   padding: 15px;
@@ -2402,6 +2423,10 @@ button.right {
 
 @media (min-width: 576px) {
 
+  img.artifact-img {
+    max-height: calc(100vh - 160px);
+  }
+
   .container-header {
     position: fixed;
     top: 0;
@@ -2439,10 +2464,6 @@ button.right {
     font-size: 18px;
   }
 
-  .title-col {
-    padding-top: 5px;
-  }
-
   h2.title.blog.self {
     font-size: 36px;
   }
@@ -2471,8 +2492,12 @@ button.right {
 
 @media (min-width: 768px) {
 
-  .sol-circle svg {
-      width: 60px;
+  img.artifact-img {
+    max-height: calc(100vh - 80px);
+  }
+
+  .artifact-img-flick {
+    max-height: calc(100vh - 170px);
   }
 
   .sol-circle.back-office svg {
@@ -2480,11 +2505,11 @@ button.right {
 }
 
   .sub-header-col {
-    height: 76px;
+    height: 40px;
+    
   }
-
   .sub-header-link {
-    line-height: 76px;
+    line-height: 41px;
   }
 
   .container-allcats, .container-cat, .container-author, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
@@ -2510,8 +2535,6 @@ button.right {
   .section-title.index.tags {
     column-span: all;
   }
-
-
 
   figure.post-img {
     text-align: right;
@@ -2576,6 +2599,22 @@ button.right {
 
 @media (min-width: 992px) {
 
+  img.artifact-img {
+    max-height: calc(100vh - 89px);
+  }
+
+  .artifact-img-flick {
+    max-height: calc(100vh - 180px);
+  }
+
+  .title-col {
+    height: initial;
+  }
+
+  .sol-circle svg {
+    width: 40px;
+}
+
   /* typography */
 
   h1.site-title {
@@ -2596,7 +2635,7 @@ button.right {
 
   p.about-sol {
     font-size: 26px;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.4px;
 }
 
   h2.title.blog.preview {
@@ -2656,6 +2695,10 @@ button.right {
 
 @media (min-width: 1200px) {
 
+  img.artifact-img {
+    max-height: calc(100vh - 89px);
+  }
+
   /* typography */
 
   h1.site-title {
@@ -2668,19 +2711,19 @@ button.right {
     font-size: 40px;
   }
   .sub-header-col {
-    height: 110px;
+    height: $header-height-lg;
   }
 
   .sub-header-link {
-    line-height: 110px;
+    line-height: $header-height-lg;
   }
 
   .sol-circle svg {
-      width: 80px;
+      width: 70px;
   }
 
   .container-allcats, .container-cat, .container-author, .container-artifacts, .container.first-after-header, .container-fluid.first-after-header {
-    margin-top: $header-height-xl;
+    margin-top: $header-height-lg;
   }
 
   .ticker-move {
