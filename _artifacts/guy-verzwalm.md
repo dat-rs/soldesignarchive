@@ -13,4 +13,4 @@ status: complete
 published: true
 date_added: 2022-03-04
 ---
-Small branded photo album of Brussels photography studio Guy Verzwalm.
+Small branded photo album of Brussels-based photography studio Guy Verzwalm.

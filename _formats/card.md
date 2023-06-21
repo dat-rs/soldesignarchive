@@ -1,4 +1,0 @@
----
-name: card
-layout: format
----
