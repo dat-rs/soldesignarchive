@@ -1,7 +1,7 @@
 ---
 layout: post-gallery
 title: Feira da Ladra - A Visual Essay
-image: "/images/blog_posts/feira-da-ladra-visual-essay-2.jpg"
+image: "feira-da-ladra-visual-essay-2.jpg"
 author: Ricardo Santos
 author_twitter: "@officesantos"
 lead: A visual love letter to the place where it all began.

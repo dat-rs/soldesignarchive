@@ -1,31 +1,34 @@
 ---
 title: "Sol Design Archive - Home"
-description: "Sol Design Archive is an online archive of design with a focus on 20th century Portuguese graphic design and illustration but a voracious appetite for the full breadth of visual expression."
+description: "Sol Design Archive is an online archive of design with a focus on 20th century Portuguese graphic design
+and illustration but a voracious appetite for the full breadth of visual expression."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
+{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
+page-meta-image=page.image %}
 
-{% include ticker.html %}
 
 {% include rainbow.html %}
 
-    <div class="container-fluid about">
+<div class="container-fluid about">
 
-      <div class="container">
+    <div class="container">
 
         <div class="row justify-content-center">
 
-          <div class="col-12 col-lg-9"">
-                <h3 class="section-title">About</h3>
+            <div class="col-12 col-lg-9"">
+                <h3 class=" section-title">About</h3>
                 <section>{% include about-sol.md %}</section>
-          </div>
+            </div>
 
         </div>
 
-      </div>
-
     </div>
+
+</div>
+
+{% include ticker.html %}
 
 {% include blog-section.html %}
 
@@ -36,22 +39,23 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 <div class="container-sections-index">
     <div class="row no-gutters">
 
-      <div class="col-12 col-disciplines-index">
+        <div class="col-12 col-disciplines-index">
 
-          <div class="section-index-container">
+            <div class="section-index-container">
 
-              <h3 class="section-title">Disciplines</h3>
+                <h3 class="section-title">Disciplines</h3>
 
-              {% for discipline in site.disciplines %}
+                {% for discipline in site.disciplines %}
 
-              <h2 class="title allcat"><a class="browse-link index discipline" href="{{ discipline.url }}">{{ discipline.name }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index discipline" href="{{ discipline.url }}">{{
+                        discipline.name }}</a></h2>
 
-              {% endfor %}
+                {% endfor %}
 
-          </div>
+            </div>
 
 
-      </div>
+        </div>
 
         <div class="col-12 col-lg-6 col-authors-index">
 
@@ -61,7 +65,8 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
                 {% for author in site.authors %}
 
-                <h2 class="title allcat index authors"><a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a></h2>
+                <h2 class="title allcat index authors"><a class="browse-link index" href="{{ author.url }}">{{
+                        author.name }}</a></h2>
 
                 {% endfor %}
 
@@ -77,7 +82,8 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
                 {% for publisher in site.publishers %}
 
-                <h2 class="title allcat index publishers"><a class="browse-link index" href="{{ publisher.url }}">{{ publisher.title }}</a></h2>
+                <h2 class="title allcat index publishers"><a class="browse-link index" href="{{ publisher.url }}">{{
+                        publisher.title }}</a></h2>
 
                 {% endfor %}
 
@@ -127,7 +133,8 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
                 {% for origin in site.origins %}
 
-                <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a></h2>
+                <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name | replace:
+                        "-", " " }}</a></h2>
 
                 {% endfor %}
 
@@ -143,7 +150,8 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
                 {% for tag in site.tags %}
 
-                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.title | replace: "-", " " }}</a></h2>
+                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.title |
+                        replace: "-", " " }}</a></h2>
 
                 {% endfor %}
 

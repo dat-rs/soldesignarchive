@@ -542,7 +542,7 @@ h1.site-title a:hover {
 
 .ticker-wrapper {
   overflow: hidden;
-  background-color: $off-2;
+  background-color: $off-1;
 }
 
 .ticker-move {
@@ -596,7 +596,8 @@ h3.ticker-title {
 /* Footer */
 
 .footer-row {
-  margin-top: 15px;
+  margin-top: 8px;
+  padding-bottom: 15px;
 }
 
 .footer-text {
@@ -660,28 +661,32 @@ p.about-sol strong {
   color: $resource-color;
 }
 
-.footer-quote-row {
+.row.footer-quote {
   text-align: center;
   color: $bg-white;
   background-color: black;
 }
 
-.footer-quote {
+p.footer-quote {
   font-family: "Tiempos-Text-Semibold";
   font-size: 22px;
   line-height: 1.4;
   margin-top: 100px;
 }
 
-.footer-quote-byline {
+p.footer-quote-byline {
   font-family: "Tiempos-Text-Regular";
   font-size: 16px;
   margin-bottom: 90px;
 }
 
-.footer-logos {
+.row.footer-logos {
+  background-color: #eee;
+}
+
+.logos {
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
   filter: invert(1);
 }
 
@@ -1033,7 +1038,7 @@ h3.section-title {
 h3.nav-link-title,
 h3.section-title {
   padding-bottom: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .negative {
