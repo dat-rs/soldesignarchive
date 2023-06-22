@@ -1,0 +1,96 @@
+{% assign min = 1 %}
+{% assign max = site.artifacts.size %}
+{% assign diff = max | minus: min %}
+{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+{% assign feature_random_artifacts = site.artifacts | slice: randomNumber %}
+{% assign feature_random_artifacts_2 = feature_random_artifacts | slice: 0, 1 %}
+
+{% for artifact in feature_random_artifacts_2 %}
+
+<div class="container-fluid random-feature-title">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="section-title my-0 artifact-red">A random feature from the archive:</h3>
+                <h2 class="title artifact self">{{ artifact.title }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid random-feature">
+    <div class="row">
+
+        <div class="col-12 col-md-8">
+
+            <div class="artifact-img-container">
+                <a href="/images/{{ artifact.ref }}-{{ artifact.slug }}.jpg" data-fancybox="artifact-gallery">
+                  <img class="artifact-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}.jpg" alt="{{ artifact.title }}">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+
+            <section class="artifact-deets random-feature">
+                <div class="deet-group">
+                  <span class="deet-label author">Author{% if artifact.authors.size > 1 %}s{% endif %}</span>
+                  {% for author in artifact.author_name %}
+                  {% if artifact.signature-id %}<span class="signed">signed «</span>{% endif %}<a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a>{% if artifact.signature-id %}<span class="signed">»</span>{% endif %}<br>
+                  {% endfor %}
+                </div>
+                <div class="deet-group">
+                  <span class="deet-label year hanging">Year</span>
+                  <a class="deet-link year" href="/years/{{ artifact.year | remove_first: "y" }}">{% if artifact.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ artifact.year | remove_first: "y" }}</a>
+                  <br>
+                </div>
+                <div class="deet-group">
+                  <span class="deet-label publisher hanging">Publisher{% if artifact.publisher.size > 1 %}s{% endif %}/Client{% if artifact.publisher.size > 1 %}s{% endif %}</span>
+                  {% for publisher in artifact.publisher %}
+                  <a class="deet-link publisher" href="/publishers/{{ publisher | escape_once }}">{{ publisher }}</a>
+                  {% endfor %}
+                  <br>
+                </div>
+                <div class="deet-group">
+                  <span class="deet-label origin hanging">Origin{% if artifact.origin.size > 1 %}s{% endif %}</span>
+                  {% for origin in artifact.origin %}
+                  <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin | replace: "-", " " }}</a>
+                  {% endfor %}
+                  <br>
+                </div>
+                <div class="deet-group">
+                  <span class="deet-label tag hanging">Tags</span>
+                  {% for tag in artifact.tags %}
+                  <a class="deet-link tag" href="/tags/{{ tag | escape_once }}">{{ tag }}</a>
+                  {% endfor %}
+                  <br>
+                </div>
+                <div class="deet-group">
+                  <span class="deet-label format hanging">Format{% if artifact.formats.size > 1 %}s{% endif %}</span>
+                  {% for format in artifact.formats %}
+                  <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
+                  {% endfor %}
+                  <br>
+                </div>
+                <div class="deet-group">
+                  <span class="deet-label discipline hanging">Discipline{% if artifact.disciplines.size > 1 %}s{% endif %}</span>
+                  {% for discipline in artifact.disciplines %}
+                  <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
+                  {% endfor %}
+                  <br>
+                </div>
+                <div class="deet-group">
+                  <span class="deet-label hanging">Reference</span>
+                  <span class="reference">{{ artifact.ref }}</span>
+                </div>
+
+                <a class="btn cta" href="{{ artifact.url }}" role="button">See artifact →</a>
+              </section>
+
+        </div>
+
+    </div>
+</div>
+
+{% endfor %}

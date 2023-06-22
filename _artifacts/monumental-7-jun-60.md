@@ -4,7 +4,7 @@ title: "Cinema Monumental - Programa 7 Junho 1960"
 author_name: ["unknown author"]
 publisher: ["Cinema Monumental"]
 year: "y1960"
-origin: null
+origin: Portugal
 formats: ["programme"]
 disciplines: ["graphic-design", illustration, typography]
 tags: [direct color, cinema, halftone]
