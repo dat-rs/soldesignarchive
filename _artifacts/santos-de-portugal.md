@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Ministério da Educação Nacional'
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography, lettering]
-tags: ["Colecção Educativa", "christianism"]
+tags: ["Colecção Educativa", "christianism", "Estado Novo"]
 ref: sol-030-0154
 image_count: 2
 layout: artifact

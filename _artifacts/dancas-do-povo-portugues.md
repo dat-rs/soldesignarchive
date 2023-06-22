@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Ministério da Educação Nacional'
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
-tags: ["Colecção Educativa"]
+tags: ["Colecção Educativa", "Estado Novo"]
 ref: sol-030-0167
 layout: artifact
 published: true

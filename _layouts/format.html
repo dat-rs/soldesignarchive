@@ -5,7 +5,9 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% assign capitalised_page_name = page.name | capitalize %}
 {% capture description %}Browse artifacts tagged «{{ page.name | replace: "-", " " }}»  at the Sol Design Archive.{% endcapture %}
 
-{% include head-and-header.html page-meta-title=capitalised_page_name page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
+{% assign corrected_title = capitalised_page_name | replace: "-", " " %}
+
+{% include head-and-header.html page-meta-title=corrected_title page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
 
 <div class="container container-cat simple">
 

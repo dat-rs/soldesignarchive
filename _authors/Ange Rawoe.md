@@ -2,6 +2,6 @@
 name: Ange Rawoe
 image_path:
 layout: author
-published: true
+published: false
 ---
 Ange Rawoe was a Belgian stage designer and illustrator.
