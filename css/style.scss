@@ -24,6 +24,10 @@ $off-3: #ebded3;
 $off-4: #d9c5b6;
 $gray: #ccc5c0;
 
+.artifact-red {
+  color: $artifact-color;
+}
+
 $sol-gradient: linear-gradient(-45deg, #c47900, #e16640, #f2b34b, #93a64e, #2eb5b0, #4f9dd3, #d8709c, #995488, #c47900);
 
 
@@ -764,12 +768,17 @@ p.footer-quote-byline {
 }
 
 .latest-artifacts-container-1 {
-  padding-top: 45px;
+  padding-top: 90px;
+}
+
+.latest-artifacts-container-1-outer {
+  background-color: $off-3;
 }
 
 .latest-artifacts-container-2,
 .latest-resources-container {
   padding-bottom: 60px;
+  background-color: $off-3;
 }
 
 .latest-artifacts-container-2.new {
@@ -1083,9 +1092,11 @@ a.cta {
   margin-top: 30px;
 }
 
+
+
 a.cta:hover {
-  color: black;
-  background-color: $bg-white;
+  color: $bg-white;
+  background-color: black;
 }
 
 /* >> Sun Titles */
@@ -2392,7 +2403,21 @@ button.right {
   border-bottom-left-radius: 0%;
 }
 
+/* Random Feature */
 
+.container-fluid.random-feature-title {
+  padding-top: 90px;
+}
+
+.container-fluid.random-feature {
+  background-color: $bg-white;
+}
+
+.artifact-deets.random-feature {
+  background-color: $bg-white;
+  height: 100%;
+  padding: 30px;
+}
 
 @keyframes colors {
   0% {
@@ -2577,6 +2602,15 @@ button.right {
   .artifact-carousel-nav-cell {
     width: 100px;
     height: 100px;
+  }
+
+  /* random feature */
+  .artifact-deets.random-feature {
+    margin-right: -15px;
+  }
+
+  .container-fluid.random-feature {
+    background-color: #000;
   }
 
   /* typography */

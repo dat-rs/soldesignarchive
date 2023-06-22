@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing the Sol Design Archive
-image: "/images/blog_posts/sol-branding-comp-1.jpg"
+image: "sol-branding-comp-1.jpg"
 author: Ricardo Santos
 author_twitter: "@officesantos"
 lead: Reading got me into books. Books got me into design and illustration. A brief history of how this project came about.
