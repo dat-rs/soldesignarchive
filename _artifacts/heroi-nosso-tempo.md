@@ -6,7 +6,7 @@ publisher: ["Publicações Europa América"]
 year: "y1959"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Os Livros das Três Abelhas"]
 layout: artifact
 status: ["rescan"]

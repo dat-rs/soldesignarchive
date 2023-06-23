@@ -6,7 +6,7 @@ publisher: ["Publicações Europa América"]
 year: "y1963"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["rescan"]

@@ -6,7 +6,7 @@ publisher: ["Seara Nova"]
 year: "y1969"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

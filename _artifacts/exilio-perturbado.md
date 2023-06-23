@@ -6,7 +6,7 @@ publisher: ["Bertrand"]
 year: "y1962"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

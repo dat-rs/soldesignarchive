@@ -6,7 +6,7 @@ publisher: ["Fundação Calouste Gulbenkian"]
 year: "y1982"
 origin: ["Portugal"]
 formats: ["book, catalogue"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

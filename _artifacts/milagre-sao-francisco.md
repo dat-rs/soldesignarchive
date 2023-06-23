@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "y1945"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

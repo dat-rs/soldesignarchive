@@ -6,7 +6,7 @@ publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
 year: "unknown date"
 origin: ["France"]
 formats: ["brochure, map"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
 status: ["scan"]

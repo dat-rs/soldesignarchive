@@ -6,7 +6,7 @@ publisher: ["Cinema Imperial"]
 year: "unknown date"
 origin: Portugal
 formats: ["programme"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

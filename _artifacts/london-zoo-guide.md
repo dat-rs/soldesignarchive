@@ -6,7 +6,7 @@ publisher: ["The Zoological Society of London"]
 year: "y1970"
 origin: ["United-Kingdom"]
 formats: ["booklet"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

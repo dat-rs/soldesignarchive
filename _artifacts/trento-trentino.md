@@ -6,7 +6,7 @@ publisher: ["ENIT"]
 year: "y1939"
 origin: ["Italy"]
 formats: ["brochure"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["CIDLA"]
 year: "y1966"
 origin: ["Portugal"]
 formats: ["magazine"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Banquete"]
 layout: artifact
 status: ["scan"]

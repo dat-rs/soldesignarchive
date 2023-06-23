@@ -6,7 +6,7 @@ publisher: ["Portugália Editora"]
 year: "unknown date"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Biblioteca dos Rapazes"]
 layout: artifact
 status: ["scan"]

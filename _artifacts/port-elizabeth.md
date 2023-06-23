@@ -6,7 +6,7 @@ publisher: ["South African Railways Airways and Harbours"]
 year: "unknown date"
 origin: ["South-Africa"]
 formats: ["brochure"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

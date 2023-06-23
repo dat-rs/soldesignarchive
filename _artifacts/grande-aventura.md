@@ -6,7 +6,7 @@ publisher: ["Estúdios Cor"]
 year: "y1959"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

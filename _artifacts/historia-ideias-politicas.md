@@ -5,8 +5,8 @@ author_name: ["Sebastião Rodrigues"]
 publisher: ["Arcádia"]
 year: "y1970"
 origin: ["Portugal"]
-formats: ["book"]
-disciplines: ["graphic-design"]
+formats: [book, book-cover]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["Penguin Books"]
 year: "y1965"
 origin: ["United-Kingdom"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

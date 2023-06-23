@@ -6,7 +6,7 @@ publisher: ["Portugália Editora"]
 year: "y1971"
 origin: ["Portugal"]
 formats: ["book, book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -1,5 +1,5 @@
 ---
-title: 'A Doença e os Doentes'
+title: 'Poesia de Ontem e de Hoje para o Nosso Povo Ler'
 author_name: ['António Vaz Pereira']
 year: y1956
 origin: Portugal

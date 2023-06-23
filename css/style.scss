@@ -768,7 +768,7 @@ p.footer-quote-byline {
 }
 
 .latest-artifacts-container-1 {
-  padding-top: 90px;
+  padding-top: 120px;
 }
 
 .latest-artifacts-container-1-outer {
@@ -778,6 +778,9 @@ p.footer-quote-byline {
 .latest-artifacts-container-2,
 .latest-resources-container {
   padding-bottom: 60px;
+}
+
+.latest-artifacts-container-2 {
   background-color: $off-3;
 }
 
@@ -1413,6 +1416,10 @@ img.artifact-img {
   max-height: calc(100vh - 160px);
 }
 
+img.artifact-img.random-feature {
+  max-height: 80vh;
+}
+
 .artifact-img-flick {
   max-height: calc(100vh - 250px);
 }
@@ -1591,8 +1598,7 @@ img.artifact-img {
   display: block;
 }
 
-.deet-label,
-.prev-next-label {
+.deet-label {
   padding-top: 10px;
 }
 
@@ -1856,7 +1862,7 @@ a.deet-link.resource:hover {
 
 .container-fluid.prev-next {
   margin-top: 90px;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
   background-color: $off-1;
 }

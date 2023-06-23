@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "y1976"
 origin: null
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: null

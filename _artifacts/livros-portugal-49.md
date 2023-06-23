@@ -6,7 +6,7 @@ publisher: ["APEL"]
 year: "y1986"
 origin: null
 formats: ["periódico"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

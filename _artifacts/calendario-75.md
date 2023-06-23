@@ -6,7 +6,7 @@ publisher: ["Edições Avante!"]
 year: "y1974"
 origin: ["Portugal"]
 formats: ["calendar"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

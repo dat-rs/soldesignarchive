@@ -6,7 +6,7 @@ publisher: ["Direccion General del Turismo"]
 year: "y1962"
 origin: ["Spain"]
 formats: ["book, guide"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

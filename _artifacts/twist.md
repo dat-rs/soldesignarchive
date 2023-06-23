@@ -6,7 +6,7 @@ publisher: ["Columbia"]
 year: "y1961"
 origin: null
 formats: ["record, record-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

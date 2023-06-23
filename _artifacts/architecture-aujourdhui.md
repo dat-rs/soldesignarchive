@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "y1934"
 origin: ["France"]
 formats: ["magazine"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

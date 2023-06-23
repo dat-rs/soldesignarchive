@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "unknown date"
 origin: ["Austria"]
 formats: ["flyer"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

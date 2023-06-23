@@ -5,8 +5,8 @@ author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown date"
 origin: ["Greece"]
-formats: ["book"]
-disciplines: ["graphic-design"]
+formats: [book, book-cover]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

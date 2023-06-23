@@ -6,7 +6,7 @@ publisher: ["Editorial Estampa"]
 year: "y1971"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: unknown

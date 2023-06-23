@@ -6,7 +6,7 @@ origin: Portugal
 publisher: 'Uma Comissão de Senhoras'
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
-tags: ['typographic ornaments', stamps, Lisbon]
+tags: ['ornaments', stamps, Lisbon]
 ref: sol-511-0000
 layout: artifact
 status: complete

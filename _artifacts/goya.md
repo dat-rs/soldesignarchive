@@ -5,8 +5,8 @@ author_name: ["Diego Lara"]
 publisher: ["Fundación Juan March"]
 year: "y1979"
 origin: ["Spain"]
-formats: ["book"]
-disciplines: ["graphic-design"]
+formats: [book, book-cover]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

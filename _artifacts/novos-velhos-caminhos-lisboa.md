@@ -6,7 +6,7 @@ publisher: ["J. Drummond Ludovice"]
 year: "unknown date"
 origin: null
 formats: ["almanac, book"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["Ulisseia"]
 year: "y1955"
 origin: ["Portugal"]
 formats: ["book, book-cover, illustration"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

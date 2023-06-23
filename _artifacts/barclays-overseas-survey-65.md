@@ -5,8 +5,8 @@ author_name: ["unknown author"]
 publisher: ["Barclays Bank"]
 year: "y1965"
 origin: ["United-Kingdom"]
-formats: ["book"]
-disciplines: ["graphic-design"]
+formats: [book, book-cover]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

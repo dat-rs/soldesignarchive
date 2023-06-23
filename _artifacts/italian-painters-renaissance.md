@@ -6,7 +6,7 @@ publisher: ["Meridian Books"]
 year: "y1957"
 origin: ["United-States"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["ready"]

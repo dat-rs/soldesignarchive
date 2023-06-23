@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "y1973"
 origin: ["Portugal, United-Kingdom"]
 formats: ["book, book-cover, document"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

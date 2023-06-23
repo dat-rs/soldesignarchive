@@ -6,7 +6,7 @@ publisher: ["Time-Life"]
 year: "y1974"
 origin: null
 formats: ["book, book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

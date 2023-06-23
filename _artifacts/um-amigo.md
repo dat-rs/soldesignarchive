@@ -6,7 +6,7 @@ publisher: ["Editorial Presença"]
 year: "y1973"
 origin: ["Portugal"]
 formats: ["book, book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

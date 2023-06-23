@@ -6,7 +6,7 @@ publisher: ["Portugália Editora"]
 year: "unknown date"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["O Livro de Bolso"]
 layout: artifact
 status: ["scan"]

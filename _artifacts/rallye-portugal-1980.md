@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "y1980"
 origin: ["Portugal"]
 formats: ["sticker"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]
