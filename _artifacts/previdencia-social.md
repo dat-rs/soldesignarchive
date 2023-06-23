@@ -8,7 +8,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration]
 tags: ["Colecção Educativa", "Estado Novo"]
 ref: sol-030-0126
-image_count: 5
+image_count:
 layout: artifact
 status: complete
 published: true

@@ -5,8 +5,8 @@ author_name: ["Tóssan, José Trilho y Blanco, José Casimiro, Zé Carlos, Robal
 publisher: ["unknown publisher"]
 year: "y1951"
 origin: null
-formats: ["book"]
-disciplines: ["graphic-design"]
+formats: [book, book-cover]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "unknown date"
 origin: ["Portugal"]
 formats: ["magazine"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Boletim da Sociedade Nacional de Belas Artes"]
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["Ulisseia"]
 year: "y1954"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["rescan"]

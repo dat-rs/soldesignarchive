@@ -6,7 +6,7 @@ publisher: ["Stichting Prometheus"]
 year: "y1961"
 origin: ["Netherlands"]
 formats: ["magazine"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["International Lighting Review/Revista Internacional de Luminotecnia"]
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["Editorial O Primeiro de Janeiro"]
 year: "y1948"
 origin: ["Portugal"]
 formats: ["book, book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

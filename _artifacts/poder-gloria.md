@@ -6,7 +6,7 @@ publisher: ["Livros do Brasil"]
 year: "y1956"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

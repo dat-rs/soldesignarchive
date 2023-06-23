@@ -6,7 +6,7 @@ publisher: ["Livraria Clássica Editora"]
 year: "y1968"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

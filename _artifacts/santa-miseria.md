@@ -6,7 +6,7 @@ publisher: ["Editorial Inquérito"]
 year: "y1940"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "y1957"
 origin: ["Belgium"]
 formats: ["brochure"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
 status: ["scan"]

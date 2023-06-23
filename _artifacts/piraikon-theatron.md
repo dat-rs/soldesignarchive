@@ -6,7 +6,7 @@ publisher: ["Fundação Calouste Gulbenkian"]
 year: "y1963"
 origin: ["Portugal"]
 formats: ["programme"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

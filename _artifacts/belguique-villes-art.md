@@ -7,7 +7,7 @@ year: y1958
 circa: true
 origin: ["Belgium"]
 formats: ["booklet"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
 status: ["scan"]

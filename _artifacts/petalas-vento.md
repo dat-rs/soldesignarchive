@@ -3,16 +3,16 @@ ref: sol-030-0235
 title: "Pétalas ao Vento"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: y1927
 origin: ["Portugal"]
-formats: ["book"]
-disciplines: ["graphic-design"]
-tags:
+formats: [book, book-cover]
+disciplines: [graphic-design, illustration, typography, lettering]
+tags: [poetry]
 layout: artifact
-status: ["production"]
+status: production
 published: false
 int_published: false
 image_count:
 date_added: 2023-06-16
-batch:
+batch: /ladra15Abril/1
 ---

@@ -6,7 +6,7 @@ publisher: ["SNCF"]
 year: "unknown date"
 origin: ["France"]
 formats: ["booklet"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
 status: ["scan"]

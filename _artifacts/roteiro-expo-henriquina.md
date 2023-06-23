@@ -6,7 +6,7 @@ publisher: ["Comissão Executiva do V Centenário da Morte do Infante D. Henriqu
 year: "y1960"
 origin: ["Portugal"]
 formats: ["catalogue"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["unknown publisher"]
 year: "unknown date"
 origin: ["United-Kingdom"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["redo"]

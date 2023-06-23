@@ -6,7 +6,7 @@ publisher: ["Verlag L.Schwann Düsseldorf"]
 year: "y1948"
 origin: ["Germany"]
 formats: ["book, book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

@@ -6,7 +6,7 @@ publisher: ["SPN/SNI/SEIT"]
 year: "y1940"
 origin: ["Portugal"]
 formats: ["book, book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags:
 layout: artifact
 status: ["scan"]

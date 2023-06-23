@@ -6,7 +6,7 @@ publisher: ["Commissariat Général au Turisme"]
 year: "y1958"
 origin: ["Belgium"]
 formats: ["brochure"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
 status: ["scan"]

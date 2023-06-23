@@ -6,7 +6,7 @@ publisher: ["Verbo"]
 year: "y1970"
 origin: ["Portugal"]
 formats: ["book-cover"]
-disciplines: ["graphic-design"]
+disciplines: [graphic-design]
 tags: ["Livros RTP"]
 layout: artifact
 status: null
