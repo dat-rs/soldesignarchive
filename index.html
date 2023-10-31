@@ -19,7 +19,12 @@ page-meta-image=page.image %}
 
             <div class="col-12 col-lg-9"">
                 <h3 class=" section-title">About</h3>
-                <section>{% include about-sol.md %}</section>
+                {% assign published_artifacts = site.artifacts | where: 'published', 'true' %}
+                {% assign published_authors = site.authors | where: 'published', 'true' %}
+
+                <p class="about-sol">
+                    {% include about-sol.md %}
+                </p>
             </div>
 
         </div>
@@ -30,11 +35,11 @@ page-meta-image=page.image %}
 
 {% include ticker.html %}
 
-{% include blog-section.html %}
+{% include latest-artifacts.html %}
 
 {% include random-feature.html %}
 
-{% include latest-artifacts.html %}
+{% include blog-section.html %}
 
 {% include shorts-section.html %}
 
@@ -43,7 +48,7 @@ page-meta-image=page.image %}
 
         <div class="col-12 col-disciplines-index">
 
-            <div class="section-index-container">
+            <div class="cat-section-container">
 
                 <h3 class="section-title">Disciplines</h3>
 
@@ -61,7 +66,7 @@ page-meta-image=page.image %}
 
         <div class="col-12 col-lg-6 col-authors-index">
 
-            <div class="section-index-container authors">
+            <div class="cat-section-container authors">
 
                 <h3 class="section-title index authors">Authors</h3>
 
@@ -78,7 +83,7 @@ page-meta-image=page.image %}
 
         <div class="col-12 col-lg-6 col-publishers-index">
 
-            <div class="section-index-container publishers">
+            <div class="cat-section-container publishers">
 
                 <h3 class="section-title index publishers">Publishers/Clients</h3>
 
@@ -95,7 +100,7 @@ page-meta-image=page.image %}
 
         <div class="col-12 col-formats-index">
 
-            <div class="section-index-container formats">
+            <div class="cat-section-container formats">
 
                 <h3 class="section-title index formats">Formats</h3>
 
@@ -113,7 +118,7 @@ page-meta-image=page.image %}
 
         <div class="col-12 col-md-6 col-years-index">
 
-            <div class="section-index-container">
+            <div class="cat-section-container">
 
                 <h3 class="section-title">Years</h3>
 
@@ -129,7 +134,7 @@ page-meta-image=page.image %}
 
         <div class="col-12 col-md-6 col-origins-index">
 
-            <div class="section-index-container">
+            <div class="cat-section-container">
 
                 <h3 class="section-title">Origins</h3>
 
@@ -146,7 +151,7 @@ page-meta-image=page.image %}
 
         <div class="col-12 col-tags-index">
 
-            <div class="section-index-container tags">
+            <div class="cat-section-container tags">
 
                 <h3 class="section-title index tags">Tags</h3>
 

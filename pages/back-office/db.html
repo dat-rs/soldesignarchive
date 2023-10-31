@@ -5,28 +5,22 @@ published: false
 ---
 
 {% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
-page-meta-description=page.description page-meta-image=page.image %}
-
-{% include baoff-sub-header.html %}
+page-meta-description=page.description page-meta-image=page.image %} {% include baoff-sub-header.html %}
 
 <div class="container-fluid">
   <div id="artifacts-search" class="row no-gutters">
-
     <div class="col-6 col-xxl-6">
       <h3 class="filter-title"><span class="title-label">Search</span></h3>
       <input type="text" class="quicksearch baoff" placeholder="" />
-
     </div>
 
     <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
-
       <h3 class="filter-title"><span class="title-label">Sort by</span></h3>
 
-      <button class="button is-checked left" data-sort-value="original-order">ref asc. &UpArrow; </button>
+      <button class="button is-checked left" data-sort-value="original-order">ref asc. &UpArrow;</button>
       <button class="button middle" data-sort-value="title">Title</button>
       <button class="button middle" data-sort-value="year">Year</button>
       <button class="button right" data-sort-value="date">Date updated desc. ↓</button>
-
     </div>
 
     <!--
@@ -39,9 +33,7 @@ page-meta-description=page.description page-meta-image=page.image %}
 
     </div>
     -->
-
   </div>
-
 
   <div class="row faux-table-head-row">
     <div class="col-1 faux-table-head-col">Img</div>
@@ -56,26 +48,30 @@ page-meta-description=page.description page-meta-image=page.image %}
 </div>
 
 <div class="container-fluid">
-
   <div class="faux-table db" id="artifact-table">
-    {% assign artifacts_by_ref = site.artifacts | sort: 'ref' %}
-    {% for artifact in artifacts_by_ref %}
+    {% assign artifacts_by_ref = site.artifacts | sort: 'ref' %} {% for artifact in artifacts_by_ref %}
     <div class="row artifact-table-row">
       <div class="col-1 faux-table-col">
         {% if artifact.published == false %}
-        <img class="db-img" src="/images/non-art/black-square.png" alt="">
+        <img class="db-img" src="/images/non-art/black-square.png" alt="" />
         {% else %}
-        <img class="db-img" loading="lazy" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg"
-          alt="{{ artifact.title }}">
+        <img
+          class="db-img"
+          loading="lazy"
+          src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg"
+          alt="{{ artifact.title }}"
+        />
         {% endif %}
 
-        <span class="gray-diff" style="vertical-align: top;">{% if artifact.published == false %}0{% else %}{% if artifact.image_count %}{{ artifact.image_count }}{%
-          else %}1{% endif %}{% endif %}</span>
+        <span class="gray-diff" style="vertical-align: top"
+          >{% if artifact.published == false %}0{% else %}{% if artifact.image_count %}{{ artifact.image_count }}{% else
+          %}1{% endif %}{% endif %}</span
+        >
       </div>
 
       <div class="col-3 faux-table-col">
-        <span class="title tabold">{{ artifact.title }}</span> <br>
-        <a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts' }}</a> <br>
+        <span class="title tabold">{{ artifact.title }}</span> <br />
+        <a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts' }}</a> <br />
         <span class="reference">{{ artifact.ref }}</span>
       </div>
 
@@ -84,33 +80,30 @@ page-meta-description=page.description page-meta-image=page.image %}
       <div class="col-1 faux-table-col">{{ artifact.publisher | join: ", " }}</div>
 
       <div class="col-1 faux-table-col">
-        <span class="year">{{ artifact.year | remove_first: 'y' }}</span> <br>
+        <span class="year">{{ artifact.year | remove_first: 'y' }}</span> <br />
         {{ artifact.origin | join: ", " }}
       </div>
 
       <div class="col-3 faux-table-col">
-        {{ artifact.formats | join: ", " }} <br>
-        <span class="gray-diff">{{ artifact.disciplines | join: ", " }}</span> <br>
+        {{ artifact.formats | join: ", " }} <br />
+        <span class="gray-diff">{{ artifact.disciplines | join: ", " }}</span> <br />
         {{ artifact.tags | join: ", " }}
       </div>
 
       <div class="col-1 faux-table-col">
-        <span class="date">{{ artifact.date_added }}</span> <br>
-        {{ artifact.status }} <br>
+        <span class="date">{{ artifact.date_added }}</span> <br />
+        {{ artifact.status }} <br />
         pub: {{ artifact.published }}
       </div>
 
       <div class="col-1 faux-table-col">
-        {{ artifact.batch }} <br>
-        Feira da Ladra <br>
+        {{ artifact.batch }} <br />
+        Feira da Ladra <br />
         1€
-        
       </div>
     </div>
     {% endfor %}
   </div>
 </div>
 
-{% include footer.html %}
-{% include scripts/scripts-db.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include scripts/scripts-db.html %} {% include the-end.html %}

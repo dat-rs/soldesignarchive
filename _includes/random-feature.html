@@ -7,19 +7,24 @@
 
 {% for artifact in feature_random_artifacts_2 %}
 
-<div class="container-fluid random-feature-title">
+<div class="container-fluid random-feature-container-1">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="section-title my-0 artifact-red">A random feature from the archive:</h3>
-                <h2 class="title artifact self">{{ artifact.title }}</h2>
+                <h3 class="section-title my-0 artifact-red">A random feature from the archive</h3>
+                <h2 class="title artifact self random-feature">{{ artifact.title }}</h2>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid random-feature">
+<div class="container-fluid random-feature-container-2">
     <div class="row">
+
+      <div class="col-12">
+        <div class="random-feature-top-rule"></div>
+      </div>
+
 
         <div class="col-12 col-md-8">
 
@@ -88,6 +93,10 @@
                 <a class="btn cta" href="{{ artifact.url }}" role="button">See artifact →</a>
               </section>
 
+        </div>
+
+        <div class="col-12">
+          <div class="random-feature-bottom-rule"></div>
         </div>
 
     </div>

@@ -1,79 +1,79 @@
-  <div class="container-fluid container-footer">
+<div class="container-fluid container-footer">
 
-    <div class="row footer-row">
+  <div class="row footer-row">
 
-      <div class="col-6 col-md-2">
-        <a class="footer-link artifacts" href="/pages/artifacts.html">Artifacts</a><br>
-        <a class="footer-link authors" href="/pages/authors.html">Authors</a><br>
-        <a class="footer-link origins" href="/pages/origins.html">Origins</a><br>
-        <a class="footer-link publishers" href="/pages/publishers.html">Publishers</a><br>
-        <a class="footer-link disciplines" href="/pages/disciplines.html">Disciplines</a><br>
-        <a class="footer-link years" href="/pages/years.html">Years</a><br>
-        <a class="footer-link formats" href="/pages/formats.html">Formats</a><br>
-        <a class="footer-link tags" href="/pages/tags.html">Tags</a><br>
-        <a class="footer-link resources" href="/pages/resources.html">Resources</a><br>
-      </div>
-
-      <div class="col-2 d-none d-md-block">
-        <a class="footer-link" href="/pages/about.html">About</a><br>
-        <a class="footer-link" href="/pages/blog">Blog</a><br>
-        <a class="footer-link" href="/pages/shorts">Shorts</a><br>
-      </div>
-
-      <div class="col-4 d-none d-md-block">
-        <a class="footer-link" href="https://instagram.com/soldesignarchive">Instagram</a><br>
-        <a class="footer-link" href="https://twitter.com/archivesol">Twitter</a>
-      </div>
-
-      <div class="col-6 d-sm-none">
-        <a class="footer-link" href="/pages/about.html">About</a><br>
-        <a class="footer-link" href="/pages/blog">Blog</a><br>
-        <a class="footer-link" href="/pages/shorts">Shorts</a><br>
-        <a class="footer-link" href="https://instagram.com/soldesignarchive">Instagram</a><br>
-        <a class="footer-link" href="https://twitter.com/archivesol">Twitter</a>
-      </div>
-
-      <div class="col-12 col-md-4 col-xxl-3">
-        {% assign published_artifacts = site.artifacts | where: 'published', 'true' %}
-        {% assign published_authors = site.authors | where: 'published', 'true' %}
-        <p class="footer-text">
-          Sol Design Archive is an online archive of design with a special focus on twentieth-century Portuguese graphic design and illustration. The archive currently contains <strong>{{ published_artifacts.size }}</strong> artifacts by
-          <strong>{{ published_authors.size }}</strong> authors. Collected, maintained and designed by Ricardo Santos.
-        </p>
-
-        <p class="footer-text">
-
-          All materials <strong>created</strong> by Sol are shared under a CC0. Artworks and other resources are shared under fair use for educational and research purposes.
-
-        </p>
-
-      </div>
-
+    <div class="col-6 col-md-2">
+      <a class="footer-link artifacts" href="/pages/artifacts.html">Artifacts</a><br>
+      <a class="footer-link authors" href="/pages/authors.html">Authors</a><br>
+      <a class="footer-link origins" href="/pages/origins.html">Origins</a><br>
+      <a class="footer-link publishers" href="/pages/publishers.html">Publishers</a><br>
+      <a class="footer-link disciplines" href="/pages/disciplines.html">Disciplines</a><br>
+      <a class="footer-link years" href="/pages/years.html">Years</a><br>
+      <a class="footer-link formats" href="/pages/formats.html">Formats</a><br>
+      <a class="footer-link tags" href="/pages/tags.html">Tags</a><br>
+      <a class="footer-link resources" href="/pages/resources.html">Resources</a><br>
     </div>
 
-    <div class="row footer-logos">
-      <div class="col-12">
-
-        <div class="logos">
-
-          <img src="/images/non-art/sol-mark-shorthand-offwhite.png" width="45px" style="margin-top: 50px" alt=""><br>
-          <img src="/images/non-art/office-santos-logo-offwhite.png" height="25px" style="margin-top: 50px" alt="">
-
-
-        </div>
-
-      </div>
+    <div class="col-2 d-none d-md-block">
+      <a class="footer-link" href="/pages/about.html">About</a><br>
+      <a class="footer-link" href="/pages/blog">Blog</a><br>
+      <a class="footer-link" href="/pages/shorts">Shorts</a><br>
     </div>
 
-    <div class="row footer-quote">
+    <div class="col-4 d-none d-md-block">
+      <a class="footer-link" href="https://instagram.com/soldesignarchive">Instagram</a><br>
+      <a class="footer-link" href="https://twitter.com/archivesol">Twitter</a>
+    </div>
 
-      <div class="col-12">
+    <div class="col-6 d-sm-none">
+      <a class="footer-link" href="/pages/about.html">About</a><br>
+      <a class="footer-link" href="/pages/blog">Blog</a><br>
+      <a class="footer-link" href="/pages/shorts">Shorts</a><br>
+      <a class="footer-link" href="https://instagram.com/soldesignarchive">Instagram</a><br>
+      <a class="footer-link" href="https://twitter.com/archivesol">Twitter</a>
+    </div>
 
-        <p class="footer-quote">«Save everything. It may come in handy later.»</p>
-        <p class="footer-quote-byline">Corita Kent</p>
+    <div class="col-12 col-md-4 col-xxl-3">
+      {% assign published_artifacts = site.artifacts | where: 'published', 'true' %}
+      {% assign published_authors = site.authors | where: 'published', 'true' %}
+      <p class="footer-text">
+        {% include about-sol.md %}
+      </p>
 
-      </div>
+      <p class="footer-text">
+
+        All materials <strong>created</strong> by Sol are shared under a CC0. Artworks and other resources are shared
+        under fair use for educational and research purposes.
+
+      </p>
 
     </div>
 
   </div>
+
+  <div class="row footer-logos">
+    <div class="col-12">
+
+      <div class="logos">
+
+        <img src="/images/non-art/sol-mark-shorthand-offwhite.png" width="45px" style="margin-top: 50px" alt=""><br>
+        <img src="/images/non-art/office-santos-logo-offwhite.png" height="25px" style="margin-top: 50px" alt="">
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row footer-quote">
+
+    <div class="col-12">
+
+      <p class="footer-quote">«Save everything. It may come in handy later.»</p>
+      <p class="footer-quote-byline">Corita Kent</p>
+
+    </div>
+
+  </div>
+
+</div>
