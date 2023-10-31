@@ -1,37 +1,29 @@
-<div class="container-fluid container-blog-index">
+<div class="container-fluid shorts-section-container">
   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="section-title">Shorts</h3>
+      </div>
 
-        <div class="row">
-          <div class="col-12">
-              <h3 class="section-title">Shorts</h3>
-          </div>
+      {% assign shorts = site.shorts | sample: 3 %} {% for short in shorts %}
 
-
-            {% assign shorts = site.shorts | sample: 3  %}
-            {% for short in shorts %}
-
-            <div class="col-12 col-lg-4">
-              <div class="card-deck">
-                <div class="card blog">
-                  <a class="card-link blog" href="{{ short.url }}">
-                    <img class="card-img-top blog" src="{{ short.image }}" alt="{{ short.title }}">
-                    <div class="card-body blog">
-                      <h2 class="title short preview">{{ short.title }}</h2>
-                      <p class="post-lead preview">{{ short.lead }}</p>
-                    </div>
-                    <div class="card-footer blog">
-                      <p class="post-meta preview">{{ short.author }} | {{ short.date | date_to_string }}</p>
-                    </div>
-                  </a>
-
-                </div>
+      <div class="col-12 col-lg-4">
+        <div class="card-deck">
+          <div class="card blog">
+            <a class="card-link blog" href="{{ short.url }}">
+              <img class="card-img-top blog" src="{{ short.image }}" alt="{{ short.title }}" />
+              <div class="card-body blog">
+                <h2 class="title short preview">{{ short.title }}</h2>
+                <p class="post-lead preview">{{ short.lead }}</p>
               </div>
-            </div>
-            {% endfor %}
-
-
+              <div class="card-footer blog">
+                <p class="post-meta preview">{{ short.author }} | {{ short.date | date_to_string }}</p>
+              </div>
+            </a>
+          </div>
         </div>
-
+      </div>
+      {% endfor %}
+    </div>
   </div>
-
 </div>
