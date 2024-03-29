@@ -4,39 +4,32 @@ description: "Browse all resources."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-url=page.url page-meta-image=page.image %}
+{% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-url=page.url
+page-meta-image=page.image %}
 
-<div class="resources holder">
+<div class="container-fluid resources first-after-header">
+  <div class="container container-allcats">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="section-title">Resources</h3>
+      </div>
 
-    <div class="container container-allcats">
+      <div class="col-12">
+        <input type="text" class="quicksearch cats" placeholder="Search" />
+      </div>
 
-        <div class="row">
+      <div class="col-12" id="isotope-container">
+        {% for resource in site.data.resources %}
 
-            <div class="col-12">
+        <h2 class="title allcat page resources isotope-element">
+          <a class="browse-link resource" href="{{ resource.out_url }}">{{ resource.title }}</a>
+        </h2>
+        <br />
 
-                <h3 class="section-title">Resources</h3>
-
-            </div>
-
-            <div class="col-12">
-
-              <input type="text" class="quicksearch cats" placeholder="Search" />
-
-            </div>
-
-            <div class="col-12" id="isotope-container">
-
-                {% for resource in site.data.resources %}
-
-                <h2 class="title allcat page resources isotope-element"><a class="browse-link resource" href="{{ resource.out_url }}">{{ resource.title }}</a></h2><br>
-
-                {% endfor %}
-            </div>
-        </div>
+        {% endfor %}
+      </div>
     </div>
-
+  </div>
 </div>
 
-{% include footer.html %}
-{% include scripts/scripts-cats.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include scripts/scripts-cats.html %} {% include the-end.html %}
