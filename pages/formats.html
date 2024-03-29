@@ -4,35 +4,29 @@ description: "Browse the archive by format."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
+{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
+page-meta-image=page.image %}
 
-<div class="formats holder">
-
-    <div class="container container-allcats">
+<div class="container-fluid formats first-after-header">
+  <div class="container container-allcats">
     <div class="row">
+      <div class="col-12">
+        <h3 class="section-title">Formats</h3>
+      </div>
 
-        <div class="col-12">
+      <div class="col-12">
+        {% for format in site.formats %} {% assign filtered_artifacts = site.artifacts | where: 'formats', format.name
+        %}
 
-            <h3 class="section-title">Formats</h3>
-
-        </div>
-
-        <div class="col-12">
-
-        {% for format in site.formats %}
-        {% assign filtered_artifacts = site.artifacts | where: 'formats', format.name %}
-
-            <h2 class="title allcat page formats capitalize">
-              <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
-              <span class="cat-count">{{ filtered_artifacts.size }}</span>
-            </h2>
+        <h2 class="title allcat page formats capitalize">
+          <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
+          <span class="cat-count">{{ filtered_artifacts.size }}</span>
+        </h2>
 
         {% endfor %}
-        </div>
+      </div>
     </div>
+  </div>
 </div>
 
-</div>
-
-{% include footer.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include the-end.html %}

@@ -4,42 +4,34 @@ description: "Browse all publishers/clients in the archive."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
+{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
+page-meta-image=page.image %}
 
-<div class="publishers holder">
-
-    <div class="container container-allcats">
+<div class="container-fluid publishers first-after-header">
+  <div class="container container-allcats">
     <div class="row">
+      <div class="col-12">
+        <h3 class="section-title">Publishers</h3>
+      </div>
 
-        <div class="col-12">
+      <div class="col-12">
+        <input type="text" class="quicksearch cats" placeholder="Search" />
+      </div>
 
-            <h3 class="section-title">Publishers</h3>
+      <div class="col-12" id="isotope-container">
+        {% for publisher in site.publishers %} {% assign filtered_artifacts = site.artifacts | where: 'publisher',
+        publisher.title %}
 
-        </div>
-
-        <div class="col-12">
-
-          <input type="text" class="quicksearch cats" placeholder="Search" />
-
-        </div>
-
-        <div class="col-12" id="isotope-container">
-
-        {% for publisher in site.publishers %}
-        {% assign filtered_artifacts = site.artifacts | where: 'publisher', publisher.title %}
-
-            <h2 class="title allcat page publishers isotope-element">
-              <a class="browse-link publisher" href="{{ publisher.url }}">{{ publisher.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a>
-              
-            </h2>
+        <h2 class="title allcat page publishers isotope-element">
+          <a class="browse-link publisher" href="{{ publisher.url }}"
+            >{{ publisher.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
+          >
+        </h2>
 
         {% endfor %}
-        </div>
+      </div>
     </div>
+  </div>
 </div>
 
-</div>
-
-{% include footer.html %}
-{% include scripts/scripts-cats.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include scripts/scripts-cats.html %} {% include the-end.html %}

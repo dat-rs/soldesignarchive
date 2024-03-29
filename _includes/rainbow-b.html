@@ -1,0 +1,125 @@
+<div class="container-fluid rainbow-container-outer-b">
+  <div class="container-fluid rainbow-container-b-mid one first-after-header">
+    <div class="container rainbow-container-b-deep one d-flex align-items-center justify-content-center">
+      <div class="row rainbow">
+        <div class="col-1">
+          <a class="a-module sm grid" href="/artifacts/segunda-vitoria/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-030-0255-segunda-vitoria-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="/artifacts/artes-e-tradicoes-de-barcelos/">
+            <div class="a-module-img-holder">
+              <img
+                class="a-module-img"
+                src="/images/tiles/sol-030-0105-artes-e-tradicoes-de-barcelos-tile.jpg"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="/artifacts/sir-jerry-detective/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-010-0015-sir-jerry-detective-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="/artifacts/o-sobreiro/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-030-0169-o-sobreiro-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="artifacts/radio/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-030-0189-radio-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="/artifacts/francos/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-030-0207-francos-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="/artifacts/expressao/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-030-0187-expressao-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="artifacts/introducao-ao-pensamento-de-teilhard-de-chardin/">
+            <div class="a-module-img-holder">
+              <img
+                class="a-module-img"
+                src="/images/tiles/sol-030-0118-introducao-ao-pensamento-de-teilhard-de-chardin-tile.jpg"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="artifacts/home-entre-herois/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-130-0001-home-entre-herois-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="artifacts/obreiros-de-quatro-imperios/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-030-0166-obreiros-de-quatro-imperios-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="artifacts/vale-ira/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-030-0179-vale-ira-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+
+        <div class="col-1">
+          <a class="a-module sm grid" href="artifacts/folklore-belge/">
+            <div class="a-module-img-holder">
+              <img class="a-module-img" src="/images/tiles/sol-121-0007-folklore-belge-tile.jpg" alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid rainbow-container-b-mid two" style="background-color: #ebded3">
+    <div class="container rainbow-container-b-deep two">
+      <!-- ROW 2 -->
+      <div class="row rainbow-about">
+        <div class="col-12 col-lg-8 offset-lg-2">
+          <h3 class="section-title">About</h3>
+          {% assign published_artifacts = site.artifacts | where: 'published', 'true' %} {% assign published_authors =
+          site.authors | where: 'published', 'true' %}
+
+          <p class="about-sol rainbow">{% include about-sol.md %}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

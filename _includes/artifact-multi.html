@@ -1,38 +1,47 @@
-      <div class="container-fluid container-artifact-img multi first-after-header">
+<div class="container-fluid container-artifact-img multi first-after-header">
+  <!-- Artifact Carousel -->
+  <div class="artifact-carousel f-carousel" id="artifactCarousel">
+    <div
+      class="artifact-carousel-cell f-carousel__slide"
+      data-thumb-src="/images/tiles/{{ page.ref }}-{{ page.slug }}-tile.jpg"
+    >
+      <div class="artifact-img-container">
+        <img
+          class="artifact-img-flick"
+          loading="lazy"
+          data-fancybox="artifact-gallery"
+          src="/images/{{ page.ref }}-{{ page.slug }}.jpg"
+          alt="{{ page.title }}"
+        />
+      </div>
+    </div>
 
-          <!-- Artifact Carousel -->
-          <div class="artifact-carousel f-carousel" id="artifactCarousel">
+    {% assign image_count = page.image_count %} {% for image in (2..image_count) %}
 
-            <div class="artifact-carousel-cell f-carousel__slide"  data-thumb-src="/images/tiles/{{ page.ref }}-{{ page.slug }}-tile.jpg">
-              <div class="artifact-img-container">
+    <div
+      class="artifact-carousel-cell f-carousel__slide"
+      data-thumb-src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg"
+    >
+      <div class="artifact-img-container">
+        <img
+          class="artifact-img-flick"
+          loading="lazy"
+          data-fancybox="artifact-gallery"
+          src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg"
+          alt="{{ page.title }}"
+          data-lazy-src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg"
+          alt="{{ page.title }}"
+        />
+      </div>
 
-              <img class="artifact-img-flick" loading="lazy" data-fancybox="artifact-gallery" src="/images/{{ page.ref }}-{{ page.slug }}.jpg" alt="{{ page.title }}">
-              </div>
-            </div>
+      {% assign fixed_image_count = image | minus: 1 %} {% if page.image_captions[fixed_image_count] %}
+      <div class="caption-flick-shell">
+        <p class="caption a-multi fake-container">↑ {{ page.image_captions[fixed_image_count]}}</p>
+      </div>
 
-          {% assign image_count = page.image_count %}
-          {% for image in (2..image_count) %}
+      {% endif %}
+    </div>
 
-          <div class="artifact-carousel-cell f-carousel__slide" data-thumb-src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg">
-            <div class="artifact-img-container">
-
-
-            <img class="artifact-img-flick" loading="lazy" data-fancybox="artifact-gallery" src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg" alt="{{ page.title }}" data-lazy-src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg" alt="{{ page.title }}">
-            </div>
-
-
-          {% assign fixed_image_count = image | minus: 1 %}
-            {% if page.image_captions[fixed_image_count] %}
-            <div class="caption-flick-shell">
-              <p class="caption a-multi fake-container">↑ {{ page.image_captions[fixed_image_count]}}</p>
-            </div>
-
-
-            {% endif %}
-          </div>
-
-          {% endfor %}
-          </div>
-
-
-        </div>
+    {% endfor %}
+  </div>
+</div>

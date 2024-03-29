@@ -6,170 +6,108 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
-page-meta-image=page.image %}
-
-
-{% include rainbow.html %}
-
-<div class="container-fluid about">
-
-    <div class="container">
-
-        <div class="row justify-content-center">
-
-            <div class="col-12 col-lg-9"">
-                <h3 class=" section-title">About</h3>
-                {% assign published_artifacts = site.artifacts | where: 'published', 'true' %}
-                {% assign published_authors = site.authors | where: 'published', 'true' %}
-
-                <p class="about-sol">
-                    {% include about-sol.md %}
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-{% include ticker.html %}
-
-{% include latest-artifacts.html %}
-
-{% include random-feature.html %}
-
-{% include blog-section.html %}
-
-{% include shorts-section.html %}
+page-meta-image=page.image %} {% include rainbow.html %} {% include ticker.html %} {% include latest-artifacts.html %}
+{% include random-feature.html %} {% include blog-section.html %} {% include shorts-section.html %}
 
 <div class="container-sections-index">
-    <div class="row no-gutters">
+  <div class="row no-gutters">
+    <div class="col-12 col-disciplines-index">
+      <div class="cat-section-container">
+        <h3 class="section-title">Disciplines</h3>
 
-        <div class="col-12 col-disciplines-index">
+        {% for discipline in site.disciplines %}
 
-            <div class="cat-section-container">
+        <h2 class="title allcat">
+          <a class="browse-link index discipline" href="{{ discipline.url }}">{{ discipline.name }}</a>
+        </h2>
 
-                <h3 class="section-title">Disciplines</h3>
-
-                {% for discipline in site.disciplines %}
-
-                <h2 class="title allcat"><a class="browse-link index discipline" href="{{ discipline.url }}">{{
-                        discipline.name }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-
-        </div>
-
-        <div class="col-12 col-lg-6 col-authors-index">
-
-            <div class="cat-section-container authors">
-
-                <h3 class="section-title index authors">Authors</h3>
-
-                {% for author in site.authors %}
-
-                <h2 class="title allcat index authors"><a class="browse-link index" href="{{ author.url }}">{{
-                        author.name }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
-        <div class="col-12 col-lg-6 col-publishers-index">
-
-            <div class="cat-section-container publishers">
-
-                <h3 class="section-title index publishers">Publishers/Clients</h3>
-
-                {% for publisher in site.publishers %}
-
-                <h2 class="title allcat index publishers"><a class="browse-link index" href="{{ publisher.url }}">{{
-                        publisher.title }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
-        <div class="col-12 col-formats-index">
-
-            <div class="cat-section-container formats">
-
-                <h3 class="section-title index formats">Formats</h3>
-
-                {% for format in site.formats %}
-
-                <h2 class="title allcat capitalize">
-                    <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
-                </h2>
-
-                {% endfor %}
-
-            </div>
-        </div>
-
-
-        <div class="col-12 col-md-6 col-years-index">
-
-            <div class="cat-section-container">
-
-                <h3 class="section-title">Years</h3>
-
-                {% for year in site.years %}
-
-                <h2 class="title allcat"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
-        <div class="col-12 col-md-6 col-origins-index">
-
-            <div class="cat-section-container">
-
-                <h3 class="section-title">Origins</h3>
-
-                {% for origin in site.origins %}
-
-                <h2 class="title allcat"><a class="browse-link index" href="{{ origin.url }}">{{ origin.name | replace:
-                        "-", " " }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
-        <div class="col-12 col-tags-index">
-
-            <div class="cat-section-container tags">
-
-                <h3 class="section-title index tags">Tags</h3>
-
-                {% for tag in site.tags %}
-
-                <h2 class="title allcat tags"><a class="browse-link index tag" href="{{ tag.url }}">{{ tag.title |
-                        replace: "-", " " }}</a></h2>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
-
+        {% endfor %}
+      </div>
     </div>
+
+    <div class="col-12 col-lg-6 col-authors-index">
+      <div class="cat-section-container authors">
+        <h3 class="section-title index authors">Authors</h3>
+
+        {% for author in site.authors %}
+
+        <h2 class="title allcat index authors">
+          <a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a>
+        </h2>
+
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6 col-publishers-index">
+      <div class="cat-section-container publishers">
+        <h3 class="section-title index publishers">Publishers/Clients</h3>
+
+        {% for publisher in site.publishers %}
+
+        <h2 class="title allcat index publishers">
+          <a class="browse-link index" href="{{ publisher.url }}">{{ publisher.title }}</a>
+        </h2>
+
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-12 col-formats-index">
+      <div class="cat-section-container formats">
+        <h3 class="section-title index formats">Formats</h3>
+
+        {% for format in site.formats %}
+
+        <h2 class="title allcat capitalize">
+          <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
+        </h2>
+
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-years-index">
+      <div class="cat-section-container">
+        <h3 class="section-title">Years</h3>
+
+        {% for year in site.years %}
+
+        <h2 class="title allcat"><a class="browse-link index" href="{{ year.url }}">{{ year.title }}</a></h2>
+
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-origins-index">
+      <div class="cat-section-container">
+        <h3 class="section-title">Origins</h3>
+
+        {% for origin in site.origins %}
+
+        <h2 class="title allcat">
+          <a class="browse-link index" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a>
+        </h2>
+
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-12 col-tags-index">
+      <div class="cat-section-container tags">
+        <h3 class="section-title index tags">Tags</h3>
+
+        {% for tag in site.tags %}
+
+        <h2 class="title allcat tags">
+          <a class="browse-link index tag" href="{{ tag.url }}">{{ tag.title | replace: "-", " " }}</a>
+        </h2>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
 
-{% include latest-resources.html %}
-{% include scripts/scripts-fancybox.html %}
-{% include footer.html %}
-{% include the-end.html %}
+{% include latest-resources.html %} {% include scripts/scripts-fancybox.html %} {% include footer.html %} {% include
+the-end.html %}

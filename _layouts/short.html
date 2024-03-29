@@ -1,35 +1,22 @@
 ---
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.lead page-meta-image=page.image %}
-
+{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.lead
+page-meta-image=page.image %}
 
 <div class="container first-after-header post-head">
-
   <div class="row">
-
     <div class="col-12">
-
-        <h3 class="cat-label post">Short</h3>
-        <h2 class="title blog self">
-            <a href="{{ post.url }}">{{ page.title }}</a>
-        </h2>
-
+      <h3 class="cat-label post">Short</h3>
+      <h2 class="title blog self">
+        <a href="{{ post.url }}">{{ page.title }}</a>
+      </h2>
     </div>
 
     <div class="col-12 col-lg-8">
+      <p class="post-lead self">{{ page.lead }}</p>
 
-        <p class="post-lead self">
-            {{ page.lead }}
-        </p>
-
-        <p class="post-meta self">
-
-
-          {{ page.author }}, {{ page.date | date_to_string }}
-
-        </p>
-
+      <p class="post-meta self">{{ page.author }}, {{ page.date | date_to_string }}</p>
     </div>
   </div>
 </div>
@@ -37,96 +24,83 @@
 <div class="container-fluid wide-post-img">
   <div class="row">
     <div class="col-12">
-
-        <img class="grid-img" src="/images/blog_posts/{{ page.image }}" alt="">
-
+      <img class="grid-img" src="/images/blog_posts/{{ page.image }}" alt="" />
     </div>
   </div>
 </div>
 <div class="container">
   <div class="row">
     <div class="col-12">
-
-        <p class="caption blog-header">{{ page.image_caption }}</p>
-
+      <p class="caption blog-header">{{ page.image_caption }}</p>
     </div>
   </div>
-
-
 </div>
 
 <div class="container post">
   <div class="row section post-body">
     <div class="col-12 col-lg-8 col-xl-7">
-
-        <section class="post-text">
-          {{ page.content }}
-        </section>
-        <a class="short-feature-link" href="{{ page.feature_link }}">{{ page.title }}</a>
-
+      <section class="post-text">{{ page.content }}</section>
+      <a class="short-feature-link" href="{{ page.feature_link }}">{{ page.title }}</a>
     </div>
-    
-
   </div>
-
-
 </div>
 
 <section class="container-fluid prev-next">
-    <div class="container">
-<div class="row">
-
-    <div class="col-12">
-
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
         <h3 class="section-title">More</h3>
+      </div>
 
-    </div>
+      {% if page.previous %}
 
-     {% if page.previous %}
-
-        <div class="col-12 col-md-4">
-          <div class="card-deck">
-            <div class="card blog">
-              <a class="card-link blog" href="{{ page.previous.url | escape_once }}">
-                <img class="card-img-top blog" src="{{ page.previous.image }}" alt="{{ page.previous.title }}">
-                <div class="card-body blog">
-                  <h2 class="title short preview">{{ page.previous.title }}</h2>
-                  <p class="post-lead preview">{{ page.previous.lead }}</p>
-                </div>
-                <div class="card-footer blog">
-                  <p class="post-meta preview">{{ page.previous.author }} | {{ page.previous.date | date_to_string }}</p>
-                </div>
-              </a>
-            </div>
+      <div class="col-12 col-md-4">
+        <div class="card-deck">
+          <div class="card blog">
+            <a class="card-link blog" href="{{ page.previous.url | escape_once }}">
+              <img
+                class="card-img-top blog"
+                src="/images/blog_posts/{{ page.previous.image }}"
+                alt="{{ page.previous.title }}"
+              />
+              <div class="card-body blog">
+                <h2 class="title short preview">{{ page.previous.title }}</h2>
+                <p class="post-lead preview">{{ page.previous.lead }}</p>
+              </div>
+              <div class="card-footer blog">
+                <p class="post-meta preview">{{ page.previous.author }} | {{ page.previous.date | date_to_string }}</p>
+              </div>
+            </a>
           </div>
         </div>
+      </div>
 
-    {% endif %}
+      {% endif %} {% if page.next %}
 
-    {% if page.next %}
-
-    <div class="col-12 col-md-4">
-      <div class="card-deck">
-        <div class="card blog">
-          <a class="card-link blog" href="{{ page.next.url | escape_once }}">
-            <img class="card-img-top blog" src="{{ page.next.image }}" alt="{{ page.next.title }}">
-            <div class="card-body blog">
-              <h2 class="title short preview">{{ page.next.title }}</h2>
-              <p class="post-lead preview">{{ page.next.lead }}</p>
-            </div>
-            <div class="card-footer blog">
-              <p class="post-meta preview">{{ page.next.author }} | {{ page.next.date | date_to_string }}</p>
-            </div>
-          </a>
+      <div class="col-12 col-md-4">
+        <div class="card-deck">
+          <div class="card blog">
+            <a class="card-link blog" href="{{ page.next.url | escape_once }}">
+              <img
+                class="card-img-top blog"
+                src="/images/blog_posts/{{ page.next.image }}"
+                alt="{{ page.next.title }}"
+              />
+              <div class="card-body blog">
+                <h2 class="title short preview">{{ page.next.title }}</h2>
+                <p class="post-lead preview">{{ page.next.lead }}</p>
+              </div>
+              <div class="card-footer blog">
+                <p class="post-meta preview">{{ page.next.author }} | {{ page.next.date | date_to_string }}</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
+
+      {% endif %}
     </div>
-
-    {% endif %}
-
-</div>
-</div>
+  </div>
 </section>
 
-{% include footer.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include the-end.html %}
