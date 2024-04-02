@@ -11,8 +11,9 @@ tags: [public policy, medicine]
 layout: artifact
 status: complete
 published: true
-image_count: 
+image_count:
 date_added: 2023-06-23
 batch: /portoJun
 ---
-From a series published by the doctors union covering different public health systems. See also <a class="text cat-link artifact" href="/artifacts/medicina-sovietica/">A Medicina Soviética</a>.
+
+From a series covering different public health systems, published by the doctors union. See also <a class="text cat-link artifact" href="/artifacts/medicina-sovietica/">A Medicina Soviética</a>.

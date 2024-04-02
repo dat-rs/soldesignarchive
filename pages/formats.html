@@ -19,8 +19,9 @@ page-meta-image=page.image %}
         %}
 
         <h2 class="title allcat page formats capitalize">
-          <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
-          <span class="cat-count">{{ filtered_artifacts.size }}</span>
+          <a class="browse-link format" href="{{ format.url }}"
+            >{{ format.name | replace: "-", " " }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
+          >
         </h2>
 
         {% endfor %}

@@ -19,7 +19,7 @@
         <h3 class="ticker-section sun artifacts">Just in</h3>
         {% assign ticker_latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 3 %} {% for
         artifact in ticker_latest_artifacts %}
-        <h3 class="ticker-title"><a href="/artifacts/{{ artifact.slug }}">{{ artifact.title }}</a></h3>
+        <h3 class="ticker-title three-artifacts"><a href="/artifacts/{{ artifact.slug }}">{{ artifact.title }}</a></h3>
         {% endfor %}
       </div>
       <div class="ticker-element">

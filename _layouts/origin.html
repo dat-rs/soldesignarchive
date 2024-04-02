@@ -23,8 +23,9 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
       <div class="col-12">
         {% assign filtered_artifacts = site.artifacts | where: 'origin', page.name %}
         {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
-        <h3 class="cat-label origin">Origin</h3>
+        
         <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
+        <h3 class="cat-label origin">Origin</h3>
         <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts in the archive from {{ page.name }}.</div>
 
       </div> 

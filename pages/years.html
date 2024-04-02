@@ -18,8 +18,9 @@ page-meta-image=page.image %}
         {% for year in site.years %} {% assign filtered_artifacts = site.artifacts | where: 'year', year.name %}
 
         <h2 class="title allcat page years">
-          <a class="browse-link year" href="{{ year.url }}">{{ year.title }}</a>
-          <span class="cat-count">{{ filtered_artifacts.size }}</span>
+          <a class="browse-link year" href="{{ year.url }}"
+            >{{ year.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
+          >
         </h2>
 
         {% endfor %}
