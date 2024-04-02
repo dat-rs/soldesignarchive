@@ -2,44 +2,35 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign capitalised_page_name = page.name | capitalize %}
-{% capture description %}Browse artifacts tagged «{{ page.name | replace: "-", " " }}»  at the Sol Design Archive.{% endcapture %}
-
-{% assign corrected_title = capitalised_page_name | replace: "-", " " %}
-
-{% include head-and-header.html page-meta-title=corrected_title page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
+{% assign capitalised_page_name = page.name | capitalize %} {% capture description %}Browse artifacts tagged «{{
+page.name | replace: "-", " " }}» at the Sol Design Archive.{% endcapture %} {% assign corrected_title =
+capitalised_page_name | replace: "-", " " %} {% include head-and-header.html page-meta-title=corrected_title
+page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
 
 <div class="container container-cat simple">
+  <div class="row">
+    <div class="col-12">
+      {% assign filtered_artifacts = site.artifacts | where: 'formats', page.name %} {% assign sorted_filtered_artifacts
+      = filtered_artifacts | sort: "year" %}
 
-    <div class="row">
-
-      <div class="col-12">
-
-          {% assign filtered_artifacts = site.artifacts | where: 'formats', page.name %}
-          {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
-          <h3 class="cat-label format">Format</h3>
-          <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
-          <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts in the archive tagged format: {{ page.name | replace: "-", " " }}.</div>
+      <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
+      <h3 class="cat-label format">Format</h3>
+      <div class="artifact-count-deet">
+        There are {{ filtered_artifacts.size }} artifacts in the archive tagged format: {{ page.name | replace: "-", " "
+        }}.
       </div>
     </div>
+  </div>
 </div>
 
 <div class="container-fluid">
+  <div class="row artifacts-section">
+    {% for artifact in sorted_filtered_artifacts %}
 
-    <div class="row artifacts-section">
+    <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au-y.html %}</div>
 
-                  {% for artifact in sorted_filtered_artifacts %}
-
-                  <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                  {% include a-modules/a-module-au-y.html %}
-                  </div>
-
-                  {% endfor %}
-
-    </div>
-
+    {% endfor %}
+  </div>
 </div>
 
-
-{% include footer.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include the-end.html %}

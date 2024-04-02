@@ -2,38 +2,35 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign corrected_page_name = page.name | replace: "-", " " %}
-{% assign capitalised_page_name = corrected_page_name | capitalize %}
-{% capture description %}Browse artifacts tagged «{{ page.name | replace: "-", " " }}»  at the Sol Design Archive.{% endcapture %}
-
-{% include head-and-header.html page-meta-title=capitalised_page_name page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
+{% assign corrected_page_name = page.name | replace: "-", " " %} {% assign capitalised_page_name = corrected_page_name |
+capitalize %} {% capture description %}Browse artifacts tagged «{{ page.name | replace: "-", " " }}» at the Sol Design
+Archive.{% endcapture %} {% include head-and-header.html page-meta-title=capitalised_page_name page-meta-url=page.url
+page-meta-description=description page-meta-image=layout.image %}
 
 <div class="container container-cat simple">
+  <div class="row">
+    <div class="col-12">
+      {% assign filtered_artifacts = site.artifacts | where: 'disciplines', page.name %} {% assign
+      sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
 
-    <div class="row">
-
-        <div class="col-12">
-          {% assign filtered_artifacts = site.artifacts | where: 'disciplines', page.name %}
-          {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
-          <h3 class="cat-label discipline">Discipline</h3>
-          <h2 class="title discipline self capitalize">{{ page.name | replace: "-", " " }}</h2>
-          <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts in the archive tagged discipline: {{ page.name | replace: "-", " " }}.</div>
-  
-        </div> 
+      <h2 class="title discipline self capitalize">{{ page.name | replace: "-", " " }}</h2>
+      <h3 class="cat-label discipline">Discipline</h3>
+      <div class="artifact-count-deet">
+        There are {{ filtered_artifacts.size }} artifacts in the archive tagged discipline: {{ page.name | replace: "-",
+        " " }}.
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="container-fluid">
-    <div class="row artifacts-section">
-        {% for artifact in sorted_filtered_artifacts %}
+  <div class="row artifacts-section">
+    {% for artifact in sorted_filtered_artifacts %}
 
-                  <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-                  {% include a-modules/a-module-au-y.html %}
-                  </div>
+    <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au-y.html %}</div>
 
-                  {% endfor %}
-    </div>
+    {% endfor %}
+  </div>
 </div>
 
-{% include footer.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include the-end.html %}

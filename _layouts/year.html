@@ -2,37 +2,32 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign year = page.name | remove_first: 'y' %}
-
-{% capture description %}Browse artifacts from «{{ page.title }}» at the Sol Design Archive.{% endcapture %}
-
-{% include head-and-header.html page-meta-title=year page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
+{% assign year = page.name | remove_first: 'y' %} {% capture description %}Browse artifacts from «{{ page.title }}» at
+the Sol Design Archive.{% endcapture %} {% include head-and-header.html page-meta-title=year page-meta-url=page.url
+page-meta-description=description page-meta-image=layout.image %}
 
 <div class="container container-cat simple">
-    <div class="row">
+  <div class="row">
+    <div class="col-12">
+      {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
 
-      <div class="col-12">
-        {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
-        <h3 class="cat-label year">Year</h3>
-        <h2 class="title discipline self capitalize">{{ page.name | remove_first: 'y' }}</h2>
-        <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts in the archive dated {{ page.name | remove_first: 'y' }}.</div>
+      <h2 class="title discipline self capitalize">{{ page.name | remove_first: 'y' }}</h2>
+      <h3 class="cat-label year">Year</h3>
+      <div class="artifact-count-deet">
+        There are {{ filtered_artifacts.size }} artifacts in the archive dated {{ page.name | remove_first: 'y' }}.
       </div>
     </div>
-
+  </div>
 </div>
 
 <div class="container-fluid">
-    <div class="row artifacts-section">
-      {% for artifact in filtered_artifacts %}
+  <div class="row artifacts-section">
+    {% for artifact in filtered_artifacts %}
 
-      <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-      {% include a-modules/a-module-au.html %}
-      </div>
+    <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au.html %}</div>
 
-      {% endfor %}
-    </div>
+    {% endfor %}
+  </div>
 </div>
 
-
-{% include footer.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include the-end.html %}

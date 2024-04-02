@@ -23,7 +23,7 @@ page-meta-image=page.image %}
         author.name %}
 
         <h2 class="title allcat page authors isotope-element">
-          <a class="browse-link index" href="{{ author.url }}"
+          <a class="browse-link index" href="{{ author.url | escape }}"
             >{{ author.name }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
           >
         </h2>

@@ -18,9 +18,10 @@ page-meta-image=page.image %}
         {% for discipline in site.disciplines %} {% assign filtered_artifacts = site.artifacts | where: 'disciplines',
         discipline.name %}
 
-        <h2 class="title allcat page disciplines capitalize">
-          <a class="browse-link discipline" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a>
-          <span class="cat-count">{{ filtered_artifacts.size }}</span>
+        <h2 class="title allcat page disciplines bigger capitalize">
+          <a class="browse-link discipline" href="{{ discipline.url }}"
+            >{{ discipline.name | replace: "-", " " }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
+          >
         </h2>
 
         {% endfor %}

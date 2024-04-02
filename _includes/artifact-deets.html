@@ -2,7 +2,7 @@
     <div class="deet-group">
       <span class="deet-label author">Author{% if page.authors.size > 1 %}s{% endif %}</span>
       {% for author in page.author_name %}
-      {% if page.signature-id %}<span class="signed">signed «</span>{% endif %}<a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a>{% if page.signature-id %}<span class="signed">»</span>{% endif %}<br>
+      {% if page.signature-id %}<span class="signed">signed «</span>{% endif %}<a class="deet-link author" href="/authors/{{ author | remove:"." }}">{{ author }}</a>{% if page.signature-id %}<span class="signed">»</span>{% endif %}<br>
       {% endfor %}
     </div>
     <div class="deet-group">
@@ -13,7 +13,7 @@
     <div class="deet-group">
       <span class="deet-label publisher hanging">Publisher{% if page.publisher.size > 1 %}s{% endif %}/Client{% if page.publisher.size > 1 %}s{% endif %}</span>
       {% for publisher in page.publisher %}
-      <a class="deet-link publisher" href="/publishers/{{ publisher | escape_once }}">{{ publisher }}</a>
+      <a class="deet-link publisher" href="/publishers/{{ publisher | escape_once }}">{{ publisher | remove:"." }}</a>
       {% endfor %}
       <br>
     </div>
