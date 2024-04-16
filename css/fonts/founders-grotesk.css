@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Founders Grotesk Light"), url("/fonts/trial/test-founders-grotesk-light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Founders Grotesk Regular"), url("/fonts/trial/test-founders-grotesk-regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Founders Grotesk Medium"), url("/fonts/trial/test-founders-grotesk-medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Founders Grotesk Semibold"), url("/fonts/trial/test-founders-grotesk-semibold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Founders Grotesk Bold"), url("/fonts/trial/test-founders-grotesk-bold.woff2") format("woff");
+}
+
+/* Condensed */
+
+@font-face {
+  font-family: "Founders Grotesk Condensed";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/trial/test-founders-grotesk-condensed-light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Founders Grotesk Condensed Regular"),
+    url("/fonts/trial/test-founders-grotesk-condensed-regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/trial/test-founders-grotesk-condensed-medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Founders Grotesk Condensed Semibold"),
+    url("/fonts/trial/test-founders-grotesk-condensed-semibold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Founders Grotesk Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Founders Grotesk Condensed Bold"),
+    url("/fonts/trial/test-founders-grotesk-condensed-bold.woff2") format("woff");
+}

@@ -34,7 +34,7 @@ page-meta-image=page.image %}
         {% assign filtered_artifacts = site.artifacts | where: 'publisher', page.title %} {% assign
         sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
         <h3 class="section-title">
-          Artifacts <span class="artifact-count">({{ sorted_filtered_artifacts.size }})</span>
+          Artifacts <span class="artifact count">({{ sorted_filtered_artifacts.size }})</span>
         </h3>
       </div>
     </div>

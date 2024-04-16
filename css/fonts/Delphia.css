@@ -1,0 +1,131 @@
+/* Regular */
+
+@font-face {
+  font-family: "Delphia Trial";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Delphia Trial"), url("/fonts/trial/DelphiaTest-Ultralight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Trial";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Delphia Trial"), url("/fonts/trial/DelphiaTest-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Trial";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Delphia Trial"), url("/fonts/trial/DelphiaTest-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Trial";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Delphia Trial"), url("/fonts/trial/DelphiaTest-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Trial";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Delphia Trial"), url("/fonts/trial/DelphiaTest-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Trial";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Delphia Trial"), url("/fonts/trial/DelphiaTest-Black.otf") format("opentype");
+}
+
+/* Condensed */
+
+@font-face {
+  font-family: "Delphia Cond Trial";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Delphia Cond Trial"), url("/fonts/trial/DelphiaTest-UltralightCond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Cond Trial";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Delphia Cond Trial"), url("/fonts/trial/DelphiaTest-LightCond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Cond Trial";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Delphia Cond Trial"), url("/fonts/trial/DelphiaTest-RegularCond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Cond Trial";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Delphia Cond Trial"), url("/fonts/trial/DelphiaTest-MediumCond.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Cond Trial";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Delphia Cond Trial"), url("/fonts/trial/DelphiaTest-BoldCond.otf") format("opentype");
+}
+
+/* Wide */
+
+@font-face {
+  font-family: "Delphia Wide Trial";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Delphia Wide Trial"), url("/fonts/trial/DelphiaTest-UltralightWide.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Wide Trial";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Delphia Wide Trial"), url("/fonts/trial/DelphiaTest-LightWide.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Wide Trial";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Delphia Wide Trial"), url("/fonts/trial/DelphiaTest-RegularWide.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Wide Trial";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Delphia Wide Trial"), url("/fonts/trial/DelphiaTest-MediumWide.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Wide Trial";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Delphia Wide Trial"), url("/fonts/trial/DelphiaTest-BoldWide.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Wide Trial";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Delphia Wide Trial"), url("/fonts/trial/DelphiaTest-BlackWide.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Delphia Wide Trial";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Delphia Wide Trial"), url("/fonts/trial/DelphiaTest-UltraBlackWide.otf") format("opentype");
+}

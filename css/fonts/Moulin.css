@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Moulin";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Moulin Trial.otf"), url("/fonts/trial/Moulin-Thin-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Moulin";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Moulin Trial.otf"), url("/fonts/trial/Moulin-Light-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Moulin";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Moulin Trial.otf"), url("/fonts/trial/Moulin-Regular-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Moulin";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Moulin Trial.otf"), url("/fonts/trial/Moulin-Medium-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Moulin";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Moulin Trial.otf"), url("/fonts/trial/Moulin-Bold-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Moulin";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Moulin Trial.otf"), url("/fonts/trial/Moulin-Black-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Moulin";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Moulin Trial.otf"), url("/fonts/trial/Moulin-BSuper-Trial.otf") format("opentype");
+}

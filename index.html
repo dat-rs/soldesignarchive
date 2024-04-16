@@ -6,8 +6,9 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
-page-meta-image=page.image %} {% include rainbow.html %} {% include ticker.html %} {% include latest-artifacts.html %}
-{% include random-feature.html %} {% include blog-section.html %} {% include shorts-section.html %}
+page-meta-image=page.image %} {% include index-artifacts.html %} {% include index-about.html %} {% include
+latest-rainbow.html %} {% include blog-section.html %} {% include shorts-section.html %} {% include random-feature.html
+%}
 
 <div class="container-sections-index">
   <div class="row no-gutters">
@@ -18,7 +19,7 @@ page-meta-image=page.image %} {% include rainbow.html %} {% include ticker.html 
         {% for discipline in site.disciplines %} {% assign filtered_artifacts = site.artifacts | where: 'disciplines',
         discipline.name %}
 
-        <h2 class="title allcat page disciplines capitalize">
+        <h2 class="title allcat disciplines bigger capitalize">
           <a class="browse-link discipline" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a
           ><span class="cat-count">{{ filtered_artifacts.size }}</span>
         </h2>

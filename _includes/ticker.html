@@ -2,7 +2,7 @@
   <div class="row ticker-wrapper">
     <div class="ticker-move">
       <div class="ticker-element">
-        <h3 class="ticker-section sun tags">A Random Tag</h3>
+        <h4 class="ticker-label tags">A Random Tag</h4>
 
         {% assign min = 1 %} {% assign max = site.tags.size %} {% assign diff = max | minus: min %} {% assign
         randomNumber = "now" | date: "%N" | modulo: diff | plus: min %} {% assign ticker_random_tags = site.tags |
@@ -11,22 +11,24 @@
         | date: "%N" | modulo: diff | plus: min %} {% assign ticker_random_resources = site.data.resources | slice:
         randomNumber %} {% assign ticker_random_resources_2 = ticker_random_resources | slice: 0, 3 %} {% for tag in
         ticker_random_tags_2 %}
-        <h3 class="ticker-title"><a href="{{ tag.url }}">{{ tag.title }}</a></h3>
+        <h4 class="ticker-title"><a href="{{ tag.url }}">{{ tag.title }}</a></h4>
         {% endfor %}
       </div>
 
       <div class="ticker-element">
-        <h3 class="ticker-section sun artifacts">Just in</h3>
-        {% assign ticker_latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 3 %} {% for
+        <h4 class="ticker-label artifacts">Just in</h4>
+        {% assign ticker_latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 2 %} {% for
         artifact in ticker_latest_artifacts %}
-        <h3 class="ticker-title three-artifacts"><a href="/artifacts/{{ artifact.slug }}">{{ artifact.title }}</a></h3>
+        <h4 class="ticker-title three-artifacts"><a href="/artifacts/{{ artifact.slug }}">{{ artifact.title }}</a></h4>
         {% endfor %}
       </div>
       <div class="ticker-element">
-        <h3 class="ticker-section sun resources">A Randomly Linked Resource</h3>
+        <h4 class="ticker-label resources">A Random Resource</h4>
 
         {% for resource in ticker_random_resources_2 %}
-        <h3 class="ticker-title"><a href="{{ resource.out_url }}">{{ resource.title }}{{ resource.date_added }}</a></h3>
+        <h4 class="ticker-title resource">
+          <a href="{{ resource.out_url }}">{{ resource.title }}{{ resource.date_added }}</a>
+        </h4>
         {% endfor %}
       </div>
     </div>

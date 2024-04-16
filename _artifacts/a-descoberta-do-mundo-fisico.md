@@ -1,19 +1,23 @@
 ---
 title: A Descoberta do Mundo Físico
-author_name: ['Sebastião Rodrigues', 'Fernando Costa']
+author_name: ["Sebastião Rodrigues", "Fernando Costa"]
 year: y1979
 origin: Portugal
-publisher: 'Sá da Costa'
+publisher: ["Sá da Costa"]
 formats: [booklet, book-cover]
 disciplines: [graphic-design, photography]
-tags: [non-fiction, science, 'Cadernos de Iniciação Científica', Helvetica]
+tags: [non-fiction, science, "Cadernos de Iniciação Científica", Helvetica]
 ref: sol-253-0000
 image_count: 7
 layout: artifact
 status: complete
 published: true
 date_added: 2020-04-07
+sources_count: 0
+sources_links: ["https://eg.uc.pt/bitstream/10316/41244/1/livros_que_romulo_de_carvalho_nos_deixou.PDF"]
+sources_titles: ["Carlos Fiolhais. <cite>Os livros que António Gedeão nos deixou</cite> (2008) [pt]"]
 ---
+
 <p>
 Design by <a class="text cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>, photographs by <a class="text cat-link author" href="/authors/Fernando Costa/">Fernando Costa</a>.
 </p>
@@ -23,9 +27,3 @@ Originally published by <a class="text cat-link publisher" href="/publishers/Sá
 <p>
 Carlos Fiolhais, professor of Physics at the University of Coimbra and one of the greatest Portuguese science communicators after Carvalho called <cite>Cadernos de Iniciação Científica</cite> <cite>«profoundly original little books»</cite> and of <cite>«an uncommon graphic quality and good taste»</cite><sup>1</sup>.
 </p>
-
-<span class="fn-title" >Notes</span>
-<ol class="footnotes">
-<li><a class="fn-link" href="https://eg.uc.pt/bitstream/10316/41244/1/livros_que_romulo_de_carvalho_nos_deixou.PDF">Carlos Fiolhais. <cite>Os livros que António Gedeão nos deixou</cite> (2008) [pt]</a></li>
-</ol>
-

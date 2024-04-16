@@ -1,49 +1,44 @@
-    <h3 class="section-title">Resources <span class="artifact-count">({{ filtered_resources.size }})</span></h3>
+<div class="row datum-section resources">
+  <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <h3 class="title datum-title resources">Resources</h3>
+  </div>
+  <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col"></div>
+</div>
 
-    {% for resource in filtered_resources %}
+{% for resource in filtered_resources %} {% case resource.type %} {% when 'article' %} {% assign i_class =
+'bi-file-earmark-text' %} {% when 'at-archive' %} {% assign i_class = 'bi bi-archive' %} {% when 'presentation' %} {%
+assign i_class = 'bi bi-file-easel' %} {% when 'pdf' %} {% assign i_class = 'bi-file-earmark-pdf' %} {% when 'video' %}
+{% assign i_class = 'bi-file-earmark-play' %} {% when 'image' %} {% assign i_class = 'bi-file-earmark-image' %} {% when
+'download' %} {% assign i_class = 'bi-file-earmark-download' %} {% when 'book' %} {% assign i_class = 'bi-book' %} {%
+else %} {% assign i_class = 'bi bi-file-earmark-text' %} {% endcase %}
 
-    {% case resource.type %}
-      {% when 'article' %}
-        {% assign i_class = 'bi-file-earmark-text' %}
+<div class="datum-row row">
+  <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="resource-icon">
+      <i class="bi {{ i_class }}"></i>
+    </div>
+  </div>
 
-      {% when 'at-archive' %}
-        {% assign i_class = 'bi bi-archive' %}
-
-        {% when 'presentation' %}
-          {% assign i_class = 'bi bi-file-easel' %}
-
-
-      {% when 'pdf' %}
-        {% assign i_class = 'bi-file-earmark-pdf' %}
-
-      {% when 'video' %}
-        {% assign i_class = 'bi-file-earmark-play' %}
-
-      {% when 'image' %}
-        {% assign i_class = 'bi-file-earmark-image' %}
-
-      {% when 'download' %}
-        {% assign i_class = 'bi-file-earmark-download' %}
-
-      {% when 'book' %}
-        {% assign i_class = 'bi-book' %}
-
-      {% else %}
-        {% assign i_class = 'bi bi-file-earmark-text' %}
-    {% endcase %}
-
-      <div class="resource-module">
-        <div class="resource-info">
-          <a class="deet-link resource" href="{{ resource.out_url }}">
-            <h2 class="title resource inmodule">{{ resource.title }}</h2>
-          </a>
-          <div class="resource-icon">
-            <i class="bi {{ i_class }}"></i>
-          </div>
-          <br>
-          <section class="resource-description">{{ resource.description | remove: '<p>' | remove: '</p>' }} <span class="resource-para-tags">[{{ resource.lang | remove: '<p>' | remove: '</p>' }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</span></section>
-        </div>
+  <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+    <div class="resource-module">
+      <div class="resource-info">
+        <a class="deet-link resource" href="{{ resource.out_url }}">
+          <h2 class="title resource inmodule">{{ resource.title }}</h2>
+        </a>
+        <br />
+        <section class="resource-description">
+          {{ resource.description | remove: '
+          <p>' | remove: '</p>
+          ' }}
+          <span class="resource-para-tags"
+            >[{{ resource.lang | remove: '
+            <p>' | remove: '</p>
+            ' }}] {% if resource.offline %}[{{ resource.offline }}]{% else %}[online]{% endif %}</span
+          >
+        </section>
       </div>
+    </div>
+  </div>
+</div>
 
-    {% endfor %}
-
+{% endfor %}
