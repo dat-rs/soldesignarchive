@@ -6,8 +6,8 @@ author: Ricardo Santos
 author_twitter: "@officesantos"
 lead: Reading got me into books. Books got me into design and illustration. A brief history of how this project came about.
 excerpt_separator: "<!--more-->"
-
 ---
+
 <h3>Backstory</h3>
 
 I’ve been collecting old books and printed ephemera for several years. My favourite spot to look for books is Feira da Ladra, the largest and oldest flea market in Lisbon. When I was in college, I’d skip Tuesday morning classes to go there more often than not. I loved that ritual so much. It was always a thrill: exploring the city and the infinite archives of old shit that all those people would bring together in a single place. I’d sometimes take the subway to Santa Apolónia and start at the bottom of the feira; sometimes, I walked or hopped on the 28 tram to Voz do Operário, crossing Alfama, and started at the top, next to São Vicente de Fora. Sometimes I’d go with friends but almost always by myself.

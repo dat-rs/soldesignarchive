@@ -14,32 +14,82 @@ document[forloop.index] %} {% assign nexturl = next.url %} {% endunless %} {% en
 endfor %} {% if page.image_count %} {% include artifact-multi.html %} {% else %} {% include artifact-single.html %} {%
 endif %}
 
-<div class="container artifact-main">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="title artifact self">{{ page.title }}</h2>
+<div class="container-md artifact-main">
+  <div class="row datum-section title">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
       <h3 class="cat-label artifact">Artifact</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-8 col-xl-7 datum-right-col">
+      <h2 class="title artifact self datum">{{ page.title }}</h2>
     </div>
   </div>
 
-  <div class="row section about first">
-    <div class="col-12 col-lg-8 col-xl-6">
-      {% assign test_content = content | strip_newlines %} {% if test_content != "" %}
-      <h3 class="section-title">About</h3>
-      <section class="hero-about-text">{{ content }}</section>
-      <section class="more-info-text">{% include additional-info.html add-info-cat="artifact" %}</section>
-      {% else %}
-      <section class="more-info-text alone">{% include additional-info.html add-info-cat="artifact" %}</section>
-      {% endif %} {% assign filtered_resources = site.data.resources | where: 'rel_artifacts', page.title %} {% assign
-      filtered_resources_size = filtered_resources | size %} {% if filtered_resources_size > 0 %}
-      <div class="row section artifact-resources">{% include resources-section.html %}</div>
-      {% endif %}
+  <div class="row datum-section new-deets">
+     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <h3 class="title datum-title new-deets">Details</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
     </div>
 
-    <div class="col-12 col-lg-2 offset-lg-2 offset-xl-4 artifact-deets-col">
-      <h3 class="section-title deets title">Details</h3>
-      {% include artifact-deets.html %}
+    {% include artifact-deets.html %}
+    
+  </div>
+
+  {% assign test_content = content | strip_newlines %}
+  {% if test_content != "" %}
+
+  <div class="row datum-section about">
+     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <h3 class="title datum-title about">About</h3>
     </div>
+
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <section class="about-text">{{ content }}</section>
+    </div>
+    
+  </div>
+  {% endif %} 
+
+  {% if page.sources_count %}
+  {% assign sources_count = page.sources_count %}
+  <div class="row datum-section sources">
+     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <h3 class="title datum-title sources">Sources</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+        <ol class="footnotes">
+          {% for sources_element in (0..sources_count) %}
+          <li>
+            <a class="fn-link" href="{{ page.sources_links[sources_element] }}">{{ page.sources_titles[sources_element] }}</a>
+          </li>
+          {% endfor %}
+        </ol>
+    </div>
+  </div>
+  {% endif %}
+
+
+  {% assign filtered_resources = site.data.resources | where: 'rel_artifacts', page.title %} {% assign
+  filtered_resources_size = filtered_resources | size %}
+  {% if filtered_resources_size > 0 %}
+  {% include resources-section.html %}
+  {% endif %}
+
+    <div class="row datum-section more-info">
+     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <h3 class="title datum-title more-info artifact-red">Help!</h3>
+    </div>
+
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <section class="more-info-text">
+      {% include additional-info.html add-info-cat="artifact" %}
+      </section>
+    </div>
+    
+  </div>
+
+
+
   </div>
 </div>
 

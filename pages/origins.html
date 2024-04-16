@@ -19,7 +19,9 @@ page-meta-image=page.image %}
 
         <h2 class="title allcat bigger page capitalize">
           <a class="browse-link origin" href="{{ origin.url }}"
-            >{{ origin.name | replace: "-", " " }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
+            >{{ origin.name | remove_first: " " | replace: "-", " " }}<span class="cat-count bigger"
+              >{{ filtered_artifacts.size }}</span
+            ></a
           >
         </h2>
 

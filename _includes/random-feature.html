@@ -8,85 +8,119 @@
 {% for artifact in feature_random_artifacts_2 %}
 
 <div class="container-fluid random-feature-container-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="section-title random-feature index artifact-red">A random feature</h3>
-                <h2 class="title artifact self random-feature">{{ artifact.title }}</h2>
-            </div>
+  <div class="col-12">
+        <div class="artifact-img-container random-feature">
+          <a href="/images/{{ artifact.ref }}-{{ artifact.slug }}.jpg" data-fancybox="artifact-gallery">
+            <img class="artifact-img random-feature" src="/images/{{ artifact.ref }}-{{ artifact.slug }}.jpg" alt="{{ artifact.title }}">
+          </a>
+      </div>
+    </div>
+  <div class="row datum-section">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <h3 class="cat-label random-feature index">Random feature</h3>
+    </div>
+    <div class="col-9">
+        <h2 class="title artifact self random-feature">{{ artifact.title }}</h2>
+    </div>
+  </div>
+
+  <section class="artifact-deets">
+    <div class="datum-row row">
+        <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+          <span class="deet-label author first">Author{% if page.author_name.size > 1 %}s{% endif %}</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+          {% for author in page.author_name %}
+          {% if page.signature-id %}<span class="signed">signed «</span>{% endif %}<a class="deet-link author" href="/authors/{{ author | remove:"." }}">{{ author }}</a>{% if page.signature-id %}<span class="signed">»</span>{% endif %}
+          {% endfor %}
         </div>
     </div>
-</div>
 
-<div class="container-fluid random-feature-container-2">
-    <div class="row">
+    <div class="datum-row row">
 
-        <div class="col-12 col-md-8">
+      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+          <span class="deet-label year hanging">Year</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+          <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">{% if page.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.year | remove_first: "y" }}</a>
+        </div>
+    </div>
 
-            <div class="artifact-img-container">
-                <a href="/images/{{ artifact.ref }}-{{ artifact.slug }}.jpg" data-fancybox="artifact-gallery">
-                  <img class="artifact-img random-feature" src="/images/{{ artifact.ref }}-{{ artifact.slug }}.jpg" alt="{{ artifact.title }}">
-                </a>
-            </div>
+    <div class="datum-row row">
+
+       <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+          <span class="deet-label publisher hanging">Publisher{% if page.publisher.size > 1 %}s{% endif %}/Client{% if page.publisher.size > 1 %}s{% endif %}</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+          {% for publisher in page.publisher %}
+          <a class="deet-link publisher" href="/publishers/{{ publisher | escape_once }}">{{ publisher | remove:"." }}</a>
+          {% endfor %}
+        </div>
+      <br>
+    </div>
+    <div class="datum-row row">
+
+        <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+          <span class="deet-label origin hanging">Origin{% if page.origin.size > 1 %}s{% endif %}</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+          {% for origin in page.origin %}
+          <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin | replace: "-", " " }}</a>
+          {% endfor %}
 
         </div>
+      <br>
+    </div>
+    <div class="datum-row row">
+       <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+          <span class="deet-label tag hanging">Tags</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+          {% for tag in page.tags %}
+      <a class="deet-link tag" href="/tags/{{ tag | escape_once }}">{{ tag }}</a>
+      {% endfor %}
+        </div>
+    </div>
 
-        <div class="col-12 col-md-4">
+    <div class="datum-row row">
+      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+          <span class="deet-label format hanging">Format{% if page.formats.size > 1 %}s{% endif %}</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+          {% for format in page.formats %}
+      <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
+      {% endfor %}
+        </div>
+    </div>
 
-            <section class="artifact-deets random-feature">
-                <div class="deet-group">
-                  <span class="deet-label author">Author{% if artifact.authors.size > 1 %}s{% endif %}</span>
-                  {% for author in artifact.author_name %}
-                  {% if artifact.signature-id %}<span class="signed">signed «</span>{% endif %}<a class="deet-link author" href="/authors/{{ author | escape_once }}">{{ author }}</a>{% if artifact.signature-id %}<span class="signed">»</span>{% endif %}<br>
-                  {% endfor %}
-                </div>
-                <div class="deet-group">
-                  <span class="deet-label year hanging">Year</span>
-                  <a class="deet-link year" href="/years/{{ artifact.year | remove_first: "y" }}">{% if artifact.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ artifact.year | remove_first: "y" }}</a>
-                  <br>
-                </div>
-                <div class="deet-group">
-                  <span class="deet-label publisher hanging">Publisher{% if artifact.publisher.size > 1 %}s{% endif %}/Client{% if artifact.publisher.size > 1 %}s{% endif %}</span>
-                  {% for publisher in artifact.publisher %}
-                  <a class="deet-link publisher" href="/publishers/{{ publisher | escape_once }}">{{ publisher }}</a>
-                  {% endfor %}
-                  <br>
-                </div>
-                <div class="deet-group">
-                  <span class="deet-label origin hanging">Origin{% if artifact.origin.size > 1 %}s{% endif %}</span>
-                  {% for origin in artifact.origin %}
-                  <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin | replace: "-", " " }}</a>
-                  {% endfor %}
-                  <br>
-                </div>
-                <div class="deet-group">
-                  <span class="deet-label tag hanging">Tags</span>
-                  {% for tag in artifact.tags %}
-                  <a class="deet-link tag" href="/tags/{{ tag | escape_once }}">{{ tag }}</a>
-                  {% endfor %}
-                  <br>
-                </div>
-                <div class="deet-group">
-                  <span class="deet-label format hanging">Format{% if artifact.formats.size > 1 %}s{% endif %}</span>
-                  {% for format in artifact.formats %}
-                  <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
-                  {% endfor %}
-                  <br>
-                </div>
-                <div class="deet-group">
-                  <span class="deet-label discipline hanging">Discipline{% if artifact.disciplines.size > 1 %}s{% endif %}</span>
-                  {% for discipline in artifact.disciplines %}
-                  <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
-                  {% endfor %}
-                  <br>
-                </div>
-                <div class="deet-group">
-                  <span class="deet-label hanging">Reference</span>
-                  <span class="reference">{{ artifact.ref }}</span>
-                </div>
+    <div class="datum-row row">
+      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+        <span class="deet-label discipline hanging">Discipline{% if page.disciplines.size > 1 %}s{% endif %}</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+          {% for discipline in page.disciplines %}
+          <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
+          {% endfor %}
+        </div>
+    </div>
+    <div class="datum-row row">
 
-                <a class="btn cta" href="{{ artifact.url }}" role="button">See artifact →</a>
-              </section>
+      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+       <span class="deet-label hanging">Reference</span>
+        </div>
+        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+         <span class="reference">{{ page.ref | remove_first: "sol-"}}</span>
+        </div>
+    </div>
+    {% if page.status == "wip" %}
+    <div class="datum-row row">
+
+      <div class="col-12 col-sm-3 col-md-2 col-lg-3 col-xl-1 datum-left-col">
+         <p class=""><span class="badge wip-badge">Work in Progress</span></p>
+        </div>
+    </div>
+    {% endif %}
+  </section>
 
         </div>
 

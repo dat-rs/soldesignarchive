@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 200;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-thin.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 300;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-extralight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-bold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 800;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-extrabold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Condensed";
+  font-style: normal;
+  font-weight: 900;
+  src: local("National 2 Condensed"), url("/fonts/trial/test-national-2-condensed-black.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 200;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-thin.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 300;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-extralight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 400;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 500;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 600;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-bold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 800;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-extrabold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "National 2 Narrow";
+  font-style: normal;
+  font-weight: 900;
+  src: local("National 2 Narrow"), url("/fonts/trial/test-national-2-narrow-black.woff2") format("woff");
+}

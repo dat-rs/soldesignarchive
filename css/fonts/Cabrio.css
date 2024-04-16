@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Cabrio";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Cabrio"), url("/fonts/CabrioWeb-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cabrio";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabrio"), url("/fonts/CabrioWeb-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cabrio";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Cabrio"), url("/fonts/CabrioWeb-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cabrio";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Cabrio"), url("/fonts/CabrioWeb-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cabrio";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Cabrio"), url("/fonts/CabrioWeb-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cabrio";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Cabrio"), url("/fonts/CabrioWeb-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cabrio";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Cabrio"), url("/fonts/CabrioWeb-Poster.woff2") format("woff2");
+}
