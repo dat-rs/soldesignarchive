@@ -3,7 +3,7 @@ ref: sol-121-0039
 title: "Pyrénées Côte Basque"
 author_name: ["Jean Jacquelin"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]

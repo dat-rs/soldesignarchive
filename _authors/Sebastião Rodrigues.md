@@ -56,4 +56,4 @@ He designed hundreds of book covers and jackets for Portuguese publishers <a cla
 
 He worked with the Estado Novo regime throughout his career, namely through Secretariado Nacional de Informação, the government’s propaganda arm.
 
-Notable clients include <a class="text cat-link publisher" href="/publishers/RTP/">RTP</a> (Portugal’s public broadcaster), Museu Nacional de Arte Antiga, Banco de Portugal, and Mosteiro da Batalha.
+Notable clients include <a class="text cat-link publisher" href="/publishers/RTP/">RTP</a> (Portugal’s public broadcaster), Museu Nacional de Arte Antiga, Banco de Portugal, and Mosteiro da Batalha.<img src="/images/non-art/sol-circle-square.svg" class="sol-text-signature">

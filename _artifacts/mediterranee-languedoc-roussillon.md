@@ -3,7 +3,7 @@ ref: sol-121-0042
 title: "Méditerranée Languedoc Roussillon"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure, map"]
 disciplines: [graphic-design]

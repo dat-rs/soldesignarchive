@@ -3,7 +3,7 @@ ref: sol-252-0001
 title: If
 author_name: [unknown author]
 publisher: [unknown publisher]
-year: unknown date
+year: unknown-date
 origin: Portugal
 formats: [booklet]
 disciplines: [graphic-design, illustration, typography]

@@ -7,29 +7,47 @@ page.name | replace: "-", " " }}» at the Sol Design Archive.{% endcapture %} {%
 capitalised_page_name | replace: "-", " " %} {% include head-and-header.html page-meta-title=corrected_title
 page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
 
-<div class="container container-cat simple">
-  <div class="row">
-    <div class="col-12">
-      {% assign filtered_artifacts = site.artifacts | where: 'formats', page.name %} {% assign sorted_filtered_artifacts
-      = filtered_artifacts | sort: "year" %}
+<!--  -->
+{% assign filtered_artifacts = site.artifacts | where: 'formats', page.name %}
+<!--  -->
+{% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
 
-      <h2 class="title origin self capitalize">{{ page.name | replace: "-", " " }}</h2>
-      <h3 class="cat-label format">Format</h3>
+<div class="container-md container-cat simple">
+  <div class="row datum-section title">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <h3 class="cat-label origin">Format</h3>
+    </div>
+    <div class="col-12 col-sm-9 datum-right-col">
+      <h2 class="title artifact self datum capitalize">{{ page.name | replace: "-", " " }}</h2>
+    </div>
+  </div>
+  <div class="row datum-row cat-about">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col"></div>
+    <div class="col-12 col-sm-9 datum-right-col">
       <div class="artifact count-deet">
-        There are {{ filtered_artifacts.size }} artifacts in the archive tagged format: {{ page.name | replace: "-", " "
-        }}.
+        There {% if filtered_artifacts.size > 1 %}are{% else %}is{% endif %} {{ filtered_artifacts.size }} artifact{% if
+        filtered_artifacts.size > 1 %}s{% endif %} in the archive tagged format: {{ page.name | replace: "-", " " }}.
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row artifacts-section">
-    {% for artifact in sorted_filtered_artifacts %}
-
-    <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au-y.html %}</div>
-
-    {% endfor %}
+<div class="outer-container cat-artifacts">
+  <div class="container-md">
+    <div class="row datum-section cat-artifacts">
+      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+        <h3 class="title datum-title cat-artifacts">
+          Artifacts<span class="artifact count">[{{ filtered_artifacts.size }}]</span>
+        </h3>
+      </div>
+      <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
+        <div class="row artifacts-section">
+          {% for artifact in sorted_filtered_artifacts %}
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au-y.html %}</div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

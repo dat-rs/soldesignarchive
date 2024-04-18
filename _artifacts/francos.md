@@ -1,11 +1,11 @@
 ---
 title: "325.000 Francos"
-author_name: ['Yzquierdo']
-year: "unknown date"
+author_name: ["Yzquierdo"]
+year: "unknown-date"
 origin: Portugal
-publisher: 'Círculo de Leitores'
+publisher: "Círculo de Leitores"
 formats: [book, book-cover]
-disciplines: ['graphic-design', typography, illustration]
+disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "Roger Vailland", green, brown]
 ref: sol-030-0207
 layout: artifact

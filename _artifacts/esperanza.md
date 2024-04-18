@@ -1,9 +1,9 @@
 ---
 title: "Esperanza"
-author_name: ['unknown author']
-year: 'unknown date'
+author_name: ["unknown author"]
+year: "unknown-date"
 origin: Portugal
-publisher: ['Discos Festival']
+publisher: ["Discos Festival"]
 formats: [record, record-cover]
 disciplines: [graphic-design, typography, photography]
 tags: [music]

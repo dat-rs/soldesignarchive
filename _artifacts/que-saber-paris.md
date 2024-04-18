@@ -3,7 +3,7 @@ ref: sol-251-0007
 title: "O que deve saber ao chegar a Paris"
 author_name: ["Guy Georget"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["booklet"]
 disciplines: [graphic-design]

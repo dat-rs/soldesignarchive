@@ -3,7 +3,7 @@ ref: sol-160-0003
 title: Caderno Escolar
 author_name: [unknown author]
 publisher: [Pêbêcê]
-year: unknown date
+year: unknown-date
 origin: Portugal
 formats: [notebook]
 disciplines: [graphic-design, lettering, typography]

@@ -3,7 +3,7 @@ ref: sol-251-0013
 title: "Madame Tussaud Amsterdam"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Netherlands"]
 formats: ["booklet"]
 disciplines: [graphic-design]

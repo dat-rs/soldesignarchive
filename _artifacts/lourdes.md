@@ -3,7 +3,7 @@ ref: sol-121-0023
 title: "Lourdes"
 author_name: ["Hervé Baille"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]

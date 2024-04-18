@@ -3,7 +3,7 @@ ref: sol-251-0009
 title: "La France Catholique"
 author_name: ["unknown author"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["booklet"]
 disciplines: [graphic-design]

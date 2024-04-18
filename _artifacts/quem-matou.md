@@ -1,9 +1,9 @@
 ---
-title: 'Quem Matou?'
-author_name: 'unknown author'
-year: "unknown date"
+title: "Quem Matou?"
+author_name: "unknown author"
+year: "unknown-date"
 origin: Portugal
-publisher: 'Teatro Apolo'
+publisher: "Teatro Apolo"
 formats: [flyer, poster]
 disciplines: [graphic-design, typography]
 tags: [theatre]

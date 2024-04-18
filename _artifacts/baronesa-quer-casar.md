@@ -3,7 +3,7 @@ ref: sol-010-0000
 title: "A Baronesa quer casar toda a gente"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

@@ -3,7 +3,7 @@ ref: sol-010-0051
 title: "Experiência do Drama"
 author_name: ["Alves Martins"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

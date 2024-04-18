@@ -3,7 +3,7 @@ ref: sol-121-0044
 title: "Provence Méditerranée"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure, map"]
 disciplines: [graphic-design]

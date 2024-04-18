@@ -3,7 +3,7 @@ ref: sol-121-0046
 title: "Viena Cityrama"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Austria"]
 formats: ["flyer"]
 disciplines: [graphic-design]

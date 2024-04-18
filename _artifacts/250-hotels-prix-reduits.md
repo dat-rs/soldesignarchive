@@ -3,7 +3,7 @@ ref: sol-121-0019
 title: "250 Hotels offrent des Prix Réduits"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]

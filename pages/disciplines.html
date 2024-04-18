@@ -7,27 +7,30 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %}
 
-<div class="container-fluid disciplines first-after-header container-allcats">
-  <div class="row">
-    <div class="col-12">
-      <h3 class="section-title">Disciplines</h3>
+<div class="container-fluid disciplines first-after-header">
+  <div class="container-md container-allcats">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="section-title">Disciplines</h3>
+      </div>
+
+      <div class="col-12">
+        {% for discipline in site.disciplines %} {% assign filtered_artifacts = site.artifacts | where: 'disciplines',
+        discipline.name %}
+
+        <h2 class="title allcat page disciplines bigger capitalize">
+          <a class="browse-link discipline" href="{{ discipline.url }}"
+            >{{ discipline.name | replace: "-", " " }}<span class="cat-count bigger"
+              >{{ filtered_artifacts.size }}</span
+            ></a
+          >
+        </h2>
+
+        {% endfor %}
+      </div>
     </div>
-
-    <div class="col-12">
-      {% for discipline in site.disciplines %} {% assign filtered_artifacts = site.artifacts | where: 'disciplines',
-      discipline.name %}
-
-      <h2 class="title allcat page disciplines bigger capitalize">
-        <a class="browse-link discipline" href="{{ discipline.url }}"
-          >{{ discipline.name | replace: "-", " " }}<span class="cat-count bigger"
-            >{{ filtered_artifacts.size }}</span
-          ></a
-        >
-      </h2>
-
-      {% endfor %}
     </div>
   </div>
-</div>
 
-{% include footer.html %} {% include the-end.html %}
+  {% include footer.html %} {% include the-end.html %}
+</div>

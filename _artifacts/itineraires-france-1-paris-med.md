@@ -3,7 +3,7 @@ ref: sol-121-0037
 title: "Itinéraires en France 1 Paris - Méditerranée"
 author_name: ["Gallian Saint Clair"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]

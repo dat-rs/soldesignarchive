@@ -1,7 +1,7 @@
 ---
 title: "O Mar dos Sargaços"
 author_name: "A. Pedro"
-year: "unknown date"
+year: "unknown-date"
 origin: Portugal
 publisher: "Livros do Brasil"
 formats: [book, book-cover]

@@ -1,9 +1,9 @@
 ---
-title: 'Fanny Hill'
-author_name: 'unknown author'
-year: "unknown date"
+title: "Fanny Hill"
+author_name: "unknown author"
+year: "unknown-date"
 origin: Portugal
-publisher: 'Arcádia'
+publisher: "Arcádia"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [John Cleland, black, pink, gold]

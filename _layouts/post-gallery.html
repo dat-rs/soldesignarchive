@@ -13,7 +13,7 @@ page-meta-image=page.image page-meta-url=page.url page-meta-twitter-author=page.
 </div>
 
 <div class="container-md post-head">
-  <div class="row datum-section post-head">
+  <div class="row datum-section title post-head">
     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
       <h3 class="cat-label post">Blog Post</h3>
     </div>
@@ -23,7 +23,7 @@ page-meta-image=page.image page-meta-url=page.url page-meta-twitter-author=page.
       </h2>
     </div>
   </div>
-  <div class="row datum-section post-head">
+  <div class="row datum-section sm post-lead">
     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
       <p class="post-meta self">{{ page.author }}, {{ page.date | date_to_string }}</p>
     </div>
@@ -37,62 +37,10 @@ page-meta-image=page.image page-meta-url=page.url page-meta-twitter-author=page.
   <div class="row section post-gallery-body">{{ page.content }} {% include share-sheet.html %}</div>
 </div>
 
-<section class="container-fluid prev-next">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">More</h3>
-      </div>
-
-      {% if page.previous %}
-
-      <div class="col-12 col-md-4">
-        <div class="card-deck">
-          <div class="card blog">
-            <a class="card-link blog" href="{{ page.previous.url | escape_once }}">
-              <img
-                class="card-img-top blog"
-                src="/images/blog_posts/{{ page.previous.image }}"
-                alt="{{ page.previous.title }}"
-              />
-              <div class="card-body blog">
-                <h2 class="title short preview">{{ page.previous.title }}</h2>
-                <p class="post-lead preview">{{ page.previous.lead }}</p>
-              </div>
-              <div class="card-footer blog">
-                <p class="post-meta preview">{{ page.previous.author }} | {{ page.previous.date | date_to_string }}</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {% endif %} {% if page.next %}
-
-      <div class="col-12 col-md-4">
-        <div class="card-deck">
-          <div class="card blog">
-            <a class="card-link blog" href="{{ page.next.url | escape_once }}">
-              <img
-                class="card-img-top blog"
-                src="/images/blog_posts/{{ page.next.image }}"
-                alt="{{ page.next.title }}"
-              />
-              <div class="card-body blog">
-                <h2 class="title short preview">{{ page.next.title }}</h2>
-                <p class="post-lead preview">{{ page.next.lead }}</p>
-              </div>
-              <div class="card-footer blog">
-                <p class="post-meta preview">{{ page.next.author }} | {{ page.next.date | date_to_string }}</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-{% include footer.html %} {% include scripts/scripts-gallery.html %} {% include the-end.html %}
+{% include prev-next-blog.html %}
+<!--  -->
+{% include footer.html %}
+<!--  -->
+{% include scripts/scripts-gallery.html %}
+<!--  -->
+{% include the-end.html %}

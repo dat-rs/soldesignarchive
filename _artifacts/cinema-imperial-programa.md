@@ -3,7 +3,7 @@ ref: sol-111-0000
 title: "Cinema Imperial - Programa"
 author_name: ["unknown author"]
 publisher: ["Cinema Imperial"]
-year: "unknown date"
+year: "unknown-date"
 origin: Portugal
 formats: ["programme"]
 disciplines: [graphic-design]
