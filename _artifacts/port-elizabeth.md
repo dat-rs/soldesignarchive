@@ -3,7 +3,7 @@ ref: sol-121-0049
 title: "Port Elizabeth. For Home or Holiday"
 author_name: ["unknown author"]
 publisher: ["South African Railways Airways and Harbours"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["South-Africa"]
 formats: ["brochure"]
 disciplines: [graphic-design]

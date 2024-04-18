@@ -57,7 +57,7 @@ endif %}
       <h3 class="title datum-title sources">Sources</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
-        <ol class="footnotes">
+        <ol class="footnotes sources">
           {% for sources_element in (0..sources_count) %}
           <li>
             <a class="fn-link" href="{{ page.sources_links[sources_element] }}">{{ page.sources_titles[sources_element] }}</a>
@@ -69,15 +69,16 @@ endif %}
   {% endif %}
 
 
-  {% assign filtered_resources = site.data.resources | where: 'rel_artifacts', page.title %} {% assign
-  filtered_resources_size = filtered_resources | size %}
+  {% assign filtered_resources = site.data.resources | where: 'rel_artifacts', page.title %} 
+  <!--  -->
+  {% assign filtered_resources_size = filtered_resources | size %}
   {% if filtered_resources_size > 0 %}
   {% include resources-section.html %}
   {% endif %}
 
     <div class="row datum-section more-info">
      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
-      <h3 class="title datum-title more-info artifact-red">Help!</h3>
+      <img class="help" src="/images/non-art/help.png" alt="HELP">
     </div>
 
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
@@ -93,6 +94,18 @@ endif %}
   </div>
 </div>
 
-{% include prev-next.html %} {% include footer.html %} {% if page.image_count %} {% include
-scripts/scripts-artifact-multi.html %} {% else %} {% include scripts/scripts-fancybox.html %} {% endif %} {% include
-the-end.html %}
+{% include prev-next.html %} 
+<!--  -->
+{% include footer.html %} 
+<!--  -->
+{% if page.image_count %} 
+  <!--  -->
+  {% include scripts/scripts-artifact-multi.html %} 
+<!--  -->
+{% else %} 
+  <!--  -->
+  {% include scripts/scripts-fancybox.html %} 
+<!--  -->  
+{% endif %} 
+<!--  -->
+{% include the-end.html %}

@@ -1,9 +1,9 @@
 ---
-title: 'Abelha e Mel'
-author_name: ['Vasco San Payo']
+title: "Conservas"
+author_name: ["Vasco San Payo"]
 year: y1956
 origin: Portugal
-publisher: 'Ministério da Educação Nacional'
+publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa", "Estado Novo"]

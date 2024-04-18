@@ -3,7 +3,7 @@ ref: sol-121-0038
 title: "1000 Hotels offrent des Prix Réduits"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]

@@ -3,7 +3,7 @@ ref: sol-010-0026
 title: "Caetes"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

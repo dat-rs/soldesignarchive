@@ -3,7 +3,7 @@ ref: sol-121-0024
 title: "Normandie Bretagne"
 author_name: ["Maurice Frantz Pointeau"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]

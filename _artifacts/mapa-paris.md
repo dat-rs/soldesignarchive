@@ -3,7 +3,7 @@ ref: sol-121-0016
 title: "Mapa das Principais Entradas e Saídas de Paris"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure, map"]
 disciplines: [graphic-design]

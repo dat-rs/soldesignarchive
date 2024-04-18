@@ -1,9 +1,9 @@
 ---
 title: Semantics
 author_name: Diagram
-year: "unknown date"
+year: "unknown-date"
 origin: United-Kingdom
-publisher: 'Penguin Books'
+publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, linguistics, Pelican, Helvetica]

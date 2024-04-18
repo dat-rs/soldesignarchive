@@ -3,7 +3,7 @@ ref: sol-010-0031
 title: "América em Fogo"
 author_name: ["unknown author"]
 publisher: ["Publicações Europa América"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

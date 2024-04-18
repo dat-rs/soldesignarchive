@@ -1,11 +1,11 @@
 ---
 title: "How to Deep Freeze"
-author_name: ['unknown author']
+author_name: ["unknown author"]
 year: y1971
-origin: unknown
-publisher: 'unknown publisher'
+origin: "unknown-origin"
+publisher: "unknown publisher"
 formats: [booklet]
-disciplines: ['graphic-design', typography, illustration]
+disciplines: ["graphic-design", typography, illustration]
 tags: [instructions]
 ref: sol-255-0000
 image_count: 7

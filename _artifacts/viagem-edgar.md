@@ -3,7 +3,7 @@ ref: sol-010-0041
 title: "A Viagem de Edgar"
 author_name: ["Miguel Flávio"]
 publisher: ["Portugália Editora"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

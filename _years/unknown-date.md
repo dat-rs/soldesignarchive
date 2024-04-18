@@ -1,4 +1,4 @@
 ---
-name: unknown date
+name: unknown-date
 layout: year
 ---

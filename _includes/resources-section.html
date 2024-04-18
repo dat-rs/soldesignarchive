@@ -13,18 +13,19 @@ assign i_class = 'bi bi-file-easel' %} {% when 'pdf' %} {% assign i_class = 'bi-
 else %} {% assign i_class = 'bi bi-file-earmark-text' %} {% endcase %}
 
 <div class="datum-row row">
-  <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+  <div class="col-1 col-sm-3 col-md-2 col-lg-3 datum-left-col">
     <div class="resource-icon">
       <i class="bi {{ i_class }}"></i>
     </div>
   </div>
 
-  <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+  <div class="col-11 col-sm-9 col-lg-7 col-xl-6 datum-right-col">
     <div class="resource-module">
       <div class="resource-info">
-        <a class="deet-link resource" href="{{ resource.out_url }}">
-          <h2 class="title resource inmodule">{{ resource.title }}</h2>
-        </a>
+        <h2 class="title resource inmodule">
+          <a class="resource-link" href="{{ resource.out_url }}">{{ resource.title }}</a>
+        </h2>
+
         <br />
         <section class="resource-description">
           {{ resource.description | remove: '

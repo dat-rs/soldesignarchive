@@ -1,4 +1,4 @@
 ---
-name: unknown
+name: "unknown-origin"
 layout: origin
 ---

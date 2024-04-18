@@ -3,7 +3,7 @@ ref: sol-251-0012
 title: "France. SCNF"
 author_name: ["Hervé Baille"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["booklet"]
 disciplines: [graphic-design]

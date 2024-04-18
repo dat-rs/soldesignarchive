@@ -3,7 +3,7 @@ ref: sol-121-0041
 title: "Ile de France Vale de Loire"
 author_name: ["unknown author"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]

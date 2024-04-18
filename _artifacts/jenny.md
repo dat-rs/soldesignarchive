@@ -3,7 +3,7 @@ ref: sol-010-0048
 title: "Jenny"
 author_name: ["Guilherme de Casquilho"]
 publisher: ["Bertrand"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

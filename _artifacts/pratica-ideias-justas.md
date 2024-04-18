@@ -1,12 +1,12 @@
 ---
-title: 'Da Prática. De Onde Vêm as Ideias Justas'
-author_name: 'unknown author'
-year: "unknown date"
+title: "Da Prática. De Onde Vêm as Ideias Justas"
+author_name: "unknown author"
+year: "unknown-date"
 origin: Portugal
-publisher: 'Cadernos Vanguarda'
+publisher: "Cadernos Vanguarda"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
-tags: ['Mao Zedong', maoism, communism]
+tags: ["Mao Zedong", maoism, communism]
 iconography: [people, men]
 ref: sol-030-0230
 layout: artifact

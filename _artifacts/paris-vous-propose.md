@@ -3,7 +3,7 @@ ref: sol-251-0008
 title: "Paris Vous Propose"
 author_name: ["unknown author"]
 publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["booklet"]
 disciplines: [graphic-design]

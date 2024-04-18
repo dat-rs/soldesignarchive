@@ -5,18 +5,19 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% capture description %}{{ page.name }} at the Sol Design Archive.{% endcapture %} {% include head-and-header.html
 page-meta-title=page.name page-meta-description=description page-meta-url=page.url page-meta-image=layout.image %}
 
-<div class="container-md container-author">
+<div class="container-md container-author first-after-header">
   <div class="row datum-section title">
     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
-      <h3 class="cat-label artifact">Author</h3>
+      <h3 class="cat-label author">Author</h3>
     </div>
-    <div class="col-12 col-sm-9">
+    <div class="col-12 col-sm-9 datum-right-col">
       <h2 class="title artifact self datum">{{ page.name }}</h2>
     </div>
   </div>
 
   {% assign test_content = content | strip_newlines %} {% if test_content != "" %}
 
+  <!-- ABOUT -->
   <div class="row datum-section about">
     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
       <h3 class="title datum-title about">About</h3>
@@ -28,33 +29,35 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   </div>
   {% endif %} {% if page.timeline_count %}
 
+  <!-- TIMELINE -->
   <div class="row datum-section timeline">
     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
       <h3 class="title datum-title about">Timeline</h3>
     </div>
     <div class="col-12 col-sm-9 datum-right-col"></div>
-    {% assign timeline_count = page.timeline_count %} {% for timeline_element in (0..timeline_count) %}
-
-    <div class="datum-row timeline-row row">
-      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
-        <span class="deet-label timeline-key">{{ page.timeline_keys[timeline_element] }}</span>
-      </div>
-      <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col deet-links">
-        <div class="timeline-value">{{ page.timeline_values[timeline_element] }}</div>
-      </div>
-    </div>
-    {% endfor %}
   </div>
+  {% assign timeline_count = page.timeline_count %}
+  <!--  -->
+  {% for timeline_element in (0..timeline_count) %}
 
-  <div class="col-12 col-md-3 col-lg-3 col-xl-3 offset-lg-2 offset-xl-2 timeline"></div>
+  <div class="datum-row timeline-row row">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <span class="deet-label timeline-key">{{ page.timeline_keys[timeline_element] }}</span>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col timeline-value">
+      {{ page.timeline_values[timeline_element] }}
+    </div>
+  </div>
+  {% endfor %} {% endif %}
 
-  {% endif %} {% if page.sources_count %} {% assign sources_count = page.sources_count %}
+  <!-- SOURCES -->
+  {% if page.sources_count %} {% assign sources_count = page.sources_count %}
   <div class="row datum-section sources">
     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
     </div>
     <div class="col-12 col-sm-9 datum-right-col">
-      <ol class="footnotes">
+      <ol class="footnotes sources">
         {% for sources_element in (0..sources_count) %}
         <li>
           <a class="fn-link" href="{{ page.sources_links[sources_element] }}"
@@ -65,61 +68,92 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
       </ol>
     </div>
   </div>
-  {% endif %} {% if page.related_authors or page.related_publishers or page.related_tags %}
-  <div class="row section related">
-    <div class="col-12">
-      <h3 class="section-title">Related</h3>
-    </div>
+  {% endif %}
 
-    <div class="col-6 col-md-4 col-lg-2">
-      {% if page.related_authors %}
+  <!-- RESOURCES -->
+  {% assign filtered_resources = site.data.resources | where: 'rel_authors', page.name %} {% assign
+  filtered_resources_size = filtered_resources | size %} {% if filtered_resources_size > 0 %} {% include
+  resources-section.html %} {% endif %}
+
+  <!-- RELATED -->
+  {% if page.related_authors or page.related_publishers or page.related_tags %}
+  <div class="row datum-section related">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <h3 class="title datum-title about">Related</h3>
+    </div>
+    <div class="col-12 col-sm-9 datum-right-col"></div>
+  </div>
+
+  <!-- authors, RELATED -->
+  {% if page.related_authors %}
+  <div class="datum-row row">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
       <span class="related-label author">Authors</span>
+    </div>
+
+    <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
       {% for related_author in page.related_authors %}
-      <a href="/authors/{{ related_author | escape_once }}" class="related-link author">{{ related_author }}</a><br />
-      {% endfor %} {% endif %}
-    </div>
-
-    <div class="col-6 col-md-4 col-lg-2">
-      {% if page.related_publishers %}
-      <span class="related-label publisher">Publishers/Clients</span>
-      {% for related_publisher in page.related_publishers %}
-      <a href="/publishers/{{ related_publisher | escape_once }}" class="related-link author">{{ related_publisher }}</a
-      ><br />
-      {% endfor %} {% endif %}
-    </div>
-
-    <div class="col-6 col-md-4 col-lg-2">
-      {% if page.related_tags %}
-      <span class="related-label publisher">Tags</span>
-      {% for related_tag in page.related_tags %}
-      <a href="/tags/{{ related_tag | escape_once }}" class="related-link author">{{ related_tag }}</a><br />
-      {% endfor %} {% endif %}
+      <a href="/authors/{{ related_author | escape_once }}" class="related-link author">{{ related_author }}</a>
+      {% endfor %}
     </div>
   </div>
   {% endif %}
-</div>
 
-<div class="container-fluid cat-artifacts-title">
-  <div class="container">
-    <div class="row author-artifacts">
-      <div class="col-12">
-        {% assign filtered_artifacts = site.artifacts | where: 'author_name', page.name %} {% assign
-        sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
-        <h3 class="section-title">
-          Artifacts <span class="artifact count">({{ sorted_filtered_artifacts.size }})</span>
-        </h3>
-      </div>
+  <!-- publishers, RELATED -->
+  {% if page.related_publishers %}
+  <div class="datum-row row">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <span class="related-label publisher">Publishers/Clients</span>
+    </div>
+
+    <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
+      {% for related_publisher in page.related_publishers %}
+      <a href="/publishers/{{ related_publisher | escape_once }}" class="related-link publisher"
+        >{{ related_publisher }}</a
+      >
+      {% endfor %}
     </div>
   </div>
+  {% endif %}
+
+  <!-- tags, RELATED -->
+  {% if page.related_tags %}
+  <div class="datum-row row">
+    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <span class="related-label tag">Tags</span>
+    </div>
+
+    <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
+      {% for related_tag in page.related_tags %}
+      <a href="/tags/{{ related_tag | escape_once }}" class="related-link tag">{{ related_tag }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %} {% endif %}
 </div>
 
-<div class="container-fluid cat-artifacts">
-  <div class="row author-artifacts">
-    {% for artifact in sorted_filtered_artifacts %}
+{% assign filtered_artifacts = site.artifacts | where: 'author_name', page.name %} {% assign sorted_filtered_artifacts =
+filtered_artifacts | sort: "year" %}
 
-    <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-y.html %}</div>
+<div class="outer-container cat-artifacts">
+  <div class="container-md">
+    <div class="row datum-section cat-artifacts">
+      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+        <h3 class="title datum-title cat-artifacts">
+          Artifacts
+          <span class="artifact count">[{{ sorted_filtered_artifacts.size }}]</span>
+        </h3>
+      </div>
+      <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artifacts-section">
+          {% for artifact in sorted_filtered_artifacts %}
 
-    {% endfor %}
+          <div class="col">{% include a-modules/a-module-au-y.html %}</div>
+
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
