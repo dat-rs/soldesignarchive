@@ -3,13 +3,13 @@ ref: sol-121-0047
 title: "Tirol Austria"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Austria"]
 formats: ["flyer"]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

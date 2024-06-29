@@ -3,13 +3,13 @@ ref: sol-231-0010
 title: "Arquitectura Japonesa Contemporânea"
 author_name: ["unknown author"]
 publisher: ["Fundação Oriente"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["catalogue"]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

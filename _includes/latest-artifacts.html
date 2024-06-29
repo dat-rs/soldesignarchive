@@ -1,37 +1,21 @@
-<div class="container-fluid latest-artifacts-container-1-outer">
-  <div class="container latest-artifacts-container-1">
-
-    <div class="row">
-
-        <div class="col-12">
-
-            <h3 class="section-title">Latest Artifacts added</h3>
-
-        </div>
+<div class="container-fluid latest-artifacts-container-1">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="section-title">Latest Additions</h3>
     </div>
-</div>
-</div>
-
-<div class="container-fluid latest-artifacts-container-2">
-
+  </div>
   <div id="latest-grid" class="row">
+    {% assign latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 12 %} {% for artifact in
+    latest_artifacts %}
 
-    {% assign latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 24 %}
+    <div class="col-6 col-md-4 col-lg-4 col-xl-1">{% include a-modules/a-module-au-y.html %}</div>
 
-    {% for artifact in latest_artifacts %}
-
-    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
-    {% include a-modules/a-module-au-y.html %}
-    </div>
-
-  {% endfor %}
-
-</div>
+    {% endfor %}
+  </div>
 
   <div class="row">
     <div class="col-12 text-center">
-      <a class="btn cta" href="/artifacts" role="button">See all artifacts →</a>
+      <a class="btn cta circle see-all" href="/pages/artifacts.html" role="button">See all<br />artifacts <br />→</a>
     </div>
   </div>
-
 </div>

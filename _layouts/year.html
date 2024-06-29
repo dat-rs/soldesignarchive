@@ -2,37 +2,54 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign year = page.name | remove_first: 'y' %}
+{% assign year = page.name | remove_first: 'y' | replace: '-', ' ' %}
+<!--  -->
+{% capture description %}Browse artifacts from «{{ year }}» at the Sol Design Archive.{% endcapture %}
+<!--  -->
+{% include head-and-header.html page-meta-title=year page-meta-url=page.url page-meta-description=description
+page-meta-image=layout.image %}
 
-{% capture description %}Browse artifacts from «{{ page.title }}» at the Sol Design Archive.{% endcapture %}
+<!--  -->
+{% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
 
-{% include head-and-header.html page-meta-title=year page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
-
-<div class="container container-cat simple">
-    <div class="row">
-
-      <div class="col-12">
-        {% assign filtered_artifacts = site.artifacts | where: 'year', page.name %}
-        <h3 class="cat-label year">Year</h3>
-        <h2 class="title discipline self capitalize">{{ page.name | remove_first: 'y' }}</h2>
-        <div class="artifact-count-deet">There are {{ filtered_artifacts.size }} artifacts in the archive dated {{ page.name | remove_first: 'y' }}.</div>
+<div class="container-md container-cat first-after-header" data-pagefind-body >
+  <div class="row datum-section title">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="cat-label origin">Year</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <h1 class="title artifact self datum capitalize" data-pagefind-meta="title" >{{ page.name | remove_first: 'y' | replace: '-', ' ' }}</h1>
+    </div>
+  </div>
+  <div class="row datum-row cat-about">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <div class="artifact count-deet">
+        There {% if filtered_artifacts.size > 1 %}are{% else %}is{% endif %} {{ filtered_artifacts.size }} artifact{% if
+        filtered_artifacts.size > 1 %}s{% endif %} in the archive dated {{ page.name | remove_first: 'y' | replace: '-',
+        ' ' }}.
       </div>
     </div>
-
+  </div>
 </div>
 
-<div class="container-fluid">
-    <div class="row artifacts-section">
-      {% for artifact in filtered_artifacts %}
-
-      <div class="col-6 col-md-4 col-lg-3 col-xl-2">
-      {% include a-modules/a-module-au.html %}
+<div class="outer-container cat-artifacts">
+  <div class="container-md">
+    <div class="row datum-section cat-artifacts">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <h3 class="title datum-title cat-artifacts">
+          Artifacts<span class="artifact count">[{{ filtered_artifacts.size }}]</span>
+        </h3>
       </div>
-
-      {% endfor %}
+      <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
+        <div class="row artifacts-gutters">
+          {% for artifact in filtered_artifacts %}
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au.html %}</div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 
-
-{% include footer.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include the-end.html %}

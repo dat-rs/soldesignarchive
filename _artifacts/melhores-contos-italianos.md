@@ -13,5 +13,5 @@ status: wip
 published: true
 image_count:
 date_added: 2023-06-18
-batch: /feira-do-livro-23
+batch: /feira-livro-23
 ---

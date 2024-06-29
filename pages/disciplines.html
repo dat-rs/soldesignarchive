@@ -7,26 +7,34 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %}
 
-<div class="container-fluid disciplines first-after-header">
-  <div class="container container-allcats">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">Disciplines</h3>
+
+<div class="container-outer disciplines first-after-header">
+  <div class="container-md container-allcats">
+    <div class="row datum-section none">
+      <div class="col-12 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <img class="allcats-icon" src="/images/non-art/icon-disciplines-ossm-off1.svg" alt="">
+          <h3 class="section-title allcats text-center">Disciplines</h3>
+        </div>
       </div>
-
-      <div class="col-12">
+      <div class="col-12 col-md-8 datum-right-col allcats-big-short">
         {% for discipline in site.disciplines %} {% assign filtered_artifacts = site.artifacts | where: 'disciplines',
-        discipline.name %}
-
-        <h2 class="title allcat page disciplines capitalize">
-          <a class="browse-link discipline" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a>
-          <span class="cat-count">{{ filtered_artifacts.size }}</span>
-        </h2>
-
+        discipline.name %} {% assign selected_artifacts = filtered_artifacts | slice: 0, 4 %}
+        <div class="row">
+          <div class="col-12 allcat-w-preview-title-col text-wrap text-center text-md-start">
+            <a class="title allcat-item discipline capitalize text-wrap" href="{{ discipline.url }}"><span
+                class="cat-count discipline fake d-md-none">[{{ filtered_artifacts.size }}]</span>{{ discipline.name |
+              remove_first: " " | replace: "-", " " }}<span class="cat-count discipline">[{{ filtered_artifacts.size
+                }}]</span></a>
+          </div>
+        </div>
         {% endfor %}
       </div>
     </div>
   </div>
 </div>
 
-{% include footer.html %} {% include the-end.html %}
+
+
+  {% include footer.html %} {% include the-end.html %}
+</div>

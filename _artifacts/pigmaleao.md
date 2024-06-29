@@ -7,11 +7,11 @@ year: "y1970"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
-tags: ["Livros RTP"]
+tags: ["Livros RTP", "Biblioteca Básica Verbo"]
 layout: artifact
 status: null
-published: false
-int_published: false
+published: true
+int_published: true
 image_count:
 date_added: 2023-06-16
 batch:

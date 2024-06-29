@@ -1,0 +1,32 @@
+---
+title: "About - Sol Design Archive"
+description: "About page with information and FAQs."
+image: "/images/non-art/sol-branding-comp-1.jpg"
+---
+
+{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
+page-meta-image=page.image %}
+
+<div class="container-md container page">
+  <div class="row datum-section title">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="cat-label origin">Search</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col"></div>
+  </div>
+  <div class="row datum-row">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+      <script src="/pagefind/pagefind-ui.js"></script>
+      <div id="search"></div>
+      <script>
+        window.addEventListener("DOMContentLoaded", (event) => {
+          new PagefindUI({ element: "#search", showSubResults: true });
+        });
+      </script>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %} {% include the-end.html %}

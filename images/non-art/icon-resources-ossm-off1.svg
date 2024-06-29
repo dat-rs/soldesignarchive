@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 416">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebebeb;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="168" width="16" height="416"/>
+  <rect class="cls-1" x="136" width="16" height="416"/>
+  <rect class="cls-1" x="104" width="16" height="416"/>
+  <rect class="cls-1" x="72" width="16" height="416"/>
+  <rect class="cls-1" x="40" width="16" height="416"/>
+  <rect class="cls-1" x="8" width="16" height="416"/>
+  <polygon class="cls-1" points="416 200 268.77 200 410.98 161.89 406.84 146.44 264.62 184.55 392.13 110.93 384.13 97.07 256.62 170.69 360.73 66.58 349.42 55.26 245.31 159.38 318.93 31.87 305.07 23.87 231.45 151.38 269.56 9.16 254.11 5.02 216 147.24 216 0 200 0 200 208 200 416 216 416 216 227.31 402.34 413.66 413.66 402.34 227.31 216 416 216 416 200"/>
+</svg>

@@ -10,7 +10,7 @@ formats: ["map"]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

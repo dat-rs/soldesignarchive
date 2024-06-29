@@ -1,0 +1,21 @@
+<div class="container-fluid latest-container-outer">
+  <div class="container-md latest-container">
+    <div class="row rainbow-2">
+      <div class="col-12">
+        <h3 class="section-title negative">Latest Additions</h3>
+      </div>
+    </div>  
+  </div>
+  <div class="row rainbow-2 latest-carousel f-carousel" id="latest-carousel">
+    {% assign latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 24 %} {% for artifact in
+    latest_artifacts %}
+    <div class="col-2 col-sm-2 col-md-1 latest-carousel-slide f-carousel__slide">
+      <a class="a-module sm grid" href="{{ artifact.url }}">
+        <div class="a-module-img-holder">
+          <img "class=" a-module-img" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg" alt="" />
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

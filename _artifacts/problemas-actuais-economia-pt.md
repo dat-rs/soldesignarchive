@@ -7,12 +7,12 @@ year: y1974
 origin: [Portugal]
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]
-tags: [25 de Abril, economics, capitalism, "Eugénio Rosa"]
+tags: [25 de Abril, economics, "Eugénio Rosa"]
 layout: artifact
 status: production
-published: false
-int_published: false
+published: true
+int_published: true
 image_count:
-date_added: 2023-06-16
+date_added: 2024-04-21
 batch: ladra15Abril
 ---

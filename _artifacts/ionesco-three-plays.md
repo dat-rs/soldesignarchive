@@ -1,15 +1,15 @@
 ---
 title: Ionesco - Three Plays
-author_name: 'Roy Kuhlman'
+author_name: "Roy Kuhlman"
 year: y1958
 origin: United-States
-publisher: 'Grove Press'
+publisher: "Grove Press"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [theatre, "Eugène Ionesco"]
 ref: sol-030-0069
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2022-02-17
 ---

@@ -3,13 +3,13 @@ ref: sol-251-0012
 title: "France. SCNF"
 author_name: ["Hervé Baille"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["booklet"]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

@@ -10,10 +10,12 @@ formats: null
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:
 date_added: 2023-06-16
 batch: 58/belgium/1
 ---
+
+Leaf of 1958's Brussels Exhibition commemorative stamps. Portuguese edition.

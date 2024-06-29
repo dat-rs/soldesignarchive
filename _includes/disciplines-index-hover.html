@@ -1,0 +1,18 @@
+<!--  -->
+{% assign selected_filtered_artifacts = site.artifacts | where: 'disciplines', discipline.name | slice: 0, 16 %}
+
+<div class="row artifacts-gutters">
+  {% for artifact in selected_filtered_artifacts %}
+  <div class="col-3">
+    <a class="a-module grid index-poster" href="{{ artifact.url }}">
+      <div class="a-module-img-holder index-poster">
+        {% if artifact.published == false %}
+        <img class="a-module-img" src="/images/non-art/black-square.png" alt="" />
+        {% else %}
+        <img class="a-module-img" src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg" alt="" />
+        {% endif %}
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>

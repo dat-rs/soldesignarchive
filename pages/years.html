@@ -1,31 +1,32 @@
 ---
 title: "Years - Sol Design Archive"
 description: "Browse the archive by date."
-image: "/images/non-art/sol-branding-comp-1.jpg"
+image: "/images/non-art/sol-years-comp.jpg"
 ---
 
 {% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-url=page.url
 page-meta-image=page.image %}
 
-<div class="container-fluid years first-after-header">
-  <div class="container container-allcats">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">Years</h3>
+
+<div class="container-outer years first-after-header">
+  <div class="container-md container-allcats">
+    <div class="row datum-section none">
+      <div class="col-12 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <img class="allcats-icon" src="/images/non-art/icon-years-ossm-off1.svg" alt="">
+          <h3 class="section-title allcats text-center">Years</h3>
+        </div>
       </div>
 
-      <div class="col-12">
-        {% for year in site.years %} {% assign filtered_artifacts = site.artifacts | where: 'year', year.name %}
-
-        <h2 class="title allcat page years">
-          <a class="browse-link year" href="{{ year.url }}">{{ year.title }}</a>
-          <span class="cat-count">{{ filtered_artifacts.size }}</span>
-        </h2>
-
-        {% endfor %}
+      <div class="col-12 col-md-8 datum-right-col allcats-big-short">
+        {%- for year in site.years -%} {%- assign filtered_artifacts = site.artifacts | where: 'year', year.name -%}
+        <a class="title allcat-item year capitalize text-wrap" href="{{ year.url }}">{{ year.title }}<span class="cat-count year">[{{filtered_artifacts.size}}]</span>
+        </a>
+        {%- endfor -%}
       </div>
     </div>
   </div>
 </div>
+
 
 {% include footer.html %} {% include the-end.html %}

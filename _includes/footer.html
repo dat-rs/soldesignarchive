@@ -1,79 +1,136 @@
-<div class="container-fluid container-footer">
-
-  <div class="row footer-row">
-
-    <div class="col-6 col-md-2">
-      <a class="footer-link artifacts" href="/pages/artifacts.html">Artifacts</a><br>
-      <a class="footer-link authors" href="/pages/authors.html">Authors</a><br>
-      <a class="footer-link origins" href="/pages/origins.html">Origins</a><br>
-      <a class="footer-link publishers" href="/pages/publishers.html">Publishers</a><br>
-      <a class="footer-link disciplines" href="/pages/disciplines.html">Disciplines</a><br>
-      <a class="footer-link years" href="/pages/years.html">Years</a><br>
-      <a class="footer-link formats" href="/pages/formats.html">Formats</a><br>
-      <a class="footer-link tags" href="/pages/tags.html">Tags</a><br>
-      <a class="footer-link resources" href="/pages/resources.html">Resources</a><br>
-    </div>
-
-    <div class="col-2 d-none d-md-block">
-      <a class="footer-link" href="/pages/about.html">About</a><br>
-      <a class="footer-link" href="/pages/blog">Blog</a><br>
-      <a class="footer-link" href="/pages/shorts">Shorts</a><br>
-    </div>
-
-    <div class="col-4 d-none d-md-block">
-      <a class="footer-link" href="https://instagram.com/soldesignarchive">Instagram</a><br>
-      <a class="footer-link" href="https://twitter.com/archivesol">Twitter</a>
-    </div>
-
-    <div class="col-6 d-sm-none">
-      <a class="footer-link" href="/pages/about.html">About</a><br>
-      <a class="footer-link" href="/pages/blog">Blog</a><br>
-      <a class="footer-link" href="/pages/shorts">Shorts</a><br>
-      <a class="footer-link" href="https://instagram.com/soldesignarchive">Instagram</a><br>
-      <a class="footer-link" href="https://twitter.com/archivesol">Twitter</a>
-    </div>
-
-    <div class="col-12 col-md-4 col-xxl-3">
-      {% assign published_artifacts = site.artifacts | where: 'published', 'true' %}
-      {% assign published_authors = site.authors | where: 'published', 'true' %}
-      <p class="footer-text">
-        {% include about-sol.md %}
-      </p>
-
-      <p class="footer-text">
-
-        All materials <strong>created</strong> by Sol are shared under a CC0. Artworks and other resources are shared
-        under fair use for educational and research purposes.
-
-      </p>
-
-    </div>
-
-  </div>
-
-  <div class="row footer-logos">
-    <div class="col-12">
-
-      <div class="logos">
-
-        <img src="/images/non-art/sol-mark-shorthand-offwhite.png" width="45px" style="margin-top: 50px" alt=""><br>
-        <img src="/images/non-art/office-santos-logo-offwhite.png" height="25px" style="margin-top: 50px" alt="">
 
 
+<div class="container-outer container-footer">
+  <div class="container-md">
+    <div class="row datum-section footer-row">
+      <div class="col-6 col-sm-3 col-md-2 col-lg-2 footer-col cats">
+        <a class="footer-link cat artifacts" href="/pages/artifacts.html">Artifacts</a><br />
+        <a class="footer-link cat authors" href="/pages/authors.html">Authors</a><br />
+        <a class="footer-link cat origins" href="/pages/origins.html">Origins</a><br />
+        <a class="footer-link cat publishers" href="/pages/publishers.html">Publishers</a><br />
+        <a class="footer-link cat disciplines" href="/pages/disciplines.html">Disciplines</a><br />
+        <a class="footer-link cat years" href="/pages/years.html">Years</a><br />
+        <a class="footer-link cat formats" href="/pages/formats.html">Formats</a><br />
+        <a class="footer-link cat tags" href="/pages/tags.html">Tags</a><br />
+        <a class="footer-link cat resources" href="/pages/resources.html">Resources</a><br />
       </div>
 
+      <div class="col-6 col-sm-3 footer-col">
+        <a class="footer-link primary" href="/pages/about.html">About</a><br />
+        <a class="footer-link primary" href="/pages/blog">Blog</a><br />
+        <a class="footer-link primary" href="/pages/shorts">Shorts</a><br />
+        <a class="footer-link" href="https://instagram.com/soldesignarchive">Instagram</a><br />
+        <a class="footer-link" href="https://twitter.com/archivesol">Twitter</a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-xxl-4 footer-col">
+        {% assign published_artifacts = site.artifacts | where: 'published', 'true' %} {% assign published_authors =
+        site.authors | where: 'published', 'true' %}
+        <section class="footer-text">
+          <p>{% include about-sol.md %}</p>
+
+          <p>
+            All materials <strong>created</strong> by Sol are shared under a
+            <span style="font-variant-numeric: normal">CC0</span>. Artworks and other resources are shared under fair
+            use for educational and research purposes.
+          </p>
+        </section>
+      </div>
     </div>
   </div>
+</div>
 
-  <div class="row footer-quote">
-
-    <div class="col-12">
-
-      <p class="footer-quote">«Save everything. It may come in handy later.»</p>
-      <p class="footer-quote-byline">Corita Kent</p>
-
+<div class="container-outer footer-icons d-none">
+  <div class="container-md">
+    <div class="row datum-section footer-icons">
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/authors">
+          <img class="footer-icon authors" src="/images/non-art/icon-authors-ossm-color.svg" alt="" width="140"
+            height="140">
+          <h3 class="section-title allcats footer authors text-center">Authors</h3>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/origins">
+          <img class="footer-icon origins" src="/images/non-art/icon-origins-ossm-color.svg" alt="" width="140"
+            height="140">
+          <h3 class="section-title allcats footer origins text-center">Origins</h3>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/publishers">
+          <img class="footer-icon publishers" src="/images/non-art/icon-publishers-ossm-color.svg" alt="" width="140"
+            height="140">
+          <h3 class="section-title allcats footer publishers text-center">Authors</h3>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/disciplines">
+          <img class="footer-icon disciplines" src="/images/non-art/icon-disciplines-ossm-color.svg" alt="" width="140"
+            height="140">
+          <h3 class="section-title allcats footer disciplines text-center">Disciplines&nbsp;</h3>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/years">
+          <img class="footer-icon years" src="/images/non-art/icon-years-ossm-color.svg" alt="" width="140"
+            height="140">
+          <h3 class="section-title allcats footer years text-center">Years</h3>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/formats">
+          <img class="footer-icon formats" src="/images/non-art/icon-formats-ossm-color.svg" alt="" width="140"
+            height="140">
+          <h3 class="section-title allcats footer formats text-center">Formats</h3>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/tags">
+          <img class="footer-icon tags" src="/images/non-art/icon-tags-ossm-color.svg" alt="" width="140" height="140">
+          <h3 class="section-title allcats footer tags text-center">Tags</h3>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
+        <a class="footer-icon-link" href="/pages/resources">
+          <img class="footer-icon resources" src="/images/non-art/icon-resources-ossm-color.svg" width="140" alt=""
+            height="140">
+          <h3 class="section-title allcats footer resources text-center">Resources</h3>
+        </a>
+      </div>
     </div>
-
   </div>
+</div>
 
+
+
+<div class="container-outer footer-quote">
+  <div class="container-md">
+    <div class="row datum-section footer-quote">
+      <div class="order-md-2 col-12 col-md-9 col-lg-8 col-xl-7 datum-right-col quote">
+        <q class="footer-quote">Save everything.<br />It may come in handy later.</q>
+      </div>
+
+      <div class="order-md-1 col-12 col-md-2 datum-left-col">
+        <p class="footer-quote-byline">Corita Kent</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-outer footer-logos">
+  <div class="container-md">
+    <div class="row datum-section footer-logos align-items-center">
+      <div class="col-12 col-sm-6 col-md-2 col-lg-2 col-xl-2 datum-right-col logos sol-logo">
+        <div class="logos">
+          <img src="/images/non-art/sol-mark-shorthand-offwhite.png" width="71px" alt="" />
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 datum-right-col logos office-logo">
+        <div class="logos">
+          <img src="/images/non-art/office-santos-logo-offwhite.png" height="25px" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

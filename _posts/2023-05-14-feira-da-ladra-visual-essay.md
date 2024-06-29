@@ -6,10 +6,10 @@ author: Ricardo Santos
 author_twitter: "@officesantos"
 lead: A visual love letter to the place where it all began.
 excerpt_separator: "<!--more-->"
-
 ---
 
-<div class="col-12 col-md-4">
+<div class="row">
+    <div class="col-12 col-md-4">
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-stairs.jpg" data-fancybox="post-gallery" >
 <img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-stairs.jpg">
 </a>
@@ -22,7 +22,6 @@ excerpt_separator: "<!--more-->"
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-zona.jpg" data-fancybox="post-gallery" >
 <img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-zona.jpg">
 </a>
-
 
 </div>
 
@@ -40,7 +39,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-4">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-window.jpg" data-fancybox="post-gallery" >
@@ -49,14 +47,12 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-6">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-eye.jpg" data-fancybox="post-gallery" >
 <img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-eye.jpg">
 </a>
 </div>
-
 
 <div class="col-12 col-md-6">
 
@@ -66,7 +62,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-camera.jpg" data-fancybox="post-gallery" >
@@ -74,7 +69,6 @@ excerpt_separator: "<!--more-->"
 </a>
 
 </div>
-
 
 <div class="col-12 col-md-4">
 
@@ -84,7 +78,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-4">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-dolls.jpg" data-fancybox="post-gallery" >
@@ -92,7 +85,6 @@ excerpt_separator: "<!--more-->"
 </a>
 
 </div>
-
 
 <div class="col-12 col-md-4">
 
@@ -102,7 +94,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-8">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-bourrasque.jpg" data-fancybox="post-gallery" >
@@ -110,7 +101,6 @@ excerpt_separator: "<!--more-->"
 </a>
 
 </div>
-
 
 <div class="col-12 col-md-8 offset-md-4">
 
@@ -120,7 +110,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-6">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-sunglasses.jpg" data-fancybox="post-gallery" >
@@ -128,7 +117,6 @@ excerpt_separator: "<!--more-->"
 </a>
 
 </div>
-
 
 <div class="col-12 col-md-6">
 
@@ -138,7 +126,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-8 offset-md-4">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-proibido.jpg" data-fancybox="post-gallery" >
@@ -146,7 +133,6 @@ excerpt_separator: "<!--more-->"
 </a>
 
 </div>
-
 
 <div class="col-12">
 
@@ -156,7 +142,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-6">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-flowers.jpg" data-fancybox="post-gallery" >
@@ -164,7 +149,6 @@ excerpt_separator: "<!--more-->"
 </a>
 
 </div>
-
 
 <div class="col-12 col-md-5">
 
@@ -174,7 +158,6 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-6 offset-md-6">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-couple.jpg" data-fancybox="post-gallery" >
@@ -183,10 +166,11 @@ excerpt_separator: "<!--more-->"
 
 </div>
 
-
 <div class="col-12 col-md-8">
 
 <a href="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-glasses.jpg" data-fancybox="post-gallery" >
 <img class="std-post-img" src="/images/blog_posts/feira-da-ladra-visual-essay/ladra-visual-essay-glasses.jpg">
 </a>
+</div>
+
 </div>

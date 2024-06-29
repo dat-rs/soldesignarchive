@@ -1,15 +1,15 @@
 ---
-title: 'Cantares de Todo o Ano'
-author_name: ['Júlio Gil']
+title: "Cantares de Todo o Ano"
+author_name: ["Júlio Gil"]
 year: y1956
 origin: Portugal
-publisher: 'Ministério da Educação Nacional'
+publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography, lettering]
 tags: ["Colecção Educativa", "Estado Novo"]
 ref: sol-030-0143
 layout: artifact
-status: complete
+status: Complete
 published: true
 image_count: 2
 date_added: 2022-10-06

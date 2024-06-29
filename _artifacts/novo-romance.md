@@ -3,13 +3,13 @@ ref: sol-010-0006
 title: "Por um Novo Romance"
 author_name: ["Estúdios P.E.A."]
 publisher: ["Publicações Europa América"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: ["rescan"]
+status: Scan
 published: false
 int_published: false
 image_count:

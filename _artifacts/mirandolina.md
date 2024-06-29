@@ -1,15 +1,15 @@
 ---
 title: Mirandolina
-author_name: ['unknown author']
-year: "unknown date"
+author_name: ["unknown author"]
+year: "unknown-date"
 origin: Brazil
-publisher: 'Editora Brasiliense'
+publisher: "Editora Brasiliense"
 formats: [book, book-cover]
-disciplines: ['graphic-design', typography, pattern]
+disciplines: ["graphic-design", typography, pattern]
 tags: [fiction, opera, "Carlo Goldoni"]
 ref: sol-030-0208
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2023-03-13
 ---
