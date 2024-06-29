@@ -9,9 +9,9 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [Heitor Campos Monteiro]
 layout: artifact
-status: complete
+status: Complete
 published: true
 image_count: 2
 date_added: 2023-06-23
-batch: /portoJun
+batch: /porto/jun23
 ---

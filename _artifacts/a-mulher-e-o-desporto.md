@@ -1,28 +1,27 @@
 ---
 publisher:
-- Ministério da Qualidade de Vida
+  - Ministério da Qualidade de Vida
 origin:
-- Portugal
+  - Portugal
 date_added: 2022-05-25
 layout: artifact
-status: complete
+status: Complete
 published: true
 title: A Mulher e o Desporto
 ref: sol-030-0099
 formats:
-- book cover
-- book
+  - book cover
+  - book
 disciplines:
-- illustration
-- typography
-- graphic-design
+  - illustration
+  - typography
+  - graphic-design
 author_name:
-- Carlos Figueira
+  - Carlos Figueira
 year: y1980
 tags:
-- sports
-- "Eurostile + Microgramma"
+  - sports
+  - "Eurostile/Microgramma"
 image_count:
 wip: false
-
 ---

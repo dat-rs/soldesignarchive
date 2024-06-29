@@ -46,7 +46,14 @@
   rel_authors: ["Fred Troller"]
   description: "An instagram account dedicated to the work of Fred Troller."
 
-- title: "Fred Troller collection - Cary Graphic Arts Collection"
+- title: "Ernst Kößlinger - Wikipedia"
+  type: at-archive
+  lang: de
+  out_url: https://de.wikipedia.org/wiki/Ernst_Kößlinger
+  rel_authors: ["Alda Rosa"]
+  description: "Ernst Kößlinger - German Wikipedia entry."
+
+- title: "Fred Troller Collection - Cary Graphic Arts Collection"
   type: "at-archive"
   lang: en
   out_url: https://www.rit.edu/carycollection/fred-troller
@@ -74,7 +81,7 @@
   rel_authors: ["João Abel Manta"]
   rel_tags:
   rel_artifacts:
-  description: "João Abel Manta's entry on the Portuguese Wikipedia."
+  description: "João Abel Manta - Portuguese Wikipedia entry."
 
 - title: "Núria Picas i Codina - Enciclopèdia.cat"
   type: at-archive

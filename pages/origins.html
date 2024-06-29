@@ -7,24 +7,27 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %}
 
-<div class="container-fluid origins first-after-header">
+<div class="container-outer origins first-after-header">
   <div class="container-md container-allcats">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">Origins</h3>
+    <div class="row datum-section none">
+      <div class="col-12 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <img class="allcats-icon" src="/images/non-art/icon-origins-ossm-off1.svg" alt="">
+          <h3 class="section-title allcats">Origins</h3>
+        </div>
       </div>
-
-      <div class="col-12">
-        {% for origin in site.origins %} {% assign filtered_artifacts = site.artifacts | where: 'origin', origin.name %}
-
-        <h2 class="title allcat bigger page capitalize">
-          <a class="browse-link origin" href="{{ origin.url }}"
-            >{{ origin.name | remove_first: " " | replace: "-", " " }}<span class="cat-count bigger"
-              >{{ filtered_artifacts.size }}</span
-            ></a
-          >
-        </h2>
-
+      <div class="col-12 col-md-8 datum-right-col allcats-big-short">
+    {% for origin in site.origins %} {% assign filtered_artifacts = site.artifacts | where: 'origin', origin.name |
+    sort: 'year' %} {% assign selected_artifacts = filtered_artifacts | slice: 0, 2 %}
+        <div class="row">
+          <div class="col-12 allcat-w-preview-title-col text-wrap text-center text-md-start">
+              <a class="title allcat-item origin capitalize text-wrap" href="{{ origin.url }}"
+                ><span class="cat-count origin fake d-md-none">[{{ filtered_artifacts.size }}]</span>{{ origin.name | remove_first: " " | replace: "-", " " }}<span class="cat-count origin"
+                  >[{{ filtered_artifacts.size }}]</span
+                ></a
+              >
+          </div>
+        </div>
         {% endfor %}
       </div>
     </div>

@@ -1,15 +1,15 @@
 ---
 title: "Das Intime Tagebuch des Capitaine Georges"
-author_name: ['Celestino Piatti']
+author_name: ["Celestino Piatti"]
 year: y1970
 origin: Germany
-publisher: 'Deutscher Taschenbuch Verlag'
+publisher: "Deutscher Taschenbuch Verlag"
 formats: [book, book-cover]
-disciplines: ['graphic-design', typography, illustration]
-tags: [fiction, novel, 'Jean Renoir']
+disciplines: ["graphic-design", typography, illustration]
+tags: [fiction, novel, "Jean Renoir"]
 ref: sol-030-0221
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2023-03-14
 ---

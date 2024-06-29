@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: ["graphic-design, illustration, typography, photography"]
 tags:
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

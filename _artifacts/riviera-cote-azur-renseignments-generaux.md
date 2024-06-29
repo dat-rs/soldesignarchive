@@ -2,14 +2,14 @@
 ref: sol-121-0029
 title: "Riviera Cote d’Azur - Renseignements Généraux"
 author_name: ["unknown author"]
-publisher: ["Ministère des Travaux Publics, des Transports et du Tourisme"]
+publisher: ["Direction Générale du Tourisme"]
 year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

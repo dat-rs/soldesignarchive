@@ -9,9 +9,9 @@ formats: [notebook]
 disciplines: [graphic-design, lettering, typography]
 tags: [ornaments]
 layout: artifact
-status: complete
+status: Complete
 published: true
 image_count: 2
 date_added: 2023-06-23
-batch: /portoJun
+batch: /porto/jun23
 ---

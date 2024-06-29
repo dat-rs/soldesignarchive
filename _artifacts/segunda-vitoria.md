@@ -9,9 +9,9 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [Morris West]
 layout: artifact
-status: complete
+status: Complete
 published: true
-image_count: 
+image_count:
 date_added: 2023-06-18
-batch: /feira-do-livro-23
+batch: /feira-livro-23
 ---

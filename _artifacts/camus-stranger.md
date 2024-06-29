@@ -3,13 +3,13 @@ title: "The Stranger"
 author_name: "Leo Lionni"
 year: y1959
 origin: United-States
-publisher: 'Vintage Books'
+publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Albert Camus"]
 ref: sol-030-0065
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2020-01-01
 ---

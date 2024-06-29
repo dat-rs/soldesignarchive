@@ -10,7 +10,7 @@ tags: [art]
 ref: sol-231-0000
 image_count: 2
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2022-05-22
 sources_count: 0

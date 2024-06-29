@@ -1,12 +1,12 @@
 <div class="outer-container prev-next">
-  <section class="container-md">
-    <div class="row datum-section md">
-      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+  <section class="container-md prev-next">
+    <div class="row datum-section prev-next">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
         <h3 class="title datum-title more">More</h3>
       </div>
       {% if prevurl %}
 
-      <div class="col-12 col-sm-4 col-md-5 col-lg-4 col-xxl-3 datum-right-col prevnext">
+      <div class="col-12 col-sm-4 col-md-5 col-lg-4 col-xl-3 datum-right-col prevnext">
         <span class="prev-next-label">Previous Artifact</span>
 
         <a class="a-module sm grid" href="{{ prevurl | escape_once }}">
@@ -35,7 +35,7 @@
       </div>
       {% endif %} {% if nexturl %}
 
-      <div class="col-12 col-sm-4 col-md-5 col-lg-4 col-xxl-3 datum-right-col prevnext">
+      <div class="col-12 col-sm-4 col-md-5 col-lg-4 col-xl-3 datum-right-col prevnext">
         <span class="prev-next-label">Next Artifact</span>
 
         <a class="a-module sm grid" href="{{ nexturl | escape_once }}">

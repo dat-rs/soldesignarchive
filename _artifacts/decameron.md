@@ -7,12 +7,12 @@ year: "y1971"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
-tags:
+tags: ["Boccacio", "Livros RTP", "Biblioteca Básica Verbo"]
 layout: artifact
-status: ["scan"]
-published: false
-int_published: false
-image_count:
+status: Scan
+published: true
+int_published: true
+image_count: 2
 date_added: 2023-06-16
 batch:
 ---

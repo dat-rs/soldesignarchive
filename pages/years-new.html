@@ -1,0 +1,79 @@
+---
+title: "Years - Sol Design Archive"
+description: "Browse the archive by date."
+image: "/images/non-art/sol-branding-comp-1.jpg"
+---
+
+{% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-url=page.url
+page-meta-image=page.image %}
+
+<div class="container-fluid years first-after-header">
+  <div class="container-md container-allcats">
+    <div class="row datum-section title years">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <h3 class="section-title">Years</h3>
+      </div>
+      <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col"></div>
+    </div>
+    {% for year in site.years %} {% assign filtered_artifacts = site.artifacts | where: 'year', year.name %} {% assign
+    sliced_filtered_artifacts = filtered_artifacts | slice: 0, 8 %}
+    <!--  -->
+    {% capture current_year %}{{ year.title }}{% endcapture %}{% assign current_century = current_year | remove_first:
+    '1' | truncate: 1, "" %}{% assign index_prev_year = forloop.index0 | minus: 1 %}{% assign prev_year =
+    site.years[index_prev_year].title %}{% assign prev_century = prev_year | remove_first: '1' | truncate: 1, "" %}
+
+    <!--  -->
+    {% assign current_first_two_digits = current_year | remove_first: '1' | truncate: 2, "" %}{% assign
+    prev_first_two_digits = prev_year | remove_first: '1' | truncate: 2, "" %}
+
+    <!--  -->
+    {% if current_century == "8" %}{% assign current_decade = current_first_two_digits | remove_first: '8' | truncate:
+    1, "" %}{% else %}{% assign current_decade = current_first_two_digits | remove_first: '9' | truncate: 1, "" %}{%
+    endif %}
+    <!--  -->
+    {% if prev_century == "8" %}{% assign prev_decade = prev_first_two_digits | remove_first: '8' | truncate: 1, "" %}{%
+    else %}{% assign prev_decade = prev_first_two_digits | remove_first: '9' | truncate: 1, "" %}{% endif %}
+
+    <!--  -->
+
+    <div
+      class="row datum-section year {% if forloop.first %}new-decade new-century{% endif %}{% unless prev_century == current_century %} new-century{% endunless %}{% unless prev_decade == current_decade %} new-decade{% endunless %}"
+    >
+      <!-- {% assign mod = forloop.index | modulo: 2 %} {% if mod == 1 %} -->
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col year">
+        <h2 class="title allcat page years">
+          <a class="allcat-item year" href="/years/{{ year.slug }}"
+            >{{ year.title }}<span class="cat-count year">[{{ filtered_artifacts.size }}]</span></a
+          >
+        </h2>
+      </div>
+      {% for artifact in sliced_filtered_artifacts %}
+      <div class="col-12 col-sm-1 datum-right-col year">
+        {%- include /a-modules/a-module-img.html modifier="year" -%}
+      </div>
+      {% endfor %}
+      <!--  {% else %}
+      <div class="col-12 col-sm-1 offset-sm-2 offset-md-1 datum-left-col">
+        {% for artifact in sliced_filtered_artifacts %} {%- include /a-modules/a-module-img.html modifier="year" -%} {%
+        endfor %}
+      </div>
+      <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+        <h2 class="title allcat page years">
+          <a class="allcat-item year" href="/years/{{ year.slug }}"
+            >{{ year.title }}<span class="cat-count year">[{{ filtered_artifacts.size }}]</span></a
+          >
+        </h2>
+      </div>
+      {% endif %} -->
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% include footer.html %} {% include the-end.html %}
+
+<!-- se é o primeiro mete decade & century -->
+{% if forloop.first %}
+<!--  -->
+new-decade new-century {% endif %}
+<!-- se não é o 1º vai checkar -->

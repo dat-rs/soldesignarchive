@@ -1,0 +1,21 @@
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
+  <script>
+// Artifact Image Carousel
+    const mainContainer = document.getElementById("latest-carousel");
+    const mainOptions = {
+      infinite: true,
+      Dots: false,
+    };
+
+const mainCarousel = new Carousel(mainContainer, mainOptions);
+
+
+  //reloads page once (fixes layout bug)
+  window.onload = function () {
+    if (!window.location.hash) {
+      window.location = window.location + '#a';
+      window.location.reload();
+    }
+  }
+  </script>

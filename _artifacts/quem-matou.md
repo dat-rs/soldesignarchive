@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [theatre]
 ref: sol-140-0002
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2023-03-08
 ---

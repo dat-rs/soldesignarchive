@@ -7,23 +7,26 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %}
 
-<div class="container-fluid formats first-after-header">
+<div class="container-outer formats first-after-header">
   <div class="container-md container-allcats">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">Formats</h3>
+    <div class="row datum-section none">
+      <div class="col-12 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <img class="allcats-icon" src="/images/non-art/icon-formats-ossm-off1.svg" alt="">
+          <h3 class="section-title allcats text-center">Formats</h3>
+        </div>
       </div>
-
-      <div class="col-12">
-        {% for format in site.formats %} {% assign filtered_artifacts = site.artifacts | where: 'formats', format.name
-        %}
-
-        <h2 class="title allcat page formats capitalize">
-          <a class="browse-link format" href="{{ format.url }}"
-            >{{ format.name | replace: "-", " " }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
-          >
-        </h2>
-
+      <div class="col-12 col-md-8 datum-right-col allcats-big-short">
+        {% for format in site.formats %} {% assign filtered_artifacts = site.artifacts | where: 'formats',
+        format.name %} {% assign selected_artifacts = filtered_artifacts | slice: 0, 4 %}
+        <div class="row">
+          <div class="col-12 allcat-w-preview-title-col text-wrap text-center text-md-start">
+            <a class="title allcat-item format capitalize text-wrap" href="{{ format.url }}"><span
+                class="cat-count format fake d-md-none">[{{ filtered_artifacts.size }}]</span>{{ format.name |
+              remove_first: " " | replace: "-", " " }}<span class="cat-count format">[{{ filtered_artifacts.size
+                }}]</span></a>
+          </div>
+        </div>
         {% endfor %}
       </div>
     </div>

@@ -1,15 +1,15 @@
 ---
 title: "Frente Argelina. FLN OAS"
-author_name: ['Sebastião Rodrigues']
+author_name: ["Sebastião Rodrigues"]
 year: y1962
 origin: Portugal
-publisher: 'Ulisseia'
+publisher: "Ulisseia"
 formats: [book, book-cover]
-disciplines: ['graphic-design', typography]
-tags: [non-fiction, 'Herbert Steinhouse']
+disciplines: ["graphic-design", typography]
+tags: [non-fiction, "Herbert Steinhouse"]
 ref: sol-030-0184
 layout: artifact
-status: complete
+status: Complete
 published: true
 image_count: 2
 date_added: 2023-03-14

@@ -14,17 +14,17 @@ page-meta-image=page.image %}
 
 <div class="container-md post-head">
   <div class="row datum-section title post-head">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label post">Short</h3>
     </div>
     <div class="col-12 col-sm-9">
-      <h2 class="title blog self datum">
+      <h1 class="title blog self datum" data-pagefind-meta="title" >
         <a href="{{ post.url }}">{{ page.title }}</a>
-      </h2>
+      </h1>
     </div>
   </div>
   <div class="row datum-section sm post-lead">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <p class="post-meta self">{{ page.author }}, {{ page.date | date_to_string }}</p>
     </div>
     <div class="col-12 col-sm-9 col-lg-7">
@@ -33,16 +33,16 @@ page-meta-image=page.image %}
   </div>
 </div>
 
-<div class="container-md post">
+<div class="container-md post" data-pagefind-body >
   <div class="row datum-section post-body">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col"></div>
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
     <div class="col-12 col-sm-9 col-lg-8 col-xl-7">
       <section class="post-text">{{ page.content }}</section>
     </div>
   </div>
 
   <div class="row datum-section md short-link">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label post">Follow the link →</h3>
     </div>
     <div class="col-12 col-sm-9 col-lg-8 col-xl-7">

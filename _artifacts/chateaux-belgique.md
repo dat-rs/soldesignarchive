@@ -9,10 +9,10 @@ formats: ["brochure"]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: ["scan"]
-published: false
-int_published: false
-image_count:
-date_added: 2023-06-16
+status: Complete
+published: true
+int_published: true
+image_count: 10
+date_added: 2024-04-21
 batch: 58/belgium/1
 ---
