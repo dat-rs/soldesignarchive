@@ -7,11 +7,11 @@ year: "y1962"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
-tags:
+tags: ["Ciência e Técnica"]
 layout: artifact
-status: ["rescan"]
-published: false
-int_published: false
+status: Scan
+published: true
+int_published: true
 image_count:
 date_added: 2023-06-16
 batch:

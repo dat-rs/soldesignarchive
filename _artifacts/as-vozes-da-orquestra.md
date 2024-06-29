@@ -1,22 +1,22 @@
 ---
 origin:
-- Portugal
+  - Portugal
 publisher:
-- Ministério da Educação
-- Plano de Educação Popular
+  - Ministério da Educação Nacional
 date_added: 2022-05-24
 layout: artifact
-status: complete
+status: Complete
 published: true
 title: As Vozes da Orquestra
 author_name:
-- José João
+  - José João
 year: y1965
 formats:
-- book cover
-- book
+  - book cover
+  - book
 disciplines: [graphic-design, typography, illustration]
 tags:
-- music
+  - music
+  - Colecção Educativa
 ref: sol-030-0103
 ---

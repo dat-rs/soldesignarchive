@@ -1,26 +1,21 @@
 <div id="artifacts-filters" class="row">
-  <div class="col-12 col-sm-6 col-md-4 col-lg filter-group" data-group="types">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 filter-group" data-group="types">
     <h3 class="filter-title"><span class="title-label">Filter by</span> Format</h3>
 
-    {% for format in site.formats %}
-
-    <input
+    {% for format in site.formats %}<input
       type="checkbox"
       value=".{{ format.name }}"
       class="btn-check filter"
       id="filter-{{ format.name }}"
       autocomplete="off"
-    />
-    <label class="btn a-filter-label" for="filter-{{ format.name }}">{{ format.name | replace: "-", " " }}</label>
-
+    /><label class="btn a-filter-label" for="filter-{{ format.name }}">{{ format.name | replace: "-", " " }}</label>
     {% endfor %}
   </div>
 
-  <div class="col-12 col-sm-6 col-md-4 col-lg filter-group" data-group="disciplines">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-2 filter-group" data-group="disciplines">
     <h3 class="filter-title"><span class="title-label">Filter by</span> Discipline</h3>
 
     {% for discipline in site.disciplines %}
-
     <input
       type="checkbox"
       value=".{{ discipline.name }}"
@@ -31,15 +26,12 @@
     <label class="btn a-filter-label" for="filter-{{ discipline.name }}"
       >{{ discipline.name | replace: "-", " " }}</label
     >
-
     {% endfor %}
   </div>
 
-  <div class="col-12 col-sm-6 col-md-4 col-lg filter-group" data-group="origins">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-2 filter-group" data-group="origins">
     <h3 class="filter-title"><span class="title-label">Filter by</span> Origin</h3>
-
     {% for origin in site.origins %}
-
     <input
       type="checkbox"
       value=".{{ origin.name }}"
@@ -48,7 +40,6 @@
       autocomplete="off"
     />
     <label class="btn a-filter-label" for="filter-{{ origin.name }}">{{ origin.name | replace: "-", " " }}</label>
-
     {% endfor %}
   </div>
 
@@ -56,7 +47,6 @@
     <h3 class="filter-title"><span class="title-label">Filter by</span> Year</h3>
 
     {% for year in site.years %}
-
     <input
       type="checkbox"
       value=".{{ year.name }}"
@@ -67,7 +57,6 @@
     <label class="btn a-filter-label" for="filter-{{ year.name }}"
       >{{ year.name | remove_first: "y" | replace: '-', ' ' }}</label
     >
-
     {% endfor %}
   </div>
 </div>
@@ -75,7 +64,7 @@
 <div id="artifacts-search" class="row">
   <div class="col-12 col-lg-6">
     <div class="outer-search">
-      <input type="text" class="quicksearch cats artifacts" placeholder="Search (Titles/Authors)" />
+      <input type="text" class="quicksearch artifacts" placeholder="Search (Titles/Authors)" />
     </div>
   </div>
 </div>

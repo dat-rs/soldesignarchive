@@ -7,7 +7,7 @@ related_authors: ["João da Câmara Leme", "João Abel Manta"]
 related_publishers:
   [
     "Fundação Calouste Gulbenkian",
-    "SPN-SNI-SEIT",
+    "SPN/SNI/SEIT",
     "Ulisseia",
     "Arcádia",
     "Publicações Europa América",

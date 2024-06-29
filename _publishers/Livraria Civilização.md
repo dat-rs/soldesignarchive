@@ -1,4 +1,4 @@
 ---
-title: 'Livraria Civilização'
+title: "Livraria Civilização"
 layout: publisher
 ---

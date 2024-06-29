@@ -9,10 +9,11 @@ formats: ["programme"]
 disciplines: ["graphic-design", illustration, typography]
 tags: [direct color, cinema, halftone]
 layout: artifact
-status: ["scan"]
+status: Scan
 published: true
 image_count: 2
 date_added: 2023-06-18
 batch:
 ---
+
 On display: Men and Noblemen (_Uomini e nobiluomini_) [1959], a comedy directed by Giorgio Bianchi and starring Vittoria de Sica.

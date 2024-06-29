@@ -7,12 +7,12 @@ year: y1958
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, lettering, typography]
-tags: ["Hans Hellmut Kirst", "José Saramago"]
+tags: ["Hans Hellmut Kirst", "José Saramago", "08-barra-15"]
 layout: artifact
 status: ["production"]
-published: false
-int_published: false
+published: true
+int_published: true
 image_count:
-date_added: 2023-06-16
-batch: /ladra15Abril/1
+date_added: 2024-04-21
+batch: /ladra/150423/1
 ---

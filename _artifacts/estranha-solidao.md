@@ -1,15 +1,15 @@
 ---
 title: Estranha Solidão
-author_name: 'João da Câmara Leme'
+author_name: "João da Câmara Leme"
 year: "y1963"
 origin: "Portugal"
-publisher: 'Portugália'
+publisher: "Portugália"
 formats: [book-cover, book, illustration]
 disciplines: [graphic-design, typography, illustration]
-tags: [Philippe Sollers, fiction, illustration, orange, purple]
+tags: [Philippe Sollers, "O Livro de Bolso", fiction, illustration, orange, purple]
 ref: sol-010-0012
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2020-01-01
 ---

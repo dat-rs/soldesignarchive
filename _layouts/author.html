@@ -5,13 +5,13 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% capture description %}{{ page.name }} at the Sol Design Archive.{% endcapture %} {% include head-and-header.html
 page-meta-title=page.name page-meta-description=description page-meta-url=page.url page-meta-image=layout.image %}
 
-<div class="container-md container-author first-after-header">
+<div class="container-md container-author first-after-header" data-pagefind-body >
   <div class="row datum-section title">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label author">Author</h3>
     </div>
-    <div class="col-12 col-sm-9 datum-right-col">
-      <h2 class="title artifact self datum">{{ page.name }}</h2>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <h1 class="title artifact self datum" data-pagefind-meta="title" >{{ page.name }}</h1>
     </div>
   </div>
 
@@ -19,7 +19,7 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
 
   <!-- ABOUT -->
   <div class="row datum-section about">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">About</h3>
     </div>
 
@@ -31,17 +31,17 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
 
   <!-- TIMELINE -->
   <div class="row datum-section timeline">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">Timeline</h3>
     </div>
-    <div class="col-12 col-sm-9 datum-right-col"></div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col"></div>
   </div>
   {% assign timeline_count = page.timeline_count %}
   <!--  -->
   {% for timeline_element in (0..timeline_count) %}
 
   <div class="datum-row timeline-row row">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="deet-label timeline-key">{{ page.timeline_keys[timeline_element] }}</span>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col timeline-value">
@@ -53,10 +53,10 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   <!-- SOURCES -->
   {% if page.sources_count %} {% assign sources_count = page.sources_count %}
   <div class="row datum-section sources">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
     </div>
-    <div class="col-12 col-sm-9 datum-right-col">
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
       <ol class="footnotes sources">
         {% for sources_element in (0..sources_count) %}
         <li>
@@ -78,16 +78,16 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   <!-- RELATED -->
   {% if page.related_authors or page.related_publishers or page.related_tags %}
   <div class="row datum-section related">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">Related</h3>
     </div>
-    <div class="col-12 col-sm-9 datum-right-col"></div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col"></div>
   </div>
 
   <!-- authors, RELATED -->
   {% if page.related_authors %}
   <div class="datum-row row">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="related-label author">Authors</span>
     </div>
 
@@ -102,7 +102,7 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   <!-- publishers, RELATED -->
   {% if page.related_publishers %}
   <div class="datum-row row">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="related-label publisher">Publishers/Clients</span>
     </div>
 
@@ -119,7 +119,7 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   <!-- tags, RELATED -->
   {% if page.related_tags %}
   <div class="datum-row row">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="related-label tag">Tags</span>
     </div>
 
@@ -138,14 +138,14 @@ filtered_artifacts | sort: "year" %}
 <div class="outer-container cat-artifacts">
   <div class="container-md">
     <div class="row datum-section cat-artifacts">
-      <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
         <h3 class="title datum-title cat-artifacts">
           Artifacts
           <span class="artifact count">[{{ sorted_filtered_artifacts.size }}]</span>
         </h3>
       </div>
-      <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artifacts-section">
+      <div class="col-12 col-sm-9 col-md-10 datum-right-col">
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artifacts-gutters">
           {% for artifact in sorted_filtered_artifacts %}
 
           <div class="col">{% include a-modules/a-module-au-y.html %}</div>

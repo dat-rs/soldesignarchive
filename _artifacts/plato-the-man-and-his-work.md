@@ -1,15 +1,15 @@
 ---
-title: 'Plato - The Man and his Work'
-author_name: 'Jack Reich'
+title: "Plato - The Man and his Work"
+author_name: "Jack Reich"
 year: y1952
 origin: United-States
-publisher: 'Meridian Books'
+publisher: "Meridian Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Plato", philosophy]
 ref: sol-030-0067
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2022-02-17
 ---

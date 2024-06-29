@@ -14,18 +14,19 @@ document[forloop.index] %} {% assign nexturl = next.url %} {% endunless %} {% en
 endfor %} {% if page.image_count %} {% include artifact-multi.html %} {% else %} {% include artifact-single.html %} {%
 endif %}
 
-<div class="container-md artifact-main">
+<div class="container-md artifact-main" data-pagefind-body >
   <div class="row datum-section title">
-    <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label artifact">Artifact</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-8 col-xl-7 datum-right-col">
-      <h2 class="title artifact self datum">{{ page.title }}</h2>
+      <h1 class="title artifact self datum" data-pagefind-meta="title" >{{ page.title }}</h1>
+      <img data-pagefind-meta="image[src]" src="/images/{{ page.ref }}-{{ page.slug }}-thumbnail.jpg" class="d-none">
     </div>
   </div>
 
   <div class="row datum-section new-deets">
-     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title new-deets">Details</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
@@ -39,7 +40,7 @@ endif %}
   {% if test_content != "" %}
 
   <div class="row datum-section about">
-     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">About</h3>
     </div>
 
@@ -53,7 +54,7 @@ endif %}
   {% if page.sources_count %}
   {% assign sources_count = page.sources_count %}
   <div class="row datum-section sources">
-     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
@@ -77,7 +78,7 @@ endif %}
   {% endif %}
 
     <div class="row datum-section more-info">
-     <div class="col-12 col-sm-3 col-md-2 col-lg-3 datum-left-col">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <img class="help" src="/images/non-art/help.png" alt="HELP">
     </div>
 

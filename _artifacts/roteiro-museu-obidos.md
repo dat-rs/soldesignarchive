@@ -9,9 +9,9 @@ formats: [booklet]
 disciplines: [graphic-design, typography, photography]
 tags: [museum]
 layout: artifact
-status: complete
+status: Complete
 published: true
 image_count: 6
 date_added: 2023-06-18
-batch: /portoJun
+batch: /porto/jun23
 ---

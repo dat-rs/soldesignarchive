@@ -7,55 +7,35 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %} {% include index-artifacts.html %} {% include index-about.html %} {% include
-latest-rainbow.html %} {% include blog-section.html %} {% include shorts-section.html %} {% include random-feature.html
+latest-index.html %} {% include blog-section.html %} {% include shorts-section.html %} {% include random-feature.html
 %}
 
-<div class="container-sections-index">
+<div class="outer-container disciplines index d-none">
+  <div class="container-md">
+    <div class="row datum-section cat-artifacts">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <h3 class="title datum-title disciplines-index-poster">Disciplines</h3>
+      </div>
+
+      <div class="col-12 col-sm-9 col-md-10 datum-right-col index-poster-col">
+        {% for discipline in site.disciplines %}
+        <!--  -->
+        {% assign filtered_artifacts = site.artifacts | where: 'disciplines', discipline.name %}
+
+        <h2 class="title allcat disciplines index poster">
+          <a class="allcat-item discipline" href="{{ discipline.url }}"> {{ discipline.name | replace: "-", " " }} </a>
+          <div class="disciplines-index-hover">{% include disciplines-index-hover.html %}</div>
+          <span class="cat-count">{{ filtered_artifacts.size }}</span>
+        </h2>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-sections-index d-none">
   <div class="row no-gutters">
-    <div class="col-12 col-disciplines-index">
-      <div class="cat-section-container">
-        <h3 class="section-title">Disciplines</h3>
-
-        {% for discipline in site.disciplines %} {% assign filtered_artifacts = site.artifacts | where: 'disciplines',
-        discipline.name %}
-
-        <h2 class="title allcat disciplines bigger capitalize">
-          <a class="browse-link discipline" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a
-          ><span class="cat-count">{{ filtered_artifacts.size }}</span>
-        </h2>
-
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="col-12 col-lg-6 col-authors-index">
-      <div class="cat-section-container authors">
-        <h3 class="section-title index authors">Authors</h3>
-
-        {% for author in site.authors %}
-
-        <h2 class="title allcat index authors">
-          <a class="browse-link index" href="{{ author.url }}">{{ author.name }}</a>
-        </h2>
-
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="col-12 col-lg-6 col-publishers-index">
-      <div class="cat-section-container publishers">
-        <h3 class="section-title index publishers">Publishers/Clients</h3>
-
-        {% for publisher in site.publishers %}
-
-        <h2 class="title allcat index publishers">
-          <a class="browse-link index" href="{{ publisher.url }}">{{ publisher.title }}</a>
-        </h2>
-
-        {% endfor %}
-      </div>
-    </div>
-
     <div class="col-12 col-formats-index">
       <div class="cat-section-container formats">
         <h3 class="section-title index formats">Formats</h3>
@@ -63,151 +43,31 @@ latest-rainbow.html %} {% include blog-section.html %} {% include shorts-section
         {% for format in site.formats %}
 
         <h2 class="title allcat capitalize">
-          <a class="browse-link format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
+          <a class="allcat-item format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
         </h2>
 
         {% endfor %}
       </div>
     </div>
 
-    <div class="col-12 col-md-6 col-years-index">
-      <div class="cat-section-container">
-        <h3 class="section-title">Years</h3>
-
-        {% for year in site.years %}
-
-        <h2 class="title allcat"><a class="browse-link year index" href="{{ year.url }}">{{ year.title }}</a></h2>
-
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="col-12 col-md-6 col-origins-index">
+    <div class="col-12 col-origins-index">
       <div class="cat-section-container">
         <h3 class="section-title">Origins</h3>
 
         {% for origin in site.origins %}
 
         <h2 class="title allcat">
-          <a class="browse-link index" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a>
+          <a class="allcat-item index" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a>
         </h2>
 
         {% endfor %}
       </div>
     </div>
-
-    <div class="col-12 col-tags-index">
-      <div class="cat-section-container tags">
-        <h3 class="section-title index tags">Tags</h3>
-
-        <div class="col-12">
-          <h3 class="cat-label allcats-subtag">Typefaces</h3>
-        </div>
-
-        <div class="col-12" id="isotope-container">
-          {% assign typeface_tags = site.tags | where: "type", "typeface" %} {% for tag in typeface_tags %} {% assign
-          filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-
-          <h2 class="title allcat page tags isotope-element">
-            <a class="browse-link tag" href="{{ tag.url }}"
-              >{{ tag.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
-            >
-          </h2>
-
-          {% endfor %}
-        </div>
-
-        <div class="col-12">
-          <h3 class="cat-label allcats-subtag">Descriptives</h3>
-        </div>
-
-        <div class="col-12" id="isotope-container">
-          {% assign subject_tags = site.tags | where: "type", "design_descriptive" %} {% for tag in subject_tags %} {%
-          assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-
-          <h2 class="title allcat page tags isotope-element">
-            <a class="browse-link tag" href="{{ tag.url }}"
-              >{{ tag.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
-            >
-          </h2>
-
-          {% endfor %}
-        </div>
-
-        <div class="col-12">
-          <h3 class="cat-label allcats-subtag">Publications/Collections</h3>
-        </div>
-
-        <div class="col-12" id="isotope-container">
-          {% assign collection_tags = site.tags | where: "type", "collection" %} {% for tag in collection_tags %} {%
-          assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-
-          <h2 class="title allcat page tags isotope-element">
-            <a class="browse-link tag" href="{{ tag.url }}"
-              >{{ tag.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
-            >
-          </h2>
-
-          {% endfor %}
-        </div>
-
-        <div class="col-12">
-          <h3 class="cat-label allcats-subtag">Subjects</h3>
-        </div>
-
-        <div class="col-12" id="isotope-container">
-          {% assign subject_tags = site.tags | where: "type", "subject" %} {% for tag in subject_tags %} {% assign
-          filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-
-          <h2 class="title allcat page tags isotope-element">
-            <a class="browse-link tag" href="{{ tag.url }}"
-              >{{ tag.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
-            >
-          </h2>
-
-          {% endfor %}
-        </div>
-
-        <!--
-        <div class="col-12">
-          <h3 class="cat-label allcats-subtag">Colors</h3>
-        </div>
-
-        <div class="col-12" id="isotope-container">
-
-          {% assign subject_tags = site.tags | where: "type", "color" %}
-
-          {% for tag in subject_tags %}
-          {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-
-            <h2 class="title allcat page tags isotope-element">
-              <a class="browse-link tag" href="{{ tag.url }}">{{ tag.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a>
-            </h2>
-
-        {% endfor %}
-        </div>
-        -->
-
-        <div class="col-12">
-          <h3 class="cat-label allcats-subtag">People</h3>
-        </div>
-
-        <div class="col-12" id="isotope-container">
-          {% assign subject_tags = site.tags | where: "type", "person" %} {% for tag in subject_tags %} {% assign
-          filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-
-          <h2 class="title allcat page tags isotope-element">
-            <a class="browse-link tag" href="{{ tag.url }}"
-              >{{ tag.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
-            >
-          </h2>
-
-          {% endfor %}
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
-{% include latest-resources.html %} {% include scripts/scripts-fancybox.html %} {% include footer.html %} {% include
-the-end.html %}
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+
+{% include scripts/scripts-index.html %} {% include footer.html %} {% include the-end.html %}

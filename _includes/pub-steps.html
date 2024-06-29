@@ -1,0 +1,21 @@
+{% if artifact.status == "Onb" %}
+<strong>Onb</strong>→Gen→Scan→Prod→Pub→Live
+{% endif %}
+{% if artifact.status == "Gen" %}
+Onb→<strong>Gen</strong>→Scan→Prod→Pub→Live
+{% endif %}
+{% if artifact.status == "Scan" %}
+Onb→Gen→<strong>Scan</strong>→Prod→Pub→Live
+{% endif %}
+{% if artifact.status == "Prod" %}
+Onb→Gen→Scan→<strong>Prod</strong>→Pub→Live
+{% endif %}
+{% if artifact.status == "Pub" %}
+Onb→Gen→Scan→Prod→<strong>Pub</strong>→Live
+{% endif %}
+{% if artifact.status == "Complete" %}
+Onb→Gen→Scan→Prod→Pub→<strong>Live[c]</strong> 
+{% endif %}
+{% if artifact.status == "wip" %}
+Onb→Gen→Scan→Prod→Pub→ <strong>Live[i]</strong>
+{% endif %}

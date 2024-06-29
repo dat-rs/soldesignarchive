@@ -1,7 +1,5 @@
 ---
-title: 'tight-not-touching'
+title: "tight-not-touching"
 layout: tag
-type:
-  - typography
-  - design_descriptive
+type: "design_descriptive"
 ---

@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, identity, logo]
 tags: [embossing, pattern]
 ref: sol-160-0000
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2022-03-04
 ---

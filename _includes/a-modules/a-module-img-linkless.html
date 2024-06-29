@@ -1,0 +1,14 @@
+
+  <div class="a-module-img-holder {{ include.modifier }}">
+    {% if artifact.image_count %}
+    <i class="bi bi-images a-module-corner-icon"></i>
+    {% endif %} {% if artifact.published == false %}
+    <img class="a-module-img {{ include.modifier }}" src="/images/non-art/black-square.png" alt="" />
+    {% else %}
+    <img
+      class="a-module-img {{ include.modifier }}"
+      src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg"
+      alt=""
+    />
+    {% endif %}
+  </div>

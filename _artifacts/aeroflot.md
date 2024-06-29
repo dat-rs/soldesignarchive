@@ -1,15 +1,15 @@
 ---
-title: 'Aeroflot'
-author_name: 'unknown author'
+title: "Aeroflot"
+author_name: "unknown author"
 year: y1976
 origin: Soviet-Union
-publisher: 'Aeroflot'
+publisher: "Aeroflot"
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
-tags: ['']
+tags: [""]
 ref: sol-512-0000
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2022-05-22
 ---

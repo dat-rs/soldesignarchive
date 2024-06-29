@@ -7,33 +7,28 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-url=page.url
 page-meta-image=page.image %}
 
-<div class="container-fluid resources first-after-header">
+<div class="container-outer resources first-after-header">
   <div class="container-md container-allcats">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">Resources</h3>
-      </div>
-
-      <div class="col-12 col-lg-6">
-        <div id="artifacts-search" class="row">
-          <div class="col-12">
-            <div class="outer-search">
-              <input type="text" class="quicksearch cats resources" placeholder="Search (Titles/Authors)" />
-            </div>
-          </div>
+    <div class="row datum-section title years">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <img class="allcats-icon" src="/images/non-art/icon-publishers-ossm-off1.svg" alt="">
+          <h3 class="section-title allcats text-center">Resources</h3>
         </div>
       </div>
 
-      <div class="col-12" id="isotope-container">
+      <div class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
+        <div class="outer-search allcats">
+          <input type="text" class="quicksearch cats authors" placeholder="Search" />
+        </div>
+        <div id="isotope-container">
         {% for resource in site.data.resources %}
-
-        <h2 class="title allcat page resources isotope-element">
-          <a class="browse-link resource" href="{{ resource.out_url }}">{{ resource.title }}</a>
-        </h2>
-        <br />
-
+          <a class="title allcat-item resource isotope-element" href="{{ resource.out_url }}">{{ resource.title }}</a>
         {% endfor %}
       </div>
+      </div>
+
+      
     </div>
   </div>
 </div>

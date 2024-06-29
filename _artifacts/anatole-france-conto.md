@@ -1,15 +1,15 @@
 ---
 title: "Anatole France. Antologia do Conto Moderno"
-author_name: ['unknown author']
+author_name: ["unknown author"]
 year: y1958
 origin: Portugal
-publisher: 'Atlântida Editora'
+publisher: "Atlântida Editora"
 formats: [book, book-cover]
-disciplines: ['graphic-design', typography, illustration, lettering]
+disciplines: ["graphic-design", typography, illustration, lettering]
 tags: [fiction, "short story", "Anatole France"]
 ref: sol-030-0212
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2023-03-13
 ---

@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: []
 ref: sol-254-0000
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2023-03-09
 ---

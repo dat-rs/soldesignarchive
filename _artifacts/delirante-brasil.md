@@ -1,24 +1,23 @@
 ---
 publisher:
-- Estúdios Cor
+  - Estúdios Cor
 origin:
-- Portugal
+  - Portugal
 date_added: 2022-05-25
 layout: artifact
-status: complete
+status: Complete
 published: true
 title: Delirante Brasil?
 ref: sol-030-0102
 formats:
-- book cover
-- book
+  - book cover
+  - book
 disciplines: [graphic-design, typography]
 author_name:
-- Manuel Correia
+  - Manuel Correia
 year: y1965
 tags:
-- Brazil
+  - Brazil
 image_count:
 wip: false
-
 ---

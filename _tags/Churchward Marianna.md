@@ -2,7 +2,7 @@
 title: Churchward Marianna
 layout: tag
 type: typeface
-hero_image: "hero-churchward-marianna.jpg"
+hero_image: true
 sources_count: 0
 sources_links: ["https://fontsinuse.com/typefaces/7863/churchward-marianna"]
 sources_titles: ["Churchward Marianna. In: Fonts in Use [en]"]
