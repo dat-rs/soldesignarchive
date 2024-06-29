@@ -3,13 +3,13 @@ ref: sol-110-0002
 title: "Programme Officiel du Grand Théatre - Le Havre"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["programme"]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

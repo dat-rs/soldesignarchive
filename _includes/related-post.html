@@ -1,0 +1,84 @@
+{% assign related_artifacts = site.artifacts | where: 'related_posts', page.title %}
+<div class="outer-container post-artifacts">
+  <div class="container-md">
+    <div class="row datum-section post-artifacts">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <h3 class="title datum-title cat-artifacts">
+          Related Artifacts
+          <span class="artifact count">[{{ related_artifacts.size }}]</span>
+        </h3>
+      </div>
+      <div class="col-12 col-sm-9 col-md-10 datum-right-col">
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artifacts-gutters">
+          {% for artifact in related_artifacts %}
+
+          <div class="col">{% include a-modules/a-module-au-y.html %}</div>
+
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RELATED -->
+<div class="outer-container post-related-other">
+  <div class="container-md">
+    {% if page.related_authors or page.related_publishers or page.related_tags %}
+    <div class="row datum-section md related">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <h3 class="title datum-title about">Related, Other</h3>
+      </div>
+      <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col"></div>
+    </div>
+
+    <!-- authors, RELATED -->
+    {% if page.related_authors %}
+    <div class="datum-row row">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <span class="related-label author">Authors</span>
+      </div>
+
+      <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
+        {% for related_author in page.related_authors %}
+        <a href="/authors/{{ related_author | escape_once }}" class="related-link author">{{ related_author }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- publishers, RELATED -->
+    {% if page.related_publishers %}
+    <div class="datum-row row">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <span class="related-label publisher">Publishers/Clients</span>
+      </div>
+
+      <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
+        {% for related_publisher in page.related_publishers %}
+        <a href="/publishers/{{ related_publisher | escape_once }}" class="related-link publisher"
+          >{{ related_publisher }}</a
+        >
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- tags, RELATED -->
+    {% if page.related_tags %}
+    <div class="datum-row row">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <span class="related-label tag">Tags</span>
+      </div>
+
+      <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
+        {% for related_tag in page.related_tags %}
+        <a href="/tags/{{ related_tag | escape_once }}" class="related-link tag">{{ related_tag }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    {% endif %}
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,18 @@
+<div class="container-fluid container-artifacts-index first-after-header">
+  <div id="artifacts-grid-row" class="row no-gutters">
+    {% assign selected_artifacts = site.artifacts | slice: 0, 120 %} 
+    {% for artifact in selected_artifacts %}
+      <div class="artifact-grid-col col-3 col-sm-2 col-md-1 {{ artifact.formats | join: " " }} {{ artifact.disciplines | join: " " }} {{ artifact.year }} {{ artifact.origin | join: " " }}">
+        <a class="a-module grid" href="{{ artifact.url }}">
+          <div class="a-module-img-holder mason">
+            {% if artifact.published == false %}
+            <img class="grid-img" loading="lazy" src="/images/non-art/empty-tile.png">
+            {% else %}
+            <img class="grid-img" loading="lazy" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg" alt="{{ artifact.title }}">
+            {% endif%}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

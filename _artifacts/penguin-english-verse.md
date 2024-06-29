@@ -3,7 +3,7 @@ ref: sol-030-0060
 title: "The Penguin Book of English Verse"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["United-Kingdom"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

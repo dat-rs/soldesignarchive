@@ -3,13 +3,13 @@ ref: sol-030-0250
 title: "Greece"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Greece"]
 formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

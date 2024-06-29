@@ -1,32 +1,40 @@
 ---
-title: "About - Sol Design Archive"
+title: "About"
 description: "About page with information and FAQs."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
 
-<div class="container container page">
-  <div class="row section index-about">
-    <div class="col-12 col-lg-7">
+{% include index-artifacts.html %}
 
-          <h2 class="title artifact self">{{ page.title }}</h2>
-          <section class="abouts">
-
-            <section class="about">
-            <h3 class="title about">Contact</h3>
-            <p class="faq-text">
+<div class="container-md page faq-about">
+  <div class="row datum-section title faq-about">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-8 col-xl-7 datum-right-col">
+      <h1 class="title faq self datum" data-pagefind-meta="title" >{{ page.title }}</h1>
+    </div>
+  </div>
+    <div class="row datum-row faq-about">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title faq-about-label">Contact</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <p class="faq-text">
             You can reach out at hello@soldesignarchive.com for all inquiries, questions, and requests.
             </p>
-            </section>
-
-            <section class="about">
-            <h3 class="title about">Authorship & Copyright</h3>
-            <p class="faq-text">
-              <strong>Sol Designed Archive</strong> was created by Ricardo Santos (me). Texts are shared under a <strong>Public Domain CC0</strong> license and the site's source code (excluding external libraries and plugins) is shared under a <strong>GPL v3 license</strong>.
+    </div>
+  </div>
+  <div class="row datum-row faq-about">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title faq-about-label">Authorship & Copyright</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <p class="faq-text">
+             <strong>Sol Designed Archive</strong> was created by Ricardo Santos (me). Texts are shared under a <strong>Public Domain CC0</strong> license and the site's source code (excluding external libraries and plugins) is shared under a <strong>GPL v3 license</strong>.
             </p>
             <p class="faq-text">
-              The images of printed matter displayed at soldesignarchive.com were scanned from my personal collection and are shared for purely <strong>educational and research purposes</strong> only. Copyright and other rights of the designs, contents, texts, trademarks, illustrations, photography, etc., present in the works displayed belong to their owners.
+              The images of printed matter displayed at soldesignarchive.com were scanned from my personal collection and are shared purely for <strong>educational and research purposes</strong> only. Copyright and other rights of the designs, contents, texts, trademarks, illustrations, photography, etc., present in the works displayed belong to their respective owners.
             </p>
             <p class="faq-text">
               For the majority of books and other printed matter, we share the cover, a few pages representative of the overall design language and choices (layout, typography, etc.), and pages containing relevant illustrations and photography.
@@ -34,34 +42,42 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
             <p class="faq-text">
               If you are a copyright holder who believes your rights are infringed upon please reach out at hello@soldesignarchive.com.
             </p>
-
-            </section>
-
-            <section class="about">
-            <h3 class="title about">Typography</h3>
-            <p class="faq-text">
-            Sol's logo is set in <strong>Trade Gothic Next</strong>, originally designed by Jackson Burke in 1948, updated in 2008 by Akira Kobayashi and Tom Grace, and published by Monotype. Main titles are set in Trade Gothic Next Rounded, from the same family. Body copy is set in <strong>Tiempos Text</strong>, designed by Kris Sowersby, and published by Klim Type Foundry in 2010. Paratext and additional elements are set in <strong>Indivisible</strong> and <strong>Maple</strong>, both designed by Eric Olson, and published by Process Type Foundry in 2019 and 2005.
-            </p>
-            </section>
-            <section class="about">
-            <h3 class="title about">Can I donate stuff to the archive?</h3>
-            <p class="faq-text">
-            We’d love to take in all your old printed matter, but storage space is limited. If you have cool stuff that you think would find a good home at Sol please reach out with some photos, and we’ll go from there!
-            </section>
-
-            <section class="about">
-            <h3 class="title about">How are artifacts imaged?</h3>
-            <p class="faq-text">
-            Most images are obtained by scanning the objects on a flatbed scanner. It’s a great way to get good quality, evenly lit images of printed matter. Things obviously get more complicated with larger formats, which is why, for now, most of the artifacts online are small-format stuff. If some anonymous benefactor would like to donate a large-format scanner, we’d looove one!
-            </section>
-
-
-
-          </section>
-
-
     </div>
   </div>
+
+  <div class="row datum-row faq-about">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title faq-about-label">Typography</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <p class="faq-text">
+            Sol's logo, headlines, and some other stuff are set in <strong>Founders Grotesk</strong> and <strong>Founders Grotesk Condensed</strong>, a family designed by Kris Sowersby, and published by Klim Type Foundry in 2013. Body copy is set in <strong>Tiempos Text</strong>, also designed by Kris Sowersby, and published by Klim Type Foundry in 2010. Paratext and additional elements are set in <strong>Inter</strong>, designed by Rasmus Andersson, and published in 2017.
+      </p>
+    </div>
+  </div>
+
+  <div class="row datum-row faq-about">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title faq-about-label">Can I donate stuff to the archive?</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <p class="faq-text">
+             We’d love to take in all your old printed matter, but storage space is limited. If you have cool stuff that you think would find a good home at Sol please reach out with some photos, and we’ll go from there!
+      </p>
+    </div>
+  </div>
+
+  <div class="row datum-row faq-about">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title faq-about-label">How are artifacts imaged?</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <p class="faq-text">
+             Most images are obtained by scanning the objects on a flatbed scanner. It’s a great way to get good quality, evenly lit images of printed matter. Things obviously get more complicated with larger formats, which is why, for now, most of the artifacts online are small-format stuff. If some anonymous benefactor would like to donate a large-format scanner, we’d looove one!
+      </p>
+    </div>
+  </div>
+
 </div>
 
 

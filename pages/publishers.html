@@ -1,35 +1,34 @@
 ---
 title: "Publishers/Clients - Sol Design Archive"
 description: "Browse all publishers/clients in the archive."
-image: "/images/non-art/sol-branding-comp-1.jpg"
+image: "/images/non-art/sol-publishers-comp.jpg"
 ---
 
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %}
 
-<div class="container-fluid publishers first-after-header">
-  <div class="container container-allcats">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">Publishers</h3>
+<div class="container-outer publishers first-after-header">
+  <div class="container-md container-allcats">
+    <div class="row datum-section none">
+      <div class="col-12 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <img class="allcats-icon" src="/images/non-art/icon-publishers-ossm-off1.svg" alt="">
+          <h3 class="section-title allcats text-center">Publishers</h3>
+        </div>
       </div>
-
-      <div class="col-12">
-        <input type="text" class="quicksearch cats" placeholder="Search" />
+      <div class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
+        <div class="outer-search allcats">
+          <input type="text" class="quicksearch cats authors" placeholder="Search" />
+        </div>
+        <div id="isotope-container">
+          {% for publisher in site.publishers %} {% assign processed_title = publisher.title | replace: "-barra-", "/" %}
+          {% assign filtered_artifacts = site.artifacts | where: 'publisher', processed_title %}
+          <a class="title allcat-item author isotope-element" href="{{ publisher.url }}">{{ processed_title }}<span
+              class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          {% endfor %}
+        </div>
       </div>
-
-      <div class="col-12" id="isotope-container">
-        {% for publisher in site.publishers %} {% assign filtered_artifacts = site.artifacts | where: 'publisher',
-        publisher.title %}
-
-        <h2 class="title allcat page publishers isotope-element">
-          <a class="browse-link publisher" href="{{ publisher.url }}"
-            >{{ publisher.title }}<span class="cat-count">{{ filtered_artifacts.size }}</span></a
-          >
-        </h2>
-
-        {% endfor %}
-      </div>
+      
     </div>
   </div>
 </div>

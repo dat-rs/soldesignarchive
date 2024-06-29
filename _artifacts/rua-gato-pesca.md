@@ -9,9 +9,9 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [Yolanda Földes]
 layout: artifact
-status: complete
+status: Complete
 published: true
-image_count: 
+image_count:
 date_added: 2023-06-15
-batch: /portoJun
+batch: /porto/jun23
 ---

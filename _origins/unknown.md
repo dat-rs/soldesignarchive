@@ -1,4 +1,0 @@
----
-name: unknown
-layout: origin
----

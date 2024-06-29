@@ -3,13 +3,13 @@ ref: sol-121-0036
 title: "Carte de France"
 author_name: ["Maurice Frantz Pointeau"]
 publisher: ["SNCF"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["France"]
 formats: ["brochure"]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

@@ -9,9 +9,9 @@ formats: ["book-cover"]
 disciplines: [graphic-design]
 tags: ["Os Livros das Três Abelhas"]
 layout: artifact
-status: ["rescan"]
-published: false
-int_published: false
+status: Complete
+published: true
+int_published: true
 image_count:
 date_added: 2023-06-16
 batch:

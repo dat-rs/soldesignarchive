@@ -8,7 +8,7 @@ published: false
 page-meta-description=page.description page-meta-image=page.image %} {% include baoff-sub-header.html %}
 
 <div class="container-fluid">
-  <div id="artifacts-search" class="row no-gutters">
+  <div id="artifacts-search" class="row no-gutters baoff-artifacts-header">
     <div class="col-6 col-xxl-6">
       <h3 class="filter-title"><span class="title-label">Search</span></h3>
       <input type="text" class="quicksearch baoff" placeholder="" />
@@ -17,7 +17,8 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
     <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
       <h3 class="filter-title"><span class="title-label">Sort by</span></h3>
 
-      <button class="button is-checked left" data-sort-value="original-order">ref asc. &UpArrow;</button>
+      <button class="button is-checked left" data-sort-value="original-order">ref asc. &DownArrow;</button>
+      <button class="button middle" data-sort-value="reference">highest ref &UpArrow;</button>
       <button class="button middle" data-sort-value="title">Title</button>
       <button class="button middle" data-sort-value="year">Year</button>
       <button class="button right" data-sort-value="date">Date updated desc. ↓</button>
@@ -38,12 +39,10 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
   <div class="row faux-table-head-row">
     <div class="col-1 faux-table-head-col">Img</div>
     <div class="col-3 faux-table-head-col">Artifact</div>
-    <div class="col-1 faux-table-head-col">Authors</div>
-    <div class="col-1 faux-table-head-col">Publishers</div>
+    <div class="col-2 faux-table-head-col">Authors/Publishers</div>
     <div class="col-1 faux-table-head-col">Y/O</div>
     <div class="col-3 faux-table-head-col">Formats, Disciplines, Tags</div>
-    <div class="col-1 faux-table-head-col">Info</div>
-    <div class="col-1 faux-table-head-col">Acquisition</div>
+    <div class="col-2 faux-table-head-col">Info</div>
   </div>
 </div>
 
@@ -63,6 +62,7 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
         />
         {% endif %}
 
+      
         <span class="gray-diff" style="vertical-align: top"
           >{% if artifact.published == false %}0{% else %}{% if artifact.image_count %}{{ artifact.image_count }}{% else
           %}1{% endif %}{% endif %}</span
@@ -71,35 +71,31 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
 
       <div class="col-3 faux-table-col">
         <span class="title tabold">{{ artifact.title }}</span> <br />
-        <a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts' }}</a> <br />
-        <span class="reference">{{ artifact.ref }}</span>
+        <span class="reference">{{ artifact.ref }}</span>-<a href="{{ artifact.url }}" class="db-link"
+          >{{ artifact.url | remove_first: '/artifacts/' | remove: "/" }}</a><br>
       </div>
 
-      <div class="col-1 faux-table-col">{{ artifact.author_name | join: ", " }}</div>
-
-      <div class="col-1 faux-table-col">{{ artifact.publisher | join: ", " }}</div>
+      <div class="col-2 faux-table-col">
+        {{ artifact.author_name | join: ", " }} <br>
+       <span style="font-style: italic;">{{ artifact.publisher | join: ", " }}</span>
+      </div>
 
       <div class="col-1 faux-table-col">
-        <span class="year">{{ artifact.year | remove_first: 'y' }}</span> <br />
+        <span class="year">{{ artifact.year | remove_first: 'y' | replace: "-", " " }}</span> <br />
         {{ artifact.origin | join: ", " }}
       </div>
 
       <div class="col-3 faux-table-col">
         {{ artifact.formats | join: ", " }} <br />
         <span class="gray-diff">{{ artifact.disciplines | join: ", " }}</span> <br />
-        {{ artifact.tags | join: ", " }}
+        {{ artifact.tags | join: ", " }} <br>
       </div>
 
-      <div class="col-1 faux-table-col">
-        <span class="date">{{ artifact.date_added }}</span> <br />
-        {{ artifact.status }} <br />
-        pub: {{ artifact.published }}
-      </div>
+      <div class="col-2 faux-table-col">
+        <span class="date">{{ artifact.date_added }}</span><br>
+        <span class="pub-steps">{% include pub-steps.html %}</span>
+        {{ artifact.batch }}
 
-      <div class="col-1 faux-table-col">
-        {{ artifact.batch }} <br />
-        Feira da Ladra <br />
-        1€
       </div>
     </div>
     {% endfor %}

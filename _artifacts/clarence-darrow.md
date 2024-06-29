@@ -1,15 +1,15 @@
 ---
 title: "Clarence Darrow. For the Defense"
-author_name: ['unknown author']
+author_name: ["unknown author"]
 year: y1961
 origin: United-States
-publisher: 'Bantam Books'
+publisher: "Bantam Books"
 formats: [book, book-cover]
-disciplines: ['graphic-design', typography, illustration]
-tags: [non-fiction, biography, 'Irving Stone']
+disciplines: ["graphic-design", typography, illustration]
+tags: [non-fiction, biography, "Irving Stone"]
 ref: sol-030-0217
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2023-03-14
 ---

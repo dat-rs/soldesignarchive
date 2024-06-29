@@ -1,15 +1,15 @@
 ---
-title: 'O Idiota'
-author_name: 'João da Câmara Leme'
+title: "O Idiota"
+author_name: "João da Câmara Leme"
 year: y1963
 origin: Portugal
-publisher: 'Portugália'
+publisher: "Portugália"
 formats: [book-cover, book]
-disciplines: [graphic-design, typography, illustration, lettering]
+disciplines: [graphic-design, typography, illustration, lettering, pattern]
 tags: [Fyodor Dostoevsky]
 ref: sol-010-0062
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2022-05-07
 ---

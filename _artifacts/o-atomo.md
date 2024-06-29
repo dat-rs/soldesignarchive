@@ -9,9 +9,10 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography, lettering]
 tags: [Colecção Saber]
 layout: artifact
-status: complete
+status: Complete
 published: true
-image_count: 
+image_count:
 date_added: 2023-06-23
-batch: /portoJun
+batch: /porto/jun23
+related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
 ---

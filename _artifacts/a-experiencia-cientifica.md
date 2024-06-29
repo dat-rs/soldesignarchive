@@ -1,19 +1,20 @@
 ---
 title: A Experiência Científica
-author_name: ['Sebastião Rodrigues', 'Fernando Costa']
+author_name: ["Sebastião Rodrigues", "Fernando Costa"]
 year: y1979
 origin: Portugal
-publisher: 'Sá da Costa'
+publisher: "Sá da Costa"
 formats: [booklet, book-cover]
 disciplines: [graphic-design, photography]
-tags: [non-fiction, science, 'Cadernos de Iniciação Científica', Helvetica]
+tags: [non-fiction, science, "Cadernos de Iniciação Científica", Helvetica]
 ref: sol-253-0001
 image_count: 4
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2020-02-15
 ---
+
 <p>
 Design by <a class="text cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>, photographs by <a class="text cat-link author" href="/authors/Fernando Costa/">Fernando Costa</a>.
 </p>
@@ -25,6 +26,7 @@ Carlos Fiolhais, professor of Physics at the University of Coimbra and one of th
 </p>
 
 <span class="fn-title" >Sources</span>
+
 <ol class="footnotes">
 <li><a class="fn-link" href="https://eg.uc.pt/bitstream/10316/41244/1/livros_que_romulo_de_carvalho_nos_deixou.PDF">Carlos Fiolhais. <cite>Os livros que António Gedeão nos deixou</cite> (2008) [pt]</a></li>
 </ol>

@@ -10,7 +10,7 @@ tags: [fiction, anthology]
 ref: sol-030-0192
 image_count: 9
 layout: artifact
-status: complete
+status: Complete
 published: true
 date_added: 2023-03-13
 ---

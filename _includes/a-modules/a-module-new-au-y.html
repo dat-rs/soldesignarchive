@@ -1,15 +1,18 @@
 <a class="a-module sm grid" style="margin-top: 15px" href="{{ artifact.url }}">
-    <div class="a-module-img-holder">
-      {% if artifact.image_count %}<i class="bi bi-images a-module-corner-icon"></i>{% endif %}
-      {% if artifact.published == false %}
-      <img class="a-module-img" src="/images/non-art/black-square.png" alt="">
-      {% else %}
-      <img class="a-module-img" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg" alt="">
-      {% endif %}
-    </div>
-    <div class="a-module-content new">
-      <h2 class="title au-y">{{ artifact.title }}</h2>
-      <span class="a-module-deets author">{{ artifact.author_name | join: ', ' }}</span>
-      <span class="a-module-deets year">{% if artifact.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ artifact.year | remove_first: "y" }}</span>
-    </div>
+  <div class="a-module-img-holder">
+    {% if artifact.image_count %}<i class="bi bi-images a-module-corner-icon"></i>{% endif %} {% if artifact.published
+    == false %}
+    <img class="a-module-img" src="/images/non-art/black-square.png" alt="" />
+    {% else %}
+    <img class="a-module-img" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg" alt="" />
+    {% endif %}
+  </div>
+  <div class="a-module-content new">
+    <h2 class="title au-y">{{ artifact.title }}</h2>
+    <span class="a-module-deets author">{{ artifact.author_name | join: ', ' }}</span>
+    <span class="a-module-deets year"
+      >{% if artifact.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ artifact.year | remove_first:
+      "y" | replace: '-', ' ' }} }}</span
+    >
+  </div>
 </a>

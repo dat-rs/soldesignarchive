@@ -3,7 +3,7 @@ ref: sol-030-0082
 title: "Contos Exemplares"
 author_name: ["João da Câmara Leme"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

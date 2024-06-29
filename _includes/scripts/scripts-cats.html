@@ -1,57 +1,69 @@
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+
+
 <script>
-    var bool = true;
 
-    function changeBackground() {
 
-      (bool) ? document.getElementById("sub-header-0-id").style.background = "#f2f2f2": document.getElementById("sub-header-0-id").style.background = "#f2b34b";
-      bool = !bool;
-    }
-  </script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="/js/isotope.pkgd.min.js"></script>
-  <script>
-    $(".DISC-artifact-img").click(function() {
-      $(this).toggleClass('rotated');
-    });
-  </script>
+  var $container = $("#isotope-container");
+  var qsRegex;
 
-  <script>
-    var $container = $('#isotope-container');
+  // init Isotope
+  $container.isotope({
+    // options
+    itemSelector: ".isotope-element",
+    transitionDuration: '0.1s',
+    layoutMode: "fitRows",
+    filter: function () {
+      return qsRegex ? $(this).text().match(qsRegex) : true;
+    },
+  });
 
-    var qsRegex;
+  $container.on("arrangeComplete", function () {
+    $("#isotope-container > h2:visible").removeClass("last-visible-element");
+    $("#isotope-container > h2:visible:last").addClass("last-visible-element");
+  });
 
-    // init Isotope
-    $container.isotope({
-      // options
-      itemSelector: '.isotope-element',
-      layoutMode: 'fitRows',
-      filter: function() {
-        return qsRegex ? $(this).text().match( qsRegex ) : true;
-      }
-    });
+  // *SEARCH*
 
-    // *SEARCH*
-
-    // use value of search field to filter
-    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
-      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+  // use value of search field to filter
+  var $quicksearch = $(".quicksearch").keyup(
+    debounce(function () {
+      qsRegex = new RegExp($quicksearch.val(), "gi");
       $container.isotope();
-    }, 200 ) );
+    }, 200)
+  );
 
-    // debounce so filtering doesn't happen every millisecond
-    function debounce( fn, threshold ) {
-      var timeout;
-      threshold = threshold || 100;
-      return function debounced() {
-        clearTimeout( timeout );
-        var args = arguments;
-        var _this = this;
-        function delayed() {
-          fn.apply( _this, args );
-        }
-        timeout = setTimeout( delayed, threshold );
-      };
+  // debounce so filtering doesn't happen every millisecond
+  function debounce(fn, threshold) {
+    var timeout;
+    threshold = threshold || 100;
+    return function debounced() {
+      clearTimeout(timeout);
+      var args = arguments;
+      var _this = this;
+      function delayed() {
+        fn.apply(_this, args);
+      }
+      timeout = setTimeout(delayed, threshold);
+    };
+  }
+
+//reloads page once (fixes layout bug)
+  window.onload = function () {
+    if (!window.location.hash) {
+      window.location = window.location + '#a';
+      window.location.reload();
     }
+  }
 
-  </script>
+</script>

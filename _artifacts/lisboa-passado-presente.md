@@ -3,13 +3,13 @@ ref: sol-054-0000
 title: "Lisboa no Passado e no Presente"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: "unknown date"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["fascicle"]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: ["scan"]
+status: Scan
 published: false
 int_published: false
 image_count:

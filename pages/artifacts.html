@@ -6,9 +6,13 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
 
-   <div class="container-fluid container-artifacts">
+   <div class="container-fluid container-artifacts-1">
 
 {% include artifacts-filters.html %}
+
+  </div>
+
+<div class="container-fluid container-artifacts-2">
 
     <div id="artifacts-grid-row" class="row no-gutters">
 
@@ -19,16 +23,17 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
                 <p class="ghost-info">{{ artifact.author_name | join: " " }}</p>
                 <a class="a-module grid" href="{{ artifact.url }}">
                   <div class="a-module-img-holder mason">
-                      <img class="grid-img" loading="lazy" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg" alt="{{ artifact.title }}">
+                    {% if artifact.published == false %}
+                    <img class="grid-img" loading="lazy" src="/images/non-art/empty-tile.png">
+                    {% else %}
+                    <img class="grid-img" loading="lazy" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg"
+                      alt="{{ artifact.title }}">
+                    {% endif%}
                   </div>
                 </a>
               </div>
             {% endfor %}
     </div>
-</div>
-
-<div class="artifacts-bottom-sub-header-bg">
-
 </div>
 
 {% include footer.html %}

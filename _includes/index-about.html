@@ -1,0 +1,11 @@
+<div class="container-md container-index-about d-flex align-items-center justify-content-center">
+  <div class="row index-about">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <!-- <h3 class="section-title">About</h3>-->
+      {% assign published_artifacts = site.artifacts | where: 'published', 'true' %} {% assign published_authors =
+      site.authors | where: 'published', 'true' %}
+      <p class="about-sol rainbow">{% include about-sol.md %}</p>
+      <a href="/pages/artifacts" class="cta-about-browse-all">BROWSE ALL ARTIFACTS →</a>
+    </div>
+  </div>
+</div>
