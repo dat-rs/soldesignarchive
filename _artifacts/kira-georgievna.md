@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [vernacular, "Biblioteca Arcádia de Bolso"]
 ref: sol-010-0039
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-04-07
 ---

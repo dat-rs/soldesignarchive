@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: [tourism, Madeira]
 ref: sol-410-0002
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-21
 ---

@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, photography]
 tags: ["Agatha Christie", theatre]
 ref: sol-030-0115
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-21
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]

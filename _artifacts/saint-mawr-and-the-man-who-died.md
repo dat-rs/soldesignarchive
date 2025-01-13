@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: [lettering]
 ref: sol-030-0080
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-02-17
 ---

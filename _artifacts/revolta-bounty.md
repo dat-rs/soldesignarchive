@@ -10,7 +10,7 @@ tags: [non-fiction, "Os Livros das Três Abelhas", "John Barrow"]
 iconography: [boat, sea]
 ref: sol-030-0025
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-08
 ---

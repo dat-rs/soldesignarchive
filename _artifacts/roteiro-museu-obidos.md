@@ -9,7 +9,7 @@ formats: [booklet]
 disciplines: [graphic-design, typography, photography]
 tags: [museum]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 6
 date_added: 2023-06-18

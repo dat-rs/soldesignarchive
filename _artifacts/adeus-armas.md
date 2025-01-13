@@ -10,7 +10,7 @@ tags: [fiction, "Ernest Hemingway"]
 iconography: [barbed wire]
 ref: sol-030-0010
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-08
 ---

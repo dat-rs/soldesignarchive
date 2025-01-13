@@ -9,7 +9,7 @@ disciplines: [graphic-design, illustration, lettering]
 tags: ["Colecção Educativa", propaganda, colonialism, racism, "Estado Novo"]
 ref: sol-030-0129
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-09-29
 ---

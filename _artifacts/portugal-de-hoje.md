@@ -10,7 +10,7 @@ tags: ["Colecção Educativa", "propaganda", "Estado Novo"]
 ref: sol-030-0152
 wip: false
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-10-06
 ---

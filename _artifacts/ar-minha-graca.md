@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [Heitor Campos Monteiro]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2023-06-23

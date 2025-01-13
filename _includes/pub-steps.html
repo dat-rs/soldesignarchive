@@ -1,21 +1,21 @@
-{% if artifact.status == "Onb" %}
-<strong>Onb</strong>→Gen→Scan→Prod→Pub→Live
+{% if artifact.status == "onboarding" %}
+<strong>offline</strong> → onboarding → scan → production → publish → live
 {% endif %}
-{% if artifact.status == "Gen" %}
-Onb→<strong>Gen</strong>→Scan→Prod→Pub→Live
+{% if artifact.status == "onboarding" %}
+offline → <strong>onboarding</strong> → scan → production → publish → live
 {% endif %}
-{% if artifact.status == "Scan" %}
-Onb→Gen→<strong>Scan</strong>→Prod→Pub→Live
+{% if artifact.status == "scan" %}
+offline → onboarding → <strong>scan</strong> → production → publish → live
 {% endif %}
-{% if artifact.status == "Prod" %}
-Onb→Gen→Scan→<strong>Prod</strong>→Pub→Live
+{% if artifact.status == "production" %}
+offline → onboarding → scan → <strong>production</strong> → publish → live
 {% endif %}
-{% if artifact.status == "Pub" %}
-Onb→Gen→Scan→Prod→<strong>Pub</strong>→Live
+{% if artifact.status == "publish" %}
+offline → onboarding → scan → production →<strong>publish</strong> → live
 {% endif %}
-{% if artifact.status == "Complete" %}
-Onb→Gen→Scan→Prod→Pub→<strong>Live[c]</strong> 
+{% if artifact.status == "complete" %}
+offline → onboarding → scan → production → publish → <strong>live</strong> 
 {% endif %}
 {% if artifact.status == "wip" %}
-Onb→Gen→Scan→Prod→Pub→ <strong>Live[i]</strong>
+offline → onboarding → scan → production → publish → <strong>live, wip</strong>
 {% endif %}

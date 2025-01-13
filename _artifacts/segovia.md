@@ -9,7 +9,7 @@ formats: ["brochure"]
 disciplines: [graphic-design, typography]
 tags:
 layout: artifact
-status: Scan
+status: complete
 published: true
 int_published: true
 image_count: 2

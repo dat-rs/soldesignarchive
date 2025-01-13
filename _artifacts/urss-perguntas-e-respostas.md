@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, lettering]
 tags: [propaganda, government, "Bauhaus Geomet"]
 ref: sol-030-0054
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

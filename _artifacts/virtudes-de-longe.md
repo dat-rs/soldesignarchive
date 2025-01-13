@@ -10,7 +10,7 @@ tags: ["Colecção Educativa", "propaganda", "Estado Novo", colonialism]
 ref: sol-030-0140
 image_count: 2
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-10-06
 ---

@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: ["fiction", "Jack London"]
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2024-04-20
 batch: "/ladra/231223"

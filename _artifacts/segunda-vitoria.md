@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [Morris West]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count:
 date_added: 2023-06-18

@@ -10,7 +10,7 @@ formats: null
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

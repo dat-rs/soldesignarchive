@@ -10,7 +10,7 @@ tags: ["Robert Louis Stevenson"]
 iconography: [people, men, chemistry]
 ref: sol-030-0083
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-08
 ---

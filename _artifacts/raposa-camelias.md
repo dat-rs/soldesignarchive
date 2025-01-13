@@ -9,7 +9,7 @@ disciplines: [graphic-design, illustration, typography]
 tags: [fiction, "Ignazio Silone", "Os Livros das Três Abelhas"]
 ref: sol-030-0043
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-08
 ---

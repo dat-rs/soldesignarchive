@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [cinema, "Abbott and Costello"]
 ref: sol-140-0004
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-08
 ---

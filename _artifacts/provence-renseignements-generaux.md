@@ -1,6 +1,6 @@
 ---
 ref: sol-121-0045
-title: "Provence Méditerranée - Renseignements Généraux"
+title: "Provence - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]
 year: "unknown-date"
@@ -9,7 +9,7 @@ formats: ["brochure"]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

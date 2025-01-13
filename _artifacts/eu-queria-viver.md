@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["Manuel do Nascimento", fiction, black, blue, red]
 ref: sol-010-0038
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]

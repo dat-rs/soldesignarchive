@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: ["William Shakespeare"]
 ref: sol-030-0061
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-02
 ---

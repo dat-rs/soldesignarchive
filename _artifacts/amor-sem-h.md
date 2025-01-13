@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration, lettering]
 tags: [fiction, novel, "Enrique Jardiel Poncela"]
 ref: sol-030-0204
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-14
 ---

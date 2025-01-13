@@ -10,7 +10,7 @@ tags: [non-fiction, art, green, blue, geometric]
 ref: sol-231-0006
 image_count: 9
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

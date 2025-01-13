@@ -10,7 +10,7 @@ disciplines: [graphic-design, typography]
 tags: [medicine, "Colecção Utopia"]
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2024-05-13
 batch: /bagageira/130524

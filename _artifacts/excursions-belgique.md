@@ -10,7 +10,7 @@ formats: ["booklet"]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artifact
-status: Scan
+status: production
 published: false
 int_published: false
 image_count:

@@ -10,7 +10,7 @@ tags: [Helvetica]
 ref: sol-160-0002
 image_count: 2
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-06
 batch: taba/barcelona

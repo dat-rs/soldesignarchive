@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: [tourism, Nazaré]
 ref: sol-410-0001
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-21
 ---

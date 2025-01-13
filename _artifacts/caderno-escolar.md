@@ -9,7 +9,7 @@ formats: [notebook]
 disciplines: [graphic-design, lettering, typography]
 tags: [ornaments]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2023-06-23

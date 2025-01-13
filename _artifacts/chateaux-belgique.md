@@ -7,9 +7,9 @@ year: "y1958"
 origin: ["Belgium"]
 formats: ["brochure"]
 disciplines: [graphic-design]
-tags: ["Expo 58"]
+tags: ["Expo 58", tourism]
 layout: artifact
-status: Complete
+status: complete
 published: true
 int_published: true
 image_count: 10

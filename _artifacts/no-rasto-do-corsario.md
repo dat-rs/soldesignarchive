@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: ["Fernão Mendes Pinto", "Branquinho da Fonseca", "Biblioteca dos Rapazes"]
 ref: sol-030-0116
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-21
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]

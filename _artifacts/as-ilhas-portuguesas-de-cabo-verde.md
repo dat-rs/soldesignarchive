@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["Colecção Educativa", "Estado Novo", colonialism]
 ref: sol-030-0136
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-07-04
 ---

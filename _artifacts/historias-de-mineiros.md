@@ -10,7 +10,7 @@ tags: ["Manuel do Nascimento"]
 iconography: [crosses, structures, caves]
 ref: sol-030-0034
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 ---

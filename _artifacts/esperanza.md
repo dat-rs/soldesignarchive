@@ -10,7 +10,7 @@ tags: [music]
 iconography: []
 ref: sol-601-0003
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-26
 ---

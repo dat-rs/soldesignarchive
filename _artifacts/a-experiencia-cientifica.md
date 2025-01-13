@@ -10,7 +10,7 @@ tags: [non-fiction, science, "Cadernos de Iniciação Científica", Helvetica]
 ref: sol-253-0001
 image_count: 4
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-02-15
 ---

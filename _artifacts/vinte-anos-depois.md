@@ -9,7 +9,7 @@ formats: ["book-cover"]
 disciplines: [graphic-design]
 tags: ["Biblioteca dos Rapazes"]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

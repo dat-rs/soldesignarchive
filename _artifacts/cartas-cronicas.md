@@ -9,7 +9,7 @@ formats: ["book-cover"]
 disciplines: [graphic-design]
 tags: ["Eça de Queiroz", "Livros RTP", "Biblioteca Básica Verbo"]
 layout: artifact
-status: Scan
+status: complete
 published: true
 int_published: true
 image_count: 2

@@ -10,7 +10,7 @@ tags: ["Joyce Cary"]
 iconography: [sun, faces]
 ref: sol-030-0087
 layout: artifact
-status: Complete
+status: complete
 published: false
 int_published: false
 date_added: 2023-06-16

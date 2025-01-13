@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: [Vercors, Centauro]
 ref: sol-010-0023
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]

@@ -9,7 +9,7 @@ formats: ["magazine"]
 disciplines: [graphic-design]
 tags: ["Boletim da Sociedade Nacional de Belas Artes"]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

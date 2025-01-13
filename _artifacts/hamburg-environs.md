@@ -9,7 +9,7 @@ formats: ["brochure", map]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Hamburg"]
 layout: artifact
-status: Scan
+status: wip
 published: true
 date_added: 2024-05-08
 batch: /ladra/070524/brochures

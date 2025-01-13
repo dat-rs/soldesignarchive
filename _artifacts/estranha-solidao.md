@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [Philippe Sollers, "O Livro de Bolso", fiction, illustration, orange, purple]
 ref: sol-010-0012
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

@@ -10,7 +10,7 @@ disciplines: [graphic-design, illustration, typography, logo]
 tags: [electronics]
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2024-05-11
 batch:

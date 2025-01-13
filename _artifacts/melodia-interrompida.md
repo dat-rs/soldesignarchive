@@ -10,7 +10,7 @@ tags: ["Boris Pasternak", "Os Livros das Três Abelhas"]
 iconography: [women, men, rain]
 ref: sol-030-0042
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-16
 ---

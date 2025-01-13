@@ -10,7 +10,7 @@ tags: [non-fiction, education, math, illustration, textbook, pink]
 ref: sol-030-0081
 image_count: 2
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]

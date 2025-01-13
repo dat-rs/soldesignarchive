@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: [medicine, catholicism]
 ref: sol-112-0000
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-21
 ---

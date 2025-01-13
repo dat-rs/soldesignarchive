@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "William Faulkner"]
 ref: sol-030-0224
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-15
 ---

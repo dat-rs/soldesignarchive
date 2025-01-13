@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [fiction, poetry, "Alexandre O'Neill"]
 ref: sol-030-0231
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-08
 ---

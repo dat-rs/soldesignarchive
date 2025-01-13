@@ -9,7 +9,7 @@ formats: ["book", "book-cover"]
 disciplines: [graphic-design, typography]
 tags: ["Ciências Sociais e Humanas [Bertrand]"]
 layout: artifact
-status: Scan
+status: complete
 published: true
 int_published: false
 image_count: 2

@@ -1,0 +1,125 @@
+---
+title: "DB - Status"
+back-office: true
+published: false
+regenerate: true
+---
+
+{% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
+page-meta-description=page.description page-meta-image=page.image %} {% include baoff-sub-header.html %}
+
+<div class="container-fluid">
+  
+  <div class="row no-gutters baoff-status-header">
+    
+    <!-- Search Column-->
+    <div id="artifacts-search" class="col-6 col-xxl-6">
+      <h3 class="filter-title"><span class="title-label">Search</span></h3>
+      <input type="text" class="quicksearch baoff" placeholder="" />
+    </div>
+
+    <!-- Filter Column-->
+    <div id="artifacts-filters" data-group="status" class="col-12 col-sm-6 col-md-4 col-lg filter-group sort-by-button-group db">
+      {%- assign artifacts_complete = site.artifacts | where: 'status', 'complete' -%}
+      {%- assign artifacts_published = site.artifacts | where: 'published', 'true' -%}
+      {%- assign artifacts_onboarding = site.artifacts | where: 'status', 'onboarding' -%}
+      {%- assign artifacts_scan = site.artifacts | where: 'status', 'scan' -%}
+      {%- assign artifacts_production = site.artifacts | where: 'status', 'production' -%}
+      {%- assign artifacts_publish = site.artifacts | where: 'status', 'publish' -%}
+      {%- assign artifacts_wip = site.artifacts | where: 'status', 'wip' -%}
+
+      <h3 class="filter-title"><span class="title-label">Filter by</span> status</h3>
+
+            <input type="checkbox" value=".onboarding" class="btn-check filter" id="filter-gen" autocomplete="off" />
+            <label class="btn a-filter-label" for="filter-gen">onboarding ({{ artifacts_onboarding.size }})</label>
+
+            <input type="checkbox" value=".scan" class="btn-check filter" id="filter-scan" autocomplete="off" />
+            <label class="btn a-filter-label" for="filter-scan">scan ({{ artifacts_scan.size }})</label>
+
+            <input type="checkbox" value=".production" class="btn-check filter" id="filter-prod" autocomplete="off" />
+            <label class="btn a-filter-label" for="filter-prod">production ({{ artifacts_production.size }})</label>
+
+            <input type="checkbox" value=".publish" class="btn-check filter" id="filter-pub" autocomplete="off" />
+            <label class="btn a-filter-label" for="filter-pub">publish ({{ artifacts_publish.size }})</label>
+
+            <input type="checkbox" value=".wip" class="btn-check filter" id="filter-wip" autocomplete="off" />
+            <label class="btn a-filter-label" for="filter-wip">wip ({{ artifacts_wip.size }})</label>
+
+            <input type="checkbox" value=".complete" class="btn-check filter" id="filter-complete" autocomplete="off" />
+            <label class="btn a-filter-label" for="filter-complete">complete ({{ artifacts_complete.size }})</label>
+
+    </div>
+
+  </div>
+
+
+  <div class="row faux-table-head-row">
+    <div class="col-1 faux-table-head-col">Img</div>
+    <div class="col-3 faux-table-head-col">Artifact</div>
+    <div class="col-2 faux-table-head-col">Authors/Publishers</div>
+    <div class="col-1 faux-table-head-col">Y/O</div>
+    <div class="col-3 faux-table-head-col">Formats, Disciplines, Tags</div>
+    <div class="col-2 faux-table-head-col">Info</div>
+  </div>
+  
+</div>
+
+<div class="container-fluid db-table-status">
+  <div id="artifact-table" class="faux-table db">
+    {% assign artifacts_by_ref = site.artifacts | sort: 'ref' %} 
+    
+    {% for artifact in artifacts_by_ref %}
+    <div class="row artifact-table-row {{ artifact.status }}">
+      <div class="col-1 faux-table-col">
+        {% if artifact.published == false %}
+        <img class="db-img" src="/images/non-art/black-square.png" alt="" />
+        {% else %}
+        <img
+          class="db-img"
+          loading="lazy"
+          src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg"
+          alt="{{ artifact.title }}"
+        />
+        {% endif %}
+
+      
+        <span class="gray-diff" style="vertical-align: top"
+          >{% if artifact.published == false %}0{% else %}{% if artifact.image_count %}{{ artifact.image_count }}{% else
+          %}1{% endif %}{% endif %}</span
+        >
+      </div>
+
+      <div class="col-3 faux-table-col">
+        <span class="title tabold">{{ artifact.title }}</span> <br />
+        <span class="reference">{{ artifact.ref }}-<a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts/' | remove: "/" }}</a></span><br>
+      </div>
+
+      <div class="col-2 faux-table-col">
+        {{ artifact.author_name | join: ", " }} <br>
+       <span style="font-style: italic;">{{ artifact.publisher | join: ", " }}</span>
+      </div>
+
+      <div class="col-1 faux-table-col">
+        <span class="year">{{ artifact.year | remove_first: 'y' | replace: "-", " " }}</span> <br />
+        {{ artifact.origin | join: ", " }}
+      </div>
+
+      <div class="col-3 faux-table-col">
+        {{ artifact.formats | join: ", " }} <br />
+        <span class="gray-diff">{{ artifact.disciplines | join: ", " }}</span> <br />
+        {{ artifact.tags | join: ", " }} <br>
+      </div>
+
+      <div class="col-2 faux-table-col">
+        <span class="date">{{ artifact.date_added }}</span><br>
+        <span class="status">{{ artifact.status }}</span>
+        {{ artifact.batch }}
+
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+{% include footer.html %} {% include scripts/scripts-db-status.html %} {% include the-end.html %}
