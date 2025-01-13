@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [history]
 ref: sol-030-0021
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 status: wip

@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["poetry", "João Abel"]
 ref: sol-030-0091
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-25
 ---

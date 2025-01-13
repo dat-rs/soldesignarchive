@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction, "João Pereira da Rosa"]
 ref: sol-256-0000
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2023-03-15

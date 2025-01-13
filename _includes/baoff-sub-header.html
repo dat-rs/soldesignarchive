@@ -2,13 +2,15 @@
 
   <div class="row header-row back-office">
 
-    {%- assign artifacts_published = site.artifacts | where: 'published', 'true' -%}
-    {%- assign artifacts_wip = site.artifacts | where: 'status', 'wip' -%}
-
-    <div class="col-4 sub-header-col baoff">{{ site.artifacts.size }} total, {{ artifacts_published.size }} published, {{ artifacts_wip.size }} wip</div>
+    <div class="col-4 sub-header-col baoff">There are currently {{ site.artifacts.size }} artifacts in the database. 
+    </div>
 
     <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd">
       <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db.html">Main DB</a>
+    </div>
+
+    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd">
+      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db-status.html">Status</a>
     </div>
 
     <div class="col-4 col-sm-12 col-md sub-header-col col-baoff even">

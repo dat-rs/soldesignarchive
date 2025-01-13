@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [non-fiction, economics, Penguin, "Penguin Modern Economics", Univers, pattern]
 ref: sol-010-0055
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

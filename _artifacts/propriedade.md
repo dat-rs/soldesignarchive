@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["Federigo Tozzi"]
 ref: sol-010-0067
 layout: artifact
-status: Complete
+status: complete
 published: false
 int_published: false
 date_added: 2023-06-16

@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: [Helvetica, "Penguin African Library"]
 ref: sol-010-0049
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-02-17
 ---

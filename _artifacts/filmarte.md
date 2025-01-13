@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration, identity, logo]
 tags: [""]
 ref: sol-530-0001
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-22
 ---

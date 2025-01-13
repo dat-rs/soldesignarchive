@@ -9,7 +9,7 @@ formats: ["brochure"]
 disciplines: [graphic-design, typography]
 tags: [tourism]
 layout: artifact
-status: Scan
+status: complete
 published: true
 image_count: 25
 date_added: 2024-05-08

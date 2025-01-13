@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography]
 tags: ["science", "Ciência e Técnica"]
 ref: sol-010-0034
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-17
 ---

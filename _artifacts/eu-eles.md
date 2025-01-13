@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration, pattern]
 tags: ["type as image", "Charlotte Bingham"]
 layout: artifact
-status: ["production"]
+status: complete
 published: true
 int_published: true
 image_count:

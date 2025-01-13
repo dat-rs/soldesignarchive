@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography]
 tags: [non-fiction, socialism, economics, "Paul Sweezy"]
 ref: sol-030-0183
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-14
 ---

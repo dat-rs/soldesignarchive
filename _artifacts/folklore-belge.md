@@ -10,7 +10,7 @@ tags: [tourism, "Expo 58"]
 ref: sol-121-0007
 image_count: 3
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-03-01
 ---

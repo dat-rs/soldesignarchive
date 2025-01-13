@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["Horace McCoy", "Os Livros das Três Abelhas"]
 ref: sol-030-0023
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 ---

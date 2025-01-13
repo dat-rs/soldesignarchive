@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [London]
 ref: sol-232-0000
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-16
 ---

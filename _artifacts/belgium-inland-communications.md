@@ -9,7 +9,7 @@ disciplines: [graphic-design]
 tags: [tourism, "Expo 58"]
 ref: sol-121-0009
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-03-04
 ---

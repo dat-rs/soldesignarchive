@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [fiction, "Lawrence Durrell"]
 ref: sol-030-0047
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-02-15
 ---

@@ -10,7 +10,7 @@ tags: []
 ref: sol-333-0000
 wip:
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-06
 ---

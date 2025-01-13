@@ -1,0 +1,113 @@
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script>
+    jQuery(function () {
+        // store filter per group
+        var filters = {};
+
+        var $container = $("#artifact-table");
+
+        var $filterDisplay = $("#filter-display");
+        var qsRegex;
+        var buttonFilter;
+        var searchAndFilter = function () {
+            var $this = $(this);
+
+            var searchResult = qsRegex ? $this.text().match(qsRegex) : true;
+            var comboFilter = getComboFilter();
+            var buttonResult = comboFilter ? $this.is(comboFilter) : true;
+
+            return searchResult && buttonResult;
+        };
+
+        $container.isotope({
+            // options
+            itemSelector: ".artifact-table-row",
+            filter: searchAndFilter,
+        });
+
+        $("#artifacts-filters").on("click", "button", function () {
+            buttonFilter = $(this).attr("data-filter");
+        });
+        // use value of search field to filter
+        var $quicksearch = $(".quicksearch").keyup(
+            debounce(function () {
+                qsRegex = new RegExp($quicksearch.val(), "gi");
+                $container.isotope();
+            }, 200)
+        );
+        // do stuff when checkbox change
+        $("#artifacts-filters").on("change", function (event) {
+            var checkbox = event.target;
+            var $checkbox = $(checkbox);
+
+            var group = $checkbox.parents(".filter-group").attr("data-group");
+
+            // create array for filter group, if not there yet
+            var filterGroup = filters[group];
+            if (!filterGroup) {
+                filterGroup = filters[group] = [];
+            }
+            // add/remove filter
+            if (checkbox.checked) {
+                // add filter
+                filterGroup.push(checkbox.value);
+            } else {
+                // remove filter
+                var index = filterGroup.indexOf(checkbox.value);
+                filterGroup.splice(index, 1);
+            }
+
+            $container.isotope({ filter: searchAndFilter });
+            $filterDisplay.text(getComboFilter());
+        });
+
+        function getComboFilter() {
+            var combo = [];
+            for (var prop in filters) {
+                var group = filters[prop];
+                if (!group.length) {
+                    // no filters in group, carry on
+                    continue;
+                }
+                // add first group
+                if (!combo.length) {
+                    combo = group.slice(0);
+                    continue;
+                }
+                // add additional groups
+                var nextCombo = [];
+                // split group into combo: [ A, B ] & [ 1, 2 ] => [ A1, A2, B1, B2 ]
+                for (var i = 0; i < combo.length; i++) {
+                    for (var j = 0; j < group.length; j++) {
+                        var item = combo[i] + group[j];
+                        nextCombo.push(item);
+                    }
+                }
+                combo = nextCombo;
+            }
+            var comboFilter = combo.join(", ");
+            return comboFilter;
+        }
+
+        // debounce so filtering doesn't happen every millisecond
+        function debounce(fn, threshold) {
+            var timeout;
+            threshold = threshold || 100;
+            return function debounced() {
+                clearTimeout(timeout);
+                var args = arguments;
+                var _this = this;
+                function delayed() {
+                    fn.apply(_this, args);
+                }
+                timeout = setTimeout(delayed, threshold);
+            };
+        }
+        
+    });
+
+</script>

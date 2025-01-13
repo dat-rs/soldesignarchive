@@ -9,7 +9,7 @@ formats: ["magazine"]
 disciplines: [graphic-design]
 tags: ["International Lighting Review/Revista Internacional de Luminotecnia"]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

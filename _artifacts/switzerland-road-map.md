@@ -9,7 +9,7 @@ formats: ["brochure", "map"]
 disciplines: [graphic-design]
 tags: [tourism]
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2024-05-08
 batch: /ladra/070524/brochures

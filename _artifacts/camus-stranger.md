@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: ["Albert Camus"]
 ref: sol-030-0065
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

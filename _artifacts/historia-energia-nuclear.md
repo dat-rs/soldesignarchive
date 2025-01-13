@@ -10,7 +10,7 @@ tags: [non-fiction, science communication, physics, science, "Ciência para Gent
 ref: sol-030-0027
 image_count: 2
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-02-13
 ---

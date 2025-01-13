@@ -5,7 +5,7 @@ publisher:
   - Terra Livre
 date_added: 2022-05-24
 layout: artifact
-status: Complete
+status: complete
 published: true
 title: A Ideia da Liberdade no Pensamento Português
 author_name:

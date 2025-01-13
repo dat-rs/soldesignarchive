@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: ["Colecção Educativa", "Estado Novo"]
 ref: sol-030-0157
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-10-01
 ---

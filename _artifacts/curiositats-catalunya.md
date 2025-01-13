@@ -10,7 +10,7 @@ tags: ["Futura"]
 ref: sol-324-0003
 wip:
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-06
 ---

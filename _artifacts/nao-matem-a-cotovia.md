@@ -9,7 +9,7 @@ disciplines: [graphic-design, lettering, illustration]
 tags: [science]
 ref: sol-010-0033
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-17
 ---

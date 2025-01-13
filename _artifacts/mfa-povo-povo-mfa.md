@@ -9,7 +9,7 @@ disciplines: ["graphic-design", illustration, typography]
 tags: ["25 de Abril", "Campanha de Dinamização Cultural"]
 ref: sol-430-0001
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-02
 ---

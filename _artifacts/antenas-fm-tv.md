@@ -10,7 +10,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography, logo]
 tags: [electronics]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2024-05-11

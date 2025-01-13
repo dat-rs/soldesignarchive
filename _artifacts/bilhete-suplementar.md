@@ -10,7 +10,7 @@ tags: [Lisbon]
 ref: sol-512-0001
 image_count: 3
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-07
 ---

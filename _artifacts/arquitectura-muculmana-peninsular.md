@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, pattern]
 tags: [geometry, architecture, pattern]
 ref: sol-231-0011
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 ---

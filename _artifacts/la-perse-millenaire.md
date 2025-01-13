@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, photography]
 tags: [non-fiction]
 ref: sol-030-0014
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 ---

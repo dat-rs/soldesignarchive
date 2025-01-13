@@ -10,7 +10,7 @@ tags: ["Beatriz Costa"]
 iconography: [people, women]
 ref: sol-010-0018
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]

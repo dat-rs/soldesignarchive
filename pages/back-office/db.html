@@ -2,6 +2,7 @@
 title: "DB - Sol Design Archive"
 back-office: true
 published: false
+regenerate: true
 ---
 
 {% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
@@ -21,7 +22,8 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
       <button class="button middle" data-sort-value="reference">highest ref &UpArrow;</button>
       <button class="button middle" data-sort-value="title">Title</button>
       <button class="button middle" data-sort-value="year">Year</button>
-      <button class="button right" data-sort-value="date">Date updated desc. ↓</button>
+      <button class="button middle" data-sort-value="date">Date updated desc. ↓</button>
+      <button class="button right" data-sort-value="status">Status</button>
     </div>
 
     <!--
@@ -39,8 +41,7 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
   <div class="row faux-table-head-row">
     <div class="col-1 faux-table-head-col">Img</div>
     <div class="col-3 faux-table-head-col">Artifact</div>
-    <div class="col-2 faux-table-head-col">Authors/Publishers</div>
-    <div class="col-1 faux-table-head-col">Y/O</div>
+    <div class="col-2 faux-table-head-col">Authors/Publishers/Y/O</div>
     <div class="col-3 faux-table-head-col">Formats, Disciplines, Tags</div>
     <div class="col-2 faux-table-head-col">Info</div>
   </div>
@@ -77,12 +78,8 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
 
       <div class="col-2 faux-table-col">
         {{ artifact.author_name | join: ", " }} <br>
-       <span style="font-style: italic;">{{ artifact.publisher | join: ", " }}</span>
-      </div>
-
-      <div class="col-1 faux-table-col">
-        <span class="year">{{ artifact.year | remove_first: 'y' | replace: "-", " " }}</span> <br />
-        {{ artifact.origin | join: ", " }}
+       <span style="font-style: italic;">{{ artifact.publisher | join: ", " }}</span><br>
+      <span class="year">{{ artifact.year | remove_first: 'y' | replace: "-", " " }}</span> | {{ artifact.origin | join: ", " }}
       </div>
 
       <div class="col-3 faux-table-col">
@@ -91,9 +88,9 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
         {{ artifact.tags | join: ", " }} <br>
       </div>
 
-      <div class="col-2 faux-table-col">
+      <div class="col-3 faux-table-col">
         <span class="date">{{ artifact.date_added }}</span><br>
-        <span class="pub-steps">{% include pub-steps.html %}</span>
+        <span class="pub-steps status">{% include pub-steps.html %}</span>
         {{ artifact.batch }}
 
       </div>

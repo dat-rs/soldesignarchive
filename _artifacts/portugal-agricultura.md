@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, agriculture, "Gonçalo Santa Ritta"]
 ref: sol-030-0005
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-09
 ---

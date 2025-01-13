@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography]
 tags: [non-fiction, "Herbert Steinhouse"]
 ref: sol-030-0184
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2023-03-14

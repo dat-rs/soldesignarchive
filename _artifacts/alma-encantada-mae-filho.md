@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: [Romain Rolland]
 layout: artifact
-status: "production"
+status: complete
 published: true
 int_published: true
 image_count:

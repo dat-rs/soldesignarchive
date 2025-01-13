@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: [science, technology]
 ref: sol-010-0021
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

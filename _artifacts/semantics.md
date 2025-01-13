@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, linguistics, Pelican, Helvetica]
 ref: sol-030-0055
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2021-01-01
 ---

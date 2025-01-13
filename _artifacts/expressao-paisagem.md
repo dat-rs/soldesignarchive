@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography]
 tags: [non-fiction, geography, "Gonçalo Santa Ritta"]
 ref: sol-030-0185
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2023-03-14

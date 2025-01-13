@@ -9,9 +9,9 @@ formats: ["brochure", map]
 disciplines: [graphic-design, typography, illustration]
 tags: ["tourism"]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 3
-date_added: 2023-06-16
+date_added: 2024-05-13
 batch:
 ---

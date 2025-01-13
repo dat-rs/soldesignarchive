@@ -9,7 +9,7 @@ formats: [book-cover, book]
 disciplines: [graphic-design, illustration, typography]
 tags: [fiction, "Alan Paton", "Os Livros das Três Abelhas"]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2023-03-08

@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [non-fiction, autobiography]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2024-05-11

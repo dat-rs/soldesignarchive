@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration, lettering]
 tags: [fiction, "short story", "Anatole France"]
 ref: sol-030-0212
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-13
 ---

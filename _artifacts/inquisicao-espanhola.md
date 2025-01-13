@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering]
 tags: [non-fiction, history, Arthur Stanley Turberville, "O Livro de Bolso"]
 ref: sol-010-0013
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

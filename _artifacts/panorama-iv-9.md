@@ -9,7 +9,7 @@ formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]
 tags: [propaganda]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

@@ -10,7 +10,7 @@ formats: ["book, book-cover"]
 disciplines: [graphic-design]
 tags: ["Documentos do Tempo Presente"]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

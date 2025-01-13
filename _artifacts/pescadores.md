@@ -9,7 +9,7 @@ disciplines: ["graphic-design", illustration]
 tags: ["literature"]
 ref: sol-030-0016
 layout: artifact
-status: Complete
+status: complete
 published: false
 int_published: false
 date_added: 2023-06-16

@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [illustration, "Romeu Correia", theatre, "O Livro de Bolso"]
 ref: sol-030-0058
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-02-17
 ---

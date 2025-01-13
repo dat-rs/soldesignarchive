@@ -5,7 +5,7 @@ publisher:
   - Ministério da Educação Nacional
 date_added: 2022-05-24
 layout: artifact
-status: Complete
+status: complete
 published: true
 title: As Vozes da Orquestra
 author_name:

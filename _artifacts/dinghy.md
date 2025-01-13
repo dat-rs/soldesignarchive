@@ -9,7 +9,7 @@ formats: [matchbook]
 disciplines: [graphic-design, illustration, lettering]
 tags:
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 2
 date_added: 2024-05-10

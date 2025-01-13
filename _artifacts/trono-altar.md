@@ -9,7 +9,7 @@ formats: ["book-cover"]
 disciplines: [graphic-design]
 tags: ["O Livro de Bolso"]
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

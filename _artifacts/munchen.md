@@ -9,7 +9,7 @@ formats: ["brochure", map]
 disciplines: [graphic-design, typography]
 tags: ["Munich", tourism]
 layout: artifact
-status: Complete
+status: complete
 published: true
 image_count: 5
 date_added: 2024-05-08

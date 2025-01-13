@@ -9,7 +9,7 @@ disciplines: [graphic-design, illustration, typography]
 tags: [fiction, "Horace McCoy", "Os Livros das Três Abelhas", Futura]
 ref: sol-030-0030
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-08
 ---

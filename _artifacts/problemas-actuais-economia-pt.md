@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, typography]
 tags: [25 de Abril, economics, "Eugénio Rosa"]
 layout: artifact
-status: production
+status: complete
 published: true
 int_published: true
 image_count:

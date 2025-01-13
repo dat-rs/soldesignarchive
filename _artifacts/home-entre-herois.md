@@ -11,7 +11,7 @@ tags: [theatre]
 ref: sol-130-0001
 wip:
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-06
 ---

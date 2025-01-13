@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction, "Søren Hansen", "Jesper Jensen"]
 ref: sol-030-0193
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-14
 ---

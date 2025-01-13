@@ -10,7 +10,7 @@ tags: ["Colecção Educativa", "Estado Novo"]
 ref: sol-030-0126
 image_count:
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-09-29
 ---

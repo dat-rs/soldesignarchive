@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [Roger Vailland, Albertus]
 ref: sol-010-0029
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 ---

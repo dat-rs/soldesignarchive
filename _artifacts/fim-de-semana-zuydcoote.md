@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: ["Robert Merle"]
 layout: artifact
-status: ["production"]
+status: complete
 published: true
 int_published: true
 image_count:

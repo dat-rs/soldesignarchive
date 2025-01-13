@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, lettering, typography]
 tags: ["Hans Hellmut Kirst", "José Saramago", "08-barra-15"]
 layout: artifact
-status: ["production"]
+status: ["complete"]
 published: true
 int_published: true
 image_count:

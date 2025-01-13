@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration, lettering, pattern]
 tags: [Fyodor Dostoevsky]
 ref: sol-010-0062
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 ---

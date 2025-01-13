@@ -9,7 +9,7 @@ formats: ["book-cover"]
 disciplines: [graphic-design]
 tags: ["Ciência e Técnica"]
 layout: artifact
-status: Scan
+status: complete
 published: true
 int_published: true
 image_count:

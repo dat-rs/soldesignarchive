@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [literature]
 ref: sol-030-0017
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-03-04
 ---

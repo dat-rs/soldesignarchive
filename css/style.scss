@@ -657,15 +657,6 @@ h3.title.datum-title.disciplines-index-poster {
   }
 }
 
-span.reference {
-  display: inline-block;
-  font-size: 15px;
-  padding-top: 0px;
-  @media (min-width: 576px) {
-    font-size: 16px;
-  }
-}
-
 .caption.a-on-text span.reference {
   font-size: 12px;
   font-weight: 400;
@@ -2146,7 +2137,7 @@ i.bi-images.a-module-corner-icon {
   border-top: none;
 }
 
-#artifacts-search {
+#artifacts-search, #artifacts-filters.db {
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -2191,6 +2182,13 @@ button.button {
 .btn-check.filter:checked + .a-filter-label,
 button.button.is-checked {
   background-color: black;
+  color: $bg-white;
+  border-color: $bg-white;
+}
+
+.btn-check.filter:checked+.a-filter-label-db,
+.is-checked-db {
+  background-color: $artifact-color;
   color: $bg-white;
   border-color: $bg-white;
 }
@@ -3205,6 +3203,10 @@ p.about-sol.rainbow {
   background-color: black;
 }
 
+.baoff-status-header {
+  background-color: $artifact-color;
+}
+
 .faux-table.db {
   min-height: 80vh;
 }
@@ -3214,7 +3216,7 @@ p.about-sol.rainbow {
   font-size: 11px;
   font-weight: normal;
   animation: 0s;
-  margin-bottom: 30px;
+  margin-bottom: 4px;
 }
 
 .faux-table-head-row {
@@ -3226,7 +3228,6 @@ p.about-sol.rainbow {
 .artifact-table-row.level-one,
 .artifact-table-row.level-two {
   font-weight: normal;
-  font-variation-settings: "wght" 700;
 }
 
 .artifact-table-row.level-two {
@@ -3250,6 +3251,10 @@ p.about-sol.rainbow {
   margin-left: -32px;
 }
 
+.faux-table-head-col {
+  font-weight: 700;
+}
+
 .level-three::before {
   content: "↳";
 }
@@ -3265,17 +3270,14 @@ p.about-sol.rainbow {
   border-top: 1px solid gainsboro;
 }
 
-.db-link,
-.pub-steps {
-  color: lightgray;
-}
-
 .pub-steps strong {
-  color: gray;
+  color: black
+
 }
 
 img.db-img {
-  max-width: 30px;
+  max-width: 40px;
+  margin-top: 4px;
 }
 
 .artifact-table-row,
@@ -3321,6 +3323,22 @@ button.right {
   border-top-left-radius: 0%;
   border-bottom-left-radius: 0%;
 }
+
+span.reference {
+  display: inline-block;
+  font-size: 14px;
+  padding-top: 0px;
+}
+
+.db-link {
+  color: $artifact-color;
+}
+
+.pub-steps {
+  color: lightgray;
+}
+
+
 
 /* Random Feature */
 

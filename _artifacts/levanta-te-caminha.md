@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, photography]
 tags: [Hervé Bazin, monochrome]
 ref: sol-010-0025
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-05-07
 ---

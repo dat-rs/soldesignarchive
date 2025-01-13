@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [electronics]
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2024-05-11
 batch: /ladra/070524/livros

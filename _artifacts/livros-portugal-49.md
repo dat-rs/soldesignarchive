@@ -9,7 +9,7 @@ formats: ["periódico"]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: Scan
+status: scan
 published: false
 int_published: false
 image_count:

@@ -9,7 +9,7 @@ disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, illustration, "Carl L. Becker", geometric]
 ref: sol-030-0071
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-01-01
 ---

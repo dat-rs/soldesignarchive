@@ -5,7 +5,7 @@ origin:
   - Portugal
 date_added: 2022-05-25
 layout: artifact
-status: Complete
+status: complete
 published: true
 title: A Náusea
 ref: sol-030-0100

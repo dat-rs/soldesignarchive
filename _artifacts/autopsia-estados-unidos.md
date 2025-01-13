@@ -9,7 +9,7 @@ disciplines: [graphic-design, illustration]
 tags: [non-fiction, illustration, blue]
 ref: sol-010-0046
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2020-04-06
 ---

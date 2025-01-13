@@ -10,7 +10,7 @@ tags: ["Willa Cather", circles, pattern]
 ref: sol-030-0070
 image_count: 2
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-02-17
 ---

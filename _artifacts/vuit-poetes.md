@@ -10,7 +10,7 @@ tags: [poetry]
 ref: sol-030-0226
 wip:
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2023-03-06
 ---

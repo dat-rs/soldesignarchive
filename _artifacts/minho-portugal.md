@@ -9,7 +9,7 @@ disciplines: ["graphic-design", typography, photography]
 tags: [tourism, Minho]
 ref: sol-410-0003
 layout: artifact
-status: Complete
+status: complete
 published: true
 date_added: 2022-06-21
 ---
