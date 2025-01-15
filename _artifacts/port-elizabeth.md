@@ -9,9 +9,8 @@ formats: ["brochure"]
 disciplines: [graphic-design]
 tags:
 layout: artifact
-status: scan
-published: false
-int_published: false
+status: complete
+published: true
 image_count:
 date_added: 2023-06-16
 batch:

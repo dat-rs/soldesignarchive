@@ -27,7 +27,7 @@
             <h2 class="title au-y">{{ page.previous.title }}</h2>
             <span class="a-module-deets author">{{ page.previous.author_name | join: ', ' }}</span>
             <span class="a-module-deets year"
-              >{% if page.previous.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.previous.year
+              >{% if page.previous.circa %}<span class="deet-link year circa">c. </span>{% endif %}{{ page.previous.year
               | remove_first: "y" }}</span
             >
           </div>
@@ -52,7 +52,7 @@
             <h2 class="title au-y">{{ page.next.title }}</h2>
             <span class="a-module-deets author">{{ page.next.author_name | join: ', ' }}</span>
             <span class="a-module-deets year"
-              >{% if page.next.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.next.year |
+              >{% if page.next.circa %}<span class="deet-link year circa">c. </span>{% endif %}{{ page.next.year |
               remove_first: "y" }}</span
             >
           </div>
