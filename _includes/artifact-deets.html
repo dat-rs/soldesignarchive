@@ -17,7 +17,7 @@
           <span class="deet-label year hanging">Year</span>
         </div>
         <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
-          <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">{% if page.circa %}<span class="deet-link year circa">c.</span>{% endif %}{{ page.year | remove_first: "y" | replace: '-', ' ' }}</a>
+          <a class="deet-link year" href="/years/{{ page.year | remove_first: "y" }}">{% if page.circa %}<span class="deet-link year circa">c. </span>{% endif %}{{ page.year | remove_first: "y" | replace: '-', ' ' }}</a>
         </div>
     </div>
 

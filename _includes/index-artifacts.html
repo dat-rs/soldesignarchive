@@ -1,6 +1,7 @@
 <div class="container-fluid container-artifacts-index first-after-header">
   <div id="artifacts-grid-row" class="row no-gutters">
-    {% assign selected_artifacts = site.artifacts | slice: 0, 120 %} 
+    {% assign selected_artifacts_2 = site.artifacts | slice: 0, 120 %} 
+    {% assign selected_artifacts = selected_artifacts_2 | where: "published", true %}
     {% for artifact in selected_artifacts %}
       <div class="artifact-grid-col col-3 col-sm-2 col-md-1 {{ artifact.formats | join: " " }} {{ artifact.disciplines | join: " " }} {{ artifact.year }} {{ artifact.origin | join: " " }}">
         <a class="a-module grid" href="{{ artifact.url }}">
