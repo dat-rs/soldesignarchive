@@ -17,13 +17,15 @@ page-meta-image=page.image %}
         </div>
       </div>
 
-      <div class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
+      <div id="category-list" class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
         <div class="outer-search allcats">
-          <input type="text" class="quicksearch cats authors" placeholder="Search" />
+          <input class="search quicksearch cats authors" placeholder="Search" />
         </div>
-        <div id="isotope-container">
+        <div class="list">
         {% for resource in site.data.resources %}
-          <a class="title allcat-item resource isotope-element" href="{{ resource.out_url }}">{{ resource.title }}</a>
+        <div>
+            <a class="name title allcat-item resource isotope-element" href="{{ resource.out_url }}">{{ resource.title }}</a>
+        </div>
         {% endfor %}
       </div>
       </div>

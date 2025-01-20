@@ -17,16 +17,18 @@ page-meta-image=page.image %}
         </div>
       </div>
 
-      <div class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
+      <div id="category-list" class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
         <div class="outer-search allcats">
-          <input type="text" class="quicksearch cats authors" placeholder="Search" />
+          <input class="search quicksearch cats authors" placeholder="Search" />
         </div>
-       <div id="isotope-container">
+       <div class="list">
          {% for author in site.authors %} {% assign filtered_artifacts = site.artifacts | where: 'author_name',
         author.name %}
-          <a class="title allcat-item author isotope-element" href="{{ author.url }}"
-            >{{ author.name }}<span class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a
-          >
+          <div>
+            <a class="name title allcat-item author isotope-element" href="{{ author.url }}">{{ author.name }}<span
+                class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          </div>
+          
         {% endfor %}
        </div>
       </div>
