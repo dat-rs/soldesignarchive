@@ -16,7 +16,8 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
     <div id="artifacts-grid-row" class="row no-gutters">
 
-            {% for artifact in site.artifacts %}
+            {% assign filtered_artifacts = site.artifacts | where: 'published', true %}
+            {% for artifact in filtered_artifacts %}
 
               <div class="artifact-grid-col col-4 col-sm-4 col-md-3 col-lg-2 col-xl-1 {{ artifact.formats | join: " " }} {{ artifact.disciplines | join: " " }} {{ artifact.year }} {{ artifact.origin | join: " " }}">
                 <h2 class="ghost-info">{{ artifact.title }}</h2>
