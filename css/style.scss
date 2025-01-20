@@ -394,16 +394,16 @@ $datum-section-spacer: 100px;
     padding-top: 30px;
   }
   &.footer-quote {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   &.footer-icons {
     padding-top: 34px;
     padding-bottom: 2px;
   }
   &.footer-logos {
-  padding-top: 45px;
-  padding-bottom: 44px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 }
   &.decade,
@@ -1207,17 +1207,22 @@ p.about-sol strong {
 }
 
 .container-outer.footer-icons {
-  color: $bg-white;
-  background-color: $offb-3;
+  background-color: $bg-white;
+  color: $offb-3;
 }
 
-.container-outer.footer-quote {
-  color: $bg-white;
-  background-color: $offb-2;
-}
-
+.container-outer.footer-quote,
 .container-outer.footer-logos {
-  background-color: $offb-1;
+  color: $offb-2;
+  background-color: $bg-white;
+}
+
+.container-outer.footer-quote .container-md {
+  border-top: 1px solid $artifact-color;
+}
+
+.container-outer.footer-logos .container-md {
+  border-top: 1px solid $gray;
 }
 
 .container-outer.footer-icons,
@@ -1231,21 +1236,21 @@ p.about-sol strong {
   background-color: $bg-white;
 }
 
-.datum-section.footer-quote .datum-left-col {
+.datum-section.footer-quote {
   text-align: center;
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     text-align: right;
     border-right: 1px solid $bg-white;
-  }
+  } */
 }
 
-.datum-section.footer-quote .datum-right-col {
+.datum-section.footer-quote {
   text-align: center;
-  &.quote {
+  /* &.quote {
     @media (min-width: 768px) {
       text-align: left;
     }
-  }
+  } */
 }
 
 .datum-section.footer-logos .datum-right-col {
@@ -1263,6 +1268,10 @@ p.about-sol strong {
   @media (min-width: 576px) {
     padding-bottom: 0px;
   }
+}
+
+.sunny {
+  margin-left: 30px;
 }
 
 q.footer-quote {
@@ -1312,9 +1321,7 @@ p.footer-quote-byline {
   height: 140px;
   padding: 0px 10px;
   transition: 0.1s ease-in-out;
-  @media (hover: hover) {
-    filter: brightness(0%) saturate(100%) invert(99%) sepia(4%) saturate(638%) hue-rotate(189deg) brightness(114%) contrast(84%);
-  }
+
 }
 
 .footer-icon-link:hover .footer-icon {
@@ -1393,7 +1400,7 @@ a>h3.section-title.allcats {
 
 .container-blog-section,
 .container-blog {
-  background-color: $off-1;
+  background-color: $bg-white;
 }
 
 .container-fluid.about,
@@ -1402,7 +1409,7 @@ a>h3.section-title.allcats {
 }
 
 .container-shorts-section {
-  background-color: $off-2;
+  background-color: $bg-white;
   padding-bottom: 60px;
 }
 
@@ -1843,7 +1850,7 @@ h2.title.blog.preview {
 
 h2.title.short.preview {
   font-size: 24px;
-  line-height: 26px;
+  line-height: 30px;
   display: inline-block;
   padding-top: 0;
   margin-bottom: 0px;
@@ -1962,7 +1969,6 @@ h3.section-title {
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
-    color: $off-1;
     padding-top: 8px;
   }
 }

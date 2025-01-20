@@ -11,7 +11,7 @@ tags:
 image_count: 2
 layout: artifact
 status: complete
-published: true
+published: false
 date_added: 2025-01-14
 batch: ladra/dossiers
 ---

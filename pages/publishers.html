@@ -23,7 +23,7 @@ page-meta-image=page.image %}
         <div class="list">
           {% for publisher in site.publishers %} {% assign processed_title = publisher.title | replace: "-barra-", "/" %}
           {% assign filtered_artifacts = site.artifacts | where: 'publisher', processed_title %}
-          <div>
+          <div style="display: inline-block;">
             <a class="name title allcat-item author isotope-element" href="{{ publisher.url }}">{{ processed_title }}<span
                 class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
           </div>
