@@ -5,7 +5,8 @@
     </div>
   </div>
   <div id="latest-grid" class="row">
-    {% assign latest_artifacts = site.artifacts | sort: 'date_added' | reverse | slice: 0, 12 %} {% for artifact in
+    {% assign pub_artifacts = site.artifacts | where: "published", 'true' %}
+    {% assign latest_artifacts = pub_artifacts | sort: 'date_added' | reverse | slice: 0, 12 %} {% for artifact in
     latest_artifacts %}
 
     <div class="col-6 col-md-4 col-lg-4 col-xl-1">{% include a-modules/a-module-au-y.html %}</div>
