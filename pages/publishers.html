@@ -16,15 +16,17 @@ page-meta-image=page.image %}
           <h3 class="section-title allcats text-center">Publishers</h3>
         </div>
       </div>
-      <div class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
+      <div id="category-list" class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
         <div class="outer-search allcats">
-          <input type="text" class="quicksearch cats authors" placeholder="Search" />
+          <input class="search quicksearch cats authors" placeholder="Search" />
         </div>
-        <div id="isotope-container">
+        <div class="list">
           {% for publisher in site.publishers %} {% assign processed_title = publisher.title | replace: "-barra-", "/" %}
           {% assign filtered_artifacts = site.artifacts | where: 'publisher', processed_title %}
-          <a class="title allcat-item author isotope-element" href="{{ publisher.url }}">{{ processed_title }}<span
-              class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          <div>
+            <a class="name title allcat-item author isotope-element" href="{{ publisher.url }}">{{ processed_title }}<span
+                class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          </div>
           {% endfor %}
         </div>
       </div>

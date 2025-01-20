@@ -29,40 +29,54 @@ page-meta-image=page.image %}
       </div>
 
       <div class="col-12 col-md-10 datum-right-col allcats-w-icon-search">
-        <h4 class="sub-section-title subtag-label w-tags">Typefaces</h4>
         <div class="subtags">
+          <h4 class="sub-section-title subtag-label w-tags">Typefaces</h4>
           {% for tag in typeface_tags %} {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
           <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "."
             }}<span class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
           {% endfor %}
 
+        </div>
+
+        <div class="subtags">
           <h4 class="sub-section-title subtag-label w-tags">Descriptives</h4>
           {% for tag in descriptive_tags %} {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-            <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "." }}<span
-                class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "."
+            }}<span class="cat-count smaller">[{{ filtered_artifacts.size }}]</span>
+          </a>
           {% endfor %}
+        
+        </div>
 
+        <div class="subtags">
           <h4 class="sub-section-title subtag-label w-tags">Collections</h4>
+        
           {% for tag in collection_tags %} {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-            <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "." }}<span
-                class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "."
+            }}<span class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
           {% endfor %}
+        
+        </div>
 
+        <div class="subtags">
           <h4 class="sub-section-title subtag-label w-tags">Subjects</h4>
-            {% for tag in subject_tags %} {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
-              <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "." }}<span
-                  class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
-            {% endfor %}
+        
+          {% for tag in subject_tags %} {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.title %}
+          <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "."
+            }}<span class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          {% endfor %}
+        
+        </div>
 
-
-
+        <div class="subtags">
           <h4 class="sub-section-title subtag-label w-tags">People</h4>
           {% for tag in people_tags %} {% assign filtered_artifacts = site.artifacts | where: 'tags', tag.url %}
-            <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "." }}<span
-                class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
+          <a class="title allcat-item tag" href="{{ tag.url }}">{{ tag.title | replace: "-barra-", "/" | replace: "-dot-", "."
+            }}<span class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
           {% endfor %}
-
+        
         </div>
+
       </div>
     </div>
   </div>

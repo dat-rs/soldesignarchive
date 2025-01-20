@@ -1640,7 +1640,6 @@ h1.title.self {
 }
 
 .title.allcat-item {
-  display: inline-block;
   font-family: $titlecondensed, $title, "Inter", sans;
   letter-spacing: normal;
   font-weight: 600;
@@ -3440,6 +3439,11 @@ img.artifact-img.random-feature {
     color: $tag-color;
   }
 }
+
+.mason-col-width {
+  width: 100%;
+}
+
 
 /* Responsiveness and Breakpoints */
 

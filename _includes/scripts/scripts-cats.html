@@ -8,62 +8,15 @@
   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
   crossorigin="anonymous"
 ></script>
-<script src="/js/isotope.pkgd.min.js"></script>
+<script src="/js/list.js"></script>
 
 
 <script>
 
+  var options = {
+    valueNames: ['name']
+  };
 
-  var $container = $("#isotope-container");
-  var qsRegex;
-
-  // init Isotope
-  $container.isotope({
-    // options
-    itemSelector: ".isotope-element",
-    transitionDuration: '0.1s',
-    layoutMode: "fitRows",
-    filter: function () {
-      return qsRegex ? $(this).text().match(qsRegex) : true;
-    },
-  });
-
-  $container.on("arrangeComplete", function () {
-    $("#isotope-container > h2:visible").removeClass("last-visible-element");
-    $("#isotope-container > h2:visible:last").addClass("last-visible-element");
-  });
-
-  // *SEARCH*
-
-  // use value of search field to filter
-  var $quicksearch = $(".quicksearch").keyup(
-    debounce(function () {
-      qsRegex = new RegExp($quicksearch.val(), "gi");
-      $container.isotope();
-    }, 200)
-  );
-
-  // debounce so filtering doesn't happen every millisecond
-  function debounce(fn, threshold) {
-    var timeout;
-    threshold = threshold || 100;
-    return function debounced() {
-      clearTimeout(timeout);
-      var args = arguments;
-      var _this = this;
-      function delayed() {
-        fn.apply(_this, args);
-      }
-      timeout = setTimeout(delayed, threshold);
-    };
-  }
-
-//reloads page once (fixes layout bug)
-  window.onload = function () {
-    if (!window.location.hash) {
-      window.location = window.location + '#a';
-      window.location.reload();
-    }
-  }
+  var categoryList = new List('category-list', options);
 
 </script>
