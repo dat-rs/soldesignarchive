@@ -1,7 +1,7 @@
 ---
 title: "Radio"
 author_name: ["Antonio Tello"]
-year: y1981
+year: 1981
 origin: Spain
 publisher: "Editorial Alhambra"
 formats: [book, book-cover]

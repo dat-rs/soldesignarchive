@@ -1,7 +1,7 @@
 ---
 title: A Saca de Orelhas
 author_name: "unknown author"
-year: y1979
+year: 1979
 origin: Portugal
 publisher: "Sá da Costa"
 formats: [book-cover, book]

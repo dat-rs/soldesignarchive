@@ -3,7 +3,7 @@ ref: sol-251-0000
 title: "Belgique. Ardennes"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: y1958
+year: 1958
 circa: true
 origin: ["Belgium"]
 formats: ["booklet"]

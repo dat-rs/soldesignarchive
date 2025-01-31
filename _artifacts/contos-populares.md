@@ -1,7 +1,7 @@
 ---
 title: "Contos Populares"
 author_name: ["Leonor de Bettencourt"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

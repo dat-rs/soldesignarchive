@@ -1,7 +1,7 @@
 ---
 title: St. Mawr and The Man who Died
 author_name: "Leo Lionni"
-year: y1953
+year: 1953
 origin: United-States
 publisher: "Vintage Books"
 formats: [book-cover, book]

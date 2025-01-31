@@ -1,7 +1,7 @@
 ---
 title: Anuário RTP 1976
 author_name: ["Helena Salgueiro", "Moreira Rijo", "Lino Pepe", "Afonso da Silveira"]
-year: y1976
+year: 1976
 origin: Portugal
 publisher: "RTP"
 formats: [book, book-cover]

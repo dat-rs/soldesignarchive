@@ -1,7 +1,7 @@
 ---
 title: "O Petróleo"
 author_name: ["José Maria Amaro Júnior"]
-year: y1957
+year: 1957
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

@@ -1,4 +1,4 @@
-<div class="row datum-section resources">
+<div class="row datum-section resources top-border">
   <div class="col-12 col-sm-3 col-md-2 datum-left-col">
     <h3 class="title datum-title resources">Resources</h3>
   </div>
@@ -12,7 +12,7 @@ assign i_class = 'bi bi-file-easel' %} {% when 'pdf' %} {% assign i_class = 'bi-
 'download' %} {% assign i_class = 'bi-file-earmark-download' %} {% when 'book' %} {% assign i_class = 'bi-book' %} {%
 else %} {% assign i_class = 'bi bi-file-earmark-text' %} {% endcase %}
 
-<div class="datum-row row">
+<div class="row datum-row resource {% if forloop.last == true %}last{% endif %}">
   <div class="col-1 col-sm-3 col-md-2 datum-left-col">
     <div class="resource-icon">
       <i class="bi {{ i_class }}"></i>

@@ -1,7 +1,7 @@
 ---
 title: J. Martinez Gallego
 author_name: ["unknown author"]
-year: y1991
+year: 1991
 origin: [Spain, Catalonia]
 publisher: "Casa del Poble"
 formats: [brochure]

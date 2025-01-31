@@ -1,7 +1,7 @@
 ---
 title: "Saudade de Portugal"
 author_name: ["Fernando Lima"]
-year: y1957
+year: 1957
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

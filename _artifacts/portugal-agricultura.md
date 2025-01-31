@@ -1,7 +1,7 @@
 ---
 title: "Portugal. Agricultura e Problemas Humanos"
 author_name: "Tóssan"
-year: y1979
+year: 1979
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book, book-cover]

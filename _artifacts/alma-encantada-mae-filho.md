@@ -3,7 +3,7 @@ ref: sol-030-0243
 title: "Alma Encantada. Mãe e Filho"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália"]
-year: y1956
+year: 1956
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]

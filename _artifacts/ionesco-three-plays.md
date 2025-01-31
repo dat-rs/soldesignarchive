@@ -1,7 +1,7 @@
 ---
 title: Ionesco - Three Plays
 author_name: "Roy Kuhlman"
-year: y1958
+year: 1958
 origin: United-States
 publisher: "Grove Press"
 formats: [book-cover, book]

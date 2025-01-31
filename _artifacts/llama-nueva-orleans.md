@@ -1,7 +1,7 @@
 ---
 title: La Llama de Nueva Orleans
 author_name: ["unknown author"]
-year: y1952
+year: 1952
 origin: [Spain, Catalonia]
 publisher: "unknown publisher"
 formats: [ad]

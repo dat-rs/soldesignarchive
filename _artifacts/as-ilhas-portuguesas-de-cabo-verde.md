@@ -1,7 +1,7 @@
 ---
 title: "As Ilhas Portuguesas de Cabo Verde"
 author_name: ["Sebastião Rodrigues", "Sena da Silva", "Júlio Santos"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

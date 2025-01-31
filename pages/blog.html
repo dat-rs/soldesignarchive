@@ -42,8 +42,9 @@ page-meta-image=page.image %}
         <h3 class="section-title">Shorts</h3>
       </div>
 
-      {% assign shorts = site.shorts | sample: 3 %} {% for short in shorts %}
-
+      {% assign shorts = site.shorts | sample: 3 %} 
+      
+      {% for short in shorts %}
       <div class="col-12 col-lg-4">
         <div class="card-deck">
           <div class="card blog">
@@ -61,6 +62,7 @@ page-meta-image=page.image %}
         </div>
       </div>
       {% endfor %}
+
     </div>
     <div class="row">
       <div class="col-12 text-center">

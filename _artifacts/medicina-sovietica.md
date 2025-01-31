@@ -3,7 +3,7 @@ ref: sol-030-0259
 title: A Medicina Soviética
 author_name: [unknown author]
 publisher: [Sindicato dos Médicos]
-year: y1974
+year: 1974
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]

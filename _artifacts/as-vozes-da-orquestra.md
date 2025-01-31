@@ -10,7 +10,7 @@ published: true
 title: As Vozes da Orquestra
 author_name:
   - José João
-year: y1965
+year: 1965
 formats:
   - book cover
   - book

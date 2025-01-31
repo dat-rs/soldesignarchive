@@ -3,7 +3,7 @@ ref: sol-030-0258
 title: Serviço Nacional de Saúde Britânico
 author_name: [unknown author]
 publisher: [Sindicato dos Médicos]
-year: y1975
+year: 1975
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]

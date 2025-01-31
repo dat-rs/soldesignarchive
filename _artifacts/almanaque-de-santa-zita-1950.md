@@ -1,11 +1,11 @@
 ---
 title: Almanaque de Santa Zita 1950
-author_name: ['unknown author']
-year: y1950
+author_name: ["unknown author"]
+year: 1950
 origin: Portugal
-publisher: 'Obra de Previdência e Formação das Criadas'
+publisher: "Obra de Previdência e Formação das Criadas"
 formats: [almanac, booklet]
-disciplines: ['graphic-design', typography]
+disciplines: ["graphic-design", typography]
 tags: []
 ref: sol-324-0002
 layout: artifact

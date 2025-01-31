@@ -1,7 +1,7 @@
 ---
 title: "O Processo das Virgens"
 author_name: ["Henrique Manuel"]
-year: y1975
+year: 1975
 origin: Portugal
 publisher: "Afrodite"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: "Gramática Popular da Língua Portuguesa"
 author_name: ["Marius Lauritzen Bern"]
-year: y1966
+year: 1966
 origin: Brazil
 publisher: "Biblioteca Universal Popular"
 formats: [book, book-cover]

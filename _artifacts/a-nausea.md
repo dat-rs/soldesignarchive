@@ -19,7 +19,7 @@ disciplines:
   - graphic-design
 author_name:
   - Sebastião Rodrigues
-year: y1958
+year: 1958
 tags: []
 image_count:
 wip: false

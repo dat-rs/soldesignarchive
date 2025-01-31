@@ -1,7 +1,7 @@
 ---
 title: O Vagabundo das Mãos de Ouro
 author_name: "João da Câmara Leme"
-year: y1962
+year: 1962
 origin: Portugal
 publisher: "Portugália"
 formats: [book-cover, book]

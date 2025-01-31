@@ -3,7 +3,7 @@ ref: sol-140-0011
 title: Grandes Festivais do Comércio para o Comércio
 author_name: []
 publisher: []
-year: y1943
+year: 1943
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

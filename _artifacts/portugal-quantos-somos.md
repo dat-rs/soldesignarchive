@@ -1,7 +1,7 @@
 ---
 title: "Portugal. Quantos Somos?"
 author_name: "Tóssan"
-year: y1977
+year: 1977
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book, book-cover]

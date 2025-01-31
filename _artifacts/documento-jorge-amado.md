@@ -1,7 +1,7 @@
 ---
 title: "Documento Jorge Amado"
 author_name: "Miguel Flávio"
-year: y1964
+year: 1964
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book, "graphic-design", lettering, illustration]

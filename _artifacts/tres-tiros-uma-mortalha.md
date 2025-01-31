@@ -1,7 +1,7 @@
 ---
 title: "Três Tiros e uma Mortalha"
 author_name: "Estúdios PEA"
-year: y1969
+year: 1969
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

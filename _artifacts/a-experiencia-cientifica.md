@@ -1,7 +1,7 @@
 ---
 title: A Experiência Científica
 author_name: ["Sebastião Rodrigues", "Fernando Costa"]
-year: y1979
+year: 1979
 origin: Portugal
 publisher: "Sá da Costa"
 formats: [booklet, book-cover]

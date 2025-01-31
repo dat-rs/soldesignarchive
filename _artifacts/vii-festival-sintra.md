@@ -1,7 +1,7 @@
 ---
 title: "VII Festival de Sintra"
 author_name: "unknown author"
-year: y1963
+year: 1963
 origin: Portugal
 publisher: "Câmara Municipa de Sintra"
 formats: [book-cover, booklet, programme]

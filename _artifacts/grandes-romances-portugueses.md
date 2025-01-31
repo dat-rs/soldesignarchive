@@ -1,7 +1,7 @@
 ---
 title: "Os Grandes Romances Portugueses"
 author_name: ["José Ruy"]
-year: y1956
+year: 1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

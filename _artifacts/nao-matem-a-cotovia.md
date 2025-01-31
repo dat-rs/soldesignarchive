@@ -1,7 +1,7 @@
 ---
 title: Não Matem a Cotovia
 author_name: ["Miguel Flávio"]
-year: y1962
+year: 1962
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book, book-cover]

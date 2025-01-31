@@ -2,10 +2,15 @@
 ---
 
 {% include head-and-header.html page-meta-title=page.title page-meta-description=page.lead page-meta-url=page.url
-page-meta-image=page.image page-meta-url=page.url page-meta-twitter-author=page.author_twitter %} {% include
-post-head.html %}
+page-meta-image=page.image page-meta-url=page.url page-meta-twitter-author=page.author_twitter %} 
 
-<div class="container-md post-gallery-body" data-pagefind-body>{{ page.content }}</div>
+{% include post-head.html %}
+
+<div class="container-md post-gallery-body" data-pagefind-body>
+    <div class="datum-section post-gallery-body top-border">
+        {{ page.content }}
+    </div>
+</div>
 
 {% if page.related_authors or page.related_publishers or page.related_tags %}
 {% include related-post.html %}

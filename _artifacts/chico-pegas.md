@@ -1,7 +1,7 @@
 ---
 title: "Chico das Pêgas"
 author_name: "unknown author"
-year: y1934
+year: 1934
 origin: Portugal
 publisher: "Teatro Variedades"
 formats: [flyer, poster]

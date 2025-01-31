@@ -3,7 +3,7 @@ ref: sol-030-0261
 title: Nas Florestas do Norte
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]
-year: y1966
+year: 1966
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

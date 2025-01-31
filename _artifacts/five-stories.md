@@ -1,7 +1,7 @@
 ---
 title: 5 Stories
 author_name: "Alvin Lustig"
-year: y1956
+year: 1956
 origin: United-States
 publisher: "Vintage Books"
 formats: [book-cover, book]

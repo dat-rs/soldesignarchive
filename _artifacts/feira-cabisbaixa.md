@@ -1,7 +1,7 @@
 ---
 title: Feira Cabisbaixa
 author_name: "unknown author"
-year: y1965
+year: 1965
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book-cover, book]

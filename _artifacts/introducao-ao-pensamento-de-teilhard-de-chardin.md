@@ -1,7 +1,7 @@
 ---
 title: Introdução ao Pensamento de Teilhard de Chardin
 author_name: ["unknown author"]
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Livraria Morais Editora"
 formats: [book, book-cover]

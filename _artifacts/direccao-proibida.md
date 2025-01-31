@@ -3,7 +3,7 @@ ref: sol-030-0236
 title: "Direcção Proíbida"
 author_name: ["Eduardo Faria"]
 publisher: ["unknown publisher"]
-year: y1937
+year: 1937
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, lettering]

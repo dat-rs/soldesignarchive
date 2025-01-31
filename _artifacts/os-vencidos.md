@@ -1,7 +1,7 @@
 ---
 title: Os Vencidos
 author_name: ["António Garcia"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book, book-cover]

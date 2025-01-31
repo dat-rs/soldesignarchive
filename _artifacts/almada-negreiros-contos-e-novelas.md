@@ -1,7 +1,7 @@
 ---
 title: "José de Almada-Negreiros. Obras Completas 1 - Contos e Novelas"
 author_name: "Alda Rosa"
-year: y1971
+year: 1971
 origin: Portugal
 publisher: "Editorial Estampa"
 formats: [book-cover, book]

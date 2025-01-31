@@ -1,7 +1,7 @@
 ---
 title: "Conservas"
 author_name: ["Vasco San Payo"]
-year: y1956
+year: 1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

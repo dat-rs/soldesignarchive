@@ -3,7 +3,7 @@ ref: sol-030-0263
 title: O Filho do Lobo
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]
-year: y1965
+year: 1965
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

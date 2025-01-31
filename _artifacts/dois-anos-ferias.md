@@ -1,7 +1,7 @@
 ---
 title: "Dois Anos de Férias"
 author_name: ["unknown author"]
-year: y1934
+year: 1934
 origin: Portugal
 publisher: "Livraria Bertrand"
 formats: [book, book-cover]

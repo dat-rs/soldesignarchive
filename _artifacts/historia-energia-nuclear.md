@@ -1,7 +1,7 @@
 ---
 title: História da Energia Nuclear
 author_name: "António Gedeão"
-year: y1962
+year: 1962
 origin: Portugal
 publisher: "Atlântida Editora"
 formats: [book-cover, book]

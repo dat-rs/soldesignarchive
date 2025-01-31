@@ -3,7 +3,7 @@ ref: sol-030-0237
 title: "08/15. A Caserna"
 author_name: ["Otelo Azinhais"]
 publisher: ["Publicações Europa-América"]
-year: y1956
+year: 1956
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, lettering, typography]

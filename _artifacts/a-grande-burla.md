@@ -1,7 +1,7 @@
 ---
 title: "A Grande Burla"
 author_name: "Henrique Ruivo"
-year: y1974
+year: 1974
 origin: Portugal
 publisher: "Seara Nova"
 formats: [book, book-cover]

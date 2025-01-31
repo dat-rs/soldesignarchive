@@ -1,7 +1,7 @@
 ---
 title: O Amor o Dinheiro e a Morte
 author_name: Paulo-Guilherme
-year: y1960
+year: 1960
 origin: Portugal
 publisher: "Editorial Técnica e Artística"
 formats: [book-cover, book]

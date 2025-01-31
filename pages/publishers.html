@@ -7,12 +7,13 @@ image: "/images/non-art/sol-publishers-comp.jpg"
 {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %}
 
+{% assign pub_artifacts = site.artifacts | where: 'published', true %}
+
 <div class="container-outer publishers first-after-header">
   <div class="container-md container-allcats">
-    <div class="row datum-section none">
+    <div class="row datum-section allcats">
       <div class="col-12 col-md-2 datum-left-col">
         <div class="left-col-fixed">
-          <img class="allcats-icon" src="/images/non-art/icon-publishers-ossm-off1.svg" alt="">
           <h3 class="section-title allcats text-center">Publishers</h3>
         </div>
       </div>
@@ -22,7 +23,7 @@ page-meta-image=page.image %}
         </div>
         <div class="list">
           {% for publisher in site.publishers %} {% assign processed_title = publisher.title | replace: "-barra-", "/" %}
-          {% assign filtered_artifacts = site.artifacts | where: 'publisher', processed_title %}
+          {% assign filtered_artifacts = pub_artifacts | where: 'publisher', processed_title %}
           <div style="display: inline-block;">
             <a class="name title allcat-item author isotope-element" href="{{ publisher.url }}">{{ processed_title }}<span
                 class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>

@@ -1,7 +1,7 @@
 ---
 title: "Almanaque Novembro 1959"
 author_name: ["Sebastião Rodrigues"]
-year: y1959
+year: 1959
 origin: Portugal
 publisher: "Grupo de Publicações Periódicas"
 formats: [magazine, graphic-design]

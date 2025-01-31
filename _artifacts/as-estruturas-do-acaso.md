@@ -1,7 +1,7 @@
 ---
 title: As Estruturas do Acaso
 author_name: ["unknown author"]
-year: y1974
+year: 1974
 origin: Portugal
 publisher: "Editorial O Século"
 formats: [book, book-cover]

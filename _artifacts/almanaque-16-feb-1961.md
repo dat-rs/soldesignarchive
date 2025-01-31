@@ -1,7 +1,7 @@
 ---
 title: "Almanaque Fevereiro 1961"
 author_name: ["Sebastião Rodrigues"]
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Grupo de Publicações Periódicas"
 formats: [magazine, graphic-design]

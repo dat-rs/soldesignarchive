@@ -1,7 +1,7 @@
 ---
 title: "Clea"
 author_name: "António Garcia"
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book-cover, book]

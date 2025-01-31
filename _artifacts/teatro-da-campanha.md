@@ -1,7 +1,7 @@
 ---
 title: "Teatro da Campanha"
 author_name: ["Almada Negreiros"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

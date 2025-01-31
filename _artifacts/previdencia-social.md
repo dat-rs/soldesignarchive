@@ -1,7 +1,7 @@
 ---
 title: "Previdência Social"
 author_name: ["Marcelo de Morais"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

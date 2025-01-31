@@ -1,7 +1,7 @@
 ---
 title: Bilhete Carris + Bilhete Suplementar
 author_name: ["unknown author"]
-year: y1934
+year: 1934
 origin: Portugal
 publisher: "Carris"
 formats: [ticket]

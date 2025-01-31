@@ -1,7 +1,7 @@
 ---
 title: "Goodbye Columbus"
 author_name: "Paul Bacon"
-year: y1969
+year: 1969
 origin: United-States
 publisher: "Bantam Books"
 formats: [book-cover, book]

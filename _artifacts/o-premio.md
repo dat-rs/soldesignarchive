@@ -1,7 +1,7 @@
 ---
 title: O Prémio
 author_name: "João da Câmara Leme"
-year: y1965
+year: 1965
 origin: Portugal
 publisher: "Portugália"
 formats: [book-cover, book]

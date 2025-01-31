@@ -1,9 +1,9 @@
 ---
-title: 'Abelha e Mel'
-author_name: ['Artur Correia']
-year: y1956
+title: "Abelha e Mel"
+author_name: ["Artur Correia"]
+year: 1956
 origin: Portugal
-publisher: 'Ministério da Educação Nacional'
+publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa", "Estado Novo"]

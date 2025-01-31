@@ -3,7 +3,7 @@ ref: sol-121-0053
 title: "Cologne"
 author_name: ["Hubert Jacoby"]
 publisher: ["Verkehrsamt der Stadt Köln"]
-year: y1958
+year: 1958
 origin: ["Germany"]
 formats: ["brochure"]
 disciplines: [graphic-design, typography]

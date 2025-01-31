@@ -1,7 +1,7 @@
 ---
 title: "Folklore Belge"
 author_name: ["Elisabeth Ivanovsky"]
-year: y1958
+year: 1958
 origin: Belgium
 publisher: "Commissariat Général au Turisme"
 formats: [brochure]

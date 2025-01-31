@@ -3,7 +3,7 @@ ref: sol-140-0016
 title: "Nazaré"
 author_name: []
 publisher: []
-year: y1940
+year: 1940
 origin:
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

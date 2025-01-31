@@ -1,7 +1,7 @@
 ---
 title: "As Décimas"
 author_name: ["Ruy Pacheco"]
-year: y1958
+year: 1958
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

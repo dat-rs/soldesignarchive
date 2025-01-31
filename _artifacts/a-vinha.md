@@ -1,7 +1,7 @@
 ---
 title: "A Vinha"
 author_name: ["António Manuel da Silva Rocha"]
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

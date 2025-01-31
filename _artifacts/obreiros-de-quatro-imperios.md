@@ -1,9 +1,9 @@
 ---
-title: 'Obreiros de Quatro Impérios'
-author_name: ['João Matoso']
-year: y1958
+title: "Obreiros de Quatro Impérios"
+author_name: ["João Matoso"]
+year: 1958
 origin: Portugal
-publisher: 'Ministério da Educação Nacional'
+publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa", "Estado Novo"]

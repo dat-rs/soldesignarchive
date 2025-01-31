@@ -3,7 +3,7 @@ ref: sol-140-0005
 title: Os Pires de Sacavém
 author_name: []
 publisher: []
-year: y1942
+year: 1942
 origin:
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

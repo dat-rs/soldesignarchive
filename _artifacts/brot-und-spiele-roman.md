@@ -1,7 +1,7 @@
 ---
 title: "Siegfried Lenz: Brot und Spiele Roman"
 author_name: "Celestino Piatti"
-year: y1964
+year: 1964
 origin: Germany
 publisher: "Deutscher Taschenbuch Verlag"
 formats: [book-cover, book]

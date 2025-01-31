@@ -1,7 +1,7 @@
 ---
 title: A Raposa e as Camélias
 author_name: "António Domingues"
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

@@ -3,7 +3,7 @@ ref: sol-251-0006
 title: "Belgium Custom Information"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: y1958
+year: 1958
 circa: true
 origin: ["Belgium"]
 formats: ["booklet"]

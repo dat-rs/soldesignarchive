@@ -1,7 +1,7 @@
 ---
 title: "Frente Argelina. FLN OAS"
 author_name: ["Sebastião Rodrigues"]
-year: y1962
+year: 1962
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book, book-cover]

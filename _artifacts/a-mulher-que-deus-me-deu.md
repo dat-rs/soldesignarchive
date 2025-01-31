@@ -1,7 +1,7 @@
 ---
 title: A Mulher que Deus Me Deu
 author_name: ["José Cambraia"]
-year: y1933
+year: 1933
 origin: Portugal
 publisher: "Livraria Clássica Editora"
 formats: [book, book-cover]

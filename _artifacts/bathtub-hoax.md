@@ -1,7 +1,7 @@
 ---
 title: The Bathtub Hoax
 author_name: "Paul Rand"
-year: y1958
+year: 1958
 origin: United-States
 publisher: "Alfred A. Knopf"
 formats: [book-cover, book]

@@ -1,7 +1,7 @@
 ---
 title: "Virtudes que Vêm de Longe"
 author_name: ["Álvaro Duarte de Almeida"]
-year: y1956
+year: 1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

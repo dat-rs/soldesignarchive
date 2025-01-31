@@ -1,7 +1,7 @@
 ---
 title: Os Pescadores
 author_name: ["Liarte"]
-year: y1972
+year: 1972
 origin: Portugal
 publisher: "Círculo de Leitores"
 formats: [book, book-cover]

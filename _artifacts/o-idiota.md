@@ -1,7 +1,7 @@
 ---
 title: "O Idiota"
 author_name: "João da Câmara Leme"
-year: y1963
+year: 1963
 origin: Portugal
 publisher: "Portugália"
 formats: [book-cover, book]

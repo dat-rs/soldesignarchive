@@ -3,7 +3,7 @@ ref: sol-030-0272
 title: "Condenado em Nome da Lei"
 author_name: ["António Domingues"]
 publisher: ["Publicações Europa-América"]
-year: y1956
+year: 1956
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

@@ -1,7 +1,7 @@
 ---
 title: Artes e Tradições de Vila Real
 author_name: ["Tóssan"]
-year: y1980
+year: 1980
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book, "book cover"]

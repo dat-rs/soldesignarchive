@@ -3,7 +3,7 @@ ref: sol-234-0008
 title: "Tipos. Stephenson, Blake & Co. Ltd."
 author_name: []
 publisher: ["Stephenson, Blake & Co. Ltd."]
-year: y19
+year: 19
 origin: France
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

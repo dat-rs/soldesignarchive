@@ -1,7 +1,7 @@
 ---
 title: "Bordados e Rendas de Portugal"
 author_name: ["Calvet de Magalhães"]
-year: y1956
+year: 1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: Portugal. Nazaré.
 author_name: ["Marcelino Vespeira"]
-year: y1959
+year: 1959
 origin: Portugal
 publisher: "SPN/SNI/SEIT"
 formats: [stamp, poster-stamp]

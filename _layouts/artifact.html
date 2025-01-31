@@ -11,17 +11,25 @@ page-meta-title=page.title page-meta-description=description page-meta-image=ima
 site[the_collection] %} {% endif %} {% for links in document %} {% if links.title == page.title %} {% unless
 forloop.first %} {% assign prevurl = prev.url %} {% endunless %} {% unless comics.last.url %} {% assign next =
 document[forloop.index] %} {% assign nexturl = next.url %} {% endunless %} {% endif %} {% assign prev = links %} {%
-endfor %} {% if page.image_count %} {% include artifact-multi.html %} {% else %} {% include artifact-single.html %} {%
-endif %}
+endfor %} 
+<!-- -->
+{% if page.image_count %} 
+{% include artifact-multi.html %} 
+{% else %} 
+{% include artifact-single.html %} 
+{% endif %}
 
 <div class="container-md artifact-main" data-pagefind-body >
   <div class="row datum-section title">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label artifact">Artifact</h3>
     </div>
-    <div class="col-12 col-sm-9 col-md-9 col-lg-8 col-xl-7 datum-right-col">
+    <div class="col-12 col-sm-9 col-md-9 col-lg-8 col-xl-6 datum-right-col">
       <h1 class="title artifact self datum" data-pagefind-meta="title" >{{ page.title }}</h1>
       <img data-pagefind-meta="image[src]" src="/images/{{ page.ref }}-{{ page.slug }}-thumbnail.jpg" class="d-none">
+    </div>
+    <div class="col-xl-3 datum-right-col">
+      <span class="reference new-place">{{ page.ref }}</span>
     </div>
   </div>
 
@@ -53,7 +61,7 @@ endif %}
 
   {% if page.sources_count %}
   {% assign sources_count = page.sources_count %}
-  <div class="row datum-section sources">
+  <div class="row datum-section sources top-border">
      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
     </div>
@@ -77,9 +85,9 @@ endif %}
   {% include resources-section.html %}
   {% endif %}
 
-    <div class="row datum-section more-info">
+    <div class="row datum-section more-info top-border">
      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <img class="help" src="/images/non-art/help.png" alt="HELP">
+      <img class="help" src="/images/non-art/icon-authors-ossm-black.svg" alt="HELP">
     </div>
 
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">

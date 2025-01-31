@@ -1,7 +1,7 @@
 ---
 title: "Morte de um Caixeiro Viajante"
 author_name: "Figueiredo Sobral"
-year: y1963
+year: 1963
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

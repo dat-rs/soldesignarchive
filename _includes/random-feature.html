@@ -1,7 +1,11 @@
-{% assign min = 1 %} {% assign max = site.artifacts.size %} {% assign diff = max | minus: min %} {% assign randomNumber
-= "now" | date: "%N" | modulo: diff | plus: min %} {% assign feature_random_artifacts = site.artifacts | slice:
-randomNumber %} {% assign feature_random_artifacts_2 = feature_random_artifacts | slice: 0, 1 %} {% for artifact in
-feature_random_artifacts_2 %}
+{% assign min = 1 %} 
+{% assign pub_artifacts = site.artifacts | where: 'published', true %}
+{% assign max = pub_artifacts.size %} 
+{% assign diff = max | minus: min %} 
+{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %} 
+{% assign feature_random_artifacts = pub_artifacts | slice:
+randomNumber %} 
+{% assign feature_random_artifacts_2 = feature_random_artifacts | slice: 0, 1 %} {% for artifact in feature_random_artifacts_2 %}
 
 <div class="container-fluid container-random-feature">
   <div class="container-md">
@@ -18,7 +22,7 @@ feature_random_artifacts_2 %}
         </div>
       </div>
       <div class="col-12 col-sm-3 col-md-3 datum-left-col random-feature-text">
-        <h3 class="cat-label random-feature index">Random feature</h3>
+        <h3 class="section-title random-feature index">Random feature</h3>
         <a class="title link random-feature" href="/artifacts/{{ artifact.slug }}">
           <h2 class="title artifact self datum random-feature">{{ artifact.title }}</h2>
         </a> <br>

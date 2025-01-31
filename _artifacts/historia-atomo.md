@@ -1,7 +1,7 @@
 ---
 title: "História do Átomo"
 author_name: "Alves Martins"
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Atlântida"
 formats: [book-cover, book]

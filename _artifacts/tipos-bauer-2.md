@@ -3,7 +3,7 @@ ref: sol-234-0004
 title: "Tipos Bauer"
 author_name: []
 publisher: []
-year: y19
+year: 19
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

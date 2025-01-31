@@ -167,3 +167,10 @@
   out_url: https://cinemaportuguesmemoriale.pt/Pessoas/id/507/t/carlos-ferreiro
   rel_authors: ["Carlos Ferreiro"]
   description: "Ferreiro's entry at Memoriale, a wiki on Portuguese Cinema."
+
+- title: "Profilo biografico: Edi Consolo - Archivi della Resistenza e del '900"
+  type: at-archive
+  lang: it
+  out_url: http://www.metarchivi.it/biografie/p_bio_vis.asp?id=8
+  rel_authors: ["Edi Consolo"]
+  description: "Consolo's entry at ArchoS, an italian meta-archive."

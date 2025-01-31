@@ -1,7 +1,7 @@
 ---
 title: "O Pequeno Livro Vermelho do Estudante"
 author_name: ["unknown author"]
-year: y1977
+year: 1977
 origin: Portugal
 publisher: "Afrodite"
 formats: [book, book-cover]

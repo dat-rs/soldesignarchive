@@ -10,8 +10,8 @@ head-and-header.html page-meta-title=name_all_capitalised page-meta-url=page.url
 page-meta-image=layout.image %}
 
 <!--  -->
-{% assign filtered_artifacts = site.artifacts | where: 'origin', page.name %}
-<!--  -->
+{% assign pub_artifacts = site.artifacts | where: 'published', true %}
+{% assign filtered_artifacts = pub_artifacts | where: 'origin', page.name %}
 {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
 
 <div class="container-md container-cat first-after-header" data-pagefind-body >

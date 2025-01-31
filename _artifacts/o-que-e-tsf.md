@@ -1,7 +1,7 @@
 ---
 title: "O Que é a T.S.F.?"
 author_name: ["Bastos Coelho"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

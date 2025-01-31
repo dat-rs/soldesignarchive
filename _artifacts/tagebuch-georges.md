@@ -1,7 +1,7 @@
 ---
 title: "Das Intime Tagebuch des Capitaine Georges"
 author_name: ["Celestino Piatti"]
-year: y1970
+year: 1970
 origin: Germany
 publisher: "Deutscher Taschenbuch Verlag"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: Vuit Poetes
 author_name: ["Núria Picas"]
-year: y1952
+year: 1952
 origin: [Spain, Catalonia]
 publisher: "Óssa Menor"
 formats: [book, book-cover]

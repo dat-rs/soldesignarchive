@@ -1,7 +1,7 @@
 ---
 title: "O Adeus às Armas"
 author_name: "António Garcia"
-year: y1954
+year: 1954
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book-cover, book]

@@ -3,7 +3,7 @@ ref: sol-115-0000
 title: Roteiro do Museu de Óbidos
 author_name: [unknown author]
 publisher: [Fundação Calouste Gulbenkian]
-year: y1970
+year: 1970
 origin: Portugal
 formats: [booklet]
 disciplines: [graphic-design, typography, photography]

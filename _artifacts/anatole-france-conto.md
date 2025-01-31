@@ -1,7 +1,7 @@
 ---
 title: "Anatole France. Antologia do Conto Moderno"
 author_name: ["unknown author"]
-year: y1958
+year: 1958
 origin: Portugal
 publisher: "Atlântida Editora"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: Bom Dia
 author_name: ["João Abel"]
-year: y1971
+year: 1971
 origin: Portugal
 publisher: "João Abel"
 formats: [book, book-cover]
