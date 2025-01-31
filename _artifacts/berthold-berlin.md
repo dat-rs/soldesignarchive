@@ -1,7 +1,7 @@
 ---
 ref: sol-234-0001
 title: "Berthold Berlin"
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 19
 origin: Germany

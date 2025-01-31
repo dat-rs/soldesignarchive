@@ -1,7 +1,7 @@
 ---
 ref: sol-121-0066
 title: "Bouche-du-Rhône"
-author_name: [""]
+author_name: ["unknowna-author"]
 publisher: ["unknown-date"]
 year: "unknown-date"
 origin: ["France"]

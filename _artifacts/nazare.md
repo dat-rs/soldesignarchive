@@ -1,7 +1,7 @@
 ---
 ref: sol-140-0016
 title: "Nazaré"
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 1940
 origin:

@@ -1,7 +1,7 @@
 ---
 ref: sol-140-0012
 title: O Retiro dos Pacatos
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 1941
 origin: Portugal

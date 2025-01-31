@@ -1,7 +1,7 @@
 ---
 ref: sol-140-0006
 title: O Zé Pequeno
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 1943
 origin: Portugal

@@ -1,7 +1,7 @@
 ---
 ref: sol-234-0008
 title: "Tipos. Stephenson, Blake & Co. Ltd."
-author_name: []
+author_name: ["unknown-author"]
 publisher: ["Stephenson, Blake & Co. Ltd."]
 year: 19
 origin: France
