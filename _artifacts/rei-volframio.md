@@ -1,7 +1,7 @@
 ---
 ref: sol-140-0008
 title: O Rei do Volframio
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 1943
 origin: Portugal

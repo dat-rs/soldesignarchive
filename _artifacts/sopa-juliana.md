@@ -1,7 +1,7 @@
 ---
 ref: sol-140-0013
 title: A Sopa Juliana
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 1941
 origin: Portugal

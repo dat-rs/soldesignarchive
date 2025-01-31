@@ -1,7 +1,7 @@
 ---
 ref: sol-234-0005
 title: "Caractères en Bronze"
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 19
 origin: France

@@ -1,7 +1,7 @@
 ---
 ref: sol-140-0011
 title: Grandes Festivais do Comércio para o Comércio
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 1943
 origin: Portugal

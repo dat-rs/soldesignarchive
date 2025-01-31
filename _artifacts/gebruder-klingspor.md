@@ -1,7 +1,7 @@
 ---
 ref: sol-234-0000
 title: Gebrüder Klingspor Offenbach am Main
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 19
 origin: Germany

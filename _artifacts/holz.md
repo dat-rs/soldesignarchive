@@ -1,7 +1,7 @@
 ---
 ref: sol-234-0010
 title: "Holz"
-author_name: []
+author_name: ["unknown-author"]
 publisher: ["Stephenson, Blake & Co. Ltd."]
 year: 19
 origin: France

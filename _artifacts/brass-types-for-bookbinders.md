@@ -1,7 +1,7 @@
 ---
 ref: sol-234-0006
 title: "Brass Types for Bookbinders"
-author_name: []
+author_name: ["unknown-author"]
 publisher: ["Dornemann & Co"]
 year: 19
 origin: France

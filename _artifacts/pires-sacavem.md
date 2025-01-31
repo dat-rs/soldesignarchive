@@ -1,7 +1,7 @@
 ---
 ref: sol-140-0005
 title: Os Pires de Sacavém
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 1942
 origin:

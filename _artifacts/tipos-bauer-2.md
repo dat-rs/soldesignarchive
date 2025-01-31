@@ -1,7 +1,7 @@
 ---
 ref: sol-234-0004
 title: "Tipos Bauer"
-author_name: []
+author_name: ["unknown-author"]
 publisher: []
 year: 19
 origin: Portugal
