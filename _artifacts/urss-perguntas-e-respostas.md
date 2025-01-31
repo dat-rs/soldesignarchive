@@ -1,7 +1,7 @@
 ---
 title: "URSS Perguntas e Respostas"
 author_name: unknown author
-year: y1960
+year: 1960
 origin: Soviet-Union
 publisher: "Novosti Press Agency"
 formats: [book-cover, book]

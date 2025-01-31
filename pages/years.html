@@ -7,19 +7,19 @@ image: "/images/non-art/sol-years-comp.jpg"
 {% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-url=page.url
 page-meta-image=page.image %}
 
+{% assign pub_artifacts = site.artifacts | where: 'published', true %}
 
 <div class="container-outer years first-after-header">
   <div class="container-md container-allcats">
-    <div class="row datum-section none">
+    <div class="row datum-section allcats">
       <div class="col-12 col-md-2 datum-left-col">
         <div class="left-col-fixed">
-          <img class="allcats-icon" src="/images/non-art/icon-years-ossm-off1.svg" alt="">
           <h3 class="section-title allcats text-center">Years</h3>
         </div>
       </div>
 
       <div class="col-12 col-md-8 datum-right-col allcats-big-short">
-        {%- for year in site.years -%} {%- assign filtered_artifacts = site.artifacts | where: 'year', year.name -%}
+        {%- for year in site.years -%} {%- assign filtered_artifacts = pub_artifacts | where: 'year', year.name -%}
         <a class="title allcat-item year capitalize text-wrap" href="{{ year.url }}">{{ year.title }}<span class="cat-count year">[{{filtered_artifacts.size}}]</span>
         </a>
         {%- endfor -%}

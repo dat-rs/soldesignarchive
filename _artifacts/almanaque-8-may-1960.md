@@ -1,7 +1,7 @@
 ---
 title: "Almanaque Maio 1960"
 author_name: ["Sebastião Rodrigues"]
-year: y1960
+year: 1960
 origin: Portugal
 publisher: "Grupo de Publicações Periódicas"
 formats: [magazine, graphic-design]

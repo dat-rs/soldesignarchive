@@ -1,7 +1,7 @@
 ---
 title: "Muitas Raças uma Nação"
 author_name: ["Nuno San Payo"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

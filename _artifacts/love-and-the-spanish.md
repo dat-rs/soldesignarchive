@@ -1,7 +1,7 @@
 ---
 title: "Love and the Spanish"
 author_name: "André François"
-year: y1964
+year: 1964
 origin: United-Kingdom
 publisher: "Penguin Books"
 formats: [book-cover, book]

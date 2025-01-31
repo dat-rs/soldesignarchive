@@ -1,7 +1,7 @@
 ---
 title: Os Cotovelos de Vénus
 author_name: "Paulo-Guilherme"
-year: y1963
+year: 1963
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

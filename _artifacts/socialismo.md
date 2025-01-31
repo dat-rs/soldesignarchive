@@ -1,7 +1,7 @@
 ---
 title: "Socialismo"
 author_name: ["unknown author"]
-year: y1959
+year: 1959
 origin: Brazil
 publisher: "Zahar Editores"
 formats: [book, book-cover]

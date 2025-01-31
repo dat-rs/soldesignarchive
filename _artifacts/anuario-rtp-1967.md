@@ -1,7 +1,7 @@
 ---
 title: Anuário RTP 1967
 author_name: ["Armelim Correia"]
-year: y1967
+year: 1967
 origin: Portugal
 publisher: "RTP"
 formats: [book, book-cover]

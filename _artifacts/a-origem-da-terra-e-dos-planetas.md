@@ -1,7 +1,7 @@
 ---
 title: A Origem da Terra e dos Planetas
 author_name: ["Sebastião Rodrigues"]
-year: y1962
+year: 1962
 origin: Portugal
 publisher: "Editorial Técnica e Artística"
 formats: [book, book-cover]

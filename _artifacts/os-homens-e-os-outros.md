@@ -1,7 +1,7 @@
 ---
 title: "Os Homens e os Outros"
 author_name: Victor Palla
-year: y1960
+year: 1960
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

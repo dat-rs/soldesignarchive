@@ -3,7 +3,7 @@ ref: sol-030-0241
 title: "Antologia da Novíssima Poesia Catalã"
 author_name: ["unknown author"]
 publisher: ["Futura"]
-year: y1974
+year: 1974
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]

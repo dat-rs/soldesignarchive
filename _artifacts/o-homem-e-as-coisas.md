@@ -1,7 +1,7 @@
 ---
 title: "O Homem e as Coisas"
 author_name: ["José Garcês"]
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

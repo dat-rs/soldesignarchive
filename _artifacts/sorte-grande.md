@@ -1,7 +1,7 @@
 ---
 title: "Sorte Grande"
 author_name: "Júlio Amorim"
-year: y1942
+year: 1942
 origin: Portugal
 publisher: "Livraria Editora Guimarães & Cª"
 formats: [book-cover, book]

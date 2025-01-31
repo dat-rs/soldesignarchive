@@ -1,9 +1,9 @@
 ---
-title: 'VII Festival Gulbenkian de Música'
-author_name: ['Sebastião Rodrigues']
-year: y1968
+title: "VII Festival Gulbenkian de Música"
+author_name: ["Sebastião Rodrigues"]
+year: 1968
 origin: Portugal
-publisher: 'Fundação Calouste Gulbenkian'
+publisher: "Fundação Calouste Gulbenkian"
 formats: [programme, book, book-cover]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo Magalhães"]

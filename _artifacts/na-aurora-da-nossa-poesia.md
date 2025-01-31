@@ -1,7 +1,7 @@
 ---
 title: "Na Aurora da Nossa Poesia"
 author_name: ["João Carlos"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

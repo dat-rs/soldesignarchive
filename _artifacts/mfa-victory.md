@@ -1,7 +1,7 @@
 ---
 title: MFA
 author_name: ["unknown author"]
-year: y1974
+year: 1974
 origin: Portugal
 publisher: "Movimento das Forças Armadas"
 formats: [sticker]

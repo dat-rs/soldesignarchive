@@ -10,56 +10,50 @@ page-meta-image=page.image %} {% include index-artifacts.html %} {% include inde
 latest-index.html %} {% include blog-section.html %} {% include shorts-section.html %} {% include random-feature.html
 %}
 
-<div class="outer-container disciplines index d-none">
-  <div class="container-md">
-    <div class="row datum-section cat-artifacts">
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <h3 class="title datum-title disciplines-index-poster">Disciplines</h3>
+<div class="container-outer disciplines">
+  <div class="container-md container-allcats">
+    <div class="row datum-section none">
+      <div class="col-12 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <h3 class="section-title allcats text-center">Disciplines</h3>
+        </div>
       </div>
-
-      <div class="col-12 col-sm-9 col-md-10 datum-right-col index-poster-col">
+      <div class="col-12 col-md-8 datum-right-col allcats-big-short row">
         {% for discipline in site.disciplines %}
-        <!--  -->
-        {% assign filtered_artifacts = site.artifacts | where: 'disciplines', discipline.name %}
-
-        <h2 class="title allcat disciplines index poster">
-          <a class="allcat-item discipline" href="{{ discipline.url }}"> {{ discipline.name | replace: "-", " " }} </a>
-          <div class="disciplines-index-hover">{% include disciplines-index-hover.html %}</div>
-          <span class="cat-count">{{ filtered_artifacts.size }}</span>
-        </h2>
-
+        {% assign filtered_artifacts = pub_artifacts | where: 'disciplines', discipline.name %}
+        <div
+          class="col-12 allcat big {% if forloop.first == true %}first{% endif %} text-wrap text-center text-md-start">
+          <a class="title allcat-item discipline capitalize text-wrap" href="{{ discipline.url }}"><span
+              class="cat-count discipline fake d-md-none">[{{ filtered_artifacts.size }}]</span>{{ discipline.name |
+            remove_first: " " | replace: "-", " " }}<span class="cat-count discipline">[{{ filtered_artifacts.size
+              }}]</span></a>
+        </div>
         {% endfor %}
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-sections-index d-none">
-  <div class="row no-gutters">
-    <div class="col-12 col-formats-index">
-      <div class="cat-section-container formats">
-        <h3 class="section-title index formats">Formats</h3>
-
-        {% for format in site.formats %}
-
-        <h2 class="title allcat capitalize">
-          <a class="allcat-item format" href="{{ format.url }}">{{ format.name | replace: "-", " " }}</a>
-        </h2>
-
-        {% endfor %}
+<div class="container-outer formats">
+  <div class="container-md container-allcats">
+    <div class="row datum-section none">
+      <div class="col-12 col-md-2 datum-left-col">
+        <div class="left-col-fixed">
+          <h3 class="section-title allcats text-center">Formats</h3>
+        </div>
       </div>
-    </div>
-
-    <div class="col-12 col-origins-index">
-      <div class="cat-section-container">
-        <h3 class="section-title">Origins</h3>
-
-        {% for origin in site.origins %}
-
-        <h2 class="title allcat">
-          <a class="allcat-item index" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a>
-        </h2>
-
+      <div class="col-12 col-md-8 datum-right-col allcats-big-short row">
+        {% for format in site.formats %}
+        {% assign filtered_artifacts = pub_artifacts | where: 'formats', format.name %}
+        {% unless filtered_artifacts.size == 0 %}
+        <div
+          class="col-12 allcat big {% if forloop.first == true %}first{% endif %} text-wrap text-center text-md-start">
+          <a class="title allcat-item format capitalize text-wrap" href="{{ format.url }}"><span
+              class="cat-count format fake d-md-none">[{{ filtered_artifacts.size }}]</span>{{ format.name |
+            remove_first: " " | replace: "-", " " }}<span class="cat-count format">[{{ filtered_artifacts.size
+              }}]</span></a>
+        </div>
+        {% endunless %}
         {% endfor %}
       </div>
     </div>

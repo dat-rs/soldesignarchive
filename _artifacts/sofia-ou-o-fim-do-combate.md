@@ -1,7 +1,7 @@
 ---
 title: Sofia ou O Fim do Combate
 author_name: "Paulo-Guilherme"
-year: y1966
+year: 1966
 origin: Portugal
 publisher: "Livraria Clássica Editora"
 formats: [book-cover, book]

@@ -1,7 +1,7 @@
 ---
 title: "Pour une nouvelle pédagogie du texte litteraire"
 author_name: ["unknown author"]
-year: y1979
+year: 1979
 origin: France
 publisher: ["Hachette", "Larousse"]
 formats: [book, book-cover]

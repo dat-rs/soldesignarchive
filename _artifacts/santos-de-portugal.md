@@ -1,9 +1,9 @@
 ---
-title: 'Santos de Portugal'
-author_name: ['João Carlos']
-year: y1956
+title: "Santos de Portugal"
+author_name: ["João Carlos"]
+year: 1956
 origin: Portugal
-publisher: 'Ministério da Educação Nacional'
+publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography, lettering]
 tags: ["Colecção Educativa", "christianism", "Estado Novo"]

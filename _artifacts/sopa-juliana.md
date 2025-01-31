@@ -3,7 +3,7 @@ ref: sol-140-0013
 title: A Sopa Juliana
 author_name: []
 publisher: []
-year: y1941
+year: 1941
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

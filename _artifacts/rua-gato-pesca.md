@@ -3,7 +3,7 @@ ref: sol-030-0215
 title: A Rua do Gato que Pesca
 author_name: [Leonildo Dias]
 publisher: [Publicações Europa-América]
-year: y1959
+year: 1959
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

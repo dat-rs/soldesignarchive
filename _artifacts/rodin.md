@@ -1,7 +1,7 @@
 ---
 title: "Rodin"
 author_name: "Vítor Manaças"
-year: y1973
+year: 1973
 origin: Portugal
 publisher: "Fundação Calouste Gulbenkian"
 formats: [catalogue, book, graphic-design]

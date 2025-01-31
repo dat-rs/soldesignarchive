@@ -1,7 +1,7 @@
 ---
 title: Cana ao Vento
 author_name: ["João Rodrigues Alves"]
-year: y1977
+year: 1977
 origin: Portugal
 publisher: "Coimbra Editora"
 formats: [book, book-cover]

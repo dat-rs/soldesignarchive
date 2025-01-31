@@ -224,11 +224,8 @@ p.about-sol {
     letter-spacing: -0.2px;
   }
   @media (min-width: 768px) {
-    font-size: 24px;
-    letter-spacing: -0.4px;
   }
   @media (min-width: 992px) {
-    font-size: 26px;  
   }
   @media (min-width: 1200px) {
   }
@@ -242,25 +239,15 @@ p.about-sol {
   font-weight: 700;
   font-size: 22px;
   padding-top: 8px;
+  padding-bottom: 2px;
+  border-bottom: 4px solid;
   &:hover {
     color: $artifact-color;
     transition: color 0.2s ease-in;
   }  
   @media (min-width: 576px) {
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 15px;
-  }
-  @media (min-width: 768px) {
-    font-size: 30px;
-  }
-  @media (min-width: 992px) {
-    font-size: 32px;
-  }
-  @media (min-width: 1200px) {
-    font-size: 34px;
-  }
-  @media (min-width: 1400px) {
-    font-size: 36px;
   }
 }
 
@@ -275,7 +262,7 @@ p.about-sol {
   font-family: "Founders Grotesk", sans;
   font-size: 15px;
   font-weight: 500;
-  margin-top: 5px;
+  margin-top: 7px;
   margin-bottom: 4px;
 }
 
@@ -342,12 +329,24 @@ p.about-sol {
   padding-bottom: 30px;
 }
 
-.datum-section.title.faq-about {
-  padding-bottom: 90px;
+.container-md.page.faq-about {
+  padding-bottom: 60px;
 }
 
 .datum-row.faq-about {
   padding-top: 30px;
+}
+
+.datum-row.resource.last {
+  padding-bottom: 60px;
+}
+
+.datum-row.related-end-spacer {
+  padding-bottom: 60px;
+}
+
+.datum-section.title.faq-about {
+  padding-bottom: 90px;
 }
 
 $datum-section-spacer-30: 30px;
@@ -360,7 +359,7 @@ $datum-section-spacer: 100px;
 .container-md {
   &.post-body,
   &.post-gallery-body {
-    padding-bottom: 210px;
+    padding-bottom: 60px;
   }
 }
 
@@ -369,8 +368,36 @@ $datum-section-spacer: 100px;
   @media (min-width: 576px) {
     padding-top: $datum-section-spacer;
   }
-  &.title {
+  &.top-border {
+    border-top: 1px solid $gray;
+  }
+  &.title,
+  &.allcats {
     padding-top: 0px;
+  }
+  &.feature-img {
+    padding-top: 30px;
+  }
+  &.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &.timeline {
+    padding-top: 60px;
+  }
+  &.sources {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &.resources {
+    padding-top: 60px;
+  }
+  &.related {
+    padding-top: 60px;
+  }
+  &.more-info {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   &.md {
     padding-top: 60px;
@@ -381,7 +408,7 @@ $datum-section-spacer: 100px;
   &.post-body,
   &.post-gallery-body,
   &.none {
-    padding-top: 0px;
+    padding-top: 60px;
   }
   &.post-lead {
     padding-bottom: 60px;
@@ -392,6 +419,7 @@ $datum-section-spacer: 100px;
   }
   &.post-artifacts {
     padding-top: 30px;
+    padding-bottom: 60px;
   }
   &.footer-quote {
     padding-top: 120px;
@@ -422,6 +450,10 @@ $datum-section-spacer: 100px;
   &.page-not-found {
     padding-bottom: 90px;
   }
+}
+
+.datum-row.timeline-row.last {
+  padding-bottom: 60px;
 }
 
 .datum-right-col.allcats-w-icon-search {
@@ -520,11 +552,16 @@ h3.title.datum-title.disciplines-index-poster {
 .subtag-label {
     padding-top: 30px;
   @media (min-width: 768px) {
-    padding-top: 34px;
+    padding-top: 5px;
   }
   @media (min-width: 992px) {
-    padding-top: 48px;
+    padding-top: 12px;
   }
+}
+
+.tag-arrow {
+  display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .related-label {
@@ -640,20 +677,20 @@ h3.title.datum-title.disciplines-index-poster {
   margin-top: 15px;
   margin-bottom: 0px;
   @media (min-width: 576px) {
-    font-size: 24px;
-    padding-top: 8px;
+
+    padding-top: 9px;
   }
   @media (min-width: 768px) {
-    font-size: 24px;
-    padding-top: 16px;
+    font-size: 21px;
+    padding-top: 17px;
   }
   @media (min-width: 992px) {
-    font-size: 24px;
-    padding-top: 22px;
+    font-size: 21px;
+    padding-top: 23px;
   }
   @media (min-width: 1200px) {
-    font-size: 24px;
-    padding-top: 30.5px;
+    font-size: 21px;
+    padding-top: 31px;
   }
 }
 
@@ -784,7 +821,7 @@ section.about {
   font-size: 17px;
   line-height: 1.4;
   padding-top: 0px;
-  margin-bottom: 45px;
+
   @media (min-width: 576px) {
     max-width: 400px;
   }
@@ -813,7 +850,7 @@ section.about {
 }
 
 .title-col {
-  height: 40px;
+  height: 63px;
   position: relative;
 }
 
@@ -856,7 +893,7 @@ h1.site-title a:hover {
 }
 
 .sol-circle svg {
-  width: 25px;
+  width: 30px;
   fill: $artifact-color;
   animation: color-to-color 15s ease-in-out infinite;
 }
@@ -976,18 +1013,18 @@ h1.site-title a:hover {
 .sub-header-link {
   font-family: $titlecondensed, sans;
   display: inline-block;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
   text-transform: uppercase;
   width: auto;
   text-align: center;
   transition: 0.2s;
   text-decoration: none;
-  line-height: 24px;
+  line-height: 23px;
+  padding-left: 3px;
+  padding-right: 3px;
   @media (min-width: 576px) {
-    line-height: $header-height-sm;
-    font-size: 15.5px;
   }
   @media (min-width: 768px) {
     font-size: 15px;
@@ -1068,9 +1105,6 @@ h1.site-title a:hover {
 .nav-col-mob {
   padding-top: 7px;
   padding-bottom: 8px;
-  @media (min-width: 576px) {
-    padding-top: 0px;
-  }
 }
 
 .sub-header-link.baoff {
@@ -1133,6 +1167,9 @@ h1.site-title a:hover {
   &.cats {
     @media (min-width: 576px) {
       text-align: right;
+    }
+    @media (min-width: 992px) {
+      text-align: left;
     }
   }
 }
@@ -1440,9 +1477,9 @@ a>h3.section-title.allcats {
 }
 
 .outer-container.cat-artifacts {
-  margin-top: 45px;
+  margin-top: 30px;
   padding-bottom: 15px;
-  min-height: 70vh;
+  min-height: 60vh;
 }
 
 .container-artifact,
@@ -1482,6 +1519,10 @@ a>h3.section-title.allcats {
 
 /* ALL CATS */
 
+.allcat.big.first {
+  margin-top: -8px;
+}
+
 .left-col-fixed {
   @media (min-width: 768px) {
     position: sticky;
@@ -1491,20 +1532,6 @@ a>h3.section-title.allcats {
     top: 90px;
   }
   width: auto;
-}
-
-.allcats-big-short {
-  @media (min-width: 576px) {}
-  @media (min-width: 768px) {
-    padding-top: 4px;
-  }
-  @media (min-width: 992px) {
-    padding-top: 20px;
-  }
-  @media (min-width: 1200px) {
-    padding-top: 14px;
-  }
-  @media (min-width: 1400px) {}
 }
 
 .allcats-icon {
@@ -1583,8 +1610,6 @@ a>h3.section-title.allcats {
 /* NEW YEARS */
 
 .datum-section {
-  &.year {
-  }
   &.year.new-decade {
     border-top: 1px solid $bg-white;
   }
@@ -1816,7 +1841,8 @@ h2.title.resource.inmodule {
   display: inline-block;
   font-weight: 600;
   font-size: 20px;
-  margin-top: 0px;
+  line-height: 24px;
+  margin-top: 8px;
   margin-bottom: 4px;
   margin-right: 0;
   @media (min-width: 768px) {
@@ -1920,7 +1946,7 @@ h3.section-title {
   padding-bottom: 0;
   margin-bottom: 0.5rem;
   &.negative {
-    color: $bg-white;
+    color: $artifact-color;
   }
   @media (min-width: 576px) {
     padding-top: 3px;
@@ -1940,6 +1966,7 @@ h3.section-title {
     text-transform: uppercase;
     color: $off-1;
     padding-top: 8px;
+    padding-bottom: 11px;
     text-align: center;
     @media (min-width: 576px) {
     }
@@ -1970,6 +1997,33 @@ h3.section-title {
     font-size: 18px;
     text-transform: uppercase;
     padding-top: 8px;
+  }
+}
+
+h3.post-title {
+  display: block;
+  line-height: 1;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+
+  &.negative {
+    color: $artifact-color;
+  }
+
+  @media (min-width: 576px) {
+    padding-top: 2px;
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 4px;
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 5px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 4.5px;
   }
 }
 
@@ -2045,6 +2099,7 @@ a.cta.circle.see {
 
 .help {
   width: 50px;
+  transform: rotate(180deg);
   @media (min-width: 576px) {
     width: 70px;
   }
@@ -2076,14 +2131,14 @@ i.bi-images.a-module-corner-icon {
 .resource-icon {
   display: inline-block;
   font-size: 16px;
-  padding-top: 17px;
+  padding-top: 13px;
   @media (min-width: 576px) {
     font-size: 19px;
-    padding-top: 15px;
+    padding-top: 11px;
   }
   @media (min-width: 768px) {
     font-size: 24px;
-    padding-top: 14px;
+    padding-top: 8px;
   }
   @media (min-width: 992px) {
   }
@@ -2207,15 +2262,16 @@ button.button.is-checked {
   padding-left: 12px;
   padding-right: 12px;
   &.allcats {
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 8px;
+    max-width: 600px
   }
 }
 
 input.quicksearch {
-  font-family: $title, sans;
+  font-family: $titlecondensed, sans;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: $bg-white;
   border: 0px solid $bg-white;
   padding-left: 2px;
@@ -2511,6 +2567,7 @@ img.artifact-img {
 /* Artifact Deets */
 
 .artifact-deets {
+  padding-bottom: 60px;
   @media (min-width: 576px) {
   }
   @media (min-width: 768px) {
@@ -2647,9 +2704,6 @@ p.timeline-item {
 
 /* a-module & Previous/Next */
 
-.allcat-w-preview-title-col {
-}
-
 .row.artifacts-gutters,
 .row.author-artifacts {
   --bs-gutter-x: 0.75rem;
@@ -2772,7 +2826,7 @@ p.timeline-item {
 }
 
 .outer-container.post-related-other {
-  padding-bottom: 150px;
+  padding-bottom: 90px;
 }
 
 /* text and caption cat-links */
@@ -2837,6 +2891,8 @@ a.cat-link.resource:hover {
 
 /* Blog Posts */
 
+    /* Cards */
+
 .card.blog {
   margin-bottom: 30px;
   border: 0px;
@@ -2848,7 +2904,7 @@ a.cat-link.resource:hover {
   min-height: 120px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 0px;
+  padding-top: 5px;
   padding-bottom: 0px;
   margin-top: 15px;
   border-top: 1px solid gray;
@@ -2887,6 +2943,11 @@ a.cat-link.resource:hover {
 .post-excerpt p:after {
   content: "...";
 }
+
+.datum-row.post-body {
+  margin-top: 60px;
+}
+
 
 .post-lead {
   font-family: $body, sans-serif;
@@ -2944,6 +3005,16 @@ h3.post-text-title {
 
 /* Blog Posts - Images */
 
+.datum-left-col.post-img.left {
+  margin-top: 60px;
+  text-align: left;
+}
+
+.caption.bottom::before {
+  content: "↑";
+  padding-right: 4px;
+}
+
 .caption {
   &.blog-header {
     margin-top: 8px;
@@ -2964,26 +3035,35 @@ h3.post-text-title {
   margin-top: 24px;
 }
 
-figure.post-img {
+.datum-row.post-img {
   margin-top: 60px;
-  margin-bottom: 60px;
 }
 
-figure.post-img.artifact .artifact-holder {
+.post-img.artifact .artifact-holder,
+.feature-img.artifact .artifact-holder {
   background-color: black;
   width: 100%;
   max-width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
-figure.post-img img {
+.post-img img {
   max-height: 90vh;
   border-right: 15px solid $artifact-color;
 }
 
-figure.post-img.artifact img {
+.post-img.artifact img {
   max-height: 80vh;
+  border-right: none;
+}
+
+.feature-img.artifact {
+  margin-bottom: 0px;
+}
+
+.feature-img.artifact img {
+  max-height: 60vh;
   border-right: none;
 }
 
@@ -2998,17 +3078,15 @@ figure.post-img.artifact img {
   padding-top: 8px;
 }
 
-.post-text figcaption::before,
-.caption::before {
-  content: "↑";
-  padding-right: 4px;
+.feature-img.caption {
+  display: flex;
+  flex-direction: column;
 }
 
-.caption.a-on-text,
-figure.post-img.artifact figcaption {
-  background-color: $bg-white;
-  text-align: left;
-  padding: 8px;
+.caption.left::before {
+  content: "→";
+  padding-right: 4px;
+  display: block;
 }
 
 /* Shorts */
@@ -3045,6 +3123,7 @@ ol.footnotes {
   margin-left: 15px;
   &.sources {
     padding-top: 2px;
+    margin-bottom: 0px;
   }
 }
 
@@ -3136,8 +3215,10 @@ span.fn-title {
   padding-bottom: 30px;
 }
 
-.container-index-about {
-  padding: 30px;
+.container-index-about,
+.latest-container-outer {
+  padding-top: 30px;
+  padding-bottom: 30px;
   min-height: 75vh;
   @media (min-width: 576px) {
     min-height: $viewport-less-header-sm;
@@ -3153,7 +3234,7 @@ span.fn-title {
   }
 }
 
-p.about-sol.rainbow {
+p.about-sol {
   margin-bottom: 0px;
 }
 
@@ -3297,6 +3378,9 @@ span.reference,
 span.reference {
   display: inline-block;
   font-family: "Inter", sans;
+  &.new-place {
+    padding-top: 54px;
+  }
 }
 
 .sol-decimal-system {
@@ -3362,10 +3446,11 @@ span.reference {
   text-align: left;
 }
 
-.cat-label.random-feature.index {
+.section-title.random-feature.index {
   width: 100%;
-  color: $off-1;
+  color: $artifact-color;
   margin-top: 0px;
+  margin-bottom: 3px;
   padding-top: 4px;
   @media (min-width: 576px) {
     padding-top: 8px;
@@ -3480,7 +3565,7 @@ img.artifact-img.random-feature {
       margin-top: $double-header-height-sm;
     }
     @media (min-width: 768px) {
-      margin-top: $double-header-height-md;
+      margin-top: 100px;
     }
     @media (min-width: 992px) {
       margin-top: $header-height-lg;
@@ -3514,6 +3599,9 @@ img.artifact-img.random-feature {
 /* md */
 
 @media (min-width: 768px) {
+  .title-col {
+    height: 60px;
+  }
   img.artifact-img {
     max-height: $viewport-less-header-md;
   }
@@ -3586,10 +3674,8 @@ img.artifact-img.random-feature {
     min-height: $viewport-less-header-lg;
   }
 
-  figure.post-img.offset {
-    text-align: left;
-    position: relative;
-    right: 25%;
+  figure.post-img.left {
+    
   }
 
   .artifact-img-flick {

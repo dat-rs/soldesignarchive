@@ -3,7 +3,7 @@ ref: sol-030-0257
 title: O Átomo
 author_name: [unknown author]
 publisher: [Publicações Europa-América]
-year: y1964
+year: 1964
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography, lettering]

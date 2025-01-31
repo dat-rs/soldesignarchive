@@ -1,7 +1,7 @@
 ---
 title: "Guia Prático do Trabalhador Português"
 author_name: ["Boavida de Carvalho"]
-year: y1974
+year: 1974
 origin: Portugal
 publisher: "Afrodite"
 formats: [book, book-cover]

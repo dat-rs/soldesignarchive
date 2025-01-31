@@ -3,7 +3,7 @@ ref: sol-251-0002
 title: "Belgique. Villes d’Art"
 author_name: ["Lucien De Roeck"]
 publisher: ["unknown publisher"]
-year: y1958
+year: 1958
 circa: true
 origin: ["Belgium"]
 formats: ["booklet"]

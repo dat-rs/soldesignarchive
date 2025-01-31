@@ -1,7 +1,7 @@
 ---
 title: "Melodia Interrompida"
 author_name: "Luís Osório"
-year: y1959
+year: 1959
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book, "graphic-design"]

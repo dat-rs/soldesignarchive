@@ -1,7 +1,7 @@
 ---
 title: A Autópsia dos Estados Unidos
 author_name: "Sebastião Rodrigues"
-year: y1953
+year: 1953
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book-cover, book]

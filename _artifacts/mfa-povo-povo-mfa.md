@@ -1,7 +1,7 @@
 ---
 title: MFA, Povo. Povo, MFA
 author_name: ["João Abel Manta"]
-year: y1975
+year: 1975
 origin: Portugal
 publisher: ["Movimento das Forças Armadas", "Imprensa Nacional-Casa da Moeda"]
 formats: [sticker]

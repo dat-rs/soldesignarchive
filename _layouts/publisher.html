@@ -8,8 +8,9 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% include head-and-header.html page-meta-title=page.name page-meta-description=description page-meta-url=page.url
 page-meta-image=layout.image %}
 
-<!--  -->
-{% assign filtered_artifacts = site.artifacts | where: 'publisher', processed_title %} {% assign
+{% assign pub_artifacts = site.artifacts | where: 'published', true %}
+{% assign filtered_artifacts = pub_artifacts | where: 'publisher', processed_title %} 
+{% assign
 sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero_image %}
 <div class="wide-post-img first-after-header">
   <div class="row">

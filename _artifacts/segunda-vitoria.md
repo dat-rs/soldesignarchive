@@ -3,7 +3,7 @@ ref: sol-030-0255
 title: A Segunda Vitória
 author_name: [Paulo-Guilherme]
 publisher: [Livraria Clássica Editora]
-year: y1968
+year: 1968
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

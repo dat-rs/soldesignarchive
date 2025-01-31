@@ -15,7 +15,7 @@ formats:
 disciplines: [graphic-design, typography]
 author_name:
   - Cipriano Dourado
-year: y1959
+year: 1959
 tags:
   - Mário Braga
 image_count:

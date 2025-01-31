@@ -1,7 +1,7 @@
 ---
 title: "Aeroflot"
 author_name: "unknown author"
-year: y1976
+year: 1976
 origin: Soviet-Union
 publisher: "Aeroflot"
 formats: [ticket, ephemera]

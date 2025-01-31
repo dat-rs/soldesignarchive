@@ -1,7 +1,7 @@
 ---
 title: "Emigração"
 author_name: ["Leonor de Bettencourt"]
-year: y1956
+year: 1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

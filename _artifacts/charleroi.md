@@ -3,7 +3,7 @@ ref: sol-121-0010
 title: "Charleroi"
 author_name: ["COETS Publicité"]
 publisher: ["Commissariat Général au Turisme"]
-year: y1958
+year: 1958
 circa: true
 origin: ["Belgium"]
 formats: ["brochure"]

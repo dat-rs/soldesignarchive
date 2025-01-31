@@ -3,7 +3,7 @@ ref: sol-140-0007
 title: O Alvo Humano
 author_name: []
 publisher: []
-year: y1944
+year: 1944
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

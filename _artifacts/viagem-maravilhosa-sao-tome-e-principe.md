@@ -1,7 +1,7 @@
 ---
 title: "Viagem Maravilhosa por Terras de São Tomé e Príncipe"
 author_name: [Carlos Rafael]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: "A Roda da Fortuna"
 author_name: "Sebastião Rodrigues"
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book-cover, book]

@@ -1,7 +1,7 @@
 ---
 title: "A Gente Canta na Aldeia"
 author_name: ["José Maria Amaro Júnior", "António Vaz Pereira"]
-year: y1955
+year: 1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

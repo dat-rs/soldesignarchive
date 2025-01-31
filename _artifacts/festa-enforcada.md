@@ -3,7 +3,7 @@ ref: sol-030-0269
 title: "A Festa da Enforcada"
 author_name: ["Lima de Freitas"]
 publisher: ["Livros do Brasil"]
-year: y1962
+year: 1962
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

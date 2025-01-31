@@ -3,7 +3,7 @@ ref: sol-030-0234
 title: Problemas Actuais da Economia Portuguesa
 author_name: ["Henrique Ruivo", "Acácio Santos"]
 publisher: [Seara Nova]
-year: y1974
+year: 1974
 origin: [Portugal]
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]

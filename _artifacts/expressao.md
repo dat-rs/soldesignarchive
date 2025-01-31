@@ -1,7 +1,7 @@
 ---
 title: "Expressão"
 author_name: ["Pinto Vieira"]
-year: y1974
+year: 1974
 origin: Portugal
 publisher: "Livraria Civilização"
 formats: [book, book-cover]

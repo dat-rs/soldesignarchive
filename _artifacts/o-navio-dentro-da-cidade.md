@@ -1,7 +1,7 @@
 ---
 title: O Navio dentro da Cidade
 author_name: "Victor Palla"
-year: y1957
+year: 1957
 origin: Portugal
 publisher: "Editorial Gleba"
 formats: [book-cover, book]

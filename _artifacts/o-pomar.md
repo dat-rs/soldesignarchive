@@ -1,7 +1,7 @@
 ---
 title: "O Pomar"
 author_name: ["Fernandes Silva", "Abílio de Mattos e Silva"]
-year: y1958
+year: 1958
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

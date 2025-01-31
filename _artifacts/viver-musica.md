@@ -3,7 +3,7 @@ ref: sol-030-0242
 title: "Viver a Música"
 author_name: ["Angelo Ferreira", "Ana Paula Rafael"]
 publisher: ["Almedina"]
-year: y1987
+year: 1987
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, lettering, typography, illustration]

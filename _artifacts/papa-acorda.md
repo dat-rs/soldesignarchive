@@ -1,7 +1,7 @@
 ---
 title: "O Papa Açorda"
 author_name: "unknown author"
-year: y1939
+year: 1939
 origin: Portugal
 publisher: "Teatro Variedades"
 formats: [flyer, poster]

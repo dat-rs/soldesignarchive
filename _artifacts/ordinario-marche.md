@@ -1,7 +1,7 @@
 ---
 title: "Ordinário, Marche!"
 author_name: "unknown author"
-year: y1942
+year: 1942
 origin: Portugal
 publisher: "Cinema Royal"
 formats: [flyer, poster]

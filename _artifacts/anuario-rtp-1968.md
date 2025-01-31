@@ -1,7 +1,7 @@
 ---
 title: Anuário RTP 1976
 author_name: ["Armelim Correia"]
-year: y1968
+year: 1968
 origin: Portugal
 publisher: "RTP"
 formats: [book, book-cover]

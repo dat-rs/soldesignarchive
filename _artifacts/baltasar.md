@@ -1,7 +1,7 @@
 ---
 title: "Baltasar"
 author_name: "António Garcia"
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Portugália"
 formats: [book-cover, book]

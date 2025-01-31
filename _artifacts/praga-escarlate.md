@@ -3,7 +3,7 @@ ref: sol-030-0264
 title: A Praga Escarlate e O Combate
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]
-year: y1967
+year: 1967
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

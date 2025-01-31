@@ -10,7 +10,7 @@ published: true
 title: A Nossa Amiga Electricidade
 author_name:
   - Calvet de Magalhães
-year: y1955
+year: 1955
 formats:
   - book cover
   - book

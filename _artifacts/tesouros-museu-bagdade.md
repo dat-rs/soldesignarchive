@@ -1,7 +1,7 @@
 ---
 title: "Tesouros do Museu de Bagdade"
 author_name: "Sebastião Rodrigues"
-year: y1965
+year: 1965
 origin: Portugal
 publisher: "Fundação Calouste Gulbenkian"
 formats: [book, book-cover, catalogue]

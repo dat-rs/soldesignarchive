@@ -1,7 +1,7 @@
 ---
 title: "Antologia do Humor Português"
 author_name: ["Sena da Silva", "Carlos Ferreiro", "Eduardo Batarda", "João Machado", "José Rodrigues"]
-year: y1969
+year: 1969
 origin: Portugal
 publisher: "Afrodite"
 formats: [book, book-cover]

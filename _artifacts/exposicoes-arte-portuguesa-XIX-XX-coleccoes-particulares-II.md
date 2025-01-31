@@ -1,7 +1,7 @@
 ---
 title: "Exposições de Arte Portuguesa dos séculos XIX e XX em Colecções Particulares II"
 author_name: "Sebastião Rodrigues"
-year: y1972
+year: 1972
 origin: Portugal
 publisher: "Fundação Calouste Gulbenkian"
 formats: [catalogue, book, book-cover]

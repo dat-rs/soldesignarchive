@@ -1,7 +1,7 @@
 ---
 title: "Eu Queria Viver!"
 author_name: Victor Palla
-year: y1958
+year: 1958
 origin: Portugal
 publisher: "Arcádia"
 formats: [book-cover, book]

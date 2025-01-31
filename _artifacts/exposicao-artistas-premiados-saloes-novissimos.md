@@ -1,7 +1,7 @@
 ---
 title: "Exposição dos Artistas Premiados nos Salões dos Novíssimos"
 author_name: "Sebastião Rodrigues"
-year: y1965
+year: 1965
 origin: Portugal
 publisher: "SPN/SNI/SEIT"
 formats: [booklet]

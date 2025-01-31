@@ -3,7 +3,7 @@ ref: sol-030-0238
 title: "08/15. A Guerra"
 author_name: ["Otelo Azinhais"]
 publisher: ["Publicações Europa-América"]
-year: y1957
+year: 1957
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, lettering, typography]

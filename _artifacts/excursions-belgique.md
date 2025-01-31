@@ -3,7 +3,7 @@ ref: sol-251-0004
 title: "Excursions en Belgique"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]
-year: y1958
+year: 1958
 circa: true
 origin: ["Belgium"]
 formats: ["booklet"]

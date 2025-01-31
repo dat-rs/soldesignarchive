@@ -1,7 +1,7 @@
 ---
 title: No Rasto do Corsário
 author_name: ["João da Câmara Leme"]
-year: y1964
+year: 1964
 origin: Portugal
 publisher: "Portugália"
 formats: [book, book-cover]

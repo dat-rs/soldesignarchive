@@ -3,7 +3,7 @@ ref: sol-030-0245
 title: "Eu e Eles…"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Publicações Europa América"]
-year: y1963
+year: 1963
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration, pattern]

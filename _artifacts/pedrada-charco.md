@@ -1,7 +1,7 @@
 ---
 title: "Uma Pedrada no Charco"
 author_name: ["José Cândido"]
-year: y1967
+year: 1967
 origin: Portugal
 publisher: "Livraria Bertrand"
 formats: [book, book-cover]

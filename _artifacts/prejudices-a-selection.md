@@ -1,7 +1,7 @@
 ---
 title: "Prejudices — A Selection"
 author_name: "Paul Rand"
-year: y1963
+year: 1963
 origin: United-States
 publisher: "Vintage Books"
 formats: [book-cover, book]

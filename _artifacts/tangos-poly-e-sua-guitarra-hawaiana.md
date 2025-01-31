@@ -1,7 +1,7 @@
 ---
 title: "Tangos. Poly e sua guitarra hawaiana"
 author_name: ["unknown author"]
-year: y1973
+year: 1973
 origin: Portugal
 publisher: ["Alvorada", "Chantecler"]
 formats: [record, record-cover]

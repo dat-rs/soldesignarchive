@@ -15,7 +15,7 @@ related_publishers:
     "Livraria Morais Editora",
   ]
 related_tags: ["Almanaque", "Os Livros das Três Abelhas"]
-timeline_count: 9
+timeline_count: 8
 timeline_keys: ["1929", "1940-1941", "1945", "1948", "1959", "1959-1961", "1991", "1995"]
 timeline_values: [
     "Born in Dafundo, Lisbon, Portugal.",

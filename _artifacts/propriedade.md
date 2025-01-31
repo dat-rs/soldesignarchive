@@ -1,7 +1,7 @@
 ---
 title: A Propriedade
 author_name: ["Sebastião Rodrigues"]
-year: y1961
+year: 1961
 origin: Portugal
 publisher: "Arcádia"
 formats: [book, book-cover]

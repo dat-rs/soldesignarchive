@@ -1,7 +1,7 @@
 ---
 title: "How to Deep Freeze"
 author_name: ["unknown author"]
-year: y1971
+year: 1971
 origin: "unknown-origin"
 publisher: "unknown publisher"
 formats: [booklet]

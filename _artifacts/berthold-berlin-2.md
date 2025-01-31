@@ -3,7 +3,7 @@ ref: sol-234-0011
 title: "Berthold Berlin"
 author_name: []
 publisher: []
-year: y19
+year: 19
 origin: Germany
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

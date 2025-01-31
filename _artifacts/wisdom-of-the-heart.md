@@ -1,7 +1,7 @@
 ---
 title: The Wisdom of the Heart
 author_name: "Chermayeff & Geismar"
-year: y1960
+year: 1960
 origin: United-States
 publisher: "New Directions"
 formats: [book-cover, book]

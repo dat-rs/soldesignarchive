@@ -1,7 +1,7 @@
 ---
 title: "Banana Brava"
 author_name: ["Jayme Cortez"]
-year: y1974
+year: 1974
 origin: Brazil
 publisher: "Edições Melhoramentos"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: "Crónica do Ghetto de Varsóvia"
 author_name: "Sebastião Rodrigues"
-year: y1964
+year: 1964
 origin: Portugal
 publisher: "Livraria Morais Editora"
 formats: [book-cover, book]

@@ -1,7 +1,7 @@
 ---
 title: 'Ludwig Thoma - Ausgewählte Werke in einem Band'
 author_name: 'Gerhard M Hotop'
-year: y1966
+year: 1966
 origin: Germany
 publisher: 'Piper Verlag'
 formats: [book jacket, book]

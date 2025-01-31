@@ -1,7 +1,7 @@
 ---
 title: Curiositats de Catalunya nº2
 author_name: ["unknown author"]
-year: y1936
+year: 1936
 origin: [Spain, Catalonia]
 publisher: "Curiositats de Catalunya"
 formats: [booklet, magazine, almanac]

@@ -1,7 +1,7 @@
 ---
 title: "O Silêncio do Mar"
 author_name: "Victor Palla"
-year: y1959
+year: 1959
 origin: Portugal
 publisher: ["Atlântida Editora", "Coimbra Editora"]
 formats: [book-cover, book]

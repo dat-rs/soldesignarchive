@@ -3,7 +3,7 @@ ref: sol-234-0007
 title: "Las más bellas creaciones de la Fundición Tipográfica Nacional"
 author_name: []
 publisher: [""]
-year: y19
+year: 19
 origin: France
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

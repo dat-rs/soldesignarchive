@@ -3,7 +3,7 @@ ref: sol-030-0260
 title: Um Ar da Minha Graça
 author_name: [Adalberto Sampaio]
 publisher: [Figueirinhas]
-year: y1946
+year: 1946
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

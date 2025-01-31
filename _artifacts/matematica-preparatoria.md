@@ -1,7 +1,7 @@
 ---
 title: "Matemática Preparatória"
 author_name: "Calvet de Magalhães"
-year: y1960
+year: 1960
 origin: Portugal
 publisher: "Livraria Didáctica"
 formats: [book-cover, book]

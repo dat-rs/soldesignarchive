@@ -1,7 +1,7 @@
 ---
 title: "The Declaration of Independence"
 author_name: "Paul Rand"
-year: y1958
+year: 1958
 origin: United-States
 publisher: "Vintage Books"
 formats: [book-cover, book]

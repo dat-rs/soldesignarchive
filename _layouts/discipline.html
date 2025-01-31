@@ -7,8 +7,8 @@ capitalize %} {% capture description %}Browse artifacts tagged «{{ page.name | 
 Archive.{% endcapture %} {% include head-and-header.html page-meta-title=capitalised_page_name page-meta-url=page.url
 page-meta-description=description page-meta-image=layout.image %}
 
-<!--  -->
-{% assign filtered_artifacts = site.artifacts | where: 'disciplines', page.name %}
+{% assign pub_artifacts = site.artifacts | where: 'published', true %}
+{% assign filtered_artifacts = pub_artifacts | where: 'disciplines', page.name %}
 <!--  -->
 {% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
 
