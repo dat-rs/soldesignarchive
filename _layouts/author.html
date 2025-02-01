@@ -11,7 +11,7 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
 {% assign number = filtered_artifacts.size | divided_by: 2 %}
 
 
-<div class="container-md container-author first-after-header" data-pagefind-body >
+<div class="container-md container-author first-after-header">
   <div class="row datum-section title author">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label author">Author</h3>
@@ -108,9 +108,11 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   {% endif %}
 
   <!-- RESOURCES -->
-  {% assign filtered_resources = site.data.resources | where: 'rel_authors', page.name %} {% assign
-  filtered_resources_size = filtered_resources | size %} {% if filtered_resources_size > 0 %} {% include
-  resources-section.html %} {% endif %}
+  {% assign filtered_resources = site.data.resources | where: 'rel_authors', page.name %} 
+  {% assign filtered_resources_size = filtered_resources | size %} 
+  {% if filtered_resources_size > 0 %} 
+  {% include resources-section.html %} 
+  {% endif %}
 
   <!-- RELATED -->
   {% if page.related_authors or page.related_publishers or page.related_tags %}
@@ -138,34 +140,32 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
 
   <!-- publishers, RELATED -->
   {% if page.related_publishers %}
-  <div class="datum-row row related">
-    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <span class="related-label publisher">Publishers/Clients</span>
-    </div>
+    <div class="datum-row row related">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <span class="related-label publisher">Publishers/Clients</span>
+      </div>
 
-    <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-      {% for related_publisher in page.related_publishers %}
-      <a href="/publishers/{{ related_publisher | escape_once }}" class="related-link publisher"
-        >{{ related_publisher }}</a
-      >
-      {% endfor %}
+      <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
+        {% for related_publisher in page.related_publishers %}
+        <a href="/publishers/{{ related_publisher | escape_once }}" class="related-link publisher">{{ related_publisher }}</a>
+        {% endfor %}
+      </div>
     </div>
-  </div>
   {% endif %}
 
   <!-- tags, RELATED -->
   {% if page.related_tags %}
-  <div class="datum-row row related">
-    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <span class="related-label tag">Tags</span>
-    </div>
+    <div class="datum-row row related">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+        <span class="related-label tag">Tags</span>
+      </div>
 
-    <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-      {% for related_tag in page.related_tags %}
-      <a href="/tags/{{ related_tag | escape_once }}" class="related-link tag">{{ related_tag }}</a>
-      {% endfor %}
+      <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
+        {% for related_tag in page.related_tags %}
+        <a href="/tags/{{ related_tag | escape_once }}" class="related-link tag">{{ related_tag }}</a>
+        {% endfor %}
+      </div>
     </div>
-  </div>
   {% endif %} 
   
   <div class="row datum-row related-end-spacer"></div>
