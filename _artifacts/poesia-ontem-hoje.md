@@ -1,7 +1,7 @@
 ---
 title: "Poesia de Ontem e de Hoje para o Nosso Povo Ler"
 author_name: ["António Vaz Pereira"]
-year: 1956
+year: y1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

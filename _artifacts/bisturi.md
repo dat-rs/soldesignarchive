@@ -1,7 +1,7 @@
 ---
 title: O Bisturi
 author_name: "Miguel Flávio"
-year: 1964
+year: y1964
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

@@ -1,7 +1,7 @@
 ---
 title: "Clarence Darrow. For the Defense"
 author_name: ["unknown author"]
-year: 1961
+year: y1961
 origin: United-States
 publisher: "Bantam Books"
 formats: [book, book-cover]

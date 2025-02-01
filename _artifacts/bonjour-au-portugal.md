@@ -1,7 +1,7 @@
 ---
 title: Bonjour au Portugal
 author_name: ["Marcelino Vespeira"]
-year: 1959
+year: y1959
 origin: Portugal
 publisher: "SPN/SNI/SEIT"
 formats: [stamp, poster-stamp]

@@ -1,7 +1,7 @@
 ---
 title: "Desporto. Caminho da Vida. Escola de Homens"
 author_name: ["Calvet de Magalhães"]
-year: 1955
+year: y1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

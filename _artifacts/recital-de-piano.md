@@ -1,7 +1,7 @@
 ---
 title: "Tânia Achot. Piano"
 author_name: "José António Flores"
-year: 1980
+year: y1980
 origin: Portugal
 publisher: "Fundação Calouste Gulbenkian"
 formats: [programme, brochure]

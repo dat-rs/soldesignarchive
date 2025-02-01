@@ -1,7 +1,7 @@
 ---
 title: "O Golfista"
 author_name: "SAM"
-year: 1973
+year: y1973
 origin: Portugal
 publisher: "unknown publisher"
 formats: [book-cover, book]

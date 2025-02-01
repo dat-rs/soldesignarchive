@@ -1,7 +1,7 @@
 ---
 title: A Agricultura sob o Comunismo
 author_name: "Sérgio Fragoso"
-year: 1963
+year: y1963
 origin: Brazil
 publisher: "Edições GRD"
 formats: [book-cover, book]

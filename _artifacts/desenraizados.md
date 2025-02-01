@@ -1,7 +1,7 @@
 ---
 title: "Desenraízados"
 author_name: ["António Domingues"]
-year: 1960
+year: y1960
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book, book-cover]

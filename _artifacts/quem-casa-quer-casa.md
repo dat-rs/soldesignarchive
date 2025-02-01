@@ -1,7 +1,7 @@
 ---
 title: "Quem Casa Quer Casa"
 author_name: ["Irene San Payo"]
-year: 1956
+year: y1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

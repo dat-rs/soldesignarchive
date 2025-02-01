@@ -1,7 +1,7 @@
 ---
 title: "Fantasmas"
 author_name: ["Júlio Amorim"]
-year: 1943
+year: y1943
 origin: Portugal
 publisher: "Livraria Civilização"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: "Amor Escreve-se sem H"
 author_name: ["STOP"]
-year: 1945
+year: y1945
 origin: Portugal
 publisher: "Editorial Século"
 formats: [book, book-cover]

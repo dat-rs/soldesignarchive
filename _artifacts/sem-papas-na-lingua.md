@@ -1,7 +1,7 @@
 ---
 title: "Beatriz Costa. Sem Papas na Língua"
 author_name: ["João Abel Manta", "Eduardo Gageiro"]
-year: 1959
+year: y1959
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

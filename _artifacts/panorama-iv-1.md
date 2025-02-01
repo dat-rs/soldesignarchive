@@ -3,7 +3,7 @@ ref: sol-321-0022
 title: Panorama IV 1
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT
-year: 1962
+year: y1962
 origin: Portugal
 formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]

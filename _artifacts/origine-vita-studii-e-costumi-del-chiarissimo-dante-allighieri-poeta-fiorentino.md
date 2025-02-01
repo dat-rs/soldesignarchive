@@ -5,7 +5,7 @@ author_name:
   - unknown author
 publisher:
   - O Mundo do Livro
-year: 1965
+year: y1965
 origin:
   - Portugal
   - Italy

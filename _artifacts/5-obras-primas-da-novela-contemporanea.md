@@ -1,7 +1,7 @@
 ---
 title: 5 Obras-Primas da Novela Contemporânea
 author_name: ["João da Câmara Leme"]
-year: 1964
+year: y1964
 origin: Portugal
 publisher: "Portugália"
 formats: [book, book-cover]

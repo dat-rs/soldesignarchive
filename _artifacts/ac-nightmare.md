@@ -1,7 +1,7 @@
 ---
 title: "The Air-Conditioned Nightmare"
 author_name: ["unknown author"]
-year: 1965
+year: y1965
 origin: United-States
 publisher: "Panther Books"
 formats: [book, book-cover]

@@ -3,7 +3,7 @@ ref: sol-140-0012
 title: O Retiro dos Pacatos
 author_name: ["unknown-author"]
 publisher: []
-year: 1941
+year: y1941
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

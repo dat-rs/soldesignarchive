@@ -2,7 +2,7 @@
 title: Un Home Entre Herois
 author_name: ["Moles"]
 signature-id: true
-year: 1958
+year: y1958
 origin: [Spain, Catalonia]
 publisher: "Teatro Guimerá"
 formats: [booklet, brochure]

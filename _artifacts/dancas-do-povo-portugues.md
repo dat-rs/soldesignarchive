@@ -1,7 +1,7 @@
 ---
 title: "Danças do Povo Português"
 author_name: ["Marcelo de Morais", "Otelo Azinhais"]
-year: 1961
+year: y1961
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: História da Medicina
 author_name: "Erik Nitsche"
-year: 1967
+year: y1967
 origin: [Portugal, Switzerland]
 publisher: "Livraria Morais Editora"
 formats: [book, book-cover]

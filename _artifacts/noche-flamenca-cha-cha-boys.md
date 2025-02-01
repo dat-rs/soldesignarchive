@@ -1,7 +1,7 @@
 ---
 title: Noche Flamenca - Cha Cha Boys
 author_name: ["João da Câmara Leme"]
-year: 1960
+year: y1960
 circa: true
 origin: Portugal
 publisher: "A Voz do Dono"

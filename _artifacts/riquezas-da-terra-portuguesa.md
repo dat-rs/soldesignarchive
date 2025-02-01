@@ -1,7 +1,7 @@
 ---
 title: "Riquezas da Terra Portuguesa"
 author_name: ["Calvet de Magalhães"]
-year: 1957
+year: y1957
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

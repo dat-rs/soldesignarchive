@@ -1,7 +1,7 @@
 ---
 title: "O Pão da Mentira"
 author_name: "Sebastião Rodrigues"
-year: 1957
+year: y1957
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

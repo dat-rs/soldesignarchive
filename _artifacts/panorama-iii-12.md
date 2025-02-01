@@ -3,7 +3,7 @@ ref: sol-321-0009
 title: Panorama III 12
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT
-year: 1958
+year: y1958
 origin: Portugal
 formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]

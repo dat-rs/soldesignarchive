@@ -1,7 +1,7 @@
 ---
 title: "A Verdade em Primeira Mão"
 author_name: "Victor Palla"
-year: 1959
+year: y1959
 origin: Portugal
 publisher: "Arcádia"
 formats: [book-cover, book]

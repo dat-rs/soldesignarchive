@@ -1,7 +1,7 @@
 ---
 title: 'Casa Lusitana. Leituras da História de Portugal'
 author_name: 'Júlio Santos'
-year: 1957
+year: y1957
 origin: Portugal
 publisher: 'Livraria Sá da Costa'
 formats: [book-cover, book, illustration]

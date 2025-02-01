@@ -3,7 +3,7 @@ ref: sol-030-0240
 title: "Os Crimes do ABC"
 author_name: ["Lima de Freitas"]
 publisher: ["Livros do Brasil"]
-year: 1961
+year: y1961
 origin: ["Portugal"]
 formats: ["book", book-cover]
 disciplines: [graphic-design, illustration, lettering, typography]

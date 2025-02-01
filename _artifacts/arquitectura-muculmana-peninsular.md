@@ -1,7 +1,7 @@
 ---
 title: "Arquitectura Muçulmana Peninsular e sua influência na Arquitectura Cristã"
 author_name: "Sebastião Rodrigues"
-year: 1962
+year: y1962
 origin: Portugal
 publisher: "Fundação Calouste Gulbenkian"
 formats: [catalogue, booklet]

@@ -1,7 +1,7 @@
 ---
 title: Caligula and 3 other Plays
 author_name: "George Giusti"
-year: 1958
+year: y1958
 origin: United-States
 publisher: "Vintage Books"
 formats: [book-cover, book]

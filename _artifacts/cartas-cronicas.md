@@ -3,7 +3,7 @@ ref: sol-030-0268
 title: "Cartas e Crónicas"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Verbo", "RTP"]
-year: 1972
+year: y1972
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

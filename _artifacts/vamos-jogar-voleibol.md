@@ -1,7 +1,7 @@
 ---
 title: "Vamos jogar Voleibol"
 author_name: ["Sena da Silva"]
-year: 1957
+year: y1957
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

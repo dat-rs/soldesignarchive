@@ -1,7 +1,7 @@
 ---
 title: "La Gastronomie en Belgique"
 author_name: ["unknown author"]
-year: 1958
+year: y1958
 origin: Belgium
 publisher: "Commissariat Général au Turisme"
 formats: [brochure, graphic-design]

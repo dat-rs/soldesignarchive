@@ -1,7 +1,7 @@
 ---
 title: "O Sobreiro"
 author_name: ["João da Conceição Martins", "Carlos Alberto da Paixão Correia"]
-year: 1961
+year: y1961
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

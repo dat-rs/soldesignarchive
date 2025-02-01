@@ -1,7 +1,7 @@
 ---
 title: "Four Plays"
 author_name: "unknown author"
-year: 1958
+year: y1958
 origin: United-States
 publisher: "Grove Press"
 formats: [book-cover, book]

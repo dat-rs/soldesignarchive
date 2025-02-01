@@ -1,7 +1,7 @@
 ---
 title: "Revolta na Bounty"
 author_name: "António Domingues"
-year: 1962
+year: y1962
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

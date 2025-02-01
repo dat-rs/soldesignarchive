@@ -3,7 +3,7 @@ ref: sol-321-0017
 title: Panorama III 20
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT
-year: 1960
+year: y1960
 origin: Portugal
 formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]

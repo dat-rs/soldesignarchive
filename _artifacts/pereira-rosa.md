@@ -1,7 +1,7 @@
 ---
 title: "João Pereira da Rosa. Perfil de um Homem"
 author_name: ["Paulo-Guilherme"]
-year: 1962
+year: y1962
 origin: Portugal
 publisher: "J.M. Boavida-Portugal"
 formats: [booklet, book-cover]

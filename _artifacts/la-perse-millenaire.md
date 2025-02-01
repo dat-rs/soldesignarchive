@@ -1,7 +1,7 @@
 ---
 title: "La Perse Millénaire"
 author_name: "Robert Massin"
-year: 1958
+year: y1958
 origin: France
 publisher: "Arthaud"
 formats: [book-cover, book]

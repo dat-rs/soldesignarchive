@@ -3,7 +3,7 @@ ref: sol-030-0247
 title: "Compêndio de Desenho para o 2o ciclo do liceu"
 author_name: ["unknown author"]
 publisher: ["Porto Editora"]
-year: 1972
+year: y1972
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, pattern]

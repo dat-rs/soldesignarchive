@@ -1,7 +1,7 @@
 ---
 title: "Mesteirais que Ajudaram a Fazer Portugal"
 author_name: ["João Maria Mattoso"]
-year: 1956
+year: y1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

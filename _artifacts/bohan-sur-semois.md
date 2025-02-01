@@ -3,7 +3,7 @@ ref: sol-121-0011
 title: "Bohan sur Semois"
 author_name: ["unknown author"]
 publisher: ["Lucien de Meyer Éditeur"]
-year: 1958
+year: y1958
 circa: true
 origin: ["Belgium"]
 formats: ["brochure"]

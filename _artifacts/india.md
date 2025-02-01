@@ -1,7 +1,7 @@
 ---
 title: "Índia"
 author_name: "unknown author"
-year: 1969
+year: y1969
 origin: Portugal
 publisher: "Verbo"
 formats: [book-cover, book]

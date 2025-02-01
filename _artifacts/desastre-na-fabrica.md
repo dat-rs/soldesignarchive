@@ -1,7 +1,7 @@
 ---
 title: "Houve um Desastre na Fábrica"
 author_name: ["José Manuel Rodrigues Neves"]
-year: 1956
+year: y1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

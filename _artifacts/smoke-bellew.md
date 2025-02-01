@@ -3,7 +3,7 @@ ref: sol-030-0266
 title: Smoke Bellew
 author_name: [Aureliano Sampaio]
 publisher: [Livraria Civilização]
-year: 1966
+year: y1966
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

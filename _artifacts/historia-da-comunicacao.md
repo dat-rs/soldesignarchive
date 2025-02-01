@@ -1,7 +1,7 @@
 ---
 title: História da Comunicação
 author_name: "Erik Nitsche"
-year: 1963
+year: y1963
 origin: [Portugal, Switzerland]
 publisher: "Livraria Morais Editora"
 formats: [book, book-cover]

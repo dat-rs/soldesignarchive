@@ -1,7 +1,7 @@
 ---
 title: A Conjura
 author_name: ["Paulo-Guilherme"]
-year: 1969
+year: y1969
 origin: Portugal
 publisher: "Livraria Clássica Editora"
 formats: [book, book-cover]

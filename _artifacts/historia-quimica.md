@@ -1,7 +1,7 @@
 ---
 title: História da Química
 author_name: "Erik Nitsche"
-year: 1966
+year: y1966
 origin: [Portugal, Switzerland]
 publisher: "Livraria Morais Editora"
 formats: [book, book-cover]

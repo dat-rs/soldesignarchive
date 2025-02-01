@@ -1,7 +1,7 @@
 ---
 title: "Histórias de Mineiros"
 author_name: "Victor Palla"
-year: 1960
+year: y1960
 origin: Portugal
 publisher: "Arcádia"
 formats: [book-cover, book]

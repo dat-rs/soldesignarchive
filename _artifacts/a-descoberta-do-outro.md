@@ -1,7 +1,7 @@
 ---
 title: A Descoberta do Outro
 author_name: ["Marcelo de Morais"]
-year: 1955
+year: y1955
 origin: Portugal
 publisher: "SET"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: "A. O. Barnabooth. Tagebuch eines Milliardars"
 author_name: ["Celestino Piatti"]
-year: 1962
+year: y1962
 origin: Germany
 publisher: "Deutscher Taschenbuch Verlag"
 formats: [book, book-cover]

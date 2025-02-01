@@ -1,7 +1,7 @@
 ---
 title: "Caja de Ahorros Provincial de la Diputacion de Barcelona"
 author_name: "unknown author"
-year: 1972
+year: y1972
 origin: [Spain, Catalonia]
 publisher: "Caja de Ahorros Provincial de la Diputacion de Barcelona"
 formats: [calendar]

@@ -1,7 +1,7 @@
 ---
 title: "Portugal de Hoje"
 author_name: ["Júlio Gil"]
-year: 1956
+year: y1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

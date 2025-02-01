@@ -1,7 +1,7 @@
 ---
 title: "Voz do Operário - 22 Agosto"
 author_name: "unknown author"
-year: 1944
+year: y1944
 origin: Portugal
 publisher: "Voz do Operário"
 formats: [flyer, poster]

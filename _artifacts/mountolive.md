@@ -1,7 +1,7 @@
 ---
 title: "Mountolive"
 author_name: "António Garcia"
-year: 1961
+year: y1961
 origin: Portugal
 publisher: "Ulisseia"
 formats: [book-cover, book]

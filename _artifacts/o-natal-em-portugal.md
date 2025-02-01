@@ -1,7 +1,7 @@
 ---
 title: "O Natal em Portugal"
 author_name: ["Bastos Coelho"]
-year: 1955
+year: y1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

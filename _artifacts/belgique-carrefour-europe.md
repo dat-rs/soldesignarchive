@@ -3,7 +3,7 @@ ref: sol-121-0015
 title: "Belgique. Carrefour de l’Europe"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: 1958
+year: y1958
 circa: true
 origin: ["Belgium"]
 formats: ["brochure"]

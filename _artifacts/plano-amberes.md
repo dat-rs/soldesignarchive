@@ -3,7 +3,7 @@ ref: sol-211-0000
 title: "Plano de Amberes"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: 1958
+year: y1958
 circa: true
 origin: ["Belgium"]
 formats: ["map"]

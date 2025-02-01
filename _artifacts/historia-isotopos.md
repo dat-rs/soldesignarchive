@@ -1,7 +1,7 @@
 ---
 title: História dos Isótopos
 author_name: "António Gedeão"
-year: 1962
+year: y1962
 origin: Portugal
 publisher: "Atlântida Editora"
 formats: [book, book-cover]

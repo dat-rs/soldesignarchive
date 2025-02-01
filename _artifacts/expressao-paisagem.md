@@ -1,7 +1,7 @@
 ---
 title: "Portugal. A Expressão da Paisagem"
 author_name: ["Tóssan"]
-year: 1982
+year: y1982
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: "Fiche Individuelle d'Identité pour Excursionnistes"
 author_name: "unknown author"
-year: 1974
+year: y1974
 origin: France
 publisher: "Mairie de Cannes"
 formats: [ticket, ephemera]

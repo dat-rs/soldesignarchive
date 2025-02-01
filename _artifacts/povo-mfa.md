@@ -1,7 +1,7 @@
 ---
 title: Povo MFA
 author_name: ["unknown author"]
-year: 1975
+year: y1975
 origin: Portugal
 publisher: "Movimento das Forças Armadas"
 formats: [sticker]

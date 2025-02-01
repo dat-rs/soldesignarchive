@@ -1,7 +1,7 @@
 ---
 title: As Surpresas da Era Pós-Industrial
 author_name: "Luís Felipe da Conceição"
-year: 1971
+year: y1971
 origin: Portugal
 publisher: "Luís Felipe da Conceição"
 formats: [book-cover, book]

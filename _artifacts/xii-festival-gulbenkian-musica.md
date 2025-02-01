@@ -1,7 +1,7 @@
 ---
 title: "VII Festival Gulbenkian de Música"
 author_name: ["Sebastião Rodrigues"]
-year: 1968
+year: y1968
 origin: Portugal
 publisher: "Fundação Calouste Gulbenkian"
 formats: [programme, book, book-cover]

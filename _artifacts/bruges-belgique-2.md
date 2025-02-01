@@ -3,7 +3,7 @@ ref: sol-121-0013
 title: "Bruges. Belgique"
 author_name: ["unknown author"]
 publisher: ["Service Communal du Tourisme (Bruges)"]
-year: 1958
+year: y1958
 circa: true
 origin: ["Belgium"]
 formats: ["brochure"]

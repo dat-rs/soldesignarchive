@@ -1,7 +1,7 @@
 ---
 title: Els Cent Aforismes del Bibliofil
 author_name: ["Josep Triadó"]
-year: 1924
+year: y1924
 origin: [Spain, Catalonia]
 publisher: "Ramon Miquel i Planas"
 formats: [brochure]

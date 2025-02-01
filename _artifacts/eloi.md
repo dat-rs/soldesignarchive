@@ -15,7 +15,7 @@ formats:
 disciplines: [graphic-design, typography, illustration]
 author_name:
   - Victor Palla
-year: 1959
+year: y1959
 tags:
   - Latin Wide
 image_count:

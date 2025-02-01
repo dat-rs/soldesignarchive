@@ -3,7 +3,7 @@ ref: sol-231-0008
 title: "Pintores Sul-Africanos dos Nossos Dias/Present-Day South African Painters"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Fundação Calouste Gulbenkian"]
-year: 1968
+year: y1968
 origin: Portugal
 formats: [book, book-cover]
 disciplines: ["graphic-design, illustration, typography, photography"]

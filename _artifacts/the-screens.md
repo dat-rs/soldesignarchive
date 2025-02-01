@@ -1,7 +1,7 @@
 ---
 title: The Screens
 author_name: "Emil Cadoo"
-year: 1962
+year: y1962
 origin: United-States
 publisher: "Grove Press"
 formats: [book-cover, book]

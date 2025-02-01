@@ -18,7 +18,7 @@ disciplines:
   - graphic-design
 author_name:
   - Carlos Figueira
-year: 1980
+year: y1980
 tags:
   - sports
   - "Eurostile/Microgramma"

@@ -1,7 +1,7 @@
 ---
 title: História dos Foguetões e do Espaço
 author_name: "Erik Nitsche"
-year: 1965
+year: y1965
 origin: [Portugal, Switzerland]
 publisher: "Livraria Morais Editora"
 formats: [book, book-cover]

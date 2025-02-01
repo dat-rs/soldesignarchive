@@ -1,7 +1,7 @@
 ---
 title: "Sentinela Inútil"
 author_name: ["Nuno Costa"]
-year: 1961
+year: y1961
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book, book-cover]

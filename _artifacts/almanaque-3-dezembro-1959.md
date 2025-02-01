@@ -1,7 +1,7 @@
 ---
 title: "Almanaque Dezembro 1959"
 author_name: ["Sebastião Rodrigues"]
-year: 1959
+year: y1959
 origin: Portugal
 publisher: "Grupo de Publicações Periódicas"
 formats: [magazine]
