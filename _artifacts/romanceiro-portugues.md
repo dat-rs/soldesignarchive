@@ -1,7 +1,7 @@
 ---
 title: "Romanceiro Português"
 author_name: ["Marcelo de Morais", "Maria Judite"]
-year: 1955
+year: y1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

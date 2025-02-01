@@ -1,7 +1,7 @@
 ---
 title: "O Médico e o Monstro"
 author_name: "Albino Baganha"
-year: 1961
+year: y1961
 origin: Portugal
 publisher: "Livraria Civilização"
 formats: [book-cover, book]

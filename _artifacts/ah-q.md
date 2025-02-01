@@ -1,7 +1,7 @@
 ---
 title: "A Verdadeira História de Ah Q"
 author_name: ["João da Câmara Leme"]
-year: 1960
+year: y1960
 origin: Portugal
 publisher: "Portugália"
 formats: [book, book-cover]

@@ -3,7 +3,7 @@ ref: sol-030-0262
 title: A Febre do Ouro
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]
-year: 1967
+year: y1967
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

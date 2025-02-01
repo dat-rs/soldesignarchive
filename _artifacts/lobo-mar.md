@@ -3,7 +3,7 @@ ref: sol-030-0265
 title: Lobo do Mar
 author_name: [unknown author]
 publisher: [Livraria Civilização]
-year: 1967
+year: y1967
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

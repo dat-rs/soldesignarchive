@@ -1,7 +1,7 @@
 ---
 title: A Inquisição Espanhola
 author_name: "João da Câmara Leme"
-year: 1960
+year: y1960
 origin: Portugal
 publisher: "Portugália"
 formats: [book-cover, book]

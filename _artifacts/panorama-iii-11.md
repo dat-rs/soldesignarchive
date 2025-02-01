@@ -3,7 +3,7 @@ ref: sol-321-0008
 title: Panorama III 11
 author_name: [Júlio Gil, Paulo Ferreira]
 publisher: SPN/SNI/SEIT
-year: 1958
+year: y1958
 origin: Portugal
 formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]

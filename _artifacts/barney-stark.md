@@ -1,7 +1,7 @@
 ---
 title: "Wer furchtet sich vor Barney Stark?"
 author_name: ["Celestino Piatti"]
-year: 1974
+year: y1974
 origin: Germany
 publisher: "Deutscher Taschenbuch Verlag"
 formats: [book, book-cover]

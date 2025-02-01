@@ -1,7 +1,7 @@
 ---
 title: Esta é a Ditosa Pátria Minha Amada
 author_name: "Tóssan"
-year: 1977
+year: y1977
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book, book-cover]

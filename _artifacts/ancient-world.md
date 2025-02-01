@@ -1,7 +1,7 @@
 ---
 title: The Ancient World
 author_name: ["Bruce Robertson"]
-year: 1964
+year: y1964
 origin: United-Kingdom
 publisher: "Penguin Books"
 formats: [book, book-cover]

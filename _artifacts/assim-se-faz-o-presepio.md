@@ -1,7 +1,7 @@
 ---
 title: "Assim se Faz o Presépio"
 author_name: ["Jorge Escalço Valadas"]
-year: 1957
+year: y1957
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

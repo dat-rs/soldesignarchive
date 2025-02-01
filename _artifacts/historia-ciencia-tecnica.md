@@ -1,7 +1,7 @@
 ---
 title: "História da Ciência e da Técnica 1"
 author_name: unknown author
-year: 1963
+year: y1963
 origin: Portugal
 publisher: ["Ulisseia", "Pelican Books"]
 formats: [book-cover, book, illustration, lettering]

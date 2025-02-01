@@ -3,7 +3,7 @@ ref: sol-030-274
 title: "Limites para a Medicina"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Sá da Costa"]
-year: 1977
+year: y1977
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]

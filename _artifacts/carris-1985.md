@@ -1,7 +1,7 @@
 ---
 title: "Guia Informativo Carris 1985"
 author_name: ["Departamento Informação e Design da Carris"]
-year: 1985
+year: y1985
 origin: Portugal
 publisher: "Carris"
 formats: [booklet, book-cover]

@@ -1,7 +1,7 @@
 ---
 title: "Sir Jerry Detective"
 author_name: "João da Câmara Leme"
-year: 1965
+year: y1965
 origin: Portugal
 publisher: "Portugália"
 formats: [book-cover, book]

@@ -3,7 +3,7 @@ ref: sol-140-0010
 title: Os Amores de Scheik
 author_name: ["unknown-author"]
 publisher: []
-year: 1942
+year: y1942
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

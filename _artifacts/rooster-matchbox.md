@@ -3,7 +3,7 @@ ref: sol-470-0000
 title: "rooster cyrilic matchbox"
 author_name: ["unknown authors"]
 publisher: ["unknown publisher"]
-year: 19
+year: y19
 origin: unknown-origin
 formats: [matchbox]
 disciplines: [graphic-design, illustration]

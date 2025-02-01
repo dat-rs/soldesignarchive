@@ -1,7 +1,7 @@
 ---
 title: IV Congresso Internazionale dei Medici Cattolici Roma 1949. Guida e Programma
 author_name: ["unknown author"]
-year: 1949
+year: y1949
 origin: Portugal
 publisher: "IV Congresso Internazionale dei Medici Cattolici"
 formats: [programme, book, book-cover]

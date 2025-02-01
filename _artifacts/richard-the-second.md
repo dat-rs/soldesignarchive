@@ -1,7 +1,7 @@
 ---
 title: Richard the Second
 author_name: ["unknown author"]
-year: 1962
+year: y1962
 origin: united-states
 publisher: "Washington Square Press"
 formats: [book, book-cover]

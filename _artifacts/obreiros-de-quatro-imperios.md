@@ -1,7 +1,7 @@
 ---
 title: "Obreiros de Quatro Impérios"
 author_name: ["João Matoso"]
-year: 1958
+year: y1958
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

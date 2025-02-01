@@ -1,7 +1,7 @@
 ---
 title: "Pureza e Beleza no Falar do Povo"
 author_name: ["Ruy Pacheco"]
-year: 1956
+year: y1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

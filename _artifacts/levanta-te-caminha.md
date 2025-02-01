@@ -1,7 +1,7 @@
 ---
 title: "Levanta-te e Caminha"
 author_name: "Sebastião Rodrigues"
-year: 1962
+year: y1962
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

@@ -1,7 +1,7 @@
 ---
 title: História da Radioactividade
 author_name: "Alves Martins"
-year: 1957
+year: y1957
 origin: Portugal
 publisher: "Atlântida Editora"
 formats: [book, book-cover]

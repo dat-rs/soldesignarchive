@@ -1,7 +1,7 @@
 ---
 title: "A Morte de Tristão"
 author_name: "Sebastião Rodrigues"
-year: 1961
+year: y1961
 origin: Portugal
 publisher: "Editorial Minerva"
 formats: [book, book-cover]

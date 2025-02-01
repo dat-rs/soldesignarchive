@@ -14,7 +14,7 @@ formats:
   - book
 disciplines: [graphic-design, typography, illustration]
 author_name: [João de Mascarenhas]
-year: 1961
+year: y1961
 tags:
   - André Bay
   - black

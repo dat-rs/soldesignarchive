@@ -3,7 +3,7 @@ ref: sol-321-0028
 title: Panorama IV 6
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT
-year: 1963
+year: y1963
 origin: Portugal
 formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]

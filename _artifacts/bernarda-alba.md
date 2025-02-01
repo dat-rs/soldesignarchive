@@ -1,7 +1,7 @@
 ---
 title: "A Casa de Bernarda Alba"
 author_name: "Sebastião Rodrigues"
-year: 1964
+year: y1964
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

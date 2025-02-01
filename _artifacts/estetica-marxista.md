@@ -1,7 +1,7 @@
 ---
 title: "Estética Marxista e Actualidade"
 author_name: ["Dorindo Carvalho"]
-year: 1975
+year: y1975
 origin: Portugal
 publisher: "Prelo"
 formats: [book, book-cover]

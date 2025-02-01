@@ -1,7 +1,7 @@
 ---
 title: Artes e Tradições de Bragança
 author_name: ["Tóssan"]
-year: 1980
+year: y1980
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book, "book cover"]

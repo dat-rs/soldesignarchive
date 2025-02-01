@@ -1,7 +1,7 @@
 ---
 title: "A Doença e os Doentes"
 author_name: ["Thomas de Mello"]
-year: 1956
+year: y1956
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

@@ -3,7 +3,7 @@ ref: sol-234-0009
 title: "Tipos. Deberny et Peignot"
 author_name: ["unknown-author"]
 publisher: ["Stephenson, Blake & Co. Ltd."]
-year: 19
+year: y19
 origin: France
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

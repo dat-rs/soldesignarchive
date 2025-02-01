@@ -3,7 +3,7 @@ ref: sol-140-0009
 title: O Mandarim
 author_name: ["unknown-author"]
 publisher: []
-year: 1942
+year: y1942
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

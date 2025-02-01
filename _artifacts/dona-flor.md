@@ -1,7 +1,7 @@
 ---
 title: "Dona Flor e Seus Dois Maridos"
 author_name: "Estúdios PEA"
-year: 1966
+year: y1966
 origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]

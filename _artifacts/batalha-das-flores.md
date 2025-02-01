@@ -1,7 +1,7 @@
 ---
 title: "Batalha das Flores Avenida da Liberdade 1898"
 author_name: "unknown author"
-year: 1898
+year: y1898
 origin: Portugal
 publisher: "Uma Comissão de Senhoras"
 formats: [ticket, ephemera]

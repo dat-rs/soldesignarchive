@@ -3,7 +3,7 @@ ref: sol-321-0032
 title: Panorama IV 15
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT
-year: 1965
+year: y1965
 origin: Portugal
 formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]

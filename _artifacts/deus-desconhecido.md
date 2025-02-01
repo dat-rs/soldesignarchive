@@ -1,7 +1,7 @@
 ---
 title: A Um Deus Desconhecido
 author_name: "Sebastião Rodrigues"
-year: 1963
+year: y1963
 origin: Portugal
 publisher: "Editorial Gleba"
 formats: [book-cover, book]

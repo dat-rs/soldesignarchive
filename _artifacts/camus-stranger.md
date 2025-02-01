@@ -1,7 +1,7 @@
 ---
 title: "The Stranger"
 author_name: "Leo Lionni"
-year: 1959
+year: y1959
 origin: United-States
 publisher: "Vintage Books"
 formats: [book-cover, book]

@@ -1,7 +1,7 @@
 ---
 title: "Plato - The Man and his Work"
 author_name: "Jack Reich"
-year: 1952
+year: y1952
 origin: United-States
 publisher: "Meridian Books"
 formats: [book-cover, book]

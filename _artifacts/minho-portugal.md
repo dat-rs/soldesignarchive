@@ -1,7 +1,7 @@
 ---
 title: Portugal. Minho
 author_name: ["unknown author"]
-year: 1959
+year: y1959
 origin: Portugal
 publisher: "SPN/SNI/SEIT"
 formats: [stamp, poster-stamp]

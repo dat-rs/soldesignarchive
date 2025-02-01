@@ -1,7 +1,7 @@
 ---
 title: Kira Georgievna
 author_name: ["Sebastião Rodrigues"]
-year: 1963
+year: y1963
 origin: Portugal
 publisher: "Arcádia"
 formats: [book, book-cover]

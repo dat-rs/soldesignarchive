@@ -15,7 +15,7 @@ formats:
 disciplines: [graphic-design, typography]
 author_name:
   - Manuel Correia
-year: 1965
+year: y1965
 tags:
   - Brazil
 image_count:

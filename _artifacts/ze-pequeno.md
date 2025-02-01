@@ -3,7 +3,7 @@ ref: sol-140-0006
 title: O Zé Pequeno
 author_name: ["unknown-author"]
 publisher: []
-year: 1943
+year: y1943
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

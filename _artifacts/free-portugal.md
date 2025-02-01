@@ -1,7 +1,7 @@
 ---
 title: "Free Portugal: Year III"
 author_name: "Tóssan"
-year: 1976
+year: y1976
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book-cover, book]

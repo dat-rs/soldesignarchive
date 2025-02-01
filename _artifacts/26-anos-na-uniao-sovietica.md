@@ -1,7 +1,7 @@
 ---
 title: "26 Anos na União Soviética. Notas de Exílio do «Chico da C.U.F.»"
 author_name: ["Henrique Manuel"]
-year: 1977
+year: y1977
 origin: Portugal
 publisher: "Afrodite"
 formats: [book, book-cover]

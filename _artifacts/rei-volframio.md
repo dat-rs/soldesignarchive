@@ -3,7 +3,7 @@ ref: sol-140-0008
 title: O Rei do Volframio
 author_name: ["unknown-author"]
 publisher: []
-year: 1943
+year: y1943
 origin: Portugal
 formats: [flyer, poster]
 disciplines: [graphic-design, illustration, typography]

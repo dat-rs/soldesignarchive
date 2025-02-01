@@ -3,7 +3,7 @@ ref: sol-321-0021
 title: Panorama III 24
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT
-year: 1961
+year: y1961
 origin: Portugal
 formats: magazine
 disciplines: [graphic-design, illustration, typography, photography]

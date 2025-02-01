@@ -1,7 +1,7 @@
 ---
 title: The Structuralists
 author_name: "Fred Troller"
-year: 1972
+year: y1972
 origin: United-States
 publisher: "Doubleday"
 formats: [book-cover, book]

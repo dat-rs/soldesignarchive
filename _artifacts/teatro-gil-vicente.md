@@ -1,7 +1,7 @@
 ---
 title: "Teatro de Gil Vicente"
 author_name: "Tóssan"
-year: 1959
+year: y1959
 origin: Portugal
 publisher: "Portugália"
 formats: [book-cover, book]

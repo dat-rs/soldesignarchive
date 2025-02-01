@@ -1,7 +1,7 @@
 ---
 title: "Almanaque Junho 1960"
 author_name: ["Sebastião Rodrigues"]
-year: 1960
+year: y1960
 origin: Portugal
 publisher: "Grupo de Publicações Periódicas"
 formats: [magazine, graphic-design]

@@ -3,7 +3,7 @@ ref: sol-030-0246
 title: "O Desenho na Escola"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
-year: 1973
+year: y1973
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

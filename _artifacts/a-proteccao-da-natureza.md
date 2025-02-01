@@ -1,7 +1,7 @@
 ---
 title: "A Protecção da Natureza"
 author_name: ["Fernandes Silva"]
-year: 1955
+year: y1955
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]

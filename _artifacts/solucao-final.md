@@ -3,7 +3,7 @@ ref: sol-030-0086
 title: "A Solução Final"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Ulisseia"]
-year: 1960
+year: y1960
 circa: true
 origin: ["Portugal"]
 formats: ["book, book-cover"]

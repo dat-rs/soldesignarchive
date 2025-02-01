@@ -1,7 +1,7 @@
 ---
 title: Como Nasceu a Portuguesa
 author_name: "Tóssan"
-year: 1978
+year: y1978
 origin: Portugal
 publisher: "Terra Livre"
 formats: [book, book-cover]

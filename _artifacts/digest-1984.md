@@ -1,7 +1,7 @@
 ---
 title: "Seleções do Readers Digest Abril 1984"
 author_name: ["unknown author", "Maluda"]
-year: 1984
+year: y1984
 origin: Portugal
 publisher: "Seleções do Readers Digest"
 formats: [magazine]

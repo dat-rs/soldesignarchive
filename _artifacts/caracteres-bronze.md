@@ -3,7 +3,7 @@ ref: sol-234-0005
 title: "Caractères en Bronze"
 author_name: ["unknown-author"]
 publisher: []
-year: 19
+year: y19
 origin: France
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
