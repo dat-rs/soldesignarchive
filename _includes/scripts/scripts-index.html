@@ -6,16 +6,11 @@
     const mainOptions = {
       infinite: true,
       Dots: false,
+      Autoplay: {
+        timeout: 3000,
+      },
     };
 
 const mainCarousel = new Carousel(mainContainer, mainOptions);
 
-
-  //reloads page once (fixes layout bug)
-  window.onload = function () {
-    if (!window.location.hash) {
-      window.location = window.location + '#a';
-      window.location.reload();
-    }
-  }
   </script>
