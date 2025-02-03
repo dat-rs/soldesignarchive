@@ -238,6 +238,7 @@ p.about-sol {
   font-family: $titlecondensed;
   font-weight: 700;
   font-size: 22px;
+  letter-spacing: 0.3px;
   padding-top: 8px;
   padding-bottom: 2px;
   border-bottom: 4px solid;
@@ -2461,6 +2462,15 @@ img.artifact-img {
   --f-button-active-bg: #f0f0f0;
 }
 
+.f-carousel.latest-carousel {
+  --f-button-bg: transparent;
+  --f-button-shadow: 0 0 0 0 rgb(0 0 0 / 0%), 0 0 0 0 rgb(0 0 0 / 0%);
+}
+
+.latest-carousel .f-carousel__dots {
+  background-color: $bg-white;
+}
+
 .fancybox__backdrop {
   --fancybox-bg: #000000;
 }
@@ -2511,13 +2521,13 @@ img.artifact-img {
 
 .latest-carousel-slide {
   --f-carousel-slide-padding: 8px;
-  --f-carousel-slide-width: 45%;
+  --f-carousel-slide-width: 33.33%;
 
   @media (min-width: 576px) {
-    --f-carousel-slide-width: 30%;
+    --f-carousel-slide-width: 20%;
   }
   @media (min-width: 768px) {
-    --f-carousel-slide-width: 18%;
+    --f-carousel-slide-width: 12.5%;
   }
   @media (min-width: 992px) {
   }
@@ -3201,8 +3211,8 @@ span.fn-title {
 
 .latest-container-outer {
   background-color: black;
-  padding-top: 60px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 .latest-container {
@@ -3215,8 +3225,7 @@ span.fn-title {
   padding-bottom: 30px;
 }
 
-.container-index-about,
-.latest-container-outer {
+.container-index-about {
   padding-top: 30px;
   padding-bottom: 30px;
   min-height: 75vh;
