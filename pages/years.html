@@ -12,13 +12,13 @@ page-meta-image=page.image %}
 <div class="container-outer years first-after-header">
   <div class="container-md container-allcats">
     <div class="row datum-section allcats">
-      <div class="col-12 col-md-2 datum-left-col">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
         <div class="left-col-fixed">
-          <h3 class="section-title allcats text-center">Years</h3>
+          <h3 class="section-title allcats">Years</h3>
         </div>
       </div>
 
-      <div class="col-12 col-md-8 datum-right-col allcats-big-short">
+      <div class="col-12 col-sm-9 col-md-10 datum-right-col allcats-nosearch">
         {%- for year in site.years -%} {%- assign filtered_artifacts = pub_artifacts | where: 'year', year.name -%}
         <a class="title allcat-item year capitalize text-wrap" href="{{ year.url }}">{{ year.title }}<span class="cat-count year">[{{filtered_artifacts.size}}]</span>
         </a>
