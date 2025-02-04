@@ -12,18 +12,17 @@ page-meta-image=page.image %}
 <div class="container-outer formats first-after-header">
   <div class="container-md container-allcats">
     <div class="row datum-section allcats">
-      <div class="col-12 col-md-2 datum-left-col">
+      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
         <div class="left-col-fixed">
-          <h3 class="section-title allcats text-center">Formats</h3>
+          <h3 class="section-title allcats">Formats</h3>
         </div>
       </div>
-      <div class="col-12 col-md-8 datum-right-col allcats-big-short row">
+      <div class="col-12 col-sm-9 col-md-10 datum-right-col allcats-big-short row">
         {% for format in site.formats %} 
         {% assign filtered_artifacts = pub_artifacts | where: 'formats', format.name %} 
         {% unless filtered_artifacts.size == 0 %}
-          <div class="col-12 allcat big {% if forloop.first == true %}first{% endif %} text-wrap text-center text-md-start">
-            <a class="title allcat-item format capitalize text-wrap" href="{{ format.url }}"><span
-                class="cat-count format fake d-md-none">[{{ filtered_artifacts.size }}]</span>{{ format.name |
+          <div class="col-12 allcat big {% if forloop.first == true %}first{% endif %} text-wrap">
+            <a class="title allcat-item format capitalize text-wrap" href="{{ format.url }}">{{ format.name |
               remove_first: " " | replace: "-", " " }}<span class="cat-count format">[{{ filtered_artifacts.size
                 }}]</span></a>
           </div>
