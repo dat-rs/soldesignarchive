@@ -24,9 +24,9 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
                 <a class="a-module grid" href="{{ artifact.url }}">
                   <div class="a-module-img-holder mason">
                     {% if artifact.published == false %}
-                    <img class="grid-img" loading="lazy" src="/images/non-art/empty-tile.png">
+                    <img class="grid-img allartifacts" loading="lazy" src="/images/non-art/empty-tile.png">
                     {% else %}
-                    <img class="grid-img" loading="lazy" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg"
+                    <img class="grid-img allartifacts" loading="lazy" src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg"
                       alt="{{ artifact.title }}">
                     {% endif%}
                   </div>

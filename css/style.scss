@@ -2803,9 +2803,11 @@ p.timeline-item {
 }
 
 .grid-img {
-  width: 75px;
   max-width: 100%;
   background-color: black;
+  &.allartifacts {
+    width: 75px;
+  }
 }
 
 .a-module-img,
