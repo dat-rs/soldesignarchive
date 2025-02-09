@@ -5,7 +5,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 {% assign processed_title = page.title | replace: "-barra-", "/" | replace: "-dot-", "." %} {% capture description
 %}Browse artifacts published/commissioned by {{ processed_title }} at Sol Design Archive.{% endcapture %}
 <!--  -->
-{% include head-and-header.html page-meta-title=page.name page-meta-description=description page-meta-url=page.url
+{% include head-and-header.html page-meta-title=page.title page-meta-description=description page-meta-url=page.url
 page-meta-image=layout.image %}
 
 {% assign pub_artifacts = site.artifacts | where: 'published', true %}

@@ -4,7 +4,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 
 <!--  -->
 {% capture description %}Browse artifacts tagged «{{ page.title | capitalize }}» at the Sol Design Archive.{% endcapture
-%} {% include head-and-header.html page-meta-title=processed_title page-meta-url=page.url
+%} {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url
 page-meta-description=description page-meta-image=layout.image %} {% assign striped_content = page.content |
 strip_newlines %}
 
@@ -27,7 +27,7 @@ strip_newlines %}
 <div class="container-md container-cat simple {% unless page.hero_image %}first-after-header{% endunless %}">
   <div class="row datum-section title">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <h3 class="cat-label origin">Tag <span class="tag-arrow">⤵</span><br><span class="subtag capitalize"> {{ page.type | replace: '_', ' ' }}</span></h3>
+      <h3 class="cat-label origin">Tag <span class="tag-arrow">↴</span><br><span class="subtag capitalize"> {{ page.type | replace: '_', ' ' }}</span></h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-7 datum-right-col">
       <h1 class="title artifact self datum" data-pagefind-meta="title">{{ page.title }}</h1>
