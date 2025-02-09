@@ -4,7 +4,7 @@
     {% assign selected_artifacts = selected_artifacts_2 | where: "published", true %}
     {% for artifact in selected_artifacts %}
       <div class="artifact-grid-col col-3 col-sm-2 col-md-1 {{ artifact.formats | join: " " }} {{ artifact.disciplines | join: " " }} {{ artifact.year }} {{ artifact.origin | join: " " }}">
-        <a class="a-module grid" href="{{ artifact.url }}">
+        <a class="a-module masonry" href="{{ artifact.url }}">
           <div class="a-module-img-holder mason">
             {% if artifact.published == false %}
             <img class="grid-img" loading="lazy" src="/images/non-art/empty-tile.png">

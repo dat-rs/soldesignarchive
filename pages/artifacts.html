@@ -21,7 +21,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
               <div class="artifact-grid-col col-auto {{ artifact.formats | join: " " }} {{ artifact.disciplines | join: " " }} {{ artifact.year }} {{ artifact.origin | join: " " }}">
                 <h2 class="ghost-info">{{ artifact.title }}</h2>
                 <p class="ghost-info">{{ artifact.author_name | join: " " }}</p>
-                <a class="a-module grid" href="{{ artifact.url }}">
+                <a class="a-module masonry" href="{{ artifact.url }}">
                   <div class="a-module-img-holder mason">
                     {% if artifact.published == false %}
                     <img class="grid-img allartifacts" loading="lazy" src="/images/non-art/empty-tile.png">
