@@ -113,38 +113,6 @@ $viewport-less-header-xl-half: calc(50vh - 30px);
 
 @import url("fonts/founders-grotesk.css");
 
-/* Trade, Tiempos, Inter 
-
-$title: trade-gothic-next-compressed;
-$title: trade-gothic-next;
-$title: trade-gothic-next;
-$bodyfont: "Tiempos-Text-Regular";
-$paratext: "Inter";
-$titlecondensed: "Delphia Wide Trial";
-
-*/
-
-/* Delphia, Tiempos, Inter 
-
-$title: "Delphia Cond Trial";
-$title: "Delphia Cond Trial";
-$title: "Inter";
-$bodyfont: "Tiempos-Text-Regular";
-$paratext: "Inter";
-$titlecondensed: "Delphia Cond Trial";
-
-*/
-
-/* National 2 Narrow, Tiempos, Inter 
-
-$title: "National 2 Condensed";
-$title: "National 2 Narrow";
-$bodyfont: "Tiempos-Text-Regular";
-$paratext: "Inter";
-$titlecondensed: "National 2 Narrow";
-
-*/
-
 /* Founders Grotesk, Tiempos, Inter */
 
 $titlecondensed: "Founders Grotesk Condensed";
@@ -561,8 +529,10 @@ h3.title.datum-title.disciplines-index-poster {
 }
 
 .tag-arrow {
+  font-family: $paratext, sans-serif;
+  font-size: 0.8rem;
   display: inline-block;
-  vertical-align: text-bottom;
+  vertical-align: baseline;
 }
 
 .related-label {
@@ -2729,7 +2699,7 @@ p.timeline-item {
 }
 
 .a-module.grid {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .row.prev-next {
@@ -2773,8 +2743,7 @@ p.timeline-item {
 .a-module.prev-next:hover .a-module-img-holder .prev-next-img {
   opacity: 1;
   transition: mix-blend-mode 0.3s ease;
-  filter: grayscale(100%);
-  mix-blend-mode: screen;
+  mix-blend-mode: luminosity, screen;
 }
 
 .a-module-img-holder {
