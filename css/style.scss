@@ -567,9 +567,6 @@ h3.title.datum-title.disciplines-index-poster {
   @media (min-width: 1200px) {
     padding-top: 4px;
   }
-  .fourofour-label {
-
-  }
 }
 
 .body-copy,
@@ -2973,22 +2970,6 @@ h3.post-text-title {
   text-align: left;
 }
 
-.caption.bottom::before {
-  content: "↑";
-  padding-right: 4px;
-}
-
-.caption {
-  &.blog-header {
-    margin-top: 8px;
-  }
-  &.detached {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 30px;
-  }
-}
-
 .std-post-img {
   margin-bottom: 24px;
 }
@@ -3050,6 +3031,32 @@ h3.post-text-title {
   content: "→";
   padding-right: 4px;
   display: block;
+}
+
+.caption.bottom::before {
+  content: "↑";
+  padding-right: 4px;
+}
+
+.caption.bottomthenleft::before {
+  content: "↑";
+  padding-right: 4px;
+  @media (min-width: 576px) {
+    content: "→";
+    padding-right: 4px;
+  }
+}
+
+.caption {
+  &.blog-header {
+    margin-top: 8px;
+  }
+
+  &.detached {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
 }
 
 /* Shorts */
@@ -3154,7 +3161,7 @@ span.fn-title {
   }
 }
 
-/* Rainbow section @ Index */
+/* Rainbow */
 
 #latest-grid,
 .row.rainbow {
@@ -3162,10 +3169,17 @@ span.fn-title {
   align-items: end;
 }
 
-.latest-container-outer {
+.container-fluid.rainbow {
   background-color: black;
-  padding-top: 30px;
-  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.fourofour {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #000;
+  color: $off-1;
 }
 
 .latest-container {
@@ -3453,18 +3467,11 @@ img.artifact-img.random-feature {
   padding-bottom: 90px;
 }
 
-.page-not-found {
+h1.page-not-found {
   font-family: $titlecondensed;
-  font-weight: 400;
-  font-size: 80px;
-  line-height: 70px;
-  
-}
-
-.page-not-found h1 {
-  font-size: 80px;
-  line-height: 70px;
+  line-height: 40px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 @keyframes colors {

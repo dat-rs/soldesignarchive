@@ -7,6 +7,28 @@ permalink: /404.html
 
 {% include head-and-header.html page-meta-title=layout.title page-meta-description=layout.description page-meta-image=layout.image %}
 
+<div class="container-fluid rainbow first-after-header">
+{% include rainbow.html start-end-switch="end" %}
+</div>
+
+<div class="container-fluid fourofour">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="page-not-found">
+        Page not found
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid rainbow">
+  {% include rainbow.html start-end-switch="start" %}
+</div>
+
+
+
+<!-- 
+
 <div class="outer-container first-after-header">
   <img src="/images/non-art/sol-404.jpg" alt="404">
 
@@ -17,14 +39,13 @@ permalink: /404.html
       <span class="fourofour-label">404 Error</span>
     </div>
     <div class="col-12 col-sm-9 col-lg-8 col-xl-7">
-      <div class="page-not-found">
-        <h1>Page not found.</h1> 
-        The requested page could not be found.
-      </div>
+      
     </div>
   </div>
 </div>
 </div>
+
+-->
 
 {% include footer.html %}
 {% include the-end.html %}
