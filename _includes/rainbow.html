@@ -1,7 +1,5 @@
-<div class="container-fluid latest-container-outer-b">
-  <div class="container-fluid latest-container-b-mid one first-after-header">
-    <div class="container latest-container-b-deep one d-flex align-items-center justify-content-center">
-      <div class="row rainbow">
+    <div class="container">
+      <div class="row rainbow align-items-{{ include.start-end-switch}}">
         <div class="col-1">
           <a class="a-module sm grid" href="/artifacts/segunda-vitoria/">
             <div class="a-module-img-holder">
@@ -107,19 +105,3 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="container-fluid latest-container-b-mid two" style="background-color: #ebded3">
-    <div class="container latest-container-b-deep two">
-      <!-- ROW 2 -->
-      <div class="row rainbow-about">
-        <div class="col-12 col-lg-8 offset-lg-2">
-          <h3 class="section-title">About</h3>
-          {% assign published_artifacts = site.artifacts | where: 'published', 'true' %} {% assign published_authors =
-          site.authors | where: 'published', 'true' %}
-
-          <p class="about-sol rainbow">{% include about-sol.md %}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>

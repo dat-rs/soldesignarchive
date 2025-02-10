@@ -22,18 +22,8 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   </div>
 
   <div class="row datum-section feature-img author align-items-end">
-    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <div class="caption feature-img">
-        {% if page.image_path %}
-        {{ page.image_caption }}
-        {% else %}
-        {{ filtered_artifacts[number].title }} <br>
-        ({{ filtered_artifacts[number].year | remove_first: 'y' }}) <br>
-        {{ filtered_artifacts[number].ref }}
-        {% endif %}
-      </div>
-    </div>
-    <div class="col-12 col-sm-9 col-md-10 col-lg-9 col-xl-7 datum-right-col">
+
+    <div class="col-12 col-sm-9 col-md-10 col-lg-9 col-xl-7 datum-right-col order-sm-last">
       {% if page.image_path %} 
       <figure class="feature-img artifact">
       <div class="artifact-holder">
@@ -48,6 +38,20 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
           </figure>
       {% endif %}
     </div>
+
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col order-sm-first">
+      <div class="caption bottomthenleft feature-img">
+        {% if page.image_path %}
+        {{ page.image_caption }}
+        {% else %}
+        {{ filtered_artifacts[number].title }} <br>
+        ({{ filtered_artifacts[number].year | remove_first: 'y' }}) <br>
+        {{ filtered_artifacts[number].ref }}
+        {% endif %}
+      </div>
+    </div>
+
+
   </div>
 
   {% assign test_content = content | strip_newlines %} {% if test_content != "" %}
