@@ -1,5 +1,5 @@
 ---
-title: "Cheat Sheet - Sol Design Archive"
+title: "Sol Decimal System - Sol Design Archive"
 back-office: true
 published: false
 ---
@@ -7,7 +7,18 @@ published: false
 {% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
 page-meta-description=page.description page-meta-image=page.image %}
 
-{% include baoff-sub-header.html %}
+{% include baoff-sub-header.html this-page="cheat" %}
+
+<div class="container-fluid">
+    <div id="artifacts-search" class="row no-gutters baoff-artifacts-header">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
+            <h3 class="filter-title">
+                Static list of the Sol Decimal system. Left column indicates the highest count of artifacts in each group.
+            </h3>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid back-office">
 
@@ -26,13 +37,26 @@ page-meta-description=page.description page-meta-image=page.image %}
                 </div>
 
                 <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {%- for artifact in site.artifacts -%}
+                            {%- assign current_ref = artifact.ref -%}
+                        {%- endfor -%}
+                    </div>
+                </div>
+
+                {% assign album = site.artifacts
+                | where_exp:"album", "album.title == 'My Amazing Album'"
+                | first %}
+
+                <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-010-0070</div>
                 </div>
+
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-020-0001</div>
                 </div>
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-030-0260</div>
+                    <div class="col-12 faux-table-col">sol-030-0274</div>
                 </div>
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">-</div>
@@ -62,7 +86,7 @@ page-meta-description=page.description page-meta-image=page.image %}
                     <div class="col-12 faux-table-col">sol-120-0000</div>
                 </div>
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-121-0049</div>
+                    <div class="col-12 faux-table-col">sol-121-0095</div>
                 </div>
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-130-0001</div>
@@ -148,13 +172,13 @@ page-meta-description=page.description page-meta-image=page.image %}
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">-</div>
                 </div>
+                
+                                <div class="row artifact-table-row">
+                                    <div class="col-12 faux-table-col">-</div>
+                                </div>
 
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-241-0001</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
                 </div>
 
                 <div class="row artifact-table-row">
@@ -194,12 +218,21 @@ page-meta-description=page.description page-meta-image=page.image %}
                 </div>
 
                 <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">-</div>
+                </div>
+
+                <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-320-0013</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">-</div>
                 </div>
 
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-321-0042</div>
                 </div>
+
 
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-322-0006</div>
@@ -221,9 +254,6 @@ page-meta-description=page.description page-meta-image=page.image %}
                     <div class="col-12 faux-table-col">-</div>
                 </div>
 
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
 
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">-</div>
@@ -231,6 +261,10 @@ page-meta-description=page.description page-meta-image=page.image %}
 
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-333-0001</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">-</div>
                 </div>
 
                 <div class="row artifact-table-row">
@@ -250,6 +284,10 @@ page-meta-description=page.description page-meta-image=page.image %}
                 </div>
 
                 <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">sol-440-0000</div>
+                </div>
+
+                <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">-</div>
                 </div>
 
@@ -259,6 +297,22 @@ page-meta-description=page.description page-meta-image=page.image %}
 
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">sol-460-0000</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">-</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">sol-470-0001</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">sol-475-0003</div>
+                </div>
+                
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">sol-480-0000</div>
                 </div>
 
                 <div class="row artifact-table-row">
@@ -784,6 +838,12 @@ page-meta-description=page.description page-meta-image=page.image %}
                 <div class="row artifact-table-row level-three">
                     <div class="col-1 faux-table-col ref">475</div>
                     <div class="col-10 faux-table-col">Matchbooks</div>
+                
+                </div>
+
+                <div class="row artifact-table-row level-two">
+                    <div class="col-1 faux-table-col ref">480</div>
+                    <div class="col-10 faux-table-col">Product Manuals and Instructions</div>
                 
                 </div>
 

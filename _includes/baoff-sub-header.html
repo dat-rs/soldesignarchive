@@ -5,22 +5,23 @@
     <div class="col-4 sub-header-col baoff">There are currently {{ site.artifacts.size }} artifacts in the database. 
     </div>
 
-    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd">
-      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db.html">Main DB</a>
+    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd {%- if include.this-page == 'main' -%}&nbsp; active &nbsp;{%- endif -%}">
+      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db.html">Main</a>
     </div>
 
-    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd">
-      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db-status.html">Status</a>
+    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd {%- if include.this-page == 'status' -%}&nbsp; active &nbsp;{%- endif -%}">
+      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db-status.html">Artifact Status</a>
     </div>
 
-    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff even">
-      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db-refs.html">Refs</a>
+    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff even {%- if include.this-page == 'refs' -%}&nbsp; active &nbsp;{%- endif -%}">
+      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/db-refs.html">Highest Refs</a>
     </div>
 
-    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd">
-      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/cheat-sheet.html">Cheat Sheet</a>
+    <div class="col-4 col-sm-12 col-md sub-header-col col-baoff odd {%- if include.this-page == 'cheat' -%}&nbsp; active &nbsp;{%- endif -%}">
+      <a class="sub-header-link baoff stretched-link align-middle" href="/pages/back-office/cheat-sheet.html">Decimal System</a>
     </div>
 
+  
   </div>
 
 </div>

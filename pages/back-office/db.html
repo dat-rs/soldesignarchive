@@ -6,7 +6,9 @@ regenerate: true
 ---
 
 {% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
-page-meta-description=page.description page-meta-image=page.image %} {% include baoff-sub-header.html %}
+page-meta-description=page.description page-meta-image=page.image %} 
+
+{% include baoff-sub-header.html this-page="main" %}
 
 <div class="container-fluid">
   <div id="artifacts-search" class="row no-gutters baoff-artifacts-header">
@@ -58,7 +60,7 @@ page-meta-description=page.description page-meta-image=page.image %} {% include 
         <img
           class="db-img"
           loading="lazy"
-          src="/images/tiles/{{ artifact.ref }}-{{ artifact.slug }}-tile.jpg"
+          src="/images/sm/{{ artifact.ref }}-{{ artifact.slug }}-sm.jpg"
           alt="{{ artifact.title }}"
         />
         {% endif %}

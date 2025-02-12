@@ -7,20 +7,20 @@ regenerate: true
 
 {% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
   
-{% include baoff-sub-header.html %}
+{% include baoff-sub-header.html this-page="refs" %}
 
 <div class="container-fluid">
   <div id="artifacts-search" class="row no-gutters baoff-artifacts-search">
 
     <div class="col-6 col-xxl-6">
-      <h3 class="filter-title"><span class="title-label">Search</span></h3>
+      <h3 class="filter-title">Search</h3>
       <input type="text" class="quicksearch baoff" placeholder="" />
 
     </div>
 
     <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
 
-      <h3 class="filter-title"><span class="title-label">Sort by</span></h3>
+      <h3 class="filter-title">Sort by</h3>
 
       <button class="button is-checked left" data-sort-value="original-order">ref desc. ↓</button>
       <button class="button middle" data-sort-value="date">Date updated desc. ↓</button>

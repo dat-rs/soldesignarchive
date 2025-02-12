@@ -173,6 +173,7 @@ a.text.reg-link,
 
 .post-text blockquote {
   font-size: 0.8em;
+  line-height: 24px;
   margin-left: 45px;
   width: 75%;
   text-align: justify;
@@ -419,6 +420,9 @@ $datum-section-spacer: 100px;
   &.page-not-found {
     padding-bottom: 90px;
   }
+  &.short-link {
+    padding-bottom: 30px;
+  }
 }
 
 .datum-row.timeline-row.last {
@@ -487,7 +491,7 @@ h3.title.datum-title.disciplines-index-poster {
   padding-bottom: 0px;
   @media (min-width: 576px) {
     font-size: 18px;
-    padding-top: 2px;
+    padding-top: 3px;
   }
   @media (min-width: 768px) {
     font-size: 18px;
@@ -502,7 +506,7 @@ h3.title.datum-title.disciplines-index-poster {
 
 .deet-label {
   @media (min-width: 768px) {
-    padding-top: 4px;
+    padding-top: 5px;
   }
 }
 
@@ -645,16 +649,16 @@ h3.title.datum-title.disciplines-index-poster {
   margin-top: 15px;
   margin-bottom: 0px;
   @media (min-width: 576px) {
-    padding-top: 10px;
+    padding-top: 9px;
   }
   @media (min-width: 768px) {
-    padding-top: 19px;
+    padding-top: 17px;
   }
   @media (min-width: 992px) {
-    padding-top: 25px;
+    padding-top: 23px;
   }
   @media (min-width: 1200px) {
-    padding-top: 33px;
+    padding-top: 31px;
   }
 }
 
@@ -955,6 +959,10 @@ h1.site-title a:hover {
   background-color: black;
 }
 
+.col-baoff.active {
+  background-color: $artifact-color;
+}
+
 .col-baoff.odd {
   background-color: $off-2;
 }
@@ -1066,6 +1074,10 @@ h1.site-title a:hover {
 
 .sub-header-link.baoff:hover {
   color: $artifact-color;
+}
+
+.col-baoff.active .sub-header-link.baoff:hover {
+  color: $off-1;
 }
 
 .sub-header-link:hover {
@@ -2128,7 +2140,7 @@ i.bi-images.a-module-corner-icon {
 
 #artifacts-grid-row {
   --bs-gutter-x: 0.75rem;
-  padding-top: 8px;
+  padding-top: 0px;
   background-color: black;
   min-height: 80vh;
   padding-bottom: 120px;
@@ -3265,8 +3277,9 @@ p.about-sol {
 
 /* BACK OFFICE */
 
-.baoff-artifacts-header {
-  background-color: black;
+.baoff-artifacts-header,
+.baoff-artifacts-search {
+  background-color: $artifact-color;
 }
 
 .baoff-status-header {
@@ -3327,7 +3340,11 @@ p.about-sol {
 
 .artifact-table-row,
 .faux-table-head-row {
-  padding-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-bottom: 0px;
   width: 100%;
 }
