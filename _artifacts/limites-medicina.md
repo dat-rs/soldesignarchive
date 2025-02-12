@@ -1,5 +1,5 @@
 ---
-ref: sol-030-274
+ref: sol-030-0274
 title: "Limites para a Medicina"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Sá da Costa"]
