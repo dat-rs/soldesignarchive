@@ -1,17 +1,18 @@
 ---
-ref: sol-030-0276
+ref_group: "030"
+ref_id: "0276"
 title: "Verba (Escaparate de Axiomas)"
-author_name: []
-publisher: []
-year: y19
-origin:
+author_name: [unknown author]
+publisher: [Mario Angel Marrodán]
+year: y1968
+origin: [Catalonia, Spain]
 formats: [book, book-cover]
-disciplines: [graphic-design, illustration, typography]
-tags:
+disciplines: [graphic-design, typography]
+tags: [poetry, Mario Angel Marrodán]
 layout: artifact
-status: offline
-published: false
-image_count:
+status: complete
+published: true
+image_count: 2
 date_added: 2025-02-11
-batch:
+batch: bcndec23
 ---

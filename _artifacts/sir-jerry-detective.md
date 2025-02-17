@@ -7,7 +7,8 @@ publisher: "Portugália"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Mad H. Giraud", "Biblioteca dos Rapazes"]
-ref: sol-010-0015
+ref_group: "010"
+ref_id: "0015"
 layout: artifact
 status: complete
 published: true

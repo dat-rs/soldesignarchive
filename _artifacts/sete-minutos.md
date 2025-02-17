@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0211
+ref_group: "030"
+ref_id: "0211"
 title: "Os Sete Minutos"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Livraria Clássica Editora"]

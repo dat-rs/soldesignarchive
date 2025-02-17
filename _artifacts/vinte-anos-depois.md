@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0004
+ref_group: "010"
+ref_id: "0004"
 title: "Vinte Anos Depois"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]

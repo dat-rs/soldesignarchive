@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0200
+ref_group: "030"
+ref_id: "0200"
 title: "Um Amigo"
 author_name: ["Dick Stenberg"]
 publisher: ["Editorial Presença"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-470-0000
+ref_group: "470"
+ref_id: "0000"
 title: "rooster cyrilic matchbox"
 author_name: ["unknown authors"]
 publisher: ["unknown publisher"]

@@ -7,7 +7,8 @@ publisher: "Editorial Estampa"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["José de Almada-Negreiros", Kabel]
-ref: sol-030-0037
+ref_group: "030"
+ref_id: "0037"
 layout: artifact
 status: complete
 published: true

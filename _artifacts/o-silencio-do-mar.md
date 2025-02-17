@@ -7,7 +7,8 @@ publisher: ["Atlântida Editora", "Coimbra Editora"]
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [Vercors, Centauro]
-ref: sol-010-0023
+ref_group: "010"
+ref_id: "0023"
 layout: artifact
 status: complete
 published: true

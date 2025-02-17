@@ -2,12 +2,13 @@
 title: J. Martinez Gallego
 author_name: ["unknown author"]
 year: y1991
-origin: [Spain, Catalonia]
+origin: [Catalonia, Spain]
 publisher: "Casa del Poble"
 formats: [brochure]
 disciplines: ["graphic-design", typography]
 tags: [art]
-ref: sol-130-0000
+ref_group: "130"
+ref_id: "0000"
 wip:
 layout: artifact
 status: complete

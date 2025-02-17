@@ -46,17 +46,6 @@
         </div>
       <br>
     </div>
-    <div class="datum-row row artifact-deets-row">
-       <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-          <span class="deet-label tag hanging">Tags</span>
-        </div>
-        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
-          {% for tag in page.tags %}
-      <a class="deet-link tag" href="/tags/{{ tag | replace: "/", "-barra-" | replace: ".", "-dot-" | replace: "[" ,"-obr-" | replace: "]" ,"-cbr-" }}">{{ tag }}</a>
-      {% endfor %}
-       {% if page.tags.size == 0 %}—{% endif %}
-        </div>
-    </div>
 
     <div class="datum-row row artifact-deets-row">
       <div class="col-12 col-sm-3 col-md-2 datum-left-col">
@@ -80,17 +69,18 @@
         </div>
     </div>
 
-    <!--
-    <div class="datum-row row artifact-deets-row">
-
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-       <span class="deet-label hanging">Reference</span>
-      </div>
-      <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
-         <span class="reference">{{ page.ref | remove_first: "sol-"}}</span>
-      </div>
-    </div>
-    -->
+        <div class="datum-row row artifact-deets-row">
+          <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+            <span class="deet-label tag hanging">Tags</span>
+          </div>
+          <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+            {% for tag in page.tags %}
+            <a class="deet-link tag" href="/tags/{{ tag | replace: " /", "-barra-" | replace: "." , "-dot-" | replace: "["
+              ,"-obr-" | replace: "]" ,"-cbr-" }}">{{ tag }}</a>
+            {% endfor %}
+            {% if page.tags.size == 0 %}—{% endif %}
+          </div>
+        </div>
 
     {% if page.status == "wip" %}
     <div class="datum-row row artifact-deets-row">

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0019
+ref_group: "160"
+ref_id: "0019"
 title: "pála-pála"
 author_name:
 year:

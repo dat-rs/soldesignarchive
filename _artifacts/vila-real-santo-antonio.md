@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0087
+ref_group: "121"
+ref_id: "0087"
 title: "Vila Real de Santo António"
 author_name:
 publisher:

@@ -7,7 +7,8 @@ publisher: "Livraria Civilização"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration, lettering]
 tags: [fiction]
-ref: sol-030-0216
+ref_group: "030"
+ref_id: "0216"
 layout: artifact
 status: complete
 published: true

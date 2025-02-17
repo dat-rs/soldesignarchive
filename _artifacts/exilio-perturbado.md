@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0001
+ref_group: "010"
+ref_id: "0001"
 title: "Exílio Perturbado"
 author_name: ["unknown author"]
 publisher: ["Bertrand"]

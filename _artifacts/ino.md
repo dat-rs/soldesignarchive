@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0029
+ref_group: "160"
+ref_id: "0029"
 title: "INÔ"
 author_name:
 year:

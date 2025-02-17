@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0036
+ref_group: "030"
+ref_id: "0036"
 title: "Pigmaleão"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Verbo"]

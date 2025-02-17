@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0021
+ref_group: "160"
+ref_id: "0021"
 title: "Material eléctrico"
 author_name:
 year:

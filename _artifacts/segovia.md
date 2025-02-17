@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0050
+ref_group: "121"
+ref_id: "0050"
 title: "Segovia"
 author_name: ["unknown author"]
 publisher: ["Direccion General del Turismo"]

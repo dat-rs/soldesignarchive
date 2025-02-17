@@ -1,17 +1,18 @@
 ---
-ref: sol-530-0003
+ref_group: "530"
+ref_id: "0003"
 title: "Banco Espírito Santo e Comercial de Lisboa"
-author_name: []
-publisher: []
-year: y19
-origin:
-formats: [book, book-cover]
+author_name: [unknown author]
+publisher: "Banco Espírito Santo e Comercial de Lisboa"
+year: unknown-date
+origin: Portugal
+formats: [envelope]
 disciplines: [graphic-design, illustration, typography]
-tags:
+tags: [Eurostile/Microgramma]
 layout: artifact
-status: offline
-published: false
+status: complete
+published: true
 image_count:
 date_added: 2025-02-11
-batch:
+batch: jsb/misc
 ---

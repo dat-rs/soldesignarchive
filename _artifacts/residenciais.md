@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0120
+ref_group: "160"
+ref_id: "0120"
 title: "Residenciais"
 author_name:
 year:

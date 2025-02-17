@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0013
+ref_group: "140"
+ref_id: "0013"
 title: A Sopa Juliana
 author_name: ["unknown-author"]
 publisher: []

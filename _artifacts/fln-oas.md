@@ -7,7 +7,8 @@ publisher: "Ulisseia"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography]
 tags: [non-fiction, "Herbert Steinhouse"]
-ref: sol-030-0184
+ref_group: "030"
+ref_id: "0184"
 layout: artifact
 status: complete
 published: true

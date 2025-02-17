@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0050
+ref_group: "030"
+ref_id: "0050"
 title: "As Verdes Colinas de África"
 author_name: ["Infante do Carmo"]
 publisher: ["Livros do Brasil"]

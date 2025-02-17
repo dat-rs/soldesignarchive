@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0022
+ref_group: "160"
+ref_id: "0022"
 title: "BPA"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0069
+ref_group: "121"
+ref_id: "0069"
 title: "Alrededores de Madrid"
 author_name:
 publisher:

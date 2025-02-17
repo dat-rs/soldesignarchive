@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0182
+ref_group: "030"
+ref_id: "0182"
 title: "Marx Engels"
 author_name: ["Acácio Santos"]
 publisher: ["Seara Nova"]

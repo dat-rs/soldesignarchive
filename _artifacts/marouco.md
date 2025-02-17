@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0056
+ref_group: "160"
+ref_id: "0056"
 title: "M. Marouço & Cª Lda."
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0093
+ref_group: "121"
+ref_id: "0093"
 title: "Brussels"
 author_name:
 publisher:

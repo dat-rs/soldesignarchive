@@ -33,7 +33,7 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
       {% else %}
           <figure class="feature-img artifact">
             <div class="artifact-holder">
-              <img src="/images/{{ filtered_artifacts[number].ref }}-{{ filtered_artifacts[number].slug }}.jpg" alt="">
+              <img src="/images/sol-{{ filtered_artifacts[number].ref_group }}-{{ filtered_artifacts[number].ref_id }}-{{ filtered_artifacts[number].slug }}.jpg" alt="">
             </div>
           </figure>
       {% endif %}
@@ -46,7 +46,7 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
         {% else %}
         {{ filtered_artifacts[number].title }} <br>
         ({{ filtered_artifacts[number].year | remove_first: 'y' }}) <br>
-        {{ filtered_artifacts[number].ref }}
+        sol-{{ filtered_artifacts[number].ref_group }}-{{ filtered_artifacts[number].ref_id }}
         {% endif %}
       </div>
     </div>
@@ -118,8 +118,17 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   {% include resources-section.html %} 
   {% endif %}
 
+
+
   <!-- RELATED -->
-  {% if page.related_authors or page.related_publishers or page.related_tags %}
+
+   {%- if page.rel_authors or page.rel_publishers or page.rel_tags != null -%}
+   {%- assign at_least_one_rel = true -%}
+   {%- else -%}
+   {%- assign at_least_one_rel = false -%}
+   {%- endif -%}
+
+  {% if at_least_one_rel == true %}
   <div class="row datum-section related top-border">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">Related</h3>
@@ -128,49 +137,49 @@ page-meta-title=page.name page-meta-description=description page-meta-url=page.u
   </div>
 
   <!-- authors, RELATED -->
-  {% if page.related_authors %}
+  {% unless page.rel_authors == null %}
   <div class="datum-row row related">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="related-label author">Authors</span>
     </div>
 
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-      {% for related_author in page.related_authors %}
-      <a href="/authors/{{ related_author | escape_once }}" class="related-link author">{{ related_author }}</a>
+      {% for rel_author in page.rel_authors %}
+      <a href="/authors/{{ rel_author | escape_once }}" class="related-link author">{{ rel_author }}</a>
       {% endfor %}
     </div>
   </div>
-  {% endif %}
+  {% endunless %}
 
   <!-- publishers, RELATED -->
-  {% if page.related_publishers %}
+  {% unless page.rel_publishers == null %}
     <div class="datum-row row related">
       <div class="col-12 col-sm-3 col-md-2 datum-left-col">
         <span class="related-label publisher">Publishers/Clients</span>
       </div>
 
       <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-        {% for related_publisher in page.related_publishers %}
-        <a href="/publishers/{{ related_publisher | escape_once }}" class="related-link publisher">{{ related_publisher }}</a>
+        {% for rel_publisher in page.rel_publishers %}
+        <a href="/publishers/{{ rel_publisher | escape_once }}" class="related-link publisher">{{ rel_publisher }}</a>
         {% endfor %}
       </div>
     </div>
-  {% endif %}
+  {% endunless %}
 
   <!-- tags, RELATED -->
-  {% if page.related_tags %}
+  {% unless page.rel_tags == null %}
     <div class="datum-row row related">
       <div class="col-12 col-sm-3 col-md-2 datum-left-col">
         <span class="related-label tag">Tags</span>
       </div>
 
       <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-        {% for related_tag in page.related_tags %}
-        <a href="/tags/{{ related_tag | escape_once }}" class="related-link tag">{{ related_tag }}</a>
+        {% for rel_tag in page.rel_tags %}
+        <a href="/tags/{{ rel_tag | escape_once }}" class="related-link tag">{{ rel_tag }}</a>
         {% endfor %}
       </div>
     </div>
-  {% endif %} 
+  {% endunless %} 
   
   <div class="row datum-row related-end-spacer"></div>
 

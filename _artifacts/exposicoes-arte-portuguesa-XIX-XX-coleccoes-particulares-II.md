@@ -7,7 +7,8 @@ publisher: "Fundação Calouste Gulbenkian"
 formats: [catalogue, book, book-cover]
 disciplines: [graphic-design, typography]
 tags: [art]
-ref: sol-231-0007
+ref_group: "231"
+ref_id: "0007"
 layout: artifact
 status: complete
 published: true

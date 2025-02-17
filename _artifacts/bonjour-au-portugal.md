@@ -7,7 +7,8 @@ publisher: "SPN/SNI/SEIT"
 formats: [stamp, poster-stamp]
 disciplines: ["graphic-design", typography, illustration]
 tags: [tourism, "rooster of Barcelos"]
-ref: sol-410-0000
+ref_group: "410"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

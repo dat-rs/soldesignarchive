@@ -7,7 +7,8 @@ publisher: "Livraria Clássica Editora"
 formats: [book, book-cover]
 disciplines: ["graphic-design", lettering, illustration]
 tags: [science]
-ref: sol-010-0064
+ref_group: "010"
+ref_id: "0064"
 layout: artifact
 status: complete
 published: true

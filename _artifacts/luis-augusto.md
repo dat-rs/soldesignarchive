@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0072
+ref_group: "160"
+ref_id: "0072"
 title: "Luís e Augusto"
 author_name:
 year:

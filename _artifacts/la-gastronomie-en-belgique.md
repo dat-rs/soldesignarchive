@@ -7,7 +7,8 @@ publisher: "Commissariat Général au Turisme"
 formats: [brochure, graphic-design]
 disciplines: [graphic-design, typography, illustration]
 tags: [tourism, "Expo 58", "gastronomy"]
-ref: sol-121-0006
+ref_group: "121"
+ref_id: "0006"
 image_count: 5
 layout: artifact
 status: complete

@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0068
+ref_group: "010"
+ref_id: "0068"
 title: "Novelas do Decameron — Bocaccio"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Verbo"]

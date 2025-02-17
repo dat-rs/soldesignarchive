@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0268
+ref_group: "030"
+ref_id: "0268"
 title: "Cartas e Crónicas"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Verbo", "RTP"]

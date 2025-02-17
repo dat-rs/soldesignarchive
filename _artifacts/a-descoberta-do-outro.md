@@ -7,7 +7,8 @@ publisher: "SET"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: ["Gostavo Corção"]
-ref: sol-010-0063
+ref_group: "010"
+ref_id: "0063"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0096
+ref_group: "030"
+ref_id: "0096"
 title: Origine, Vita, Studii, e Costumi del Chiarissimo Dante Allighieri, Poeta Fiorentino
 author_name:
   - unknown author

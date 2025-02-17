@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0015
+ref_group: "251"
+ref_id: "0015"
 title: "London Zoo Guide"
 author_name: ["unknown author"]
 publisher: ["The Zoological Society of London"]

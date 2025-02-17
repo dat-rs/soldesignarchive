@@ -7,7 +7,8 @@ publisher: "Bantam Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [illustration, "Philip Roth", "Benguiat Caslon"]
-ref: sol-030-0077
+ref_group: "030"
+ref_id: "0077"
 layout: artifact
 status: complete
 published: true

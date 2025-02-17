@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0007
+ref_group: "010"
+ref_id: "0007"
 title: "O Trono e o Altar"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]

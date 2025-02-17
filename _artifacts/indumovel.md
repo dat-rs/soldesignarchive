@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0043
+ref_group: "160"
+ref_id: "0043"
 title: "Indumóvel"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0129
+ref_group: "160"
+ref_id: "0129"
 title: "Montenegro"
 author_name:
 year:

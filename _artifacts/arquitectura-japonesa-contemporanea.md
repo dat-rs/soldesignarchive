@@ -1,5 +1,6 @@
 ---
-ref: sol-231-0010
+ref_group: "231"
+ref_id: "0010"
 title: "Arquitectura Japonesa Contemporânea"
 author_name: ["unknown author"]
 publisher: ["Fundação Oriente"]

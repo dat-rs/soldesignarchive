@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0065
+ref_group: "010"
+ref_id: "0065"
 title: "O Evadido"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Portugália Editora"]

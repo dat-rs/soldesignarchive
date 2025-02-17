@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0104
+ref_group: "160"
+ref_id: "0104"
 title: "A Fera Negra"
 author_name:
 year:

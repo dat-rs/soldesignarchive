@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0004
+ref_group: "251"
+ref_id: "0004"
 title: "Excursions en Belgique"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]

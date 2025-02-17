@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0131
+ref_group: "160"
+ref_id: "0131"
 title: "Autocoope"
 author_name:
 year:

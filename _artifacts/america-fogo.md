@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0031
+ref_group: "010"
+ref_id: "0031"
 title: "América em Fogo"
 author_name: ["unknown author"]
 publisher: ["Publicações Europa América"]

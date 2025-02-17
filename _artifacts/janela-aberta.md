@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0022
+ref_group: "010"
+ref_id: "0022"
 title: "Janela Aberta. Leituras para a 4a classe"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Verbo"]

@@ -7,7 +7,8 @@ publisher: "Editorial Século"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration, lettering]
 tags: [fiction, novel, "Enrique Jardiel Poncela"]
-ref: sol-030-0204
+ref_group: "030"
+ref_id: "0204"
 layout: artifact
 status: complete
 published: true

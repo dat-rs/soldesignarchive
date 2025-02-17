@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0061
+ref_group: "121"
+ref_id: "0061"
 title: "Paris. Plan Monumental"
 author_name: ["unknown artist"]
 publisher: ["Hotel Mont-Fleuri"]

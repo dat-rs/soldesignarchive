@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0112
+ref_group: "160"
+ref_id: "0112"
 title: "Rui Fernandes"
 author_name:
 year:

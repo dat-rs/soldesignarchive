@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0132
+ref_group: "160"
+ref_id: "0132"
 title: "Intermuda"
 author_name:
 year:

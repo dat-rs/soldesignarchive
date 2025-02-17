@@ -1,5 +1,6 @@
 ---
-ref: sol-322-0004
+ref_group: "322"
+ref_id: "0004"
 title: "Revista Internacional de Luminotecnia 5"
 author_name: ["Nan Platvoet"]
 publisher: ["Stichting Prometheus"]

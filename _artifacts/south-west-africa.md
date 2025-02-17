@@ -7,7 +7,8 @@ publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [Helvetica, "Penguin African Library"]
-ref: sol-010-0049
+ref_group: "010"
+ref_id: "0049"
 layout: artifact
 status: complete
 published: true

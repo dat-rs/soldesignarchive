@@ -1,0 +1,4 @@
+---
+name: invoice
+layout: format
+---

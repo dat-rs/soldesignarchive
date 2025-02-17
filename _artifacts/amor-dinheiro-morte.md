@@ -7,7 +7,8 @@ publisher: "Editorial Técnica e Artística"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [fiction, theatre, "Olavo d’Eça Leal", reverse-contrast]
-ref: sol-010-0003
+ref_group: "010"
+ref_id: "0003"
 layout: artifact
 status: complete
 published: true

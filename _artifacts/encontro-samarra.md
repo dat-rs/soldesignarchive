@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0008
+ref_group: "010"
+ref_id: "0008"
 title: "Encontro em Samarra"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Publicações Europa América"]

@@ -7,7 +7,8 @@ publisher: "Ulisseia"
 formats: [book-cover, book]
 disciplines: [graphic-design, illustration]
 tags: [non-fiction, illustration, blue]
-ref: sol-010-0046
+ref_group: "010"
+ref_id: "0046"
 layout: artifact
 status: complete
 published: true

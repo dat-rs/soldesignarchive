@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0060
+ref_group: "030"
+ref_id: "0060"
 title: "The Penguin Book of English Verse"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

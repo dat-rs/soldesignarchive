@@ -7,7 +7,8 @@ publisher: "Afrodite"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction]
-ref: sol-030-0194
+ref_group: "030"
+ref_id: "0194"
 layout: artifact
 status: complete
 published: true

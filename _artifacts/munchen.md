@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0055
+ref_group: "121"
+ref_id: "0055"
 title: "München"
 author_name: ["Ernst Kößlinger"]
 publisher: ["Wirtschaftsreferat der Landeshauptstadt München"]

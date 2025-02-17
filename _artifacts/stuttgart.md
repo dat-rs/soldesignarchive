@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0062
+ref_group: "121"
+ref_id: "0062"
 title: "Stuttgart"
 author_name: ["Griffel"]
 publisher: ["Stuttgart Verkehrsförderungsamt"]

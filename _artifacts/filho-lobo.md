@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0263
+ref_group: "030"
+ref_id: "0263"
 title: O Filho do Lobo
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]

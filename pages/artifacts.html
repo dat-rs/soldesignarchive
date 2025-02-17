@@ -26,7 +26,7 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
                     {% if artifact.published == false %}
                     <img class="grid-img allartifacts" loading="lazy" src="/images/non-art/empty-tile.png">
                     {% else %}
-                    <img class="grid-img allartifacts" loading="lazy" src="/images/sm/{{ artifact.ref }}-{{ artifact.slug }}-sm.jpg"
+                    <img class="grid-img allartifacts" loading="lazy" src="/images/sm/sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}-{{ artifact.slug }}-sm.jpg"
                       alt="{{ artifact.title }}">
                     {% endif%}
                   </div>

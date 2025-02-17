@@ -7,7 +7,8 @@ publisher: "Portugália"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "Lu Xun", "O Livro de Bolso"]
-ref: sol-030-0214
+ref_group: "030"
+ref_id: "0214"
 layout: artifact
 status: complete
 published: true

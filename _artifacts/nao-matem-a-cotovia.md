@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book, book-cover]
 disciplines: [graphic-design, lettering, illustration]
 tags: [science]
-ref: sol-010-0033
+ref_group: "010"
+ref_id: "0033"
 layout: artifact
 status: complete
 published: true

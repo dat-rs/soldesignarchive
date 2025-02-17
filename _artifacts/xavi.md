@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0049
+ref_group: "160"
+ref_id: "0049"
 title: "Xavi"
 author_name:
 year:

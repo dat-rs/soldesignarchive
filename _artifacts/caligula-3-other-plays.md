@@ -7,7 +7,8 @@ publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Albert Camus", geometric, Clarendon]
-ref: sol-030-0064
+ref_group: "030"
+ref_id: "0064"
 layout: artifact
 status: complete
 published: true

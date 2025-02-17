@@ -7,7 +7,8 @@ publisher: ["Ulisseia", "Pelican Books"]
 formats: [book-cover, book, illustration, lettering]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [science, technology]
-ref: sol-010-0021
+ref_group: "010"
+ref_id: "0021"
 layout: artifact
 status: complete
 published: true

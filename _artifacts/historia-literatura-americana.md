@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0017
+ref_group: "010"
+ref_id: "0017"
 title: "História da Literatura Americana"
 author_name: ["unknown author"]
 publisher: ["Arcádia"]

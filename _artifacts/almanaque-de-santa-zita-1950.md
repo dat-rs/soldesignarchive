@@ -7,7 +7,8 @@ publisher: "Obra de Previdência e Formação das Criadas"
 formats: [almanac, booklet]
 disciplines: ["graphic-design", typography]
 tags: []
-ref: sol-324-0002
+ref_group: "324"
+ref_id: "0002"
 layout: artifact
 published: true
 status: wip

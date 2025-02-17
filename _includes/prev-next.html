@@ -18,7 +18,7 @@
             {% else %}
             <img
               class="a-module-img"
-              src="/images/{{ page.previous.ref }}-{{ page.previous.slug }}-thumbnail.jpg"
+              src="/images/sol-{{ page.previous.ref_group }}-{{ page.previous.ref_id }}-{{ page.previous.slug }}-thumbnail.jpg"
               alt=""
             />
             {% endif %}
@@ -45,7 +45,7 @@
             {% endif %} {% if page.next.published == false %}
             <img class="a-module-img" src="/images/non-art/black-square.png" alt="" />
             {% else %}
-            <img class="a-module-img" src="/images/{{ page.next.ref }}-{{ page.next.slug }}-thumbnail.jpg" alt="" />
+            <img class="a-module-img" src="/images/sol-{{ page.next.ref_group }}-{{ page.next.ref_id }}-{{ page.next.slug }}-thumbnail.jpg" alt="" />
             {% endif %}
           </div>
           <div class="a-module-content">

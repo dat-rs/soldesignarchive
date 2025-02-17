@@ -1,5 +1,6 @@
 ---
-ref: sol-475-0001
+ref_group: "475"
+ref_id: "0001"
 title: "Tommy Bartlett Show"
 author_name: ["unknown author"]
 publisher: ["Tommy Bartlett Show"]

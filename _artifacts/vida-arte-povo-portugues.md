@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0197
+ref_group: "030"
+ref_id: "0197"
 title: "Vida e Arte do Povo Português"
 author_name: ["Paulo Ferreira"]
 publisher: ["SPN/SNI/SEIT"]

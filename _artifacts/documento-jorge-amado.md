@@ -8,7 +8,8 @@ formats: [book-cover, book, "graphic-design", lettering, illustration]
 disciplines: [graphic-design, lettering, illustration]
 tags: ["Jorge Amado", "Os Livros das Três Abelhas"]
 iconography: [faces]
-ref: sol-030-0040
+ref_group: "030"
+ref_id: "0040"
 layout: artifact
 status: complete
 published: true

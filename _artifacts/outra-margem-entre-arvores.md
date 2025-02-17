@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0048
+ref_group: "030"
+ref_id: "0048"
 title: "Na Outra Margem, Entre as Árvores"
 author_name: ["Infante do Carmo"]
 publisher: ["Livros do Brasil"]

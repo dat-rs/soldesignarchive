@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0085
+ref_group: "160"
+ref_id: "0085"
 title: "Calças é connosco"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-231-0015
+ref_group: "231"
+ref_id: "0015"
 title: "Goya"
 author_name: ["Diego Lara"]
 publisher: ["Fundación Juan March"]

@@ -14,7 +14,8 @@ year: y1985
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: []
-ref: sol-030-0094
+ref_group: "030"
+ref_id: "0094"
 image_count: 2
 wip: false
 ---

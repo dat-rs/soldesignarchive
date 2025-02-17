@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0126
+ref_group: "160"
+ref_id: "0126"
 title: "Comboio Directo"
 author_name:
 year:

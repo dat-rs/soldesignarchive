@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0048
+ref_group: "160"
+ref_id: "0048"
 title: "CEAPD"
 author_name:
 year:

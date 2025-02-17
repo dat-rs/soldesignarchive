@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0260
+ref_group: "030"
+ref_id: "0260"
 title: Um Ar da Minha Graça
 author_name: [Adalberto Sampaio]
 publisher: [Figueirinhas]

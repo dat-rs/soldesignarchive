@@ -1,5 +1,6 @@
 ---
-ref: sol-231-0002
+ref_group: "231"
+ref_id: "0002"
 title: "Um Século de Pintura Francesa 1850-1950"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Fundação Calouste Gulbenkian"]

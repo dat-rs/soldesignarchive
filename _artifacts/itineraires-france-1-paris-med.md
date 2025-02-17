@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0037
+ref_group: "121"
+ref_id: "0037"
 title: "Itinéraires en France 1 Paris - Méditerranée"
 author_name: ["Gallian Saint Clair"]
 publisher: ["Direction Générale du Tourisme"]

@@ -7,7 +7,8 @@ publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration]
 tags: ["Colecção Educativa", "Estado Novo", theatre]
-ref: sol-030-0127
+ref_group: "030"
+ref_id: "0127"
 image_count: 5
 layout: artifact
 status: complete

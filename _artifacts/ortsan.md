@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0073
+ref_group: "160"
+ref_id: "0073"
 title: "Ortsan"
 author_name:
 year:

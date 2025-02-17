@@ -7,7 +7,8 @@ publisher: "Terra Livre"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography]
 tags: [non-fiction, geography, "Gonçalo Santa Ritta"]
-ref: sol-030-0185
+ref_group: "030"
+ref_id: "0185"
 layout: artifact
 status: complete
 published: true

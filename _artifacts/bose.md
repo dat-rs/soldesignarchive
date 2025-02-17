@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0095
+ref_group: "160"
+ref_id: "0095"
 title: "BOSE"
 author_name:
 year:

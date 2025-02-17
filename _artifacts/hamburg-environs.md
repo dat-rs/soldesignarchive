@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0056
+ref_group: "121"
+ref_id: "0056"
 title: "Hamburg and its beautiful environs"
 author_name: ["Heinz Schultchen"]
 publisher: ["Wirtschaftsreferat der Landeshauptstadt München"]

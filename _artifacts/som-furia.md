@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0070
+ref_group: "010"
+ref_id: "0070"
 title: "O Som e a Fúria"
 author_name: ["Carlos de Almeida"]
 publisher: ["unknown publisher"]

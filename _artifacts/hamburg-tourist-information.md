@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0067
+ref_group: "121"
+ref_id: "0067"
 title: "Hamburg. Tourist-Information"
 author_name:
 publisher:

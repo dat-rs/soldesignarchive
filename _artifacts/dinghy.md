@@ -1,5 +1,6 @@
 ---
-ref: sol-475-0003
+ref_group: "475"
+ref_id: "0003"
 title: "The Dinghy Pub"
 author_name: ["unknown author"]
 publisher: ["The Dinghy Pub"]

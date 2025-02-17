@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0050
+ref_group: "010"
+ref_id: "0050"
 title: "O Paraíso das Damas"
 author_name: ["unknown author"]
 publisher: ["Guimarães & Companhia Editores"]

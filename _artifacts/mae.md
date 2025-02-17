@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0035
+ref_group: "010"
+ref_id: "0035"
 title: "A Mãe"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Publicações Europa América"]

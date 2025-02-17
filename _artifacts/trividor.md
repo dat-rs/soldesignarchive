@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0087
+ref_group: "160"
+ref_id: "0087"
 title: "Trividor"
 author_name:
 year:

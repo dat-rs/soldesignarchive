@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0109
+ref_group: "160"
+ref_id: "0109"
 title: "Partido Socialista. Seccção da Carris"
 author_name:
 year:

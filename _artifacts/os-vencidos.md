@@ -7,7 +7,8 @@ publisher: "Ulisseia"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: ["World War II", "Hans Werner Richter"]
-ref: sol-030-0117
+ref_group: "030"
+ref_id: "0117"
 layout: artifact
 status: complete
 published: true

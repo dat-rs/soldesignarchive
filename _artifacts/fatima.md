@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0084
+ref_group: "121"
+ref_id: "0084"
 title: "Fátima"
 author_name:
 publisher:

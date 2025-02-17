@@ -18,5 +18,6 @@ disciplines: [graphic-design, typography, illustration]
 tags:
   - music
   - Colecção Educativa
-ref: sol-030-0103
+ref_group: "030"
+ref_id: "0103"
 ---

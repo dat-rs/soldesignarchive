@@ -1,5 +1,6 @@
 ---
-ref: sol-111-0001
+ref_group: "111"
+ref_id: "0001"
 title: "Cinema Monumental - Programa 22 Março 1960"
 author_name: ["unknown author"]
 publisher: ["Cinema Monumental"]

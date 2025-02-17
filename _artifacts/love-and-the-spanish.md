@@ -7,7 +7,8 @@ publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, culture, Penguin, Helvetica, illustration, red]
-ref: sol-010-0054
+ref_group: "010"
+ref_id: "0054"
 layout: artifact
 status: complete
 published: true

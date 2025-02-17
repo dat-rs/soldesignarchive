@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0064
+ref_group: "121"
+ref_id: "0064"
 title: "Konstanz"
 author_name: ["Josef Hofer"]
 publisher: ["Verkehrsamt der Stadt Konstanz"]

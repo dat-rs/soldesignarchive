@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0088
+ref_group: "030"
+ref_id: "0088"
 title: "Der Dom zu Köln. 1248-1948"
 author_name: ["Eugen Nerdinger"]
 publisher: ["Verlag L.Schwann Düsseldorf"]

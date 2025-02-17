@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0012
+ref_group: "160"
+ref_id: "0012"
 title: "Tranquilidade Seguros"
 author_name:
 year:

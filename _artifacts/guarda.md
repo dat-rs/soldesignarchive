@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0090
+ref_group: "121"
+ref_id: "0090"
 title: "Guarda"
 author_name:
 publisher:

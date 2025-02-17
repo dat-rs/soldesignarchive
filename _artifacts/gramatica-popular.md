@@ -7,7 +7,8 @@ publisher: "Biblioteca Universal Popular"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction, linguistics]
-ref: sol-030-0186
+ref_group: "030"
+ref_id: "0186"
 layout: artifact
 status: complete
 published: true

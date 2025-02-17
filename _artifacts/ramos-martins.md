@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0134
+ref_group: "160"
+ref_id: "0134"
 title: "ramos & martins"
 author_name:
 year:

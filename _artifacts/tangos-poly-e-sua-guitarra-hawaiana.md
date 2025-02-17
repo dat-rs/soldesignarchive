@@ -8,7 +8,8 @@ formats: [record, record-cover]
 disciplines: [graphic-design, typography, photography]
 tags: [music, "Churchward Marianna"]
 iconography: [people, men, faces, leaves]
-ref: sol-601-0002
+ref_group: "601"
+ref_id: "0002"
 layout: artifact
 status: complete
 published: true

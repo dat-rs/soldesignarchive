@@ -1,5 +1,6 @@
 ---
-ref: sol-111-0003
+ref_group: "111"
+ref_id: "0003"
 title: "Cinema Monumental - Programa 7 Junho 1960"
 author_name: ["unknown author"]
 publisher: ["Cinema Monumental"]

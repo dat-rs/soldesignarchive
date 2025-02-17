@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0035
+ref_group: "160"
+ref_id: "0035"
 title: "Lusitana"
 author_name:
 year:

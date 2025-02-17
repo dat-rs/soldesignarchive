@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0060
+ref_group: "160"
+ref_id: "0060"
 title: "Terrabela"
 author_name:
 year:

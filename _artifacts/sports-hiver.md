@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0011
+ref_group: "251"
+ref_id: "0011"
 title: "Sports d’Hiver"
 author_name: ["M. et J. Constantin"]
 publisher: ["Direction Générale du Tourisme"]

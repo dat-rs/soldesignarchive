@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0039
+ref_group: "121"
+ref_id: "0039"
 title: "Pyrénées Côte Basque"
 author_name: ["Jean Jacquelin"]
 publisher: ["SNCF"]

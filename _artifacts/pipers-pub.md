@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0027
+ref_group: "160"
+ref_id: "0027"
 title: "Pipers Pub"
 author_name:
 year:

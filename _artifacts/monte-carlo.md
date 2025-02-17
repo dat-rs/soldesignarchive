@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0084
+ref_group: "030"
+ref_id: "0084"
 title: "Monte Carlo"
 author_name: ["unknown author"]
 publisher: ["Editorial O Primeiro de Janeiro"]

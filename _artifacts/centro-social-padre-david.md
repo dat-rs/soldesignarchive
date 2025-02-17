@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0069
+ref_group: "160"
+ref_id: "0069"
 title: "Centro Social Padre David"
 author_name:
 year:

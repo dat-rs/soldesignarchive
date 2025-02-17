@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0114
+ref_group: "160"
+ref_id: "0114"
 title: "Santa Justa"
 author_name:
 year:

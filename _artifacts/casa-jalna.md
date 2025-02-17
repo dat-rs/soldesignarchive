@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0043
+ref_group: "010"
+ref_id: "0043"
 title: "A Casa de Jalna"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]

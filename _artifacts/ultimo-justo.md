@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0045
+ref_group: "010"
+ref_id: "0045"
 title: "O Último Justo"
 author_name: ["António Domingues"]
 publisher: ["Publicações Europa América"]

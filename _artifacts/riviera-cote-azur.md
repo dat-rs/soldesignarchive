@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0028
+ref_group: "121"
+ref_id: "0028"
 title: "Riviera Cote d’Azur"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Direction Générale du Tourisme"]

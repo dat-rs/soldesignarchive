@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0080
+ref_group: "121"
+ref_id: "0080"
 title: "Sevilla"
 author_name:
 publisher:

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0092
+ref_group: "160"
+ref_id: "0092"
 title: "Sumol"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0135
+ref_group: "160"
+ref_id: "0135"
 title: "Coroa Jovem"
 author_name:
 year:

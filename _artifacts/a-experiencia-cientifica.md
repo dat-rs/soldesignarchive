@@ -7,7 +7,8 @@ publisher: "Sá da Costa"
 formats: [booklet, book-cover]
 disciplines: [graphic-design, photography]
 tags: [non-fiction, science, "Cadernos de Iniciação Científica", Helvetica]
-ref: sol-253-0001
+ref_group: "253"
+ref_id: "0001"
 image_count: 4
 layout: artifact
 status: complete

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0139
+ref_group: "160"
+ref_id: "0139"
 title: "Garehotel"
 author_name:
 year:

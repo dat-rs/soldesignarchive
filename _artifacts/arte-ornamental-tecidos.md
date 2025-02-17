@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0196
+ref_group: "030"
+ref_id: "0196"
 title: "Arte Ornamental dos Tecidos"
 author_name: ["unknown author"]
 publisher: ["Carlos Bastos"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0030
+ref_group: "010"
+ref_id: "0030"
 title: "A Estrada do Ouro"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0022
+ref_group: "030"
+ref_id: "0022"
 title: "The Cooking of Germany"
 author_name: ["unknown author"]
 publisher: ["Time-Life"]

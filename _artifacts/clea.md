@@ -7,7 +7,8 @@ publisher: "Ulisseia"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [fiction, "Lawrence Durrell"]
-ref: sol-030-0078
+ref_group: "030"
+ref_id: "0078"
 layout: artifact
 status: complete
 published: true

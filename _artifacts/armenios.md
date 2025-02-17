@@ -1,5 +1,6 @@
 ---
-ref: sol-970-0000
+ref_group: "970"
+ref_id: "0000"
 title: "Os Arménios"
 author_name: ["Vicente Martins"]
 publisher: ["unknown publisher"]

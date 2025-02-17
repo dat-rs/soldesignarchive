@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0036
+ref_group: "160"
+ref_id: "0036"
 title: "BNU"
 author_name:
 year:

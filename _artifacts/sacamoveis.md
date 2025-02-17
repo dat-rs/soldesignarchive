@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0140
+ref_group: "160"
+ref_id: "0140"
 title: "Sacamóveis"
 author_name:
 year:

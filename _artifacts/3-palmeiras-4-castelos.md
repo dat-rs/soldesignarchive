@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0053
+ref_group: "160"
+ref_id: "0053"
 title: "Três Palmeiras dos Quatro Castelos"
 author_name:
 year:

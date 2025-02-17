@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0058
+ref_group: "121"
+ref_id: "0058"
 title: "El Norte de España"
 author_name: ["Serny"]
 publisher: ["Direccion General del Turismo"]

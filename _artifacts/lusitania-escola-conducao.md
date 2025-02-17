@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0116
+ref_group: "160"
+ref_id: "0116"
 title: "Lusitânia Escola de Condução"
 author_name:
 year:

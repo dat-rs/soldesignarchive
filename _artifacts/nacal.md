@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0041
+ref_group: "160"
+ref_id: "0041"
 title: "Nacal"
 author_name:
 year:

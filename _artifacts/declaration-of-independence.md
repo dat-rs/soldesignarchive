@@ -7,7 +7,8 @@ publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, illustration, "Carl L. Becker", geometric]
-ref: sol-030-0071
+ref_group: "030"
+ref_id: "0071"
 layout: artifact
 status: complete
 published: true

@@ -1,17 +1,18 @@
 ---
-ref: sol-234-0012
-title: "Fundição Tipográfica Manuel Guedes. Catálogo" 
+ref_group: "234"
+ref_id: "0012"
+title: "Fundição Tipográfica Manuel Guedes. Catálogo"
 author_name: []
-publisher: []
-year: y19
-origin: 
-formats: [book, book-cover]
-disciplines: [graphic-design, illustration, typography]
-tags: 
+publisher: [Fundição Tipográfica Manuel Guedes]
+year: unknown-date
+origin: Portugal
+formats: [catalogue, type-specimen, book, book-cover]
+disciplines: [graphic-design, typography]
+tags: []
 layout: artifact
-status: offline
-published: false
-image_count: 
+status: wip
+published: true
+image_count:
 date_added: 2025-02-11
-batch: 
+batch: jsb/misc
 ---

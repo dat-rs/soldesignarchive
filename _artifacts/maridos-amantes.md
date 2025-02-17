@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0199
+ref_group: "030"
+ref_id: "0199"
 title: "Maridos e Amantes"
 author_name: ["A. Pedro"]
 publisher: ["Livros do Brasil"]

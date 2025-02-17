@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0074
+ref_group: "160"
+ref_id: "0074"
 title: "Defenda a Floresta do Fogo"
 author_name:
 year:

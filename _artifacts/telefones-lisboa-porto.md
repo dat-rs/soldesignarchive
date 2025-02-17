@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0051
+ref_group: "160"
+ref_id: "0051"
 title: "Telefones de Lisboa e Porto"
 author_name:
 year:

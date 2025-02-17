@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0044
+ref_group: "121"
+ref_id: "0044"
 title: "Provence Méditerranée"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

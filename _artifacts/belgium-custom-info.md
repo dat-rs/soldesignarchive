@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0006
+ref_group: "251"
+ref_id: "0006"
 title: "Belgium Custom Information"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

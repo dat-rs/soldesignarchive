@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0261
+ref_group: "030"
+ref_id: "0261"
 title: Nas Florestas do Norte
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]

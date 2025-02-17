@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0272
+ref_group: "030"
+ref_id: "0272"
 title: "Condenado em Nome da Lei"
 author_name: ["António Domingues"]
 publisher: ["Publicações Europa-América"]

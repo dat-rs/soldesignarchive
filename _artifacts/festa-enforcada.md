@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0269
+ref_group: "030"
+ref_id: "0269"
 title: "A Festa da Enforcada"
 author_name: ["Lima de Freitas"]
 publisher: ["Livros do Brasil"]

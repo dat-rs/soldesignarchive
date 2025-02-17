@@ -7,7 +7,8 @@ publisher: "Aeroflot"
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
 tags: [""]
-ref: sol-512-0000
+ref_group: "512"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

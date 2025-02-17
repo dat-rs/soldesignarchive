@@ -7,7 +7,8 @@ publisher: "Fundação Calouste Gulbenkian"
 formats: [catalogue, booklet]
 disciplines: [graphic-design, typography, pattern]
 tags: [geometry, architecture, pattern]
-ref: sol-231-0011
+ref_group: "231"
+ref_id: "0011"
 layout: artifact
 status: complete
 published: true

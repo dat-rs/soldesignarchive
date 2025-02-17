@@ -7,7 +7,8 @@ publisher: "Livraria Didáctica"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, education, math, illustration, textbook, pink]
-ref: sol-030-0081
+ref_group: "030"
+ref_id: "0081"
 image_count: 2
 layout: artifact
 status: complete

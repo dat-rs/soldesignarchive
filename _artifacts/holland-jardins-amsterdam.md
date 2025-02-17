@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0071
+ref_group: "121"
+ref_id: "0071"
 title: "Holland. Suivez-moi dans les jardins d'Amsterdam"
 author_name:
 publisher:

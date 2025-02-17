@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0076
+ref_group: "160"
+ref_id: "0076"
 title: "Sindicato dos Trabalhadores Metalúrgicos de Lisboa"
 author_name:
 year:

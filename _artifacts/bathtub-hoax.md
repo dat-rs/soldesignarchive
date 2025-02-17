@@ -7,7 +7,8 @@ publisher: "Alfred A. Knopf"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, "H. L. Mencken"]
-ref: sol-030-0072
+ref_group: "030"
+ref_id: "0072"
 layout: artifact
 status: complete
 published: true

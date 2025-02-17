@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0086
+ref_group: "030"
+ref_id: "0086"
 title: "A Solução Final"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Ulisseia"]

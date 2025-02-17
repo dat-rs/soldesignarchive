@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0245
+ref_group: "030"
+ref_id: "0245"
 title: "Eu e Eles…"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Publicações Europa América"]

@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Arthur Miller", "Os Livros das Três Abelhas"]
-ref: sol-030-0031
+ref_group: "030"
+ref_id: "0031"
 layout: artifact
 status: complete
 published: true

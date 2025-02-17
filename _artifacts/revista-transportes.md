@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0115
+ref_group: "160"
+ref_id: "0115"
 title: "Revista Os Transportes"
 author_name:
 year:

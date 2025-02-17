@@ -7,7 +7,8 @@ publisher: "Arcádia"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Manuel do Nascimento", fiction, black, blue, red]
-ref: sol-010-0038
+ref_group: "010"
+ref_id: "0038"
 layout: artifact
 status: complete
 published: true

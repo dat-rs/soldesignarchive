@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0086
+ref_group: "160"
+ref_id: "0086"
 title: "O Rei das Meias"
 author_name:
 year:

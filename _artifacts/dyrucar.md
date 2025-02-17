@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0045
+ref_group: "160"
+ref_id: "0045"
 title: "dyrucar"
 author_name:
 year:

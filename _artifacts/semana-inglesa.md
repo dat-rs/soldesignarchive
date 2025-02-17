@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0047
+ref_group: "160"
+ref_id: "0047"
 title: "Semana Inglesa"
 author_name:
 year:

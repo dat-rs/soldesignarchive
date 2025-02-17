@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0255
+ref_group: "030"
+ref_id: "0255"
 title: A Segunda Vitória
 author_name: [Paulo-Guilherme]
 publisher: [Livraria Clássica Editora]

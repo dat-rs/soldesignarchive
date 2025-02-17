@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0061
+ref_group: "160"
+ref_id: "0061"
 title: "Coca-Cola é que é!"
 author_name:
 year:

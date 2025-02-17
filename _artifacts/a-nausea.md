@@ -8,7 +8,8 @@ layout: artifact
 status: complete
 published: true
 title: A Náusea
-ref: sol-030-0100
+ref_group: "030"
+ref_id: "0100"
 formats:
   - book cover
   - book

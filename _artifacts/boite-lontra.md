@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0025
+ref_group: "160"
+ref_id: "0025"
 title: "Boite A Lontra"
 author_name:
 year:

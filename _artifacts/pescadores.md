@@ -7,7 +7,8 @@ publisher: "Círculo de Leitores"
 formats: [book, book-cover]
 disciplines: ["graphic-design", illustration]
 tags: ["literature"]
-ref: sol-030-0016
+ref_group: "030"
+ref_id: "0016"
 layout: artifact
 status: complete
 published: false

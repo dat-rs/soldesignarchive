@@ -7,7 +7,8 @@ publisher: "Caixa Económica de Lisboa"
 formats: ["bank-book", ephemera]
 disciplines: [graphic-design, typography]
 tags: ["stamps"]
-ref: sol-520-0000
+ref_group: "520"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0018
+ref_group: "121"
+ref_id: "0018"
 title: "Centenaire de Lourdes"
 author_name: ["unknown author"]
 publisher: ["SNCF"]

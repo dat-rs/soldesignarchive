@@ -1,5 +1,6 @@
 ---
-ref: sol-060-0001
+ref_group: "060"
+ref_id: "0001"
 title: "Viagens de Gulliver"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]

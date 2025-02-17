@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0042
+ref_group: "121"
+ref_id: "0042"
 title: "Méditerranée Languedoc Roussillon"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Direction Générale du Tourisme"]

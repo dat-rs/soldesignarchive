@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0059
+ref_group: "121"
+ref_id: "0059"
 title: "Castilla y Leon. Aragon-Navarra y Extremadura"
 author_name: ["Serny"]
 publisher: ["Direccion General del Turismo"]

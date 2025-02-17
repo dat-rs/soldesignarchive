@@ -1,5 +1,6 @@
 ---
-ref: sol-254-0001
+ref_group: "254"
+ref_id: "0001"
 title: "Curso de Desenho e Pintura por Correspondência - Lição 24"
 author_name: ["unknown author"]
 publisher: ["Centro de Ensino por Correspondência Álvaro Torrão"]

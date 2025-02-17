@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0050
+ref_group: "160"
+ref_id: "0050"
 title: "Só há uma Maria"
 author_name:
 year:

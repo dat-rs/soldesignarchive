@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0025
+ref_group: "121"
+ref_id: "0025"
 title: "Pyrénées Côte Basque"
 author_name: ["unknown author"]
 publisher: ["SNCF"]

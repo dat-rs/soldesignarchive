@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0006
+ref_group: "140"
+ref_id: "0006"
 title: O Zé Pequeno
 author_name: ["unknown-author"]
 publisher: []

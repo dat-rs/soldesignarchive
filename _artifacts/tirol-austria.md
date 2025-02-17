@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0047
+ref_group: "121"
+ref_id: "0047"
 title: "Tirol Austria"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

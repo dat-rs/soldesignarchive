@@ -8,7 +8,8 @@ layout: artifact
 status: complete
 published: true
 title: A Mulher e o Desporto
-ref: sol-030-0099
+ref_group: "030"
+ref_id: "0099"
 formats:
   - book cover
   - book

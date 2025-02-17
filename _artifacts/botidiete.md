@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0044
+ref_group: "160"
+ref_id: "0044"
 title: "Botidiete"
 author_name:
 year:

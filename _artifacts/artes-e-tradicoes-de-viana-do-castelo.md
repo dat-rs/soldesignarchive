@@ -7,7 +7,8 @@ publisher: "Terra Livre"
 formats: [book, "book cover"]
 disciplines: [graphic-design, typography, photography]
 tags: [art, "folk art"]
-ref: sol-030-0107
+ref_group: "030"
+ref_id: "0107"
 layout: artifact
 status: complete
 published: true

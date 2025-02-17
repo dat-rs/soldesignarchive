@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0063
+ref_group: "121"
+ref_id: "0063"
 title: "Rheinland-Pfalz"
 author_name: ["Karlfritz Nicolay"]
 publisher: ["Landesverkehrsverband Rheinland-Pfalz"]

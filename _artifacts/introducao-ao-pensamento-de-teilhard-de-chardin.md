@@ -7,7 +7,8 @@ publisher: "Livraria Morais Editora"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography]
 tags: ["Teilhard de Chardin", theology, philosophy, "Claude Tresmontant"]
-ref: sol-030-0118
+ref_group: "030"
+ref_id: "0118"
 layout: artifact
 status: complete
 published: true

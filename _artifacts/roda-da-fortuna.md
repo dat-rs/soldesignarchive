@@ -7,7 +7,8 @@ publisher: "Ulisseia"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [Roger Vailland, Albertus]
-ref: sol-010-0029
+ref_group: "010"
+ref_id: "0029"
 layout: artifact
 status: complete
 published: true

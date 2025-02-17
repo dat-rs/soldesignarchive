@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0073
+ref_group: "030"
+ref_id: "0073"
 title: "Two Essays on Analytical Psychology"
 author_name: ["Alvin Lustig"]
 publisher: ["Meridian Books"]

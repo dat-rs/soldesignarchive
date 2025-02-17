@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0027
+ref_group: "010"
+ref_id: "0027"
 title: "O Diário"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Livraria Clássica Editora"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0059
+ref_group: "160"
+ref_id: "0059"
 title: "Aprendizagem"
 author_name:
 year:

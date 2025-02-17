@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0065
+ref_group: "160"
+ref_id: "0065"
 title: "Douradas"
 author_name:
 year:

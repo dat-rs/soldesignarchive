@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0051
+ref_group: "010"
+ref_id: "0051"
 title: "Experiência do Drama"
 author_name: ["Alves Martins"]
 publisher: ["unknown publisher"]

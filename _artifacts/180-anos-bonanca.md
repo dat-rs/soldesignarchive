@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0009
+ref_group: "160"
+ref_id: "0009"
 title: "180 Anos Bonança"
 author_name:
 year:

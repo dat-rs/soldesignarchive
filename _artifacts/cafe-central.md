@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0099
+ref_group: "160"
+ref_id: "0099"
 title: "Café Central"
 author_name:
 year:

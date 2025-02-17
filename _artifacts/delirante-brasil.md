@@ -8,7 +8,8 @@ layout: artifact
 status: complete
 published: true
 title: Delirante Brasil?
-ref: sol-030-0102
+ref_group: "030"
+ref_id: "0102"
 formats:
   - book cover
   - book

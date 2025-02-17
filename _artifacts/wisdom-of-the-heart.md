@@ -7,7 +7,8 @@ publisher: "New Directions"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [monochrome]
-ref: sol-030-0063
+ref_group: "030"
+ref_id: "0063"
 layout: artifact
 status: complete
 published: true

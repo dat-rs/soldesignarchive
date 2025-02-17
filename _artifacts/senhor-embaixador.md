@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0057
+ref_group: "010"
+ref_id: "0057"
 title: "O Senhor Embaixador"
 author_name: ["unknown author"]
 publisher: ["Livros do Brasil"]

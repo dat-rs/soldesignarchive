@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0076
+ref_group: "121"
+ref_id: "0076"
 title: "Roads of France"
 author_name:
 publisher:

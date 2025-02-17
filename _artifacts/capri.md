@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0081
+ref_group: "121"
+ref_id: "0081"
 title: "Capri"
 author_name:
 publisher:

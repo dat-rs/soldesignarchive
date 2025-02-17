@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0244
+ref_group: "030"
+ref_id: "0244"
 title: "Fim de Semana em Zuydcoote"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Publicações Europa América"]

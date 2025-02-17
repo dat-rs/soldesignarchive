@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0127
+ref_group: "160"
+ref_id: "0127"
 title: "Cartão Jovem"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0082
+ref_group: "160"
+ref_id: "0082"
 title: "Nétel"
 author_name:
 year:

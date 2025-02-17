@@ -7,7 +7,8 @@ publisher: "London 1980 International Stamp Exhibition"
 formats: [book-cover, book, catalogue]
 disciplines: [graphic-design, typography, illustration]
 tags: [London]
-ref: sol-232-0000
+ref_group: "232"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

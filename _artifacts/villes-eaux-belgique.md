@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0001
+ref_group: "121"
+ref_id: "0001"
 title: "Villes d’Eaux de Belgique"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]

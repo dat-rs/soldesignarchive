@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0108
+ref_group: "160"
+ref_id: "0108"
 title: "Triple Marfel"
 author_name:
 year:

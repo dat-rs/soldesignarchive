@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0016
+ref_group: "160"
+ref_id: "0016"
 title: "Frisumo é bom..."
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0077
+ref_group: "160"
+ref_id: "0077"
 title: "M. L. Ferreira"
 author_name:
 year:

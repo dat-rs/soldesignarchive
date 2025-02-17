@@ -1,5 +1,6 @@
 ---
-ref: sol-470-0001
+ref_group: "470"
+ref_id: "0001"
 title: "Hotel Babylon"
 author_name: ["unknown author"]
 publisher: ["Babylon Hotel"]

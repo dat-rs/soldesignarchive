@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: ["Gil Vicente", "António José Saraiva", theatre]
 iconography: [devil, angels, boat]
-ref: sol-030-0033
+ref_group: "030"
+ref_id: "0033"
 layout: artifact
 status: complete
 published: true

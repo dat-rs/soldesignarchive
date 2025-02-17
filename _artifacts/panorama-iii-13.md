@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0010
+ref_group: "321"
+ref_id: "0010"
 title: Panorama III 13
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT

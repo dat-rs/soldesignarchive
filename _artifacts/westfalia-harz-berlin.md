@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0065
+ref_group: "121"
+ref_id: "0065"
 title: "Westfalia - Harz - Berlin"
 author_name: ["Heinz Grave-Schmandt"]
 publisher: ["Bund Deutscher Verkehrsverbände"]

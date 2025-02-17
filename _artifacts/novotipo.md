@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0117
+ref_group: "160"
+ref_id: "0117"
 title: "novotipo"
 author_name:
 year:

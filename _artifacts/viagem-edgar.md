@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0041
+ref_group: "010"
+ref_id: "0041"
 title: "A Viagem de Edgar"
 author_name: ["Miguel Flávio"]
 publisher: ["Portugália Editora"]

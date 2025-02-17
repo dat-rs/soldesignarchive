@@ -7,7 +7,8 @@ publisher: "Livraria Bertrand"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration, lettering]
 tags: [fiction, "Jules Verne"]
-ref: sol-030-0223
+ref_group: "030"
+ref_id: "0223"
 layout: artifact
 status: complete
 published: true

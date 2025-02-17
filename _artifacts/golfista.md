@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: []
 iconography: [people, women, men]
-ref: sol-030-0228
+ref_group: "030"
+ref_id: "0228"
 layout: artifact
 status: complete
 published: true

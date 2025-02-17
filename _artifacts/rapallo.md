@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0073
+ref_group: "121"
+ref_id: "0073"
 title: "Rapallo"
 author_name:
 publisher:

@@ -2,6 +2,7 @@
 title: "Sol Decimal System - Sol Design Archive"
 back-office: true
 published: false
+regenerate: true
 ---
 
 {% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
@@ -14,7 +15,7 @@ page-meta-description=page.description page-meta-image=page.image %}
 
         <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
             <h3 class="filter-title">
-                Static list of the Sol Decimal system. Left column indicates the highest count of artifacts in each group.
+                Sol Decimal system. The Left column displays a live updated count of artifacts in each group.
             </h3>
         </div>
     </div>
@@ -33,346 +34,472 @@ page-meta-description=page.description page-meta-image=page.image %}
                 </div>
 
                 <div class="row artifact-table-row level-one">
-                    <div class="col-12 faux-table-col">&nbsp;</div>
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row test">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 010 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
                     <div class="col-12 faux-table-col">
-                        {%- for artifact in site.artifacts -%}
-                            {%- assign current_ref = artifact.ref -%}
-                        {%- endfor -%}
+                        {% assign this_group = site.artifacts | where: 'ref_group', 020 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
                     </div>
                 </div>
 
-                {% assign album = site.artifacts
-                | where_exp:"album", "album.title == 'My Amazing Album'"
-                | first %}
-
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-010-0070</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 030 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        empty
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-020-0001</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-030-0274</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 110 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 111 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 112 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-110-0003</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-111-0005</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-112-0000</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-114-0001</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-115-0000</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-120-0000</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-121-0095</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-130-0001</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-140-0004</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-160-0003</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-211-0000</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-222-0000</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 114 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 115 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 121 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 130 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 140 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 160 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">↓</div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        empty
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 211 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        empty
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        empty
+                    </div>
+                </div>
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 222 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-231-0015</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-232-0000</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 231 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-                
-                                <div class="row artifact-table-row">
-                                    <div class="col-12 faux-table-col">-</div>
-                                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-241-0001</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 232 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-251-0015</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-252-0001</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-253-0001</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-254-0001</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-255-0000</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-256-0000</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-320-0013</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-321-0042</div>
-                </div>
-
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-322-0006</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-323-0001</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-324-0003</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-333-0001</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-410-0004</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-430-0003</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-440-0000</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-460-0000</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-470-0001</div>
-                </div>
-
-                <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-475-0003</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 234 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
                 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-480-0000</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 241 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-511-0001</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-512-0002</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 251 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 252 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-520-0000</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 253 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-530-0002</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 254 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 255 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 256 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">sol-601-0003</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 320 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 321 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
                 </div>
 
                 <div class="row artifact-table-row">
-                    <div class="col-12 faux-table-col">-</div>
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 322 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 323 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 324 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 333 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 410 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 430 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">↓</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 440 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 460 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">↓</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 470 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 475 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+                
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 480 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 511 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 512 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 520 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 530 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">↓</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">
+                        {% assign this_group = site.artifacts | where: 'ref_group', 601 | sort: 'ref_id' | reverse | slice: 0, 1 %}
+                        {%- for artifact in this_group -%}sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}{%- endfor -%}
+                    </div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
+                </div>
+
+                <div class="row artifact-table-row">
+                    <div class="col-12 faux-table-col">empty</div>
                 </div>
 
                 <div class="row artifact-table-row">

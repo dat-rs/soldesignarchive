@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0270
+ref_group: "030"
+ref_id: "0270"
 title: "Esquemateca de Televisão/Volume VI"
 author_name: ["unknown author"]
 publisher: ["Publicit Editora"]

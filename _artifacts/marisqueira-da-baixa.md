@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0105
+ref_group: "160"
+ref_id: "0105"
 title: "Marisqueira da Baixa"
 author_name:
 year:

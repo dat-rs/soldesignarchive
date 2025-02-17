@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0111
+ref_group: "160"
+ref_id: "0111"
 title: "Firestone"
 author_name:
 year:

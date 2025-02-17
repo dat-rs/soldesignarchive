@@ -7,7 +7,8 @@ publisher: "Filmarte"
 formats: [envelope]
 disciplines: [graphic-design, typography, illustration, identity, logo]
 tags: [""]
-ref: sol-530-0001
+ref_group: "530"
+ref_id: "0001"
 layout: artifact
 status: complete
 published: true

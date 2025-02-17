@@ -7,7 +7,8 @@ publisher: "Carris"
 formats: [booklet, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction, "João Pereira da Rosa"]
-ref: sol-256-0000
+ref_group: "256"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

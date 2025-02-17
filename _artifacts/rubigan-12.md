@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0070
+ref_group: "160"
+ref_id: "0070"
 title: "Rubigan 12"
 author_name:
 year:

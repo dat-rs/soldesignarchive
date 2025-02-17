@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0008
+ref_group: "321"
+ref_id: "0008"
 title: Panorama III 11
 author_name: [Júlio Gil, Paulo Ferreira]
 publisher: SPN/SNI/SEIT

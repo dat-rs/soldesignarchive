@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0006
+ref_group: "160"
+ref_id: "0006"
 title: "Pelikan"
 author_name:
 year:

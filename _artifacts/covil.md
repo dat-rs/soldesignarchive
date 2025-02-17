@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0052
+ref_group: "010"
+ref_id: "0052"
 title: "O Covil"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Editorial Inquérito"]

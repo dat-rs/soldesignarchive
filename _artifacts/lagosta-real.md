@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0103
+ref_group: "160"
+ref_id: "0103"
 title: "Lagosta Real"
 author_name:
 year:

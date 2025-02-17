@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0010
+ref_group: "251"
+ref_id: "0010"
 title: "Carnet de Voyage en France 1958"
 author_name: ["Robert Massin"]
 publisher: ["Direction Générale du Tourisme"]

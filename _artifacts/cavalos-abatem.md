@@ -7,7 +7,8 @@ publisher: "Círculo de Leitores"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "Horace McCoy"]
-ref: sol-030-0206
+ref_group: "030"
+ref_id: "0206"
 layout: artifact
 status: complete
 published: true

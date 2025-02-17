@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0019
+ref_group: "121"
+ref_id: "0019"
 title: "250 Hotels offrent des Prix Réduits"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Direction Générale du Tourisme"]

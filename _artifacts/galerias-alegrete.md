@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0091
+ref_group: "160"
+ref_id: "0091"
 title: "Galerias Alegrete"
 author_name:
 year:

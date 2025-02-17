@@ -1,5 +1,6 @@
 ---
-ref: sol-115-0000
+ref_group: "115"
+ref_id: "0000"
 title: Roteiro do Museu de Óbidos
 author_name: [unknown author]
 publisher: [Fundação Calouste Gulbenkian]

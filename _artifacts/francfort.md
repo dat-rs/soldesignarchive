@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0054
+ref_group: "121"
+ref_id: "0054"
 title: "Francfort-sur-le-Mein"
 author_name: ["Erika Müller"]
 publisher: ["Verkehrs und Wirtschaftsamt der Stadt Frankfurt am Main"]

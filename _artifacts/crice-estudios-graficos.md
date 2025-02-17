@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0054
+ref_group: "160"
+ref_id: "0054"
 title: "Crice Estúdios Gráficos"
 author_name:
 year:

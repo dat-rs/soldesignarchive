@@ -7,7 +7,8 @@ publisher: "Livraria Clássica Editora"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [illustration, "Henri Troyat"]
-ref: sol-010-0014
+ref_group: "010"
+ref_id: "0014"
 layout: artifact
 status: complete
 published: true

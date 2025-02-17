@@ -1,5 +1,6 @@
 ---
-ref: sol-322-0006
+ref_group: "322"
+ref_id: "0006"
 title: "Livros de Portugal 49"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["APEL"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0074
+ref_group: "121"
+ref_id: "0074"
 title: "Monte Generoso"
 author_name:
 publisher:

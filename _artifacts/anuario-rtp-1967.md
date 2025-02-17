@@ -7,7 +7,8 @@ publisher: "RTP"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: ["television"]
-ref: sol-241-0002
+ref_group: "241"
+ref_id: "0002"
 layout: artifact
 status: complete
 published: true

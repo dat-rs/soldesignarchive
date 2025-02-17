@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0075
+ref_group: "121"
+ref_id: "0075"
 title: "Mexico. The Land of Contrasts"
 author_name:
 publisher:

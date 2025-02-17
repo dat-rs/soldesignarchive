@@ -7,7 +7,8 @@ publisher: "SPN/SNI/SEIT"
 formats: [booklet]
 disciplines: [graphic-design, typography]
 tags: [non-fiction, art, green, blue, geometric]
-ref: sol-231-0006
+ref_group: "231"
+ref_id: "0006"
 image_count: 9
 layout: artifact
 status: complete

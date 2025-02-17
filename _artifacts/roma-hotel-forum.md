@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0068
+ref_group: "121"
+ref_id: "0068"
 title: "Roma. Hotel Forum"
 author_name:
 publisher:

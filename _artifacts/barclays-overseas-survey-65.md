@@ -1,5 +1,6 @@
 ---
-ref: sol-241-0000
+ref_group: "241"
+ref_id: "0000"
 title: "Barclays Bank Overseas Survey 1965"
 author_name: ["unknown author"]
 publisher: ["Barclays Bank"]

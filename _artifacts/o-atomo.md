@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0257
+ref_group: "030"
+ref_id: "0257"
 title: O Átomo
 author_name: [unknown author]
 publisher: [Publicações Europa-América]

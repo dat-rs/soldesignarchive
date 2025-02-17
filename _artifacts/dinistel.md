@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0130
+ref_group: "160"
+ref_id: "0130"
 title: "Dinistel"
 author_name:
 year:

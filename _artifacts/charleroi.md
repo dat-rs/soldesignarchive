@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0010
+ref_group: "121"
+ref_id: "0010"
 title: "Charleroi"
 author_name: ["COETS Publicité"]
 publisher: ["Commissariat Général au Turisme"]

@@ -8,7 +8,8 @@ layout: artifact
 status: complete
 published: true
 title: Escola de Férias
-ref: sol-030-0101
+ref_group: "030"
+ref_id: "0101"
 formats:
   - book cover
   - book

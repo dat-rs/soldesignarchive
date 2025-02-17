@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [fiction, "Os Livros das Três Abelhas", "Publicações Europa-América", brown, blue, illustration]
-ref: sol-030-0046
+ref_group: "030"
+ref_id: "0046"
 layout: artifact
 status: complete
 published: true

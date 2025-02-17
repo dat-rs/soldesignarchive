@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0009
+ref_group: "140"
+ref_id: "0009"
 title: O Mandarim
 author_name: ["unknown-author"]
 publisher: []

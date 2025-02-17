@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0009
+ref_group: "251"
+ref_id: "0009"
 title: "La France Catholique"
 author_name: ["unknown author"]
 publisher: ["SNCF"]

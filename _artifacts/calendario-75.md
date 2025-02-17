@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0001
+ref_group: "160"
+ref_id: "0001"
 title: "Calendário para 1975"
 author_name:
   [

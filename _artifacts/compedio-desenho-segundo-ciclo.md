@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0247
+ref_group: "030"
+ref_id: "0247"
 title: "Compêndio de Desenho para o 2o ciclo do liceu"
 author_name: ["unknown author"]
 publisher: ["Porto Editora"]

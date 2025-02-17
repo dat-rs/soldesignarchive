@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0014
+ref_group: "140"
+ref_id: "0014"
 title: "Aleluia!"
 author_name: ["unknown-author"]
 publisher: []

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0030
+ref_group: "121"
+ref_id: "0030"
 title: "Poitou Vendée Charentes"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0035
+ref_group: "121"
+ref_id: "0035"
 title: "Ile de France"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Direction Générale du Tourisme"]

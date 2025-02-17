@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: ["Robert Louis Stevenson"]
 iconography: [people, men, chemistry]
-ref: sol-030-0083
+ref_group: "030"
+ref_id: "0083"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0016
+ref_group: "121"
+ref_id: "0016"
 title: "Mapa das Principais Entradas e Saídas de Paris"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

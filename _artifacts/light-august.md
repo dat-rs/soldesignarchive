@@ -7,7 +7,8 @@ publisher: "Penguin Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "William Faulkner"]
-ref: sol-030-0224
+ref_group: "030"
+ref_id: "0224"
 layout: artifact
 status: complete
 published: true

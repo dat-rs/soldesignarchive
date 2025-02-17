@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0014
+ref_group: "121"
+ref_id: "0014"
 title: "Bruges. Belgique"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

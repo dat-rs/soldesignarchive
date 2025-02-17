@@ -7,7 +7,8 @@ publisher: "Editorial Alhambra"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography]
 tags: [non-fiction]
-ref: sol-030-0189
+ref_group: "030"
+ref_id: "0189"
 layout: artifact
 status: complete
 published: true

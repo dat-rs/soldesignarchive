@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0052
+ref_group: "160"
+ref_id: "0052"
 title: "Florasol"
 author_name:
 year:

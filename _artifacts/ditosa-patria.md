@@ -7,7 +7,8 @@ publisher: "Terra Livre"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]
 tags: []
-ref: sol-030-0006
+ref_group: "030"
+ref_id: "0006"
 layout: artifact
 status: complete
 published: true

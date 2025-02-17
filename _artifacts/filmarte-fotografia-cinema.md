@@ -7,7 +7,8 @@ publisher: "Filmarte"
 formats: [envelope]
 disciplines: [graphic-design, typography, illustration, identity, logo]
 tags: ["reverse-contrast"]
-ref: sol-530-0000
+ref_group: "530"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

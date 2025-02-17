@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0243
+ref_group: "030"
+ref_id: "0243"
 title: "Alma Encantada. Mãe e Filho"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália"]

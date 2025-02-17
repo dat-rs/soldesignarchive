@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0058
+ref_group: "160"
+ref_id: "0058"
 title: "Formação em Cooperação"
 author_name:
 year:

@@ -7,7 +7,8 @@ publisher: "Yashica"
 formats: [envelope]
 disciplines: [graphic-design, typography]
 tags: ["reverse-contrast"]
-ref: sol-530-0002
+ref_group: "530"
+ref_id: "0002"
 layout: artifact
 status: complete
 published: true

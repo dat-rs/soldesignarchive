@@ -74,6 +74,13 @@
   rel_authors: ["Fred Troller"]
   description: "Fred Troller obituary by Steven Heller in The New York Times."
 
+- title: "Joan Palet"
+  type: site
+  lang: es
+  out_url: https://www.joanpalet.com
+  rel_authors: ["Joan Palet"]
+  description: "Official website."
+
 - title: "João Abel Manta - Wikipedia"
   type: article
   lang: pt
@@ -82,6 +89,14 @@
   rel_tags:
   rel_artifacts:
   description: "João Abel Manta - Portuguese Wikipedia entry."
+
+- title: "Loni Geest - Diseñadoras Gráficas"
+  type: at-archive
+  lang: es
+  out_url: "https://disenadorasgraficas.com/portafolio/loni-geest/"
+  rel_artifacts: []
+  rel_authors: ["Loni Geest"]
+  description: "Loni Geest's entry at Diseñadoras Gráficas."
 
 - title: "Núria Picas i Codina - Enciclopèdia.cat"
   type: at-archive
@@ -137,13 +152,21 @@
   rel_artifacts: ["Tesouros do Museu de Bagdade"]
   description: "Page of the exhibition on Fundação Calouste Gulbenkian's History of the Arts Exhibitions site. It features information, photos, graphic materials and documentation related to the exhibition."
 
+- title: "Tone Hoverstad - Diseñadoras Gráficas"
+  type: at-archive
+  lang: es
+  out_url: "https://disenadorasgraficas.com/portafolio/tone-hovestard/"
+  rel_artifacts: []
+  rel_authors: ["Tone Hoverstad"]
+  description: "Tone Hoverstad's entry at Diseñadoras Gráficas."
+---
 - title: "Tóssan"
   type: book
   lang: pt
   out_url: https://abysmo.pt/produto/o-homem-que-queria-ser-tossan/
   offline: offline
   rel_authors: ["Tóssan"]
-  rel_tags: []
+  rel_tags:
   rel_artifacts: []
   description: "A Comprehensive volume featuring the various facets of the work of Tóssan."
 

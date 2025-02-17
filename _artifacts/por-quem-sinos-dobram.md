@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0051
+ref_group: "030"
+ref_id: "0051"
 title: "Por Quem os Sinos Dobram"
 author_name: ["Bernardo Marques"]
 publisher: ["Livros do Brasil"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0036
+ref_group: "121"
+ref_id: "0036"
 title: "Carte de France"
 author_name: ["Maurice Frantz Pointeau"]
 publisher: ["SNCF"]

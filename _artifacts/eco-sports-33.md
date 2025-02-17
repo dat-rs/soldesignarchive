@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0000
+ref_group: "321"
+ref_id: "0000"
 title: "Eco dos Sports 33"
 author_name: ["Eduardo Ferreira"]
 publisher: ["unknown publisher"]

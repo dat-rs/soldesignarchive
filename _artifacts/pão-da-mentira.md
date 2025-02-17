@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Horace McCoy", "Os Livros das Três Abelhas"]
-ref: sol-030-0023
+ref_group: "030"
+ref_id: "0023"
 layout: artifact
 status: complete
 published: true

@@ -7,7 +7,8 @@ publisher: "SPN/SNI/SEIT"
 formats: [stamp, poster-stamp]
 disciplines: ["graphic-design", typography, illustration]
 tags: [tourism, Madeira]
-ref: sol-410-0002
+ref_group: "410"
+ref_id: "0002"
 layout: artifact
 status: complete
 published: true

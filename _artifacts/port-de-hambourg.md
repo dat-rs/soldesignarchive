@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0094
+ref_group: "121"
+ref_id: "0094"
 title: "Port de Hambourg"
 author_name:
 publisher:

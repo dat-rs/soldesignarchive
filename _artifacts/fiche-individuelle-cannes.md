@@ -7,7 +7,8 @@ publisher: "Mairie de Cannes"
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
 tags: ["stamps"]
-ref: sol-460-0000
+ref_group: "460"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

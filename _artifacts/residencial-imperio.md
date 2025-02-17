@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0004
+ref_group: "160"
+ref_id: "0004"
 title: "Residencial Império"
 author_name:
 year:

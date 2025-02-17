@@ -57,12 +57,14 @@ regenerate: true
 
     <div class="faux-table db" id="artifact-table">
           
-      {% assign artifacts_by_ref = site.artifacts | sort: 'ref' | reverse %}
+      {% assign artifacts_by_ref = site.artifacts | sort: 'ref_id' | reverse %}
       {% for artifact in artifacts_by_ref %}
         <div class="row artifact-table-row">
         
           <div class="col-1 faux-table-col">
-            <span class="reference">{{ artifact.ref }}</span>
+            <span class="reference">sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}</span>
+            <span class="ref-group d-none">{{ artifact.ref_group }}</span>
+            <span class="ref-id d-none">{{ artifact.ref_id }}</span>
           </div>
 
           <div class="col-3 faux-table-col">

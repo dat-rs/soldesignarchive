@@ -1,5 +1,6 @@
 ---
-ref: sol-211-0001
+ref_group: "211"
+ref_id: "0001"
 title: "Switzerland Official Road Map"
 author_name: ["unknown author"]
 publisher: ["Swiss National Tourist Office"]

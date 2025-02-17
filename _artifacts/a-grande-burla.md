@@ -7,7 +7,8 @@ publisher: "Seara Nova"
 formats: [book, book-cover]
 disciplines: [graphic-design]
 tags: []
-ref: sol-030-0019
+ref_group: "030"
+ref_id: "0019"
 layout: artifact
 status: complete
 published: true

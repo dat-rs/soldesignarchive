@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0005
+ref_group: "160"
+ref_id: "0005"
 title: "50 Anos Sociedade Tipográfica"
 author_name:
 year:

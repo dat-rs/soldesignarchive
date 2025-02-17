@@ -7,7 +7,8 @@ publisher: "Direccion General del Turismo"
 formats: [brochure, map]
 disciplines: [graphic-design, typography, illustration]
 tags: [museum, Madrid, guide, tourism, illustration, red, yellow]
-ref: sol-121-0000
+ref_group: "121"
+ref_id: "0000"
 image_count: 3
 image_captions: ["", "Map of downtown Madrid. Francisco Espinosa.", "Illustrations by J. Ruiz Navarro."]
 layout: artifact

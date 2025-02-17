@@ -7,7 +7,8 @@ publisher: "Afrodite"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction, "tight-not-touching"]
-ref: sol-030-0191
+ref_group: "030"
+ref_id: "0191"
 layout: artifact
 status: complete
 published: true

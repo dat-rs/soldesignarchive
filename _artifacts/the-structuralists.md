@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 iconography: [red, blue]
 tags: [Helvetica]
-ref: sol-030-0079
+ref_group: "030"
+ref_id: "0079"
 layout: artifact
 status: complete
 published: true

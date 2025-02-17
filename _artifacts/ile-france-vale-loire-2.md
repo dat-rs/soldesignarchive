@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0022
+ref_group: "121"
+ref_id: "0022"
 title: "Ile de France Vale de Loire"
 author_name: ["Abel"]
 publisher: ["SNCF"]

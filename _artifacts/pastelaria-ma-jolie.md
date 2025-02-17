@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0026
+ref_group: "160"
+ref_id: "0026"
 title: "Pastelaria ma jolie"
 author_name:
 year:

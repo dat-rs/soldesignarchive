@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0003
+ref_group: "321"
+ref_id: "0003"
 title: Panorama IV 30
 author_name: Júlio Gil
 publisher: SPN/SNI/SEIT

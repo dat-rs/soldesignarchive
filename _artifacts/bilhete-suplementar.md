@@ -7,7 +7,8 @@ publisher: "Carris"
 formats: [ticket]
 disciplines: ["graphic-design", typography]
 tags: [Lisbon]
-ref: sol-512-0001
+ref_group: "512"
+ref_id: "0001"
 image_count: 3
 layout: artifact
 status: complete

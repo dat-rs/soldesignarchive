@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0045
+ref_group: "121"
+ref_id: "0045"
 title: "Provence - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

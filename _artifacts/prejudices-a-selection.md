@@ -7,7 +7,8 @@ publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, collage, lettering]
 tags: [non-fiction, "H. L. Mencken"]
-ref: sol-030-0057
+ref_group: "030"
+ref_id: "0057"
 image_count: 2
 layout: artifact
 status: complete

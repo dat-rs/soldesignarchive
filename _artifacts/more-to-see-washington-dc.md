@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0085
+ref_group: "121"
+ref_id: "0085"
 title: "there's more to see in Washington, D.C."
 author_name:
 publisher:

@@ -7,7 +7,8 @@ publisher: "Deutscher Taschenbuch Verlag"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, novel, "Jean Renoir"]
-ref: sol-030-0221
+ref_group: "030"
+ref_id: "0221"
 layout: artifact
 status: complete
 published: true

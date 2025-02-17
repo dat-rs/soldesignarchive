@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0031
+ref_group: "121"
+ref_id: "0031"
 title: "Poitou - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

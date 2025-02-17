@@ -8,7 +8,8 @@ layout: artifact
 status: complete
 published: true
 title: Serranos
-ref: sol-030-0097
+ref_group: "030"
+ref_id: "0097"
 formats:
   - book cover
   - book
