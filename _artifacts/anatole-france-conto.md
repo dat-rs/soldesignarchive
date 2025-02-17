@@ -7,7 +7,8 @@ publisher: "Atlântida Editora"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration, lettering]
 tags: [fiction, "short story", "Anatole France"]
-ref: sol-030-0212
+ref_group: "030"
+ref_id: "0212"
 layout: artifact
 status: complete
 published: true

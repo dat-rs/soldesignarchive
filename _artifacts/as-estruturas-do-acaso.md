@@ -7,7 +7,8 @@ publisher: "Editorial O Século"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]
 tags: ["Jean-Louis Boursin", helvetica]
-ref: sol-030-0062
+ref_group: "030"
+ref_id: "0062"
 layout: artifact
 status: complete
 published: true

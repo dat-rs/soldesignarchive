@@ -1,5 +1,6 @@
 ---
-ref: sol-475-0000
+ref_group: "475"
+ref_id: "0000"
 title: "Parque Verde"
 author_name: ["unknown author"]
 publisher: ["Parque Verde"]

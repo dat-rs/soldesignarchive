@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0063
+ref_group: "160"
+ref_id: "0063"
 title: "Caixa Económica do Funchal"
 author_name:
 year:

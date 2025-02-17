@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0118
+ref_group: "160"
+ref_id: "0118"
 title: "neobradoral"
 author_name:
 year:

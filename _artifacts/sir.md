@@ -1,5 +1,6 @@
 ---
-ref: sol-475-0002
+ref_group: "475"
+ref_id: "0002"
 title: "Restaurante Sir"
 author_name: ["unknown author"]
 publisher: ["Restaurante Sir"]

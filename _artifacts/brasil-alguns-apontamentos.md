@@ -7,7 +7,8 @@ publisher: "Escritório de Propaganda e Expansão Comercial do Brasil em Lisboa"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: [Brazil, non-fiction, tourism, commerce, government, illustration, propaganda]
-ref: sol-030-0007
+ref_group: "030"
+ref_id: "0007"
 image_count: 8
 layout: artifact
 status: complete

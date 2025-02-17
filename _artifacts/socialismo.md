@@ -7,7 +7,8 @@ publisher: "Zahar Editores"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography]
 tags: [non-fiction, socialism, economics, "Paul Sweezy"]
-ref: sol-030-0183
+ref_group: "030"
+ref_id: "0183"
 layout: artifact
 status: complete
 published: true

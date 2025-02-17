@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0083
+ref_group: "160"
+ref_id: "0083"
 title: "Sommer d'Andrade"
 author_name:
 year:

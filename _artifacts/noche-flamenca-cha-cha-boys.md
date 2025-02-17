@@ -9,7 +9,8 @@ formats: [record, record-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: [music]
 iconography: [people, men, faces, leaves]
-ref: sol-601-0000
+ref_group: "601"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

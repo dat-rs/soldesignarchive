@@ -1,5 +1,6 @@
 ---
-ref: sol-252-0001
+ref_group: "252"
+ref_id: "0001"
 title: If
 author_name: [unknown author]
 publisher: [unknown publisher]

@@ -7,7 +7,8 @@ publisher: "Terra Livre"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, agriculture, "Gonçalo Santa Ritta"]
-ref: sol-030-0005
+ref_group: "030"
+ref_id: "0005"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0011
+ref_group: "160"
+ref_id: "0011"
 title: "Leonel Andrade Seguros"
 author_name:
 year:

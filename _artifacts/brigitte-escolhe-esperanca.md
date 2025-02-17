@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0188
+ref_group: "030"
+ref_id: "0188"
 title: "Brigitte escolhe a esperança"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]

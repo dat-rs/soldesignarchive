@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0098
+ref_group: "160"
+ref_id: "0098"
 title: "UEFA 84"
 author_name:
 year:

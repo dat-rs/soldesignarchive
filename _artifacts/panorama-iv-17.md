@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0033
+ref_group: "321"
+ref_id: "0033"
 title: Panorama IV 17
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT

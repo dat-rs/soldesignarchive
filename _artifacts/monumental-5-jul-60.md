@@ -1,5 +1,6 @@
 ---
-ref: sol-111-0005
+ref_group: "111"
+ref_id: "0005"
 title: "Cinema Monumental - Programa 5 Julho 1960"
 author_name: ["unknown author"]
 publisher: ["Cinema Monumental"]

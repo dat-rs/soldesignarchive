@@ -7,7 +7,8 @@ publisher: "Câmara Municipa de Sintra"
 formats: [book-cover, booklet, programme]
 disciplines: [graphic-design, typography, illustration]
 tags: [music]
-ref: sol-114-0000
+ref_group: "114"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

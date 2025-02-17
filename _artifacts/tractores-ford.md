@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0007
+ref_group: "160"
+ref_id: "0007"
 title: "Tractores Ford"
 author_name:
 year:

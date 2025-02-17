@@ -7,7 +7,8 @@ publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: ["Colecção Educativa", "Estado Novo"]
-ref: sol-030-0144
+ref_group: "030"
+ref_id: "0144"
 layout: artifact
 status: wip
 published: true

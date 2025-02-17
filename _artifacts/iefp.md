@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0094
+ref_group: "160"
+ref_id: "0094"
 title: "IEFP"
 author_name:
 year:

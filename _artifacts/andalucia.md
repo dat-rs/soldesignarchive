@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0060
+ref_group: "121"
+ref_id: "0060"
 title: "Andalucia"
 author_name: ["Serny"]
 publisher: ["Direccion General del Turismo"]

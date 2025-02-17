@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0004
+ref_group: "121"
+ref_id: "0004"
 title: "Belgique. Littoral. Villes d’Art. Ardennes"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]

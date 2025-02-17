@@ -7,7 +7,8 @@ publisher: "Livraria Morais Editora"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [fiction, poetry, "Alexandre O'Neill"]
-ref: sol-030-0233
+ref_group: "030"
+ref_id: "0233"
 layout: artifact
 status: complete
 published: true

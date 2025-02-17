@@ -2,12 +2,13 @@
 title: La Llama de Nueva Orleans
 author_name: ["unknown author"]
 year: y1952
-origin: [Spain, Catalonia]
+origin: [Catalonia, Spain]
 publisher: "unknown publisher"
 formats: [ad]
 disciplines: ["graphic-design", typography, illustration]
 tags: [cinema]
-ref: sol-333-0001
+ref_group: "333"
+ref_id: "0001"
 wip:
 layout: artifact
 status: complete

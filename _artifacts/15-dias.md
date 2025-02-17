@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0081
+ref_group: "160"
+ref_id: "0081"
 title: "de 15 em 15 dias"
 author_name:
 year:

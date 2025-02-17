@@ -7,7 +7,8 @@ publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [non-fiction, economics, Penguin, "Penguin Modern Economics", Univers, pattern]
-ref: sol-010-0055
+ref_group: "010"
+ref_id: "0055"
 layout: artifact
 status: complete
 published: true

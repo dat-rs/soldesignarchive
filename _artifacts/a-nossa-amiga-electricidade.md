@@ -19,7 +19,8 @@ disciplines:
   - illustration
   - graphic-design
 tags: []
-ref: sol-030-0093
+ref_group: "030"
+ref_id: "0093"
 slug: a-nossa-amiga-electricidade
 image_count:
 wip: false

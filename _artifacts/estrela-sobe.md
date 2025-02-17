@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0059
+ref_group: "010"
+ref_id: "0059"
 title: "A Estrela Sobe"
 author_name: ["unknown author"]
 publisher: ["Livros do Brasil"]

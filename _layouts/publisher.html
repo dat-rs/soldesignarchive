@@ -94,7 +94,14 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
   resources-section.html %} {% endif %}
 
   <!-- RELATED -->
-  {% if page.related_authors or page.related_publishers or page.related_tags %}
+
+    {%- if page.rel_authors or page.rel_publishers or page.rel_tags != null -%}
+    {%- assign at_least_one_rel = true -%}
+    {%- else -%}
+    {%- assign at_least_one_rel = false -%}
+    {%- endif -%}
+
+  {% if at_least_one_rel == true %}
   <div class="row datum-section related">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">Related</h3>
@@ -103,7 +110,7 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
   </div>
 
   <!-- authors, RELATED -->
-  {% if page.related_authors %}
+  {% unless page.related_authors == null %}
   <div class="datum-row row">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="related-label author">Authors</span>
@@ -115,10 +122,10 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
       {% endfor %}
     </div>
   </div>
-  {% endif %}
+  {% endunless %}
 
   <!-- publishers, RELATED -->
-  {% if page.related_publishers %}
+  {% unless page.related_publishers == null %}
   <div class="datum-row row">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="related-label publisher">Publishers/Clients</span>
@@ -132,10 +139,10 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
       {% endfor %}
     </div>
   </div>
-  {% endif %}
+  {% endunless %}
 
   <!-- tags, RELATED -->
-  {% if page.related_tags %}
+  {% unless page.related_tags == null %}
   <div class="datum-row row">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <span class="related-label tag">Tags</span>
@@ -147,7 +154,8 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
       {% endfor %}
     </div>
   </div>
-  {% endif %} {% endif %}
+  {% endunless %} 
+  {% endif %}
 </div>
 
 <!-- ARTIFACTS -->

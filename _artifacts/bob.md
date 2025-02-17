@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0028
+ref_group: "160"
+ref_id: "0028"
 title: "BOB"
 author_name:
 year:

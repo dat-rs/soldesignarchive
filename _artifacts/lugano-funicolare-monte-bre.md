@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0078
+ref_group: "121"
+ref_id: "0078"
 title: "Lugano. Suisse. Funicolare Monte Brè"
 author_name:
 publisher:

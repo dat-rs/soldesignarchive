@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0014
+ref_group: "251"
+ref_id: "0014"
 title: "Greenwich in Colour"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0007
+ref_group: "251"
+ref_id: "0007"
 title: "O que deve saber ao chegar a Paris"
 author_name: ["Guy Georget"]
 publisher: ["Direction Générale du Tourisme"]

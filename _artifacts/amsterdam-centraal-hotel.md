@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0089
+ref_group: "121"
+ref_id: "0089"
 title: "Amsterdam Centraal Hotel"
 author_name:
 publisher:

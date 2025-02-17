@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0241
+ref_group: "030"
+ref_id: "0241"
 title: "Antologia da Novíssima Poesia Catalã"
 author_name: ["unknown author"]
 publisher: ["Futura"]

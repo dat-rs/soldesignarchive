@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0264
+ref_group: "030"
+ref_id: "0264"
 title: A Praga Escarlate e O Combate
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]

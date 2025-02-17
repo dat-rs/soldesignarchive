@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0057
+ref_group: "121"
+ref_id: "0057"
 title: "Alemanha. Guia Turístico 1959"
 author_name: ["Karlfritz Nicolay"]
 publisher: ["Deutsche Zentrale für Fremdenverkehr"]

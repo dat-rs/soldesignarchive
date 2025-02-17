@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0024
+ref_group: "121"
+ref_id: "0024"
 title: "Normandie Bretagne"
 author_name: ["Maurice Frantz Pointeau"]
 publisher: ["SNCF"]

@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book-cover, book]
 disciplines: [graphic-design, illustration, typography]
 tags: [fiction, "Horace McCoy", "Os Livros das Três Abelhas", Futura]
-ref: sol-030-0030
+ref_group: "030"
+ref_id: "0030"
 layout: artifact
 status: complete
 published: true

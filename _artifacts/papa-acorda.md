@@ -7,7 +7,8 @@ publisher: "Teatro Variedades"
 formats: [flyer, poster]
 disciplines: [graphic-design, typography]
 tags: [theatre]
-ref: sol-140-0000
+ref_group: "140"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

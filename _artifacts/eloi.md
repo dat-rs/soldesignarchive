@@ -8,7 +8,8 @@ layout: artifact
 status: complete
 published: true
 title: Elói
-ref: sol-030-0095
+ref_group: "030"
+ref_id: "0095"
 formats:
   - book cover
   - book

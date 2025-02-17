@@ -7,7 +7,8 @@ publisher: "Fundação Calouste Gulbenkian"
 formats: [programme, book, book-cover]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo Magalhães"]
-ref: sol-114-0001
+ref_group: "114"
+ref_id: "0001"
 layout: artifact
 status: wip
 published: true

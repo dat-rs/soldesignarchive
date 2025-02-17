@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0071
+ref_group: "160"
+ref_id: "0071"
 title: "Bacio"
 author_name:
 year:

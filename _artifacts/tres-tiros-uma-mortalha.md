@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [fiction, short story, "Rogério Fernandes", "Os Livros das Três Abelhas"]
-ref: sol-030-0009
+ref_group: "030"
+ref_id: "0009"
 layout: artifact
 status: complete
 published: true

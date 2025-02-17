@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0053
+ref_group: "121"
+ref_id: "0053"
 title: "Cologne"
 author_name: ["Hubert Jacoby"]
 publisher: ["Verkehrsamt der Stadt Köln"]

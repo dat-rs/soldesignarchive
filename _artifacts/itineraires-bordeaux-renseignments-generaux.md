@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0033
+ref_group: "121"
+ref_id: "0033"
 title: "Itinéraires autour de Bordeaux - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

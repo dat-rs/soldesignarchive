@@ -7,7 +7,8 @@ publisher: "Fundação Calouste Gulbenkian"
 formats: [catalogue, book, graphic-design]
 disciplines: [graphic-design, typography]
 tags: [Rodin, art]
-ref: sol-231-0012
+ref_group: "231"
+ref_id: "0012"
 layout: artifact
 status: complete
 published: true

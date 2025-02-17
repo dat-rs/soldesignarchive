@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0078
+ref_group: "160"
+ref_id: "0078"
 title: "Higipombo"
 author_name:
 year:

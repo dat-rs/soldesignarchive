@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0023
+ref_group: "160"
+ref_id: "0023"
 title: "Moldipur"
 author_name:
 year:

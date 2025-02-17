@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0027
+ref_group: "121"
+ref_id: "0027"
 title: "France Pyrénées"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Direction Générale du Tourisme"]

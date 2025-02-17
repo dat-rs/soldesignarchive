@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0026
+ref_group: "010"
+ref_id: "0026"
 title: "Caetes"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]

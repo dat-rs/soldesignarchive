@@ -1,5 +1,6 @@
 ---
-ref: sol-111-0002
+ref_group: "111"
+ref_id: "0002"
 title: "Cinema Monumental - Programa 10 Maio 1960"
 author_name: ["unknown author"]
 publisher: ["Cinema Monumental"]

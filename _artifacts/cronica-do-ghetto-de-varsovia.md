@@ -7,7 +7,8 @@ publisher: "Livraria Morais Editora"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, photography]
 tags: [non-fiction, history, duotone]
-ref: sol-030-0012
+ref_group: "030"
+ref_id: "0012"
 layout: artifact
 status: complete
 published: true

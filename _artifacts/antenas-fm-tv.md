@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0271
+ref_group: "030"
+ref_id: "0271"
 title: "Práctica de la construcción e instalación de Antenas de FM y de TV"
 author_name: ["Ruiz"]
 signature-id: true

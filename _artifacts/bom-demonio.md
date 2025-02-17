@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0248
+ref_group: "030"
+ref_id: "0248"
 title: "O Bom Demónio"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]

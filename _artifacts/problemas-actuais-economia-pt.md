@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0234
+ref_group: "030"
+ref_id: "0234"
 title: Problemas Actuais da Economia Portuguesa
 author_name: ["Henrique Ruivo", "Acácio Santos"]
 publisher: [Seara Nova]

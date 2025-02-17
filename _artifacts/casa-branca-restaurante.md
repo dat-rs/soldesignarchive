@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0040
+ref_group: "160"
+ref_id: "0040"
 title: "Casa Branca Restaurante"
 author_name:
 year:

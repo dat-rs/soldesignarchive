@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0008
+ref_group: "140"
+ref_id: "0008"
 title: O Rei do Volframio
 author_name: ["unknown-author"]
 publisher: []

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0055
+ref_group: "160"
+ref_id: "0055"
 title: "Caixa Geral de Depósitos 1986"
 author_name:
 year:

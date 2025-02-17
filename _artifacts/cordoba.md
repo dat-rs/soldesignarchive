@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0088
+ref_group: "121"
+ref_id: "0088"
 title: "Cordoba"
 author_name:
 publisher:

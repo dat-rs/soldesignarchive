@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0017
+ref_group: "160"
+ref_id: "0017"
 title: "beba Snappy"
 author_name:
 year:

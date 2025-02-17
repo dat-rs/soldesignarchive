@@ -7,7 +7,8 @@ publisher: ["Hachette", "Larousse"]
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography]
 tags: [non-fiction]
-ref: sol-030-0190
+ref_group: "030"
+ref_id: "0190"
 layout: artifact
 status: complete
 published: true

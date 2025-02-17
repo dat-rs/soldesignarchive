@@ -7,7 +7,8 @@ publisher: "Portugália"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering, pattern]
 tags: [Fyodor Dostoevsky]
-ref: sol-010-0062
+ref_group: "010"
+ref_id: "0062"
 layout: artifact
 status: complete
 published: true

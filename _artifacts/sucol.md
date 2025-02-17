@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0096
+ref_group: "160"
+ref_id: "0096"
 title: "Sucol"
 author_name:
 year:

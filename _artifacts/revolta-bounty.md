@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, "Os Livros das Três Abelhas", "John Barrow"]
 iconography: [boat, sea]
-ref: sol-030-0025
+ref_group: "030"
+ref_id: "0025"
 layout: artifact
 status: complete
 published: true

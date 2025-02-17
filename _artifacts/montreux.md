@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0051
+ref_group: "121"
+ref_id: "0051"
 title: "Montreux"
 author_name: ["Pierre-Laurent Brenot"]
 publisher: ["Office du Tourisme Montreux"]

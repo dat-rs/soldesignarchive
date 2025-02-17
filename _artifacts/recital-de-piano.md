@@ -8,7 +8,8 @@ formats: [programme, brochure]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Jorge Amado", music]
 iconography: []
-ref: sol-110-0001
+ref_group: "110"
+ref_id: "0001"
 layout: artifact
 status: complete
 published: true

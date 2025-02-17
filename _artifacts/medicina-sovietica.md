@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0259
+ref_group: "030"
+ref_id: "0259"
 title: A Medicina Soviética
 author_name: [unknown author]
 publisher: [Sindicato dos Médicos]

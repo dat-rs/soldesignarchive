@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0012
+ref_group: "140"
+ref_id: "0012"
 title: O Retiro dos Pacatos
 author_name: ["unknown-author"]
 publisher: []

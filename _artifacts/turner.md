@@ -1,5 +1,6 @@
 ---
-ref: sol-231-0003
+ref_group: "231"
+ref_id: "0003"
 title: "Turner. 1775-1851"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Fundação Calouste Gulbenkian"]

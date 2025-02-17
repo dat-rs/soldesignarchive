@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0267
+ref_group: "030"
+ref_id: "0267"
 title: "A Investigação Orientada"
 author_name: ["unknown author"]
 publisher: ["Livraria Bertrand"]

@@ -1,0 +1,4 @@
+---
+name: catalogue
+layout: format
+---

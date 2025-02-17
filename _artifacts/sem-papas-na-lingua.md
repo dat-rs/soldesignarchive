@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Beatriz Costa"]
 iconography: [people, women]
-ref: sol-010-0018
+ref_group: "010"
+ref_id: "0018"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0032
+ref_group: "121"
+ref_id: "0032"
 title: "Itinéraires autour de Bordeaux"
 author_name: ["Edward P. Lancaster"]
 publisher: ["Direction Générale du Tourisme"]

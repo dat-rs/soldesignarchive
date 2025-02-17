@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0093
+ref_group: "160"
+ref_id: "0093"
 title: "Jomaropi"
 author_name:
 year:

@@ -7,7 +7,8 @@ publisher: "Bantam Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction, biography, "Irving Stone"]
-ref: sol-030-0217
+ref_group: "030"
+ref_id: "0217"
 layout: artifact
 status: complete
 published: true

@@ -2,12 +2,13 @@
 title: Con Quitamanchas Frotador las Manchas se Quitan Solas
 author_name: ["Josep Buyreu i Marí"]
 year: "unknown-date"
-origin: [Spain, Catalonia]
+origin: [Catalonia, Spain]
 publisher: "Especialidades C.G.M."
 formats: [ad]
 disciplines: ["graphic-design", typography, illustration]
 tags: []
-ref: sol-333-0000
+ref_group: "333"
+ref_id: "0000"
 wip:
 layout: artifact
 status: complete

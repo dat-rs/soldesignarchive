@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0053
+ref_group: "010"
+ref_id: "0053"
 title: "Os Melhores Contos de Graham Greene"
 author_name: ["Victor Palla"]
 publisher: ["Arcádia"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0015
+ref_group: "160"
+ref_id: "0015"
 title: "Delta"
 author_name:
 year:

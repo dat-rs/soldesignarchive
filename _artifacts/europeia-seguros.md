@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0010
+ref_group: "160"
+ref_id: "0010"
 title: "Europeia Seguros"
 author_name:
 year:

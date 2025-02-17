@@ -1,5 +1,6 @@
 ---
-ref: sol-111-0000
+ref_group: "111"
+ref_id: "0000"
 title: "Cinema Imperial - Programa"
 author_name: ["unknown author"]
 publisher: ["Cinema Imperial"]

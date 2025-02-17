@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0032
+ref_group: "010"
+ref_id: "0032"
 title: "Novamente a Coreia"
 author_name: ["unknown author"]
 publisher: ["Seara Nova"]

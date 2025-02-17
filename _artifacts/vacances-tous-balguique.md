@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0003
+ref_group: "251"
+ref_id: "0003"
 title: "Vacances pour Tous en Belgique"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0133
+ref_group: "160"
+ref_id: "0133"
 title: "mabil gráfica"
 author_name:
 year:

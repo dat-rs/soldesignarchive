@@ -1,5 +1,6 @@
 ---
-ref: sol-231-0004
+ref_group: "231"
+ref_id: "0004"
 title: "Arte Contemporânea Italiana"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Fundação Calouste Gulbenkian"]

@@ -7,7 +7,8 @@ publisher: "Panther Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration, collage]
 tags: [fiction, "Henry Miller", helvetica, "tight-not-touching"]
-ref: sol-030-0222
+ref_group: "030"
+ref_id: "0222"
 layout: artifact
 status: complete
 published: true

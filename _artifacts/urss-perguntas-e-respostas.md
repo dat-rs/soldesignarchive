@@ -7,7 +7,8 @@ publisher: "Novosti Press Agency"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, lettering]
 tags: [propaganda, government, "Bauhaus Geomet"]
-ref: sol-030-0054
+ref_group: "030"
+ref_id: "0054"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0010
+ref_group: "010"
+ref_id: "0010"
 title: "A Estalagem Volante"
 author_name: ["unknown author"]
 publisher: ["Editorial Aster"]

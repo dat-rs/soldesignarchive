@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0074
+ref_group: "030"
+ref_id: "0074"
 title: "Italian Painters of the Renaissance"
 author_name: ["Elaine Lustig Cohen"]
 publisher: ["Meridian Books"]

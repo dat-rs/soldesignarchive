@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: ["Mao Zedong", maoism, communism]
 iconography: [people, men]
-ref: sol-030-0230
+ref_group: "030"
+ref_id: "0230"
 layout: artifact
 status: complete
 published: true

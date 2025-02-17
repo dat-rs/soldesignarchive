@@ -1,4 +1,4 @@
 ---
-title: 'Óssa Menor'
+title: "Óssa Menor"
 layout: publisher
 ---

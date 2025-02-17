@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0122
+ref_group: "160"
+ref_id: "0122"
 title: "A Grande Opção de Carga"
 author_name:
 year:

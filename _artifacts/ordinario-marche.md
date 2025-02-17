@@ -7,7 +7,8 @@ publisher: "Cinema Royal"
 formats: [flyer, poster]
 disciplines: [graphic-design, typography]
 tags: [cinema, "Abbott and Costello"]
-ref: sol-140-0004
+ref_group: "140"
+ref_id: "0004"
 layout: artifact
 status: complete
 published: true

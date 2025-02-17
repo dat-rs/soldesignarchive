@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0119
+ref_group: "160"
+ref_id: "0119"
 title: "Casa Senna"
 author_name:
 year:

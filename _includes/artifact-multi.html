@@ -3,14 +3,14 @@
   <div class="artifact-carousel f-carousel" id="artifactCarousel">
     <div
       class="artifact-carousel-cell f-carousel__slide"
-      data-thumb-src="/images/sm/{{ page.ref }}-{{ page.slug }}-sm.jpg"
+      data-thumb-src="/images/sm/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-sm.jpg"
     >
       <div class="artifact-img-container">
         <img
           class="artifact-img-flick"
           loading="lazy"
           data-fancybox="artifact-gallery"
-          src="/images/{{ page.ref }}-{{ page.slug }}.jpg"
+          src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}.jpg"
           alt="{{ page.title }}"
         />
       </div>
@@ -20,16 +20,16 @@
 
     <div
       class="artifact-carousel-cell f-carousel__slide"
-      data-thumb-src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg"
+      data-thumb-src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-{{ image }}.jpg"
     >
       <div class="artifact-img-container">
         <img
           class="artifact-img-flick"
           loading="lazy"
           data-fancybox="artifact-gallery"
-          src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg"
+          src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-{{ image }}.jpg"
           alt="{{ page.title }}"
-          data-lazy-src="/images/{{ page.ref }}-{{ page.slug }}-{{ image }}.jpg"
+          data-lazy-src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-{{ image }}.jpg"
           alt="{{ page.title }}"
         />
       </div>

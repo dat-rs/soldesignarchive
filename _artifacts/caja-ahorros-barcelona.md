@@ -2,12 +2,13 @@
 title: "Caja de Ahorros Provincial de la Diputacion de Barcelona"
 author_name: "unknown author"
 year: y1972
-origin: [Spain, Catalonia]
+origin: [Catalonia, Spain]
 publisher: "Caja de Ahorros Provincial de la Diputacion de Barcelona"
 formats: [calendar]
 disciplines: [graphic-design, typography, illustration]
 tags: [Helvetica]
-ref: sol-160-0002
+ref_group: "160"
+ref_id: "0002"
 image_count: 2
 layout: artifact
 status: complete

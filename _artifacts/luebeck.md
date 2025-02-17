@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0082
+ref_group: "121"
+ref_id: "0082"
 title: "Luebeck"
 author_name:
 publisher:

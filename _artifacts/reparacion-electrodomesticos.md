@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0273
+ref_group: "030"
+ref_id: "0273"
 title: "Reparación de Electrodomésticos"
 author_name: ["Orlando Pelayo"]
 publisher: ["Ediciones Técnicas Rede"]

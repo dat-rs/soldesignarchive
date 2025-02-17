@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0016
+ref_group: "140"
+ref_id: "0016"
 title: "Nazaré"
 author_name: ["unknown-author"]
 publisher: []

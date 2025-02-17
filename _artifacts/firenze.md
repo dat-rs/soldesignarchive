@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0077
+ref_group: "121"
+ref_id: "0077"
 title: "Firenze"
 author_name:
 publisher: "Azienda Autonoma di Turismo"

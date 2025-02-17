@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0136
+ref_group: "160"
+ref_id: "0136"
 title: "Revi"
 author_name:
 year:

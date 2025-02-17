@@ -7,7 +7,8 @@ publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [non-fiction, linguistics, Pelican, Helvetica]
-ref: sol-030-0055
+ref_group: "030"
+ref_id: "0055"
 layout: artifact
 status: complete
 published: true

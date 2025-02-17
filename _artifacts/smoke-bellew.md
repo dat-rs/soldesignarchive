@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0266
+ref_group: "030"
+ref_id: "0266"
 title: Smoke Bellew
 author_name: [Aureliano Sampaio]
 publisher: [Livraria Civilização]

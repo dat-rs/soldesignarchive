@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0079
+ref_group: "160"
+ref_id: "0079"
 title: "se conduzir não beba"
 author_name:
 year:

@@ -7,7 +7,8 @@ publisher: 'Piper Verlag'
 formats: [book jacket, book]
 disciplines: [graphic-design, typography, illustration]
 tags: []
-ref: sol-030-0018
+ref_group: "030"
+ref_id: "0018"
 layout: artifact
 status: complete
 published: true

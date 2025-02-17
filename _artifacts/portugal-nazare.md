@@ -7,7 +7,8 @@ publisher: "SPN/SNI/SEIT"
 formats: [stamp, poster-stamp]
 disciplines: ["graphic-design", typography, illustration]
 tags: [tourism, Nazaré]
-ref: sol-410-0001
+ref_group: "410"
+ref_id: "0001"
 layout: artifact
 status: complete
 published: true

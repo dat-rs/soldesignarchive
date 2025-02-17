@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0008
+ref_group: "251"
+ref_id: "0008"
 title: "Paris Vous Propose"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

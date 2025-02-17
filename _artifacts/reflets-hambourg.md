@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0095
+ref_group: "121"
+ref_id: "0095"
 title: "Reflets de Hambourg"
 author_name:
 publisher:

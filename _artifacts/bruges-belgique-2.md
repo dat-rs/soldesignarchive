@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0013
+ref_group: "121"
+ref_id: "0013"
 title: "Bruges. Belgique"
 author_name: ["unknown author"]
 publisher: ["Service Communal du Tourisme (Bruges)"]

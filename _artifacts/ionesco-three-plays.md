@@ -7,7 +7,8 @@ publisher: "Grove Press"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [theatre, "Eugène Ionesco"]
-ref: sol-030-0069
+ref_group: "030"
+ref_id: "0069"
 layout: artifact
 status: complete
 published: true

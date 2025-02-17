@@ -1,5 +1,6 @@
 ---
-ref: sol-601-0001
+ref_group: "601"
+ref_id: "0001"
 title: "Twist"
 author_name: ["João da Conceição Martins"]
 publisher: ["Columbia"]

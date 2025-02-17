@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book-cover, book]
 disciplines: [graphic-design, illustration, typography]
 tags: [fiction, "Ignazio Silone", "Os Livros das Três Abelhas"]
-ref: sol-030-0043
+ref_group: "030"
+ref_id: "0043"
 layout: artifact
 status: complete
 published: true

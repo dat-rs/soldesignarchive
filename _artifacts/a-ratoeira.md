@@ -7,7 +7,8 @@ publisher: "Editorial Técnica e Artística"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, photography]
 tags: ["Agatha Christie", theatre]
-ref: sol-030-0115
+ref_group: "030"
+ref_id: "0115"
 layout: artifact
 status: complete
 published: true

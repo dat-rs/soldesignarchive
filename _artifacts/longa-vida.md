@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0068
+ref_group: "160"
+ref_id: "0068"
 title: "Longa Vida"
 author_name:
 year:

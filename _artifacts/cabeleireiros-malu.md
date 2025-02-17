@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0008
+ref_group: "160"
+ref_id: "0008"
 title: "Cabeleireiros Malú"
 author_name:
 year:

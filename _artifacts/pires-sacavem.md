@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0005
+ref_group: "140"
+ref_id: "0005"
 title: Os Pires de Sacavém
 author_name: ["unknown-author"]
 publisher: []

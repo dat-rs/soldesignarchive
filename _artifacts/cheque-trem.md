@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0124
+ref_group: "160"
+ref_id: "0124"
 title: "Cheque Trem"
 author_name:
 year:

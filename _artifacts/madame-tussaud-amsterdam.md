@@ -1,5 +1,6 @@
 ---
-ref: sol-251-0013
+ref_group: "251"
+ref_id: "0013"
 title: "Madame Tussaud Amsterdam"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-222-0000
+ref_group: "222"
+ref_id: "0000"
 title: "Guia de Hoteles España 1962-1963"
 author_name: ["J. Ruiz Navarro"]
 publisher: ["Direccion General del Turismo"]

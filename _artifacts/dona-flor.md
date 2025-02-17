@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [fiction, "Jorge Amado"]
 iconography: [women, men, rain]
-ref: sol-030-0035
+ref_group: "030"
+ref_id: "0035"
 layout: artifact
 status: complete
 published: true

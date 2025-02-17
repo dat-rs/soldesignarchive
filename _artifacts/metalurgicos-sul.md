@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0042
+ref_group: "160"
+ref_id: "0042"
 title: "Associação dos Industriais Metalúrgicos e Metalomecânicos do Sul"
 author_name:
 year:

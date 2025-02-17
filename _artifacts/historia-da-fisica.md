@@ -7,7 +7,8 @@ publisher: "Livraria Morais Editora"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: [science, "The New Illustrated Library of Science and Invention"]
-ref: sol-030-0085
+ref_group: "030"
+ref_id: "0085"
 layout: artifact
 status: wip
 published: true

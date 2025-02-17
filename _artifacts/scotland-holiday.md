@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0092
+ref_group: "121"
+ref_id: "0092"
 title: "Scotland for your holiday"
 author_name:
 publisher:

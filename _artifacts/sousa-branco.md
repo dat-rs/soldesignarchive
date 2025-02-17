@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0057
+ref_group: "160"
+ref_id: "0057"
 title: "Sousa & Branco"
 author_name:
 year:

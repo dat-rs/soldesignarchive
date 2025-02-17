@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0003
+ref_group: "121"
+ref_id: "0003"
 title: "Chateaux de Belgique"
 author_name: ["unknown author"]
 publisher: ["Commissariat Général au Turisme"]

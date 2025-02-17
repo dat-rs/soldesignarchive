@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0089
+ref_group: "160"
+ref_id: "0089"
 title: "Vinho Verde"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0075
+ref_group: "160"
+ref_id: "0075"
 title: "Joalharias Morais"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0037
+ref_group: "160"
+ref_id: "0037"
 title: "Rallye Portugal 1985"
 author_name:
 year:

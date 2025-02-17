@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0239
+ref_group: "030"
+ref_id: "0239"
 title: "08/15. A Derrota"
 author_name: ["Otelo Azinhais"]
 publisher: ["Publicações Europa-América"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0238
+ref_group: "030"
+ref_id: "0238"
 title: "08/15. A Guerra"
 author_name: ["Otelo Azinhais"]
 publisher: ["Publicações Europa-América"]

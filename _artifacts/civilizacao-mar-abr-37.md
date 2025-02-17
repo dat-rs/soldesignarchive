@@ -1,5 +1,6 @@
 ---
-ref: sol-320-0013
+ref_group: "320"
+ref_id: "0013"
 title: "Civilização Março e Abril 1937"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

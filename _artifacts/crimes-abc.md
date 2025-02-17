@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0240
+ref_group: "030"
+ref_id: "0240"
 title: "Os Crimes do ABC"
 author_name: ["Lima de Freitas"]
 publisher: ["Livros do Brasil"]

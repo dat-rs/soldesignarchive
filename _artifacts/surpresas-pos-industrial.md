@@ -7,7 +7,8 @@ publisher: "Luís Felipe da Conceição"
 formats: [book-cover, book]
 disciplines: [graphic-design, illustration, typography]
 tags: [non-fiction]
-ref: sol-030-0177
+ref_group: "030"
+ref_id: "0177"
 layout: artifact
 status: complete
 published: true

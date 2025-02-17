@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0100
+ref_group: "160"
+ref_id: "0100"
 title: "Banco Espírito Santo e Comercial de Lisboa"
 author_name:
 year:

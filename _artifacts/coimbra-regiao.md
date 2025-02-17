@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0083
+ref_group: "121"
+ref_id: "0083"
 title: "Coimbra e a sua Região"
 author_name:
 publisher:

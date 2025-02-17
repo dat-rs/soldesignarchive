@@ -7,7 +7,8 @@ publisher: "IV Congresso Internazionale dei Medici Cattolici"
 formats: [programme, book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [medicine, catholicism]
-ref: sol-112-0000
+ref_group: "112"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

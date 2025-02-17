@@ -7,7 +7,8 @@ publisher: "Seleções do Readers Digest"
 formats: [magazine]
 disciplines: ["graphic-design", typography, illustration]
 tags: []
-ref: sol-320-0000
+ref_group: "320"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

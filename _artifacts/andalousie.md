@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0072
+ref_group: "121"
+ref_id: "0072"
 title: "L'Andalousie"
 author_name:
 publisher:

@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: ["graphic-design", typography, illustration]
 tags: ["Joyce Cary"]
 iconography: [sun, faces]
-ref: sol-030-0087
+ref_group: "030"
+ref_id: "0087"
 layout: artifact
 status: complete
 published: false

@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0064
+ref_group: "160"
+ref_id: "0064"
 title: "Cromorex"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0026
+ref_group: "121"
+ref_id: "0026"
 title: "Pyrénées Informations Générales"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

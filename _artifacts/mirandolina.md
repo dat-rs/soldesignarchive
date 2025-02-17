@@ -7,7 +7,8 @@ publisher: "Editora Brasiliense"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, pattern]
 tags: [fiction, opera, "Carlo Goldoni"]
-ref: sol-030-0208
+ref_group: "030"
+ref_id: "0208"
 layout: artifact
 status: complete
 published: true

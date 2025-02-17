@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0113
+ref_group: "160"
+ref_id: "0113"
 title: "Telux"
 author_name:
 year:

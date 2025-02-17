@@ -7,7 +7,8 @@ publisher: "J.M. Boavida-Portugal"
 formats: [booklet, book-cover]
 disciplines: ["graphic-design", typography]
 tags: [non-fiction, "João Pereira da Rosa"]
-ref: sol-252-0000
+ref_group: "252"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

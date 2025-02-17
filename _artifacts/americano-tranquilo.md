@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0020
+ref_group: "010"
+ref_id: "0020"
 title: "O Americano Tranquilo"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]

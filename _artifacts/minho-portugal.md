@@ -7,7 +7,8 @@ publisher: "SPN/SNI/SEIT"
 formats: [stamp, poster-stamp]
 disciplines: ["graphic-design", typography, photography]
 tags: [tourism, Minho]
-ref: sol-410-0003
+ref_group: "410"
+ref_id: "0003"
 layout: artifact
 status: complete
 published: true

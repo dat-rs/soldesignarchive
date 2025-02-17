@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0084
+ref_group: "160"
+ref_id: "0084"
 title: "Collegial Altamente"
 author_name:
 year:

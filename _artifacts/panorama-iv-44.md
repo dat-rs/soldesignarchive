@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0004
+ref_group: "321"
+ref_id: "0004"
 title: Panorama IV 44
 author_name: Júlio Gil
 publisher: SPN/SNI/SEIT

@@ -8,7 +8,8 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [fiction, "Ernest Hemingway"]
 iconography: [barbed wire]
-ref: sol-030-0010
+ref_group: "030"
+ref_id: "0010"
 layout: artifact
 status: complete
 published: true

@@ -7,7 +7,8 @@ publisher: "Portugália"
 formats: [book-cover, book, illustration]
 disciplines: [graphic-design, typography, illustration]
 tags: [Philippe Sollers, "O Livro de Bolso", fiction, illustration, orange, purple]
-ref: sol-010-0012
+ref_group: "010"
+ref_id: "0012"
 layout: artifact
 status: complete
 published: true

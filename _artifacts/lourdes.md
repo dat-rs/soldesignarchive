@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0023
+ref_group: "121"
+ref_id: "0023"
 title: "Lourdes"
 author_name: ["Hervé Baille"]
 publisher: ["SNCF"]

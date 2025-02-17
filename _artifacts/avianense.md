@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0018
+ref_group: "160"
+ref_id: "0018"
 title: "Avianense"
 author_name:
 year:

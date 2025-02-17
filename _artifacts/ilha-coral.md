@@ -1,5 +1,6 @@
 ---
-ref: sol-060-0002
+ref_group: "060"
+ref_id: "0002"
 title: "A Ilha de Coral"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Portugália Editora"]

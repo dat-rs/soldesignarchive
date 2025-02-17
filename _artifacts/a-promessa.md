@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration]
 tags: ["Os Livros das Três Abelhas"]
-ref: sol-010-0036
+ref_group: "010"
+ref_id: "0036"
 layout: artifact
 status: complete
 published: true

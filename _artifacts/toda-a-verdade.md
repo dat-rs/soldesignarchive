@@ -7,7 +7,8 @@ publisher: "Livraria Clássica Editora"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [history]
-ref: sol-030-0016
+ref_group: "030"
+ref_id: "0016"
 layout: artifact
 status: complete
 published: true

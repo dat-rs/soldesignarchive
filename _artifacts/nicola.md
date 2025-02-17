@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0106
+ref_group: "160"
+ref_id: "0106"
 title: "Nicola"
 author_name:
 year:

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0070
+ref_group: "121"
+ref_id: "0070"
 title: "Posada de Don Vasco"
 author_name:
 publisher:

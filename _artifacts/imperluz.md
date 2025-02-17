@@ -1,5 +1,6 @@
 ---
-ref: sol-440-0000
+ref_group: "440"
+ref_id: "0000"
 title: "Imperluz"
 author_name: ["unknown author"]
 publisher: ["Imperluz"]

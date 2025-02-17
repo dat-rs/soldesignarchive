@@ -1,5 +1,6 @@
 ---
-ref: sol-110-0002
+ref_group: "110"
+ref_id: "0002"
 title: "Programme Officiel du Grand Théatre - Le Havre"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

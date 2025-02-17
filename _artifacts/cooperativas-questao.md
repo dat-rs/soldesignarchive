@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0253
+ref_group: "030"
+ref_id: "0253"
 title: As cooperativas em questão para a história do decreto-lei 520/71
 author_name: [Acácio Santos]
 publisher: [Seara Nova]

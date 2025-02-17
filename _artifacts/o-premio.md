@@ -7,7 +7,8 @@ publisher: "Portugália"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [fiction, illustration]
-ref: sol-030-0013
+ref_group: "030"
+ref_id: "0013"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0179
+ref_group: "030"
+ref_id: "0179"
 title: "O Vale da Ira"
 author_name: "Joaquim Esteves"
 publisher: "Publicações Europa-América"

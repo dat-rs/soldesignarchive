@@ -7,7 +7,8 @@ publisher: "Penguin Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction, "Pelican Books"]
-ref: sol-030-0210
+ref_group: "030"
+ref_id: "0210"
 layout: artifact
 status: complete
 published: true

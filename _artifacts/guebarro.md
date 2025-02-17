@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0024
+ref_group: "160"
+ref_id: "0024"
 title: "Guebarro"
 author_name:
 year:

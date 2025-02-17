@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0032
+ref_group: "160"
+ref_id: "0032"
 title: "Tudor"
 author_name:
 year:

@@ -68,7 +68,7 @@ page-meta-description=page.description page-meta-image=page.image %}
 
 <div class="container-fluid db-table-status">
   <div id="artifact-table" class="faux-table db">
-    {% assign artifacts_by_ref = site.artifacts | sort: 'ref' %} 
+    {% assign artifacts_by_ref = site.artifacts | sort: 'ref_id' %} 
     
     {% for artifact in artifacts_by_ref %}
     <div class="row artifact-table-row {{ artifact.status }}">
@@ -79,7 +79,7 @@ page-meta-description=page.description page-meta-image=page.image %}
         <img
           class="db-img"
           loading="lazy"
-          src="/images/{{ artifact.ref }}-{{ artifact.slug }}-thumbnail.jpg"
+          src="/images/sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}-{{ artifact.slug }}-thumbnail.jpg"
           alt="{{ artifact.title }}"
         />
         {% endif %}
@@ -93,7 +93,7 @@ page-meta-description=page.description page-meta-image=page.image %}
 
       <div class="col-3 faux-table-col">
         <span class="title tabold">{{ artifact.title }}</span> <br />
-        <span class="reference">{{ artifact.ref }}-<a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts/' | remove: "/" }}</a></span><br>
+        <span class="reference">sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}-<a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts/' | remove: "/" }}</a></span><br>
       </div>
 
       <div class="col-2 faux-table-col">

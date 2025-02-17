@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0029
+ref_group: "121"
+ref_id: "0029"
 title: "Riviera Cote d’Azur - Renseignements Généraux"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

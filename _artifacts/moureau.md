@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0090
+ref_group: "160"
+ref_id: "0090"
 title: "Moureau"
 author_name:
 year:
@@ -15,4 +16,3 @@ published: false
 date_added: 2025-01-14
 batch: ladra/dossiers
 ---
-

@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0251
+ref_group: "030"
+ref_id: "0251"
 title: "Sob a Luz das Estrelas"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Ulisseia"]

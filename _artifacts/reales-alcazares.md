@@ -7,7 +7,8 @@ publisher: "Reales Alcazares de Sevilla"
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
 tags: ["ornaments", stamps, Seville]
-ref: sol-511-0001
+ref_group: "511"
+ref_id: "0001"
 layout: artifact
 status: complete
 published: true

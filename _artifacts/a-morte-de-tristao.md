@@ -7,7 +7,8 @@ publisher: "Editorial Minerva"
 formats: [book, book-cover]
 disciplines: [graphic-design, photography, typography]
 tags: [fiction, "Michel del Castillo"]
-ref: sol-030-0076
+ref_group: "030"
+ref_id: "0076"
 layout: artifact
 status: complete
 published: true

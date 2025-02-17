@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0242
+ref_group: "030"
+ref_id: "0242"
 title: "Viver a Música"
 author_name: ["Angelo Ferreira", "Ana Paula Rafael"]
 publisher: ["Almedina"]

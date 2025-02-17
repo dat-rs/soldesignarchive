@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0001
+ref_group: "321"
+ref_id: "0001"
 title: Panorama IV 29
 author_name: Júlio Gil
 publisher: SPN/SNI/SEIT

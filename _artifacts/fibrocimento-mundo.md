@@ -1,5 +1,6 @@
 ---
-ref: sol-231-0014
+ref_group: "231"
+ref_id: "0014"
 title: "O Fibrocimento no Mundo"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

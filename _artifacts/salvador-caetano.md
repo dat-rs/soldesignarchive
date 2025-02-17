@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0062
+ref_group: "160"
+ref_id: "0062"
 title: "Salvador Caetano"
 author_name:
 year:

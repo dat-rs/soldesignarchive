@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0020
+ref_group: "160"
+ref_id: "0020"
 title: "The Big Apple"
 author_name:
 year:

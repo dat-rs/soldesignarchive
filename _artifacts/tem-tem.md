@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0102
+ref_group: "160"
+ref_id: "0102"
 title: "Tem Tem"
 author_name:
 year:

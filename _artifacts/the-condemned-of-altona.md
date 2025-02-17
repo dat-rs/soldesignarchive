@@ -7,7 +7,8 @@ publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [fiction, theatre, illustration, red, black, "Vintage Books", "Jean Paul Sartre"]
-ref: sol-030-0056
+ref_group: "030"
+ref_id: "0056"
 layout: artifact
 status: complete
 published: true

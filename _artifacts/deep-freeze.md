@@ -7,7 +7,8 @@ publisher: "unknown publisher"
 formats: [booklet]
 disciplines: ["graphic-design", typography, illustration]
 tags: [instructions]
-ref: sol-255-0000
+ref_group: "255"
+ref_id: "0000"
 image_count: 7
 layout: artifact
 status: complete

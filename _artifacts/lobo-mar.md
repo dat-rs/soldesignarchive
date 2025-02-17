@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0265
+ref_group: "030"
+ref_id: "0265"
 title: Lobo do Mar
 author_name: [unknown author]
 publisher: [Livraria Civilização]

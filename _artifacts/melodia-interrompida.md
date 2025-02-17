@@ -8,7 +8,8 @@ formats: [book-cover, book, "graphic-design"]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: ["Boris Pasternak", "Os Livros das Três Abelhas"]
 iconography: [women, men, rain]
-ref: sol-030-0042
+ref_group: "030"
+ref_id: "0042"
 layout: artifact
 status: complete
 published: true

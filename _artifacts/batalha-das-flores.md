@@ -7,7 +7,8 @@ publisher: "Uma Comissão de Senhoras"
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
 tags: ["ornaments", stamps, Lisbon]
-ref: sol-511-0000
+ref_group: "511"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

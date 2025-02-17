@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0003
+ref_group: "160"
+ref_id: "0003"
 title: Caderno Escolar
 author_name: [unknown author]
 publisher: [Pêbêcê]

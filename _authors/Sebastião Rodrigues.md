@@ -1,6 +1,9 @@
 ---
 name: "Sebastião Rodrigues"
 image_path:
+rel_authors:
+rel_publishers:
+rel_tags:
 layout: author
 published: true
 related_authors: ["João da Câmara Leme", "João Abel Manta"]

@@ -7,7 +7,8 @@ publisher: "Sá da Costa"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [fiction, poetry, "Alexandre O'Neill"]
-ref: sol-030-0232
+ref_group: "030"
+ref_id: "0232"
 layout: artifact
 status: complete
 published: true

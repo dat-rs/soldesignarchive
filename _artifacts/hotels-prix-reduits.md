@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0038
+ref_group: "121"
+ref_id: "0038"
 title: "1000 Hotels offrent des Prix Réduits"
 author_name: ["unknown author"]
 publisher: ["Direction Générale du Tourisme"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0079
+ref_group: "121"
+ref_id: "0079"
 title: "Madrid"
 author_name:
 publisher:

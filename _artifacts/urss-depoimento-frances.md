@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0060
+ref_group: "010"
+ref_id: "0060"
 title: "URSS. Depoimento dum socialista francês"
 author_name: ["unknown author"]
 publisher: ["Publicações Europa América"]

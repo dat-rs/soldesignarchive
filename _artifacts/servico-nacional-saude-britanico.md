@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0258
+ref_group: "030"
+ref_id: "0258"
 title: Serviço Nacional de Saúde Britânico
 author_name: [unknown author]
 publisher: [Sindicato dos Médicos]

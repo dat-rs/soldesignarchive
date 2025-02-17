@@ -7,7 +7,8 @@ publisher: "Afrodite"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, anthology]
-ref: sol-030-0192
+ref_group: "030"
+ref_id: "0192"
 image_count: 9
 layout: artifact
 status: complete

@@ -1,11 +1,12 @@
 ---
-ref: sol-234-0007
+ref_group: "234"
+ref_id: "0007"
 title: "Las más bellas creaciones de la Fundición Tipográfica Nacional"
 author_name: ["unknown-author"]
 publisher: [""]
 year: y19
 origin: France
-formats: [book, book-cover]
+formats: [catalogue, type-specimen, book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags:
 layout: artifact

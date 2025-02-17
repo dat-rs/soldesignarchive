@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0080
+ref_group: "160"
+ref_id: "0080"
 title: "Família Flaga"
 author_name:
 year:

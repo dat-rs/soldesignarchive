@@ -7,7 +7,8 @@ publisher: "Círculo de Leitores"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "Roger Vailland", green, brown]
-ref: sol-030-0207
+ref_group: "030"
+ref_id: "0207"
 layout: artifact
 status: complete
 published: true

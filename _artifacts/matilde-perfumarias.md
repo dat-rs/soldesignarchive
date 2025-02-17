@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0097
+ref_group: "160"
+ref_id: "0097"
 title: "Matilde Perfumarias"
 author_name:
 year:

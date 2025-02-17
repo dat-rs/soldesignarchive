@@ -7,7 +7,8 @@ publisher: "Edições GRD"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [non-fiction, Helvetica, agriculture, communism]
-ref: sol-030-0176
+ref_group: "030"
+ref_id: "0176"
 layout: artifact
 status: complete
 published: true

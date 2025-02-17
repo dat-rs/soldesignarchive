@@ -7,7 +7,8 @@ publisher: "Editorial Técnica e Artística"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]
 tags: ["science", "Ciência e Técnica"]
-ref: sol-010-0034
+ref_group: "010"
+ref_id: "0034"
 layout: artifact
 status: complete
 published: true

@@ -1,5 +1,6 @@
 ---
-ref: sol-231-0013
+ref_group: "231"
+ref_id: "0013"
 title: "Escola Vienense dos Realistas Fantásticos"
 author_name: ["Fernando Libório"]
 publisher: ["Fundação Calouste Gulbenkian"]

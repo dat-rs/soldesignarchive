@@ -7,7 +7,8 @@ publisher: "Arcádia"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Federigo Tozzi"]
-ref: sol-010-0067
+ref_group: "010"
+ref_id: "0067"
 layout: artifact
 status: complete
 published: false

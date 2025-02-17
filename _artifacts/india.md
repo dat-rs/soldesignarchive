@@ -7,7 +7,8 @@ publisher: "Verbo"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]
 tags: [non-fiction]
-ref: sol-030-0175
+ref_group: "030"
+ref_id: "0175"
 layout: artifact
 status: complete
 published: true

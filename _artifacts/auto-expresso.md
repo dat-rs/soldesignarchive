@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0123
+ref_group: "160"
+ref_id: "0123"
 title: "Auto Expresso. Auto Acompanhado"
 author_name:
 year:

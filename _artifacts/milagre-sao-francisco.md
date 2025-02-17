@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0058
+ref_group: "010"
+ref_id: "0058"
 title: "O Milagre de São Francisco"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0007
+ref_group: "140"
+ref_id: "0007"
 title: O Alvo Humano
 author_name: ["unknown-author"]
 publisher: []

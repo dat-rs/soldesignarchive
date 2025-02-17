@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0121
+ref_group: "160"
+ref_id: "0121"
 title: "Aseptal"
 author_name:
 year:

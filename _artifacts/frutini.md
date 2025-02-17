@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0088
+ref_group: "160"
+ref_id: "0088"
 title: "Frutini"
 author_name:
 year:

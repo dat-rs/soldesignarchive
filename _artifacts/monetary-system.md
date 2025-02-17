@@ -7,7 +7,8 @@ publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [non-fiction, "Penguin Modern Economics", economics]
-ref: sol-030-0075
+ref_group: "030"
+ref_id: "0075"
 layout: artifact
 status: complete
 published: true

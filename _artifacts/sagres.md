@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0101
+ref_group: "160"
+ref_id: "0101"
 title: "Sagres"
 author_name:
 year:

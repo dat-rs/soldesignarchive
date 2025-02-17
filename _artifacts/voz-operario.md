@@ -7,7 +7,8 @@ publisher: "Voz do Operário"
 formats: [flyer, poster]
 disciplines: [graphic-design, typography]
 tags: [theatre]
-ref: sol-140-0001
+ref_group: "140"
+ref_id: "0001"
 layout: artifact
 status: complete
 published: true

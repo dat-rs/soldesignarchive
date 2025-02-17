@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0066
+ref_group: "121"
+ref_id: "0066"
 title: "Bouche-du-Rhône"
 author_name: ["unknowna-author"]
 publisher: ["unknown-date"]

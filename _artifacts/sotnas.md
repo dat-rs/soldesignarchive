@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0033
+ref_group: "160"
+ref_id: "0033"
 title: "SOTNAS"
 author_name:
 year:

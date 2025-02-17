@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0110
+ref_group: "160"
+ref_id: "0110"
 title: "IVA"
 author_name:
 year:

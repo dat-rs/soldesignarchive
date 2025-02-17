@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0046
+ref_group: "160"
+ref_id: "0046"
 title: "Conservas de Portugal"
 author_name:
 year:

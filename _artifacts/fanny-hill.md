@@ -7,7 +7,8 @@ publisher: "Arcádia"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [John Cleland, black, pink, gold]
-ref: sol-030-0053
+ref_group: "030"
+ref_id: "0053"
 layout: artifact
 status: complete
 published: true

@@ -7,7 +7,8 @@ publisher: "Portugália"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [fiction, "Lawrence Durrell"]
-ref: sol-030-0011
+ref_group: "030"
+ref_id: "0011"
 layout: artifact
 status: complete
 published: true

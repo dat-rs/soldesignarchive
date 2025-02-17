@@ -1,5 +1,6 @@
 ---
-ref: sol-020-0001
+ref_group: "020"
+ref_id: "0001"
 title: "O Homem Disfarçado"
 author_name: ["Sebastião Rodrigues"]
 publisher: ["Arcádia"]

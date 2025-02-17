@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0056
+ref_group: "010"
+ref_id: "0056"
 title: "O Poder e a Glória"
 author_name: ["Bernardo Marques"]
 publisher: ["Livros do Brasil"]

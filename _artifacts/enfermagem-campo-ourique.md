@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0039
+ref_group: "160"
+ref_id: "0039"
 title: "Enfermagem Permanente de Campo de Ourique"
 author_name:
 year:

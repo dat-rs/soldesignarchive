@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0013
+ref_group: "160"
+ref_id: "0013"
 title: "Tavares & Couceiro"
 author_name:
 year:

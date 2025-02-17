@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0107
+ref_group: "160"
+ref_id: "0107"
 title: "Apolo 20"
 author_name:
 year:

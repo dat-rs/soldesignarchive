@@ -7,7 +7,8 @@ publisher: "Livraria Clássica Editora"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [illustration, "slab serif"]
-ref: sol-010-0009
+ref_group: "010"
+ref_id: "0009"
 layout: artifact
 status: complete
 published: true

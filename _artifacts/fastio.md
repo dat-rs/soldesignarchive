@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0014
+ref_group: "160"
+ref_id: "0014"
 title: "Fastio"
 author_name:
 year:

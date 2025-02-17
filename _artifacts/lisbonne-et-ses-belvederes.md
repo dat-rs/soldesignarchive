@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0091
+ref_group: "121"
+ref_id: "0091"
 title: "Lisbonne et ses belvédères"
 author_name:
 publisher:

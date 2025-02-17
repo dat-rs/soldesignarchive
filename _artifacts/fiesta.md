@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0066
+ref_group: "010"
+ref_id: "0066"
 title: "Fiesta"
 author_name: ["António Garcia"]
 publisher: ["Ulisseia"]

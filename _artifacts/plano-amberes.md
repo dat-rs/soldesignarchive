@@ -1,5 +1,6 @@
 ---
-ref: sol-211-0000
+ref_group: "211"
+ref_id: "0000"
 title: "Plano de Amberes"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]

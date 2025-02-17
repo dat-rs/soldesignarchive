@@ -7,7 +7,8 @@ publisher: "Meridian Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: ["Plato", philosophy]
-ref: sol-030-0067
+ref_group: "030"
+ref_id: "0067"
 layout: artifact
 status: complete
 published: true

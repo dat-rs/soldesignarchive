@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0066
+ref_group: "160"
+ref_id: "0066"
 title: "Farinha Amparo"
 author_name:
 year:

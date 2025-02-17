@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0254
+ref_group: "030"
+ref_id: "0254"
 title: "Os Melhores Contos Italianos"
 author_name: ["Victor Palla"]
 publisher: ["Arcádia"]

@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0215
+ref_group: "030"
+ref_id: "0215"
 title: A Rua do Gato que Pesca
 author_name: [Leonildo Dias]
 publisher: [Publicações Europa-América]

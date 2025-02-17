@@ -7,7 +7,8 @@ publisher: "New Directions"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [non-fiction]
-ref: sol-030-0227
+ref_group: "030"
+ref_id: "0227"
 wip:
 layout: artifact
 status: complete

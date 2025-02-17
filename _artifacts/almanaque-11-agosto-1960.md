@@ -7,7 +7,8 @@ publisher: "Grupo de Publicações Periódicas"
 formats: [magazine]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo Magalhães"]
-ref: sol-320-0012
+ref_group: "320"
+ref_id: "0012"
 image_count: 2
 layout: artifact
 status: wip

@@ -1,18 +1,18 @@
 ---
-ref: sol-030-0277
+ref_group: "030"
+ref_id: "0277"
 title: "Elegia del Mite"
-author_name: []
-publisher: []
-year: y19
-origin:
+author_name: ["Joan Palet"]
+publisher: [Óssa Menor, Núñez Impressor]
+year: y1950
+origin: [Catalonia, Spain]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
-tags:
+tags: [poetry]
 layout: artifact
-status: offline
-published: false
+status: completer
+published: true
 image_count:
 date_added: 2025-02-11
-batch:
+batch: bcndec23
 ---
-

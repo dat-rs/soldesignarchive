@@ -7,7 +7,8 @@ publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography, lettering]
 tags: ["Colecção Educativa", "propaganda", "Estado Novo", colonialism]
-ref: sol-030-0140
+ref_group: "030"
+ref_id: "0140"
 image_count: 2
 layout: artifact
 status: complete

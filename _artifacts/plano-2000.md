@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0034
+ref_group: "160"
+ref_id: "0034"
 title: "Plano 2000"
 author_name:
 year:

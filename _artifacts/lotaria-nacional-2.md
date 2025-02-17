@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0031
+ref_group: "160"
+ref_id: "0031"
 title: "Lotaria Nacional"
 author_name:
 year:

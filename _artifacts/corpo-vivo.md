@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0040
+ref_group: "010"
+ref_id: "0040"
 title: "Corpo Vivo"
 author_name: ["Estúdios P.E.A."]
 publisher: ["Publicações Europa América"]

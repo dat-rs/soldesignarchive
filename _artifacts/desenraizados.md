@@ -7,7 +7,8 @@ publisher: "Publicações Europa-América"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "Erich Maria Remarque"]
-ref: sol-030-0181
+ref_group: "030"
+ref_id: "0181"
 layout: artifact
 status: complete
 published: true

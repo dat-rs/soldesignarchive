@@ -1,5 +1,6 @@
 ---
-ref: sol-121-0020
+ref_group: "121"
+ref_id: "0020"
 title: "Alsace Vosges Jura"
 author_name: ["Jean Jacquelin"]
 publisher: ["SNCF"]

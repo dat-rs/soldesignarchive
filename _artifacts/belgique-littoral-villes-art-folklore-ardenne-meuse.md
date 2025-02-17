@@ -1,5 +1,6 @@
 ---
-ref: "sol-121-0008"
+ref_group: "121"
+ref_id: "0008"
 title: "Belgique. Littoral. Villes d'Art. Folklore. Ardenne-Meuse"
 author_name: ["E. Conrad"]
 publisher: ["Commissariat Général au Turisme"]

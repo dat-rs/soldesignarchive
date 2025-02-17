@@ -1,5 +1,6 @@
 ---
-ref: sol-321-0023
+ref_group: "321"
+ref_id: "0023"
 title: Panorama IV 2
 author_name: [Júlio Gil]
 publisher: SPN/SNI/SEIT

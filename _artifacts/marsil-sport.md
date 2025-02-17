@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0067
+ref_group: "160"
+ref_id: "0067"
 title: "Marsil Sport"
 author_name:
 year:

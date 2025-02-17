@@ -1,5 +1,6 @@
 ---
-ref: sol-160-0128
+ref_group: "160"
+ref_id: "0128"
 title: "Tical"
 author_name:
 year:

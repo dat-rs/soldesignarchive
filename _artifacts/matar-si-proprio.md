@@ -1,5 +1,6 @@
 ---
-ref: sol-010-0042
+ref_group: "010"
+ref_id: "0042"
 title: "Matar-se a Si Próprio"
 author_name: ["Estúdios P.E.A."]
 publisher: ["Publicações Europa América"]

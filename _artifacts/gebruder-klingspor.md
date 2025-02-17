@@ -1,11 +1,12 @@
 ---
-ref: sol-234-0000
+ref_group: "234"
+ref_id: "0000"
 title: Gebrüder Klingspor Offenbach am Main
 author_name: ["unknown-author"]
 publisher: []
 year: y19
 origin: Germany
-formats: [book, book-cover]
+formats: [catalogue, type-specimen, book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags:
 layout: artifact

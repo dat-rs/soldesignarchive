@@ -7,7 +7,8 @@ publisher: "Guy Verzwalm"
 formats: ["photo-album"]
 disciplines: [graphic-design, typography, identity, logo]
 tags: [embossing, pattern]
-ref: sol-160-0000
+ref_group: "160"
+ref_id: "0000"
 layout: artifact
 status: complete
 published: true

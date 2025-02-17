@@ -7,7 +7,8 @@ publisher: "Arcádia"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]
 tags: [vernacular, "Biblioteca Arcádia de Bolso"]
-ref: sol-010-0039
+ref_group: "010"
+ref_id: "0039"
 layout: artifact
 status: complete
 published: true

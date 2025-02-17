@@ -1,5 +1,6 @@
 ---
-ref: sol-030-0262
+ref_group: "030"
+ref_id: "0262"
 title: A Febre do Ouro
 author_name: [Albino Baganha]
 publisher: [Livraria Civilização]

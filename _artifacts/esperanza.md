@@ -8,7 +8,8 @@ formats: [record, record-cover]
 disciplines: [graphic-design, typography, photography]
 tags: [music]
 iconography: []
-ref: sol-601-0003
+ref_group: "601"
+ref_id: "0003"
 layout: artifact
 status: complete
 published: true

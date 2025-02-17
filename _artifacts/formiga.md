@@ -1,5 +1,6 @@
 ---
-ref: sol-140-0015
+ref_group: "140"
+ref_id: "0015"
 title: "A Formiga"
 author_name: ["unknown-author"]
 publisher: []
