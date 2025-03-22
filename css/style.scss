@@ -760,6 +760,16 @@ section.about {
   margin-left: -1px;
 }
 
+.more-images-badge {
+  font-family: $paratext, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  background-color: $artifact-color;
+  padding: 7px 8px 8px 8px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
 .wip-card .card-body {
   padding: 10px;
 }

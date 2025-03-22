@@ -1,7 +1,7 @@
 ---
 ref_group: "410"
-ref_id: "0012"
-title: "Correio de Portugal"
+ref_id: "0014"
+title: "Portugal 20 Centavos"
 author_name: []
 publisher: []
 year: y1968
@@ -13,6 +13,6 @@ status: offline
 published: false
 image_count:
 date_added: 2025-02-12
-batch:
+batch: jsb/selos
 layout: artifact
 ---
