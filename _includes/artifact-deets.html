@@ -82,15 +82,17 @@
           </div>
         </div>
 
-    {% if page.status == "wip" %}
-    <div class="datum-row row artifact-deets-row">
-
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
-        <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
-          <div class="badge wip-badge">Work in Progress</div></p>
-        </div>
-    </div>
-    {% endif %}
+        {% if page.status == "wip" %}
+        <div class="datum-row row artifact-deets-row">
+          
+          <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
+          <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
+            <div class="badge wip-badge">Work in Progress</div>
+            <div class="badge more-images-badge">More Images Coming Soon</div>
+          </div>
+      </div>
+      {% endif %}
+      
   </section>
 
 

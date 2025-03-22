@@ -2,7 +2,7 @@
 ref_group: "234"
 ref_id: "0012"
 title: "Fundição Tipográfica Manuel Guedes. Catálogo"
-author_name: []
+author_name: [unknown author]
 publisher: [Fundição Tipográfica Manuel Guedes]
 year: unknown-date
 origin: Portugal
