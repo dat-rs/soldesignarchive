@@ -13,6 +13,6 @@ status: offline
 published: false
 image_count:
 date_added: 2025-02-12
-batch:
+batch: jsb/selos
 layout: artifact
 ---
