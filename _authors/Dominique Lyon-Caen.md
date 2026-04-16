@@ -5,7 +5,7 @@ rel_authors: []
 rel_publishers: []
 rel_tags: []
 layout: author
-published: true
+published: false
 ---
 
 Dominique Lyon-Caen was a French graphic designer.

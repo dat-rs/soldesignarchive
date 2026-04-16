@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "Carris"
 formats: [booklet, book-cover]
 disciplines: ["graphic-design", typography, illustration]
-tags: [non-fiction, "João Pereira da Rosa"]
+tags: [non-fiction, "public transportation"]
 ref_group: "256"
 ref_id: "0000"
 layout: artefact
