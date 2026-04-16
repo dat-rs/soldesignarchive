@@ -1,5 +1,5 @@
 ---
-title: "Babylon Hotel"
+name: "Babylon Hotel"
 layout: publisher
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: "Swiss National Tourist Office"
+name: "Swiss National Tourist Office"
 layout: publisher
 ---

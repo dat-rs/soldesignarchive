@@ -1,5 +1,5 @@
 ---
-title: propaganda
+name: propaganda
 layout: tag
 type: subject
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Parque Verde"
+name: "Parque Verde"
 layout: publisher
 ---
 

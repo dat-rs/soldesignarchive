@@ -1,4 +1,4 @@
 ---
-title: 'Livraria Editora Guimarães & Cª'
+name: "Livraria Editora Guimarães & Cª"
 layout: publisher
 ---

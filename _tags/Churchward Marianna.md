@@ -1,5 +1,5 @@
 ---
-title: Churchward Marianna
+name: Churchward Marianna
 layout: tag
 type: typeface
 hero_image: true

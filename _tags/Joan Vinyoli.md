@@ -1,5 +1,5 @@
 ---
-title: "Joan Vinyoli"
+name: "Joan Vinyoli"
 layout: tag
 type: person
 ---

@@ -1,0 +1,54 @@
+---
+title: "Sol Staging Area - Sol Design Archive"
+back-office: true
+published: false
+regenerate: true
+---
+
+{% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
+page-meta-description=page.description page-meta-image=page.image %} {% assign origin_words = page.name | split: '-' %}
+{% capture name_all_capitalised %} {% for word in origin_words %} {{ word | capitalize }} {% endfor %}{% endcapture %}
+{{ titlecase }} {% assign corrected_page_name = page.name | replace: "-", " " %} {% assign capitalised_page_name =
+corrected_page_name | capitalize %} {% capture description %}Browse artefacts tagged «{{ page.name | replace: "-", " "
+}}» at the Sol Design Archive.{% endcapture %}
+
+<!--  -->
+{% assign filtered_artefacts = site.artefacts | where: 'staging', true %} {% assign sorted_filtered_artefacts =
+filtered_artefacts | sort: "year" %}
+
+<div class="container-fluid container-cat first-after-header" data-pagefind-body>
+  <div class="row datum-section title">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <h1 class="title artefact self datum | capitalize }}" data-pagefind-meta="title">Staging</h1>
+    </div>
+  </div>
+
+  {% assign test_content = content | strip_newlines %} {% if test_content != "" %}
+  <div class="row datum-row cat-about">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">About</div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <section class="about-text">{{ content }}</section>
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+<div class="container-fluid cat artefacts">
+  <div class="row datum-section cat-artefacts">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title cat-artefacts">
+        Artefacts<span class="artefact-count">[{{ filtered_artefacts.size }}]</span>
+      </h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
+      <div class="row artefacts-gutters">
+        {% for artefact in sorted_filtered_artefacts %}
+        <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au-y.html %}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %} {% include the-end.html %}

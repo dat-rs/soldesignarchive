@@ -1,4 +1,4 @@
 ---
-title: "Philips"
+name: "Philips"
 layout: publisher
 ---

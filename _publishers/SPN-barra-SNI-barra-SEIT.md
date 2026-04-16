@@ -1,5 +1,5 @@
 ---
-title: "SPN/SNI/SEIT"
+name: "SPN/SNI/SEIT"
 layout: publisher
 ---
 

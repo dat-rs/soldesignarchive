@@ -1,5 +1,5 @@
 ---
-title: Eça de Queiroz
+name: Eça de Queiroz
 layout: tag
 type: person
 ---

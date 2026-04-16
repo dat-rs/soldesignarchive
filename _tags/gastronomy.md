@@ -1,5 +1,5 @@
 ---
-title: gastronomy
+name: gastronomy
 layout: tag
 type: subject
 ---

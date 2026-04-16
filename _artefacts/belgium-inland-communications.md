@@ -1,0 +1,17 @@
+---
+title: "Belgium. Inland Communications"
+author_name: ["unknown author"]
+year: y1958
+decade: 1950s
+origin: Belgium
+publisher: "Commissariat Général au Turisme"
+formats: [brochure, "graphic-design"]
+disciplines: [graphic-design]
+tags: [tourism, "Expo 58"]
+ref_group: "121"
+ref_id: "0009"
+layout: artefact
+status: complete
+published: true
+date_added: 2022-03-04
+---

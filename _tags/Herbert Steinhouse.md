@@ -1,5 +1,5 @@
 ---
-title: Herbert Steinhouse
+name: Herbert Steinhouse
 layout: tag
 type: person
 ---

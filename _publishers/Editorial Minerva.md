@@ -1,4 +1,4 @@
 ---
-title: 'Editorial Minerva'
+name: "Editorial Minerva"
 layout: publisher
 ---

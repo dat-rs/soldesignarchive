@@ -1,5 +1,5 @@
 ---
-title: Brazil
+name: Brazil
 layout: tag
 type: subject
 ---

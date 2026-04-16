@@ -1,34 +1,96 @@
-{% assign min = 1 %} 
-{% assign pub_artifacts = site.artifacts | where: 'published', true %}
-{% assign max = pub_artifacts.size %} 
-{% assign diff = max | minus: min %} 
-{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %} 
-{% assign feature_random_artifacts = pub_artifacts | slice:
-randomNumber %} 
-{% assign feature_random_artifacts_2 = feature_random_artifacts | slice: 0, 1 %} {% for artifact in feature_random_artifacts_2 %}
+{% assign min = 1 %} {% assign pub_artefacts = site.artefacts | where: 'published', true %} {% assign max =
+pub_artefacts.size %} {% assign diff = max | minus: min %} {% assign randomNumber = "now" | date: "%N" | modulo: diff |
+plus: min %} {% assign feature_random_artefacts = pub_artefacts | slice: randomNumber %} {% assign
+feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %} {% for artefact in feature_random_artefacts_2 %}
 
-<div class="container-fluid container-random-feature">
-  <div class="container-md">
-    <div class="row datum-section title random-feature">
-      <div class="col-12 datum-right-col">
-        <div class="artifact-img-container random-feature">
-          <a href="/artifacts/{{ artifact.slug }}">
-            <img
-              class="artifact-img random-feature"
-              src="/images/sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}-{{ artifact.slug }}.jpg"
-              alt="{{ artifact.title }}"
-            />
-          </a>
-        </div>
+<div class="container-fluid random-feature">
+  <div class="row datum-section random-feature">
+    <div class="col-12 d-md-none datum-left-col random-feature-text">
+      <h3 class="section-title random-feature index">Featured Artefact</h3>
+      <a class="title link random-feature d-md-none" href="/artefacts/{{ artefact.slug }}">
+        <h2 class="title artefact self datum random-feature">{{ artefact.title }}</h2>
+      </a>
+  </div> 
+
+
+
+    <div class="col-6 col-md-2 col-lg-2 datum-left-col random-feature-text">
+      <h3 class="section-title random-feature index d-none d-md-block">Featured Artefact</h3>
+        <span class="deet-label random-feature author first">Author{% if artefact.author_name.size > 1 %}s{% endif %}</span>
+        <span class="deet-label random-feature year">Year</span>
+        <span class="deet-label random-feature publisher">Publisher{% if artefact.publisher.size > 1 %}s{% endif %}</span>
+        <span class="deet-label random-feature origin">Origin{% if artefact.origin.size > 1 %}s{% endif %}</span>
+        <span class="deet-label random-feature format">Format{% if artefact.formats.size > 1 %}s{% endif %}</span>
+        <span class="deet-label random-feature discipline">Discipline{% if artefact.disciplines.size > 1 %}s{% endif %}</span>
+        <span class="deet-label random-feature tag">Tags</span>
+    </div> 
+
+    <div class="col-6 col-md-4 datum-righ-col">  
+      <a class="title link random-feature d-none d-md-block" href="/artefacts/{{ artefact.slug }}">
+        <h2 class="title artefact self datum random-feature">{{ artefact.title }}</h2>
+      </a>
+
+      <!-- Authors -->
+      <div class="deet-links random-feature">
+      {% for author in artefact.author_name %}
+      {% if artefact.signature-id %}signed «{% endif %}<a class="deet-link author {% if author == 'unknown author' %}unknown{% endif %}" href="/authors/{{ author | remove:"." }}">{{ author }}</a>{% if artefact.signature-id %}»{% endif %}
+      {% endfor %}
       </div>
-      <div class="col-12 col-sm-3 col-md-3 datum-left-col random-feature-text">
-        <h3 class="section-title random-feature index">Random feature</h3>
-        <a class="title link random-feature" href="/artifacts/{{ artifact.slug }}">
-          <h2 class="title artifact self datum random-feature">{{ artifact.title }}</h2>
-        </a> <br>
-        <span class="deet random-feature">{{ artifact.year | remove_first: 'y' | replace: '-', ' ' }}</span>
+
+      <!-- Year -->
+      <div class="deet-links random-feature">
+        <a class="deet-link year {% if artefact.year == 'unknown-date' %}unknown{% endif %}" href="/years/{{ artefact.year | remove_first: "y" }}">{% if artefact.circa %}<span class="deet-link year circa">c. </span>{% endif %}{{ artefact.year | remove_first: "y" | replace: '-', ' ' }}</a>
+      </div>
+
+      <!-- Publishers -->
+      <div class="deet-links random-feature">
+        {% for publisher in artefact.publisher %}
+        <a class="deet-link publisher {% if publisher == 'unknown publisher' %}unknown{% endif %}" href="/publishers/{{ publisher }}">{{ publisher }}</a>
+        {% endfor %}
+      </div>
+
+      <!-- Origin -->
+      <div class="deet-links random-feature">
+        {% for origin in artefact.origin %}
+        <a class="deet-link origin {% if origin == 'unknown origin' %}unknown{% endif %}" href="/origins/{{ origin | escape_once | capitalize }}">{{ origin | replace: "-", " " }}</a>
+        {% endfor %}
+      </div>
+
+      <!-- Format -->
+      <div class="deet-links random-feature">
+        {% for format in artefact.formats %}
+        <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
+        {% endfor %}
+      </div>
+
+      <!-- Discipline -->
+      <div class="deet-links random-feature">
+        {% for discipline in artefact.disciplines %}
+        <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
+        {% endfor %}
+      </div>
+
+      <!-- Tags -->
+      <div class="deet-links random-feature">
+        {% for tag in artefact.tags %}
+        <a class="deet-link tag" href="/tags/{{ tag | replace: " /", "-barra-" | replace: "[" , "-obr-" | replace: "]" ,"-cbr-" }}">{{ tag }}</a>
+        {% endfor %}
+        {% if artefact.tags.size == 0 %}—{% endif %}
       </div>
     </div>
+
+    <div class="col-12 col-md-6 datum-right-col img-col random-feature">
+      <div class="artefact-img-container random-feature">
+        <a href="/artefacts/{{ artefact.slug }}">
+          <img
+            class="artefact-img random-feature"
+            src="/images/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}.jpg"
+            alt="{{ artefact.title }}"
+          />
+        </a>
+      </div>
+    </div>
+
   </div>
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: José de Almada-Negreiros
+name: José de Almada-Negreiros
 layout: tag
 type: person
 ---

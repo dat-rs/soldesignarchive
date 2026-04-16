@@ -1,4 +1,4 @@
 ---
-title: 'Bantam Books'
+name: "Bantam Books"
 layout: publisher
 ---

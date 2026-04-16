@@ -1,4 +1,4 @@
 ---
-title: Arcosom
+name: Arcosom
 layout: publisher
 ---

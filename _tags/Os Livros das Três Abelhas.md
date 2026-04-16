@@ -1,5 +1,5 @@
 ---
-title: "Os Livros das Três Abelhas"
+name: "Os Livros das Três Abelhas"
 layout: tag
 type: collection
 ---

@@ -1,5 +1,5 @@
 ---
-title: Clarendon
+name: Clarendon
 layout: tag
 type: typeface
 ---

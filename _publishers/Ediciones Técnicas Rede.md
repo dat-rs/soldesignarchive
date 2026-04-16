@@ -1,4 +1,4 @@
 ---
-title: Ediciones Técnicas Rede
+name: Ediciones Técnicas Rede
 layout: publisher
 ---

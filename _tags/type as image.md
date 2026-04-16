@@ -1,5 +1,5 @@
 ---
-title: type as image
+name: type as image
 layout: tag
 type: design_descriptive
 ---

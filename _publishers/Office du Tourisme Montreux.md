@@ -1,4 +1,4 @@
 ---
-title: "Office du Tourisme Montreux"
+name: "Office du Tourisme Montreux"
 layout: publisher
 ---

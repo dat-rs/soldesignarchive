@@ -1,5 +1,5 @@
 ---
-title: Joaquim Figueiredo Magalhães
+name: Joaquim Figueiredo Magalhães
 layout: tag
 type: person
 ---

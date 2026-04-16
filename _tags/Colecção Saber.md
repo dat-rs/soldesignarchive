@@ -1,5 +1,5 @@
 ---
-title: Colecção Saber
+name: Colecção Saber
 layout: tag
 type: collection
 ---

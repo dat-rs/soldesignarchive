@@ -1,4 +1,4 @@
 ---
-title: Sindicato dos Médicos
+name: Sindicato dos Médicos
 layout: publisher
 ---

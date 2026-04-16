@@ -1,5 +1,5 @@
 ---
-title: Jesper Jensen
+name: Jesper Jensen
 layout: tag
 type: person
 ---

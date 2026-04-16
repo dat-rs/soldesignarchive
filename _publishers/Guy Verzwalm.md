@@ -1,4 +1,4 @@
 ---
-title: 'Guy Verzwalm'
+name: "Guy Verzwalm"
 layout: publisher
 ---

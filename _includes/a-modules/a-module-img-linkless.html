@@ -1,13 +1,13 @@
 
-  <div class="a-module-img-holder {{ include.modifier }}">
-    {% if artifact.image_count %}
+  <div class="a-module-img-holder square {{ include.modifier }}">
+    {% if artefact.image_count %}
     <i class="bi bi-images a-module-corner-icon"></i>
-    {% endif %} {% if artifact.published == false %}
+    {% endif %} {% if artefact.published == false %}
     <img class="a-module-img {{ include.modifier }}" src="/images/non-art/black-square.png" alt="" />
     {% else %}
     <img
       class="a-module-img {{ include.modifier }}"
-      src="/images/sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}-{{ artifact.slug }}-thumbnail.jpg"
+      src="/images/sm/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}-sm.jpg"
       alt=""
     />
     {% endif %}

@@ -1,4 +1,4 @@
 ---
-title: "Joaquim Horta Editor"
+name: "Joaquim Horta Editor"
 layout: publisher
 ---

@@ -1,5 +1,5 @@
 ---
-title: stamps
+name: stamps
 layout: tag
 type: design_descriptive
 ---

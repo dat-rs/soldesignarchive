@@ -1,5 +1,5 @@
 ---
-title: Fernão Mendes Pinto
+name: Fernão Mendes Pinto
 layout: tag
 type: person
 ---

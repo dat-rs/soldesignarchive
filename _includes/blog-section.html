@@ -1,28 +1,27 @@
-<div class="container-fluid container-blog-section">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="section-title">Blog</h3>
-      </div>
+<div class="container-fluid blog-section">
+  <div class="row datum-section blog-section">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col blog-label">
+      <h3 class="section-title">Blog</h3>
+      <a class="cta all-posts" href="/pages/blog.html" role="button">See all posts</a>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-2">
-      {% assign sampled_posts = site.posts | sort: 'date_added' | slice: 0, 2 %} {% for post in sampled_posts %}
-      <div class="col">
-        <div class="card blog">
-          <a class="card-link blog" href="{{ post.url }}">
+    {% assign sampled_posts = site.posts | sort: 'date_added' | slice: 0, 2 %} {% for post in sampled_posts %}
+    <div class="col-12 col-md-5 col-lg-4 datum-right-col blog-col index">
+      <div class="card blog">
+        <a class="card-link blog" href="{{ post.url }}">
+          <div class="blog-img-holder">
             <img class="card-img-top blog" src="/images/blog_posts/{{ post.image }}" alt="{{ post.title }}" />
-            <div class="card-body blog">
-              <h2 class="title blog preview">{{ post.title }}</h2>
-              <p class="post-lead preview">{{ post.lead }}</p>
-            </div>
-            <div class="card-footer blog">
-              <p class="post-meta preview">{{ post.author }} | {{ post.date | date_to_string }}</p>
-            </div>
-          </a>
-        </div>
+          </div>
+          <div class="card-body blog proper">
+            <h2 class="title blog preview">{{ post.title }}</h2>
+            <p class="post-lead preview">{{ post.lead }}</p>
+          </div>
+          <div class="card-footer blog">
+            <p class="post-meta preview">{{ post.author }} | {{ post.date | date_to_string }}</p>
+          </div>
+        </a>
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </div>

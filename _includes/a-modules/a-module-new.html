@@ -1,9 +1,9 @@
-<a class="a-module sm grid" href="{{ artifact.url }}">
-  <div class="a-module-img-holder">
-    {% if artifact.published == false %}
+<a class="a-module sm grid" href="{{ artefact.url }}">
+  <div class="a-module-img-holder square">
+    {% if artefact.published == false %}
     <img class="a-module-img" src="/images/non-art/black-square.png" alt="" />
     {% else %}
-    <img class="a-module-img" src="/images/sm/sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}-{{ artifact.slug }}-sm.jpg" alt="" />
+    <img class="a-module-img" src="/images/sm/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}-sm.jpg" alt="" />
     {% endif %}
   </div>
 </a>

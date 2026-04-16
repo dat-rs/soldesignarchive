@@ -1,5 +1,5 @@
 ---
-title: Edwin Corley
+name: Edwin Corley
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-title: Philippe Sollers
+name: Philippe Sollers
 layout: tag
 type: person
 ---

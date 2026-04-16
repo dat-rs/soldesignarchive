@@ -1,5 +1,5 @@
 ---
-title: Manuel de Seabra
+name: Manuel de Seabra
 layout: tag
 type: person
 ---

@@ -4,34 +4,51 @@ description: "Browse the archive by discipline."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
+{% include head-and-header.html page-meta-title=page.name page-meta-url=page.url page-meta-description=page.description
 page-meta-image=page.image %}
 
-{% assign pub_artifacts = site.artifacts | where: 'published', true %}
+{% assign pub_artefacts = site.artefacts | where: 'published', true %}
 
-<div class="container-outer disciplines first-after-header">
-  <div class="container-md container-allcats">
+<div class="container-fluid allcats disciplines first-after-header">
     <div class="row datum-section allcats">
       <div class="col-12 col-sm-3 col-md-2 datum-left-col">
         <div class="left-col-fixed">
           <h3 class="section-title allcats">Disciplines</h3>
         </div>
       </div>
-      <div class="col-12 col-sm-9 col-md-10 datum-right-col allcats-big-short row">
+      <div class="col-12 col-sm-9 col-md-4 datum-right-col allcats">
         {% for discipline in site.disciplines %} 
-        {% assign filtered_artifacts = pub_artifacts | where: 'disciplines', discipline.name %}
-          <div class="col-12 allcat big {% if forloop.first == true %}first{% endif %} text-wrap">
-            <a class="title allcat-item discipline capitalize text-wrap" href="{{ discipline.url }}">{{ discipline.name |
-              remove_first: " " | replace: "-", " " }}<span class="cat-count discipline">[{{ filtered_artifacts.size
+        {% assign filtered_artefacts = pub_artefacts | where: 'disciplines', discipline.name %}
+          <div class="allcat big {% if forloop.first == true %}first{% endif %} text-wrap">
+            <a id="{{ discipline.name }}" class="title allcat-item discipline capitalize text-wrap" href="{{ discipline.url }}">{{ discipline.name |
+              remove_first: " " | replace: "-", " " }}<span class="cat-count discipline">[{{ filtered_artefacts.size
                 }}]</span></a>
           </div>
         {% endfor %}
       </div>
+      <div class="col-12 col-sm-9 col-md-6 datum-right-col">
+      {% for discipline in site.disciplines %} {% assign filtered_artefacts = pub_artefacts | where: 'disciplines', discipline.name %}
+       {% assign number = filtered_artefacts.size | divided_by: 2 %}
+      <div class="right-col-fixed">
+        <figure id="{{ discipline.name }}-featured-img" class="feature-img artefact" style="display: none">
+          <div class="artefact-holder">
+            <img
+              class="a-module-img"
+              src="/images/sm/sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }}-{{ filtered_artefacts[number].slug }}-sm.jpg"
+              alt=""
+            />
+          </div>
+        </figure>
+      </div>
+
+      {% endfor %}
     </div>
-  </div>
+    </div>
 </div>
 
 
 
-  {% include footer.html %} {% include the-end.html %}
+  {% include footer.html %}
+  {% include scripts/scripts-disciplines.html %}
+  {% include the-end.html %}
 </div>

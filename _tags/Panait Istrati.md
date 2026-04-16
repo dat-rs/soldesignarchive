@@ -1,5 +1,5 @@
 ---
-title: Panait Istrati
+name: Panait Istrati
 layout: tag
 type: person
 ---

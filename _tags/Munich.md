@@ -1,5 +1,5 @@
 ---
-title: Munich
+name: Munich
 layout: tag
 type: subject
 ---

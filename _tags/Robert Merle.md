@@ -1,5 +1,5 @@
 ---
-title: Robert Merle
+name: Robert Merle
 layout: tag
 type: person
 ---

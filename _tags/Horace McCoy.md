@@ -1,5 +1,5 @@
 ---
-title: Horace McCoy
+name: Horace McCoy
 layout: tag
 type: person
 ---

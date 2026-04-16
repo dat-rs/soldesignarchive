@@ -1,4 +1,4 @@
 ---
-title: 'Fundação Calouste Gulbenkian'
+name: "Fundação Calouste Gulbenkian"
 layout: publisher
 ---

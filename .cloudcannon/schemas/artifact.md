@@ -1,14 +1,14 @@
 ---
-title: ''
-ref: ''
+title: ""
+ref: ""
 types: []
 author_name: []
 publisher: []
-year: ''
+year: ""
 origin: []
 tags: []
 image_count:
 date_added:
 wip: false
-layout: artifact
+layout: artefact
 ---

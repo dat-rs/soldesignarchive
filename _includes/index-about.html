@@ -1,11 +1,11 @@
-<div class="container-md container-index-about d-flex align-items-center justify-content-center">
+<div class="container-fluid container-index-about">
   <div class="row index-about">
-    <div class="col-12 col-lg-8 offset-lg-2">
-      {% assign published_artifacts = site.artifacts | where: 'published', 'true' %} {% assign published_authors =
+    <div class="col-12 col-lg-6">
+      {% assign published_artefacts = site.artefacts | where: 'published', 'true' %} {% assign published_authors =
       site.authors | where: 'published', 'true' %}
       <p class="about-sol">{% include about-sol.md %}</p>
-      <br>
-      <a href="/pages/artifacts" class="cta-about-browse-all">BROWSE ALL ARTIFACTS</a>
+      <br />
+      <a href="/pages/artefacts" class="cta about-browse-all">Browse all artefacts</a>
     </div>
   </div>
 </div>

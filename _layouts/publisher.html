@@ -2,52 +2,47 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign processed_title = page.title | replace: "-barra-", "/" | replace: "-dot-", "." %} {% capture description
-%}Browse artifacts published/commissioned by {{ processed_title }} at Sol Design Archive.{% endcapture %}
+{% assign processed_title = page.name | replace: "-barra-", "/" %} {% capture description
+%}Browse artefacts published/commissioned by {{ processed_title }} at Sol Design Archive.{% endcapture %}
 <!--  -->
-{% include head-and-header.html page-meta-title=page.title page-meta-description=description page-meta-url=page.url
-page-meta-image=layout.image %}
-
-{% assign pub_artifacts = site.artifacts | where: 'published', true %}
-{% assign filtered_artifacts = pub_artifacts | where: 'publisher', processed_title %} 
-{% assign
-sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero_image %}
+{% include head-and-header.html page-meta-title=processed_title page-meta-description=description page-meta-url=page.url
+page-meta-image=layout.image %} {% assign pub_artefacts = site.artefacts | where: 'published', true %} {% assign
+filtered_artefacts = pub_artefacts | where: 'publisher', processed_title %} {% assign sorted_filtered_artefacts =
+filtered_artefacts | sort: "year" %} {% if page.hero_image %}
 <div class="wide-post-img first-after-header">
   <div class="row">
     <div class="col-12">
-      <img class="grid-img" src="/images/non-art/hero-{{ page.title | replace: ' ', '-' }}.jpg" alt="" />
+      <img class="grid-img" src="/images/non-art/hero-{{ page.name | replace: ' ', '-' }}.jpg" alt="" />
     </div>
   </div>
 </div>
 {% endif %}
 
-<div class="container-md container-author {% unless page.hero_image %}first-after-header{% endunless %}" data-pagefind-body >
+<div
+  class="container-fluid container-author {% unless page.hero_image %}first-after-header{% endunless %}"
+  data-pagefind-body
+>
   <div class="row datum-section title">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label publisher">Publisher/Client</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-8 col-xl-7 datum-right-col">
-      <h1 class="title artifact self datum" data-pagefind-meta="title" >{{ page.title }}</h1>
+      <h1 class="title artefact self datum" data-pagefind-meta="title">{{ page.name }}</h1>
     </div>
   </div>
 
   <!-- ABOUT -->
-  <div class="row datum-section about">
+  {% assign test_content = content | strip_newlines %} {% if test_content != "" %}
+  <div class="row datum-row cat-about">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">About</h3>
     </div>
-
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
-      <section class="about-text">
-        <p>There {% if filtered_artifacts.size > 1 %}are{% else %}is{% endif %} {{ filtered_artifacts.size }} artifact{% if
-        filtered_artifacts.size > 1 %}s{% endif %} in the archive published/commissioned by {{ page.title }}. {{ content
-        }}</p>
-      </section>
+      <section class="about-text">{{ content }}</section>
     </div>
   </div>
-
+  {% endif %} {% if page.timeline_count %}
   <!-- TIMELINE -->
-  {% if page.timeline_count %}
   <div class="row datum-section timeline">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">Timeline</h3>
@@ -66,10 +61,8 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
       {{ page.timeline_values[timeline_element] }}
     </div>
   </div>
-  {% endfor %} {% endif %}
-
+  {% endfor %} {% endif %} {% if page.sources_count %} {% assign sources_count = page.sources_count %}
   <!-- SOURCES -->
-  {% if page.sources_count %} {% assign sources_count = page.sources_count %}
   <div class="row datum-section sources">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
@@ -89,19 +82,14 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
   {% endif %}
 
   <!-- RESOURCES -->
-  {% assign filtered_resources = site.data.resources | where: 'rel_publishers', page.title %} {% assign
+  {% assign filtered_resources = site.data.resources | where: 'rel_publishers', page.name %} {% assign
   filtered_resources_size = filtered_resources | size %} {% if filtered_resources_size > 0 %} {% include
   resources-section.html %} {% endif %}
 
   <!-- RELATED -->
 
-    {%- if page.rel_authors or page.rel_publishers or page.rel_tags != null -%}
-    {%- assign at_least_one_rel = true -%}
-    {%- else -%}
-    {%- assign at_least_one_rel = false -%}
-    {%- endif -%}
-
-  {% if at_least_one_rel == true %}
+  {%- if page.rel_authors or page.rel_publishers or page.rel_tags != null -%} {%- assign at_least_one_rel = true -%} {%-
+  else -%} {%- assign at_least_one_rel = false -%} {%- endif -%} {% if at_least_one_rel == true %}
   <div class="row datum-section related">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">Related</h3>
@@ -154,28 +142,25 @@ sorted_filtered_artifacts = filtered_artifacts | sort: "year" %} {% if page.hero
       {% endfor %}
     </div>
   </div>
-  {% endunless %} 
-  {% endif %}
+  {% endunless %} {% endif %}
 </div>
 
-<!-- ARTIFACTS -->
-<div class="outer-container cat-artifacts">
-  <div class="container-md">
-    <div class="row datum-section cat-artifacts">
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <h3 class="title datum-title cat-artifacts">
-          Artifacts <br />
-          <span class="artifact count">[{{ sorted_filtered_artifacts.size }}]</span>
-        </h3>
-      </div>
-      <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artifacts-gutters">
-          {% for artifact in sorted_filtered_artifacts %}
+<!-- artefacts -->
+<div class="container-fluid cat artefacts">
+  <div class="row datum-section cat-artefacts">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title cat-artefacts">
+        Artefacts <br />
+        <span class="artefact-count">[{{ sorted_filtered_artefacts.size }}]</span>
+      </h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artefacts-gutters">
+        {% for artefact in sorted_filtered_artefacts %}
 
-          <div class="col">{% include a-modules/a-module-au-y.html %}</div>
+        <div class="col">{% include a-modules/a-module-au-y.html %}</div>
 
-          {% endfor %}
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

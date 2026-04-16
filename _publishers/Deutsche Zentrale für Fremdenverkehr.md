@@ -1,5 +1,5 @@
 ---
-title: "Deutsche Zentrale für Fremdenverkehr"
+name: "Deutsche Zentrale für Fremdenverkehr"
 layout: publisher
 ---
 

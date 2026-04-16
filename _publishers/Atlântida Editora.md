@@ -1,4 +1,4 @@
 ---
-title: 'Atlântida Editora'
+name: "Atlântida Editora"
 layout: publisher
 ---

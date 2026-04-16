@@ -1,5 +1,5 @@
 ---
-title: duotone
+name: duotone
 layout: tag
 type: design_descriptive
 ---

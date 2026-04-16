@@ -1,5 +1,5 @@
 ---
-title: John Barrow
+name: John Barrow
 layout: tag
 type: person
 ---

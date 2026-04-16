@@ -1,4 +1,4 @@
 ---
-title: "Seleções do Readers Digest"
+name: "Seleções do Readers Digest"
 layout: publisher
 ---

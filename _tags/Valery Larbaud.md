@@ -1,5 +1,5 @@
 ---
-title: Valery Larbaud
+name: Valery Larbaud
 layout: tag
 type: person
 ---

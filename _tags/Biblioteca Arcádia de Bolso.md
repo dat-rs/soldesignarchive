@@ -1,5 +1,5 @@
 ---
-title: "Biblioteca Arcádia de Bolso"
+name: "Biblioteca Arcádia de Bolso"
 layout: tag
 type: collection
 ---

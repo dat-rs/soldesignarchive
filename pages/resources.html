@@ -4,32 +4,61 @@ description: "Browse all resources."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-description=page.description page-meta-url=page.url
+{% include head-and-header.html page-meta-title=page.name page-meta-description=page.description page-meta-url=page.url
 page-meta-image=page.image %}
 
-<div class="container-outer resources first-after-header">
-  <div class="container-md container-allcats">
-    <div class="row datum-section title years">
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <div class="left-col-fixed">
-          <h3 class="section-title allcats">Resources</h3>
-        </div>
+<div class="container-fluid allcats resources first-after-header">
+  <div class="row datum-section allcats">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <div class="left-col-fixed">
+        <h3 class="section-title allcats">Resources</h3>
       </div>
+    </div>
 
-      <div id="category-list" class="col-12 col-sm-9 col-md-10 datum-right-col allcats-search">
-        <div class="outer-search allcats">
-          <input class="search quicksearch cats authors" placeholder="Search" />
+    <div id="category-list" class="col-12 col-sm-9 col-md-10 datum-right-col allcats-search">
+      <div class="outer-search allcats">
+        <input class="search quicksearch cats authors" placeholder="Search" />
+      </div>
+      <div id="category-list" class="list row allcats resources">
+        {% for resource in site.data.resources %} {% case resource.type %} {% when 'article' %} {% assign i_class =
+        'bi-file-earmark-text' %} {% when 'at-archive' %} {% assign i_class = 'bi bi-archive' %} {% when 'presentation'
+        %} {% assign i_class = 'bi bi-file-easel' %} {% when 'pdf' %} {% assign i_class = 'bi-file-earmark-pdf' %} {%
+        when 'video' %} {% assign i_class = 'bi-file-earmark-play' %} {% when 'image' %} {% assign i_class =
+        'bi-file-earmark-image' %} {% when 'download' %} {% assign i_class = 'bi-file-earmark-download' %} {% when
+        'book' %} {% assign i_class = 'bi-book' %} {% else %} {% assign i_class = 'bi bi-file-earmark-text' %} {%
+        endcase %}
+
+        <div class="col-12 col-md-6">
+          <a class="resource-link resource-module allrescs" href="{{ resource.out_url }}">
+            <div class="resource-icon">
+              <i class="bi {{ i_class }}"></i>
+            </div>
+            <div class="resource-info">
+              <h2 class="name title resource inmodule">{{ resource.title }}</h2>
+
+              <section class="resource-description">
+                {{ resource.description | remove: '
+                <p>' | remove: '</p>
+                ' }}
+                <div class="resource-para-tags">
+                  <div class="resource-tag">
+                    {{ resource.lang | remove: '
+                    <p>' | remove: '</p>
+                    ' }}
+                  </div>
+                  {% if resource.offline %}
+                  <div class="resource-tag">{{ resource.offline }}</div>
+                  {% else %}
+                  <div class="resource-tag">online</div>
+                  {% endif %}
+                </div>
+              </section>
+            </div>
+          </a>
         </div>
-        <div class="list">
-        {% for resource in site.data.resources %}
-        <div>
-            <a class="name title allcat-item resource isotope-element" href="{{ resource.out_url }}">{{ resource.title }}</a>
-        </div>
+
         {% endfor %}
       </div>
-      </div>
-
-      
     </div>
   </div>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Colecção Antologia
+name: Colecção Antologia
 layout: tag
 type: collection
 ---

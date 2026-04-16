@@ -5,27 +5,22 @@ published: false
 regenerate: true
 ---
 
-{% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
-  
-{% include baoff-sub-header.html this-page="refs" %}
+{% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
+page-meta-description=page.description page-meta-image=page.image %}
 
 <div class="container-fluid">
-  <div id="artifacts-search" class="row no-gutters baoff-artifacts-search">
-
+  <div id="artefacts-search" class="row no-gutters baoff-artefacts-search">
     <div class="col-6 col-xxl-6">
       <h3 class="filter-title">Search</h3>
       <input type="text" class="quicksearch baoff" placeholder="" />
-
     </div>
 
     <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
-
       <h3 class="filter-title">Sort by</h3>
 
       <button class="button is-checked left" data-sort-value="original-order">ref desc. ↓</button>
       <button class="button middle" data-sort-value="date">Date updated desc. ↓</button>
       <button class="button right" data-sort-value="status">Status</button>
-
     </div>
 
     <!--
@@ -38,9 +33,7 @@ regenerate: true
 
     </div>
     -->
-
   </div>
-
 
   <div class="row faux-table-head-row">
     <div class="col-1 faux-table-head-col">Reference</div>
@@ -53,51 +46,36 @@ regenerate: true
   </div>
 </div>
 
-   <div class="container-fluid">
+<div class="container-fluid">
+  <div class="faux-table db" id="artefact-table">
+    {% assign artefacts_by_ref = site.artefacts | sort: 'ref_id' | reverse %} {% for artefact in artefacts_by_ref %}
+    <div class="row artefact-table-row">
+      <div class="col-1 faux-table-col">
+        <span class="reference">sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}</span>
+        <span class="ref-group d-none">{{ artefact.ref_group }}</span>
+        <span class="ref-id d-none">{{ artefact.ref_id }}</span>
+      </div>
 
-    <div class="faux-table db" id="artifact-table">
-          
-      {% assign artifacts_by_ref = site.artifacts | sort: 'ref_id' | reverse %}
-      {% for artifact in artifacts_by_ref %}
-        <div class="row artifact-table-row">
-        
-          <div class="col-1 faux-table-col">
-            <span class="reference">sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}</span>
-            <span class="ref-group d-none">{{ artifact.ref_group }}</span>
-            <span class="ref-id d-none">{{ artifact.ref_id }}</span>
-          </div>
+      <div class="col-3 faux-table-col"><span class="title tabold">{{ artefact.title }}</span> <br /></div>
 
-          <div class="col-3 faux-table-col">
-            <span class="title tabold">{{ artifact.title }}</span> <br>
-          </div>
+      <div class="col-2 faux-table-col">
+        <a href="{{ artefact.url }}" class="db-link">{{ artefact.url | remove_first: '/artefacts' }}</a> <br />
+      </div>
 
-          <div class="col-2 faux-table-col">
-            <a href="{{ artifact.url }}" class="db-link">{{ artifact.url | remove_first: '/artifacts' }}</a> <br>
-          </div>
+      <div class="col-2 faux-table-col">{{ artefact.author_name | join: ", " }}</div>
 
-          <div class="col-2 faux-table-col">{{ artifact.author_name | join: ", " }}</div>
+      <div class="col-2 faux-table-col">{{ artefact.formats | join: ", " }} <br /></div>
 
+      <div class="col-1 faux-table-col">
+        <span class="status">{{ artefact.status }}</span>
+      </div>
 
-          <div class="col-2 faux-table-col">
-            {{ artifact.formats | join: ", " }} <br>  
-          </div>
-
-          <div class="col-1 faux-table-col">   
-            <span class="status">{{ artifact.status }}</span>
-          </div>
-
-          <div class="col-1 faux-table-col">
-            <span class="date">{{ artifact.date_added }}</span> <br>
-          </div>
-        </div>
-            {% endfor %}
+      <div class="col-1 faux-table-col"><span class="date">{{ artefact.date_added }}</span> <br /></div>
     </div>
+    {% endfor %}
+  </div>
 </div>
 
-<div class="artifacts-bottom-sub-header-bg">
+<div class="artefacts-bottom-sub-header-bg"></div>
 
-</div>
-
-{% include footer.html %}
-{% include scripts/scripts-db-refs.html %}
-{% include the-end.html %}
+{% include footer.html %} {% include scripts/scripts-db-refs.html %} {% include the-end.html %}

@@ -1,7 +1,8 @@
 ---
-title: 'Ministério da Qualidade de Vida'
+name: "Ministério da Qualidade de Vida"
 layout: publisher
 ---
+
 A short-lived Portuguese government ministry in charge of Sports and Environment affairs.<sup>1</sup>
 
 <ol class="footnotes">

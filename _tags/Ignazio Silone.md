@@ -1,5 +1,5 @@
 ---
-title: Ignazio Silone
+name: Ignazio Silone
 layout: tag
 type: person
 ---

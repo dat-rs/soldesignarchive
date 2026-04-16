@@ -1,5 +1,5 @@
 ---
-title: "Wirtschaftsreferat der Landeshauptstadt München"
+name: "Wirtschaftsreferat der Landeshauptstadt München"
 layout: publisher
 ---
 

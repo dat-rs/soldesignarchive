@@ -6,95 +6,55 @@ regenerate: true
 ---
 
 {% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
-page-meta-description=page.description page-meta-image=page.image %} 
-
-{% include baoff-sub-header.html this-page="main" %}
+page-meta-description=page.description page-meta-image=page.image %} {%- include sub-header-backoffice.html -%}
 
 <div class="container-fluid">
-  <div id="artifacts-search" class="row no-gutters baoff-artifacts-header">
-    <div class="col-6 col-xxl-6">
-      <h3 class="filter-title"><span class="title-label">Search</span></h3>
-      <input type="text" class="quicksearch baoff" placeholder="" />
-    </div>
-
-    <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
-      <h3 class="filter-title"><span class="title-label">Sort by</span></h3>
-
-      <button class="button is-checked left" data-sort-value="original-order">ref asc. &DownArrow;</button>
-      <button class="button middle" data-sort-value="reference">highest ref &UpArrow;</button>
-      <button class="button middle" data-sort-value="title">Title</button>
-      <button class="button middle" data-sort-value="year">Year</button>
-      <button class="button middle" data-sort-value="date">Date updated desc. ↓</button>
-      <button class="button right" data-sort-value="status">Status</button>
-    </div>
-
-    <!--
-    <div class="col-12 col-sm-6 col-md-4 col-lg button-group order-by-button-group">
-
-      <h3 class="filter-title"><span class="title-label">Order</span></h3>
-
-      <button class="button is-checked" data-order-value="true">Ascending</button>
-      <button class="button" data-order-value="false">Descending</button>
-
-    </div>
-    -->
-  </div>
-
-  <div class="row faux-table-head-row">
-    <div class="col-1 faux-table-head-col">Img</div>
-    <div class="col-3 faux-table-head-col">Artifact</div>
-    <div class="col-2 faux-table-head-col">Authors/Publishers/Y/O</div>
-    <div class="col-3 faux-table-head-col">Formats, Disciplines, Tags</div>
-    <div class="col-2 faux-table-head-col">Info</div>
-  </div>
-</div>
-
-<div class="container-fluid">
-  <div class="faux-table db" id="artifact-table">
-    {% assign artifacts_by_ref = site.artifacts | sort: 'ref_id' %} {% for artifact in artifacts_by_ref %}
-    <div class="row artifact-table-row">
+  <div class="faux-table db" id="artefact-table">
+    {% assign artefacts_by_ref = site.artefacts | sort: 'ref_id' %} {% for artefact in artefacts_by_ref %}
+    <div class="row artefact-table-row">
       <div class="col-1 faux-table-col">
-        {% if artifact.published == false %}
+        {% if artefact.published == false %}
         <img class="db-img" src="/images/non-art/black-square.png" alt="" />
         {% else %}
         <img
           class="db-img"
           loading="lazy"
-          src="/images/sm/sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}-{{ artifact.slug }}-sm.jpg"
-          alt="{{ artifact.title }}"
-        />
+          src="/images/sm/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}-sm.jpg"
+          alt="{{ artefact.title }}" />
         {% endif %}
 
-      
-        <span class="gray-diff" style="vertical-align: top"
-          >{% if artifact.published == false %}0{% else %}{% if artifact.image_count %}{{ artifact.image_count }}{% else
+        <span class="gray-diff" style="vertical-align: bottom"
+          >{% if artefact.published == false %}0{% else %}{% if artefact.image_count %}{{ artefact.image_count }}{% else
           %}1{% endif %}{% endif %}</span
         >
       </div>
 
       <div class="col-3 faux-table-col">
-        <span class="title tabold">{{ artifact.title }}</span> <br />
-        <span class="reference">sol-{{ artifact.ref_group }}-{{ artifact.ref_id }}</span>-<a href="{{ artifact.url }}" class="db-link"
-          >{{ artifact.url | remove_first: '/artifacts/' | remove: "/" }}</a><br>
+        <span class="title tabold">{{ artefact.title }}</span> <br />
+        <span class="reference">sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}</span>-<a
+          href="{{ artefact.url }}"
+          class="db-link"
+          >{{ artefact.url | remove_first: '/artefacts/' | remove: "/" }}</a
+        ><br />
       </div>
 
       <div class="col-2 faux-table-col">
-        {{ artifact.author_name | join: ", " }} <br>
-       <span style="font-style: italic;">{{ artifact.publisher | join: ", " }}</span><br>
-      <span class="year">{{ artifact.year | remove_first: 'y' | replace: "-", " " }}</span> | {{ artifact.origin | join: ", " }}
+        {{ artefact.author_name | join: ", " }} <br />
+        <span style="font-style: italic">{{ artefact.publisher | join: ", " }}</span><br />
+        <span class="year">{{ artefact.year | remove_first: 'y' | replace: "-", " " }}</span> | {{ artefact.origin |
+        join: ", " }}
       </div>
 
       <div class="col-3 faux-table-col">
-        {{ artifact.formats | join: ", " }} <br />
-        <span class="gray-diff">{{ artifact.disciplines | join: ", " }}</span> <br />
-        {{ artifact.tags | join: ", " }} <br>
+        {{ artefact.formats | join: ", " }} <br />
+        <span class="gray-diff">{{ artefact.disciplines | join: ", " }}</span> <br />
+        {{ artefact.tags | join: ", " }} <br />
       </div>
 
       <div class="col-3 faux-table-col">
-        <span class="date">{{ artifact.date_added }}</span><br>
+        <span class="date">{{ artefact.date_added }}</span><br />
         <span class="pub-steps status">{% include pub-steps.html %}</span>
-        {{ artifact.batch }}
-
+        {{ artefact.batch }}
       </div>
     </div>
     {% endfor %}

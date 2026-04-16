@@ -1,0 +1,16 @@
+<div class="container-fluid every_cat">
+  <div class="row datum-row every_cat">
+    <div class="col every_cat">
+      {%- assign every_cat = site.authors | concat: site.publishers | concat: site.formats | concat: site.years |
+      concat: site.origins | concat: site.disciplines | concat: site.tags -%} {%- assign every_cat = every_cat | sample:
+      every_cat.size -%} {% for cat in every_cat %}
+      <div class="paracat-link">
+        <a href="{{ cat.url }}"
+          >{{ cat.name | replace: "-", " " | replace_first: 'y1', '1' }}</a
+        >
+        /
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

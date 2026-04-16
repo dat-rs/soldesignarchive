@@ -1,11 +1,11 @@
 collections_config:
-  artifacts:
-    name: Artifacts
-    path: _artifacts
+  artefacts:
+    name: artefacts
+    path: _artefacts
     schemas:
       default:
-        path: .cloudcannon/schemas/artifact.md
-        name: Artifact
+        path: .cloudcannon/schemas/artefact.md
+        name: artefact
         remove_extra_inputs: false
         hide_extra_inputs: true
         _enabled_editors:
@@ -26,7 +26,7 @@ collections_config:
               allow_create: true
               allow_empty: true
           $.year:
-            comment: 'The year with a y preceding it. Ex: ''y1965'''
+            comment: "The year with a y preceding it. Ex: 'y1965'"
           $.origin:
             type: multiselect
             options:
@@ -91,11 +91,11 @@ collections_config:
     path: _resources
   pages:
     name: Pages
-    path: ''
+    path: ""
 collection_groups:
   - heading: Content
     collections:
-      - artifacts
+      - artefacts
       - authors
       - posts
       - shorts
@@ -107,7 +107,7 @@ collection_groups:
       - resources
       - pages
 paths:
-  static: ''
+  static: ""
   uploads: images
 _inputs:
   template:

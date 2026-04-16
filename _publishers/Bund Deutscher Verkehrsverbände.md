@@ -1,5 +1,5 @@
 ---
-title: "Bund Deutscher Verkehrsverbände"
+name: "Bund Deutscher Verkehrsverbände"
 layout: publisher
 ---
 

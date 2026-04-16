@@ -1,4 +1,4 @@
 ---
-title: "Almedina"
+name: "Almedina"
 layout: publisher
 ---

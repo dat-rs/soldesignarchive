@@ -1,4 +1,4 @@
 ---
-title: 'Hachette'
+name: "Hachette"
 layout: publisher
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Centauro"
+name: "Centauro"
 layout: tag
 type: collection
 ---

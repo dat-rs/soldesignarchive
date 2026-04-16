@@ -1,5 +1,5 @@
 ---
-title: Charlotte Bingham
+name: Charlotte Bingham
 layout: tag
 type: person
 ---

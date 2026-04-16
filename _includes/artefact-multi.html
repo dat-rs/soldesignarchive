@@ -1,0 +1,47 @@
+<div class="container-fluid container-artefact-img multi first-after-header">
+  <!-- artefact Carousel -->
+  <div class="artefact-carousel f-carousel" id="artefactCarousel">
+    <div
+      class="artefact-carousel-cell f-carousel__slide"
+      data-thumb-src="/images/sm/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-sm.jpg"
+    >
+      <div class="artefact-img-container">
+        <img
+          class="artefact-img-flick"
+          loading="lazy"
+          data-fancybox="artefact-gallery"
+          src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}.jpg"
+          alt="{{ page.title }}"
+        />
+      </div>
+    </div>
+
+    {% assign image_count = page.image_count %} {% for image in (2..image_count) %}
+
+    <div
+      class="artefact-carousel-cell f-carousel__slide"
+      data-thumb-src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-{{ image }}.jpg"
+    >
+      <div class="artefact-img-container">
+        <img
+          class="artefact-img-flick"
+          loading="lazy"
+          data-fancybox="artefact-gallery"
+          src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-{{ image }}.jpg"
+          alt="{{ page.title }}"
+          data-lazy-src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}-{{ image }}.jpg"
+          alt="{{ page.title }}"
+        />
+      </div>
+
+      {% assign fixed_image_count = image | minus: 1 %} {% if page.image_captions[fixed_image_count] %}
+      <div class="caption-flick-shell">
+        <p class="caption a-multi fake-container">↑ {{ page.image_captions[fixed_image_count]}}</p>
+      </div>
+
+      {% endif %}
+    </div>
+
+    {% endfor %}
+  </div>
+</div>

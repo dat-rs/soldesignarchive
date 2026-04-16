@@ -1,5 +1,5 @@
 ---
-title: Benguiat Caslon
+name: Benguiat Caslon
 layout: tag
 type: typeface
 ---

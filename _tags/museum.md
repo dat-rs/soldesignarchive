@@ -1,5 +1,5 @@
 ---
-title: museum
+name: museum
 layout: tag
 type: subject
 ---

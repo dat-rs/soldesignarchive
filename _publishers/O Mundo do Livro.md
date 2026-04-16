@@ -1,4 +1,4 @@
 ---
-title: 'O Mundo do Livro'
+name: "O Mundo do Livro"
 layout: publisher
 ---

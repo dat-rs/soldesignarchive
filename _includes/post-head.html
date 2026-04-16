@@ -2,7 +2,7 @@
   <img class="" src="/images/blog_posts/{{ page.image }}" alt="" />
 </div>
 
-<div class="container-md post-head">
+<div class="container-fluid post-head">
   <div class="row datum-section title post-head">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label post">Blog Post</h3>
@@ -15,8 +15,9 @@
   </div>
   <div class="row datum-section sm post-lead">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <p class="post-meta self">{{ page.author }} <br>
-        {{ page.date | date_to_string }} <br>
+      <p class="post-meta self">
+        {{ page.author }} <br />
+        {{ page.date | date_to_string }} <br />
         {% if page.word_count %}{{ page.word_count }} words{% endif %}
       </p>
     </div>

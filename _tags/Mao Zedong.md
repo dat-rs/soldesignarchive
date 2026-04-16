@@ -1,5 +1,5 @@
 ---
-title: Mao Zedong
+name: Mao Zedong
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Colecção Utopia"
+name: "Colecção Utopia"
 layout: tag
 type: collection
 ---

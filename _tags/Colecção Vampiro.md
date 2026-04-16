@@ -1,5 +1,5 @@
 ---
-title: "Colecção Vampiro"
+name: "Colecção Vampiro"
 layout: tag
 type: collection
 ---

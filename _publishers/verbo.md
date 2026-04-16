@@ -1,4 +1,4 @@
 ---
-title: "Verbo"
+name: "Verbo"
 layout: publisher
 ---

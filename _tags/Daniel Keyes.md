@@ -1,5 +1,5 @@
 ---
-title: Daniel Keyes
+name: Daniel Keyes
 layout: tag
 type: person
 ---

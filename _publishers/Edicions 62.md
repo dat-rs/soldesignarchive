@@ -1,4 +1,4 @@
 ---
-title: "Edicions 62"
+name: "Edicions 62"
 layout: publisher
 ---

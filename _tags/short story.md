@@ -1,5 +1,5 @@
 ---
-title: short story
+name: short story
 layout: tag
 type: subject
 ---

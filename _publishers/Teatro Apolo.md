@@ -1,4 +1,4 @@
 ---
-title: 'Teatro Apolo'
+name: "Teatro Apolo"
 layout: publisher
 ---

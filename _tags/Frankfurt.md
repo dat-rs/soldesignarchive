@@ -1,5 +1,5 @@
 ---
-title: Frankfurt
+name: Frankfurt
 layout: tag
 type: subject
 ---

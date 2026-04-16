@@ -1,4 +1,4 @@
 ---
-title: 'unknown publisher'
+name: "unknown publisher"
 layout: publisher
 ---

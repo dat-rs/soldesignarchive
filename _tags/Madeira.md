@@ -1,5 +1,5 @@
 ---
-title: Madeira
+name: Madeira
 layout: tag
 type: subject
 ---

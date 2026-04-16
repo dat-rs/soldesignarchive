@@ -1,5 +1,5 @@
 ---
-title: autobiography
+name: autobiography
 layout: tag
 type: subject
 ---

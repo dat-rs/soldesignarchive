@@ -1,5 +1,5 @@
 ---
-title: Jorge Amado
+name: Jorge Amado
 layout: tag
 type: person
 ---

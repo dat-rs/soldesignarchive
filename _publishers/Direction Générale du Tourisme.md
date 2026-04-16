@@ -1,5 +1,5 @@
 ---
-title: "Direction Générale du Tourisme"
+name: "Direction Générale du Tourisme"
 layout: publisher
 ---
 

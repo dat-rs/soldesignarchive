@@ -1,4 +1,4 @@
 ---
-title: "Wilcox & Follett Company"
+name: "Wilcox & Follett Company"
 layout: publisher
 ---

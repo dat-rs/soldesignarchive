@@ -1,4 +1,4 @@
 ---
-title: 'Livraria Morais Editora'
+name: "Livraria Morais Editora"
 layout: publisher
 ---

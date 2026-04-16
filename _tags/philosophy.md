@@ -1,5 +1,5 @@
 ---
-title: philosophy
+name: philosophy
 layout: tag
 type: subject
 ---

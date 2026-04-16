@@ -1,4 +1,4 @@
 ---
-title: 'Seara Nova'
+name: "Seara Nova"
 layout: publisher
 ---

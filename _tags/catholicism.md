@@ -1,5 +1,5 @@
 ---
-title: catholicism
+name: catholicism
 layout: tag
 type: subject
 ---

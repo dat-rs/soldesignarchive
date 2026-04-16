@@ -1,0 +1,20 @@
+---
+ref_group: "030"
+ref_id: "0241"
+title: "Antologia da Novíssima Poesia Catalã"
+author_name: ["unknown author"]
+publisher: ["Futura"]
+year: y1974
+decade: 1970s
+origin: ["Portugal"]
+formats: [book, book-cover]
+disciplines: [graphic-design, typography]
+tags: [poetry, "Manuel de Seabra"]
+layout: artefact
+status: complete
+published: true
+int_published: true
+image_count:
+date_added: 2024-04-21
+batch: /ladra/150423/1
+---

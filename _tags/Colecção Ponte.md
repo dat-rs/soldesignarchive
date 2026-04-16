@@ -1,5 +1,5 @@
 ---
-title: Colecção Ponte
+name: Colecção Ponte
 layout: tag
 type: collection
 ---

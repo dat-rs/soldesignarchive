@@ -1,0 +1,4 @@
+---
+name: VERCOOPE
+layout: publisher
+---

@@ -1,5 +1,5 @@
 ---
-title: Hans Hellmut Kirst
+name: Hans Hellmut Kirst
 layout: tag
 type: person
 ---

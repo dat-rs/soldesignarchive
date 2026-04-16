@@ -1,5 +1,5 @@
 ---
-title: Federigo Tozzi
+name: Federigo Tozzi
 layout: tag
 type: person
 ---

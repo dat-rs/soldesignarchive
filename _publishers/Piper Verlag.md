@@ -1,4 +1,4 @@
 ---
-title: 'Piper Verlag'
+name: "Piper Verlag"
 layout: publisher
 ---

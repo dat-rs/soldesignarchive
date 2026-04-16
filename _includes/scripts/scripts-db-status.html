@@ -8,7 +8,7 @@
         // store filter per group
         var filters = {};
 
-        var $container = $("#artifact-table");
+        var $container = $("#artefact-table");
 
         var $filterDisplay = $("#filter-display");
         var qsRegex;
@@ -25,11 +25,11 @@
 
         $container.isotope({
             // options
-            itemSelector: ".artifact-table-row",
+            itemSelector: ".artefact-table-row",
             filter: searchAndFilter,
         });
 
-        $("#artifacts-filters").on("click", "button", function () {
+        $("#artefacts-filters").on("click", "button", function () {
             buttonFilter = $(this).attr("data-filter");
         });
         // use value of search field to filter
@@ -40,7 +40,7 @@
             }, 200)
         );
         // do stuff when checkbox change
-        $("#artifacts-filters").on("change", function (event) {
+        $("#artefacts-filters").on("change", function (event) {
             var checkbox = event.target;
             var $checkbox = $(checkbox);
 

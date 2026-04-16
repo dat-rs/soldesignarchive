@@ -1,4 +1,4 @@
 ---
-title: "Mario Angel Marrodán"
+name: "Mario Angel Marrodán"
 layout: publisher
 ---

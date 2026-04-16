@@ -1,5 +1,5 @@
 ---
-title: Jean Renoir
+name: Jean Renoir
 layout: tag
 type: person
 ---

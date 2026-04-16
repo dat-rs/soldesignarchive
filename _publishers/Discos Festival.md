@@ -1,4 +1,4 @@
 ---
-title: 'Discos Festival'
+name: "Discos Festival"
 layout: publisher
 ---

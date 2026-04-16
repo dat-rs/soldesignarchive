@@ -1,0 +1,19 @@
+---
+ref_group: "121"
+ref_id: "0047"
+title: "Tirol Austria"
+author_name: ["unknown author"]
+publisher: ["unknown publisher"]
+year: "unknown-date"
+origin: ["Austria"]
+formats: ["flyer"]
+disciplines: [graphic-design]
+tags:
+layout: artefact
+status: scan
+published: false
+int_published: false
+image_count:
+date_added: 2023-06-16
+batch:
+---

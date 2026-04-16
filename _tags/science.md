@@ -1,5 +1,5 @@
 ---
-title: science
+name: science
 layout: tag
 type: subject
 ---

@@ -1,5 +1,5 @@
 ---
-title: commerce
+name: commerce
 layout: tag
 type: subject
 ---

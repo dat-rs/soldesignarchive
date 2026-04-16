@@ -1,5 +1,5 @@
 ---
-title: "Ciências Sociais e Humanas [Bertrand]"
+name: "Ciências Sociais e Humanas [Bertrand]"
 layout: tag
 type: collection
 ---
