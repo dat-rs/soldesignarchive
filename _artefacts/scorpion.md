@@ -15,5 +15,6 @@ image_count:
 date_added: 2026-04-13
 comments: [enac, frog]
 batch: /ladra/20260411
+staging: true
 layout: artefact
 ---

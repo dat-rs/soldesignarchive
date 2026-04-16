@@ -71,8 +71,8 @@ $viewport-less-header-md-half: calc(50vh - 40px);
 $viewport-less-header-lg-half: calc(50vh - 30px);
 $viewport-less-header-xl-half: calc(50vh - 30px);
 
-$random-feature-height: 250px;
-$random-feature-height-2: 244px;
+$random-feature-height: 200px;
+$random-feature-height-2: 194px;
 
 /* @media skeleton */
 
@@ -424,7 +424,8 @@ $datum-section-spacer: 100px;
     padding-bottom: 60px;
   }
   &.footer-quote {
-    padding-bottom: 120px;
+    padding-bottom: 15px;
+    color: $bg-white;
   }
   &.footer-icons {
     padding-top: 34px;
@@ -757,7 +758,8 @@ h2 .artefact-count {
 .caption {
   font-family: $paratext, sans-serif;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
+  letter-spacing: -0.3px;
 }
 
 section.about {
@@ -1182,14 +1184,6 @@ p.about-sol strong {
   background-color: $bg-white;
 }
 
-.datum-section.footer-quote {
-  color: $bg-white;
-  /* @media (min-width: 768px) {
-    border-right: 1px solid $bg-white;
-  } */
-}
-
-
 .datum-section.footer-logos .datum-right-col {
   &.logos {
     &.sol-logo {
@@ -1379,7 +1373,6 @@ a>h3.section-title.allcats {
 
   &.footer-quote {
     background-color: $blue;
-    min-height: 60vh;
   }
 
   &.faq-about {
@@ -1835,9 +1828,9 @@ h3.section-title {
   font-family: $paratext, sans;
   display: block;
   letter-spacing: -0.5px;
-  line-height: 1;
+  line-height: 1.2;
   padding-bottom: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 4px;
 
   &.negative {
     color: $artefact-color;
@@ -1872,6 +1865,8 @@ h3.section-title {
     text-transform: uppercase;
     color: $off-1;
     letter-spacing: 0px;
+    padding-top: 6px;
+    padding-bottom: 2px;
   }
 
   &.allcats {
@@ -2126,6 +2121,14 @@ i.bi-archive::before {
 
 }
 
+.artefacts-filter-col {
+  padding-bottom: 17px;
+  @media (min-width: 992px) {
+  padding-bottom: 0px;
+    }
+
+}
+
 #artefacts-search,
 .outer-search.allcats {
   border-radius: 15px;
@@ -2179,6 +2182,7 @@ button.button {
   font-size: 13px;
   line-height: 16px;
   letter-spacing: normal;
+  text-align: left;
   color: $blue;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -2363,6 +2367,10 @@ img.artefact-img,
 
 img.artefact-img {
   max-height: $viewport-less-header-sm;
+}
+
+img.artefact-img.random-feature {
+  max-height: calc(50vh - 60px);
 }
 
 .artefact-img-flick {
@@ -3564,7 +3572,7 @@ span.reference {
   }
 
   @media (min-width: 768px) {
-    padding-top: 24px;
+    padding-top: 40px;
     min-height: $random-feature-height;
   }
 }

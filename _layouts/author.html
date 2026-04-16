@@ -39,7 +39,8 @@ filtered_artefacts.size | divided_by: 2 %}
 
     <div class="col-12 col-sm-3 col-md-2 datum-left-col order-sm-first">
       <div class="caption bottomthenleft feature-img">
-        {% if page.image_path %} {{ page.image_caption }} {% else %} {{ filtered_artefacts[number].title }} <br />
+        {% if page.image_path %} {{ page.image_caption }} {% else %}
+        <strong>{{ filtered_artefacts[number].title }}</strong> <br />
         ({{ filtered_artefacts[number].year | remove_first: 'y' }}) <br />
         sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }} {% endif %}
       </div>

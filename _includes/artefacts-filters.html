@@ -1,27 +1,27 @@
 <div class="row">
-  <div class="col-9">
+  <div class="col-12 col-lg-9 artefacts-filter-col">
     <div class="filter-header">
       <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-4" data-group="types">
+        <div class="col-4" data-group="types">
           <h3 class="section-title artefacts-filter">What?</h3>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-12 col-lg-2" data-group="years">
+        <div class="col-2" data-group="years">
           <h3 class="section-title artefacts-filter">When?</h3>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-group="origins">
+        <div class="col-3" data-group="origins">
           <h3 class="section-title artefacts-filter">Where?</h3>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-group="disciplines">
+        <div class="col-3" data-group="disciplines">
           <h3 class="section-title artefacts-filter">How?</h3>
         </div>
       </div>
     </div>
 
     <div id="artefacts-filters" class="row">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 filter-group first-filter-group" data-group="types">
+      <div class="col-4 filter-group first-filter-group" data-group="types">
         {% for format in site.formats %}
         <input
           type="checkbox"
@@ -34,7 +34,7 @@
         {% endfor %}
       </div>
 
-      <div class="col-12 col-sm-6 col-md-12 col-lg-2 filter-group" data-group="years">
+      <div class="col-2 filter-group" data-group="years">
         <input type="checkbox" value=".1890s" class="btn-check filter artefacts" id="filter-1890s" autocomplete="off" />
         <label class="btn a-filter-label" for="filter-1890s">1890s</label>
 
@@ -63,7 +63,7 @@
         <label class="btn a-filter-label" for="filter-1990s">1990s</label>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 filter-group" data-group="origins">
+      <div class="col-3 filter-group" data-group="origins">
         {% for origin in site.origins %}
         <input
           type="checkbox"
@@ -77,7 +77,7 @@
         {% endfor %}
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 filter-group" data-group="disciplines">
+      <div class="col-3 filter-group" data-group="disciplines">
         {% for discipline in site.disciplines %}
         <input
           type="checkbox"
@@ -93,7 +93,7 @@
     </div>
   </div>
 
-  <div class="col-3">
+  <div class="col-12 col-lg-3">
     <div id="artefacts-search">
       <div class="outer-search">
         <input type="text" class="quicksearch artefacts" placeholder="Search (Titles/Authors)" />

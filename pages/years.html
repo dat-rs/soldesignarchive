@@ -15,12 +15,29 @@ page-meta-image=page.image %} {% assign pub_artefacts = site.artefacts | where: 
       </div>
     </div>
 
-    <div class="col-12 col-sm-9 col-md-10 datum-right-col allcats-nosearch">
+    <div class="col-12 col-sm-9 col-md-4 datum-right-col allcats-nosearch">
       {%- for year in site.years -%} {%- assign filtered_artefacts = pub_artefacts | where: 'year', year.name -%}
-      <a class="title allcat-item year capitalize text-wrap" href="{{ year.url }}"
+      <a id="{{ year.name }}" class="title allcat-item year capitalize text-wrap" href="{{ year.url }}"
         >{{ year.title }}<span class="cat-count year">[{{filtered_artefacts.size}}]</span>
       </a>
       {%- endfor -%}
+    </div>
+    <div class="col-12 col-sm-9 col-md-6 datum-right-col">
+      {% for year in site.years %} {% assign filtered_artefacts = pub_artefacts | where: 'year', year.name %} {% assign
+      number = filtered_artefacts.size | divided_by: 2 %}
+
+      <div class="right-col-fixed">
+        <figure id="{{ year.name }}-featured-img" class="feature-img artefact" style="display: none">
+          <div class="artefact-holder">
+            <img
+              class="a-module-img"
+              src="/images/sm/sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }}-{{ filtered_artefacts[number].slug }}-sm.jpg"
+              alt="" />
+          </div>
+        </figure>
+      </div>
+
+      {% endfor %}
     </div>
   </div>
 </div>

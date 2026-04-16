@@ -37,110 +37,35 @@
   </div>
 </div>
 
-<div class="container-fluid footer-icons d-none">
-  <div class="container-md">
-    <div class="row datum-section footer-icons">
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/authors">
-          <img
-            class="footer-icon authors"
-            src="/images/non-art/icon-authors-ossm-color.svg"
-            alt=""
-            width="140"
-            height="140" />
-          <h3 class="section-title allcats footer authors text-center">Authors</h3>
-        </a>
-      </div>
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/origins">
-          <img
-            class="footer-icon origins"
-            src="/images/non-art/icon-origins-ossm-color.svg"
-            alt=""
-            width="140"
-            height="140" />
-          <h3 class="section-title allcats footer origins text-center">Origins</h3>
-        </a>
-      </div>
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/publishers">
-          <img
-            class="footer-icon publishers"
-            src="/images/non-art/icon-publishers-ossm-color.svg"
-            alt=""
-            width="140"
-            height="140" />
-          <h3 class="section-title allcats footer publishers text-center">Authors</h3>
-        </a>
-      </div>
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/disciplines">
-          <img
-            class="footer-icon disciplines"
-            src="/images/non-art/icon-disciplines-ossm-color.svg"
-            alt=""
-            width="140"
-            height="140" />
-          <h3 class="section-title allcats footer disciplines text-center">Disciplines&nbsp;</h3>
-        </a>
-      </div>
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/years">
-          <img
-            class="footer-icon years"
-            src="/images/non-art/icon-years-ossm-color.svg"
-            alt=""
-            width="140"
-            height="140" />
-          <h3 class="section-title allcats footer years text-center">Years</h3>
-        </a>
-      </div>
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/formats">
-          <img
-            class="footer-icon formats"
-            src="/images/non-art/icon-formats-ossm-color.svg"
-            alt=""
-            width="140"
-            height="140" />
-          <h3 class="section-title allcats footer formats text-center">Formats</h3>
-        </a>
-      </div>
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/tags">
-          <img
-            class="footer-icon tags"
-            src="/images/non-art/icon-tags-ossm-color.svg"
-            alt=""
-            width="140"
-            height="140" />
-          <h3 class="section-title allcats footer tags text-center">Tags</h3>
-        </a>
-      </div>
-      <div class="col-6 col-sm-3 col-lg text-center datum-right-col footer-icon-col">
-        <a class="footer-icon-link" href="/pages/resources">
-          <img
-            class="footer-icon resources"
-            src="/images/non-art/icon-resources-ossm-color.svg"
-            width="140"
-            alt=""
-            height="140" />
-          <h3 class="section-title allcats footer resources text-center">Resources</h3>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+{% assign min = 1 %} {% assign pub_artefacts = site.artefacts | where: 'published', true %} {% assign max =
+pub_artefacts.size %} {% assign diff = max | minus: min %} {% assign randomNumber = "now" | date: "%N" | modulo: diff |
+plus: min %} {% assign feature_random_artefacts = pub_artefacts | slice: randomNumber %} {% assign
+feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %}
 
 <div class="container-fluid footer-quote">
   <div class="row datum-section footer-quote">
-    <div class="col-12 quote">
+    <div class="col-12 col-lg-7 quote">
       <q class="footer-quote">Save everything.<br />It may come in handy later.</q>
-    </div>
-
-    <div class="col-12">
       <p class="footer-quote-byline">Corita Kent</p>
     </div>
+
+    {% for artefact in feature_random_artefacts_2 %}
+    <div class="col-12 col-lg-5">
+      <div class="artefact-img-container random-feature">
+        <a href="/artefacts/{{ artefact.slug }}">
+          <img
+            class="artefact-img random-feature"
+            src="/images/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}.jpg"
+            alt="{{ artefact.title }}" />
+        </a>
+      </div>
+      <div class="caption">
+        <strong>{{ artefact.title }}</strong> <br />
+        {{ artefact.author_name }} ({{ artefact.year | remove_first: 'y' | replace: '-', ' ' }}) <br />
+        sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </div>
 
