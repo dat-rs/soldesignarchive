@@ -1,4 +1,4 @@
 ---
-title: 'Carris'
+name: "Carris"
 layout: publisher
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Jean Paul Sartre"
+name: "Jean Paul Sartre"
 layout: tag
 type: person
 ---

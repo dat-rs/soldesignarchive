@@ -1,5 +1,5 @@
 ---
-title: Pelican
+name: Pelican
 layout: tag
 type: collection
 ---

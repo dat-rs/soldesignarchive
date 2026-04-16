@@ -1,0 +1,38 @@
+<div class="container-fluid who-what-when-where-how">
+  <div class="row who-what-when-where-how">
+    <div class="col col-4 who-what-when-where-how">
+      <h3 class="section-title artefacts-filter">Who?</h3>
+      {% for author in site.authors %}
+      <a class="paracat-link author" href="/authors/{{ author.url }}">{{ author.name }}</a>
+      {% endfor %}
+    </div>
+    <div class="col col-2 who-what-when-where-how">
+      <h3 class="section-title artefacts-filter">What?</h3>
+
+      {% for format in site.formats %}
+      <a class="paracat-link" href="/formats/{{ format }}">{{ format.name | replace: "-", " " }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="col col-2 who-what-when-where-how">
+      <h3 class="section-title artefacts-filter">When?</h3>
+      {%- for year in site.years -%}
+      <a class="paracat-link" href="{{ year.url }}">{{ year.title }} </a>
+      {%- endfor -%}
+    </div>
+
+    <div class="col col-2 who-what-when-where-how">
+      <h3 class="section-title artefacts-filter">Where?</h3>
+      {% for origin in site.origins %}
+      <a class="paracat-link" href="{{ origin.url }}">{{ origin.name | replace: "-", " " }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="col col-2 who-what-when-where-how">
+      <h3 class="section-title artefacts-filter">How?</h3>
+      {% for discipline in site.disciplines %}
+      <a class="paracat-link" href="{{ discipline.url }}">{{ discipline.name | replace: "-", " " }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

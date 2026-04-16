@@ -1,5 +1,5 @@
 ---
-title: Madrid
+name: Madrid
 layout: tag
 type: subject
 ---

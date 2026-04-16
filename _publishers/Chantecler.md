@@ -1,4 +1,4 @@
 ---
-title: "Chantecler"
+name: "Chantecler"
 layout: publisher
 ---

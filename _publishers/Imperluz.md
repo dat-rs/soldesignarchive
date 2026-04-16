@@ -1,4 +1,4 @@
 ---
-title: Imperluz
+name: Imperluz
 layout: publisher
 ---

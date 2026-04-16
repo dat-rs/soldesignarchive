@@ -1,4 +1,4 @@
 ---
-title: 'New Directions'
+name: "New Directions"
 layout: publisher
 ---

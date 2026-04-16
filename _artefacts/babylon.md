@@ -1,0 +1,18 @@
+---
+ref_group: "470"
+ref_id: "0001"
+title: "Hotel Babylon"
+author_name: ["unknown author"]
+publisher: ["Babylon Hotel"]
+year: unknown-date
+origin: "Netherlands"
+formats: [matchbook]
+disciplines: [graphic-design, illustration, typography]
+tags:
+layout: artefact
+status: complete
+published: true
+image_count:
+date_added: 2024-05-10
+batch:
+---

@@ -1,4 +1,4 @@
 ---
-title: 'A Voz do Dono'
+name: "A Voz do Dono"
 layout: publisher
 ---

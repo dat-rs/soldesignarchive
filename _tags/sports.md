@@ -1,5 +1,5 @@
 ---
-title: sports
+name: sports
 layout: tag
 type: subject
 ---

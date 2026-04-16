@@ -1,5 +1,5 @@
 ---
-title: Abbott and Costello
+name: Abbott and Costello
 layout: tag
 type: person
 ---

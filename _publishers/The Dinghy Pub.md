@@ -1,5 +1,5 @@
 ---
-title: "The Dinghy Pub"
+name: "The Dinghy Pub"
 layout: publisher
 ---
 

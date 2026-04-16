@@ -1,0 +1,84 @@
+<div class="container-fluid sub-header-backoffice first-after-header">
+  <div class="row sub-header-backoffice">
+    <div id="db-search" class="col-6 col-xxl-4">
+      <input type="text" class="quicksearch backoffice" placeholder="Search" />
+    </div>
+
+    <!-- Filter Column-->
+    <div
+      id="artefacts-filters"
+      data-group="status"
+      class="col-12 col-sm-6 col-md-4 col-lg filter-group sort-by-button-group db">
+      {%- assign artefacts_offline = site.artefacts | where:'status', 'offline' -%} {%- assign artefacts_complete =
+      site.artefacts | where: 'status', 'complete' -%} {%- assign artefacts_published = site.artefacts | where:
+      'published', 'true' -%} {%- assign artefacts_onboarding = site.artefacts | where: 'status', 'onboarding' -%} {%-
+      assign artefacts_scan = site.artefacts | where: 'status', 'scan' -%} {%- assign artefacts_production =
+      site.artefacts | where: 'status', 'production' -%} {%- assign artefacts_publish = site.artefacts | where:
+      'status', 'publish' -%} {%- assign artefacts_wip = site.artefacts | where: 'status', 'wip' -%}
+
+      <input
+        type="checkbox"
+        value=".offline"
+        class="btn-check filter button backoffice"
+        id="filter-gen"
+        autocomplete="off" />
+      <label class="btn status-filter-label" for="filter-gen">offline ({{ artefacts_offline.size }})</label>
+
+      <input
+        type="checkbox"
+        value=".onboarding"
+        class="btn-check filter button backoffice"
+        id="filter-gen"
+        autocomplete="off" />
+      <label class="btn status-filter-label" for="filter-gen">onboarding ({{ artefacts_onboarding.size }})</label>
+
+      <input
+        type="checkbox"
+        value=".scan"
+        class="btn-check filter button backoffice"
+        id="filter-scan"
+        autocomplete="off" />
+      <label class="btn status-filter-label" for="filter-scan">scan ({{ artefacts_scan.size }})</label>
+
+      <input
+        type="checkbox"
+        value=".production"
+        class="btn-check filter button backoffice"
+        id="filter-prod"
+        autocomplete="off" />
+      <label class="btn status-filter-label" for="filter-prod">production ({{ artefacts_production.size }})</label>
+
+      <input
+        type="checkbox"
+        value=".publish"
+        class="btn-check filter button backoffice"
+        id="filter-pub"
+        autocomplete="off" />
+      <label class="btn status-filter-label" for="filter-pub">publish ({{ artefacts_publish.size }})</label>
+
+      <input
+        type="checkbox"
+        value=".wip"
+        class="btn-check filter button backoffice"
+        id="filter-wip"
+        autocomplete="off" />
+      <label class="btn status-filter-label" for="filter-wip">wip ({{ artefacts_wip.size }})</label>
+
+      <input
+        type="checkbox"
+        value=".complete"
+        class="btn-check filter button backoffice"
+        id="filter-complete"
+        autocomplete="off" />
+      <label class="btn status-filter-label" for="filter-complete">complete ({{ artefacts_complete.size }})</label>
+    </div>
+  </div>
+
+  <div class="row faux-table-head-row">
+    <div class="col-1 faux-table-head-col">Image</div>
+    <div class="col-3 faux-table-head-col">Artefact</div>
+    <div class="col-2 faux-table-head-col">Authors/Publishers/Year/Origin</div>
+    <div class="col-3 faux-table-head-col">Formats/Disciplines/Tags</div>
+    <div class="col-2 faux-table-head-col">Info</div>
+  </div>
+</div>

@@ -1,62 +1,62 @@
 ---
-label: Artifact
+label: artefact
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: Title
-- type: text
-  name: ref
-  label: Reference
-  description: sol-000-0000
-- type: list
-  name: types
-  label: Types
-- type: list
-  name: author_name
-  label: Authors
-  config:
-    use_select: false
-- name: publisher
-  type: tag_list
-  default: []
-  label: Publisher
-- type: text
-  name: year
-  label: Year
-  description: 'The year with a y preceding it. Ex: ''y1965'''
-- name: origin
-  type: tag_list
-  default: []
-  label: Origin
-- type: list
-  name: tags
-  label: Tags
-- type: number
-  name: image_count
-  label: Image Count
-- type: datetime
-  name: date_added
-  label: Date Added
-  config:
-    export_format: YYYY-MM-DD
-  default: now
-- name: wip
-  type: boolean
-  label: WIP
-- type: text
-  name: layout
-  label: layout
-  default: artifact
-  hidden: true
+  - type: text
+    name: title
+    label: Title
+  - type: text
+    name: ref
+    label: Reference
+    description: sol-000-0000
+  - type: list
+    name: types
+    label: Types
+  - type: list
+    name: author_name
+    label: Authors
+    config:
+      use_select: false
+  - name: publisher
+    type: tag_list
+    default: []
+    label: Publisher
+  - type: text
+    name: year
+    label: Year
+    description: "The year with a y preceding it. Ex: 'y1965'"
+  - name: origin
+    type: tag_list
+    default: []
+    label: Origin
+  - type: list
+    name: tags
+    label: Tags
+  - type: number
+    name: image_count
+    label: Image Count
+  - type: datetime
+    name: date_added
+    label: Date Added
+    config:
+      export_format: YYYY-MM-DD
+    default: now
+  - name: wip
+    type: boolean
+    label: WIP
+  - type: text
+    name: layout
+    label: layout
+    default: artefact
+    hidden: true
 pages:
-- _artifacts/a-ideia-da-liberdade-no-pensamento-portugues.md
-- _artifacts/a-mulher-e-o-desporto.md
-- _artifacts/a-nausea.md
-- _artifacts/a-nossa-amiga-electricidade.md
-- _artifacts/as-vozes-da-orquestra.md
-- _artifacts/eloi.md
-- _artifacts/escola-de-ferias-1.md
-- _artifacts/escola-de-ferias.md
-- _artifacts/origine-vita-studii-e-costumi-del-chiarissimo-dante-allighieri-poeta-fiorentino.md
-- _artifacts/serranos.md
+  - _artefacts/a-ideia-da-liberdade-no-pensamento-portugues.md
+  - _artefacts/a-mulher-e-o-desporto.md
+  - _artefacts/a-nausea.md
+  - _artefacts/a-nossa-amiga-electricidade.md
+  - _artefacts/as-vozes-da-orquestra.md
+  - _artefacts/eloi.md
+  - _artefacts/escola-de-ferias-1.md
+  - _artefacts/escola-de-ferias.md
+  - _artefacts/origine-vita-studii-e-costumi-del-chiarissimo-dante-allighieri-poeta-fiorentino.md
+  - _artefacts/serranos.md

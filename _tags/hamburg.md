@@ -1,5 +1,5 @@
 ---
-title: "Hamburg"
+name: "Hamburg"
 layout: tag
 type: subject
 ---

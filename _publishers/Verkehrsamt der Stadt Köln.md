@@ -1,5 +1,5 @@
 ---
-title: "Verkehrsamt der Stadt Köln"
+name: "Verkehrsamt der Stadt Köln"
 layout: publisher
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: "Banco Espírito Santo e Comercial de Lisboa"
+name: "Banco Espírito Santo e Comercial de Lisboa"
 layout: publisher
 ---

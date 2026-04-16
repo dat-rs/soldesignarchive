@@ -1,5 +1,5 @@
 ---
-title: "Verkehrs und Wirtschaftsamt der Stadt Frankfurt am Main"
+name: "Verkehrs und Wirtschaftsamt der Stadt Frankfurt am Main"
 layout: publisher
 ---
 

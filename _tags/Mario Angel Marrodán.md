@@ -1,5 +1,5 @@
 ---
-title: "Mario Angel Marrodán"
+name: "Mario Angel Marrodán"
 layout: tag
 type: person
 ---

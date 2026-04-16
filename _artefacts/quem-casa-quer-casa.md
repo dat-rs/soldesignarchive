@@ -1,0 +1,17 @@
+---
+title: "Quem Casa Quer Casa"
+author_name: ["Irene San Payo"]
+year: y1956
+decade: 1950s
+origin: Portugal
+publisher: "Ministério da Educação Nacional"
+formats: [book, book-cover]
+disciplines: [graphic-design, illustration, typography, lettering]
+tags: ["Colecção Educativa", "Estado Novo"]
+ref_group: "030"
+ref_id: "0139"
+layout: artefact
+status: complete
+published: true
+date_added: 2022-10-06
+---

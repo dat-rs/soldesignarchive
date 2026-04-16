@@ -1,5 +1,5 @@
 ---
-title: Søren Hansen
+name: Søren Hansen
 layout: tag
 type: person
 ---

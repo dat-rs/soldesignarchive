@@ -1,4 +1,4 @@
 ---
-title: "Futura"
+name: "Futura"
 layout: publisher
 ---

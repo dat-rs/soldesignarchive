@@ -1,5 +1,5 @@
 ---
-title: Verkehrsamt der Stadt Konstanz
+name: Verkehrsamt der Stadt Konstanz
 layout: publisher
 ---
 

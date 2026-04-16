@@ -1,4 +1,4 @@
 ---
-title: "Lucien de Meyer Éditeur"
+name: "Lucien de Meyer Éditeur"
 layout: publisher
 ---

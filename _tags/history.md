@@ -1,5 +1,5 @@
 ---
-title: history
+name: history
 layout: tag
 type: subject
 ---

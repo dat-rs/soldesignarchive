@@ -4,34 +4,30 @@ description: "Browse all publishers/clients in the archive."
 image: "/images/non-art/sol-publishers-comp.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
-page-meta-image=page.image %}
+{% include head-and-header.html page-meta-title=page.name page-meta-url=page.url page-meta-description=page.description
+page-meta-image=page.image %} {% assign pub_artefacts = site.artefacts | where: 'published', true %}
 
-{% assign pub_artifacts = site.artifacts | where: 'published', true %}
-
-<div class="container-outer publishers first-after-header">
-  <div class="container-md container-allcats">
-    <div class="row datum-section allcats">
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <div class="left-col-fixed">
-          <h3 class="section-title allcats">Publishers</h3>
-        </div>
+<div class="container-fluid allcats publishers first-after-header">
+  <div class="row datum-section allcats">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <div class="left-col-fixed">
+        <h3 class="section-title allcats">Publishers</h3>
       </div>
-      <div id="category-list" class="col-12 col-sm-9 col-md-10 datum-right-col allcats-search">
-        <div class="outer-search allcats">
-          <input class="search quicksearch cats authors" placeholder="Search" />
-        </div>
-        <div class="list">
-          {% for publisher in site.publishers %} {% assign processed_title = publisher.title | replace: "-barra-", "/" %}
-          {% assign filtered_artifacts = pub_artifacts | where: 'publisher', processed_title %}
-          <div style="display: inline-block;">
-            <a class="name title allcat-item author isotope-element" href="{{ publisher.url }}">{{ processed_title }}<span
-                class="cat-count smaller">[{{ filtered_artifacts.size }}]</span></a>
-          </div>
-          {% endfor %}
-        </div>
+    </div>
+    <div id="category-list" class="col-12 col-sm-9 col-md-10 datum-right-col allcats-search">
+      <div class="outer-search allcats">
+        <input class="search quicksearch cats authors" placeholder="Search" />
       </div>
-      
+      <div class="list">
+        {% for publisher in site.publishers %} {% assign processed_title = publisher.name | replace: "-barra-", "/" %}
+        {% assign filtered_artefacts = pub_artefacts | where: 'publisher', processed_title %}
+        <div style="display: inline-block">
+          <a class="name title allcat-item author" href="{{ publisher.url }}"
+            >{{ processed_title }}<span class="cat-count smaller">[{{ filtered_artefacts.size }}]</span></a
+          >
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

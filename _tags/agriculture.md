@@ -1,5 +1,5 @@
 ---
-title: agriculture
+name: agriculture
 layout: tag
 type: subject
 ---

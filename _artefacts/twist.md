@@ -1,0 +1,20 @@
+---
+ref_group: "601"
+ref_id: "0001"
+title: "Twist"
+author_name: ["João da Conceição Martins"]
+publisher: ["Columbia"]
+year: "y1961"
+decade: 1960s
+origin: null
+formats: ["record, record-cover"]
+disciplines: [graphic-design]
+tags:
+layout: artefact
+status: scan
+published: false
+int_published: false
+image_count:
+date_added: 2023-06-16
+batch:
+---

@@ -1,4 +1,4 @@
 ---
-title: "Landesverkehrsverband Rheinland-Pfalz"
+name: "Landesverkehrsverband Rheinland-Pfalz"
 layout: publisher
 ---

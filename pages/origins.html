@@ -4,33 +4,48 @@ description: "Browse the archive by origin."
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description
-page-meta-image=page.image %}
+{% include head-and-header.html page-meta-title=page.name page-meta-url=page.url page-meta-description=page.description
+page-meta-image=page.image %} {% assign pub_artefacts = site.artefacts | where: 'published', true %}
 
-{% assign pub_artifacts = site.artifacts | where: 'published', true %}
-
-<div class="container-outer origins first-after-header">
-  <div class="container-md container-allcats">
-    <div class="row datum-section allcats">
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <div class="left-col-fixed">
-          <h3 class="section-title allcats">Origins</h3>
-        </div>
+<div class="container-fluid allcats origins first-after-header">
+  <div class="row datum-section allcats">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <div class="left-col-fixed">
+        <h3 class="section-title allcats">Origins</h3>
       </div>
-      <div class="col-12 col-sm-9 col-md-10 datum-right-col allcats-big-short row">
-    {% for origin in site.origins %} 
-    {% assign filtered_artifacts = pub_artifacts | where: 'origin', origin.name |sort: 'year' %} 
-          <div class="col-12 allcat big {% if forloop.first == true %}first{% endif %} text-wrap">
-              <a class="title allcat-item origin capitalize text-wrap" href="{{ origin.url }}"
-                >{{ origin.name | remove_first: " " | replace: "-", " " }}<span class="cat-count origin"
-                  >[{{ filtered_artifacts.size }}]</span
-                ></a
-              >
+    </div>
+    <div class="col-12 col-sm-9 col-md-4 datum-right-col allcats-big-short">
+      {% for origin in site.origins %} {% assign filtered_artefacts = pub_artefacts | where: 'origin', origin.name
+      |sort: 'year' %} {% assign one_artefact = filtered_artefacts | slice: 0, 1 %} {% assign number =
+      filtered_artefacts.size | divided_by: 2 %}
+      <div class="allcat big {% if forloop.first == true %}first{% endif %} text-wrap">
+        <a id="{{ origin.name }}" class="title allcat-item origin capitalize text-wrap" href="{{ origin.url }}"
+          >{{ origin.name | remove_first: " " | replace: "-", " " }}<span class="cat-count origin"
+            >[{{ filtered_artefacts.size }}]</span
+          ></a
+        >
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col-12 col-sm-9 col-md-6 datum-right-col">
+      {% for origin in site.origins %} {% assign filtered_artefacts = pub_artefacts | where: 'origin', origin.name
+      |sort: 'year' %} {% assign number = filtered_artefacts.size | divided_by: 2 %}
+
+      <div class="right-col-fixed">
+        <figure id="{{ origin.name }}-featured-img" class="feature-img artefact" style="display: none">
+          <div class="artefact-holder">
+            <img
+              class="a-module-img"
+              src="/images/sm/sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }}-{{ filtered_artefacts[number].slug }}-sm.jpg"
+              alt=""
+            />
           </div>
-        {% endfor %}
+        </figure>
       </div>
+
+      {% endfor %}
     </div>
   </div>
 </div>
 
-{% include footer.html %} {% include the-end.html %}
+{% include footer.html %} {% include scripts/scripts-origins.html %} {% include the-end.html %}

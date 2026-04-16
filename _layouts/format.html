@@ -2,54 +2,57 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign capitalised_page_name = page.name | capitalize %} {% capture description %}Browse artifacts tagged «{{
+{% assign capitalised_page_name = page.name | capitalize %} {% capture description %}Browse artefacts tagged «{{
 page.name | replace: "-", " " }}» at the Sol Design Archive.{% endcapture %} {% assign corrected_title =
 capitalised_page_name | replace: "-", " " %} {% include head-and-header.html page-meta-title=corrected_title
-page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %}
-
-{% assign pub_artifacts = site.artifacts | where: 'published', true %}
+page-meta-url=page.url page-meta-description=description page-meta-image=layout.image %} {% assign pub_artefacts =
+site.artefacts | where: 'published', true %}
 <!--  -->
-{% assign filtered_artifacts = pub_artifacts | where: 'formats', page.name %}
+{% assign filtered_artefacts = pub_artefacts | where: 'formats', page.name %}
 <!--  -->
-{% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
+{% assign sorted_filtered_artefacts = filtered_artefacts | sort: "year" %}
 
-<div class="container-md container-cat first-after-header" data-pagefind-body >
+<div class="container-fluid container-cat first-after-header" data-pagefind-body>
   <div class="row datum-section title">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label origin">Format</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
-      <h1 class="title artifact self datum capitalize" data-pagefind-meta="title" >{{ page.name | replace: "-", " " }}</h1>
+      <h1 class="title artefact self datum capitalize" data-pagefind-meta="title">
+        {{ page.name | replace: "-", " " }}
+      </h1>
     </div>
   </div>
+  {% assign test_content = content | strip_newlines %} {% if test_content != "" %}
   <div class="row datum-row cat-about">
-    <div class="col-12 col-sm-3 col-md-2 datum-left-col"></div>
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title about">About</h3>
+    </div>
+    </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
-      <div class="artifact count-deet">
-        There {% if filtered_artifacts.size > 1 %}are{% else %}is{% endif %} {{ filtered_artifacts.size }} artifact{% if
-        filtered_artifacts.size > 1 %}s{% endif %} in the archive tagged Format: {{ page.name | capitalize | replace: "-", " " }}.
-      </div>
+      <section class="about-text">{{ content }}</section>
     </div>
   </div>
+  {% endif %}
 </div>
 
-<div class="outer-container cat-artifacts">
-  <div class="container-md">
-    <div class="row datum-section cat-artifacts">
+  <div class="container-fluid cat artefacts">
+    <div class="row datum-section cat-artefacts">
       <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <h3 class="title datum-title cat-artifacts">
-          Artifacts<span class="artifact count">[{{ filtered_artifacts.size }}]</span>
+        <h3 class="title datum-title cat-artefacts">
+          Artefacts<span class="artefact-count">[{{ filtered_artefacts.size }}]</span>
         </h3>
       </div>
       <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
-        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 artifacts-section artifacts-gutters">
-          {% for artifact in sorted_filtered_artifacts %}
+        <div
+          class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 artefacts-section artefacts-gutters"
+        >
+          {% for artefact in sorted_filtered_artefacts %}
           <div class="col">{% include a-modules/a-module-au-y.html %}</div>
           {% endfor %}
         </div>
       </div>
     </div>
   </div>
-</div>
 
 {% include footer.html %} {% include the-end.html %}

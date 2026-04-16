@@ -1,4 +1,4 @@
 ---
-title: 'Filmarte'
+name: "Filmarte"
 layout: publisher
 ---

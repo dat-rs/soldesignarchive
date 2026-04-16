@@ -1,5 +1,5 @@
 ---
-title: direct color
+name: direct color
 layout: tag
 type: design_descriptive
 ---

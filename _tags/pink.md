@@ -1,5 +1,5 @@
 ---
-title: pink
+name: pink
 layout: tag
 type: color
 ---

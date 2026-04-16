@@ -1,5 +1,5 @@
 ---
-title: reverse-contrast
+name: reverse-contrast
 layout: tag
 type: design_descriptive
 ---

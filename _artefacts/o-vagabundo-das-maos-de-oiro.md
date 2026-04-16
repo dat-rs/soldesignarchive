@@ -1,0 +1,17 @@
+---
+title: O Vagabundo das Mãos de Ouro
+author_name: "João da Câmara Leme"
+year: y1962
+decade: 1960s
+origin: Portugal
+publisher: "Portugália"
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
+tags: [illustration, "Romeu Correia", theatre, "O Livro de Bolso"]
+ref_group: "030"
+ref_id: "0058"
+layout: artefact
+status: complete
+published: true
+date_added: 2022-02-17
+---

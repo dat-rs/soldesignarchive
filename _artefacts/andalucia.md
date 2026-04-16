@@ -1,0 +1,20 @@
+---
+ref_group: "121"
+ref_id: "0060"
+title: "Andalucia"
+author_name: ["Serny"]
+publisher: ["Direccion General del Turismo"]
+year: "y1963"
+decade: 1960s
+origin: ["Spain"]
+formats: ["brochure"]
+disciplines: [graphic-design, typography, illustration]
+tags: ["tourism"]
+layout: artefact
+status: complete
+published: true
+image_count: 4
+date_added: 2024-05-08
+batch: /ladra/070524/brochures
+cost: "0,66"
+---

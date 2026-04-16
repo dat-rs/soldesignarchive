@@ -1,5 +1,5 @@
 ---
-title: "Josep Romeu"
+name: "Josep Romeu"
 layout: tag
 type: person
 ---

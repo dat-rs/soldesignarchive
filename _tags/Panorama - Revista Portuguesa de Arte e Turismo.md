@@ -1,5 +1,5 @@
 ---
-title: Panorama - Revista Portuguesa de Arte e Turismo
+name: Panorama - Revista Portuguesa de Arte e Turismo
 layout: tag
 type: collection
 published: false

@@ -1,5 +1,5 @@
 ---
-title: "Cadernos Seara Nova"
+name: "Cadernos Seara Nova"
 layout: tag
 type: collection
 ---

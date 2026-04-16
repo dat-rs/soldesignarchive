@@ -1,5 +1,5 @@
 ---
-title: "Eugène Ionesco"
+name: "Eugène Ionesco"
 layout: tag
 type: person
 ---

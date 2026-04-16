@@ -1,4 +1,4 @@
 ---
-title: Publicit Editora
+name: Publicit Editora
 layout: publisher
 ---

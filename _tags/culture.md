@@ -1,5 +1,5 @@
 ---
-title: culture
+name: culture
 layout: tag
 type: subject
 ---

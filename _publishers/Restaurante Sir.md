@@ -1,5 +1,5 @@
 ---
-title: "Restaurante Sir"
+name: "Restaurante Sir"
 layout: publisher
 ---
 

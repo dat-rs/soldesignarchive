@@ -1,5 +1,5 @@
 ---
-title: geography
+name: geography
 layout: tag
 type: subject
 ---

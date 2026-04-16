@@ -1,4 +1,4 @@
 ---
-title: "Coimbra Editora"
+name: "Coimbra Editora"
 layout: publisher
 ---

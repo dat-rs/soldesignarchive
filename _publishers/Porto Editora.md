@@ -1,4 +1,4 @@
 ---
-title: "Porto Editora"
+name: "Porto Editora"
 layout: publisher
 ---

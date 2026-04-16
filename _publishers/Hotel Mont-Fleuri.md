@@ -1,4 +1,4 @@
 ---
-title: Hotel Mont-Fleuri
+name: Hotel Mont-Fleuri
 layout: publisher
 ---

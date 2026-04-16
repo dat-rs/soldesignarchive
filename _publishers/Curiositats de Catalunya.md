@@ -1,4 +1,4 @@
 ---
-title: 'Curiositats de Catalunya'
+name: "Curiositats de Catalunya"
 layout: publisher
 ---

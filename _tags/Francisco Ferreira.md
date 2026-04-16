@@ -1,5 +1,5 @@
 ---
-title: Francisco Ferreira
+name: Francisco Ferreira
 layout: tag
 type: person
 ---

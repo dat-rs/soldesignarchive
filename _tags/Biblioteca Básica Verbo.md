@@ -1,5 +1,5 @@
 ---
-title: "Biblioteca Básica Verbo"
+name: "Biblioteca Básica Verbo"
 layout: tag
 type: collection
 ---

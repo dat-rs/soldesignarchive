@@ -1,4 +1,4 @@
 ---
-title: 'Terra Livre'
+name: "Terra Livre"
 layout: publisher
 ---

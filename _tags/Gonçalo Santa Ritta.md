@@ -1,5 +1,5 @@
 ---
-title: "Gonçalo Santa Ritta"
+name: "Gonçalo Santa Ritta"
 layout: tag
 type: person
 ---

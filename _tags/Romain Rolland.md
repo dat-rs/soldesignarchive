@@ -1,5 +1,5 @@
 ---
-title: Romain Rolland
+name: Romain Rolland
 layout: tag
 type: person
 ---

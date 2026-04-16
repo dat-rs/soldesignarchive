@@ -1,5 +1,5 @@
 ---
-title: "Jose Battlo"
+name: "Jose Battlo"
 layout: tag
 type: person
 ---

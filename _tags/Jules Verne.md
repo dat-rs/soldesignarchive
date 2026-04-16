@@ -1,5 +1,5 @@
 ---
-title: Jules Verne
+name: Jules Verne
 layout: tag
 type: person
 ---

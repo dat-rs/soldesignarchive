@@ -3,55 +3,49 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
 <!--  -->
-{% capture description %}Browse artifacts tagged «{{ page.title | capitalize }}» at the Sol Design Archive.{% endcapture
-%} {% include head-and-header.html page-meta-title=page.title page-meta-url=page.url
-page-meta-description=description page-meta-image=layout.image %} {% assign striped_content = page.content |
-strip_newlines %}
+{% capture description %}Browse artefacts tagged «{{ page.name | capitalize }}» at the Sol Design Archive.{% endcapture
+%} {% include head-and-header.html page-meta-title=page.name page-meta-url=page.url page-meta-description=description
+page-meta-image=layout.image %} {% assign striped_content = page.content | strip_newlines %}
 
 <!--  -->
-{% assign filtered_artifacts = site.artifacts | where: 'tags', page.title %}
+{% assign filtered_artefacts = site.artefacts | where: 'tags', page.name %}
 <!--  -->
-{% assign sorted_filtered_artifacts = filtered_artifacts | sort: "year" %}
+{% assign sorted_filtered_artefacts = filtered_artefacts | sort: "year" %}
 <!--  -->
 
 {% if page.hero_image %}
 <div class="wide-post-img first-after-header" data-pagefind-body>
   <div class="row">
     <div class="col-12">
-      <img class="grid-img" src="/images/non-art/hero-{{ page.title | replace: ' ', '-' }}.jpg" alt="" />
+      <img class="grid-img" src="/images/non-art/hero-{{ page.name | replace: ' ', '-' }}.jpg" alt="" />
     </div>
   </div>
 </div>
 {% endif %}
 
-<div class="container-md container-cat simple {% unless page.hero_image %}first-after-header{% endunless %}">
+<div class="container-fluid container-cat simple {% unless page.hero_image %}first-after-header{% endunless %}">
   <div class="row datum-section title">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <h3 class="cat-label origin">Tag <span class="tag-arrow">↴</span><br><span class="subtag capitalize"> {{ page.type | replace: '_', ' ' }}</span></h3>
+      <h3 class="cat-label origin">Tag/<span class="subtag capitalize">{{ page.type | replace: '_', ' ' }}</span></h3>
     </div>
-    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-7 datum-right-col">
-      <h1 class="title artifact self datum" data-pagefind-meta="title">{{ page.title }}</h1>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <h1 class="title self datum" data-pagefind-meta="title">{{ page.name }}</h1>
     </div>
   </div>
+  {% assign test_content = content | strip_newlines %} {% if test_content != "" %}
+
   <div class="row datum-row cat-about">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title about">About</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
-      <div class="artifact count-deet">
-        <section class="about-text">
-          <p>
-            There {% if filtered_artifacts.size > 1 %}are{% else %}is{% endif %} {{ filtered_artifacts.size }}
-            artifact{% if filtered_artifacts.size > 1 %}s{% endif %} in the archive tagged {{ page.type | capitalize |
-            replace: '_', ' ' }}: {{ page.title }}.
-          </p>
-          {{ content }}
-        </section>
+      <div class="artefact-count-deet">
+        <section class="about-text">{{ content }}</section>
       </div>
     </div>
   </div>
+  {% endif %} {% if page.sources_count %} {% assign sources_count = page.sources_count %}
   <!-- SOURCES -->
-  {% if page.sources_count %} {% assign sources_count = page.sources_count %}
   <div class="row datum-section sources">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
@@ -71,21 +65,19 @@ strip_newlines %}
   {% endif %}
 </div>
 
-<div class="outer-container cat-artifacts">
-  <div class="container-md">
-    <div class="row datum-section cat-artifacts">
-      <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <h3 class="title datum-title about">
-          Artifacts
-          <span class="artifact count">[{{ sorted_filtered_artifacts.size }}]</span>
-        </h3>
-      </div>
-      <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artifacts-gutters">
-          {% for artifact in sorted_filtered_artifacts %}
-          <div class="col">{% include a-modules/a-module-au-y.html %}</div>
-          {% endfor %}
-        </div>
+<div class="container-fluid cat artefacts">
+  <div class="row datum-section cat-artefacts">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title cat-artefacts">
+        Artefacts
+        <span class="artefact-count">[{{ sorted_filtered_artefacts.size }}]</span>
+      </h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 artefacts-gutters">
+        {% for artefact in sorted_filtered_artefacts %}
+        <div class="col">{% include a-modules/a-module-au-y.html %}</div>
+        {% endfor %}
       </div>
     </div>
   </div>

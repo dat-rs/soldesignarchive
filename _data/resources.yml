@@ -1,3 +1,10 @@
+- title: "ALBERTO CARDOSO (1918-1999): O “pintor, layoutista, arte finalista, montrista, decorador e fotógrafo” que se tornou designer."
+  type: article
+  lang: pt
+  out_url: https://repositorio.ulisboa.pt/entities/publication/95407a66-aa40-4af7-852f-7c0f6e67032d
+  rel_authors: ["Alda Rosa"]
+  description: "Doctoral Thesis. A «study of the life and work of Alberto Cardoso». Author: Paulo Marcelo"
+
 - title: "Alda Rosa - Women in Graphic Design/Portugal"
   type: at-archive
   lang: en
@@ -11,7 +18,7 @@
   out_url: http://hemerotecadigital.cm-lisboa.pt/Periodicos/Almanaque/Almanaque.htm
   rel_authors: ["Sebastião Rodrigues"]
   rel_tags: ["Almanaque"]
-  rel_artifacts:
+  rel_artefacts:
     [
       "Almanaque #2 (November 1959)",
       "Almanaque #4 (January 1960)",
@@ -87,23 +94,31 @@
   out_url: https://pt.wikipedia.org/wiki/João_Abel_Manta
   rel_authors: ["João Abel Manta"]
   rel_tags:
-  rel_artifacts:
+  rel_artefacts:
   description: "João Abel Manta - Portuguese Wikipedia entry."
 
 - title: "Loni Geest - Diseñadoras Gráficas"
   type: at-archive
   lang: es
   out_url: "https://disenadorasgraficas.com/portafolio/loni-geest/"
-  rel_artifacts: []
+  rel_artefacts: []
   rel_authors: ["Loni Geest"]
   description: "Loni Geest's entry at Diseñadoras Gráficas."
+
+- title: "Luís Jardim Portela - Centro de Arte Moderna Gulbenkian"
+  type: at-archive
+  lang: en
+  out_url: "https://gulbenkian.pt/cam/en/artist/luis-jardim-portela-2/"
+  rel_artefacts: []
+  rel_authors: ["Loni Geest"]
+  description: "Portela's page at CAM Gulbenkian's online archive."
 
 - title: "Núria Picas i Codina - Enciclopèdia.cat"
   type: at-archive
   lang: cat
   out_url: https://www.enciclopedia.cat/gran-enciclopedia-catalana/nuria-picas-i-codina
   rel_authors: ["Núria Picas"]
-  description: "Entry on Enciclopèdia.cat."
+  description: "Núria Picas i Codina's Entry on Enciclopèdia.cat."
 
 - title: "Farewell Paul Bacon, Prolific Jazz Record + Book Cover Designer - AIGA Eye on Design"
   type: article
@@ -111,6 +126,24 @@
   out_url: https://eyeondesign.aiga.org/design-history-101-farewell-paul-bacon-prolific-jazz-record-book-cover-designer/
   rel_authors: ["Paul Bacon"]
   description: "Paul Bacon's obituary on <cite>Eye on Design</cite>. By Steven Brower."
+
+- title: "Os Meus Livros Preferidos de Rómulo de Carvalho | Gazeta de Física Vol. 20, fasc. [1997]"
+  type: article
+  lang: pt
+  out_url: https://www.spf.pt/magazines/GFIS/418/article/1312/pdf
+  rel_authors: ["António Gedeão"]
+  rel_tags: ["Cadernos de Iniciação Científica", "Ciência para Gente Nova"]
+  rel_artefacts: ["A Descoberta do Mundo Físico", "A Experiência Científica", "História da Energia Nuclear"]
+  description: "Carlos Fiolhais communication about Rómulo de Carvalho's bibliography on the occasions of his acceptance of the Rómulo de Carvalho award presented by the University of Évora."
+
+- title: "Os Livros que Rómulo de Carvalho nos Deixou"
+  type: article
+  lang: pt
+  out_url: https://estudogeral.uc.pt/bitstream/10316/41244/1/livros_que_romulo_de_carvalho_nos_deixou.PDF
+  rel_authors: ["António Gedeão"]
+  rel_tags: ["Cadernos de Iniciação Científica", "Ciência para Gente Nova"]
+  rel_artefacts: ["A Descoberta do Mundo Físico", "A Experiência Científica"]
+  description: "Carlos Fiolhais communication about Rómulo de Carvalho's bibliography on the occasions of his acceptance of the Rómulo de Carvalho award presented by the University of Évora."
 
 - title: "Paul Bacon - Fonts in Use"
   type: at-archive
@@ -123,7 +156,7 @@
   type: article
   lang: en
   out_url: https://fontsinuse.com/uses/21948/philip-roth-paperbacks-bantam-books-1970-1978
-  rel_artifacts: ["Goodbye Columbus"]
+  rel_artefacts: ["Goodbye Columbus"]
   rel_authors: ["Paul Bacon"]
   rel_publishers: ["Bantam Books"]
   rel_tags: ["Philip Roth", "Benguiat Caslon"]
@@ -149,16 +182,16 @@
   lang: en
   out_url: https://gulbenkian.pt/historia-das-exposicoes/exhibitions/117/
   rel_authors: ["Sebastião Rodrigues"]
-  rel_artifacts: ["Tesouros do Museu de Bagdade"]
+  rel_artefacts: ["Tesouros do Museu de Bagdade"]
   description: "Page of the exhibition on Fundação Calouste Gulbenkian's History of the Arts Exhibitions site. It features information, photos, graphic materials and documentation related to the exhibition."
 
-- title: "Tone Hoverstad - Diseñadoras Gráficas"
+- title: "Tone Høverstad - Wikipedia"
   type: at-archive
-  lang: es
-  out_url: "https://disenadorasgraficas.com/portafolio/tone-hovestard/"
-  rel_artifacts: []
-  rel_authors: ["Tone Hoverstad"]
-  description: "Tone Hoverstad's entry at Diseñadoras Gráficas."
+  lang: cat
+  out_url: "https://ca.wikipedia.org/wiki/Tone_H%C3%B8verstad"
+  rel_artefacts: []
+  rel_authors: ["Tone Høverstad"]
+  description: "Tone Høverstad's entry at Catalan Wikipedia."
 ---
 - title: "Tóssan"
   type: book
@@ -167,7 +200,7 @@
   offline: offline
   rel_authors: ["Tóssan"]
   rel_tags:
-  rel_artifacts: []
+  rel_artefacts: []
   description: "A Comprehensive volume featuring the various facets of the work of Tóssan."
 
 - title: "<cite>Um Dia Com... Sebastião Rodrigues</cite> - RTP Arquivos"

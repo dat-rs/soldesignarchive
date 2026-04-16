@@ -1,4 +1,4 @@
 ---
-title: 'Ramon Miquel i Planas'
+name: "Ramon Miquel i Planas"
 layout: publisher
 ---

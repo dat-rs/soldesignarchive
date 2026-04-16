@@ -1,5 +1,5 @@
 ---
-title: public policy
+name: public policy
 layout: tag
 type: subject
 ---

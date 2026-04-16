@@ -1,4 +1,4 @@
 ---
-title: 'Uma Comissão de Senhoras'
+name: "Uma Comissão de Senhoras"
 layout: publisher
 ---

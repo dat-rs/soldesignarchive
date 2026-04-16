@@ -1,5 +1,5 @@
 ---
-title: 'Penguin Modern Economics'
+name: "Penguin Modern Economics"
 layout: tag
 type: collection
 ---

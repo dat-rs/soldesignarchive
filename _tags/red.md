@@ -1,5 +1,5 @@
 ---
-title: red
+name: red
 layout: tag
 type: color
 ---

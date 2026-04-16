@@ -1,5 +1,5 @@
 ---
-title: Yolanda Földes
+name: Yolanda Földes
 layout: tag
 type: person
 ---

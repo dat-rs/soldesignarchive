@@ -1,5 +1,5 @@
 ---
-title: Stuttgart Verkehrsförderungsamt
+name: Stuttgart Verkehrsförderungsamt
 layout: publisher
 ---
 

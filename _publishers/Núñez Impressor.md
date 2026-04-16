@@ -1,4 +1,4 @@
 ---
-title: Núñez Impressor
+name: Núñez Impressor
 layout: publisher
 ---

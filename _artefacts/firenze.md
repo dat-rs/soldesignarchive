@@ -1,0 +1,18 @@
+---
+ref_group: "121"
+ref_id: "0077"
+title: "Firenze"
+author_name:
+publisher: "Azienda Autonoma di Turismo"
+year:
+origin: France
+formats: brochure
+disciplines: [graphic-design, typography, illustration]
+tags: tourism
+layout: artefact
+status: onboarding
+published: false
+image_count:
+date_added: 2024-05-13
+batch:
+---

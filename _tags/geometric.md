@@ -1,5 +1,5 @@
 ---
-title: geometric
+name: geometric
 layout: tag
 type: design_descriptive
 ---

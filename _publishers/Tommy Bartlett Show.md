@@ -1,5 +1,5 @@
 ---
-title: "Tommy Bartlett Show"
+name: "Tommy Bartlett Show"
 layout: publisher
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: economics
+name: economics
 layout: tag
 type: subject
 ---

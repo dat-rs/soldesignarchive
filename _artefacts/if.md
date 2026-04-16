@@ -1,0 +1,18 @@
+---
+ref_group: "252"
+ref_id: "0001"
+title: If
+author_name: [unknown author]
+publisher: [unknown publisher]
+year: unknown-date
+origin: Portugal
+formats: [booklet]
+disciplines: [graphic-design, illustration, typography]
+tags: [ornaments, "Rudyard Kipling", "António Ramos Rosa"]
+layout: artefact
+status: complete
+published: true
+image_count: 2
+date_added: 2023-06-23
+batch: /porto/jun23
+---

@@ -1,5 +1,5 @@
 ---
-title: anthropomorphism
+name: anthropomorphism
 layout: tag
 type: design_descriptive
 ---

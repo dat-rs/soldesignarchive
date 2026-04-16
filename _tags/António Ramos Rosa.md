@@ -1,5 +1,5 @@
 ---
-title: António Ramos Rosa
+name: António Ramos Rosa
 layout: tag
 type: person
 ---

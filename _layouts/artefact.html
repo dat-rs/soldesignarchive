@@ -1,0 +1,118 @@
+---
+---
+
+{% capture description %}{{ page.formats[0] | capitalize }} by {{ page.author_name | join: ', ' }}.{% endcapture %} {%
+capture image %}/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}.jpg{% endcapture %} {% include head-and-header.html
+page-meta-title=page.title page-meta-description=description page-meta-image=image page-meta-url=page.url %}
+
+<!-- liquid code for previous/next artefact buttons -->
+
+{% capture the_collection %}{{page.collection}}{% endcapture %} {% if page.collection %} {% assign document =
+site[the_collection] %} {% endif %} {% for links in document %} {% if links.title == page.title %} {% unless
+forloop.first %} {% assign prevurl = prev.url %} {% endunless %} {% unless comics.last.url %} {% assign next =
+document[forloop.index] %} {% assign nexturl = next.url %} {% endunless %} {% endif %} {% assign prev = links %} {%
+endfor %} 
+<!-- -->
+{% if page.image_count %} 
+{% include artefact-multi.html %} 
+{% else %} 
+{% include artefact-single.html %} 
+{% endif %}
+
+<div class="container-fluid artefact-main" data-pagefind-body >
+  <div class="row datum-section title">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="cat-label artefact">artefact</h3> <br>
+      <span class="reference new-place">sol-{{ page.ref_group }}-{{ page.ref_id }}</span>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-8 col-xl-6 datum-right-col">
+      <h1 class="title artefact self datum" data-pagefind-meta="title" >{{ page.title }}</h1>
+      <img data-pagefind-meta="image[src]" src="/images/sol-{{ page.ref_group }}-{{ page.ref_id }}-{{ page.slug }}.jpg" class="d-none">
+    </div>
+    <div class="col-xl-3 datum-right-col">
+      
+    </div>
+  </div>
+
+  <div class="row datum-section deets">
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+    </div>
+
+    {% include artefact-deets.html %}
+    
+  </div>
+
+  {% assign test_content = content | strip_newlines %}
+  {% if test_content != "" %}
+
+  <div class="row datum-section about">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title about">About</h3>
+    </div>
+
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <section class="about-text">{{ content }}</section>
+    </div>
+    
+  </div>
+  {% endif %} 
+
+  {% if page.sources_count %}
+  {% assign sources_count = page.sources_count %}
+  <div class="row datum-section sources top-border">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <h3 class="title datum-title sources">Sources</h3>
+    </div>
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+        <ol class="footnotes sources">
+          {% for sources_element in (0..sources_count) %}
+          <li>
+            <a class="fn-link" href="{{ page.sources_links[sources_element] }}">{{ page.sources_titles[sources_element] }}</a>
+          </li>
+          {% endfor %}
+        </ol>
+    </div>
+  </div>
+  {% endif %}
+
+
+  {% assign filtered_resources = site.data.resources | where: 'rel_artefacts', page.title %} 
+  <!--  -->
+  {% assign filtered_resources_size = filtered_resources | size %}
+  {% if filtered_resources_size > 0 %}
+  {% include resources-section.html %}
+  {% endif %}
+
+    <div class="row datum-section more-info top-border">
+     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+      <img class="help" src="/images/non-art/icon-authors-ossm-black.svg" alt="HELP">
+    </div>
+
+    <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
+      <section class="more-info-text">
+      {% include additional-info.html add-info-cat="artefact" %}
+      </section>
+    </div>
+    
+  </div>
+
+
+
+  </div>
+</div>
+
+{% include prev-next.html %} 
+<!--  -->
+{% include footer.html %} 
+<!--  -->
+{% if page.image_count %} 
+  <!--  -->
+  {% include scripts/scripts-artefact-multi.html %} 
+<!--  -->
+{% else %} 
+  <!--  -->
+  {% include scripts/scripts-fancybox.html %} 
+<!--  -->  
+{% endif %} 
+<!--  -->
+{% include the-end.html %}

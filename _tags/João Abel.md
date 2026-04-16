@@ -1,5 +1,5 @@
 ---
-title: João Abel
+name: João Abel
 layout: tag
 type: person
 ---

@@ -1,5 +1,5 @@
 ---
-title: Bauhaus Geomet
+name: Bauhaus Geomet
 layout: tag
 type: typeface
 ---

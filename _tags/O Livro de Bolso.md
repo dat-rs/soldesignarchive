@@ -1,5 +1,5 @@
 ---
-title: "O Livro de Bolso"
+name: "O Livro de Bolso"
 layout: tag
 type: collection
 hero_image: true

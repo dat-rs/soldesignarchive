@@ -1,5 +1,5 @@
 ---
-title: Rudyard Kipling
+name: Rudyard Kipling
 layout: tag
 type: person
 ---

@@ -1,28 +1,24 @@
-<div class="outer-container prev-next">
-  <section class="container-md prev-next">
-    <div class="row datum-section prev-next">
+  <section class="container-fluid prev-next">
+    <div class="row datum-section prev-next top-border">
       <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-        <h3 class="title datum-title more">More</h3>
+        <h3 class="title datum-title more">More:</h3>
       </div>
       {% if prevurl %}
 
       <div class="col-12 col-sm-4 col-md-5 col-lg-4 col-xl-3 datum-right-col prevnext">
-        <span class="prev-next-label">Previous Artifact</span>
+        <span class="prev-next-label">Previous artefact</span>
 
         <a class="a-module sm grid" href="{{ prevurl | escape_once }}">
-          <div class="a-module-img-holder">
-            {% if page.previous.image_count %}
-            <i class="bi bi-images a-module-corner-icon"></i>
-            {% endif %} {% if page.previous.published == false %}
-            <img class="a-module-img" src="/images/non-art/black-square.png" alt="" />
-            {% else %}
-            <img
-              class="a-module-img"
-              src="/images/sol-{{ page.previous.ref_group }}-{{ page.previous.ref_id }}-{{ page.previous.slug }}-thumbnail.jpg"
-              alt=""
-            />
-            {% endif %}
-          </div>
+            <div class="a-module-img-holder square square">
+              {% if page.previous.image_count %}
+              <i class="bi bi-images a-module-corner-icon"></i>
+              {% endif %} {% if page.previous.published == false %}
+              <img class="a-module-img large" src="/images/non-art/black-square.png" alt="" />
+              {% else %}
+              <img class="a-module-img large"
+                src="/images/sol-{{ page.previous.ref_group }}-{{ page.previous.ref_id }}-{{ page.previous.slug }}.jpg" alt="" />
+              {% endif %}
+            </div>
           <div class="a-module-content">
             <h2 class="title au-y">{{ page.previous.title }}</h2>
             <span class="a-module-deets author">{{ page.previous.author_name | join: ', ' }}</span>
@@ -36,16 +32,16 @@
       {% endif %} {% if nexturl %}
 
       <div class="col-12 col-sm-4 col-md-5 col-lg-4 col-xl-3 datum-right-col prevnext">
-        <span class="prev-next-label">Next Artifact</span>
+        <span class="prev-next-label">Next artefact</span>
 
         <a class="a-module sm grid" href="{{ nexturl | escape_once }}">
-          <div class="a-module-img-holder">
+          <div class="a-module-img-holder square  square">
             {% if page.next.image_count %}
             <i class="bi bi-images a-module-corner-icon"></i>
             {% endif %} {% if page.next.published == false %}
-            <img class="a-module-img" src="/images/non-art/black-square.png" alt="" />
+            <img class="a-module-img large" src="/images/non-art/black-square.png" alt="" />
             {% else %}
-            <img class="a-module-img" src="/images/sol-{{ page.next.ref_group }}-{{ page.next.ref_id }}-{{ page.next.slug }}-thumbnail.jpg" alt="" />
+            <img class="a-module-img large" src="/images/sol-{{ page.next.ref_group }}-{{ page.next.ref_id }}-{{ page.next.slug }}.jpg" alt="" />
             {% endif %}
           </div>
           <div class="a-module-content">
@@ -62,4 +58,3 @@
       {% endif %}
     </div>
   </section>
-</div>

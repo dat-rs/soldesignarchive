@@ -1,4 +1,4 @@
 ---
-title: Fundição Tipográfica Manuel Guedes
+name: Fundição Tipográfica Manuel Guedes
 layout: publisher
 ---

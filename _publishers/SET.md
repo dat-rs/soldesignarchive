@@ -1,4 +1,4 @@
 ---
-title: 'SET'
+name: "SET"
 layout: publisher
 ---

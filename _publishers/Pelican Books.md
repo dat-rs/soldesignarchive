@@ -1,4 +1,4 @@
 ---
-title: 'Pelican Books'
+name: "Pelican Books"
 layout: publisher
 ---

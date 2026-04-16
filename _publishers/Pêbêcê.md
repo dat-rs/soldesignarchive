@@ -1,4 +1,4 @@
 ---
-title: Pêbêcê
+name: Pêbêcê
 layout: publisher
 ---

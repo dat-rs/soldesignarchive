@@ -1,0 +1,18 @@
+---
+title: "Documento Jorge Amado"
+author_name: "Miguel Flávio"
+year: y1964
+decade: 1960s
+origin: Portugal
+publisher: "Publicações Europa-América"
+formats: [book-cover, book, "graphic-design", lettering, illustration]
+disciplines: [graphic-design, lettering, illustration]
+tags: ["Jorge Amado", "Os Livros das Três Abelhas"]
+iconography: [faces]
+ref_group: "030"
+ref_id: "0040"
+layout: artefact
+status: complete
+published: true
+date_added: 2022-05-16
+---

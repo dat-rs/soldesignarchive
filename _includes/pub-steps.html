@@ -1,21 +1,11 @@
-{% if artifact.status == "onboarding" %}
-<strong>offline</strong> → onboarding → scan → production → publish → live
-{% endif %}
-{% if artifact.status == "onboarding" %}
-offline → <strong>onboarding</strong> → scan → production → publish → live
-{% endif %}
-{% if artifact.status == "scan" %}
-offline → onboarding → <strong>scan</strong> → production → publish → live
-{% endif %}
-{% if artifact.status == "production" %}
-offline → onboarding → scan → <strong>production</strong> → publish → live
-{% endif %}
-{% if artifact.status == "publish" %}
-offline → onboarding → scan → production →<strong>publish</strong> → live
-{% endif %}
-{% if artifact.status == "complete" %}
-offline → onboarding → scan → production → publish → <strong>live</strong> 
-{% endif %}
-{% if artifact.status == "wip" %}
-offline → onboarding → scan → production → publish → <strong>live, wip</strong>
-{% endif %}
+{% if artefact.status == "hidden" %} <span style="color: coral">HIDDEN</span> {% endif %} {% if artefact.status ==
+"offline" %} <strong>offline</strong> → onboarding → scan → production → publish → live {% endif %} {% if
+artefact.status == "onboarding" %} offline → <strong>onboarding</strong> → scan → production → publish → live {% endif
+%} {% if artefact.status == "scan" %} offline → onboarding → <strong>scan</strong> → production → publish → live {%
+endif %} {% if artefact.status == "production" %} offline → onboarding → scan → <strong>production</strong> → publish →
+live {% endif %} {% if artefact.status == "publish" %} offline → onboarding → scan → production →<strong
+  >publish</strong
+>
+→ live {% endif %} {% if artefact.status == "complete" %} offline → onboarding → scan → production → publish →
+<strong>live</strong> {% endif %} {% if artefact.status == "wip" %} offline → onboarding → scan → production → publish →
+<strong>live, wip</strong> {% endif %}

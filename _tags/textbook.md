@@ -1,5 +1,5 @@
 ---
-title: textbook
+name: textbook
 layout: tag
 type: subject
 ---

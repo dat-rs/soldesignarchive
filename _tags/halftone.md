@@ -1,5 +1,5 @@
 ---
-title: halftone
+name: halftone
 layout: tag
 type: design_descriptive
 ---

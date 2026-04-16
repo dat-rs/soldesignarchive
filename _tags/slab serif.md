@@ -1,7 +1,5 @@
 ---
-title: slab serif
+name: slab serif
 layout: tag
-type:
-  - typography
-  - design_descriptive
+type: design_descriptive
 ---

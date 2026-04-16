@@ -1,0 +1,41 @@
+---
+title: "artefacts - Sol Design Archive"
+description: "Browse all artefacts in the archive."
+image: "/images/non-art/sol-branding-comp-1.jpg"
+---
+
+{% include head-and-header.html page-meta-title=page.title page-meta-url=page.url page-meta-description=page.description page-meta-image=page.image %}
+
+   <div class="container-fluid container-artefacts-1 first-after-header">
+
+{% include artefacts-filters.html %}
+
+  </div>
+
+<div class="container-fluid container-artefacts-2">
+
+    <div id="artefacts-grid-row" class="row no-gutters justify-content-center">
+            {% assign filtered_artefacts = site.artefacts | where: 'published', true %}
+            {% for artefact in filtered_artefacts %}
+
+              <div class="artefact-grid-col col-auto {{ artefact.formats | join: " " }} {{ artefact.disciplines | join: " " }} {{ artefact.year }} {{ artefact.decade }} {{ artefact.origin | join: " " }}">
+                <h2 class="ghost-info">{{ artefact.title }}</h2>
+                <p class="ghost-info">{{ artefact.author_name | join: " " }}</p>
+                <a class="a-module" href="{{ artefact.url }}">
+                  <div class="a-module-img-holder shelf">
+                    {% if artefact.published == false %}
+                    <img class="grid-img allartefacts" loading="lazy" src="/images/non-art/empty-tile.png">
+                    {% else %}
+                    <img class="grid-img allartefacts" loading="lazy" src="/images/sm/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}-sm.jpg"
+                      alt="{{ artefact.title }}">
+                    {% endif%}
+                  </div>
+                </a>
+              </div>
+            {% endfor %}
+    </div>
+</div>
+
+{% include footer.html %}
+{% include scripts/scripts-artefacts.html %}
+{% include the-end.html %}

@@ -1,5 +1,5 @@
 ---
-title: John Steinbeck
+name: John Steinbeck
 layout: tag
 type: person
 ---

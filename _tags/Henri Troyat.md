@@ -1,4 +1,4 @@
 ---
-title: Henri Troyat
+name: Henri Troyat
 type: person
 ---

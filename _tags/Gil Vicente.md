@@ -1,5 +1,5 @@
 ---
-title: Gil Vicente
+name: Gil Vicente
 layout: tag
 type: person
 ---

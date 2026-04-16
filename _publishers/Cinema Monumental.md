@@ -1,4 +1,4 @@
 ---
-title: 'Cinema Monumental'
+name: "Cinema Monumental"
 layout: publisher
 ---

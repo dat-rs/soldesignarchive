@@ -1,5 +1,5 @@
 ---
-title: Nelson de Barros
+name: Nelson de Barros
 layout: tag
 type: person
 ---

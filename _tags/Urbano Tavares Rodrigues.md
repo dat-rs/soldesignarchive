@@ -1,5 +1,5 @@
 ---
-title: Urbano Tavares Rodrigues
+name: Urbano Tavares Rodrigues
 layout: tag
 type: person
 ---

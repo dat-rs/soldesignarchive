@@ -1,4 +1,4 @@
 ---
-title: 'Círculo de Leitores'
+name: "Círculo de Leitores"
 layout: publisher
 ---

@@ -1,4 +1,4 @@
 ---
-title: Figueirinhas
+name: Figueirinhas
 layout: publisher
 ---

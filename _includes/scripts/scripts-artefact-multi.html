@@ -1,0 +1,37 @@
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+// artefact Image Carousel
+    const mainContainer = document.getElementById("artefactCarousel");
+    const mainOptions = {
+      infinite: true,
+      Thumbs: {
+        type: 'classic',
+      },
+    };
+
+
+const mainCarousel = new Carousel(mainContainer, mainOptions, { Thumbs });
+
+Fancybox.bind('[data-fancybox="artefact-gallery"]', {
+  // Your custom options
+  Toolbar: {
+    display: {
+      left: ["infobar"],
+      middle: [
+        "zoomIn",
+        "zoomOut",
+        "toggle1to1",
+        "rotateCCW",
+        "rotateCW",
+      ],
+      right: ["fullscreen", "thumbs", "close"],
+    },
+  },
+  Thumbs : {
+            type: "classic"
+          }
+});
+
+  </script>

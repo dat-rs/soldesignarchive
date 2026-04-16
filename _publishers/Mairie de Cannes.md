@@ -1,5 +1,6 @@
 ---
-title: 'Mairie de Cannes'
+name: "Mairie de Cannes"
 layout: publisher
 ---
+
 Municipality of Cannes, France.

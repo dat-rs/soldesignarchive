@@ -1,0 +1,18 @@
+---
+ref_group: "160"
+ref_id: "0003"
+title: Caderno Escolar
+author_name: [unknown author]
+publisher: [Pêbêcê]
+year: unknown-date
+origin: Portugal
+formats: [notebook]
+disciplines: [graphic-design, lettering, typography]
+tags: [ornaments]
+layout: artefact
+status: complete
+published: true
+image_count: 2
+date_added: 2023-06-23
+batch: /porto/jun23
+---

@@ -1,5 +1,5 @@
 ---
-title: music
+name: music
 layout: tag
 type: subject
 ---
