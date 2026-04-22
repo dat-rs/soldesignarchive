@@ -1,0 +1,144 @@
+{
+    "artefactmd": {
+        "prefix": "art",
+        "body": [
+            "---",
+            "ref_group: '${1:030}'",
+            "ref_id: '$2'",
+            "title: $3",
+            "author_name: [$4]",
+            "publisher: [$5]",
+            "year: y19$6",
+            "origin: ${7:Portugal}",
+            "formats: [${8:book, book-cover}]",
+            "disciplines: [${9:graphic-design, typography, illustration}]",
+            "tags: $10",
+            "status: ${11|offline,onboarding,scan,production,publish,complete,wip,hidden|}$0",
+            "published: ${12|false,true|}$0",
+            "image_count: $13",
+            "date_added: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+            "batch: $14",
+            "staging: false",
+            "layout: artefact",
+            "---"
+        ],
+        "description": "artifact front matter template"
+    },
+    "authormd": {
+        "prefix": "auth",
+        "body": [
+            "---",
+            "name: $1",
+            "image_path: $2",
+            "rel_authors: [$3]",
+            "rel_publishers: [$4]",
+            "rel_tags: [$5]",
+            "layout: author",
+            "published: true",
+            "---"
+        ],
+        "description": "author front matter template"
+    },
+    "publishermd": {
+        "prefix": "publ",
+        "body": [
+            "---",
+            "name: $1",
+            "layout: publisher",
+            "---"
+        ],
+        "description": "publisher front matter template"
+    },
+    "yearmd": {
+        "prefix": "year",
+        "body": [
+            "---",
+            "name: \"y$1\"",
+            "layout: year",
+            "---"
+        ],
+        "description": "year front matter template"
+    },
+    "originmd": {
+        "prefix": "orig",
+        "body": [
+            "---",
+            "name: ${1:Portugal}",
+            "layout: origin",
+            "---"
+        ],
+        "description": "origin front matter template"
+    },
+    "formatmd": {
+        "prefix": "form",
+        "body": [
+            "---",
+            "name: $1",
+            "layout: format",
+            "---"
+        ],
+        "description": "format front matter template"
+    },
+    "tagmd": {
+        "prefix": "tag",
+        "body": [
+            "---",
+            "name: $1",
+            "layout: tag",
+            "type: ${2|subject,person,typeface,color,collection,design_descriptive|}$0",
+            "---"
+        ],
+        "description": "tag front matter template"
+    },
+    "resource": {
+        "prefix": "reso",
+        "body": [
+            "title: $1",
+            "type: ${2|at-archive,image,article,presentation,book,video|}",
+            "lang: ${3|en,pt,fr,de,es|}",
+            "out_url: $4",
+            "rel_artifacts: [$5]",
+            "rel_authors: [$6]",
+            "rel_publishers: [$7]",
+            "rel_tags: [$8]",
+            "description: \"$9\"",
+            "---"
+        ],
+        "description": "resource  template"
+    },
+    "Test": {
+        "prefix": "Test",
+        "body": [
+            "# ${1|Option1,Option2,Option3|}$0"
+        ],
+        "description": "Test choice snippet"
+    },
+    "rich-body-artifact": {
+        "prefix": "rbart",
+        "body": [
+            "<a class=\"text cat-link artifact\" href=\"/artifacts/${1:slug}/\">${2:Title}</a>"
+        ],
+        "description": "rich artifact link"
+    },
+    "rich-body-author": {
+        "prefix": "rba",
+        "body": [
+            "<a class=\"text cat-link author\" href=\"/authors/${1:Author}/\">${1:Author}</a>"
+        ],
+        "description": "rich author link"
+    },
+    "rich-body-publisher": {
+        "prefix": "rbp",
+        "body": [
+            "<a class=\"text cat-link publisher\" href=\"/publishers/${1:Publisher}/\">${1:Publisher}</a>"
+        ],
+        "description": "rich publisher link"
+    },
+    "rich-body-tag": {
+        "prefix": "rbt",
+        "body": [
+            "<a class=\"text cat-link tag\" href=\"/tags/${1:Tag}/\">${1:Tag}</a>"
+        ],
+        "description": "rich tag link"
+    }
+}

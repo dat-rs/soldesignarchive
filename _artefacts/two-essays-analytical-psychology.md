@@ -9,7 +9,7 @@ decade: 1950s
 origin: ["United-States"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
-tags:
+tags: [psychology, non-fiction, Carl Jung]
 layout: artefact
 status: scan
 published: false

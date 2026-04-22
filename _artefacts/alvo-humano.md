@@ -2,7 +2,7 @@
 ref_group: "140"
 ref_id: "0007"
 title: O Alvo Humano
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y1944
 decade: 1940s

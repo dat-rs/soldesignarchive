@@ -16,9 +16,8 @@ image_count:
 date_added: 2025-02-12
 batch: jsb/selos/1
 layout: artefact
-sources_count: 0
-sources_links: ["https://pt.wikipedia.org/wiki/Caravela_(selos)"]
-sources_titles: ["Caravela (selos). Wikipedia [pt]"]
+sources:
+  - ["https://pt.wikipedia.org/wiki/Caravela_(selos)", "Caravela (selos). Wikipedia [pt]"]
 ---
 
 Part of a set of definitive stamps issued in 1943. Engraved by Gustavo de Almeida Araújo.

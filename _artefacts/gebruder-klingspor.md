@@ -2,7 +2,7 @@
 ref_group: "234"
 ref_id: "0000"
 title: Gebrüder Klingspor Offenbach am Main
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y19
 origin: Germany

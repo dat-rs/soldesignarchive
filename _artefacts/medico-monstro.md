@@ -17,4 +17,4 @@ published: true
 date_added: 2023-03-08
 ---
 
-Portuguese edition of _Strange Case of Dr Jekyll and Mr Hyde_.
+A Portuguese translation of _Strange Case of Dr Jekyll and Mr Hyde_.

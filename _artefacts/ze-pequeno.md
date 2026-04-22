@@ -2,7 +2,7 @@
 ref_group: "140"
 ref_id: "0006"
 title: O Zé Pequeno
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y1943
 decade: 1940s

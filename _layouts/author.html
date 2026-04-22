@@ -23,7 +23,7 @@ filtered_artefacts.size | divided_by: 2 %}
       {% if page.image_path %}
       <figure class="feature-img artefact">
         <div class="artefact-holder">
-          <img src="/images/{{ page.image_path }}" alt="" />
+          <img src="/images/non-art/{{ page.image_path }}" alt="" />
         </div>
       </figure>
       {% else %}
@@ -59,7 +59,7 @@ filtered_artefacts.size | divided_by: 2 %}
       <section class="about-text">{{ content }}</section>
     </div>
   </div>
-  {% endif %} {% if page.timeline_count %}
+  {% endif %} {% if page.timeline %}
 
   <!-- TIMELINE -->
   <div class="row datum-section timeline top-border">
@@ -71,17 +71,17 @@ filtered_artefacts.size | divided_by: 2 %}
   {% assign timeline_count = page.timeline_count %} {% assign fixed_timeline_count = timeline_count | minus: 1 %}
   <!--  -->
 
-  {% for timeline_element in (0..fixed_timeline_count) %}
+  {% for timeline_element in page.timeline %}
 
   <div class="row datum-row timeline-row {% if forloop.last == true %}last{% endif %}">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
-      <span class="deet-label timeline-key">{{ page.timeline_keys[timeline_element] }}</span>
+      <span class="deet-label timeline-key">{{ timeline_element[0] }}</span>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col timeline-value">
-      {{ page.timeline_values[timeline_element] }}
+      {{ timeline_element[1] }}
     </div>
   </div>
-  {% endfor %} {% endif %} {% if page.sources_count %} {% assign sources_count = page.sources_count %}
+  {% endfor %} {% endif %} {% if page.sources %}
   <!-- SOURCES -->
   <div class="row datum-section sources top-border">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
@@ -89,11 +89,9 @@ filtered_artefacts.size | divided_by: 2 %}
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
       <ol class="footnotes sources">
-        {% for sources_element in (0..sources_count) %}
+        {% for source in page.sources %}
         <li>
-          <a class="fn-link" href="{{ page.sources_links[sources_element] }}"
-            >{{ page.sources_titles[sources_element] }}</a
-          >
+          <a class="fn-link" href="{{ source[0] }}">{{ source[1] }}</a>
         </li>
         {% endfor %}
       </ol>

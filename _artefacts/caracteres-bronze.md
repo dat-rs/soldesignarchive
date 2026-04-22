@@ -2,7 +2,7 @@
 ref_group: "234"
 ref_id: "0005"
 title: "Caractères en Bronze"
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y19
 origin: France

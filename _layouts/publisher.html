@@ -2,8 +2,8 @@
 image: "/images/non-art/sol-branding-comp-1.jpg"
 ---
 
-{% assign processed_title = page.name | replace: "-barra-", "/" %} {% capture description
-%}Browse artefacts published/commissioned by {{ processed_title }} at Sol Design Archive.{% endcapture %}
+{% assign processed_title = page.name | replace: "-barra-", "/" %} {% capture description %}Browse artefacts
+published/commissioned by {{ processed_title }} at Sol Design Archive.{% endcapture %}
 <!--  -->
 {% include head-and-header.html page-meta-title=processed_title page-meta-description=description page-meta-url=page.url
 page-meta-image=layout.image %} {% assign pub_artefacts = site.artefacts | where: 'published', true %} {% assign
@@ -20,8 +20,7 @@ filtered_artefacts | sort: "year" %} {% if page.hero_image %}
 
 <div
   class="container-fluid container-author {% unless page.hero_image %}first-after-header{% endunless %}"
-  data-pagefind-body
->
+  data-pagefind-body>
   <div class="row datum-section title">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="cat-label publisher">Publisher/Client</h3>
@@ -61,19 +60,16 @@ filtered_artefacts | sort: "year" %} {% if page.hero_image %}
       {{ page.timeline_values[timeline_element] }}
     </div>
   </div>
-  {% endfor %} {% endif %} {% if page.sources_count %} {% assign sources_count = page.sources_count %}
-  <!-- SOURCES -->
-  <div class="row datum-section sources">
+  {% endfor %} {% endif %} {% if page.sources %}
+  <div class="row datum-section sources top-border">
     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
       <ol class="footnotes sources">
-        {% for sources_element in (0..sources_count) %}
+        {% for source in page.sources %}
         <li>
-          <a class="fn-link" href="{{ page.sources_links[sources_element] }}"
-            >{{ page.sources_titles[sources_element] }}</a
-          >
+          <a class="fn-link" href="{{ source[0] }}">{{ source[1] }}</a>
         </li>
         {% endfor %}
       </ol>

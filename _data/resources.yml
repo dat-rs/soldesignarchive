@@ -60,6 +60,13 @@
   rel_authors: ["Ernst Kößlinger"]
   description: "Ernst Kößlinger - German Wikipedia entry."
 
+- title: "Fernando Felgueiras Interview - RTP Arquivos"
+  type: "video"
+  lang: pt
+  out_url: https://arquivos.rtp.pt/conteudos/fernando-felgueiras/
+  rel_authors: ["Fernando Felgueiras"]
+  description: "Fernando Felgueiras is interviewed by Raquel Santos. 25 min."
+
 - title: "Fred Troller Collection - Cary Graphic Arts Collection"
   type: "at-archive"
   lang: en

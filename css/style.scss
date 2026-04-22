@@ -7,6 +7,7 @@
 
 /* Colors */
 
+
 $artefact-color: #e16640;
 $author-color: #f2b34b;
 $origin-color: #4f9dd3;
@@ -3499,6 +3500,20 @@ span.reference,
 .dewey,
 .ref {
   font-variant-numeric: tabular-nums;
+}
+
+.db-button-counter {
+  padding: 2px 8px 1px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+  display: inline-block;
+  &.yes {
+    background-color: #3dc18e;
+  }
+  &.no {
+    background-color: $artefact-color;
+  }
 }
 
 span.reference {

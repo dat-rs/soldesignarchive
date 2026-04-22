@@ -2,7 +2,7 @@
 ref_group: "234"
 ref_id: "0004"
 title: "Tipos Bauer"
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y19
 origin: Portugal
