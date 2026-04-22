@@ -34,7 +34,7 @@ tagged «{{ page.name | replace: "-", " " }}» at the Sol Design Archive.{% endc
     <div class="col-12 col-sm-9 col-md-10 col-lg-9 datum-right-col">
       <div class="row artefacts-gutters">
         {% for artefact in sorted_filtered_artefacts %}
-        <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au-y.html %}</div>
+        <div class="col-6 col-md-4 col-lg-3 col-xl-2">{% include a-modules/a-module-au-y.html staging=true %}</div>
         {% endfor %}
       </div>
     </div>

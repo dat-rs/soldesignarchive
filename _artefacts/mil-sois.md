@@ -10,7 +10,7 @@ formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: []
 layout: artefact
-status: published
+status: complete
 published: true
 image_count:
 date_added: 2026-04-21

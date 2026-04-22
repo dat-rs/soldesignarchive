@@ -9,7 +9,7 @@ origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: [fiction, Roger Vailland, "Autores do Nosso Tempo"]
-status: incomplete
+status: wip
 published: true
 comments: [falta back cover, falta rosto]
 image_count:

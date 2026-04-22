@@ -280,7 +280,10 @@ p.about-sol {
 .a-module-deets,
 .artefact-count,
 .cat-count {
-  font-family: $body, sans-serif;
+  font-family: $body, serif;
+  &.paratext {
+    font-family: $paratext, sans-serif;
+  }
   font-weight: 400;
   font-size: 13px;
   letter-spacing: normal;
@@ -3407,6 +3410,7 @@ button.backoffice,
   line-height: 20px;
   background-color: gray;
   color: $bg-white;
+  margin-right: 4px;
 }
 
 .btn-check.backoffice:checked+.a-filter-label,

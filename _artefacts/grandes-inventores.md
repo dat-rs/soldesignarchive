@@ -14,6 +14,6 @@ status: complete
 published: true
 image_count:
 date_added: 2026-04-21
-batch: "/ladra/20250825"
-staging: true
+batch: /ladra/20250825
+staging: false
 ---

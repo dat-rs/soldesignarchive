@@ -13,7 +13,7 @@ status: scan
 published: false
 image_count:
 date_added: 2026-04-13
-batch: /ladra/20260411
+batch: /som-estoril/20260410
 staging: true
 layout: artefact
 ---
