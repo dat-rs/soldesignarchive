@@ -19,56 +19,56 @@ page-meta-description=page.description page-meta-image=page.image %} {%- include
   </div>
 </div>
 
-<div class="container-fluid db-table-status">
-  <div id="artefact-table" class="faux-table db">
-    {% assign artefacts_by_ref = site.artefacts | sort: 'ref_id' %} {% for artefact in artefacts_by_ref %}
-    <div class="row artefact-table-row {{ artefact.status }}">
-      <div class="col-1 faux-table-col">
-        <img
-          class="db-img"
-          loading="lazy"
-          src="/images/sm/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}-sm.jpg"
-          alt="{{ artefact.title }}" />
+<div class="container-fluid db-table-status faux-table db" id="artefact-table">
+  {% assign incomplete_artefacts = site.artefacts | where_exp: "item", "item.status != 'complete'" %} {% assign
+  incomplete_artefacts_by_date = incomplete_artefacts | sort: 'date_added' | reverse %} {% for artefact in
+  incomplete_artefacts_by_date %}
+  <div class="row artefact-table-row {{ artefact.status }}">
+    <div class="col-1 faux-table-col">
+      <img
+        class="db-img"
+        loading="lazy"
+        src="/images/sm/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}-sm.jpg"
+        alt="{{ artefact.title }}" />
 
-        <span class="gray-diff" style="vertical-align: bottom"
-          >{% if artefact.published == false %}0{% else %}{% if artefact.image_count %}{{ artefact.image_count }}{% else
-          %}1{% endif %}{% endif %}</span
-        >
-      </div>
-
-      <div class="col-3 faux-table-col">
-        <span class="title tabold">{{ artefact.title }}</span> <br />
-        <span class="reference"
-          >sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-<a href="{{ artefact.url }}" class="db-link"
-            >{{ artefact.url | remove_first: '/artefacts/' | remove: "/" }}</a
-          ></span
-        ><br />
-      </div>
-
-      <div class="col-2 faux-table-col">
-        {{ artefact.author_name | join: ", " }} <br />
-        <span style="font-style: italic">{{ artefact.publisher | join: ", " }}</span>
-      </div>
-
-      <div class="col-1 faux-table-col">
-        <span class="year">{{ artefact.year | remove_first: 'y' | replace: "-", " " }}</span> <br />
-        {{ artefact.origin | join: ", " }}
-      </div>
-
-      <div class="col-3 faux-table-col">
-        {{ artefact.formats | join: ", " }} <br />
-        <span class="gray-diff">{{ artefact.disciplines | join: ", " }}</span> <br />
-        {{ artefact.tags | join: ", " }} <br />
-      </div>
-
-      <div class="col-2 faux-table-col">
-        <span class="date">{{ artefact.date_added }}</span><br />
-        <span class="status">{{ artefact.status }}</span>
-        {{ artefact.batch }}
-      </div>
+      <span class="gray-diff" style="vertical-align: bottom"
+        >{% if artefact.published == false %}0{% else %}{% if artefact.image_count %}{{ artefact.image_count }}{% else
+        %}1{% endif %}{% endif %}</span
+      >
     </div>
-    {% endfor %}
+
+    <div class="col-3 faux-table-col">
+      <span class="title tabold">{{ artefact.title }}</span> <br />
+      <span class="reference"
+        >sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-<a href="{{ artefact.url }}" class="db-link"
+          >{{ artefact.url | remove_first: '/artefacts/' | remove: "/" }}</a
+        ></span
+      ><br />
+    </div>
+
+    <div class="col-2 faux-table-col">
+      {{ artefact.author_name | join: ", " }} <br />
+      <span style="font-style: italic">{{ artefact.publisher | join: ", " }}</span>
+    </div>
+
+    <div class="col-1 faux-table-col">
+      <span class="year">{{ artefact.year | remove_first: 'y' | replace: "-", " " }}</span> <br />
+      {{ artefact.origin | join: ", " }}
+    </div>
+
+    <div class="col-3 faux-table-col">
+      {{ artefact.formats | join: ", " }} <br />
+      <span class="gray-diff">{{ artefact.disciplines | join: ", " }}</span> <br />
+      {{ artefact.tags | join: ", " }} <br />
+    </div>
+
+    <div class="col-2 faux-table-col">
+      {{ artefact.batch }} <br />
+      <span class="date">{{ artefact.date_added }}</span><br />
+      <span class="status">{{ artefact.status }}</span>
+    </div>
   </div>
+  {% endfor %}
 </div>
 
 {% include footer.html %} {% include scripts/scripts-db-status.html %} {% include the-end.html %}

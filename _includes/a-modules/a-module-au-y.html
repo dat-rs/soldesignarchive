@@ -7,8 +7,7 @@
     <img
       class="a-module-img large"
       src="/images/sm/sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}-{{ artefact.slug }}-sm.jpg"
-      alt=""
-    />
+      alt="" />
     {% endif %}
   </div>
   <div class="a-module-content">
@@ -18,5 +17,8 @@
       >{% if artefact.circa %}<span class="deet-link year circa">c. </span>{% endif %}{{ artefact.year | remove_first:
       "y" | replace: '-', ' ' }}</span
     >
+    {% if include.staging == true %}
+    <span class="a-module-deets batch paratext">{{ artefact.batch }}</span>
+    {% endif %}
   </div>
 </a>

@@ -20,17 +20,21 @@
         type="checkbox"
         value=".offline"
         class="btn-check filter button backoffice"
-        id="filter-gen"
+        id="filter-offline"
         autocomplete="off" />
-      <label class="btn status-filter-label" for="filter-gen">offline ({{ artefacts_offline.size }})</label>
+      <label class="btn status-filter-label a-filter-label" for="filter-offline"
+        >offline ({{ artefacts_offline.size }})</label
+      >
 
       <input
         type="checkbox"
         value=".onboarding"
         class="btn-check filter button backoffice"
-        id="filter-gen"
+        id="filter-onboarding"
         autocomplete="off" />
-      <label class="btn status-filter-label" for="filter-gen">onboarding ({{ artefacts_onboarding.size }})</label>
+      <label class="btn status-filter-label a-filter-label" for="filter-onboarding"
+        >onboarding ({{ artefacts_onboarding.size }})</label
+      >
 
       <input
         type="checkbox"
@@ -38,7 +42,7 @@
         class="btn-check filter button backoffice"
         id="filter-scan"
         autocomplete="off" />
-      <label class="btn status-filter-label" for="filter-scan">scan ({{ artefacts_scan.size }})</label>
+      <label class="btn status-filter-label a-filter-label" for="filter-scan">scan ({{ artefacts_scan.size }})</label>
 
       <input
         type="checkbox"
@@ -46,7 +50,9 @@
         class="btn-check filter button backoffice"
         id="filter-prod"
         autocomplete="off" />
-      <label class="btn status-filter-label" for="filter-prod">production ({{ artefacts_production.size }})</label>
+      <label class="btn status-filter-label a-filter-label" for="filter-prod"
+        >production ({{ artefacts_production.size }})</label
+      >
 
       <input
         type="checkbox"
@@ -54,31 +60,17 @@
         class="btn-check filter button backoffice"
         id="filter-pub"
         autocomplete="off" />
-      <label class="btn status-filter-label" for="filter-pub">publish ({{ artefacts_publish.size }})</label>
+      <label class="btn status-filter-label a-filter-label" for="filter-pub"
+        >publish ({{ artefacts_publish.size }})</label
+      >
 
       <input
         type="checkbox"
         value=".wip"
-        class="btn-check filter button backoffice"
+        class="btn-check filter button artefacts backoffice"
         id="filter-wip"
         autocomplete="off" />
-      <label class="btn status-filter-label" for="filter-wip">wip ({{ artefacts_wip.size }})</label>
-
-      <input
-        type="checkbox"
-        value=".complete"
-        class="btn-check filter button backoffice"
-        id="filter-complete"
-        autocomplete="off" />
-      <label class="btn status-filter-label" for="filter-complete">complete ({{ artefacts_complete.size }})</label>
+      <label class="btn status-filter-label a-filter-label" for="filter-wip">wip ({{ artefacts_wip.size }})</label>
     </div>
-  </div>
-
-  <div class="row faux-table-head-row">
-    <div class="col-1 faux-table-head-col">Image</div>
-    <div class="col-3 faux-table-head-col">Artefact</div>
-    <div class="col-2 faux-table-head-col">Authors/Publishers/Year/Origin</div>
-    <div class="col-3 faux-table-head-col">Formats/Disciplines/Tags</div>
-    <div class="col-2 faux-table-head-col">Info</div>
   </div>
 </div>
