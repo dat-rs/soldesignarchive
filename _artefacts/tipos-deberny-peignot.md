@@ -2,7 +2,7 @@
 ref_group: "234"
 ref_id: "0009"
 title: "Tipos. Deberny et Peignot"
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: ["Stephenson, Blake & Co. Ltd."]
 year: y19
 origin: France

@@ -2,7 +2,7 @@
 ref_group: "234"
 ref_id: "0010"
 title: "Holz"
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: ["Stephenson, Blake & Co. Ltd."]
 year: y19
 origin: France

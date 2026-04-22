@@ -57,20 +57,19 @@ endfor %}
   </div>
   {% endif %} 
 
-  {% if page.sources_count %}
-  {% assign sources_count = page.sources_count %}
+  {% if page.sources %}
   <div class="row datum-section sources top-border">
-     <div class="col-12 col-sm-3 col-md-2 datum-left-col">
+    <div class="col-12 col-sm-3 col-md-2 datum-left-col">
       <h3 class="title datum-title sources">Sources</h3>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-7 col-xl-6 datum-right-col">
-        <ol class="footnotes sources">
-          {% for sources_element in (0..sources_count) %}
-          <li>
-            <a class="fn-link" href="{{ page.sources_links[sources_element] }}">{{ page.sources_titles[sources_element] }}</a>
-          </li>
-          {% endfor %}
-        </ol>
+      <ol class="footnotes sources">
+        {% for source in page.sources %}
+        <li>
+          <a class="fn-link" href="{{ source[0] }}">{{ source[1] }}</a>
+        </li>
+        {% endfor %}
+      </ol>
     </div>
   </div>
   {% endif %}

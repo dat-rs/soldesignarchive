@@ -2,7 +2,7 @@
 ref_group: "140"
 ref_id: "0010"
 title: Os Amores de Scheik
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y1942
 decade: 1940s

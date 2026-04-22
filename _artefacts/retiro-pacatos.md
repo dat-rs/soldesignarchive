@@ -2,7 +2,7 @@
 ref_group: "140"
 ref_id: "0012"
 title: O Retiro dos Pacatos
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y1941
 decade: 1940s

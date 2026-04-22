@@ -1,0 +1,115 @@
+---
+title: "DB - Authors - Sol Design Archive"
+back-office: true
+published: false
+regenerate: true
+---
+
+{% include head-and-header-backoffice.html page-meta-title=page.title page-meta-url=page.url
+page-meta-description=page.description page-meta-image=page.image %}
+
+<div class="container-fluid sub-header-backoffice first-after-header">
+  <div class="row sub-header-backoffice">
+    <div id="db-search" class="col-6 col-xxl-4">
+      <input type="text" class="quicksearch backoffice" placeholder="Search" />
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg button-group sort-by-button-group">
+      <button class="button backoffice left" data-sort-value="original-order">A-Z</button>
+      <button class="button backoffice middle" data-sort-value="sol_points">Sol Points</button>
+      <button class="button backoffice middle" data-sort-value="image">IMG</button>
+      <button class="button backoffice middle" data-sort-value="timeline">Timeline</button>
+      <button class="button backoffice middle" data-sort-value="sources">Sources</button>
+      <button class="button backoffice right" data-sort-value="pubd">Published Artefacts</button>
+      <button class="button backoffice right" data-sort-value="unpubd">Unpublished Artefacts</button>
+    </div>
+  </div>
+
+  <div class="row faux-table-head-row">
+    <div class="col-1 faux-table-head-col">Image</div>
+    <div class="col-2 faux-table-head-col">Author</div>
+    <div class="col-1 faux-table-head-col">Sol Points</div>
+    <div class="col-1 faux-table-head-col">Timeline</div>
+    <div class="col-1 faux-table-head-col">Sources</div>
+    <div class="col-1 faux-table-head-col">Resources</div>
+    <div class="col-2 faux-table-head-col">Artefacts</div>
+    <div class="col-2 faux-table-head-col">Published</div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="faux-table db" id="authors-table">
+    {% for author in site.authors %} {% assign pubd_artefacts = site.artefacts | where: 'published', true | where:
+    'author_name', author.name %} {% assign unpubd_artefacts = site.artefacts | where: 'published', false | where:
+    'author_name', author.name %} {% assign pubd_artefacts_count = pubd_artefacts.size | times: 1 %} {% assign
+    unpubd_artefacts_count = unpubd_artefacts.size | times: 1 %} {% assign timeline_size = author.timeline.size | times:
+    1 %} {% assign has_sources = author.sources | default: false %} {% assign sources_size = author.sources.size |
+    times: 1 %} {% assign filtered_resources = site.data.resources | where: 'rel_authors', author.name %} {% assign
+    resources_size = filtered_resources.size %}
+    <!-- -->
+    {% assign sum_sol_points = pubd_artefacts_count | plus: timeline_size | plus: sources_size | plus: resources_size %}
+    {% assign sol_points = sum_sol_points | times: 1.754386 | round %}
+
+    <div class="row artefact-table-row authors-table-row">
+      <!-- Image Column -->
+      <div class="col-1 faux-table-col">
+        {% if author.image_path %}
+        <img class="db-img .image" src="/images/non-art/{{ author.image_path }}" alt="{{ author.name }}" />
+        {% else %}
+        <img class="db-img" src="/images/non-art/black-square.png" alt="No image" />
+        {% endif %}
+      </div>
+
+      <!-- Title Column -->
+      <div class="col-2 faux-table-col">
+        <span class="title tabold">{{ author.name }}</span> <br />
+        <a href="{{ author.url }}" class="db-link">{{ author.url | remove_first: '/authors/' | remove: "/" }}</a><br />
+      </div>
+
+      <div class="col-1 faux-table-col"><span class="sol-points">{{ sol_points }}</span></div>
+
+      <!-- Timeline, Sources & Resources Column -->
+      <div class="col-1 faux-table-col">
+        {% if author.timeline and timeline_size > 0 %}
+        <span class="db-button-counter yes timeline">{{ timeline_size }}</span>
+        {% else %}
+        <span class="db-button-counter no">✕</span><br />
+        {% endif %}
+      </div>
+
+      <div class="col-1 faux-table-col">
+        {% if author.sources and sources_size > 0 %}
+        <span class="db-button-counter yes sources">{{ sources_size }}</span>
+        {% else %}
+        <span class="db-button-counter no">✕</span>
+        {% endif %}
+      </div>
+
+      <div class="col-1 faux-table-col">
+        {% if resources_size > 0 %}
+        <span class="db-button-counter yes resources">{{ resources_size }}</span>
+        {% else %}
+        <span class="db-button-counter no">✕</span>
+        {% endif %}
+      </div>
+
+      <!-- Artefact Count Column -->
+      <div class="col-2 faux-table-col">
+        Artefacts: <span class="pubd">{{ pubd_artefacts_count }}</span> Unpublished:
+        <span class="unpubd">{{ unpubd_artefacts_count }}</span>
+      </div>
+
+      <!-- Additional Info Column -->
+      <div class="col-3 faux-table-col">
+        {% if author.published == false %}
+        <span class="db-button-counter no">Unpublished</span>
+        {% else %}
+        <span class="db-button-counter yes">Published</span>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% include footer.html %} {% include scripts/scripts-db-authors.html %} {% include the-end.html %}

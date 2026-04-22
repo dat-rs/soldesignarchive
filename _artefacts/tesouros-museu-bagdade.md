@@ -15,9 +15,11 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-05-22
-sources_count: 0
-sources_links: ["https://gulbenkian.pt/historia-das-exposicoes/exhibitions/117/"]
-sources_titles: ["Tesouros do Museu de Bagdade. In: História das Exposições de Arte Gulbenkian [pt/en]"]
+sources:
+  - [
+      "https://gulbenkian.pt/historia-das-exposicoes/exhibitions/117/",
+      "Tesouros do Museu de Bagdade. In: História das Exposições de Arte Gulbenkian [pt/en]",
+    ]
 ---
 
 About the exhibition:

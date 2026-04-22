@@ -15,9 +15,13 @@ layout: artefact
 status: complete
 published: true
 date_added: 2020-02-15
-sources_count: 0
-sources_links: ["https://estudogeral.uc.pt/bitstream/10316/41244/1/livros_que_romulo_de_carvalho_nos_deixou.PDF"]
-sources_titles: ["Carlos Fiolhais. <cite>Os livros que António Gedeão nos deixou</cite> (2008) [pt]"]
+sources:
+  [
+    [
+      "https://estudogeral.uc.pt/bitstream/10316/41244/1/livros_que_romulo_de_carvalho_nos_deixou.PDF",
+      "Carlos Fiolhais. <cite>Os livros que António Gedeão nos deixou</cite> (2008) [pt]",
+    ],
+  ]
 ---
 
 <p>

@@ -2,7 +2,7 @@
 ref_group: "140"
 ref_id: "0016"
 title: "Nazaré"
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y1940
 decade: 1940s

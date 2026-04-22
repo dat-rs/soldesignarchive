@@ -1,6 +1,7 @@
 ---
 name: "Sebastião Rodrigues"
-image_path:
+image_path: hero-sebastiao-rodrigues.jpg
+image_caption: "Photo: Facebook Sebastião Rodrigues"
 rel_authors:
 rel_publishers:
 rel_tags:
@@ -18,34 +19,38 @@ related_publishers:
     "Livraria Morais Editora",
   ]
 related_tags: ["Almanaque", "Os Livros das Três Abelhas"]
-timeline_count: 8
-timeline_keys: ["1929", "1940-1941", "1945", "1948", "1959", "1959-1961", "1991", "1995"]
-timeline_values: [
-    "Born in Dafundo, Lisbon, Portugal.",
-    'Studies at the Escola Industrial Marquês de Pombal under painter
-    <a href="/authors/Calvet de Magalhães" class="cat-link author">Calvet de Magalhães</a> and architect Frederico
-    George. Financial difficulties force him to abandon.',
-    "Starts working at Atelier de Publicidade Artística (APA).",
-    "Starts working at the studio of Manuel Rodrigues.",
-    'Travels through northern Portugal for six months with a grant from
-    <a href="/publishers/Fundação Calouste Gulbenkian" class="cat-link publisher">Fundação Calouste Gulbenkian</a>,
-    researching vernacular graphic materials.',
-    'Art-direction of <a href="/tags/Almanaque" class="cat-link tag">Almanaque</a> magazine.',
-    "ICOGRADA’s Award of Excellence.",
-    "«Sebastião Rodrigues: Designer», career retrospective exhibition at Fundação Calouste Gulbenkian.",
+timeline: [
+    ["1929", "Born in Dafundo, Lisbon, Portugal."],
+    [
+      "1940-1941",
+      'Studies at the Escola Industrial Marquês de Pombal under painter
+      <a href="/authors/Calvet de Magalhães" class="cat-link author">Calvet de Magalhães</a> and architect Frederico
+      George. Financial difficulties force him to abandon.',
+    ],
+    ["1945", "Starts working at Atelier de Publicidade Artística (APA)."],
+    ["1948", "Starts working at the studio of Manuel Rodrigues."],
+    [
+      "1959",
+      'Travels through northern Portugal for six months with a grant from <a class="text cat-link publisher" href="/publishers/Fundação Calouste Gulbenkian/">Fundação Calouste Gulbenkian</a>, researching vernacular graphic materials.',
+    ],
+    ["1959-1961", 'Art-direction of <a class="text cat-link tag" href="/tags/Almanaque/">Almanaque</a> magazine.'],
+    ["1991", "ICOGRADA’s Award of Excellence."],
+    ["1995", "«Sebastião Rodrigues: Designer», career retrospective exhibition at Fundação Calouste Gulbenkian."],
   ]
-sources_count: 2
-sources_links:
+sources:
   [
-    "https://www.infopedia.pt/$sebastiao-rodrigues",
-    "https://search.worldcat.org/title/1242921383",
-    "https://gulbenkian.pt/historia-das-exposicoes/exhibitions/971/",
-  ]
-sources_titles: [
-    "Porto Editora. <cite>Sebastião Rodrigues on Infopédia</cite>. Porto Editora [pt]",
-    "Maria João Baltasar, José Bártolo, Vasco Rosa. <cite>Designers Portugueses: Sebastião Rodrigues</cite> (2016).
-    Cardume Editores, ESAD [pt]",
-    "Carolina Gouveia Matias. <cite>Sebastião Rodrigues: Designer</cite> (2019). Fundação Calouste Gulbenkian [pt]",
+    [
+      "https://www.infopedia.pt/$sebastiao-rodrigues",
+      "Porto Editora. <cite>Sebastião Rodrigues on Infopédia</cite>. Porto Editora [pt]",
+    ],
+    [
+      "https://www.worldcat.org/title/1242921383",
+      "Maria João Baltasar, José Bártolo, Vasco Rosa. <cite>Designers Portugueses: Sebastião Rodrigues</cite> (2016). Cardume Editores, ESAD [pt]",
+    ],
+    [
+      "https://gulbenkian.pt/historia-das-exposicoes/exhibitions/971/",
+      "Carolina Gouveia Matias. <cite>Sebastião Rodrigues: Designer</cite> (2019). Fundação Calouste Gulbenkian [pt]",
+    ],
   ]
 ---
 

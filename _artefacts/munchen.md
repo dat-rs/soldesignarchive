@@ -19,4 +19,4 @@ batch: /ladra/070524/brochures
 cost: "0,66"
 ---
 
-French language tourist brochure about Frankfurt.
+Portuguese language tourist brochure about Munich.

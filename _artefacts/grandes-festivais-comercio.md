@@ -2,7 +2,7 @@
 ref_group: "140"
 ref_id: "0011"
 title: Grandes Festivais do Comércio para o Comércio
-author_name: ["unknown-author"]
+author_name: ["unknown author"]
 publisher: []
 year: y1943
 decade: 1940s
