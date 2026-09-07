@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "332"
+ref_id: "0332"
 title: "Como Educar os Nossos Filhos"
 author_name: [Infante do Carmo, Clara Pechansky]
 publisher: [Livros do Brasil]

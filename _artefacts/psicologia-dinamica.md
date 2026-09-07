@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "330"
+ref_id: "0330"
 title: "Iniciação à Psicologia Dinâmica"
 author_name: [unknown author]
 publisher: [Atlântida Editora]

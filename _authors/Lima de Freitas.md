@@ -1,11 +1,10 @@
 ---
 name: Lima de Freitas
-image_path:
+image_path: hero-lima-de-freitas.jpg
+image_caption: "Photo: Museu do Neorrealismo"
 rel_authors:
 rel_publishers:
 rel_tags:
-image_path: hero-lima-de-freitas.jpg
-image_caption: "Photo: Museu do Neorrealismo"
 timeline:
   [
     ["1927", "Born in Setúbal, Portugal."],

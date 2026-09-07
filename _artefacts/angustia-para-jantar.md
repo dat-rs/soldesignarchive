@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "302"
+ref_id: "0302"
 title: Angústia para o Jantar
 author_name: [Paulo-Guilherme]
 publisher: [Edições Ática]

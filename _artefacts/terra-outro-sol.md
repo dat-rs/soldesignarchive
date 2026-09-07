@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "281"
+ref_id: "0281"
 title: "Há na Terra outro Sol"
 author_name: [Sebastião Rodrigues]
 publisher: [Editorial Minerva]

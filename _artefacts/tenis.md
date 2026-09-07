@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "313"
+ref_id: "0313"
 title: "O Ténis"
 author_name: [unknown author]
 publisher: [Ministério da Educação Nacional]
