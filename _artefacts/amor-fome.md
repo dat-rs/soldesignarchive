@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "331"
+ref_id: "0331"
 title: "Amor e Fome"
 author_name: [Everton]
 publisher: [Edições Melhoramentos]

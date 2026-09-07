@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "286"
+ref_id: "0286"
 title: "Sinfonia Incompleta"
 author_name: [João da Câmara Leme]
 publisher: [Portugália]

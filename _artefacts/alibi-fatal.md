@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "307"
+ref_id: "0307"
 title: O Alibi Fatal
 author_name: [Lima de Freitas]
 publisher: [Livros do Brasil]

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "296"
+ref_id: "0296"
 title: Katherine Mansfield
 author_name: [unknown author]
 publisher: [Atlântida]

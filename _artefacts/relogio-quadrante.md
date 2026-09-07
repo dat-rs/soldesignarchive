@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "323"
+ref_id: "0323"
 title: "O Relógio e o Quadrante"
 author_name: [Eugênio Hirsch]
 publisher: [Civilização Brasileira]

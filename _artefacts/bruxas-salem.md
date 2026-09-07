@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "326"
+ref_id: "0326"
 title: "As Bruxas de Salém"
 author_name: [Alves Martins]
 publisher: [Editorial Presença]

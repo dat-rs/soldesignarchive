@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "315"
+ref_id: "0315"
 title: "Lógica Dialética"
 author_name: [Sebastião Rodrigues]
 publisher: [Arcádia]

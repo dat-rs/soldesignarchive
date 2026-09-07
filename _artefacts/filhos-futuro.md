@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "308"
+ref_id: "0308"
 title: Os Filhos do Futuro
 author_name: [Lima de Freitas]
 publisher: [Livros do Brasil]
