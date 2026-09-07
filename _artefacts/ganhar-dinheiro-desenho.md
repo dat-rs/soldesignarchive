@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "285"
+ref_id: "0285"
 title: "Como Ganhar Dinheiro com o Desenho"
 author_name: [unknown author]
 publisher: [Edições de Ouro]

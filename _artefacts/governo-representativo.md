@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "287"
+ref_id: "0287"
 title: "O Governo Representativo"
 author_name: [Sebastião Rodrigues]
 publisher: [Arcádia]

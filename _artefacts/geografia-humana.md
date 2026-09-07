@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "318"
+ref_id: "0318"
 title: "Introdução à Geografia Humana"
 author_name: [Érico]
 publisher: [Zahar Editores]

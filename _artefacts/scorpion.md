@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "300"
+ref_id: "0300"
 title: Scorpion
 author_name: [Juliette Caputo, Dominique Lyon-Caen]
 publisher: [Éditions du Seuil]

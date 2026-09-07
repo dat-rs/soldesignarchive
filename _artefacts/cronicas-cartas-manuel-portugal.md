@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "290"
+ref_id: "0290"
 title: Crónicas e Cartas de Manuel de Portugal
 author_name: [Sebastião Rodrigues]
 publisher: [Ulisseia]

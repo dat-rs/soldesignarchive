@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "314"
+ref_id: "0314"
 title: "Mais Brilhante que Mil Sóis"
 author_name: [Carlos Rafael]
 publisher: [Publicações Europa-América]

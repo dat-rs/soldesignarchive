@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "283"
+ref_id: "0283"
 title: "A Caribbean Mistery"
 author_name: [unknown author]
 publisher: [Fontana Books]

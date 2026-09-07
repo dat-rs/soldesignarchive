@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "297"
+ref_id: "0297"
 title: "Questões Preliminares sobre as Ciências Sociais"
 author_name: [Alceu Saldanha Coutinho]
 publisher: [Editorial Presença]

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "292"
+ref_id: "0292"
 title: Todo o Homem é uma Guerra Civil
 author_name: [José Cândido]
 publisher: [Livraria Bertrand]

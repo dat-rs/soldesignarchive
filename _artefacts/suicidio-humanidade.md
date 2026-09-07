@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "329"
+ref_id: "0329"
 title: "O Suicídio da Humanidade"
 author_name: [unknown author]
 publisher: ["Editorial O Século"]

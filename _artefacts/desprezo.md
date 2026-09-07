@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "306"
+ref_id: "0306"
 title: O Desprezo
 author_name: [unknown artist]
 publisher: [Ulisseia]
