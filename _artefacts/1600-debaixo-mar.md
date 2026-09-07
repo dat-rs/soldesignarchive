@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "333"
+ref_id: "0333"
 title: "1600 Anos Debaixo do Mar"
 author_name: [Infante do Carmo]
 publisher: [Livros do Brasil]

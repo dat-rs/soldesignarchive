@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "282"
+ref_id: "0282"
 title: "Como Tornar-se Desenhista de Publicidade"
 author_name: [unknown author]
 publisher: [Edições de Ouro]

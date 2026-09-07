@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "298"
+ref_id: "0298"
 title: "...longe da terra"
 author_name: [Jayme Cortez]
 publisher: [Edições Melhoramentos]

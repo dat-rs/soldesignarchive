@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "291"
+ref_id: "0291"
 title: Com os Camponeses - Para uma Agricultura Moderna
 author_name: [Praxis]
 publisher: [Prelo]

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "289"
+ref_id: "0289"
 title: O Sexo e a Sociedade
 author_name: [Carlos Rafael]
 publisher: ["Publicações Europa-América"]
