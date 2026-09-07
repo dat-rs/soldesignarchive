@@ -11,7 +11,6 @@ tags: [history]
 ref_group: "030"
 ref_id: "0021"
 layout: artefact
-status: complete
 published: true
 image_count: 2
 status: wip

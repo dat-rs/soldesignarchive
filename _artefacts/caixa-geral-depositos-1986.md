@@ -3,7 +3,7 @@ ref_group: "160"
 ref_id: "0055"
 title: "Caixa Geral de Depósitos 1986"
 author_name: [unknown author]
-year: y1986 y1986
+year: y1986
 origin: Portugal
 publisher: Caixa Geral de Depósitos
 formats: [calendar, business-card]
