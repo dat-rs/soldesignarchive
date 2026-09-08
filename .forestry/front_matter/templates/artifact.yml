@@ -50,13 +50,13 @@ fields:
     default: artefact
     hidden: true
 pages:
-  - _artefacts/a-ideia-da-liberdade-no-pensamento-portugues.md
-  - _artefacts/a-mulher-e-o-desporto.md
-  - _artefacts/a-nausea.md
-  - _artefacts/a-nossa-amiga-electricidade.md
-  - _artefacts/as-vozes-da-orquestra.md
+  - _artefacts/ideia-liberdade-pensamento-portugues.md
+  - _artefacts/mulher-desporto.md
+  - _artefacts/nausea.md
+  - _artefacts/amiga-electricidade.md
+  - _artefacts/vozes-orquestra.md
   - _artefacts/eloi.md
   - _artefacts/escola-de-ferias-1.md
-  - _artefacts/escola-de-ferias.md
-  - _artefacts/origine-vita-studii-e-costumi-del-chiarissimo-dante-allighieri-poeta-fiorentino.md
+  - _artefacts/escola-ferias.md
+  - _artefacts/origine-vita-studii-costumi-chiarissimo-dante-allighieri-poeta-fiorentino.md
   - _artefacts/serranos.md
