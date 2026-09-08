@@ -15,7 +15,6 @@ status: complete
 published: true
 image_count: 12
 date_added: 2024-05-08
-batch:
 batch: /ladra/070524/brochures
 cost: "0,66"
 ---

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "299"
+ref_id: "0299"
 title: "A Construção do Socialismo na China"
 author_name: [unknown author]
 publisher: [Portucalense Editora]

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "303"
+ref_id: "0303"
 title: O Santo e o Milionário Invisível
 author_name: [Lima de Freitas]
 publisher: [Livros do Brasil]

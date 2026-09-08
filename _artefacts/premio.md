@@ -1,19 +1,17 @@
 ---
+title: O Prémio
+author_name: "João da Câmara Leme"
+year: y1965
+decade: 1960s
+origin: Portugal
+publisher: "Portugália"
+formats: [book-cover, book]
+disciplines: [graphic-design, typography, illustration]
+tags: [fiction, illustration]
 ref_group: "030"
-ref_id: "0356"
-title: "O Prémio"
-author_name: ["João da Câmara Leme"]
-publisher: ["Portugália"]
-year: "y1969"
-origin: ["Portugal"]
-formats: [book, book-cover]
-disciplines: [graphic-design, illustration, typography]
-tags: ["Irving Wallace", "Contemporânea"]
+ref_id: "0013"
 layout: artefact
-status: scan
-published: false
-image_count:
-date_added: 2026-09-07
-batch: /ladra/150826/livros
-staging: true
+status: complete
+published: true
+date_added: 2022-02-05
 ---

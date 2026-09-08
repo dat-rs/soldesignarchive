@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "311"
+ref_id: "0311"
 title: Um Homem Só
 author_name: [Sebastião Rodrigues]
 publisher: [Editorial Minerva]

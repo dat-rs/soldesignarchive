@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "305"
+ref_id: "0305"
 title: Geografia Botânica
 author_name: [Sebastião Rodrigues]
 publisher: [Arcádia]

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "328"
+ref_id: "0328"
 title: "Daninoscópio"
 author_name: José Cândido
 publisher: [Livraria Bertrand]

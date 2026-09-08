@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "324"
+ref_id: "0324"
 title: "Grandes Inventores"
 author_name: [Simões Alberto]
 publisher: [Editorial Aster]

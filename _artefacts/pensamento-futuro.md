@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "317"
+ref_id: "0317"
 title: "Introdução ao Pensamento Futuro"
 author_name: [Maurício José Marchevsky]
 publisher: [Tempo Brasileiro]

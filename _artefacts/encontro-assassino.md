@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "334"
+ref_id: "0334"
 title: "Encontro com um Assassino"
 author_name: [Lima de Freitas]
 publisher: [Livros do Brasil]

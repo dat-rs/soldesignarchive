@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "312"
+ref_id: "0312"
 title: "Princípios de Economia Contemporânea 2"
 author_name: [José Cândido]
 publisher: [Difel]
