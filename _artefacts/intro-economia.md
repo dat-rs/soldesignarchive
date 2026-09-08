@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "319"
+ref_id: "0319"
 title: "Uma Introdução à Economia"
 author_name: [unknown author]
 publisher: [Editorial Inquérito]

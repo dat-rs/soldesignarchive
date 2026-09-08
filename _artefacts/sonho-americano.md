@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "322"
+ref_id: "0322"
 title: "Um Sonho Americano"
 author_name: [unknown author]
 publisher: ["Portugália"]

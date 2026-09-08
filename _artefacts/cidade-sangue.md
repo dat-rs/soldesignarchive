@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "294"
+ref_id: "0294"
 title: A Cidade e o Sangue
 author_name: [Querubim Lapa, Otelo Azinhais]
 publisher: [Ulisseia]

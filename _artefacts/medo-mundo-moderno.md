@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "316"
+ref_id: "0316"
 title: "O Medo no Mundo Moderno"
 author_name: [António Domingues]
 publisher: [Publicações Europa-América]

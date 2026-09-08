@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "310"
+ref_id: "0310"
 title: Filho de Ladrão
 author_name: [Miguel Jacobetty Rosa]
 publisher: [Publicações Europa-América]

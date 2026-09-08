@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "304"
+ref_id: "0304"
 title: A Cidadela
 author_name: [António Garcia]
 publisher: [Ulisseia]

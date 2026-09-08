@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "309"
+ref_id: "0309"
 title: Os Velhos Marinheiros
 author_name: [Dorindo Carvalho]
 publisher: [Publicações Europa-América]

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "301"
+ref_id: "0301"
 title: Bastardos do Sol
 author_name: [Victor Palla]
 publisher: [Arcádia]
