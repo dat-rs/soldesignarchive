@@ -15,4 +15,6 @@ status: complete
 published: true
 date_added: 2020-02-17
 related_posts: ["Introducing the Sol Design Archive"]
+redirect_from:
+  - /artefacts/o-navio-dentro-da-cidade/
 ---

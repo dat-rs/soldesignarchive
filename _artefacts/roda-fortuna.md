@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-05-07
+redirect_from:
+  - /artefacts/roda-da-fortuna/
 ---

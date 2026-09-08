@@ -15,4 +15,6 @@ status: onboarding
 published: false
 date_added: 2025-01-14
 batch: ladra/dossiers
+redirect_from:
+  - /artefacts/conservas-de-portugal/
 ---

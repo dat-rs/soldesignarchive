@@ -15,4 +15,6 @@ status: complete
 published: true
 date_added: 2020-01-01
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
+redirect_from:
+  - /artefacts/os-homens-e-os-outros/
 ---

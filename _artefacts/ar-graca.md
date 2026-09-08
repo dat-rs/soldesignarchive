@@ -16,6 +16,8 @@ published: true
 image_count: 2
 date_added: 2023-06-23
 batch: /porto/jun23
+redirect_from:
+  - /artefacts/ar-minha-graca/
 ---
 
 Printed in Porto by <strong>Tipografia J. R. Gonçalves</strong>.

@@ -14,4 +14,6 @@ layout: artefact
 published: true
 status: wip
 date_added: 2022-10-02
+redirect_from:
+  - /artefacts/obreiros-de-quatro-imperios/
 ---

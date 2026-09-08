@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-02-15
+redirect_from:
+  - /artefacts/a-morte-de-tristao/
 ---

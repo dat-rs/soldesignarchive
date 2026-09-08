@@ -16,4 +16,6 @@ image_count:
 date_added: 2025-02-12
 batch: jsb/selos
 layout: artefact
+redirect_from:
+  - /artefacts/shrine-of-democracy/
 ---

@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-07-04
+redirect_from:
+  - /artefacts/pecas-de-teatro-radiofonico/
 ---

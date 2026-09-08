@@ -14,6 +14,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-06-21
+redirect_from:
+  - /artefacts/madeira-festas-de-fim-do-ano/
 ---
 
 Poster stamp, or vignette, reproducing a poster commissioned by <a class="text cat-link publisher" href="/publishers/SPN/SNI/SEIT/">SNI</a> to promote the end of year festivities in <a class="text cat-link tag" href="/tags/Madeira/">Madeira</a>.

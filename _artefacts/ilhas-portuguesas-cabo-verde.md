@@ -14,6 +14,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-07-04
+redirect_from:
+  - /artefacts/as-ilhas-portuguesas-de-cabo-verde/
 ---
 
 Cover design by <a class="text cat-link author" href="/authors/Sebastião Rodrigues/">Sebastião Rodrigues</a>.

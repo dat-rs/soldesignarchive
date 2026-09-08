@@ -16,4 +16,6 @@ status: complete
 published: true
 image_count: 4
 date_added: 2022-05-16
+redirect_from:
+  - /artefacts/recital-de-piano/
 ---

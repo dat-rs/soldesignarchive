@@ -15,4 +15,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-02-22
+redirect_from:
+  - /artefacts/the-structuralists/
 ---

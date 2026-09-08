@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-06-02
+redirect_from:
+  - /artefacts/richard-the-second/
 ---

@@ -17,4 +17,6 @@ image_count: 2
 date_added: 2024-04-20
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
 batch:
+redirect_from:
+  - /artefacts/a-investigacao-orientada/
 ---

@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-10-02
+redirect_from:
+  - /artefacts/as-decimas/
 ---

@@ -14,6 +14,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-09-29
+redirect_from:
+  - /artefacts/muitas-racas-uma-nacao/
 ---
 
 This book, titled «Many Races, One Nation», puts forward one of the fundamental mythologies of Salazar's regime, in a time of mounting international pressure towards colonial powers.

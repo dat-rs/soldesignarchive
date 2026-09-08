@@ -25,4 +25,6 @@ tags:
 image_count: 2
 wip: false
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
+redirect_from:
+  - /artefacts/escola-de-ferias/
 ---

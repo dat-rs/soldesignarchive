@@ -15,6 +15,8 @@ status: complete
 published: true
 date_added: 2022-06-21
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
+redirect_from:
+  - /artefacts/a-ratoeira/
 ---
 
 Portuguese edition of <i>The Mousetrap</i>.

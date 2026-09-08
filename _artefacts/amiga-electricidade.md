@@ -25,4 +25,6 @@ ref_id: "0093"
 slug: a-nossa-amiga-electricidade
 image_count:
 wip: false
+redirect_from:
+  - /artefacts/a-nossa-amiga-electricidade/
 ---

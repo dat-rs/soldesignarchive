@@ -17,4 +17,6 @@ image_count:
 date_added: 2023-06-23
 batch: /porto/jun23
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
+redirect_from:
+  - /artefacts/o-atomo/
 ---

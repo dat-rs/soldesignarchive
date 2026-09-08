@@ -22,6 +22,8 @@ sources:
       "Carlos Fiolhais. <cite>Os livros que Rómulo de Carvalho nos deixou</cite> (2008) [pt]",
     ],
   ]
+redirect_from:
+  - /artefacts/a-descoberta-do-mundo-fisico/
 ---
 
 <p>

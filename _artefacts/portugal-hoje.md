@@ -15,4 +15,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-10-06
+redirect_from:
+  - /artefacts/portugal-de-hoje/
 ---

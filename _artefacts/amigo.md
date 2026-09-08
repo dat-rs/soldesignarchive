@@ -17,4 +17,6 @@ int_published: false
 image_count:
 date_added: 2023-06-16
 batch:
+redirect_from:
+  - /artefacts/um-amigo/
 ---
