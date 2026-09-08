@@ -14,4 +14,6 @@ layout: artefact
 published: true
 status: wip
 date_added: 2022-06-21
+redirect_from:
+  - /artefacts/almanaque-de-santa-zita-1950/
 ---

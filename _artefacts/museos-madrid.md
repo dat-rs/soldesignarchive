@@ -15,6 +15,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2020-01-01
+redirect_from:
+  - /artefacts/museos-de-madrid/
 ---
 
 Design and illustrations by J. Ruiz Navarro. Map by Francisco Espinosa. Informational brochure for tourists about Madrid's museums.<br> <br>Most likely published before 1962.

@@ -15,4 +15,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2020-01-01
+redirect_from:
+  - /artefacts/prejudices-a-selection/
 ---

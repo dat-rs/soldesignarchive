@@ -22,6 +22,8 @@ layout: artefact
 status: wip
 published: true
 date_added: 2022-05-24
+redirect_from:
+  - /artefacts/origine-vita-studii-e-costumi-del-chiarissimo-dante-allighieri-poeta-fiorentino/
 ---
 
 Fac-simile edition of the 1576 <em>editio princeps</em> of the work in Florence.

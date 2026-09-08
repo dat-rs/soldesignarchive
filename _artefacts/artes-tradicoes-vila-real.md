@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-06-01
+redirect_from:
+  - /artefacts/artes-e-tradicoes-de-vila-real/
 ---

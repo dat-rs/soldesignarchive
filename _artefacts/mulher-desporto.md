@@ -26,4 +26,6 @@ tags:
   - "Eurostile/Microgramma"
 image_count:
 wip: false
+redirect_from:
+  - /artefacts/a-mulher-e-o-desporto/
 ---

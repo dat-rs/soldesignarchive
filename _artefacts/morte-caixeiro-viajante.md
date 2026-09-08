@@ -14,6 +14,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-05-07
+redirect_from:
+  - /artefacts/morte-de-um-caixeiro-viajante/
 ---
 
 A Portuguese translation of <a class="text cat-link tag" href="/tags/Arthur Miller/">Miller</a>'s classic «Death of a Salesman».

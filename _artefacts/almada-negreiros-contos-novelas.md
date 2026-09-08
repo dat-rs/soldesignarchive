@@ -15,6 +15,8 @@ status: complete
 published: true
 date_added: 2020-01-01
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
+redirect_from:
+  - /artefacts/almada-negreiros-contos-e-novelas/
 ---
 
 Volume 1 of the complete works of José de Almada-Negreiros, featuring short stories and novellas. Cover set in <a class="text cat-link publisher" href="/tags/Kabel/">Kabel</a>.

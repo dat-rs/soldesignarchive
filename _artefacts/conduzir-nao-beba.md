@@ -15,4 +15,6 @@ status: complete
 published: true
 date_added: 2026-03-08
 batch: ladra/dossiers
+redirect_from:
+  - /artefacts/se-conduzir-nao-beba/
 ---

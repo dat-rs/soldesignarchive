@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-09-29
+redirect_from:
+  - /artefacts/o-natal-em-portugal/
 ---

@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-05-17
+redirect_from:
+  - /artefacts/a-origem-da-terra-e-dos-planetas/
 ---

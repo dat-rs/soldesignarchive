@@ -14,4 +14,6 @@ layout: artefact
 status: wip
 published: true
 date_added: 2022-05-25
+redirect_from:
+  - /artefacts/5-obras-primas-da-novela-contemporanea/
 ---

@@ -14,6 +14,8 @@ layout: artefact
 published: true
 status: wip
 date_added: 2022-10-02
+redirect_from:
+  - /artefacts/dancas-do-povo-portugues/
 ---
 
 Cover by <a class="text cat-link author" href="/authors/Marcelo de Morais/">Marcelo de Morais</a>.

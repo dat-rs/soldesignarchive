@@ -17,4 +17,6 @@ date_added: 2026-04-12
 batch: /ladra/20260411
 staging: true
 layout: artefact
+redirect_from:
+  - /artefacts/papel-embrulho-sa-costa/
 ---

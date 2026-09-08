@@ -15,6 +15,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-03-01
+redirect_from:
+  - /artefacts/la-gastronomie-en-belgique/
 ---
 
 A brochure about Belgian gastronomy. Edited on the occasion of the 1958 Brussels World Fair.

@@ -17,4 +17,6 @@ published: true
 image_count: 2
 date_added: 2023-06-16
 batch: 58/belgium/1
+redirect_from:
+  - /artefacts/bohan-sur-semois/
 ---

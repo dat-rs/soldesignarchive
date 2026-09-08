@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-03-01
+redirect_from:
+  - /artefacts/cronica-do-ghetto-de-varsovia/
 ---

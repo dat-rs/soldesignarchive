@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-02-05
+redirect_from:
+  - /artefacts/o-premio/
 ---

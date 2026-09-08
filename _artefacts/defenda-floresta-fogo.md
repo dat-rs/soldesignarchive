@@ -15,4 +15,6 @@ status: complete
 published: true
 date_added: 2025-01-14
 batch: ladra/dossiers
+redirect_from:
+  - /artefacts/defenda-a-floresta-do-fogo/
 ---

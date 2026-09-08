@@ -25,4 +25,6 @@ decade: 1950s
 tags: []
 image_count:
 wip: false
+redirect_from:
+  - /artefacts/a-nausea/
 ---

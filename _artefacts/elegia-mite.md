@@ -16,4 +16,6 @@ published: true
 image_count:
 date_added: 2025-02-11
 batch: bcndec23
+redirect_from:
+  - /artefacts/elegia-del-mite/
 ---

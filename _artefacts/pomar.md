@@ -14,6 +14,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-10-02
+redirect_from:
+  - /artefacts/o-pomar/
 ---
 
 Cover by <a class="text cat-link author" href="/authors/Fernandes Silva/">Fernandes Silva</a>.

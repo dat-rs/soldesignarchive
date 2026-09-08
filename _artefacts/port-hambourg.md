@@ -15,4 +15,6 @@ published: false
 image_count:
 date_added: 2024-05-13
 batch:
+redirect_from:
+  - /artefacts/port-de-hambourg/
 ---

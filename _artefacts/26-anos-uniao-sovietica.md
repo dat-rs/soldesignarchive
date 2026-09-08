@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-06-21
+redirect_from:
+  - /artefacts/26-anos-na-uniao-sovietica/
 ---

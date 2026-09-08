@@ -17,4 +17,6 @@ int_published: true
 image_count:
 date_added: 2024-04-21
 batch: /ladra/150423/1
+redirect_from:
+  - /artefacts/fim-de-semana-zuydcoote/
 ---

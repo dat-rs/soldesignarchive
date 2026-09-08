@@ -15,6 +15,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-05-07
+redirect_from:
+  - /artefacts/historias-de-mineiros/
 ---
 
 Portuguese neorealist Manuel do Nascimento wrote an account of the struggles of miners after having worked in a mine himself as an engineer.

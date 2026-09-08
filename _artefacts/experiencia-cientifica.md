@@ -22,6 +22,8 @@ sources:
       "Carlos Fiolhais. <cite>Os livros que António Gedeão nos deixou</cite> (2008) [pt]",
     ],
   ]
+redirect_from:
+  - /artefacts/a-experiencia-cientifica/
 ---
 
 <p>

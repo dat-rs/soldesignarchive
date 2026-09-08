@@ -15,4 +15,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-05-26
+redirect_from:
+  - /artefacts/tangos-poly-e-sua-guitarra-hawaiana/
 ---

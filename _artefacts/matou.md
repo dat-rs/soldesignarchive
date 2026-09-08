@@ -13,4 +13,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2023-03-08
+redirect_from:
+  - /artefacts/quem-matou/
 ---

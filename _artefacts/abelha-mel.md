@@ -14,4 +14,6 @@ layout: artefact
 status: wip
 published: true
 date_added: 2022-10-06
+redirect_from:
+  - /artefacts/abelha-e-mel/
 ---

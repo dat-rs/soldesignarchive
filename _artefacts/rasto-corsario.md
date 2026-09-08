@@ -15,4 +15,6 @@ status: complete
 published: true
 date_added: 2022-06-21
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
+redirect_from:
+  - /artefacts/no-rasto-do-corsario/
 ---

@@ -14,6 +14,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-06-21
+redirect_from:
+  - /artefacts/iv-congresso-internazionale-dei-medici-cattolici/
 ---
 
 Programme for the «IV International Congress of Catholic Physicians» held in Rome in 1949.

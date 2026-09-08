@@ -16,6 +16,8 @@ status: complete
 published: true
 date_added: 2022-05-07
 related_posts: ["A Working Visual Review of Portuguese Publishers' Logos"]
+redirect_from:
+  - /artefacts/sem-papas-na-lingua/
 ---
 
 Design by João Abel Manta. Photo by Eduardo Gageiro. Memoirs of Portuguese actress Beatriz Costa.

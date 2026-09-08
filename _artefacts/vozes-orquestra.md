@@ -21,4 +21,6 @@ tags:
   - Colecção Educativa
 ref_group: "030"
 ref_id: "0103"
+redirect_from:
+  - /artefacts/as-vozes-da-orquestra/
 ---

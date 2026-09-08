@@ -14,4 +14,6 @@ layout: artefact
 published: true
 status: wip
 date_added: 2022-10-01
+redirect_from:
+  - /artefacts/riquezas-da-terra-portuguesa/
 ---

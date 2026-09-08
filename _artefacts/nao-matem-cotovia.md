@@ -14,6 +14,8 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-05-17
+redirect_from:
+  - /artefacts/nao-matem-a-cotovia/
 ---
 
 Portuguese edition of <cite>To Kill a Mockingbird</cite>.

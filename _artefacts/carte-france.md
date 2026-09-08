@@ -16,4 +16,6 @@ int_published: false
 image_count:
 date_added: 2023-06-16
 batch: 58/france/1
+redirect_from:
+  - /artefacts/carte-de-france/
 ---

@@ -14,4 +14,6 @@ layout: artefact
 status: complete
 published: true
 date_added: 2022-02-17
+redirect_from:
+  - /artefacts/sofia-ou-o-fim-do-combate/
 ---

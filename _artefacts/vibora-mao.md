@@ -15,4 +15,6 @@ status: complete
 published: true
 image_count: 2
 date_added: 2022-06-21
+redirect_from:
+  - /artefacts/de-vibora-na-mao/
 ---

@@ -15,4 +15,6 @@ published: false
 image_count:
 date_added: 2025-01-12
 batch:
+redirect_from:
+  - /artefacts/brass-types-for-bookbinders/
 ---
