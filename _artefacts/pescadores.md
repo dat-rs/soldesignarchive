@@ -9,7 +9,7 @@ formats: [book, book-cover]
 disciplines: ["graphic-design", illustration]
 tags: ["literature"]
 ref_group: "030"
-ref_id: "0016"
+ref_id: "0098"
 layout: artefact
 status: complete
 published: false
