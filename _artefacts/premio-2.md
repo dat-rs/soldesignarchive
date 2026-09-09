@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0356"
 title: "O Prémio"
 author_name: ["João da Câmara Leme"]
-publisher: ["Portugália"]
+publisher: ["Portugália Editora"]
 year: "y1969"
 origin: ["Portugal"]
 formats: [book, book-cover]
@@ -18,4 +18,4 @@ batch: /ladra/150826/livros
 staging: true
 ---
 
-A later edition of <a class="text cat-link artifact" href="/artifacts/premio/">O Prémio.</a>
+A later edition of <a class="text cat-link artefact" href="/artefacts/premio/">O Prémio.</a>

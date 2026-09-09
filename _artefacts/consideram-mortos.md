@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0293"
 title: Consideram-se Mortos e Morrem
 author_name: [Luís Jardim Portela]
-publisher: [Portugália]
+publisher: ["Portugália Editora"]
 year: y19
 origin: Portugal
 formats: [book, book-cover]

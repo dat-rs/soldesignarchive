@@ -1,4 +1,0 @@
----
-name: "Portugália"
-layout: publisher
----
