@@ -3,7 +3,7 @@ title: "Four Plays"
 author_name: "unknown author"
 year: y1958
 decade: 1950s
-origin: United-States
+origin: United States
 publisher: "Grove Press"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]

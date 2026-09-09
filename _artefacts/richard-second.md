@@ -3,7 +3,7 @@ title: Richard the Second
 author_name: ["unknown author"]
 year: y1962
 decade: 1960s
-origin: united-states
+origin: "United States"
 publisher: "Washington Square Press"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]

@@ -6,7 +6,7 @@ author_name: ["unknown author"]
 publisher: ["Barclays Bank"]
 year: "y1965"
 decade: 1960s
-origin: ["United-Kingdom"]
+origin: ["United Kingdom"]
 formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:

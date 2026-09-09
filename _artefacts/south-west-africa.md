@@ -3,7 +3,7 @@ title: South West Africa
 author_name: "Massimo Vignelli"
 year: y1963
 decade: 1960s
-origin: United-States
+origin: United States
 publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]

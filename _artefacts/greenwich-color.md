@@ -5,7 +5,7 @@ title: "Greenwich in Colour"
 author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: "unknown-date"
-origin: ["United-Kingdom"]
+origin: ["United Kingdom"]
 formats: ["booklet"]
 disciplines: [graphic-design]
 tags:

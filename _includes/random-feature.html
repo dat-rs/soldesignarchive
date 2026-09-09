@@ -51,8 +51,10 @@ feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %} {% for ar
 
       <!-- Origin -->
       <div class="deet-links random-feature">
-        {% for origin in artefact.origin %}
-        <a class="deet-link origin {% if origin == 'unknown origin' %}unknown{% endif %}" href="/origins/{{ origin | escape_once | capitalize }}">{{ origin | replace: "-", " " }}</a>
+        {% for origin in artefact.origin %}{% comment %}
+          The origin's own url, not one guessed from its name - see artefact-deets.html.
+        {% endcomment %}{% assign origin_page = site.origins | where: 'name', origin | first %}{% capture origin_fallback %}/origins/{{ origin | escape_once }}/{% endcapture %}
+        <a class="deet-link origin {% if origin == 'Unknown Origin' %}unknown{% endif %}" href="{{ origin_page.url | default: origin_fallback }}">{{ origin | replace: "-", " " }}</a>
         {% endfor %}
       </div>
 

@@ -15,3 +15,5 @@ status: complete
 published: true
 date_added: 2022-02-05
 ---
+
+You can see a previous edition of this book here: <a class="text cat-link artifact" href="/artifacts/premio/">O Prémio.</a>

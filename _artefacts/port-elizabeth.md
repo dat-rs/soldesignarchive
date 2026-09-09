@@ -5,7 +5,7 @@ title: "Port Elizabeth. For Home or Holiday"
 author_name: ["unknown author"]
 publisher: ["South African Railways Airways and Harbours"]
 year: "unknown-date"
-origin: ["South-Africa"]
+origin: ["South Africa"]
 formats: ["brochure"]
 disciplines: [graphic-design]
 tags:

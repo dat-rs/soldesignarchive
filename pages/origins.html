@@ -15,14 +15,12 @@ page-meta-image=page.image %} {% assign pub_artefacts = site.artefacts | where: 
       </div>
     </div>
     <div class="col-12 col-sm-9 col-md-4 datum-right-col allcats-big-short">
-      {% for origin in site.origins %} {% assign filtered_artefacts = pub_artefacts | where: 'origin', origin.name
-      |sort: 'year' %} {% assign one_artefact = filtered_artefacts | slice: 0, 1 %} {% assign number =
-      filtered_artefacts.size | divided_by: 2 %}
+      {% assign pub_origins = site.origins | where: 'published', true %} {% for origin in pub_origins %} {% assign
+      filtered_artefacts = pub_artefacts | where: 'origin', origin.name |sort: 'year' %} {% assign one_artefact =
+      filtered_artefacts | slice: 0, 1 %} {% assign number = filtered_artefacts.size | divided_by: 2 %}
       <div class="allcat big {% if forloop.first == true %}first{% endif %} text-wrap">
         <a id="{{ origin.name }}" class="title allcat-item origin capitalize text-wrap" href="{{ origin.url }}"
-          >{{ origin.name | remove_first: " " | replace: "-", " " }}<span class="cat-count origin"
-            >[{{ filtered_artefacts.size }}]</span
-          ></a
+          >{{ origin.name | replace: "-", " " }}<span class="cat-count origin">[{{ filtered_artefacts.size }}]</span></a
         >
       </div>
       {% endfor %}
@@ -37,8 +35,7 @@ page-meta-image=page.image %} {% assign pub_artefacts = site.artefacts | where: 
             <img
               class="a-module-img"
               src="/images/sm/sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }}-{{ filtered_artefacts[number].slug }}-sm.jpg"
-              alt=""
-            />
+              alt="" />
           </div>
         </figure>
       </div>

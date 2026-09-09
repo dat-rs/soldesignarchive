@@ -3,7 +3,7 @@ title: "Managerial Economics"
 author_name: "B.E. Rockett"
 year: y1968
 decade: 1960s
-origin: United-Kingdom
+origin: United Kingdom
 publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography]

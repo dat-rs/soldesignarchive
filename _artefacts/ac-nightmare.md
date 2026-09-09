@@ -3,7 +3,7 @@ title: "The Air-Conditioned Nightmare"
 author_name: ["unknown author"]
 year: y1965
 decade: 1960s
-origin: United-States
+origin: United States
 publisher: "Panther Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration, collage]

@@ -5,7 +5,7 @@ title: "La Historia Ilustrada Follet de Los Trenes"
 author_name: ["unknown author"]
 publisher: ["Wilcox & Follett Company"]
 year: unknown-date
-origin: United-States
+origin: United States
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
 tags: [trains]
