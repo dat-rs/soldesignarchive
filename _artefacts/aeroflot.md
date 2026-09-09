@@ -3,7 +3,7 @@ title: "Aeroflot"
 author_name: "unknown author"
 year: y1976
 decade: 1970s
-origin: Soviet-Union
+origin: Soviet Union
 publisher: "Aeroflot"
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]

@@ -3,7 +3,7 @@ title: The Ancient World
 author_name: ["Bruce Robertson"]
 year: y1964
 decade: 1960s
-origin: United-Kingdom
+origin: United Kingdom
 publisher: "Penguin Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]

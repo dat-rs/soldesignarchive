@@ -3,7 +3,7 @@ title: "How to Deep Freeze"
 author_name: ["unknown author"]
 year: y1971
 decade: 1970s
-origin: "unknown origin"
+origin: "Unknown Origin"
 publisher: "unknown publisher"
 formats: [booklet]
 disciplines: ["graphic-design", typography, illustration]

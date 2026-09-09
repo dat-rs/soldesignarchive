@@ -3,7 +3,7 @@ title: St. Mawr and The Man who Died
 author_name: "Leo Lionni"
 year: y1953
 decade: 1950s
-origin: United-States
+origin: United States
 publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]

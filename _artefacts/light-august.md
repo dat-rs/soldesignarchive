@@ -3,7 +3,7 @@ title: "Light in August"
 author_name: ["André François"]
 year: y1964
 decade: 1960s
-origin: United-Kingdom
+origin: United Kingdom
 publisher: "Penguin Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]

@@ -6,7 +6,7 @@ author_name: [unknown author]
 publisher: [United States Postal Service]
 year: y1971
 decade: 1970s
-origin: United-States
+origin: United States
 formats: [stamp]
 disciplines: [graphic-design, typography, illustration]
 tags:
@@ -17,4 +17,5 @@ date_added: 2025-02-12
 batch: jsb/selos/1
 layout: artefact
 ---
+
 C81 21¢ USA and Jet stamp. Plate number 33279.

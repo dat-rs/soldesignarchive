@@ -3,7 +3,7 @@ title: The Wisdom of the Heart
 author_name: "Chermayeff & Geismar"
 year: y1960
 decade: 1960s
-origin: United-States
+origin: United States
 publisher: "New Directions"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]

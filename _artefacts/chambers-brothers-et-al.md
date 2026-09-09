@@ -5,7 +5,7 @@ title: "Chambers Brothers. Quicksilver Messenger Service. Sandy Bull"
 author_name: [Wes Wilson]
 publisher: [Bill Graham]
 year: y1967
-origin: United-States
+origin: United States
 formats: [poster]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags:

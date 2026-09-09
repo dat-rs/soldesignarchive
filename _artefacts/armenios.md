@@ -6,7 +6,7 @@ author_name: ["Vicente Martins"]
 publisher: ["unknown publisher"]
 year: "y1973"
 decade: 1970s
-origin: ["Portugal, United-Kingdom"]
+origin: ["Portugal", "United Kingdom"]
 formats: ["book, book-cover, document"]
 disciplines: [graphic-design]
 tags:

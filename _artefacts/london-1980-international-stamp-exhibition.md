@@ -3,7 +3,7 @@ title: "London 1980 International Stamp Exhibition Catalogue"
 author_name: "Jeffrey Matthews"
 year: "y1980"
 decade: 1980s
-origin: United-Kingdom
+origin: United Kingdom
 publisher: "London 1980 International Stamp Exhibition"
 formats: [book-cover, book, catalogue]
 disciplines: [graphic-design, typography, illustration]

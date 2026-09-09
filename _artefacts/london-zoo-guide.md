@@ -6,7 +6,7 @@ author_name: ["unknown author"]
 publisher: ["The Zoological Society of London"]
 year: "y1970"
 decade: 1970s
-origin: ["United-Kingdom"]
+origin: ["United Kingdom"]
 formats: ["booklet"]
 disciplines: [graphic-design]
 tags:

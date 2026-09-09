@@ -3,7 +3,7 @@ title: Bird in the Bush
 author_name: ["Donn DeVita", "Stefan Salter"]
 year: y1959
 decade: 1950s
-origin: United-States
+origin: United States
 publisher: "New Directions"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
