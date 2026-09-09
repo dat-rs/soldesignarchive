@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "342"
 title: "Pirata"
 author_name: [João da Câmara Leme]
-publisher: [Portugália]
+publisher: ["Portugália Editora"]
 year: y1971
 origin: Portugal
 formats: [book, book-cover]

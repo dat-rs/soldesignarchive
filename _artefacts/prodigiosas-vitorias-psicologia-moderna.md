@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0359"
 title: "As Prodigiosas Vitórias da Psicologia Moderna"
 author_name: []
-publisher: ["Portugália"]
+publisher: ["Portugália Editora"]
 year: "y1968"
 origin: ["Belgium"]
 formats: [book, book-cover]

@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "335"
 title: "Os Vinte Anos de Rosa"
 author_name: [João da Câmara Leme]
-publisher: [Portugália]
+publisher: ["Portugália Editora"]
 year: y1964
 origin: Portugal
 formats: [book, book-cover]

@@ -4,7 +4,7 @@ author_name: "Tóssan"
 year: y1959
 decade: 1950s
 origin: Portugal
-publisher: "Portugália"
+publisher: ["Portugália Editora"]
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: ["Gil Vicente", "António José Saraiva", theatre]

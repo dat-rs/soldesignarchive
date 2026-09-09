@@ -4,7 +4,7 @@ author_name: ["João da Câmara Leme"]
 year: y1964
 decade: 1960s
 origin: Portugal
-publisher: "Portugália"
+publisher: ["Portugália Editora"]
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: ["Fernão Mendes Pinto", "Branquinho da Fonseca", "Biblioteca dos Rapazes"]

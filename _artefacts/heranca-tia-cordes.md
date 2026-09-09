@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "343"
 title: "Herança da Tia Cordes"
 author_name: [João da Câmara Leme]
-publisher: [Portugália]
+publisher: ["Portugália Editora"]
 year: y1968
 origin: Portugal
 formats: [book, book-cover]

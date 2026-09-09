@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "338"
 title: "Boas Esposas"
 author_name: [João da Câmara Leme]
-publisher: [Portugália]
+publisher: ["Portugália Editora"]
 year: y1957
 origin: Portugal
 formats: [book, book-cover]
