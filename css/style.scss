@@ -2146,8 +2146,15 @@ i.bi-archive::before {
    and .a-filter-label are shared with the back office
    (sub-header-backoffice-status.html), which is still on a dark ground, so
    these must not leak out. */
-.artefacts-sidebar {
+/* The ground sits on the column, not on .artefacts-sidebar, so it runs the
+   full height of the grid beside it. The row is a flex container, so the
+   column already stretches; the sidebar content inside it stays sticky and
+   scrolls away only once the grid runs out. */
+.artefacts-sidebar-col {
   background-color: $off-2;
+}
+
+.artefacts-sidebar {
   color: black;
   padding: 10px 12px 16px;
 
