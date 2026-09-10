@@ -22,7 +22,7 @@ disciplines:
 tags: []
 ref_group: "030"
 ref_id: "0093"
-slug: a-nossa-amiga-electricidade
+slug: amiga-electricidade
 image_count:
 wip: false
 redirect_from:
