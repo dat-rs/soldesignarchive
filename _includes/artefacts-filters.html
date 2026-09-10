@@ -2,7 +2,7 @@
   <!-- Same box shape as the filter groups below, but deliberately outside
        #artefacts-filters: that container's change handler expects checkboxes
        and reads data-group off them. -->
-  <div class="filter-group top-border dashed search-group">
+  <div class="filter-group search-group">
     <h3 class="section-title artefacts-filter">Search</h3>
     <!-- A textarea, not an input: <input> is single-line by definition, so
          its placeholder clips rather than wrapping. rows=2 gives the text
@@ -53,17 +53,14 @@
 
     <div class="filter-group top-border dashed" data-group="disciplines">
       <h3 class="section-title artefacts-filter">How?</h3>
-      {%- for discipline in site.disciplines -%}
-      <input
+      {%- for discipline in site.disciplines -%}<input
         type="checkbox"
         value=".{{ discipline.name }}"
         class="btn-check filter artefacts"
         id="filter-{{ discipline.name }}"
-        autocomplete="off" />
-      <label class="btn a-filter-label" for="filter-{{ discipline.name }}">
-        {{- discipline.name | replace: "-", " " -}}
-      </label>
-      {%- endfor -%}
+        autocomplete="off" /><label class="btn a-filter-label" for="filter-{{ discipline.name }}">
+        {{- discipline.name | replace: "-", " " -}} </label
+      >{%- endfor -%}
     </div>
   </div>
 </div>
