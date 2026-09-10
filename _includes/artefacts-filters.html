@@ -1,60 +1,56 @@
 <div class="artefacts-sidebar">
-  <div id="artefacts-search">
-    <div class="outer-search">
-      <input type="text" class="quicksearch artefacts" placeholder="Search (Titles/Authors)" />
-    </div>
+  <!-- Same box shape as the filter groups below, but deliberately outside
+       #artefacts-filters: that container's change handler expects checkboxes
+       and reads data-group off them. -->
+  <div class="filter-group top-border dashed search-group">
+    <h3 class="section-title artefacts-filter">Search</h3>
+    <input type="text" class="quicksearch artefacts" placeholder="e.g. Victor Palla or Almanaque" />
   </div>
 
   <!-- #artefacts-filters must stay the single wrapper around every group:
        scripts-artefacts.html binds change/click to it, and reads the group
        name off the closest .filter-group[data-group]. -->
   <div id="artefacts-filters">
-    <div class="filter-group top-border first-filter-group" data-group="types">
+    <div class="filter-group top-border dashed" data-group="types">
       <h3 class="section-title artefacts-filter">What?</h3>
-      {% for format in site.formats %}
+      {%- for format in site.formats -%}
       <input
         type="checkbox"
         value=".{{ format.name }}"
         class="btn-check filter artefacts"
         id="filter-{{ format.name }}"
-        autocomplete="off" /><label class="btn a-filter-label" for="filter-{{ format.name }}">
-        {{ format.name | replace: "-", " " }} <br />
-      </label>
-      {% endfor %}
+        autocomplete="off" /><label class="btn a-filter-label" for="filter-{{ format.name }}"
+        >{{- format.name | replace: "-", " " -}}</label
+      >{%- endfor -%}
     </div>
 
-    <div class="filter-group top-border" data-group="years">
+    <div class="filter-group top-border dashed" data-group="years">
       <h3 class="section-title artefacts-filter">When?</h3>
-      {% assign decades = "1890s,1920s,1930s,1940s,1950s,1960s,1970s,1980s,1990s" | split: "," %}
-      {% for decade in decades %}
-      <input
+      {%- assign decades = "1890s,1920s,1930s,1940s,1950s,1960s,1970s,1980s,1990s" | split: "," -%} {%- for decade in
+      decades -%}<input
         type="checkbox"
         value=".{{ decade }}"
         class="btn-check filter artefacts"
         id="filter-{{ decade }}"
-        autocomplete="off" />
-      <label class="btn a-filter-label" for="filter-{{ decade }}">{{ decade }}</label>
-      {% endfor %}
+        autocomplete="off" /><label class="btn a-filter-label" for="filter-{{ decade }}">{{ decade }}</label>{%- endfor
+      -%}
     </div>
 
-    <div class="filter-group top-border" data-group="origins">
+    <div class="filter-group top-border dashed" data-group="origins">
       <h3 class="section-title artefacts-filter">Where?</h3>
-      {% for origin in site.origins %}
-      <input
+      {%- for origin in site.origins -%}<input
         type="checkbox"
         value=".{{ origin.name }}"
         class="btn-check filter artefacts"
         id="filter-{{ origin.name }}"
-        autocomplete="off" />
-      <label class="btn a-filter-label" for="filter-{{ origin.name }}">
-        {{ origin.name | replace: "-", " " }} <br />
-      </label>
-      {% endfor %}
+        autocomplete="off" /><label class="btn a-filter-label" for="filter-{{ origin.name }}">
+        {{- origin.name | replace: "-", " " -}} </label
+      >{%- endfor -%}
     </div>
 
-    <div class="filter-group top-border" data-group="disciplines">
+    <div class="filter-group top-border dashed" data-group="disciplines">
       <h3 class="section-title artefacts-filter">How?</h3>
-      {% for discipline in site.disciplines %}
+      {%- for discipline in site.disciplines -%}
       <input
         type="checkbox"
         value=".{{ discipline.name }}"
@@ -62,9 +58,9 @@
         id="filter-{{ discipline.name }}"
         autocomplete="off" />
       <label class="btn a-filter-label" for="filter-{{ discipline.name }}">
-        {{ discipline.name | replace: "-", " " }} <br />
+        {{- discipline.name | replace: "-", " " -}}
       </label>
-      {% endfor %}
+      {%- endfor -%}
     </div>
   </div>
 </div>
