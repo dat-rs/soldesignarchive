@@ -1880,7 +1880,7 @@ h3.section-title {
     color: $off-1;
     letter-spacing: 0px;
     padding-top: 6px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
   }
 
   &.allcats {
@@ -2194,13 +2194,22 @@ i.bi-archive::before {
     color: $blue;
   }
 
-  /* The whole box below the label is the field. */
-  .search-group input.quicksearch {
+  /* The whole box below the label is the field. It is a textarea so the
+     text wraps instead of clipping, which also means the global
+     input.quicksearch type selector misses it -- restate the type here. */
+  .search-group .quicksearch {
+    display: block;
     width: 100%;
     padding-left: 0px;
     border: 0;
     background-color: transparent;
     color: black;
+    font-family: $paratext, sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.35;
+    resize: none;
+    overflow: hidden;
 
     &::placeholder {
       color: rgba(0, 0, 0, 0.45);
