@@ -3,7 +3,7 @@ title: "Love and the Spanish"
 author_name: "André François"
 year: y1964
 decade: 1960s
-origin: United-Kingdom
+origin: United Kingdom
 publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]

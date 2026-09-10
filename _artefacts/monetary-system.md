@@ -3,7 +3,7 @@ title: Monetary System
 author_name: Alvin Lustig
 year: y1972
 decade: 1970s
-origin: United-Kingdom
+origin: United Kingdom
 publisher: "Penguin Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]

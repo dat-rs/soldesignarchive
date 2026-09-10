@@ -6,7 +6,7 @@ author_name: ["Alvin Lustig"]
 publisher: ["Meridian Books"]
 year: "y1956"
 decade: 1950s
-origin: ["United-States"]
+origin: ["United States"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
 tags: [psychology, non-fiction, Carl Jung]

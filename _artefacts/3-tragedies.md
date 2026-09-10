@@ -6,7 +6,7 @@ author_name: Alvin Lustig
 publisher: "New Directions"
 year: y1955
 decade: 1950s
-origin: United-States
+origin: United States
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [fiction, theatre, "Garcia Lorca"]

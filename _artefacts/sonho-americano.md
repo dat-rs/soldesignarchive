@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0322"
 title: "Um Sonho Americano"
 author_name: [unknown author]
-publisher: ["Portugália"]
+publisher: ["Portugália Editora"]
 year: y1968
 origin: Portugal
 formats: [book-cover, book]

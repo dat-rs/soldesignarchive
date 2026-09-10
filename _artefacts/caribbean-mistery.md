@@ -5,7 +5,7 @@ title: "A Caribbean Mistery"
 author_name: [unknown author]
 publisher: [Fontana Books]
 year: y1966
-origin: United-Kingdom
+origin: United Kingdom
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
 tags: [Agatha Christie]

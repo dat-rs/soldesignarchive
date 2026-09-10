@@ -3,7 +3,7 @@ title: "The Stranger"
 author_name: "Leo Lionni"
 year: y1959
 decade: 1950s
-origin: United-States
+origin: United States
 publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
