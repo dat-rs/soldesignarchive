@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "341"
+ref_id: "0341"
 title: "Os Caçadores de Mamutes"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]

@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "336"
+ref_id: "0336"
 title: "Uma Rapariga da Montanha"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]

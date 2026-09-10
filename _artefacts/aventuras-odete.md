@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "340"
+ref_id: "0340"
 title: "Aventuras de Odete"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]

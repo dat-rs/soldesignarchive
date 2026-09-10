@@ -2,13 +2,10 @@
 name: "Sebastião Rodrigues"
 image_path: hero-sebastiao-rodrigues.jpg
 image_caption: "Photo: Facebook Sebastião Rodrigues"
-rel_authors:
-rel_publishers:
-rel_tags:
 layout: author
 published: true
-related_authors: ["João da Câmara Leme", "João Abel Manta"]
-related_publishers:
+rel_authors: ["João da Câmara Leme", "João Abel Manta"]
+rel_publishers:
   [
     "Fundação Calouste Gulbenkian",
     "SPN/SNI/SEIT",
@@ -18,7 +15,7 @@ related_publishers:
     "Editorial Técnica e Artística",
     "Livraria Morais Editora",
   ]
-related_tags: ["Almanaque", "Os Livros das Três Abelhas"]
+rel_tags: ["Almanaque", "Os Livros das Três Abelhas"]
 timeline: [
     ["1929", "Born in Dafundo, Lisbon, Portugal."],
     [
