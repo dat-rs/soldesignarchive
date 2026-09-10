@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "345"
+ref_id: "0345"
 title: "Um Homem na América"
 author_name: ["Victor Palla"]
 publisher: ["Arcádia"]

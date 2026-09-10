@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "338"
+ref_id: "0338"
 title: "Boas Esposas"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]

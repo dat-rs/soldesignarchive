@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "339"
+ref_id: "0339"
 title: "Oito Primos"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]

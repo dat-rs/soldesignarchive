@@ -1,4 +1,4 @@
 ---
-name: "Unknown Publisher"
+name: "Pelican"
 layout: publisher
 ---
