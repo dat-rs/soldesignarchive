@@ -2158,6 +2158,27 @@ i.bi-archive::before {
      width of the column; the inset moves onto .filter-group below. */
   padding-left: 0px;
   padding-right: 0px;
+
+  /* .left-col-fixed's own offsets (76-95px) assume a page title sits above
+     the sticky block, as on the other category pages. Here the sidebar is
+     the first thing in the column, so those values pin it below its own
+     resting position and leave a gap above Search until the first scroll.
+     Match the offset to where the content actually starts: the header
+     height the column is already pushed down by, plus its top padding. */
+  .left-col-fixed {
+    @media (min-width: 576px) {
+      top: calc(#{$header-height-sm} + 8px);
+    }
+    @media (min-width: 768px) {
+      top: calc(#{$header-height-md} + 8px);
+    }
+    @media (min-width: 992px) {
+      top: calc(#{$header-height-lg} + 8px);
+    }
+    @media (min-width: 1200px) {
+      top: calc(#{$header-height-xl} + 8px);
+    }
+  }
 }
 
 /* Scoped to .artefacts-sidebar on purpose: #artefacts-filters,
