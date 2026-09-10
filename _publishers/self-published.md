@@ -1,4 +1,4 @@
 ---
-name: self-published
+name: "Self-Published"
 layout: publisher
 ---

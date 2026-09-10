@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "342"
+ref_id: "0342"
 title: "Pirata"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]

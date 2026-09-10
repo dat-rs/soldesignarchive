@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0327"
 title: "A Vida em Casal"
 author_name: [Anne-Marie de Riemaecker]
-publisher: [self-published]
+publisher: [Self-Published]
 year: unknown-date
 origin: Portugal
 formats: [book-cover, book]

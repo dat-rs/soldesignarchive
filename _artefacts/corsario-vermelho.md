@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "344"
+ref_id: "0344"
 title: "O Corsário Vermelho"
 author_name: [unknown author]
 publisher: [Amigos do Livro]

@@ -16,4 +16,4 @@ published: true
 date_added: 2022-05-25
 ---
 
-Small self-published book of poems by João Abel.
+Small Self-Published book of poems by João Abel.

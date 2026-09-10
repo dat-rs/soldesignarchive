@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "335"
+ref_id: "0335"
 title: "Os Vinte Anos de Rosa"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]
