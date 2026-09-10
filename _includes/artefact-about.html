@@ -30,8 +30,10 @@ A {% for publisher in page.publisher %}<a class="deet-link publisher" href="/pub
     </div>
     <div class="datum-row">
       <span class="deet-label origin">Origin{% if page.origin.size > 1 %}s{% endif %}</span>
-      {% for origin in page.origin %}
-      <a class="deet-link origin" href="/origins/{{ origin | escape_once }}">{{ origin | replace: "-", " " }}</a>
+      {% for origin in page.origin %}{% comment %}
+        The origin's own url, not one guessed from its name - see artefact-deets.html.
+      {% endcomment %}{% assign origin_page = site.origins | where: 'name', origin | first %}{% capture origin_fallback %}/origins/{{ origin | escape_once }}/{% endcapture %}
+      <a class="deet-link origin" href="{{ origin_page.url | default: origin_fallback }}">{{ origin | replace: "-", " " }}</a>
       {% endfor %}
       <br>
     </div>

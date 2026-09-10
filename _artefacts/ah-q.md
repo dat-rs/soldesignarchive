@@ -4,7 +4,7 @@ author_name: ["João da Câmara Leme"]
 year: y1960
 decade: 1960s
 origin: Portugal
-publisher: "Portugália"
+publisher: ["Portugália Editora"]
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]
 tags: [fiction, "Lu Xun", "O Livro de Bolso"]

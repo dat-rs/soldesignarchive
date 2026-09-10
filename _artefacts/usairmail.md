@@ -6,7 +6,7 @@ author_name: [unknown author]
 publisher: ["United States Postal Service"]
 year: y1976
 decade: 1970s
-origin: United-States
+origin: United States
 formats: [stamp]
 disciplines: [graphic-design, typography, illustration]
 tags:

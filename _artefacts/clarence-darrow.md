@@ -3,7 +3,7 @@ title: "Clarence Darrow. For the Defense"
 author_name: ["unknown author"]
 year: y1961
 decade: 1960s
-origin: United-States
+origin: United States
 publisher: "Bantam Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration]

@@ -1,4 +1,4 @@
 ---
-name: "Portugália"
+name: "Clássica Editora"
 layout: publisher
 ---

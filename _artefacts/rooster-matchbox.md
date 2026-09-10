@@ -5,7 +5,7 @@ title: "rooster cyrilic matchbox"
 author_name: ["unknown authors"]
 publisher: ["unknown publisher"]
 year: y19
-origin: unknown-origin
+origin: Unknown Origin
 formats: [matchbox]
 disciplines: [graphic-design, illustration]
 tags:

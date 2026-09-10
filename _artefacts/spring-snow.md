@@ -6,7 +6,7 @@ author_name: null
 publisher: ["Penguin Books"]
 year: "y1976"
 decade: 1970s
-origin: ["United-States"]
+origin: ["United States"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
 tags:

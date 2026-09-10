@@ -1,0 +1,63 @@
+# Builds the site with the repo's own Gemfile and deploys it to GitHub
+# Pages. The alternative - Pages' built-in "legacy" builder - runs the
+# github-pages gem, which pins Jekyll 3.10 and only allows plugins from
+# its own list. This site is on Jekyll 4.2.1, so that builder could not
+# resolve the Gemfile and every build since April 2026 failed.
+#
+# Requires Settings -> Pages -> Build and deployment -> Source:
+# "GitHub Actions". The CNAME file in the repo root carries the custom
+# domain through, as it did before.
+
+name: Build and deploy the site
+
+on:
+  push:
+    branches: [main]
+  # So a failed deploy can be re-run without an empty commit.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never deploy two builds at once, but don't cancel one in flight - a
+# half-deployed site is worse than a slightly stale one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          # Matches the Ruby the site is developed against, so a build
+          # here fails for the same reasons it would fail locally.
+          ruby-version: "3.1.3"
+          bundler-cache: true
+
+      - uses: actions/configure-pages@v5
+
+      # JEKYLL_ENV=production is what makes jekyll-seo-tag and
+      # jekyll-feed emit real URLs rather than localhost ones.
+      - run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

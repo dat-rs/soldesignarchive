@@ -4,7 +4,7 @@ author_name: "António Garcia"
 year: y1961
 decade: 1960s
 origin: Portugal
-publisher: "Portugália"
+publisher: ["Portugália Editora"]
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [fiction, "Lawrence Durrell"]

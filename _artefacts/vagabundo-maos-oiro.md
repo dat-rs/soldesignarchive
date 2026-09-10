@@ -4,7 +4,7 @@ author_name: "João da Câmara Leme"
 year: y1962
 decade: 1960s
 origin: Portugal
-publisher: "Portugália"
+publisher: ["Portugália Editora"]
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [illustration, "Romeu Correia", theatre, "O Livro de Bolso"]

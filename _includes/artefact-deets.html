@@ -40,8 +40,14 @@
       <span class="deet-label origin">Origin{% if page.origin.size > 1 %}s{% endif %}</span>
     </div>
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
-      {% for origin in page.origin %}
-      <a class="deet-link origin {% if origin == 'unknown origin' %}unknown{% endif %}" href="/origins/{{ origin | escape_once | capitalize }}">{{ origin | replace: "-", " " }}</a>
+      {% for origin in page.origin %}{% comment %}
+        An artefact stores the origin's name, but the page lives at a URL built
+        from its filename - "United States" is served from /origins/United States/.
+        So look the document up and use its own url; guessing at the URL from the
+        name gets the case wrong. Falls back to a well-formed guess for an origin
+        that has no file yet.
+      {% endcomment %}{% assign origin_page = site.origins | where: 'name', origin | first %}{% capture origin_fallback %}/origins/{{ origin | escape_once }}/{% endcapture %}
+      <a class="deet-link origin {% if origin == 'Unknown Origin' %}unknown{% endif %}" href="{{ origin_page.url | default: origin_fallback }}">{{ origin | replace: "-", " " }}</a>
       {% endfor %}
     </div>
   </div>

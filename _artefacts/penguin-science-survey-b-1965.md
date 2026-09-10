@@ -6,7 +6,7 @@ author_name: ["F.H.K. Henrion"]
 publisher: ["Penguin Books"]
 year: "y1965"
 decade: 1960s
-origin: ["United-Kingdom"]
+origin: ["United Kingdom"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
 tags:

@@ -1,4 +1,4 @@
 ---
-name: Soviet-Union
+name:
 layout: origin
 ---

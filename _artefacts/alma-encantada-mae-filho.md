@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0243"
 title: "Alma Encantada. Mãe e Filho"
 author_name: ["João da Câmara Leme"]
-publisher: ["Portugália"]
+publisher: ["Portugália Editora"]
 year: y1956
 decade: 1950s
 origin: ["Portugal"]

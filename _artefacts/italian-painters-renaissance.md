@@ -6,7 +6,7 @@ author_name: ["Elaine Lustig Cohen"]
 publisher: ["Meridian Books"]
 year: "y1957"
 decade: 1950s
-origin: ["United-States"]
+origin: ["United States"]
 formats: ["book-cover"]
 disciplines: [graphic-design]
 tags:
