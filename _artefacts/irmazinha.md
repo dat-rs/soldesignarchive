@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "337"
+ref_id: "0337"
 title: "A Irmazinha"
 author_name: [João da Câmara Leme]
 publisher: ["Portugália Editora"]

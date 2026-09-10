@@ -1,4 +1,4 @@
 ---
-name: "Unknown Publisher"
+name: Diabril
 layout: publisher
 ---

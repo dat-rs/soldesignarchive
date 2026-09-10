@@ -1,6 +1,6 @@
 ---
 ref_group: "030"
-ref_id: "346"
+ref_id: "0346"
 title: "História da OAS na Argélia"
 author_name: []
 publisher: ["Seara Nova"]

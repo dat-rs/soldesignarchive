@@ -4,7 +4,7 @@ author_name: ["Paulo-Guilherme"]
 year: y1962
 decade: 1960s
 origin: Portugal
-publisher: "J.M. Boavida-Portugal"
+publisher: "Self-Published"
 formats: [booklet, book-cover]
 disciplines: ["graphic-design", typography]
 tags: [non-fiction, "João Pereira da Rosa"]
