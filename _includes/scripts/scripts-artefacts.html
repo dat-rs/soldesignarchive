@@ -1,6 +1,10 @@
+<!-- Full build, not slim: jQuery 4's slim build drops the callbacks/deferred
+     module, and imagesLoaded does `new jQuery.Deferred` in its constructor
+     whenever jQuery is on the page, so slim breaks it outright. The minified
+     full build is also smaller than the unminified slim file this replaced. -->
 <script
-  src="https://code.jquery.com/jquery-4.0.0.slim.js"
-  integrity="sha256-M+GjhMBfXikM1izMplICCTscIj5hzPCp6uDzaypxtgg="
+  src="https://code.jquery.com/jquery-4.0.0.min.js"
+  integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
   crossorigin="anonymous"></script>
 
 <script src="/js/isotope.pkgd.min.js"></script>
@@ -110,22 +114,25 @@
       };
     }
 
-    // layout Isotope after each image loads
-    $container.imagesLoaded().progress(function () {
+    // Re-layout Isotope as images arrive.
+    //
+    // This requires the FULL jQuery build (see the script tag above).
+    // imagesLoaded runs `this.jqDeferred = new jQuery.Deferred` in its
+    // constructor whenever jQuery is on the page -- the vanilla API does it
+    // too, not just the $.fn bridge -- and jQuery 4's slim build has no
+    // Deferred. On slim it therefore throws immediately, no re-layout ever
+    // happens, and the grid stays stacked in one column until a reload
+    // serves the images from cache.
+    //
+    // Debounced, because relayouting on all ~450 progress events is O(n^2).
+    var relayout = debounce(function () {
       $container.isotope("layout");
-    });
-  });
+    }, 100);
 
-  $(window).load(function () {
-    // All images, css style sheets and external resources are loaded!
-    $container.imagesLoaded().progress(function () {
-      $container.isotope("layout");
-    });
-  });
-  $(window).load(function () {
-    // All images, css style sheets and external resources are loaded!
-    $container.imagesLoaded().progress(function () {
-      $container.isotope("layout");
-    });
+    imagesLoaded($container[0])
+      .on("progress", relayout)
+      .on("always", function () {
+        $container.isotope("layout");
+      });
   });
 </script>
