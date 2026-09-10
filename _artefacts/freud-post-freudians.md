@@ -14,6 +14,6 @@ status: scan
 published: false
 image_count:
 date_added: 2026-09-09
-batch: /bagageirabenfica/300826
+batch: /bagageirabenfica/20260830
 staging: true
 ---
