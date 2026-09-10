@@ -41,10 +41,19 @@
     // use value of search field to filter
     var $quicksearch = $(".quicksearch").keyup(
       debounce(function () {
-        qsRegex = new RegExp($quicksearch.val(), "gi");
+        // The field is a textarea so its placeholder can wrap, so strip any
+        // newlines before they reach the regex.
+        qsRegex = new RegExp($quicksearch.val().replace(/\s+/g, " ").trim(), "gi");
         $container.isotope();
       }, 200),
     );
+
+    // Enter would insert a line break in a textarea; nothing here submits.
+    $quicksearch.on("keydown", function (event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+      }
+    });
     // do stuff when checkbox change
     $("#artefacts-filters").on("change", function (event) {
       var checkbox = event.target;

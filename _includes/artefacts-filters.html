@@ -4,7 +4,10 @@
        and reads data-group off them. -->
   <div class="filter-group top-border dashed search-group">
     <h3 class="section-title artefacts-filter">Search</h3>
-    <input type="text" class="quicksearch artefacts" placeholder="e.g. Victor Palla or Almanaque" />
+    <!-- A textarea, not an input: <input> is single-line by definition, so
+         its placeholder clips rather than wrapping. rows=2 gives the text
+         somewhere to flow. Enter is swallowed in scripts-artefacts.html. -->
+    <textarea class="quicksearch artefacts" rows="2" placeholder="e.g. Victor Palla or Almanaque"></textarea>
   </div>
 
   <!-- #artefacts-filters must stay the single wrapper around every group:
