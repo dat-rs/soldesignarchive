@@ -2181,10 +2181,6 @@ i.bi-archive::before {
   }
 }
 
-/* Scoped to .artefacts-sidebar on purpose: #artefacts-filters,
-   .a-filter-label and .section-title.artefacts-filter are shared with the
-   back office (sub-header-backoffice-status.html) and
-   who-what-when-where-how.html, both on a dark ground. */
 .artefacts-sidebar {
   #artefacts-filters {
     color: black;
@@ -2204,9 +2200,6 @@ i.bi-archive::before {
     padding-top: 0px;
   }
 
-  /* Options are the column's body text; the blue stays on the headings.
-     The global .a-filter-label is $blue and its hover is $bg-white, which
-     would be invisible on this ground. */
   .a-filter-label {
     color: black;
   }

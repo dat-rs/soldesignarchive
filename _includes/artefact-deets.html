@@ -7,7 +7,7 @@
     </div>
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col deet-links">
       {% for author in page.author_name %}
-      {% if page.signature-id %}signed «{% endif %}<a class="deet-link author {% if author == 'unknown author' %}unknown{% endif %}" href="/authors/{{ author | remove:"." }}">{{ author }}</a>{% if page.signature-id %}»{% endif %}
+      {% if page.signature-id %}signed «{% endif %}<a class="deet-link author {% if author == 'unknown author' %}unknown{% endif %}" href="/authors/{{ author | uri_escape }}">{{ author }}</a>{% if page.signature-id %}»{% endif %}
       {% endfor %}
     </div>
   </div>

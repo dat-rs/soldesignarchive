@@ -61,7 +61,7 @@ feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %}
       </div>
       <div class="caption">
         <strong>{{ artefact.title }}</strong> <br />
-        {{ artefact.author_name }} ({{ artefact.year | remove_first: 'y' | replace: '-', ' ' }}) <br />
+        {{ artefact.author_name | join: ", " }} ({{ artefact.year | remove_first: 'y' | replace: '-', ' ' }}) <br />
         sol-{{ artefact.ref_group }}-{{ artefact.ref_id }}
       </div>
     </div>

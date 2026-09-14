@@ -1,5 +1,5 @@
 ---
-name: "E. Conrad"
+name: "Fernando Sáenz"
 image_path:
 rel_authors:
 rel_publishers:
