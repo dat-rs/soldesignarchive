@@ -1,5 +1,5 @@
 ---
-name: "E. Conrad"
+name: "L. Gómez"
 image_path:
 rel_authors:
 rel_publishers:

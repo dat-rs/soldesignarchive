@@ -2,7 +2,7 @@
 ref_group: "030"
 ref_id: "0241"
 title: "Antologia da Novíssima Poesia Catalã"
-author_name: ["unknown author"]
+author_name: ["unknown author", "test"]
 publisher: ["Futura"]
 year: y1974
 decade: 1970s
