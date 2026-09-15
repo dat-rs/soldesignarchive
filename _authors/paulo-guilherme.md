@@ -1,5 +1,10 @@
 ---
 name: Paulo-Guilherme
+birth_date: "1932-07-21"
+death_date: "2010-10-09"
+nationality: Portuguese
+isni: "0000000518058152"
+wikidata: Q10346616
 image_path:
 rel_authors:
 rel_publishers:

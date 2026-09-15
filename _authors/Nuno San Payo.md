@@ -1,5 +1,8 @@
 ---
 name: Nuno San Payo
+birth_date: "1926"
+death_date: "2014"
+isni: "0000000069710490"
 image_path:
 rel_authors:
 rel_publishers:

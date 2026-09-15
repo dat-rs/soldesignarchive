@@ -1,5 +1,10 @@
 ---
 name: Victor Palla
+birth_date: "1922-03-13"
+death_date: "2006"
+nationality: Portuguese
+isni: "0000000068715740"
+wikidata: Q10390371
 image_path: hero-victor-palla.jpg
 image_caption: "Photo: Maria José Palla. Source: Veritas Art Auctioneers."
 rel_authors:

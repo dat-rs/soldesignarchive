@@ -1,5 +1,10 @@
 ---
 name: Alda Rosa
+birth_date: "1936"
+death_date: "2025-11-20"
+nationality: Portuguese
+isni: "0000000068417866"
+wikidata: Q136906957
 image_path: hero-alda-rosa.png
 image_caption: "Image: Sociedade Nacional de Belas-Artes"
 rel_authors:

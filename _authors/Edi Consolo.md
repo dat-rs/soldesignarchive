@@ -1,5 +1,10 @@
 ---
 name: Edi Consolo
+birth_date: "1908"
+death_date: "2004"
+nationality: Italian
+isni: "0000000055444849"
+wikidata: Q118145900
 image_path:
 rel_authors:
 rel_publishers:
