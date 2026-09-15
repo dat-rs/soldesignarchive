@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0082"
 title: "Contos Exemplares"
 author_name: ["João da Câmara Leme"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]

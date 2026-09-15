@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0052"
 title: "Kung Fu — Azen Kacot"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1976"
 decade: 1970s
 origin: null

@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0030"
 title: "A Estrada do Ouro"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]

@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0236"
 title: "Direcção Proíbida"
 author_name: ["Eduardo Faria"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: y1937
 decade: 1930s
 origin: ["Portugal"]

@@ -4,7 +4,7 @@ author_name: ["unknown author"]
 year: y1971
 decade: 1970s
 origin: "Unknown Origin"
-publisher: "unknown publisher"
+publisher: "Unknown Publisher"
 formats: [booklet]
 disciplines: ["graphic-design", typography, illustration]
 tags: [instructions]

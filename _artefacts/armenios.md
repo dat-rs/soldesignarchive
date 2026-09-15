@@ -3,7 +3,7 @@ ref_group: "970"
 ref_id: "0000"
 title: "Os Arménios"
 author_name: ["Vicente Martins"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1973"
 decade: 1970s
 origin: ["Portugal", "United Kingdom"]

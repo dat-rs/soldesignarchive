@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0061"
 title: "A Evolução da Física"
 author_name: ["A. Pedro"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
