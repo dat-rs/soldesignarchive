@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0369"
 title: "Fábrica de Oficiais"
 author_name: ["Joaquim Esteves"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "y1961"
 origin: ["Portugal"]
 formats: [book, book-cover]

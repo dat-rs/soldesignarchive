@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0045"
 title: "O Último Justo"
 author_name: ["António Domingues"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "y1960"
 decade: 1960s
 origin: ["Portugal"]

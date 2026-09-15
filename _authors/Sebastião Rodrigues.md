@@ -11,7 +11,7 @@ rel_publishers:
     "SPN/SNI/SEIT",
     "Ulisseia",
     "Arcádia",
-    "Publicações Europa América",
+    "Publicações Europa-América",
     "Editorial Técnica e Artística",
     "Livraria Morais Editora",
   ]
