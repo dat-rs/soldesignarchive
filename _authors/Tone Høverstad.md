@@ -1,5 +1,8 @@
 ---
 name: Tone Høverstad
+birth_date: "1944"
+death_date: "1999-04-14"
+wikidata: Q123408643
 image_path:
 rel_authors: ["Loni Geest"]
 rel_publishers:

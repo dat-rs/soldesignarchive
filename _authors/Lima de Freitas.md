@@ -1,5 +1,10 @@
 ---
 name: Lima de Freitas
+birth_date: "1927-06-22"
+death_date: "1998-10-05"
+nationality: Portuguese
+isni: "0000000109120779"
+wikidata: Q6548844
 image_path: hero-lima-de-freitas.jpg
 image_caption: "Photo: Museu do Neorrealismo"
 rel_authors:

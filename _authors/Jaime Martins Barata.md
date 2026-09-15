@@ -1,5 +1,10 @@
 ---
 name: Jaime Martins Barata
+birth_date: "1899-03-07"
+death_date: "1970-05-15"
+nationality: Portuguese
+isni: "0000000067687792"
+wikidata: Q1678735
 image_path:
 layout: author
 published: true

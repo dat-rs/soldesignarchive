@@ -1,5 +1,10 @@
 ---
 name: "Sebastião Rodrigues"
+birth_date: "1929"
+death_date: "1997"
+nationality: Portuguese
+isni: "0000000067683740"
+wikidata: Q16930334
 image_path: hero-sebastiao-rodrigues.jpg
 image_caption: "Photo: Facebook Sebastião Rodrigues"
 layout: author

@@ -1,5 +1,10 @@
 ---
 name: Tóssan
+birth_date: "1918"
+death_date: "1991-08"
+nationality: Portuguese
+isni: "0000000439829625"
+wikidata: Q9619065
 image_path:
 rel_authors:
 rel_publishers:

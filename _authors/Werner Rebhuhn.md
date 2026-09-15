@@ -1,5 +1,10 @@
 ---
 name: Werner Rebhuhn
+birth_date: "1922-05-01"
+death_date: "2001-01-23"
+nationality: German
+isni: "0000000078700120"
+wikidata: Q2562324
 image_path:
 rel_authors:
 rel_publishers:
