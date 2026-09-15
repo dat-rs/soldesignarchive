@@ -3,7 +3,7 @@ ref_group: "110"
 ref_id: "0002"
 title: "Programme Officiel du Grand Théatre - Le Havre"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["France"]
 formats: ["programme"]
