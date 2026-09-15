@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0005"
 title: "Chora, Terra Bem Amada"
 author_name: ["Figueiredo Sobral"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "y1958"
 decade: 1950s
 origin: ["Portugal"]

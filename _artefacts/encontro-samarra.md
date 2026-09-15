@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0008"
 title: "Encontro em Samarra"
 author_name: ["Paulo-Guilherme"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "y1963"
 decade: 1960s
 origin: ["Portugal"]
