@@ -3,7 +3,7 @@ ref_group: "512"
 ref_id: "0002"
 title: "Bilhete CP Lisboa Rio do Mouro"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["ticket"]

@@ -3,7 +3,7 @@ ref_group: "054"
 ref_id: "0000"
 title: "Lisboa no Passado e no Presente"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["fascicle"]

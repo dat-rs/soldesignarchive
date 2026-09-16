@@ -3,7 +3,7 @@ ref_group: "231"
 ref_id: "0014"
 title: "O Fibrocimento no Mundo"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["booklet, catalogue"]

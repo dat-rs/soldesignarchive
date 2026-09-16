@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0246"
 title: "O Desenho na Escola"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: y1973
 decade: 1970s
 origin: ["Portugal"]

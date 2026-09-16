@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0060"
 title: "URSS. Depoimento dum socialista francês"
 author_name: ["unknown author"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "y1957"
 decade: 1950s
 origin: ["Portugal"]

@@ -4,7 +4,7 @@ ref_id: "0370"
 title: "A Hora Mais Escura"
 author_name: ["Andrade Albuquerque"]
 publisher: []
-year: "unknown-year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

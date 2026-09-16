@@ -4,7 +4,7 @@ author_name: "SAM"
 year: y1973
 decade: 1970s
 origin: Portugal
-publisher: "unknown publisher"
+publisher: "Unknown Publisher"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
 tags: [sports, golf]

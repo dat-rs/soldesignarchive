@@ -3,7 +3,7 @@ ref_group: "251"
 ref_id: "0014"
 title: "Greenwich in Colour"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["United Kingdom"]
 formats: ["booklet"]

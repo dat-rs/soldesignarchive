@@ -3,7 +3,7 @@ ref_group: "323"
 ref_id: "0001"
 title: "Boletim da Sociedade Nacional de Belas Artes 11"
 author_name: ["Figueiredo Sobral"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1963"
 decade: 1960s
 origin: ["Portugal"]

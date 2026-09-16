@@ -3,7 +3,7 @@ ref_group: "321"
 ref_id: "0005"
 title: "Sabena Revue 2"
 author_name: ["Serge Creuz"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1977"
 decade: 1970s
 origin: ["Belgium"]

@@ -75,7 +75,7 @@ $viewport-less-header-mob: calc(100vh - 96px);
 $viewport-less-header-sm: calc(100vh - 70px);
 $viewport-less-header-md: calc(100vh - 80px);
 $viewport-less-header-lg: calc(100vh - 60px);
-$viewport-less-header-xl: calc(100vh - 60px);
+$viewport-less-header-xl: calc(100vh - 40px);
 
 $viewport-less-header-sm-half: calc(50vh - 80px);
 $viewport-less-header-md-half: calc(50vh - 40px);
@@ -2106,8 +2106,24 @@ i.bi-archive::before {
   --bs-gutter-x: 0.75rem;
   padding-top: 0px;
   background-color: black;
-  min-height: 80vh;
   padding-bottom: 40px;
+  min-height: $viewport-less-header-mob;
+
+  @media (min-width: 576px) {
+    min-height: $viewport-less-header-sm;
+  }
+
+  @media (min-width: 768px) {
+    min-height: $viewport-less-header-md;
+  }
+
+  @media (min-width: 992px) {
+    min-height: $viewport-less-header-lg;
+  }
+
+  @media (min-width: 1200px) {
+    min-height: $viewport-less-header-xl;
+  }
 }
 
 

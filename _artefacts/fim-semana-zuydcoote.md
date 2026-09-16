@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0244"
 title: "Fim de Semana em Zuydcoote"
 author_name: ["Figueiredo Sobral"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: y1957
 decade: 1950s
 origin: ["Portugal"]
