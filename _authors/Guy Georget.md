@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: false
 ---
+
+Guy Georget (1911–1992) was a French graphic designer, illustrator, and affichiste.

@@ -11,3 +11,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Antonio Tello Gil (1951) is a Spanish illustrator, graphic designer, and painter.
