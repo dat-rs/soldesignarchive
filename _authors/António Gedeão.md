@@ -4,6 +4,7 @@ full_name: "Rómulo Vasco da Gama de Carvalho"
 birth_date: "1906-11-24"
 death_date: "1997-02-19"
 nationality: Portuguese
+isni: "0000000116952477"
 wikidata: Q2653737
 image_path:
 rel_authors:

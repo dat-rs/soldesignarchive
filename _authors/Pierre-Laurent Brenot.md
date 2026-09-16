@@ -1,5 +1,10 @@
 ---
 name: Pierre-Laurent Brenot
+birth_date: "1913-07-08"
+death_date: "1998-05-08"
+nationality: French
+isni: "0000000078302528"
+wikidata: Q3383245
 image_path:
 rel_authors:
 rel_publishers:

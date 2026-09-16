@@ -1,5 +1,7 @@
 ---
 name: "Chermayeff & Geismar"
+isni: "0000000121590650"
+wikidata: Q5092023
 image_path:
 rel_authors:
 rel_publishers:
