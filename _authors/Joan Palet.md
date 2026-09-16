@@ -1,5 +1,8 @@
 ---
 name: Joan Palet
+birth_date: "1911"
+death_date: "1996"
+wikidata: Q99863285
 image_path:
 rel_authors:
 rel_publishers:

@@ -1,5 +1,9 @@
 ---
 name: Thomas de Mello
+birth_date: "1906-01-11"
+death_date: "1990"
+isni: "0000000116124639"
+wikidata: Q10382213
 image_path:
 rel_authors:
 rel_publishers:

@@ -1,5 +1,7 @@
 ---
 name: Loni Geest
+birth_date: "1940"
+wikidata: Q122745606
 image_path:
 rel_authors: [Tone Høverstad]
 rel_publishers:

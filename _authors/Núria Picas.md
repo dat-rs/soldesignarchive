@@ -1,5 +1,8 @@
 ---
 name: Núria Picas
+birth_date: "1927"
+nationality: Spanish
+wikidata: Q78439732
 image_path:
 rel_authors:
 rel_publishers:

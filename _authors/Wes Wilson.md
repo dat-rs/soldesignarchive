@@ -1,5 +1,10 @@
 ---
 name: Wes Wilson
+birth_date: "1937-07-15"
+death_date: "2020-01-24"
+nationality: American
+isni: "0000000448854726"
+wikidata: Q3567371
 image_path:
 rel_authors: []
 rel_publishers: []
