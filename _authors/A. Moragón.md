@@ -11,3 +11,5 @@ rel_tags:
 layout: author
 published: false
 ---
+
+A. Moragón (1930–2005) was a painter and university teacher.

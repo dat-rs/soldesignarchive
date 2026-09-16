@@ -14,4 +14,4 @@ layout: author
 published: true
 ---
 
-José Ruy (1930) is a Portuguese illustrator, comic book artist, print technician, and painter.
+José Ruy (1930–2022) was a Portuguese illustrator, comic book artist, print technician, and painter.

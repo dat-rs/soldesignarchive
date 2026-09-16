@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Henrique Manuel (1945–1993) was a Portuguese painter.

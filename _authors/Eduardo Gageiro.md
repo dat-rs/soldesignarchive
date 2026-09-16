@@ -13,4 +13,4 @@ layout: author
 published: true
 ---
 
-Eduardo Gageiro (1935) is a Portuguese photographer and photojournalist.
+Eduardo Gageiro (1935–2025) was a Portuguese photographer and photojournalist.

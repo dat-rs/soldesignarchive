@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Henrique Ruivo (1935–2020) was a Portuguese painter.

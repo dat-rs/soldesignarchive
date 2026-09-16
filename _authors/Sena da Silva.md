@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Sena da Silva (1926–2001) was a Portuguese architect, painter, and designer.

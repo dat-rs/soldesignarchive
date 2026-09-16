@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Oskar (1922–2006) was a German draftsperson and photographer.

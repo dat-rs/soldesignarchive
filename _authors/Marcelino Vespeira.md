@@ -11,3 +11,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Marcelino Vespeira (1925–2002) was a Portuguese painter.

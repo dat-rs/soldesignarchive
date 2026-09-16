@@ -11,3 +11,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+João Machado (1942) is a Portuguese sculptor, teacher, graphic artist, and illustrator.

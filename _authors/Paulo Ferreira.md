@@ -8,3 +8,5 @@ wikidata: Q16930291
 image_path:
 published: false
 ---
+
+Paulo Ferreira (1911–1999) was a Portuguese painter.

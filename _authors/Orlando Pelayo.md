@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Orlando Pelayo (1920–1990) was a French-Spanish painter.

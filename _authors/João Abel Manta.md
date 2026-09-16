@@ -13,4 +13,4 @@ layout: author
 published: true
 ---
 
-João Abel Manta (1928) is a Portuguese illustrator, cartoonist, graphic designer, and painter.
+João Abel Manta (1928–2026) was a Portuguese illustrator, cartoonist, graphic designer, and painter.
