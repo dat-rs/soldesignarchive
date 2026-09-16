@@ -1,5 +1,10 @@
 ---
 name: Lima de Freitas
+birth_date: "1927-06-22"
+death_date: "1998-10-05"
+nationality: Portuguese
+isni: "0000000109120779"
+wikidata: Q6548844
 image_path: hero-lima-de-freitas.jpg
 image_caption: "Photo: Museu do Neorrealismo"
 rel_authors:
@@ -29,4 +34,4 @@ layout: author
 published: true
 ---
 
-José Lima de Freitas (1927-1998) was a portuguese painter, graphic artist, and illustrator.
+José Lima de Freitas (1927-1998) was a Portuguese painter, graphic artist, and illustrator.

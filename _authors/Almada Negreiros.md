@@ -1,5 +1,11 @@
 ---
 name: Almada Negreiros
+full_name: "José Sobral de Almada Negreiros"
+birth_date: "1893-04-07"
+death_date: "1970-06-15"
+nationality: Portuguese
+isni: "0000000110368528"
+wikidata: Q1376821
 image_path:
 rel_authors:
 rel_publishers:

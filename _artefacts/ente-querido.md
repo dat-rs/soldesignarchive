@@ -2,7 +2,7 @@
 ref_group: "030"
 ref_id: "0001"
 title: "O Ente Querido"
-author_name: ["Querubim Lapa, João Abel Manta"]
+author_name: ["Querubim Lapa", "João Abel Manta"]
 publisher: ["Ulisseia"]
 year: "y1955"
 decade: 1950s

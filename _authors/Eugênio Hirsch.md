@@ -1,5 +1,9 @@
 ---
 name: Eugênio Hirsch
+birth_date: "1923-12-03"
+death_date: "2001-09-23"
+nationality: [Brazilian, Austrian]
+wikidata: Q8846145
 image_path:
 rel_authors: []
 rel_publishers: []

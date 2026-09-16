@@ -1,5 +1,6 @@
 ---
 name: Juliette Caputo
+isni: "0000000435130761"
 image_path:
 rel_authors: []
 rel_publishers: []

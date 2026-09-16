@@ -1,5 +1,7 @@
 ---
 name: Jorge Escalço Valadas
+birth_date: "1910"
+isni: "0000000070936446"
 image_path:
 rel_authors:
 rel_publishers:
