@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0002"
 title: "Os Comediantes"
 author_name: ["Aguinaldo A. Maria"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]

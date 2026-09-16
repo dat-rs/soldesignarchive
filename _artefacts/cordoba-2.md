@@ -4,7 +4,7 @@ ref_id: "0072"
 title: "Cordoba"
 author_name: ["J. García-Ochoa"]
 publisher: ["Direccion General del Turismo"]
-year: "unknown year"
+year: "unknown-date"
 origin: ["Spain"]
 formats: [brochure, map]
 disciplines: [graphic-design, typography, photography]

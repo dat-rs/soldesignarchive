@@ -45,7 +45,7 @@ feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %} {% for ar
       <!-- Publishers -->
       <div class="deet-links random-feature">
         {% for publisher in artefact.publisher %}
-        <a class="deet-link publisher {% if publisher == 'unknown publisher' %}unknown{% endif %}" href="/publishers/{{ publisher }}">{{ publisher }}</a>
+        <a class="deet-link publisher {% if publisher == 'Unknown Publisher' %}unknown{% endif %}" href="/publishers/{{ publisher }}">{{ publisher }}</a>
         {% endfor %}
       </div>
 

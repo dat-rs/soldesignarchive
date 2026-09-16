@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0252"
 title: "Uma Noite em Lisboa"
 author_name: ["unknown author"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]

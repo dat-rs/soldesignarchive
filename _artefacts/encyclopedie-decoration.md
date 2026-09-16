@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0256"
 title: "L'Encyclopédie de la Decoration"
 author_name: [unknown author]
-publisher: [unknown publisher]
+publisher: [Unknown Publisher]
 year: unknown-date
 origin: France
 formats: [book, book-cover]

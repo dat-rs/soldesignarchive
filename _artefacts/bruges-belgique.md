@@ -3,7 +3,7 @@ ref_group: "121"
 ref_id: "0014"
 title: "Bruges. Belgique"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1957"
 decade: 1950s
 origin: ["Belgium"]

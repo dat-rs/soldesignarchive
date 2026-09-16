@@ -3,7 +3,7 @@ ref_group: "321"
 ref_id: "0040"
 title: "L’Architecture d’Aujourd’hui IV 5 "
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1934"
 decade: 1930s
 origin: ["France"]

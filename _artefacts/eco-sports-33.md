@@ -3,7 +3,7 @@ ref_group: "321"
 ref_id: "0000"
 title: "Eco dos Sports 33"
 author_name: ["Eduardo Ferreira"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1926"
 decade: 1920s
 origin: null
