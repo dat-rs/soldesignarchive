@@ -12,4 +12,4 @@ layout: author
 published: true
 ---
 
-Miguel Jacobetty Rosa (1901–1970) was a Portuguese architect.
+Miguel Jacobetty Rosa (1901–1970) was a Portuguese architect and designer.

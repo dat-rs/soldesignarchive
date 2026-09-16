@@ -1,16 +1,14 @@
 ---
 name: "Oskar"
-birth_date: "1922-02-24"
-death_date: "2006-07-03"
-nationality: German
-isni: "000000036819764X"
-wikidata: Q2033526
+birth_date: "1913"
+death_date: "1995"
+nationality: Portuguese
 image_path:
-rel_authors:
-rel_publishers:
+rel_authors: ["Manuel Lapa"]
+rel_publishers: ["SPN/SNI/SEIT"]
 rel_tags:
 layout: author
 published: true
 ---
 
-Oskar (1922–2006) was a German draftsperson and photographer.
+Fernando Óscar Pinto Lobo ("Oskar") (1913–1995) was a Portuguese graphic designer, illustrator, and architect.

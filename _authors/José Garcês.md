@@ -11,4 +11,4 @@ layout: author
 published: true
 ---
 
-José Garcês (1928) is an illustrator.
+José Garcês (1928-2020) was a Portuguese painter and illustrator.

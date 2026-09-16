@@ -9,4 +9,4 @@ image_path:
 published: false
 ---
 
-Paulo Ferreira (1911–1999) was a Portuguese painter.
+Paulo Ferreira (1911–1999) was a Portuguese painter, illustrator, and graphic designer.

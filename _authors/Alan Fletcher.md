@@ -13,4 +13,4 @@ layout: author
 published: false
 ---
 
-Alan Fletcher (1931–2006) was a British graphic designer, illustrator, writer, and businessperson.
+Alan Fletcher (1931–2006) was a British graphic designer, and illustrator.

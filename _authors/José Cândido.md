@@ -11,4 +11,4 @@ layout: author
 published: true
 ---
 
-José Cândido (1932) is a Portuguese medalist.
+José Cândido (1932-2012) was a Portuguese graphic designer and painter.

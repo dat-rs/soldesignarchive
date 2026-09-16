@@ -12,4 +12,4 @@ layout: author
 published: false
 ---
 
-A. Moragón (1930–2005) was a painter and university teacher.
+A. Moragón (1930–2005) was a Spanish painter and illustrator.
