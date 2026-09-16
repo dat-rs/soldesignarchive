@@ -1,5 +1,8 @@
 ---
 name: Serny
+birth_date: "1908"
+death_date: "1995"
+isni: "0000000095821223"
 image_path:
 rel_authors:
 rel_publishers:

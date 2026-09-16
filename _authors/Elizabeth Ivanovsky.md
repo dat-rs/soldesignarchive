@@ -1,5 +1,10 @@
 ---
 name: Elizabeth Ivanovsky
+birth_date: "1910-07-25"
+death_date: "2006-04-11"
+nationality: Belgian
+isni: "0000000107767149"
+wikidata: Q3587891
 image_path:
 rel_authors:
 rel_publishers:

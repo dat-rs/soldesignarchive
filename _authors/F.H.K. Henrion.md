@@ -2,6 +2,7 @@
 name: "F.H.K. Henrion"
 birth_date: "1914-04-18"
 death_date: "1990-07-07"
+nationality: British
 isni: "0000000121315114"
 wikidata: Q7900618
 image_path:
