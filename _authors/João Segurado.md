@@ -12,4 +12,4 @@ layout: author
 published: false
 ---
 
-João Segurado (1944–2018) was a graphic artist.
+João Segurado (1944–2018) was a Portuguese graphic designer.
