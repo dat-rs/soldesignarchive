@@ -4,7 +4,7 @@ ref_id: "0065"
 title: "O Evadido"
 author_name: ["Figueiredo Sobral"]
 publisher: ["Portugália Editora"]
-year: "unknown year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]
 disciplines: [graphic-design]

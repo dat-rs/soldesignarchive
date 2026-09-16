@@ -4,7 +4,7 @@ ref_id: "0355"
 title: "Singularidades do Amor"
 author_name: ["João da Câmara Leme"]
 publisher: ["Portugália Editora"]
-year: "unknown year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

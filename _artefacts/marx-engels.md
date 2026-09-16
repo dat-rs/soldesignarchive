@@ -4,7 +4,7 @@ ref_id: "0182"
 title: "Marx Engels"
 author_name: ["Acácio Santos"]
 publisher: ["Seara Nova"]
-year: "unknown year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book, book-cover"]
 disciplines: [graphic-design]
