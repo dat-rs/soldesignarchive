@@ -4,7 +4,7 @@ ref_id: "0371"
 title: "Antologia de Lendas, Narrativas e Contos para o 2º e 3º Ciclos dos Liceus"
 author_name: ["José Dordio", "Zacarias Moninhas Rodrigues"]
 publisher: []
-year: "unknown-year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
