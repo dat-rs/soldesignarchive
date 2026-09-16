@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Eduardo Batarda (1943–2025) was a Portuguese painter.

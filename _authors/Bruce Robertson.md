@@ -11,3 +11,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+Bruce Robertson (1934–2014) was a graphic artist.

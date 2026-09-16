@@ -10,3 +10,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+José Cândido (1932) is a Portuguese medalist.

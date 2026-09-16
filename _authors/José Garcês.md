@@ -10,3 +10,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+José Garcês (1928) is an illustrator.

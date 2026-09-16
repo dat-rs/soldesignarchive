@@ -12,3 +12,5 @@ rel_tags:
 layout: author
 published: true
 ---
+
+João da Câmara Leme (1930–1983) was a Portuguese illustrator and graphic designer.

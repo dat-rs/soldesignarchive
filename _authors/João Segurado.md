@@ -11,3 +11,5 @@ rel_tags: []
 layout: author
 published: false
 ---
+
+João Segurado (1944–2018) was a graphic artist.

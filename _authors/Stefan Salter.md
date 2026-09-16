@@ -12,4 +12,4 @@ layout: author
 published: true
 ---
 
-Stefan Salter (1907—?) was German-American book designer.
+Stefan Salter (1907–1985) was a German-American book designer.

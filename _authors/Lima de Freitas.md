@@ -34,4 +34,4 @@ layout: author
 published: true
 ---
 
-José Lima de Freitas (1927-1998) was a portuguese painter, graphic artist, and illustrator.
+José Lima de Freitas (1927-1998) was a Portuguese painter, graphic artist, and illustrator.
