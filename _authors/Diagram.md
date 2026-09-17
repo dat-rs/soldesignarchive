@@ -1,5 +1,7 @@
 ---
-name: "A. Pedro"
+name: "Diagram"
+redirect_from:
+  - /authors/diagram/
 image_path:
 rel_authors:
 rel_publishers:

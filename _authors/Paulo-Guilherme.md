@@ -1,5 +1,7 @@
 ---
 name: Paulo-Guilherme
+redirect_from:
+  - /authors/paulo-guilherme/
 image_path:
 rel_authors:
 rel_publishers:
