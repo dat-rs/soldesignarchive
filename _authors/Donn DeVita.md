@@ -1,5 +1,7 @@
 ---
 name: Donn DeVita
+redirect_from:
+  - /authors/Donn%20Devita/
 image_path:
 rel_authors:
 rel_publishers:
