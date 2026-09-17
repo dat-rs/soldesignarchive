@@ -3,7 +3,7 @@ ref_group: "130"
 ref_id: "0004"
 title: "2ª Exposição Colectiva de Professores de Artes Visuais"
 author_name: [Maria Manuela]
-publisher: [unknown publishers]
+publisher: [Unknown Publisher]
 year: y1984
 origin: Portugal
 formats: [booklet, catalogue]

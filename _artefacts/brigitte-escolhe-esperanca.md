@@ -7,7 +7,7 @@ publisher: ["Portugália Editora"]
 year: "y1971"
 decade: 1970s
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

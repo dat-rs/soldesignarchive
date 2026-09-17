@@ -1,5 +1,5 @@
 ---
-name: Luisa May Alcott
+name: "Louisa May Alcott"
 layout: tag
 type: person
 ---

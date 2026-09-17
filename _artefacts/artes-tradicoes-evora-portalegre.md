@@ -5,7 +5,7 @@ year: y1980
 decade: 1980s
 origin: Portugal
 publisher: "Terra Livre"
-formats: [book, "book cover"]
+formats: [book, "book-cover"]
 disciplines: [graphic-design, typography, photography]
 tags: [art, "folk art"]
 ref_group: "030"

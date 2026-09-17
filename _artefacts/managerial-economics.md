@@ -6,8 +6,8 @@ decade: 1960s
 origin: United Kingdom
 publisher: "Penguin Books"
 formats: [book-cover, book]
-disciplines: [graphic-design, typography]
-tags: [non-fiction, economics, Penguin, "Penguin Modern Economics", Univers, pattern]
+disciplines: [graphic-design, typography, pattern]
+tags: [non-fiction, economics, Penguin, "Penguin Modern Economics", Univers]
 ref_group: "010"
 ref_id: "0055"
 layout: artefact

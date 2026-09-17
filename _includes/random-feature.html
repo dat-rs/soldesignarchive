@@ -32,8 +32,8 @@ feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %} {% for ar
 
       <!-- Authors -->
       <div class="deet-links random-feature">
-      {% for author in artefact.author_name %}
-      {% if artefact.signature-id %}signed «{% endif %}<a class="deet-link author {% if author == 'unknown author' %}unknown{% endif %}" href="/authors/{{ author | remove:"." }}">{{ author }}</a>{% if artefact.signature-id %}»{% endif %}
+      {% for author in artefact.author_name %}{% assign author_page = site.authors | where: 'name', author | first %}{% capture author_fallback %}/authors/{{ author | escape_once }}/{% endcapture %}
+      {% if artefact.signature-id %}signed «{% endif %}<a class="deet-link author {% if author == 'unknown author' %}unknown{% endif %}" href="{{ author_page.url | default: author_fallback }}">{{ author }}</a>{% if artefact.signature-id %}»{% endif %}
       {% endfor %}
       </div>
 
@@ -44,8 +44,8 @@ feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %} {% for ar
 
       <!-- Publishers -->
       <div class="deet-links random-feature">
-        {% for publisher in artefact.publisher %}
-        <a class="deet-link publisher {% if publisher == 'unknown publisher' %}unknown{% endif %}" href="/publishers/{{ publisher }}">{{ publisher }}</a>
+        {% for publisher in artefact.publisher %}{% assign publisher_page = site.publishers | where: 'name', publisher | first %}{% capture publisher_fallback %}/publishers/{{ publisher | escape_once }}/{% endcapture %}
+        <a class="deet-link publisher {% if publisher == 'unknown publisher' %}unknown{% endif %}" href="{{ publisher_page.url | default: publisher_fallback }}">{{ publisher }}</a>
         {% endfor %}
       </div>
 
@@ -60,22 +60,22 @@ feature_random_artefacts_2 = feature_random_artefacts | slice: 0, 1 %} {% for ar
 
       <!-- Format -->
       <div class="deet-links random-feature">
-        {% for format in artefact.formats %}
-        <a class="deet-link format" href="/formats/{{ format }}">{{ format | replace: "-", " " }}</a>
+        {% for format in artefact.formats %}{% assign format_page = site.formats | where: 'name', format | first %}{% capture format_fallback %}/formats/{{ format | escape_once }}/{% endcapture %}
+        <a class="deet-link format" href="{{ format_page.url | default: format_fallback }}">{{ format | replace: "-", " " }}</a>
         {% endfor %}
       </div>
 
       <!-- Discipline -->
       <div class="deet-links random-feature">
-        {% for discipline in artefact.disciplines %}
-        <a class="deet-link discipline" href="/disciplines/{{ discipline }}">{{ discipline | replace: "-", " " }}</a>
+        {% for discipline in artefact.disciplines %}{% assign discipline_page = site.disciplines | where: 'name', discipline | first %}{% capture discipline_fallback %}/disciplines/{{ discipline | escape_once }}/{% endcapture %}
+        <a class="deet-link discipline" href="{{ discipline_page.url | default: discipline_fallback }}">{{ discipline | replace: "-", " " }}</a>
         {% endfor %}
       </div>
 
       <!-- Tags -->
       <div class="deet-links random-feature">
-        {% for tag in artefact.tags %}
-        <a class="deet-link tag" href="/tags/{{ tag | replace: " /", "-barra-" | replace: "[" , "-obr-" | replace: "]" ,"-cbr-" }}">{{ tag }}</a>
+        {% for tag in artefact.tags %}{% assign tag_page = site.tags | where: 'name', tag | first %}{% capture tag_fallback %}/tags/{{ tag | escape_once }}/{% endcapture %}
+        <a class="deet-link tag" href="{{ tag_page.url | default: tag_fallback }}">{{ tag }}</a>
         {% endfor %}
         {% if artefact.tags.size == 0 %}—{% endif %}
       </div>

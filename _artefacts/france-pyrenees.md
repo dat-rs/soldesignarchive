@@ -6,7 +6,7 @@ author_name: ["Edward P. Lancaster"]
 publisher: ["Direction Générale du Tourisme"]
 year: "unknown-date"
 origin: ["France"]
-formats: ["brochure, map"]
+formats: [brochure, map]
 disciplines: [graphic-design]
 tags: ["Expo 58"]
 layout: artefact

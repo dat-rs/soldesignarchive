@@ -7,7 +7,7 @@ publisher: ["Carlos Bastos"]
 year: "y1954"
 decade: 1950s
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

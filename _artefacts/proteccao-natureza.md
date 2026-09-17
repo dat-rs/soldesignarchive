@@ -6,7 +6,7 @@ decade: 1950s
 origin: Portugal
 publisher: "Ministério da Educação Nacional"
 formats: [book, book-cover]
-disciplines: [graphic-design, typograhy, lettering, illustration]
+disciplines: [graphic-design, typography, lettering, illustration]
 tags: ["Colecção Educativa", "Estado Novo"]
 ref_group: "030"
 ref_id: "0131"
