@@ -3,7 +3,7 @@ ref_group: "130"
 ref_id: "0005"
 title: "3ª Exposição Colectiva de Professores de Artes Visuais"
 author_name: [Maria Manuela]
-publisher: [unknown publishers]
+publisher: [Unknown Publisher]
 year: y1985
 origin: Portugal
 formats: [booklet, catalogue]

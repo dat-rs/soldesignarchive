@@ -8,7 +8,7 @@ year: y1962
 origin: Portugal
 formats: [book, book-cover]
 disciplines: [graphic-design, typography, illustration]
-tags: [fiction, theater, Luís de Sttau Monteiro]
+tags: [fiction, theatre, Luís de Sttau Monteiro]
 status: scan
 published: false
 image_count:

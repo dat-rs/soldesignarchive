@@ -2,7 +2,7 @@
 ref_group: "121"
 ref_id: "0066"
 title: "Bouche-du-Rhône"
-author_name: ["unknowna-author"]
+author_name: ["unknown author"]
 publisher: ["unknown-date"]
 year: "unknown-date"
 origin: ["France"]

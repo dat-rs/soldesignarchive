@@ -8,7 +8,7 @@ year: y1960
 decade: 1960s
 circa: true
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags: ["Documentos do Tempo Presente"]
 layout: artefact

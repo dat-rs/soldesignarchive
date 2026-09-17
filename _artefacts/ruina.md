@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "Livraria Clássica Editora"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [illustration, "slab serif"]
+tags: [ "slab serif"]
 ref_group: "010"
 ref_id: "0009"
 layout: artefact

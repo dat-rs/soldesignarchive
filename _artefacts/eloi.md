@@ -11,7 +11,7 @@ title: Elói
 ref_group: "030"
 ref_id: "0095"
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines: [graphic-design, typography, illustration]
 author_name:

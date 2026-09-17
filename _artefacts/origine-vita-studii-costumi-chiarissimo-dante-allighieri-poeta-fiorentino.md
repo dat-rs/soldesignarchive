@@ -12,7 +12,7 @@ origin:
   - Portugal
   - Italy
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines: [graphic-design, typography]
 tags:

@@ -7,7 +7,7 @@ publisher: ["Columbia"]
 year: "y1961"
 decade: 1960s
 origin: null
-formats: ["record, record-cover"]
+formats: [record, record-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

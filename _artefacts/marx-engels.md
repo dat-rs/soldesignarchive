@@ -6,7 +6,7 @@ author_name: ["Acácio Santos"]
 publisher: ["Seara Nova"]
 year: "unknown year"
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

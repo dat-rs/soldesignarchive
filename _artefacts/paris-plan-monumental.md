@@ -2,7 +2,7 @@
 ref_group: "121"
 ref_id: "0061"
 title: "Paris. Plan Monumental"
-author_name: ["unknown artist"]
+author_name: ["unknown author"]
 publisher: ["Hotel Mont-Fleuri"]
 year: "unknown-date"
 origin: ["France"]

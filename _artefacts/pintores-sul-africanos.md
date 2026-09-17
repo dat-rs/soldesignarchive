@@ -8,7 +8,7 @@ year: y1968
 decade: 1960s
 origin: Portugal
 formats: [book, book-cover]
-disciplines: ["graphic-design, illustration, typography, photography"]
+disciplines: [graphic-design, illustration, typography, photography]
 tags:
 layout: artefact
 status: scan

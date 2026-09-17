@@ -2,7 +2,7 @@
 ref_group: "470"
 ref_id: "0000"
 title: "rooster cyrilic matchbox"
-author_name: ["unknown authors"]
+author_name: ["unknown author"]
 publisher: ["unknown publisher"]
 year: y19
 origin: Unknown Origin

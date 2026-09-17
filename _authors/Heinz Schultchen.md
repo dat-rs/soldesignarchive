@@ -5,7 +5,7 @@ rel_authors:
 rel_publishers:
 rel_tags:
 layout: author
-published: false
+published: true
 ---
 
 Heinz Schultchen (1940) is a German graphic designer and cartographer.

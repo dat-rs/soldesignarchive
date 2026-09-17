@@ -29,9 +29,9 @@ filtered_artefacts.size | divided_by: 2 %}
       {% else %}
       <figure class="feature-img artefact">
         <div class="artefact-holder">
-          <img
+          {% if filtered_artefacts[number] %}<img
             src="/images/sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }}-{{ filtered_artefacts[number].slug }}.jpg"
-            alt="" />
+            alt="" />{% endif %}
         </div>
       </figure>
       {% endif %}
