@@ -8,7 +8,7 @@ origin: Portugal
 publisher: "Organização de Técnicas e Saneamento"
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography]
-tags:
+tags: [commercial]
 image_count:
 layout: artefact
 status: complete

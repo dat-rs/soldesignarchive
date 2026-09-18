@@ -8,7 +8,7 @@ origin: Portugal
 publisher: Farinha Amparo
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: sports
+tags: [sports, commercial]
 layout: artefact
 status: complete
 published: true

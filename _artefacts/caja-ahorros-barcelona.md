@@ -7,7 +7,7 @@ origin: [Catalonia, Spain]
 publisher: "Caja de Ahorros Provincial de la Diputacion de Barcelona"
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: [Helvetica]
+tags: [Helvetica, commercial]
 ref_group: "160"
 ref_id: "0002"
 image_count: 2
