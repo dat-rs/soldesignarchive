@@ -8,7 +8,7 @@ year: "y1972"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]
-tags: ["Mao Zedong", "politics", "marxism", "communism", "maoism", "Biblioteca Povo e Cultura"]
+tags: ["Mao Zedong", "Politics", "marxism", "communism", "maoism", "Biblioteca Povo e Cultura"]
 layout: artefact
 status: scan
 published: false

@@ -9,7 +9,7 @@ decade: 1950s
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, lettering, typography]
-tags: ["Hans Hellmut Kirst", "José Saramago", "08-barra-15"]
+tags: ["Hans Hellmut Kirst", "José Saramago", "08/15"]
 layout: artefact
 status: complete
 published: true

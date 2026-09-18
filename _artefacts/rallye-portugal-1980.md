@@ -3,7 +3,7 @@ ref_group: "430"
 ref_id: "0003"
 title: "Rallye de Portugal 1980"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1980"
 decade: 1980s
 origin: ["Portugal"]

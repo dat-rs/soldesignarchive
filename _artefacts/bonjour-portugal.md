@@ -18,6 +18,6 @@ redirect_from:
   - /artefacts/bonjour-au-portugal/
 ---
 
-Poster stamp, or vignette, reproducing a poster designed by <a class="text cat-link author" href="/authors/Marcelino Vespeira/">Marcelino Vespeira</a> for <a class="text cat-link publisher" href="/publishers/SPN/SNI/SEIT/">SNI</a> promoting tourism in Portugal. This poster had several versions over the years in different languages and with different taglines.
+Poster stamp, or vignette, reproducing a poster designed by <a class="text cat-link author" href="/authors/Marcelino Vespeira/">Marcelino Vespeira</a> for <a class="text cat-link publisher" href="/publishers/SPN-barra-SNI-barra-SEIT/">SNI</a> promoting tourism in Portugal. This poster had several versions over the years in different languages and with different taglines.
 
 These stamps were distributed with the March 1959 issue of <a class="text cat-link tag" href="/tags/Panorama/">Panorama</a> magazine.

@@ -3,7 +3,7 @@ ref_group: "121"
 ref_id: "0047"
 title: "Tirol Austria"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Austria"]
 formats: ["flyer"]
