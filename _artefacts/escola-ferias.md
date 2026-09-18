@@ -11,7 +11,7 @@ title: Escola de Férias
 ref_group: "030"
 ref_id: "0101"
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines: [graphic-design, typography, illustration]
 author_name: [João de Mascarenhas]

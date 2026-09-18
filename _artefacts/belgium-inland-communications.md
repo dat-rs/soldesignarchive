@@ -5,7 +5,7 @@ year: y1958
 decade: 1950s
 origin: Belgium
 publisher: "Commissariat Général au Turisme"
-formats: [brochure, "graphic-design"]
+formats: [brochure]
 disciplines: [graphic-design]
 tags: [tourism, "Expo 58"]
 ref_group: "121"

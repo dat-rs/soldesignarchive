@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "Livraria Clássica Editora"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [illustration, "Henri Troyat"]
+tags: [ "Henri Troyat"]
 ref_group: "010"
 ref_id: "0014"
 layout: artefact

@@ -5,9 +5,9 @@ year: "y1963"
 decade: 1960s
 origin: "Portugal"
 publisher: ["Portugália Editora"]
-formats: [book-cover, book, illustration]
+formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [Philippe Sollers, "O Livro de Bolso", fiction, illustration, orange, purple]
+tags: [Philippe Sollers, "O Livro de Bolso", fiction, orange, purple]
 ref_group: "010"
 ref_id: "0012"
 layout: artefact

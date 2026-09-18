@@ -7,7 +7,7 @@ publisher: ["Fundação Calouste Gulbenkian"]
 year: "y1982"
 decade: 1980s
 origin: ["Portugal"]
-formats: ["book, catalogue"]
+formats: [book, catalogue]
 disciplines: [graphic-design]
 tags:
 layout: artefact

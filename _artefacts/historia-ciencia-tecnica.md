@@ -5,7 +5,7 @@ year: y1963
 decade: 1960s
 origin: Portugal
 publisher: ["Ulisseia", "Pelican Books"]
-formats: [book-cover, book, illustration, lettering]
+formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: [science, technology]
 ref_group: "010"

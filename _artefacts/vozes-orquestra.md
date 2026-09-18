@@ -13,7 +13,7 @@ author_name:
 year: y1965
 decade: 1960s
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines: [graphic-design, typography, illustration]
 tags:

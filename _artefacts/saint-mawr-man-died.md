@@ -7,7 +7,7 @@ origin: United States
 publisher: "Vintage Books"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
-tags: [lettering]
+tags: []
 ref_group: "030"
 ref_id: "0080"
 layout: artefact

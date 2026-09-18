@@ -6,8 +6,8 @@ decade: 1960s
 origin: United States
 publisher: "Bantam Books"
 formats: [book-cover, book]
-disciplines: [graphic-design, typography]
-tags: [illustration, "Philip Roth", "Benguiat Caslon"]
+disciplines: [graphic-design, typography, illustration]
+tags: [ "Philip Roth", "Benguiat Caslon"]
 ref_group: "030"
 ref_id: "0077"
 layout: artefact

@@ -7,7 +7,7 @@ publisher: ["Livraria Clássica Editora"]
 year: "y1972"
 decade: 1970s
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

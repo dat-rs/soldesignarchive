@@ -5,8 +5,8 @@ year: "unknown-date"
 origin: Belgium
 publisher: "Guy Verzwalm"
 formats: ["photo-album"]
-disciplines: [graphic-design, typography, identity, logo]
-tags: [embossing, pattern]
+disciplines: [graphic-design, typography, identity, logo, pattern]
+tags: [embossing]
 ref_group: "160"
 ref_id: "0000"
 layout: artefact

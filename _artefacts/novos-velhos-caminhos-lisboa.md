@@ -6,7 +6,7 @@ author_name: ["unknown author"]
 publisher: ["J. Drummond Ludovice"]
 year: "unknown-date"
 origin: null
-formats: ["almanac, book"]
+formats: [almanac, book]
 disciplines: [graphic-design]
 tags:
 layout: artefact

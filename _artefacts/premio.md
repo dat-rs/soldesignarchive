@@ -7,7 +7,7 @@ origin: Portugal
 publisher: ["Portugália Editora"]
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [fiction, illustration]
+tags: [fiction]
 ref_group: "030"
 ref_id: "0013"
 layout: artefact
