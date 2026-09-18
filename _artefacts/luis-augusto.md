@@ -8,7 +8,7 @@ origin: Portugal
 publisher: "Luís e Augusto"
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, logo]
-tags:
+tags: [commercial]
 image_count:
 layout: artefact
 status: complete

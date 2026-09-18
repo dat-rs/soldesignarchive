@@ -8,7 +8,7 @@ origin: Portugal
 publisher: M. J. Morais
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags:
+tags: [commercial]
 image_count:
 layout: artefact
 status: complete

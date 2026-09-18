@@ -8,7 +8,7 @@ origin: Portugal
 publisher: Olavo Cruz
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: [cars]
+tags: [cars, commercial]
 image_count:
 layout: artefact
 status: complete
