@@ -1,5 +1,10 @@
 ---
 name: Raquel Roque Gameiro
+birth_date: "1889"
+death_date: "1970"
+nationality: Portuguese
+isni: "0000000066379691"
+wikidata: Q10357500
 image_path:
 rel_authors:
 rel_publishers:

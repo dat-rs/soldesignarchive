@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0369"
 title: "Fábrica de Oficiais"
 author_name: ["Joaquim Esteves"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "y1961"
 origin: ["Portugal"]
 formats: [book, book-cover]
@@ -14,6 +14,6 @@ status: scan
 published: false
 image_count:
 date_added: 2026-09-09
-batch: /bagageirabenfica/300826
+batch: /bagageirabenfica/20260830
 staging: true
 ---

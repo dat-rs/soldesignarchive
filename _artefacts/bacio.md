@@ -5,7 +5,7 @@ title: "Bacio"
 author_name: [unknown author]
 year: y1986
 origin: Portugal
-publisher: "Unknown Publisher"
+publisher: Unknown Publisher
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
 tags:

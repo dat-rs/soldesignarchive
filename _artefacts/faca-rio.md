@@ -4,7 +4,7 @@ ref_id: "0363"
 title: "A Faca e o Rio"
 author_name: ["Infante do Carmo"]
 publisher: []
-year: "unknown year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
