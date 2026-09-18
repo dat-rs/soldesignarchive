@@ -8,7 +8,7 @@ origin: Portugal
 publisher: Fidelidade
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: [commercial]
+tags:
 image_count:
 layout: artefact
 status: complete
