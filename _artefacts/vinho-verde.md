@@ -8,7 +8,7 @@ origin: Portugal
 publisher: VERCOOPE
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: wine
+tags: [wine, commercial]
 image_count:
 layout: artefact
 status: complete

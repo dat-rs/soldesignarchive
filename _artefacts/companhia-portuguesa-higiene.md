@@ -8,7 +8,7 @@ origin: Portugal
 publisher: Companhia Portuguesa de Higiene
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags:
+tags: [commercial]
 image_count: 2
 layout: artefact
 status: complete

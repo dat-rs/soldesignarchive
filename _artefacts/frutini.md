@@ -8,7 +8,7 @@ origin: Portugal
 publisher: Frutini
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, logo]
-tags: fruit
+tags: [fruit, commercial]
 image_count:
 layout: artefact
 status: complete
