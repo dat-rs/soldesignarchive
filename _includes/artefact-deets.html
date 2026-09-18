@@ -33,7 +33,7 @@
         value gets the case wrong and misses the -dot-/-barra- filename
         substitutions; see the origin block above.
       {% endcomment %}{% assign publisher_page = site.publishers | where: 'name', publisher | first %}{% capture publisher_fallback %}/publishers/{{ publisher | escape_once }}/{% endcapture %}
-      <a class="deet-link publisher {% if publisher == 'unknown publisher' %}unknown{% endif %}" href="{{ publisher_page.url | default: publisher_fallback }}">{{ publisher }}</a>
+      <a class="deet-link publisher {% if publisher == 'Unknown Publisher' %}unknown{% endif %}" href="{{ publisher_page.url | default: publisher_fallback }}">{{ publisher }}</a>
       {% endfor %}
     </div>
   </div>

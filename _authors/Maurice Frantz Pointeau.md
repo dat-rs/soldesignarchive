@@ -1,5 +1,6 @@
 ---
 name: Maurice Frantz Pointeau
+isni: "0000000139703190"
 image_path:
 rel_authors:
 rel_publishers:

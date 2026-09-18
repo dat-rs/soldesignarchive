@@ -1,5 +1,10 @@
 ---
 name: Maluda
+birth_date: "1934-11-15"
+death_date: "1999-02-10"
+nationality: Portuguese
+isni: "0000000082838691"
+wikidata: Q3284650
 image_path:
 rel_authors:
 rel_publishers:

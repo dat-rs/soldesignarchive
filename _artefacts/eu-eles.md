@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0245"
 title: "Eu e Eles…"
 author_name: ["Paulo-Guilherme"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: y1963
 decade: 1960s
 origin: ["Portugal"]

@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0044"
 title: "Um Herói do Nosso Tempo"
 author_name: ["António Domingues"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "y1959"
 decade: 1950s
 origin: ["Portugal"]

@@ -1,5 +1,6 @@
 ---
 name: António Vaz Pereira
+isni: "0000000069307722"
 image_path:
 rel_authors:
 rel_publishers:

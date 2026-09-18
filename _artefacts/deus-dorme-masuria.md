@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0028"
 title: "Deus dorme em Masúria"
 author_name: ["Figueiredo Sobral"]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]

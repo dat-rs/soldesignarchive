@@ -5,27 +5,20 @@ image: "/images/non-art/sol-branding-comp-1.jpg"
 permalink: /404.html
 ---
 
-{% include head-and-header.html page-meta-title=layout.title page-meta-description=layout.description page-meta-image=layout.image %}
+{% include head-and-header.html page-meta-title=layout.title page-meta-description=layout.description
+page-meta-image=layout.image %}
 
-<div class="container-fluid rainbow first-after-header">
-{% include rainbow.html start-end-switch="end" %}
-</div>
+<div class="container-fluid rainbow first-after-header">{% include rainbow.html start-end-switch="end" %}</div>
 
 <div class="container-fluid fourofour">
   <div class="row">
     <div class="col-12 text-center">
-      <h1 class="page-not-found">
-        Page not found
-      </h1>
+      <h1 class="page-not-found">Page not found</h1>
     </div>
   </div>
 </div>
 
-<div class="container-fluid rainbow">
-  {% include rainbow.html start-end-switch="start" %}
-</div>
-
-
+<div class="container-fluid rainbow">{% include rainbow.html start-end-switch="start" %}</div>
 
 <!-- 
 
@@ -48,4 +41,11 @@ permalink: /404.html
 -->
 
 {% include footer.html %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    plausible("404");
+  });
+</script>
+
 {% include the-end.html %}

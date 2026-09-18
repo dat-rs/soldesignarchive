@@ -1,5 +1,10 @@
 ---
 name: Alvin Lustig
+birth_date: "1915-02-08"
+death_date: "1955-12-04"
+nationality: American
+isni: "0000000066804870"
+wikidata: Q4738169
 image_path:
 rel_authors:
 rel_publishers:

@@ -3,7 +3,7 @@ ref_group: "010"
 ref_id: "0006"
 title: "Por um Novo Romance"
 author_name: ["Estúdios P.E.A."]
-publisher: ["Publicações Europa América"]
+publisher: ["Publicações Europa-América"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["book-cover"]

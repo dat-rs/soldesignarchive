@@ -4,7 +4,7 @@ ref_id: "0347"
 title: "Bagagem de Areia"
 author_name: ["Paulo-Guilherme"]
 publisher: ["Clássica Editora"]
-year: "unknown year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]

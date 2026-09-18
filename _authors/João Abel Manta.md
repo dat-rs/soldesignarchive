@@ -1,5 +1,10 @@
 ---
 name: João Abel Manta
+birth_date: "1928-01-29"
+death_date: "2026-05-15"
+nationality: Portuguese
+isni: "0000000103320032"
+wikidata: Q2736964
 image_path:
 rel_authors:
 rel_publishers:
@@ -8,4 +13,4 @@ layout: author
 published: true
 ---
 
-João Abel Manta (1928) is a Portuguese illustrator, cartoonist, graphic designer, and painter.
+João Abel Manta (1928–2026) was a Portuguese illustrator, cartoonist, graphic designer, and painter.

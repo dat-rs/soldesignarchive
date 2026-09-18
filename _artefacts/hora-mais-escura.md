@@ -4,7 +4,7 @@ ref_id: "0370"
 title: "A Hora Mais Escura"
 author_name: ["Andrade Albuquerque"]
 publisher: []
-year: "unknown-year"
+year: "unknown-date"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
@@ -14,6 +14,6 @@ status: scan
 published: false
 image_count:
 date_added: 2026-09-09
-batch: /bagageirabenfica/300826
+batch: /bagageirabenfica/20260830
 staging: true
 ---

@@ -75,7 +75,7 @@ $viewport-less-header-mob: calc(100vh - 96px);
 $viewport-less-header-sm: calc(100vh - 70px);
 $viewport-less-header-md: calc(100vh - 80px);
 $viewport-less-header-lg: calc(100vh - 60px);
-$viewport-less-header-xl: calc(100vh - 60px);
+$viewport-less-header-xl: calc(100vh - 40px);
 
 $viewport-less-header-sm-half: calc(50vh - 80px);
 $viewport-less-header-md-half: calc(50vh - 40px);
@@ -858,6 +858,7 @@ section.about {
   margin-right: -15px;
   animation: none 1s;
   /* fix for Safari animation on load */
+  --bs-gutter-x: 15px;
 }
 
 .title-col {
@@ -883,15 +884,25 @@ section.about {
 
 h1.site-title {
   font-family: $titlecondensed, sans;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 25px;
+  line-height: 19px;
   letter-spacing: normal;
   font-weight: 600;
   display: inline-block;
   color: black;
-  margin-top: 7px;
+  margin-top: 16px;
   margin-bottom: 2px;
 
+  @media (min-width: 576px) {
+      font-size: 18px;
+      line-height: 17px;
+      margin-top: 9px;
+    }
+  @media (min-width: 768px) {
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 7px;
+  }
   @media (min-width: 992px) {
     font-size: 21px;
     line-height: 26px;
@@ -915,7 +926,6 @@ h1.site-title a:hover {
   font-size: 12px;
   line-height: 14px;
   font-weight: 400;
-  letter-spacing: -0.5px;
   text-transform: uppercase;
   color: black;
   width: auto;
@@ -923,16 +933,24 @@ h1.site-title a:hover {
   transition: 0.2s;
   text-decoration: none;
   margin-right: 8px;
+  &.santos {
+    color: gray;
+    letter-spacing: -1px;
+    text-align: left;
+  }
   &:hover {
     color: coral;
     text-decoration: none;
   }
 
   @media (min-width: 576px) {
-    line-height: 13px;
+    font-size: 12px;
+    line-height: 16.5px;
+    letter-spacing: -0.5px;
   }
 
   @media (min-width: 768px) {
+    font-size: 10.5px;
   }
 
   @media (min-width: 992px) {
@@ -944,17 +962,28 @@ h1.site-title a:hover {
   }
 }
 
-.nav-col {
-  padding-top: 7px;
+.nav-col,
+.byline-col {
+  font-size: 0px;
+  padding-top: 15px;
   @media (min-width: 576px) {
-      padding-top: 5px;
+      padding-top: 12px;
     }
+  @media (min-width: 768px) {
+    padding-top: 10px;
+  }
   @media (min-width: 992px) {
-    padding-top: 7px;
+    padding-top: 12px;
   }
   @media (min-width: 1200px) {
-    padding-top: 8px;
+    padding-top: 12px;
   }
+}
+
+.byline-col {
+  @media (min-width: 576px) {
+      text-align: right;
+    }
 }
 
 .sol-circle {
@@ -2106,8 +2135,24 @@ i.bi-archive::before {
   --bs-gutter-x: 0.75rem;
   padding-top: 0px;
   background-color: black;
-  min-height: 80vh;
   padding-bottom: 40px;
+  min-height: $viewport-less-header-mob;
+
+  @media (min-width: 576px) {
+    min-height: $viewport-less-header-sm;
+  }
+
+  @media (min-width: 768px) {
+    min-height: $viewport-less-header-md;
+  }
+
+  @media (min-width: 992px) {
+    min-height: $viewport-less-header-lg;
+  }
+
+  @media (min-width: 1200px) {
+    min-height: $viewport-less-header-xl;
+  }
 }
 
 
@@ -2181,10 +2226,6 @@ i.bi-archive::before {
   }
 }
 
-/* Scoped to .artefacts-sidebar on purpose: #artefacts-filters,
-   .a-filter-label and .section-title.artefacts-filter are shared with the
-   back office (sub-header-backoffice-status.html) and
-   who-what-when-where-how.html, both on a dark ground. */
 .artefacts-sidebar {
   #artefacts-filters {
     color: black;
@@ -2204,9 +2245,6 @@ i.bi-archive::before {
     padding-top: 0px;
   }
 
-  /* Options are the column's body text; the blue stays on the headings.
-     The global .a-filter-label is $blue and its hover is $bg-white, which
-     would be invisible on this ground. */
   .a-filter-label {
     color: black;
   }
