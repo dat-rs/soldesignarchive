@@ -8,7 +8,7 @@ year: y1986
 origin: Portugal
 formats: [calendar, business-card]
 disciplines: [graphic-design, logo, typography]
-tags:
+tags: [commercial]
 status: complete
 published: true
 image_count:

@@ -8,7 +8,7 @@ origin: Portugal
 publisher: Crice Estúdios Gráficos
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags:
+tags: [commercial]
 layout: artefact
 status: complete
 published: true

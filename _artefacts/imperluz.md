@@ -8,7 +8,7 @@ year: unknown-date
 origin: Portugal
 formats: ["business-card"]
 disciplines: [graphic-design, illustration, typography, identity, logo]
-tags: [electronics]
+tags: [electronics, commercial]
 layout: artefact
 status: complete
 published: true
