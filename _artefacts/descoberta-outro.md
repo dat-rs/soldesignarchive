@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "SET"
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
-tags: ["Gostavo Corção"]
+tags: ["Gustavo Corção"]
 ref_group: "010"
 ref_id: "0063"
 layout: artefact

@@ -5,7 +5,7 @@ year: y1959
 decade: 1950s
 origin: Portugal
 publisher: "Publicações Europa-América"
-formats: [book-cover, book, "graphic-design"]
+formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, lettering]
 tags: ["Boris Pasternak", "Os Livros das Três Abelhas"]
 iconography: [women, men, rain]

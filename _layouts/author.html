@@ -29,9 +29,9 @@ filtered_artefacts.size | divided_by: 2 %}
       {% else %}
       <figure class="feature-img artefact">
         <div class="artefact-holder">
-          <img
+          {% if filtered_artefacts[number] %}<img
             src="/images/sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }}-{{ filtered_artefacts[number].slug }}.jpg"
-            alt="" />
+            alt="" />{% endif %}
         </div>
       </figure>
       {% endif %}
@@ -121,8 +121,8 @@ filtered_artefacts.size | divided_by: 2 %}
     </div>
 
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-      {% for rel_author in page.rel_authors %}
-      <a href="/authors/{{ rel_author | escape_once }}" class="related-link author">{{ rel_author }}</a>
+      {% for rel_author in page.rel_authors %}{% assign rel_author_page = site.authors | where: 'name', rel_author | first %}{% capture rel_author_fallback %}/authors/{{ rel_author | escape_once }}/{% endcapture %}
+      <a href="{{ rel_author_page.url | default: rel_author_fallback }}" class="related-link author">{{ rel_author }}</a>
       {% endfor %}
     </div>
   </div>
@@ -136,8 +136,8 @@ filtered_artefacts.size | divided_by: 2 %}
     </div>
 
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-      {% for rel_publisher in page.rel_publishers %}
-      <a href="/publishers/{{ rel_publisher | escape_once }}" class="related-link publisher">{{ rel_publisher }}</a>
+      {% for rel_publisher in page.rel_publishers %}{% assign rel_publisher_page = site.publishers | where: 'name', rel_publisher | first %}{% capture rel_publisher_fallback %}/publishers/{{ rel_publisher | escape_once }}/{% endcapture %}
+      <a href="{{ rel_publisher_page.url | default: rel_publisher_fallback }}" class="related-link publisher">{{ rel_publisher }}</a>
       {% endfor %}
     </div>
   </div>
@@ -151,8 +151,8 @@ filtered_artefacts.size | divided_by: 2 %}
     </div>
 
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 datum-right-col related-links">
-      {% for rel_tag in page.rel_tags %}
-      <a href="/tags/{{ rel_tag | escape_once }}" class="related-link tag">{{ rel_tag }}</a>
+      {% for rel_tag in page.rel_tags %}{% assign rel_tag_page = site.tags | where: 'name', rel_tag | first %}{% capture rel_tag_fallback %}/tags/{{ rel_tag | escape_once }}/{% endcapture %}
+      <a href="{{ rel_tag_page.url | default: rel_tag_fallback }}" class="related-link tag">{{ rel_tag }}</a>
       {% endfor %}
     </div>
   </div>

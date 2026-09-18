@@ -11,7 +11,7 @@ title: A Náusea
 ref_group: "030"
 ref_id: "0100"
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines:
   - collage

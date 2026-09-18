@@ -7,7 +7,7 @@ origin: Brazil
 publisher: "Zahar Editores"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography]
-tags: [non-fiction, socialism, politics, economics, "Paul Sweezy"]
+tags: [non-fiction, socialism, "Politics", economics, "Paul Sweezy"]
 ref_group: "030"
 ref_id: "0183"
 layout: artefact

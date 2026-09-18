@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "Livraria Didáctica"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [non-fiction, education, math, illustration, textbook, pink]
+tags: [non-fiction, education, math, textbook, pink]
 ref_group: "030"
 ref_id: "0081"
 image_count: 2

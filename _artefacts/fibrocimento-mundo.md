@@ -6,7 +6,7 @@ author_name: ["unknown author"]
 publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
-formats: ["booklet, catalogue"]
+formats: [booklet, catalogue]
 disciplines: [graphic-design]
 tags:
 layout: artefact

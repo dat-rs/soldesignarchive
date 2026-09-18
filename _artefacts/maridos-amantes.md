@@ -7,7 +7,7 @@ publisher: ["Livros do Brasil"]
 year: "y1985"
 decade: 1980s
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

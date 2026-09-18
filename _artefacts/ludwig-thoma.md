@@ -5,7 +5,7 @@ year: y1966
 decade: 1960s
 origin: Germany
 publisher: 'Piper Verlag'
-formats: [book jacket, book]
+formats: [book-jacket, book]
 disciplines: [graphic-design, typography, illustration]
 tags: []
 ref_group: "030"
