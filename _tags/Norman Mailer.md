@@ -1,5 +1,5 @@
 ---
-name: Normal Mailer
+name: "Norman Mailer"
 layout: tag
 type: person
 ---

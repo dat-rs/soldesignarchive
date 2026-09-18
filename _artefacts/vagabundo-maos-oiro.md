@@ -7,7 +7,7 @@ origin: Portugal
 publisher: ["Portugália Editora"]
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [illustration, "Romeu Correia", theatre, "O Livro de Bolso"]
+tags: [ "Romeu Correia", theatre, "O Livro de Bolso"]
 ref_group: "030"
 ref_id: "0058"
 layout: artefact

@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "Fundação Calouste Gulbenkian"
 formats: [catalogue, booklet]
 disciplines: [graphic-design, typography, pattern]
-tags: [geometry, architecture, pattern]
+tags: [geometry, architecture]
 ref_group: "231"
 ref_id: "0011"
 layout: artefact

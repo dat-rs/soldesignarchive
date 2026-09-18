@@ -8,7 +8,7 @@ year: unknown-date
 origin: United States
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
-tags: [trains]
+tags: ["Trains"]
 layout: artefact
 status: complete
 published: true

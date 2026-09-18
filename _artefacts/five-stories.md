@@ -6,8 +6,8 @@ decade: 1950s
 origin: United States
 publisher: "Vintage Books"
 formats: [book-cover, book]
-disciplines: [graphic-design, typography, illustration]
-tags: ["Willa Cather", circles, pattern]
+disciplines: [graphic-design, typography, illustration, pattern]
+tags: ["Willa Cather", circles]
 ref_group: "030"
 ref_id: "0070"
 image_count: 2

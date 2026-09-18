@@ -11,7 +11,7 @@ title: Delirante Brasil?
 ref_group: "030"
 ref_id: "0102"
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines: [graphic-design, typography]
 author_name:

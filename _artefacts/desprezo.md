@@ -2,7 +2,7 @@
 ref_group: "030"
 ref_id: "0306"
 title: O Desprezo
-author_name: [unknown artist]
+author_name: [unknown author]
 publisher: [Ulisseia]
 year: y1955
 origin: Portugal

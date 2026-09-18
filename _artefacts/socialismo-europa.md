@@ -8,7 +8,7 @@ year: "y1976"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
-tags: ["politics", "socialism"]
+tags: ["Politics", "socialism"]
 layout: artefact
 status: scan
 published: false

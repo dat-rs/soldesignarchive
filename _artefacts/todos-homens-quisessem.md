@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "Publicações Europa-América"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [fiction, "Os Livros das Três Abelhas", "Publicações Europa-América", Elio Vittorini, brown, blue, illustration]
+tags: [fiction, "Os Livros das Três Abelhas", "Publicações Europa-América", Elio Vittorini, brown, blue]
 ref_group: "030"
 ref_id: "0046"
 layout: artefact

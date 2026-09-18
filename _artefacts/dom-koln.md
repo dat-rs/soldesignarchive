@@ -7,7 +7,7 @@ publisher: ["Verlag L.Schwann Düsseldorf"]
 year: "y1948"
 decade: 1940s
 origin: ["Germany"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

@@ -13,7 +13,7 @@ author_name:
 year: y1955
 decade: 1950s
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines:
   - lettering
