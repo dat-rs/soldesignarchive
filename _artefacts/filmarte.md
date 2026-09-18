@@ -6,7 +6,7 @@ origin: Portugal
 publisher: "Filmarte"
 formats: [envelope]
 disciplines: [graphic-design, typography, illustration, identity, logo]
-tags: [""]
+tags: []
 ref_group: "530"
 ref_id: "0001"
 layout: artefact

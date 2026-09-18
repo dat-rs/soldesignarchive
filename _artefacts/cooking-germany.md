@@ -7,7 +7,7 @@ publisher: ["Time-Life"]
 year: "y1974"
 decade: 1970s
 origin: null
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

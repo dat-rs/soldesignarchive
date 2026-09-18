@@ -8,7 +8,7 @@ year: y1963
 origin: Italy
 formats: [magazine]
 disciplines: [graphic-design, typography]
-tags: [politics, left-wing]
+tags: ["Politics", left-wing]
 status: scan
 published: false
 image_count:

@@ -8,7 +8,7 @@ year: y1969
 origin: Brazil
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [non-fiction, philosophy, politics, Marxism, Heidegger]
+tags: [non-fiction, philosophy, "Politics", "marxism", Heidegger]
 layout: artefact
 status: complete
 published: true

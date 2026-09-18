@@ -7,7 +7,7 @@ origin: Portugal
 publisher: "Editorial O Século"
 formats: [book, book-cover]
 disciplines: [graphic-design, typography]
-tags: ["Jean-Louis Boursin", helvetica]
+tags: ["Jean-Louis Boursin", "Helvetica"]
 ref_group: "030"
 ref_id: "0062"
 layout: artefact

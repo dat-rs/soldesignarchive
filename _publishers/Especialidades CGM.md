@@ -1,4 +1,0 @@
----
-name: "Especialidades C.G.M."
-layout: publisher
----

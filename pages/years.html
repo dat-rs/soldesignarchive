@@ -29,10 +29,10 @@ page-meta-image=page.image %} {% assign pub_artefacts = site.artefacts | where: 
       <div class="right-col-fixed">
         <figure id="{{ year.name }}-featured-img" class="feature-img artefact" style="display: none">
           <div class="artefact-holder">
-            <img
+            {% if filtered_artefacts[number] %}<img
               class="a-module-img"
               src="/images/sm/sol-{{ filtered_artefacts[number].ref_group }}-{{ filtered_artefacts[number].ref_id }}-{{ filtered_artefacts[number].slug }}-sm.jpg"
-              alt="" />
+              alt="" />{% endif %}
           </div>
         </figure>
       </div>

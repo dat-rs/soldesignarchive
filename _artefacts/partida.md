@@ -7,7 +7,7 @@ publisher: ["Unknown Publisher"]
 year: "y1980"
 decade: 1980s
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

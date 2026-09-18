@@ -5,7 +5,7 @@ year: y1960
 decade: 1960s
 origin: Portugal
 publisher: "Grupo de Publicações Periódicas"
-formats: [magazine, graphic-design]
+formats: [magazine]
 disciplines: [graphic-design, typography, illustration, photography]
 tags: ["Almanaque", almanac, journalism, "arts & culture", "Joaquim Figueiredo Magalhães", monochrome]
 ref_group: "320"

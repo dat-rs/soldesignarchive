@@ -11,7 +11,7 @@ title: A Mulher e o Desporto
 ref_group: "030"
 ref_id: "0099"
 formats:
-  - book cover
+  - book-cover
   - book
 disciplines:
   - illustration

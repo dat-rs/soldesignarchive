@@ -7,7 +7,7 @@ publisher: ["Editorial O Primeiro de Janeiro"]
 year: "y1948"
 decade: 1940s
 origin: ["Portugal"]
-formats: ["book, book-cover"]
+formats: [book, book-cover]
 disciplines: [graphic-design]
 tags:
 layout: artefact

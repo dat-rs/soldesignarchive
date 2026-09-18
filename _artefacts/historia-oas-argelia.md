@@ -8,7 +8,7 @@ year: "y1964"
 origin: ["Portugal"]
 formats: [book, book-cover]
 disciplines: [graphic-design, illustration, typography]
-tags: ["Paul-Marie de la Gorce", "OAS", "history", "politics"]
+tags: ["Paul-Marie de la Gorce", "OAS", "history", "Politics"]
 layout: artefact
 status: scan
 published: false

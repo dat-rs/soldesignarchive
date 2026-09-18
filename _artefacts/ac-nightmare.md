@@ -7,7 +7,7 @@ origin: United States
 publisher: "Panther Books"
 formats: [book, book-cover]
 disciplines: ["graphic-design", typography, illustration, collage]
-tags: [fiction, "Henry Miller", helvetica, "tight-not-touching"]
+tags: [fiction, "Henry Miller", "Helvetica", "tight-not-touching"]
 ref_group: "030"
 ref_id: "0222"
 layout: artefact

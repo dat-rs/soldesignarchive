@@ -7,7 +7,7 @@ origin: "Brazil"
 publisher: "Escritório de Propaganda e Expansão Comercial do Brasil em Lisboa"
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration, photography]
-tags: [Brazil, non-fiction, tourism, commerce, government, illustration, propaganda]
+tags: [Brazil, non-fiction, tourism, commerce, government, propaganda]
 ref_group: "030"
 ref_id: "0007"
 image_count: 8
