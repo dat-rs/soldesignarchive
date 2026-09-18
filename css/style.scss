@@ -194,6 +194,11 @@ a.text.reg-link,
   text-decoration: none;
 }
 
+a.text.cat-link.new-hyper-fix {
+  display: inline-block;
+  margin-right: -4px;
+}
+
 .post-text blockquote {
   font-size: 0.8em;
   line-height: 24px;

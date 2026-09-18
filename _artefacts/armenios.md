@@ -7,7 +7,7 @@ publisher: ["Unknown Publisher"]
 year: "y1973"
 decade: 1970s
 origin: ["Portugal", "United Kingdom"]
-formats: ["book, book-cover, document"]
+formats: ["book", "book-cover"]
 disciplines: [graphic-design]
 tags:
 layout: artefact

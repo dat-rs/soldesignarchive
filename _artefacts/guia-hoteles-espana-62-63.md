@@ -7,7 +7,7 @@ publisher: ["Direccion General del Turismo"]
 year: "y1962"
 decade: 1960s
 origin: ["Spain"]
-formats: ["book, guide"]
+formats: ["book", "book-cover"]
 disciplines: [graphic-design]
 tags:
 layout: artefact

@@ -1,0 +1,4 @@
+{% assign include_content = include.content %}{% assign artefacts_referred = site.artefacts | where: 'title',
+include_content %}{% for artefact in artefacts_referred %}
+<a class="text cat-link new-hyper-fix artefact" href="/artefacts/{{ artefact.slug }}">{{ include.content }}</a>{% endfor
+%}
