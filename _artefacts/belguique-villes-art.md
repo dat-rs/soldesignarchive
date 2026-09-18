@@ -3,7 +3,7 @@ ref_group: "251"
 ref_id: "0002"
 title: "Belgique. Villes d’Art"
 author_name: ["Lucien De Roeck"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: y1958
 decade: 1950s
 circa: true

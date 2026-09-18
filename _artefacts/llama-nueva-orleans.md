@@ -4,7 +4,7 @@ author_name: ["unknown author"]
 year: y1952
 decade: 1950s
 origin: [Catalonia, Spain]
-publisher: "unknown publisher"
+publisher: "Unknown Publisher"
 formats: [ad]
 disciplines: ["graphic-design", typography, illustration]
 tags: [cinema]

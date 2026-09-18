@@ -3,7 +3,7 @@ ref_group: "321"
 ref_id: "0037"
 title: "Zoom. Le magazine de l’Image 14"
 author_name: ["Pete Turner"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1972"
 decade: 1970s
 origin: ["France"]

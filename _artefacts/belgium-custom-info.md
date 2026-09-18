@@ -3,7 +3,7 @@ ref_group: "251"
 ref_id: "0006"
 title: "Belgium Custom Information"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: y1958
 decade: 1950s
 circa: true

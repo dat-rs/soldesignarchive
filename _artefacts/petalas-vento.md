@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0235"
 title: "Pétalas ao Vento"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: y1927
 decade: 1920s
 origin: ["Portugal"]

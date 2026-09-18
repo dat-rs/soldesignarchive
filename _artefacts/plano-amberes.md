@@ -3,7 +3,7 @@ ref_group: "211"
 ref_id: "0000"
 title: "Plano de Amberes"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: y1958
 decade: 1950s
 circa: true

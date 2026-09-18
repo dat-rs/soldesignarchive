@@ -3,7 +3,7 @@ ref_group: "323"
 ref_id: "0000"
 title: "Boletim da Sociedade Nacional de Belas Artes 5"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "unknown-date"
 origin: ["Portugal"]
 formats: ["magazine"]

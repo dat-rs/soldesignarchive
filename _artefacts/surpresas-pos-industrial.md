@@ -4,7 +4,7 @@ author_name: "Luís Felipe da Conceição"
 year: y1971
 decade: 1970s
 origin: Portugal
-publisher: "Luís Felipe da Conceição"
+publisher: "Self-Published"
 formats: [book-cover, book]
 disciplines: [graphic-design, illustration, typography]
 tags: [non-fiction]

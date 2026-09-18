@@ -3,7 +3,7 @@ ref_group: "030"
 ref_id: "0203"
 title: "Partida"
 author_name: ["Rui Azevedo"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1980"
 decade: 1980s
 origin: ["Portugal"]

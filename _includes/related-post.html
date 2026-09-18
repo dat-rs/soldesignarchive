@@ -30,8 +30,8 @@
     </div>
 
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 col-xl-7 datum-right-col related-links">
-      {% for related_author in page.related_authors %}
-      <a href="/authors/{{ related_author | escape_once }}" class="related-link author">{{ related_author }}</a>
+      {% for related_author in page.related_authors %}{% assign related_author_page = site.authors | where: 'name', related_author | first %}{% capture related_author_fallback %}/authors/{{ related_author | escape_once }}/{% endcapture %}
+      <a href="{{ related_author_page.url | default: related_author_fallback }}" class="related-link author">{{ related_author }}</a>
       {% endfor %}
     </div>
     <div class="w-100"></div>
@@ -42,8 +42,8 @@
     </div>
 
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 col-xl-7 datum-right-col related-links">
-      {% for related_publisher in page.related_publishers %}
-      <a href="/publishers/{{ related_publisher | escape_once }}" class="related-link publisher"
+      {% for related_publisher in page.related_publishers %}{% assign related_publisher_page = site.publishers | where: 'name', related_publisher | first %}{% capture related_publisher_fallback %}/publishers/{{ related_publisher | escape_once }}/{% endcapture %}
+      <a href="{{ related_publisher_page.url | default: related_publisher_fallback }}" class="related-link publisher"
         >{{ related_publisher }}</a
       >
       {% endfor %}
@@ -57,8 +57,8 @@
     </div>
 
     <div class="col-12 col-sm-9 col-md-10 col-lg-8 col-xl-7 datum-right-col related-links">
-      {% for related_tag in page.related_tags %}
-      <a href="/tags/{{ related_tag | escape_once }}" class="related-link tag">{{ related_tag }}</a>
+      {% for related_tag in page.related_tags %}{% assign related_tag_page = site.tags | where: 'name', related_tag | first %}{% capture related_tag_fallback %}/tags/{{ related_tag | escape_once }}/{% endcapture %}
+      <a href="{{ related_tag_page.url | default: related_tag_fallback }}" class="related-link tag">{{ related_tag }}</a>
       {% endfor %}
     </div>
     <div class="w-100"></div>

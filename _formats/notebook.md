@@ -1,0 +1,4 @@
+---
+name: "notebook"
+layout: format
+---

@@ -5,7 +5,7 @@ title: "Rubigan 12"
 author_name: [unknown author]
 year: y1986
 origin: Portugal
-publisher: unknown publisher
+publisher: "Unknown Publisher"
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
 tags: [wine, agriculture]

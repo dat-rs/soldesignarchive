@@ -3,7 +3,7 @@ ref_group: "251"
 ref_id: "0001"
 title: "Belgique. Le Littoral"
 author_name: ["Ange Rawoe"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: y1958
 decade: 1950s
 circa: true

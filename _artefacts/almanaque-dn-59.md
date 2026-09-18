@@ -3,7 +3,7 @@ ref_group: "324"
 ref_id: "0001"
 title: "Almanaque Diário de Notícias 1959"
 author_name: ["unknown author"]
-publisher: ["unknown publisher"]
+publisher: ["Unknown Publisher"]
 year: "y1959"
 decade: 1950s
 origin: ["Portugal"]

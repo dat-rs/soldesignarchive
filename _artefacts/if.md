@@ -3,7 +3,7 @@ ref_group: "252"
 ref_id: "0001"
 title: If
 author_name: [unknown author]
-publisher: [unknown publisher]
+publisher: ["Unknown Publisher"]
 year: unknown-date
 origin: Portugal
 formats: [booklet]

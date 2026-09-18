@@ -8,7 +8,7 @@ year: y1938
 origin: Portugal
 formats: [book-cover, book]
 disciplines: [graphic-design, typography, illustration]
-tags: [Cadernos Culturais, non-fiction, politics, economics, Maurice Dobb]
+tags: [Cadernos Culturais, non-fiction, "Politics", economics, Maurice Dobb]
 layout: artefact
 status: complete
 published: true
