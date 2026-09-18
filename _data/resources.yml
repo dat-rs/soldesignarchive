@@ -192,13 +192,13 @@
   rel_artefacts: ["Tesouros do Museu de Bagdade"]
   description: "Page of the exhibition on Fundação Calouste Gulbenkian's History of the Arts Exhibitions site. It features information, photos, graphic materials and documentation related to the exhibition."
 
-- title: "Tone Høverstad - Wikipedia"
+- title: "Tone Høverstand - Wikipedia"
   type: at-archive
   lang: cat
   out_url: "https://ca.wikipedia.org/wiki/Tone_H%C3%B8verstad"
   rel_artefacts: []
-  rel_authors: ["Tone Høverstad"]
-  description: "Tone Høverstad's entry at Catalan Wikipedia."
+  rel_authors: ["Tone Høverstand"]
+  description: "Tone Høverstand's entry at Catalan Wikipedia."
 ---
 - title: "Tóssan"
   type: book

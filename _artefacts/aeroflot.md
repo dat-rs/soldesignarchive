@@ -7,7 +7,7 @@ origin: Soviet Union
 publisher: "Aeroflot"
 formats: [ticket, ephemera]
 disciplines: [graphic-design, typography]
-tags: [""]
+tags:
 ref_group: "512"
 ref_id: "0000"
 layout: artefact

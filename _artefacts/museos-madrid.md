@@ -19,4 +19,4 @@ redirect_from:
   - /artefacts/museos-de-madrid/
 ---
 
-Design and illustrations by <a class="text cat-link author" href="/authors/J.&20Ruiz&20Navarro/">J. Ruiz Navarro</a>. Map by <a class="text cat-link author" href="/authors/Francisco&20Espinosa/">Francisco Espinosa</a>. Informational brochure for tourists about Madrid's museums.
+Design and illustrations by <a class="text cat-link author" href="/authors/J.%20Ruiz%20Navarro/">J. Ruiz Navarro</a>. Map by <a class="text cat-link author" href="/authors/Francisco%20Espinosa/">Francisco Espinosa</a>. Informational brochure for tourists about Madrid's museums.

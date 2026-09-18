@@ -1,6 +1,6 @@
 ---
 title: "Folklore Belge"
-author_name: ["Elisabeth Ivanovsky"]
+author_name: ["Elizabeth Ivanovsky"]
 year: y1958
 decade: 1950s
 origin: Belgium

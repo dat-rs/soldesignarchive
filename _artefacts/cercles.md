@@ -2,7 +2,7 @@
 ref_group: "030"
 ref_id: "0275"
 title: "Cercles"
-author_name: [Loni Geest, Tone Høverstad]
+author_name: [Loni Geest, Tone Høverstand]
 publisher: ["Edicions 62"]
 year: y1980
 decade: 1980s
