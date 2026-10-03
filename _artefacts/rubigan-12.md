@@ -8,7 +8,7 @@ origin: Portugal
 publisher: Unknown Publisher
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: [wine, agriculture]
+tags: [wine, agriculture, commercial]
 image_count:
 layout: artefact
 status: complete

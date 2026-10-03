@@ -1,5 +1,5 @@
 ---
-name: commercial
+name: "commercial"
 layout: tag
 type: subject
 ---

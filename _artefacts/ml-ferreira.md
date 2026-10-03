@@ -8,7 +8,7 @@ origin: Portugal
 publisher: M. L. Ferreira
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: electronics
+tags: [electronics, commercial]
 image_count:
 layout: artefact
 status: complete

@@ -8,7 +8,7 @@ year: unknown-date
 origin: Portugal
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: [anthropomorphism]
+tags: [anthropomorphism, commercial]
 status: complete
 published: true
 image_count:

@@ -8,7 +8,7 @@ origin: Portugal
 publisher: "Cromorex"
 formats: [calendar, business-card]
 disciplines: [graphic-design, typography, illustration]
-tags: [anthropomorphism]
+tags: [anthropomorphism, commercial]
 image_count:
 layout: artefact
 status: complete
