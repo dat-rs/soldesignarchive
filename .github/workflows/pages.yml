@@ -32,12 +32,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Every .jpg, .png and .gif is stored in Git LFS (.gitattributes).
-      # Without lfs: true the checkout holds 130-byte pointer files,
-      # Jekyll copies them into _site as they are, and Pages serves
-      # text where the images should be.
+      # The checkout holds 130-byte pointer files until `git lfs pull`
+      # replaces them; skip that and Jekyll copies the pointers into
+      # _site, so Pages serves text where the images should be.
       - uses: actions/checkout@v4
+
+      # .git/lfs is cached under the list of object IDs, so a deploy only
+      # downloads objects added since the cache was saved instead of all
+      # ~3.6 GB, which counts against the account's LFS bandwidth.
+      # Jekyll leaves dotfiles out of _site, so the list isn't published.
+      - run: git lfs ls-files --long | cut -d ' ' -f1 | sort > .lfs-assets-id
+
+      - uses: actions/cache@v4
         with:
-          lfs: true
+          path: .git/lfs
+          key: lfs-${{ hashFiles('.lfs-assets-id') }}
+          restore-keys: lfs-
+
+      - run: git lfs pull
 
       - uses: ruby/setup-ruby@v1
         with:
