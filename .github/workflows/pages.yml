@@ -31,7 +31,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Every .jpg, .png and .gif is stored in Git LFS (.gitattributes).
+      # Without lfs: true the checkout holds 130-byte pointer files,
+      # Jekyll copies them into _site as they are, and Pages serves
+      # text where the images should be.
       - uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - uses: ruby/setup-ruby@v1
         with:
