@@ -1,5 +1,5 @@
 ---
-title: Anuário RTP 1976
+title: Anuário RTP 1968
 author_name: ["Armelim Correia"]
 year: y1968
 decade: 1960s
